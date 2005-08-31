@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<measurements name="ermintrude2">
+<set date="">
+<set title="Ermintrudes&space;corner">
+<set tapeperson="Phil&space;Underwood">
+<leg from="2" to="1" titleset="Ermintrudes&space;corner">
+	<tape fval="1.405"/>
+	<compass fval="331.0"/>
+	<clino fval="-82.0"/>
+</leg>
+<leg from="3" to="2" titleset="Ermintrudes&space;corner">
+	<tape fval="3.155"/>
+	<compass fval="179.0"/>
+	<clino fval="-23.0"/>
+</leg>
+<leg from="4" to="3" titleset="Ermintrudes&space;corner">
+	<tape fval="4.545"/>
+	<compass fval="97.0"/>
+	<clino fval="-79.0"/>
+</leg>
+<leg from="5" to="4" titleset="Ermintrudes&space;corner">
+	<tape fval="2.125"/>
+	<compass fval="3.0"/>
+	<clino fval="-55.0"/>
+</leg>
+<leg from="5" to="6" titleset="Ermintrudes&space;corner">
+	<tape fval="0.805"/>
+	<compass fval="198.0"/>
+	<clino fval="0.0"/>
+</leg>
+<leg from="6" to="7" titleset="Ermintrudes&space;corner">
+	<tape fval="0.29"/>
+	<compass fval="312.0"/>
+	<clino fval="1.0"/>
+</leg>
+<leg from="8" to="7" titleset="Ermintrudes&space;corner">
+	<tape fval="2.7849998"/>
+	<compass fval="0.0"/>
+	<clino fval="-90.0"/>
+</leg>
+<leg from="8" to="9" titleset="Ermintrudes&space;corner">
+	<tape fval="4.115"/>
+	<compass fval="345.0"/>
+	<clino fval="60.0"/>
+</leg>
+<leg from="9" to="10" titleset="Ermintrudes&space;corner">
+	<tape fval="2.655"/>
+	<compass fval="149.0"/>
+	<clino fval="52.0"/>
+</leg>
+</set>
+</set>
+</set>
+<set xsst0="8" xsst1="8" xs_lam="0.0">
+<set xsstorfore="9" xsstorback="7" xsstorrelc="0.0" xsstorclin="0.0">
+	<xsection xsind="0">
+		<pt X="0.215" Y="-0.085" Z="0.0"/>
+		<pt X="0.215" Y="-2.7849998" Z="0.0"/>
+		<pt X="-0.115" Y="-2.7849998" Z="0.0"/>
+		<pt X="-0.115" Y="-0.085" Z="0.0"/>
+	</xsection>
+</set>
+</set>
+</measurements>
+</tunnelxml>

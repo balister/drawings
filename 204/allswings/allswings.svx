@@ -1,0 +1,135 @@
+*begin allswings
+*export playground.0 swings.4 prettybits.7 swings9.11 swings9.tag crestarun.Q enth.tag enti.i entg.1
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*title "Swings and Roundabouts series"
+
+
+; -- 2001 --
+
+
+
+
+*equate swings2.0 swings.23
+
+
+*equate swings2.1 swings3.1
+*equate swings3.11 swings.11
+
+
+*equate swings.13 swings4.sw13
+
+
+*equate swings4.12 swings5.p12
+
+
+*equate swings.14 swings6.p14
+
+
+*equate swings4.20 swings7.p20
+
+
+*equate swings4.21 swings8.p21
+*equate swings8.px juicybits.1
+
+
+*equate swings.19 swings9.sr19
+
+
+*equate swings.p7 playground.7
+
+*equate prettybits.p1 swings.6
+*equate prettybits.p2 swings.7
+*equate prettybits.3 swings.p3
+
+
+
+
+*equate juicybits.p8 swings.8
+*equate juicybits.p10 swings.10
+
+; -- 2002 --
+
+*equate merrygoround.7 swings2.6
+
+*equate merrygoround2.1 merrygoround.1
+
+*equate merrygoround2.6 merrygoround3.8
+
+; -- 2003 --
+
+*equate ermintrude.p5 swings.5
+
+; -- 2004 --
+
+
+*equate trapeze.1 swings5.1
+*equate trapeze.12a swings.12
+
+
+*equate crestarun.17 swings.17
+
+
+*equate piledriver.p15 crestarun.15
+
+; -- 2005 --
+
+
+*equate crestarun.15 toothless.1
+
+
+*equate toothless.3 highhopes.1
+
+*equate highhopes.11 highhopes2.1
+
+*equate highhopeslink.3 highhopes2.11
+
+*equate highhopes3.8 highhopeslink.1
+
+*equate highhopes3.5 enth.18
+
+*equate enti.tagh enth.tag
+*equate enti.p2 enth.2
+
+*equate ermintrude2.1 ermintrude.3
+
+*equate entg.8 highhopes3.1
+
+*include playground/playground.svx
+*include swings/swings.svx
+*include swings2/swings2.svx
+*include swings3/swings3.svx
+*include swings4/swings4.svx
+*include swings5/swings5.svx
+*include swings6/swings6.svx
+*include swings7/swings7.svx
+*include swings8/swings8.svx
+*include swings9/swings9.svx
+*include prettybits/prettybits.svx
+*include juicybits/juicybits.svx
+*include merrygoround/merrygoround.svx
+*include merrygoround2/merrygoround2.svx
+*include merrygoround3/merrygoround3.svx
+*include ermintrude/ermintrude.svx
+*include trapeze/trapeze.svx
+*include crestarun/crestarun.svx
+*include piledriver/piledriver.svx
+*include toothless/toothless.svx
+*include highhopes/highhopes.svx
+*include highhopes2/highhopes2.svx
+*include highhopeslink/highhopeslink.svx
+*include highhopes3/highhopes3.svx
+*include enth/enth.svx
+*include enti/enti.svx
+*include ermintrude2/ermintrude2.svx
+*include entg/entg.svx
+
+*end allswings

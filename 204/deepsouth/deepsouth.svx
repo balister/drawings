@@ -1,0 +1,87 @@
+*begin deepsouth
+*export ariston1.6
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*title "Deep routes via the Ariston Series"
+
+
+; -- 1999 --
+
+
+
+
+*equate ariston2.27 ariston1.1
+
+; -- 2000 --
+
+*equate fledermaus.1 ariston2.14
+;ariston survey not in 1999 survey book - connection should be checked by
+; consulting original notes. AJD 2000.08.11
+
+*equate kiwisuit.1 ariston2.3
+; previously connected to ariston2.1 which is definitely wrong. Connecting
+; station needs checking  AJD 2000.08.12
+
+*equate razor1.1 kiwisuit.14
+
+; -- 2002 --
+
+
+*equate razor2.1 razor1.30
+
+
+*equate razor2.14 razor3.1
+
+
+*equate	razor4.1c razor3.4
+
+; -- 2003 --
+
+
+*equate razor4.10 razor5.1
+
+
+*equate razor6.1 razor5.16
+
+
+*equate razor7.1 razor6.2
+
+; -- 2004 --
+
+
+*equate razor8.1 razor7.24
+
+
+*equate razor9.1 razor8.17
+
+; temporary:
+;*equate a razor2.11
+;*equate c razor1.9
+;a	b	1500	233	0
+;a	b1	500	53	0
+;c	d	1500	233	0
+;c	e	500	53	0
+
+*include ariston1/ariston1.svx
+*include ariston2/ariston2.svx
+*include fledermaus/fledermaus.svx
+*include kiwisuit/kiwisuit.svx
+*include razor1/razor1.svx
+*include razor2/razor2.svx
+*include razor3/razor3.svx
+*include razor4/razor4.svx
+*include razor5/razor5.svx
+*include razor6/razor6.svx
+*include razor7/razor7.svx
+*include razor8/razor8.svx
+*include razor9/razor9.svx
+
+*end deepsouth

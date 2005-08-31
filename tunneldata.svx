@@ -1,0 +1,200 @@
+*begin 204areasurvey05
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;1999.07.31 AJD & DRJC created for Steinbruckenhöhle survey
+;2000.07.08 MS moved to 204 directory + changed to 204.svx
+;2000.07.23 PU changed *begin from steinbrk to 204
+;2000.11.12 MS merged 2000 stuff into this file
+;2004.01.13 DL changed to a hierarchical directory structure and chased most of the content of this elsewhere
+
+; this is to do all the equates from the point(s) exported by individual
+; cave surveys to the points either fixed by an Ents file or linked to
+; a surface survey.
+
+*entrance p204a
+
+
+*equate 204.nearend.ent.2	p204b
+*entrance t204b
+
+*equate 204.allswings.swings9.tag t204d
+*equate 204.allswings.swings9.11 p204d
+*entrance t204d
+
+*equate 204.trunk.gknodel.part1.1 p204e
+*entrance p204e
+
+*equate 204.nearend.atob.3 t204b
+*equate 204.nearend.atob.4 p204a
+
+*equate 204.allswings.enth.tag p204h
+*entrance p204h
+
+*equate 204.allswings.enti.i p204i
+*entrance p204i
+
+*equate 204.allswings.entg.1 p204g
+*entrance p204g
+
+; Equates to link underground data to surface data
+*equate 231.p231a p231a
+*equate 231.p231b p231b
+*equate 231.p231c p231c
+*equate 231.p231d p231d
+*equate 231.p231e p231e
+*equate 231.p231f p231f
+*equate 231.p231g p231g
+*equate 231.p231h p231h
+*equate 231.p231i p231i
+
+*entrance p231a
+*entrance p231b
+*entrance p231c
+*entrance p231d
+*entrance p231e
+*entrance p231f
+*entrance p231g
+*entrance p231h
+*entrance p231i
+
+*entrance p234a
+*equate 234.lefthand.1 p234a
+
+*equate p241 241.1
+*entrance p241
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Troepfelhoehle (dripping cave)	
+
+*entrance p242
+*equate 242.1 p242
+
+
+*equate 243.p204dtag t204d
+*equate 243.5 t243
+
+*equate 244.skinny.26 p244
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Weizeneishoehle
+
+*entrance p245
+*equate 245.1 p245
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Artischockehoehle
+
+*entrance p249
+*equate 249.8 p249 ; temporary
+
+
+*equate 251.tag t251
+*equate 251.1 p251
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Amplitheatre
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Capping required
+*equate p204f 2002-08.7
+*equate t2002-08 2002-08.4
+*equate p2002-08 2002-08.3
+
+*equate 2004-14.3 p2004-14
+*entrance p2004-14
+
+
+*equate 2004-15.tagA t2004-15a
+*equate 2004-15.tagB t2004-15b
+*entrance t2004-15a ; DL - are these in fact the entrances?
+*entrance t2004-15b ; better to have some entrance point than none at all!
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2004-20
+
+*equate 2004-20.1 p2000-08
+*equate 2004-20.5 t2004-20
+*equate 2004-20.6 p2004-20
+*entrance p2004-20
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Quarries
+
+*entrance pquarriesd
+*equate quarriesd.2002-08 p2002-08
+*equate pquarriesd quarriesd.d3
+
+
+
+*fix p204a 36697.34 83699.91 1812.40
+*fix p204b 36685.11 83710.52 1808.67
+*fix p204c 36661.25 83904.40 1833.76
+*fix p204d 36448.86 83878.22 1779.21
+*fix p204e 36613.02 83860.78 1817.33
+*fix p204f 36621.90 83874.46 1821.44
+*fix p204g 36420.81 83993.78 1785.18
+*fix p204h 36444.53 83992.78 1795.23
+*fix p204i 36448.14 83989.32 1795.58
+*fix p231a 36715.40 83723.27 1815.12
+*fix p231b 36715.02 83744.44 1815.19
+*fix p231c 36733.44 83741.19 1823.19
+*fix p231d 36720.16 83722.08 1815.09
+*fix p231e 36722.45 83709.36 1817.19
+*fix p231f 36733.89 83708.16 1819.22
+*fix p231g 36725.64 83717.60 1820.02
+*fix p231h 36723.08 83722.10 1815.04
+*fix p231i 36707.42 83732.05 1811.75
+*fix p234a 36468.57 83441.63 1784.79
+*fix p234b 36490.46 83462.20 1793.10
+*fix p241 36744.50 83837.11 1843.50
+*fix p242 36685.12 83881.58 1837.70
+*fix p244 36754.34 83720.31 1831.09
+*fix p245 36385.99 83829.66 1740.04
+*fix p249 36528.20 83475.13 1797.36
+*fix p251 36386.30 83939.80 1756.53
+*fix t243 36407.59 83924.57 1766.28
+*fix 2002-07.1 36637.08 83907.93 1831.82
+*fix p2002-08 36614.87 83883.97 1819.14
+*fix pquarriesd 36614.48 83891.46 1825.44
+*fix p2004-14 36411.02 83655.95 1756.94
+*fix t2004-15a 36432.94 83663.70 1761.55
+*fix t2004-15b 36465.13 83672.60 1768.01 
+*fix p2004-20 36627.71 83600.78 1813.89
+
+*equate 204cbodge.1 204.trunk.treeumphant.29
+*equate 204cbodge.2 p204c
+
+*equate 234bbodge.1 234.flatulence.6
+*equate 234bbodge.2 p234b
+
+*include 204/204.svx
+*include 231/231.svx
+*include 234/234.svx
+*include 241/241.svx
+*include 242/242.svx
+*include 243/243.svx
+*include 244/244.svx
+*include 245/245.svx
+*include 249/249.svx
+*include 251/251.svx
+*include 2002-07/2002-07.svx
+*include 2002-08/2002-08.svx
+*include 2004-14/2004-14.svx
+*include 2004-15/2004-15.svx
+*include 2004-20/2004-20.svx
+*include quarriesd/quarriesd.svx
+*include 204cbodge/204cbodge.svx
+*include 234bbodge/234bbodge.svx
+
+*end 204areasurvey05

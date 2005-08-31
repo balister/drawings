@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<measurements name="not">
+<set date="">
+<set title="not">
+<set tapeperson="Martin&space;Green">
+<leg from="2" to="1" titleset="not">
+	<tape fval="12.51"/>
+	<compass fval="84.0"/>
+	<clino fval="-80.0"/>
+</leg>
+<leg from="3" to="2" titleset="not">
+	<tape fval="6.35"/>
+	<compass fval="99.0"/>
+	<clino fval="-71.0"/>
+</leg>
+<leg from="4" to="3" titleset="not">
+	<tape fval="7.3"/>
+	<compass fval="117.0"/>
+	<clino fval="8.0"/>
+</leg>
+<leg from="5" to="3" titleset="not">
+	<tape fval="2.83"/>
+	<compass fval="177.0"/>
+	<clino fval="-26.0"/>
+</leg>
+<leg from="6" to="5" titleset="not">
+	<tape fval="7.62"/>
+	<compass fval="200.0"/>
+	<clino fval="-17.0"/>
+</leg>
+<leg from="7" to="6" titleset="not">
+	<tape fval="8.72"/>
+	<compass fval="103.0"/>
+	<clino fval="6.0"/>
+</leg>
+<leg from="7" to="8" titleset="not">
+	<tape fval="5.28"/>
+	<compass fval="29.0"/>
+	<clino fval="6.0"/>
+</leg>
+</set>
+</set>
+</set>
+<set xsst0="3" xsst1="3" xs_lam="0.0">
+<set xsstorfore="4" xsstorback="2" xsstorrelc="0.0" xsstorclin="0.0">
+	<xsection xsind="0">
+		<pt X="2.0" Y="4.0" Z="0.0"/>
+		<pt X="2.0" Y="-1.5" Z="0.0"/>
+		<pt X="-1.5" Y="-1.5" Z="0.0"/>
+		<pt X="-1.5" Y="4.0" Z="0.0"/>
+	</xsection>
+</set>
+</set>
+<set xsst0="4" xsst1="4" xs_lam="0.0">
+<set xsstorfore="" xsstorback="3" xsstorrelc="0.0" xsstorclin="0.0">
+	<xsection xsind="1">
+		<pt X="0.0" Y="1.5" Z="0.0"/>
+		<pt X="0.0" Y="-0.75" Z="0.0"/>
+		<pt X="-1.0" Y="-0.75" Z="0.0"/>
+		<pt X="-1.0" Y="1.5" Z="0.0"/>
+	</xsection>
+</set>
+</set>
+<set xsst0="5" xsst1="5" xs_lam="0.0">
+<set xsstorfore="6" xsstorback="3" xsstorrelc="0.0" xsstorclin="0.0">
+	<xsection xsind="2">
+		<pt X="0.5" Y="4.5" Z="0.0"/>
+		<pt X="0.5" Y="-0.0" Z="0.0"/>
+		<pt X="-1.0" Y="-0.0" Z="0.0"/>
+		<pt X="-1.0" Y="4.5" Z="0.0"/>
+	</xsection>
+</set>
+</set>
+<set xsst0="6" xsst1="6" xs_lam="0.0">
+<set xsstorfore="7" xsstorback="5" xsstorrelc="0.0" xsstorclin="0.0">
+	<xsection xsind="3">
+		<pt X="1.5" Y="0.5" Z="0.0"/>
+		<pt X="1.5" Y="-1.0" Z="0.0"/>
+		<pt X="-0.0" Y="-1.0" Z="0.0"/>
+		<pt X="-0.0" Y="0.5" Z="0.0"/>
+	</xsection>
+</set>
+</set>
+</measurements>
+</tunnelxml>

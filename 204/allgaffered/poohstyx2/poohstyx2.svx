@@ -1,0 +1,40 @@
+*begin poohstyx2
+*export p p9
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	204
+*title "Poohstyx connection"
+*team Insts Nial Peters
+*team Notes Martin Greeen
+*team Pics Martin Green
+*team Tape Nial Peters
+*instrument Set #3
+;tape chinese becka yellow
+; Calibration: 147, +22; 329, -22
+; ref.:	2005 #18
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	p9	15.17	225	-79
+1	p	5.85	252	+04
+
+;station details
+;1	 -	-	-	-	Nial's head
+;p	 -	-	-	-	RP at head hight
+;p9	 -	-	-	-	'9' in nail varnish
+
+
+*end poohstyx2

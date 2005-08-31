@@ -1,0 +1,73 @@
+*begin 204
+*export allswings.entg.1
+*export allswings.enti.i
+*export allswings.enth.tag
+*export trunk.treeumphant.29
+*export nearend.atob.4
+*export nearend.atob.3
+*export trunk.gknodel.part1.1
+*export allswings.swings9.tag
+*export allswings.swings9.11
+*export nearend.ent.2
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*title "Steinbrückenhöhle, 1623/204"
+
+
+;extra leg recorded by Julia and Duncan on 1999.08.08 to link to tag 204b
+nearend.ent.2	nearend.atob.3	7.34	042.5	+26
+
+
+
+*equate	midlevel.veined.17 nearend.ent.27
+*equate midlevel.pendulum.21 nearend.ent.39
+*equate midlevel.veined.16 nearend.stitchthis.0
+
+*equate domes.millennium.1 midlevel.pendulum.17
+*equate domes.pleasuredome.0 nearend.kingcarbide.10
+*equate domes.allroads.7 trunk.insig.4
+
+
+*equate deepsouth.ariston1.6 midlevel.rainbow.12
+
+
+*equate midlevel.110_bidet_b.9 trunk.nopainnogain.9
+*equate trunk.scroat.p10 nearend.kingcarbide.10
+*equate domes.micturation.8 trunk.insig2.6
+
+
+*equate allswings.playground.0 trunk.insig.8
+*equate allswings.crestarun.Q trunk.helterskelter.3
+
+
+*equate allgaffered.plan.1 allswings.swings.4
+
+
+*equate allrhino.21boltsalute.10 allswings.swings.4
+*equate allrhino.rhinorift.1 allswings.prettybits.7
+*equate allrhino.rhinorift3.T2 trunk.insig2rhino.T2
+
+*equate allsubsoil.subsoil.19 allgaffered.gardenersworld.1
+
+*equate subway.apocalypse.15 allsubsoil.fatworm.28
+
+*include nearend/nearend.svx
+*include midlevel/midlevel.svx
+*include domes/domes.svx
+*include deepsouth/deepsouth.svx
+*include trunk/trunk.svx
+*include allswings/allswings.svx
+*include allgaffered/allgaffered.svx
+*include allrhino/allrhino.svx
+*include allsubsoil/allsubsoil.svx
+*include subway/subway.svx
+
+*end 204

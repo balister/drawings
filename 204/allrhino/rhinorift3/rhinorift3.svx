@@ -1,0 +1,34 @@
+*begin rhinorift3
+*export 13 T2
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhýhle, 1623/204
+*title "Rhino Rift 3"
+*team Insts Tony
+*team Notes Julian T
+
+*instrument set 1
+
+; ref 2003 #20
+
+; Calibration: stone bridge: 322.5/-22 323/-22.5 323/-22.5
+;                            146.5/+22 146/+22.5 147/+22
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+13	T2	6.65	198	+01
+
+
+*end rhinorift3

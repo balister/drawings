@@ -1,0 +1,90 @@
+*begin midlevel
+*export veined.17 pendulum.21 pendulum.17 110_bidet_b.9 rainbow.12 veined.16
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*title "Mid-level passages and Wolpertinger Way"
+
+
+; -- 1999 --
+
+
+
+
+
+
+*equate pendulum.12 veined.7
+*equate veined.1 rainbow.11
+*equate phreatic.8 pendulum.18
+*equate 110aday.25 veined.9
+
+; -- 2000 --
+
+*equate 110aday.24 aday2bidet.1
+*equate 110aday.23 aday2bidet.2
+
+*equate aday2bidet.5 110_bidet_b.5
+
+*equate veined_deadend.0 veined.9
+
+*equate 110aday.16 110_bidet.1
+*equate 110aday.17 110_bidet.2
+
+*equate marble_run.14 110_bidet.14
+*equate marble_run.14 110_bidet_b.8
+*equate marble_run.15 110_bidet_b.7
+
+; -- 2001 --
+
+*equate veined.6 botofwolpertinger1.2
+*equate pendulum.13 botofwolpertinger1.8
+
+*equate veined.6 botofwolpertinger2.11
+
+*equate merry.1 merry2.3
+
+
+*equate phreatic.6 merry.19
+
+*equate veined.11 recycled.0
+
+; -- 2002 --
+
+
+*equate upat45deg.15 110_bidet.9
+
+; -- 2003 --
+
+
+*equate 110aday2.1 110aday.17
+
+
+*equate upat45deg2.1 upat45deg.11
+
+*include pendulum/pendulum.svx
+*include veined/veined.svx
+*include 110aday/110aday.svx
+*include rainbow/rainbow.svx
+*include phreatic/phreatic.svx
+*include aday2bidet/aday2bidet.svx
+*include 110_bidet_b/110_bidet_b.svx
+*include veined_deadend/veined_deadend.svx
+*include 110_bidet/110_bidet.svx
+*include marble_run/marble_run.svx
+*include botofwolpertinger1/botofwolpertinger1.svx
+*include botofwolpertinger2/botofwolpertinger2.svx
+*include merry/merry.svx
+*include merry2/merry2.svx
+*include recycled/recycled.svx
+*include upat45deg/upat45deg.svx
+*include 110aday2/110aday2.svx
+*include upat45deg2/upat45deg2.svx
+
+*end midlevel

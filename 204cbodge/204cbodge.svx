@@ -1,0 +1,15 @@
+*begin 204cbodge
+*export 1 2
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+*data nosurvey from to
+1 2
+
+*end 204cbodge

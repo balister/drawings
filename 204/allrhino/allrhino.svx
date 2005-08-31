@@ -1,0 +1,174 @@
+*begin allrhino
+*export 21boltsalute.10 rhinorift.1 rhinorift3.T2
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+
+
+
+*equate rhinorift.12 21boltsalute.9
+
+
+*equate rhinorift.18 onamission.35
+
+
+*equate watnobutcombe.7 onamission.20
+
+
+*equate rhinorift2.p28 rhinorift.28
+
+
+*equate ratbiscuit.jb10 onamission.10
+
+
+*equate crimper.p8 onamission.8
+
+
+*equate swallowhard.jb5 onamission.5
+
+
+*equate takingthepiss.jbx rhinorift.18
+*equate takingthepiss.jb1 rhinorift.1
+
+
+*equate rhinorift2.13 rhinorift3.13
+
+
+*equate swallowhard.3 unconformity.jtb3
+
+
+*equate unconformity2.jt18 unconformity.18
+
+
+*equate belief.jb6 onamission.6
+
+
+*equate onamission2.20 onamission.20
+
+
+*equate onamission3.p2 onamission2.2
+*equate onamission3.p28 onamission.28
+*equate onamission3.p31 onamission.31
+
+
+; Steps to making a 204 survey on this computer
+;(you'll need to make adjustments if you want to enter a surface survey
+; or a survey of another cave, as they don't belong in this directory).
+;
+;1. Go caving, find cave, survey it ,etc...
+;
+;2. To use this template, first save it with your own file name.
+; You will then be able to edit and save it.
+; Use *export to tell survex ehich points will link to other surveys.
+;
+;3. Edit 204.svx to link your new survey to the old one.
+; i.e. use something like *equate oldsurvey.point23 newsurvey.point1
+; This line will need to be added near the bottom of the file, (see
+; the entries already there for examples.)
+;
+;4. When you have made and saved your file, use CVS to add and commit it
+; (and the changes you made to 204.svx. Get a grown up to help you with 
+; this, or ask Mark or Earl.)
+;
+;5. Process all.svx and 204.svx. There's a handy icon on the desktop for this.
+;
+;6. View your survey with Aven. There's an icon on the desktop to do this.
+;
+;7. When your feeling nerdy enough, use extend and printps and print to get 
+; elevations to draw up
+
+
+
+
+*equate faith.1 belief.5
+
+*equate watnobutcombe.3 roundtrip.1
+
+
+; Steps to making a 204 survey on this computer
+;(you'll need to make adjustments if you want to enter a surface survey
+; or a survey of another cave, as they don't belong in this directory).
+;
+;1. Go caving, find cave, survey it ,etc...
+;
+;2. To use this template, first save it with your own file name.
+; You will then be able to edit and save it.
+; Use *export to tell survex ehich points will link to other surveys.
+;
+;3. Edit 204.svx to link your new survey to the old one.
+; i.e. use something like *equate oldsurvey.point23 newsurvey.point1
+; This line will need to be added near the bottom of the file, (see
+; the entries already there for examples.)
+;
+;4. When you have made and saved your file, use CVS to add and commit it
+; (and the changes you made to 204.svx. Get a grown up to help you with 
+; this, or ask Mark or Earl.)
+;
+;5. Process all.svx and 204.svx. There's a handy icon on the desktop for this.
+;
+;6. View your survey with Aven. There's an icon on the desktop to do this.
+;
+;7. When your feeling nerdy enough, use extend and printps and print to get 
+; elevations to draw up
+
+
+
+
+*equate wotnoconnection.1 watnobutcombe.3
+
+*equate grater.p3 crimper.3
+
+*equate uncrimped.1 crimper.6
+*equate uncrimped.2 faith.4
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhýhle 1623/204
+
+
+*equate beyondbelief.1 faith.11
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhýhle 1623/204
+
+
+*equate beyondbelief.10 beyondbelief2.1
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhýhle 1623/204
+
+*equate beyondbelief3.9 beyondbelief2.13
+
+*equate hangingontofaith.1 faith.4 
+
+
+*include 21boltsalute/21boltsalute.svx
+*include rhinorift/rhinorift.svx
+*include onamission/onamission.svx
+*include watnobutcombe/watnobutcombe.svx
+*include rhinorift2/rhinorift2.svx
+*include ratbiscuit/ratbiscuit.svx
+*include crimper/crimper.svx
+*include swallowhard/swallowhard.svx
+*include takingthepiss/takingthepiss.svx
+*include rhinorift3/rhinorift3.svx
+*include unconformity/unconformity.svx
+*include unconformity2/unconformity2.svx
+*include belief/belief.svx
+*include onamission2/onamission2.svx
+*include onamission3/onamission3.svx
+*include faith/faith.svx
+*include roundtrip/roundtrip.svx
+*include wotnoconnection/wotnoconnection.svx
+*include grater/grater.svx
+*include uncrimped/uncrimped.svx
+*include beyondbelief/beyondbelief.svx
+*include beyondbelief2/beyondbelief2.svx
+*include beyondbelief3/beyondbelief3.svx
+*include hangingontofaith/hangingontofaith.svx
+
+*end allrhino

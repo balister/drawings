@@ -1,0 +1,43 @@
+*begin treeslope
+*export 1
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhýhle, 1623/204
+*title "Treeumphant Passage Boulder Slope"
+; used to be QM 2001-23A
+*team Insts Phil Underwood
+*team Notes Mike Cox
+*team Tape Mark Shinwell
+*instrument Compass #?? ; Clino #??, Tape unknown (yellow set minus lights)
+; Calibration: None
+; ref: 2001#XXX
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	11.08	232	06
+2	3	4.20	192	06
+4	2	4.26	072	-28
+4	5	6.16	342	-40
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	existing Treeumphant station
+;2	3	0	1.2	0.2	chip on right wall
+;3	0.2	0.2	1.5	1.5	small hole in wall
+;4	1.5	3	0	0.8	nodule in roof
+;5	2	2	lots	0	rock rib
+
+
+*end treeslope

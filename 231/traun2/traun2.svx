@@ -1,0 +1,53 @@
+*begin traun2
+*export 9 16 18 27 28 34 37 41
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "cave to surface legs and finishing off"
+*team Insts Simon Flower
+*team Notes Martin Green
+*team Pics None
+*team Tape Simon Flower
+*instrument Compass #4 ; Clino #4, Tape Tape a muddy handle made of string
+; Calibration:  089.0	-05.5
+; ref.:	Survey book 2000 #1
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+44	28	3.39	185.0	+38.0
+44	45	7.26	287.0	-37.0		;swapped survey stations
+46	27	7.97	174.0	+72.5
+41	47	1.67	043.5	+07.5
+47	48	11.14	356.0	-49.5
+37	9	14.95	091.5	-65.0
+16	48	1.84	191.0	-50.0
+46	18	2.07	179.5	+07.0
+45	18	4.88	136.0	+16.0		;swapped survey stations
+49	48	5.24	053.5	+13.0
+50	49	6.03	100.0	-48.0
+50	51	1.42	358.0	-65.0		;swapped survey stations
+34	51	3.95	165.0	-40.0		;swapped survey stations
+
+;station details
+;name	L	R	U	D	E	description
+;46	temp bolder in snow
+;47	si's random point
+;48	boulder on floor
+;49	on a small arch above pitch
+;50	on a ridge at top of roof tube
+;51	vertical ridge
+
+
+*end traun2

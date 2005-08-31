@@ -1,0 +1,121 @@
+*begin trunk
+*export treeumphant.29 ; bodge! bodge! bodge!
+*export helterskelter.3 insig2rhino.T2 insig.4
+*export gknodel.part1.1 nopainnogain.9 scroat.p10 insig2.6 insig.8
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*title "Trunk route from No Pain No Gain through to Treeumphant Passage and beyond"
+
+
+; -- 2000 --
+
+
+*equate insig.1 nopainnogain.15
+
+*equate insig.8 bonsai.1
+
+*equate treeumphant.1 insig.3
+*equate treeumphant.9 insig.5
+*equate treeumphant.10 insig.8
+
+*equate treeumphant.13 colonade.1
+
+; -- 2001 --
+
+*equate scroat.0 nopainnogain.29
+
+*equate crowningglory.0 treeumphant.19
+
+*equate sucker.0 colonade.2
+
+*equate csballs.1 treeumphant.29
+
+*equate moreballs.4 csballs.14
+
+*equate backpassage.7 treeumphant.27
+
+*equate treeslope.1 treeumphant.18 ;FIXME: check .18 is correct
+
+
+
+*equate tree15c.p colonade.1
+
+*equate helterskelter.p40 crowningglory.40
+
+
+*equate gknodel.part2.5 crowningglory.14
+; this equate should be checked, but I am quite confident based on
+; Martin's plan of crowning glory. AJD
+
+*equate treeumphant.2 drillingdelight.0
+
+*equate insig.2 insig2.0
+
+*equate flopsy.p colonade.2
+*equate flopsy.p2 bonsai.7
+*equate flopsy.p3 bonsai.6
+
+; -- 2002 --
+
+*equate greatoak.1 treeumphant.24
+
+
+
+*equate tree2glory.9 crowningglory.5
+
+; -- 2003 --
+
+*equate sandpit.p21 crowningglory.21
+
+*equate helterdig.p helterskelter.7
+
+; Apparently doesn't connect to anything: survey trip aborted mid-way through after Olly fell down something or other. Suspect it may have been an attempt to tie in the southern end of Rhino Rift to Insignificant Chamber (it does connnect, but wasn't surveyed due to the airy traversing involved). 
+
+
+*equate dontstep.1 insig.5
+
+; -- 2004 --
+
+
+*equate insig2rhino.2A insig.2
+
+; -- 2005 --
+
+*equate twiglets.p1 crowningglory.0
+*equate twiglets.p2 crowningglory.1
+
+*include nopainnogain/nopainnogain.svx
+*include insig/insig.svx
+*include bonsai/bonsai.svx
+*include treeumphant/treeumphant.svx
+*include colonade/colonade.svx
+*include scroat/scroat.svx
+*include crowningglory/crowningglory.svx
+*include sucker/sucker.svx
+*include csballs/csballs.svx
+*include moreballs/moreballs.svx
+*include backpassage/backpassage.svx
+*include treeslope/treeslope.svx
+*include tree15c/tree15c.svx
+*include helterskelter/helterskelter.svx
+*include gknodel/gknodel.svx
+*include drillingdelight/drillingdelight.svx
+*include insig2/insig2.svx
+*include flopsy/flopsy.svx
+*include greatoak/greatoak.svx
+*include tree2glory/tree2glory.svx
+*include sandpit/sandpit.svx
+*include helterdig/helterdig.svx
+*include dontstep/dontstep.svx
+*include insig2rhino/insig2rhino.svx
+*include twiglets/twiglets.svx
+
+*end trunk

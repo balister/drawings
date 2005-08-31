@@ -1,0 +1,38 @@
+*begin subway
+*export apocalypse.15
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;2005.08.01 W created for Four Pitches of the Apocalypse survey
+
+
+;2005.08.01 W created for Four Pitches of the Apocalypse survey
+
+*equate apocalypse.3 thetube.1
+
+*equate thetube2.20 thetube.14
+*equate thetube2.24 thetube.15
+
+*equate thetube3.2 thetube2.8
+*equate thetube3.23 thetube2.1
+*equate thetube3.24 thetube.21
+
+*equate thetube4.1 thetube3.25
+
+*equate apocalypse.5 morningtoncrescent.1
+
+*include apocalypse/apocalypse.svx
+*include thetube/thetube.svx
+*include thetube2/thetube2.svx
+*include thetube3/thetube3.svx
+*include thetube4/thetube4.svx
+*include morningtoncrescent/morningtoncrescent.svx
+
+*end subway

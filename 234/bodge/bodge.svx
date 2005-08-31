@@ -1,0 +1,15 @@
+*begin bodge
+*export 1
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+*title "Hauchhöhle (1623/234)"
+;end generated presettings
+
+1	2	130	-	DOWN
+
+*end bodge
