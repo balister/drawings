@@ -25,6 +25,7 @@
 		<subsetattr name="germknodel"/>
 		<subsetattr name="topofcrowning"/>
 		<subsetattr name="204elevtoplevel"/>
+		<subsetattr name="204gent"/>
 	</set>
 	<set uppersubset="topp">
 		<subsetattr name="21boltbypass"/>
@@ -69,6 +70,7 @@
 		<subsetattr name="umshitshimbo"/>
 		<subsetattr name="wotnotbolts"/>
 		<subsetattr name="204elevtopplane"/>
+		<subsetattr name="highhopesupper"/>
 	</set>
 	<set uppersubset="bottomp">
 		<subsetattr name="110 a day"/>
@@ -110,6 +112,7 @@
 		<subsetattr name="wot no butcombe"/>
 		<subsetattr name="wot no connection"/>
 		<subsetattr name="204elevbottomplane"/>
+		<subsetattr name="highhopeslower"/>
 	</set>
 	<set uppersubset="aris">
 		<subsetattr name="allroads"/>
@@ -139,6 +142,7 @@
 		<subsetattr name="rainbow"/>
 		<subsetattr name="aristonhorizontal"/>
 		<subsetattr name="204elevariston"/>
+		<subsetattr name="toothless"/>
 	</set>
 	<set uppersubset="gaff">
 		<subsetattr name="kiwisuit"/>
@@ -188,13 +192,12 @@
 	</set>
 </groupsubsetattr>
 
-<groupsubsetattr groupsubsetname="204planes">
-	<importgroupsubsetattr groupsubsetname="default"/>
+<groupsubsetattr groupsubsetname="204planes" groupsubsetselectable="no">
 	<importgroupsubsetattr groupsubsetname="planecolours"/>
 	<importgroupsubsetattr groupsubsetname="204planes_hierarchy"/>
 
 	<subsetattr name="topl" uppersubset="level1"/>
-    <subsetattr name="topp" uppersubset="level2"/>
+	<subsetattr name="topp" uppersubset="level2"/>
 	<subsetattr name="bottomp" uppersubset="level3"/>
 	<subsetattr name="aris" uppersubset="level4"/>
 	<subsetattr name="gaff" uppersubset="level5"/>

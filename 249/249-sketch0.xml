@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<sketch splined="0">
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="1" head="2"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-76.151955" Y="40.490715" Z="3.0118263"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="2" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="3" head="2"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-53.653282" Y="-49.164177" Z="18.144144"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="3" head="4"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-53.653282" Y="-49.164177" Z="18.144144"/>
+		<pt X="-19.446575" Y="-110.87471" Z="20.608047"/>
+	</skpath>
+	<skpath from="4" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="5" head="4"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-74.539764" Y="-262.242" Z="-27.10653"/>
+		<pt X="-19.446575" Y="-110.87471" Z="20.608047"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="5" head="6"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-74.539764" Y="-262.242" Z="-27.10653"/>
+		<pt X="-39.337784" Y="-349.36996" Z="-20.53547"/>
+	</skpath>
+	<skpath from="6" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="7" head="6"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-25.127344" Y="-393.1052" Z="-47.085464"/>
+		<pt X="-39.337784" Y="-349.36996" Z="-20.53547"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="7" head="8"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<pt X="-25.127344" Y="-393.1052" Z="-47.085464"/>
+		<pt X="-65.66252" Y="-472.65994" Z="-45.526966"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-52.19841" Y="-258.29944"/>
+		<pt X="-40.1149" Y="-293.05225"/>
+		<pt X="-27.414839" Y="-327.0014"/>
+		<pt X="-22.910482" Y="-344.41748"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-22.910482" Y="-344.41748"/>
+		<pt X="-13.240546" Y="-364.27863"/>
+		<pt X="-18.9534" Y="-392.0077"/>
+	</skpath>
+	<skpath from="10" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-18.9534" Y="-392.0077"/>
+		<pt X="-31.556854" Y="-430.47226"/>
+		<pt X="-41.43592" Y="-457.8017"/>
+		<pt X="-45.826126" Y="-462.93152"/>
+		<pt X="-52.53203" Y="-479.92822"/>
+	</skpath>
+	<skpath from="12" to="13" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-74.36594" Y="-471.58707"/>
+		<pt X="-68.63801" Y="-461.34216"/>
+		<pt X="-69.700615" Y="-443.76877"/>
+		<pt X="-63.78295" Y="-430.7228"/>
+		<pt X="-54.81424" Y="-407.40247"/>
+		<pt X="-52.094307" Y="-387.28543"/>
+		<pt X="-49.538574" Y="-365.97702"/>
+		<pt X="-50.042816" Y="-356.25586"/>
+	</skpath>
+	<skpath from="13" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-50.042816" Y="-356.25586"/>
+		<pt X="-61.296017" Y="-340.6378"/>
+		<pt X="-68.66795" Y="-312.80652"/>
+		<pt X="-81.04738" Y="-266.49823"/>
+	</skpath>
+	<skpath from="15" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-41.922787" Y="-120.38694"/>
+		<pt X="-49.567047" Y="-135.34273"/>
+		<pt X="-59.567635" Y="-166.64128"/>
+		<pt X="-76.35543" Y="-208.72713"/>
+		<pt X="-86.99262" Y="-236.56516"/>
+		<pt X="-88.73049" Y="-246.17557"/>
+		<pt X="-87.11935" Y="-254.32045"/>
+		<pt X="-81.04738" Y="-266.49823"/>
+	</skpath>
+	<skpath from="8" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-52.19841" Y="-258.29944"/>
+		<pt X="-38.5365" Y="-229.85995"/>
+		<pt X="-24.609568" Y="-192.40517"/>
+		<pt X="-13.760945" Y="-159.67538"/>
+		<pt X="-8.71203" Y="-138.61595"/>
+		<pt X="-10.470527" Y="-125.105316"/>
+		<pt X="-13.4832" Y="-113.543755"/>
+	</skpath>
+	<skpath from="15" to="17" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-41.922787" Y="-120.38694"/>
+		<pt X="-37.57228" Y="-102.75195"/>
+		<pt X="-41.657394" Y="-87.64002"/>
+		<pt X="-48.26866" Y="-69.05722"/>
+		<pt X="-55.643826" Y="-53.32134"/>
+		<pt X="-57.922073" Y="-51.636272"/>
+	</skpath>
+	<skpath from="17" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-57.922073" Y="-51.636272"/>
+		<pt X="-75.862755" Y="-48.568214"/>
+		<pt X="-79.530914" Y="-46.284023"/>
+		<pt X="-79.54904" Y="-38.20171"/>
+		<pt X="-75.75452" Y="-31.238804"/>
+		<pt X="-67.177734" Y="-17.009748"/>
+		<pt X="-59.5608" Y="-13.744492"/>
+		<pt X="-52.162792" Y="-12.812976"/>
+		<pt X="-43.249542" Y="-14.466345"/>
+		<pt X="-35.06625" Y="-21.302273"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-79.637276" Y="22.34094"/>
+		<pt X="-66.33564" Y="13.5672"/>
+		<pt X="-53.254402" Y="7.1021414"/>
+		<pt X="-40.548477" Y="-3.3121598"/>
+		<pt X="-33.429497" Y="-10.234086"/>
+		<pt X="-30.8847" Y="-15.101916"/>
+		<pt X="-31.570604" Y="-20.474005"/>
+		<pt X="-35.06625" Y="-21.302273"/>
+	</skpath>
+	<skpath from="19" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-79.637276" Y="22.34094"/>
+		<pt X="-83.978485" Y="25.42678"/>
+		<pt X="-84.51125" Y="28.276468"/>
+		<pt X="-88.655815" Y="30.351706"/>
+		<pt X="-92.178566" Y="31.132914"/>
+		<pt X="-94.631874" Y="31.577805"/>
+		<pt X="-96.38265" Y="34.21038"/>
+		<pt X="-96.52803" Y="37.63866"/>
+		<pt X="-95.569466" Y="40.470768"/>
+		<pt X="-93.21954" Y="41.14992"/>
+		<pt X="-89.16361" Y="37.84559"/>
+		<pt X="-84.93068" Y="32.764732"/>
+		<pt X="-83.65967" Y="30.312338"/>
+		<pt X="-79.94524" Y="29.66314"/>
+		<pt X="-78.23243" Y="34.240444"/>
+		<pt X="-76.9528" Y="37.578316"/>
+		<pt X="-77.08027" Y="40.546806"/>
+		<pt X="-76.219025" Y="44.831203"/>
+		<pt X="-77.58917" Y="55.135277"/>
+	</skpath>
+	<skpath from="21" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-60.56686" Y="63.154842"/>
+		<pt X="-59.790066" Y="53.3519"/>
+		<pt X="-55.777557" Y="49.098064"/>
+		<pt X="-35.71023" Y="38.683365"/>
+		<pt X="-22.044678" Y="29.929035"/>
+		<pt X="-6.9220667" Y="18.00847"/>
+		<pt X="1.0552424" Y="9.128138"/>
+		<pt X="13.36897" Y="-0.7703975"/>
+		<pt X="24.308874" Y="-10.399438"/>
+		<pt X="40.5359" Y="-22.368662"/>
+	</skpath>
+	<skpath from="12" to="11" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-74.36594" Y="-471.58707"/>
+		<pt X="-67.264534" Y="-473.04984"/>
+		<pt X="-61.710674" Y="-474.92227"/>
+		<pt X="-58.445736" Y="-476.94885"/>
+		<pt X="-52.53203" Y="-479.92822"/>
+	</skpath>
+	<skpath from="23" to="24" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-74.40967" Y="55.863514"/>
+		<pt X="-72.392395" Y="51.445835"/>
+		<pt X="-68.23969" Y="50.320316"/>
+		<pt X="-64.98045" Y="53.677868"/>
+		<pt X="-64.067116" Y="60.684727"/>
+	</skpath>
+	<skpath from="20" to="23" linestyle="invisible" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-77.58917" Y="55.135277"/>
+		<pt X="-74.40967" Y="55.863514"/>
+	</skpath>
+	<skpath from="24" to="21" linestyle="invisible" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-64.067116" Y="60.684727"/>
+		<pt X="-60.56686" Y="63.154842"/>
+	</skpath>
+	<skpath from="25" to="22" linestyle="invisible" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="37.996853" Y="-26.781202"/>
+		<pt X="40.5359" Y="-22.368662"/>
+	</skpath>
+	<skpath from="7" to="11" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-65.66252" Y="-472.65994" Z="-45.526966"/>
+		<pt X="-56.080738" Y="-471.52615"/>
+		<pt X="-52.53203" Y="-479.92822"/>
+	</skpath>
+	<skpath from="7" to="12" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-65.66252" Y="-472.65994" Z="-45.526966"/>
+		<pt X="-64.52338" Y="-464.43402"/>
+		<pt X="-74.36594" Y="-471.58707"/>
+	</skpath>
+	<skpath from="6" to="10" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-25.127344" Y="-393.1052" Z="-47.085464"/>
+		<pt X="-18.9534" Y="-392.0077"/>
+	</skpath>
+	<skpath from="9" to="5" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-22.910482" Y="-344.41748"/>
+		<pt X="-39.337784" Y="-349.36996" Z="-20.53547"/>
+	</skpath>
+	<skpath from="5" to="13" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-39.337784" Y="-349.36996" Z="-20.53547"/>
+		<pt X="-50.042816" Y="-356.25586"/>
+	</skpath>
+	<skpath from="4" to="8" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-74.539764" Y="-262.242" Z="-27.10653"/>
+		<pt X="-52.19841" Y="-258.29944"/>
+	</skpath>
+	<skpath from="4" to="14" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-74.539764" Y="-262.242" Z="-27.10653"/>
+		<pt X="-81.04738" Y="-266.49823"/>
+	</skpath>
+	<skpath from="15" to="3" linestyle="connective" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-41.922787" Y="-120.38694"/>
+		<pt X="-19.446575" Y="-110.87471" Z="20.608047"/>
+	</skpath>
+	<skpath from="3" to="16" linestyle="connective" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-19.446575" Y="-110.87471" Z="20.608047"/>
+		<pt X="-13.4832" Y="-113.543755"/>
+	</skpath>
+	<skpath from="17" to="2" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-57.922073" Y="-51.636272"/>
+		<pt X="-53.653282" Y="-49.164177" Z="18.144144"/>
+	</skpath>
+	<skpath from="18" to="2" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-35.06625" Y="-21.302273"/>
+		<pt X="-51.71189" Y="-33.76205"/>
+		<pt X="-53.653282" Y="-49.164177" Z="18.144144"/>
+	</skpath>
+	<skpath from="25" to="1" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="37.996853" Y="-26.781202"/>
+		<pt X="34.466156" Y="-21.062462"/>
+		<pt X="17.010246" Y="-8.649661"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="22" to="1" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="40.5359" Y="-22.368662"/>
+		<pt X="34.7329" Y="-21.170513"/>
+		<pt X="20.35918" Y="-11.486175"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="0" to="23" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-76.151955" Y="40.490715" Z="3.0118263"/>
+		<pt X="-67.946434" Y="44.451435"/>
+		<pt X="-73.943275" Y="47.96374"/>
+		<pt X="-74.40967" Y="55.863514"/>
+	</skpath>
+	<skpath from="0" to="21" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-76.151955" Y="40.490715" Z="3.0118263"/>
+		<pt X="-63.05508" Y="41.577404"/>
+		<pt X="-62.32151" Y="52.640297"/>
+		<pt X="-62.860073" Y="58.036366"/>
+		<pt X="-60.56686" Y="63.154842"/>
+	</skpath>
+	<skpath from="0" to="19" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-76.151955" Y="40.490715" Z="3.0118263"/>
+		<pt X="-73.82192" Y="31.531734"/>
+		<pt X="-79.637276" Y="22.34094"/>
+	</skpath>
+	<skpath from="0" to="20" linestyle="connective">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-76.151955" Y="40.490715" Z="3.0118263"/>
+		<pt X="-73.753654" Y="45.350735"/>
+		<pt X="-77.58917" Y="55.135277"/>
+	</skpath>
+	<skpath from="18" to="26" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-35.06625" Y="-21.302273"/>
+		<pt X="-45.833126" Y="-33.04366"/>
+		<pt X="-60.81351" Y="-27.958576"/>
+	</skpath>
+	<skpath from="18" to="27" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-35.06625" Y="-21.302273"/>
+		<pt X="-51.50856" Y="-41.854927"/>
+		<pt X="-65.097626" Y="-37.720596"/>
+	</skpath>
+	<skpath from="15" to="28" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-41.922787" Y="-120.38694"/>
+		<pt X="-25.93342" Y="-109.17602"/>
+		<pt X="-30.013807" Y="-75.97575"/>
+	</skpath>
+	<skpath from="25" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="37.996853" Y="-26.781202"/>
+		<pt X="31.027012" Y="-21.88294"/>
+		<pt X="22.48735" Y="-15.338405"/>
+		<pt X="15.637458" Y="-12.56508"/>
+		<pt X="3.3625042" Y="-6.116928"/>
+		<pt X="-0.24279727" Y="-3.939305"/>
+		<pt X="-3.3521905" Y="-4.7797856"/>
+	</skpath>
+	<skpath from="29" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-3.3521905" Y="-4.7797856"/>
+		<pt X="-7.715324" Y="-9.379445"/>
+		<pt X="-23.822851" Y="-27.814257"/>
+		<pt X="-26.876217" Y="-40.4282"/>
+		<pt X="-23.662035" Y="-59.493065"/>
+		<pt X="-13.421937" Y="-84.62356"/>
+		<pt X="-11.381866" Y="-96.55496"/>
+		<pt X="-13.4832" Y="-113.543755"/>
+	</skpath>
+	<skpath from="11" to="30" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="10mscale"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-52.53203" Y="-479.92822"/>
+		<pt X="-54.798492" Y="-465.77554"/>
+		<pt X="95.61107" Y="-390.27646"/>
+	</skpath>
+	<skpath from="11" to="31" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="smallnorth"/>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="-52.53203" Y="-479.92822"/>
+		<pt X="-54.867634" Y="-464.469"/>
+		<pt X="143.31235" Y="-430.70035"/>
+	</skpath>
+	<skpath from="32" to="31" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">N</pctext>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="139.17186" Y="-434.926"/>
+		<pt X="143.31235" Y="-430.70035"/>
+	</skpath>
+	<skpath from="33" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">1623&space;/&space;249&newline;Artischockehohle</pctext>
+		</pathcodes>
+		<sketchsubset subname="249"/>
+		<importfrom subname="249"/>
+		<pt X="122.06426" Y="-491.2601"/>
+		<pt X="-44.06382" Y="-493.65933"/>
+		<pt X="-52.53203" Y="-479.92822"/>
+	</skpath>
+</sketch>
+</tunnelxml>

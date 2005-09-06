@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours fontstyle="PLAIN" fontname="Serif">
+
+<image_file_directory name="surveys"/>
+
+
+<groupsubsetattr groupsubsetname="CUCCplanes">
+	<importgroupsubsetattr groupsubsetname="204planes"/>
+	<importgroupsubsetattr groupsubsetname="234planes"/>
+	
+	<subsetattr name="smallcaves" uppersubset="level1"/>
+	<set uppersubset="smallcaves">
+		<subsetattr name="241"/>
+		<subsetattr name="242"/>
+		<subsetattr name="243"/>
+		<subsetattr name="244main"/>
+		<subsetattr name="244gravity"/>
+		<subsetattr name="245"/>
+		<subsetattr name="249"/>
+		<subsetattr name="251"/>
+	</set>
+	
+	<subsetattr name="surface" uppersubset="invisible"/>
+	<subsetattr name="243surf" uppersubset="surface"/>
+</groupsubsetattr>
+
+</fontcolours>
+</tunnelxml>

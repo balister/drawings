@@ -1,0 +1,1070 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<sketch splined="0">
+	<affinetrans aftrm00="0.2113167624001564" aftrm01="-3.7382069007667465E-4" aftrm10="3.7382069007667465E-4" aftrm11="0.2113167624001564" aftrm20="-168.75524423364038" aftrm21="-408.7656239358152">
+		<backimage imgfile="../../2003/2003#33/2003-10plan.jpg" selected="0"/>
+	</affinetrans>
+	<affinetrans aftrm00="0.20597388157694646" aftrm01="0.0" aftrm10="0.0" aftrm11="0.20597388157694646" aftrm20="-143.85929193944122" aftrm21="-145.2551420004762">
+		<backimage imgfile="2004/2004#56/notes2.jpg" selected="1"/>
+	</affinetrans>
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^2" head="skinny.21"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="50.369183" Y="22.425806" Z="6.769842"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="0" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^2" head="gravity^3"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="50.369183" Y="22.425806" Z="6.769842"/>
+		<pt X="59.34755" Y="53.73709" Z="17.985664"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^3" head="gravity^4"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="59.34755" Y="53.73709" Z="17.985664"/>
+		<pt X="31.51902" Y="50.812195" Z="53.800755"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^4" head="gravity^5"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="31.51902" Y="50.812195" Z="53.800755"/>
+		<pt X="56.638313" Y="102.31438" Z="29.477741"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^5" head="gravity^6"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="56.638313" Y="102.31438" Z="29.477741"/>
+		<pt X="43.45977" Y="124.24716" Z="31.266994"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^6" head="gravity^7"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="43.45977" Y="124.24716" Z="31.266994"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="7" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="gravity^8" head="gravity^7"/>
+		</pathcodes>
+		<sketchsubset subname="244gravity"/>
+		<pt X="73.50651" Y="160.05547" Z="-32.69482"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^2" head="skinny^1"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="68.757034" Y="-332.0807" Z="-8.056842"/>
+		<pt X="67.49635" Y="-346.49033" Z="-9.06831"/>
+	</skpath>
+	<skpath from="10" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^12" head="skinny^13"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="45.789738" Y="-51.203556" Z="0.011689663"/>
+		<pt X="64.3734" Y="-11.350767" Z="-26.409763"/>
+	</skpath>
+	<skpath from="12" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^14" head="skinny^13"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="64.3734" Y="-11.350767" Z="-71.90977"/>
+		<pt X="64.3734" Y="-11.350767" Z="-26.409763"/>
+	</skpath>
+	<skpath from="13" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^15" head="skinny^14"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="73.99534" Y="0.116211176" Z="-74.54922"/>
+		<pt X="64.3734" Y="-11.350767" Z="-71.90977"/>
+	</skpath>
+	<skpath from="13" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^15" head="skinny^16"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="73.99534" Y="0.116211176" Z="-74.54922"/>
+		<pt X="116.27382" Y="-11.212275" Z="-118.31913"/>
+	</skpath>
+	<skpath from="14" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^16" head="skinny^17"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="116.27382" Y="-11.212275" Z="-118.31913"/>
+		<pt X="116.27382" Y="-11.212275" Z="-219.31914"/>
+	</skpath>
+	<skpath from="1" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny.21" head="skinny^13"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+		<pt X="64.3734" Y="-11.350767" Z="-26.409763"/>
+	</skpath>
+	<skpath from="1" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny.21" head="skinny^22"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+		<pt X="-18.74557" Y="14.125801" Z="6.289303"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^23" head="skinny^22"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="-18.74557" Y="14.125801" Z="196.2893"/>
+		<pt X="-18.74557" Y="14.125801" Z="6.289303"/>
+	</skpath>
+	<skpath from="18" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^24" head="skinny^23"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="-31.745567" Y="14.125801" Z="196.2893"/>
+		<pt X="-18.74557" Y="14.125801" Z="196.2893"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^25" head="skinny^24"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="-31.745567" Y="14.125801" Z="291.7893"/>
+		<pt X="-31.745567" Y="14.125801" Z="196.2893"/>
+	</skpath>
+	<skpath from="20" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^18" head="skinny^17"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="152.00432" Y="-22.08963" Z="-169.32455"/>
+		<pt X="116.27382" Y="-11.212275" Z="-219.31914"/>
+	</skpath>
+	<skpath from="20" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^18" head="skinny^19"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="152.00432" Y="-22.08963" Z="-169.32455"/>
+		<pt X="177.8192" Y="-39.002827" Z="-170.37154"/>
+	</skpath>
+	<skpath from="22" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^20" head="skinny^19"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="205.0806" Y="-15.524638" Z="-176.70969"/>
+		<pt X="177.8192" Y="-39.002827" Z="-170.37154"/>
+	</skpath>
+	<skpath from="23" to="24" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="109.05369" Y="-19.752937"/>
+		<pt X="113.17072" Y="-18.7515"/>
+		<pt X="115.507416" Y="-21.867088"/>
+		<pt X="117.06521" Y="-26.31793"/>
+		<pt X="120.403336" Y="-28.988434"/>
+		<pt X="126.52325" Y="-30.6575"/>
+		<pt X="128.41486" Y="-30.880043"/>
+		<pt X="129.52756" Y="-33.995632"/>
+	</skpath>
+	<skpath from="27" to="28" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="109.94386" Y="-16.192265"/>
+		<pt X="112.28055" Y="-15.413367"/>
+		<pt X="113.50453" Y="-14.411928"/>
+		<pt X="115.28487" Y="-9.29346"/>
+		<pt X="117.8441" Y="-8.737104"/>
+		<pt X="121.2935" Y="-9.404731"/>
+		<pt X="123.85274" Y="-9.849815"/>
+		<pt X="126.96833" Y="-11.963964"/>
+		<pt X="130.529" Y="-12.186507"/>
+		<pt X="133.53333" Y="-12.52032"/>
+		<pt X="136.3151" Y="-14.745741"/>
+		<pt X="138.87433" Y="-15.969723"/>
+		<pt X="146.10695" Y="-17.527517"/>
+		<pt X="150.44652" Y="-19.196583"/>
+		<pt X="152.78322" Y="-20.754377"/>
+	</skpath>
+	<skpath from="29" to="30" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="201.2974" Y="-8.180749"/>
+		<pt X="203.52281" Y="-6.622955"/>
+		<pt X="206.41585" Y="-5.176431"/>
+		<pt X="211.75687" Y="-5.3989735"/>
+		<pt X="214.76118" Y="-6.511684"/>
+		<pt X="216.9866" Y="-7.958207"/>
+		<pt X="219.21202" Y="-8.6258335"/>
+		<pt X="221.43744" Y="-8.403292"/>
+		<pt X="223.21779" Y="-8.292021"/>
+		<pt X="224.6643" Y="-11.073796"/>
+		<pt X="223.55159" Y="-14.745741"/>
+		<pt X="222.10507" Y="-18.528955"/>
+		<pt X="219.32329" Y="-20.643106"/>
+		<pt X="218.43312" Y="-22.645985"/>
+		<pt X="217.09787" Y="-25.761574"/>
+		<pt X="210.8667" Y="-30.212416"/>
+		<pt X="206.41585" Y="-34.77453"/>
+		<pt X="201.6312" Y="-37.778847"/>
+		<pt X="199.40578" Y="-40.11554"/>
+		<pt X="198.73816" Y="-41.784603"/>
+		<pt X="195.28876" Y="-44.78892"/>
+		<pt X="192.50697" Y="-47.459427"/>
+		<pt X="193.06332" Y="-49.462307"/>
+		<pt X="194.50986" Y="-51.13137"/>
+	</skpath>
+	<skpath from="31" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="192.17316" Y="-53.356792"/>
+		<pt X="189.50266" Y="-51.353912"/>
+		<pt X="188.72375" Y="-49.462307"/>
+		<pt X="190.28156" Y="-45.011463"/>
+		<pt X="192.61824" Y="-41.895874"/>
+		<pt X="195.73384" Y="-39.781727"/>
+		<pt X="197.62544" Y="-38.22393"/>
+		<pt X="198.40434" Y="-35.775967"/>
+		<pt X="202.63264" Y="-31.325127"/>
+		<pt X="206.08205" Y="-29.322248"/>
+		<pt X="207.75111" Y="-26.095387"/>
+		<pt X="210.0878" Y="-25.093948"/>
+		<pt X="211.86813" Y="-23.202341"/>
+		<pt X="214.3161" Y="-22.08963"/>
+		<pt X="215.54008" Y="-19.196583"/>
+		<pt X="214.3161" Y="-16.85989"/>
+		<pt X="211.75687" Y="-16.85989"/>
+		<pt X="208.64128" Y="-18.640228"/>
+		<pt X="205.8595" Y="-20.08675"/>
+		<pt X="204.63551" Y="-21.310732"/>
+		<pt X="202.74391" Y="-24.648863"/>
+		<pt X="199.40578" Y="-25.984116"/>
+		<pt X="195.17747" Y="-31.436398"/>
+		<pt X="189.28012" Y="-39.002827"/>
+		<pt X="186.38707" Y="-40.449352"/>
+		<pt X="183.9391" Y="-42.007145"/>
+		<pt X="182.71512" Y="-45.679092"/>
+		<pt X="178.15302" Y="-45.345276"/>
+	</skpath>
+	<skpath from="23" to="27" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="109.05369" Y="-19.752937"/>
+		<pt X="109.94386" Y="-16.192265"/>
+	</skpath>
+	<skpath from="24" to="25" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="129.52756" Y="-33.995632"/>
+		<pt X="132.08679" Y="-33.66182"/>
+	</skpath>
+	<skpath from="31" to="30" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="192.17316" Y="-53.356792"/>
+		<pt X="194.50986" Y="-51.13137"/>
+	</skpath>
+	<skpath from="25" to="32" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="132.08679" Y="-33.66182"/>
+		<pt X="131.86426" Y="-29.767332"/>
+		<pt X="131.53044" Y="-27.986996"/>
+		<pt X="134.64603" Y="-23.647425"/>
+		<pt X="137.65034" Y="-21.97836"/>
+		<pt X="142.1012" Y="-22.645985"/>
+		<pt X="147.4422" Y="-24.648863"/>
+		<pt X="150.22398" Y="-27.875725"/>
+	</skpath>
+	<skpath from="32" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="150.22398" Y="-27.875725"/>
+		<pt X="153.5621" Y="-28.877163"/>
+		<pt X="159.57074" Y="-29.210976"/>
+		<pt X="163.68777" Y="-30.6575"/>
+		<pt X="171.81056" Y="-37.556305"/>
+		<pt X="173.36835" Y="-40.671894"/>
+		<pt X="175.4825" Y="-44.45511"/>
+		<pt X="178.15302" Y="-45.345276"/>
+	</skpath>
+	<skpath from="32" to="20" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="150.22398" Y="-27.875725"/>
+		<pt X="152.00432" Y="-22.08963" Z="-169.32455"/>
+	</skpath>
+	<skpath from="20" to="28" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="152.00432" Y="-22.08963" Z="-169.32455"/>
+		<pt X="152.78322" Y="-20.754377"/>
+	</skpath>
+	<skpath from="28" to="33" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="152.78322" Y="-20.754377"/>
+		<pt X="156.90024" Y="-21.422003"/>
+		<pt X="160.1271" Y="-21.867088"/>
+		<pt X="162.90887" Y="-25.20522"/>
+		<pt X="168.80624" Y="-26.540472"/>
+		<pt X="171.25421" Y="-26.985556"/>
+		<pt X="173.81345" Y="-29.099705"/>
+		<pt X="176.48395" Y="-30.101145"/>
+		<pt X="177.04192" Y="-30.136934"/>
+	</skpath>
+	<skpath from="33" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="177.04192" Y="-30.136934"/>
+		<pt X="179.37698" Y="-29.43352"/>
+		<pt X="181.04605" Y="-26.429201"/>
+		<pt X="183.71657" Y="-23.981237"/>
+		<pt X="188.50122" Y="-21.867088"/>
+		<pt X="194.06477" Y="-19.530396"/>
+		<pt X="196.73528" Y="-17.304976"/>
+		<pt X="201.2974" Y="-8.180749"/>
+	</skpath>
+	<skpath from="33" to="21" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="177.04192" Y="-30.136934"/>
+		<pt X="177.8192" Y="-39.002827" Z="-170.37154"/>
+	</skpath>
+	<skpath from="21" to="26" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="177.8192" Y="-39.002827" Z="-170.37154"/>
+		<pt X="178.15302" Y="-45.345276"/>
+	</skpath>
+	<skpath from="29" to="22" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="201.2974" Y="-8.180749"/>
+		<pt X="205.0806" Y="-15.524638" Z="-176.70969"/>
+	</skpath>
+	<skpath from="31" to="22" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="192.17316" Y="-53.356792"/>
+		<pt X="190.93933" Y="-47.321255"/>
+		<pt X="205.0806" Y="-15.524638" Z="-176.70969"/>
+	</skpath>
+	<skpath from="32" to="34" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="150.22398" Y="-27.875725"/>
+		<pt X="149.7007" Y="-22.683237"/>
+		<pt X="143.01538" Y="-19.828833"/>
+	</skpath>
+	<skpath from="36" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="85.70194" Y="3.60733"/>
+		<pt X="81.2701" Y="3.8326778"/>
+		<pt X="76.312454" Y="1.9547802"/>
+		<pt X="70.52853" Y="0.6778098"/>
+	</skpath>
+	<skpath from="35" to="38" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="92.6126" Y="-15.697458"/>
+		<pt X="89.53285" Y="-16.74908"/>
+		<pt X="86.60333" Y="-15.84769"/>
+		<pt X="81.570564" Y="-16.298386"/>
+		<pt X="71.880615" Y="-11.415852"/>
+	</skpath>
+	<skpath from="14" to="35" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="116.27382" Y="-11.212275" Z="-118.31913"/>
+		<pt X="95.01631" Y="-9.763302"/>
+		<pt X="92.6126" Y="-15.697458"/>
+	</skpath>
+	<skpath from="14" to="36" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="116.27382" Y="-11.212275" Z="-118.31913"/>
+		<pt X="92.46237" Y="-6.9840126"/>
+		<pt X="85.70194" Y="3.60733"/>
+	</skpath>
+	<skpath from="39" to="27" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="123.109665" Y="-18.852325"/>
+		<pt X="117.80508" Y="-19.225115"/>
+		<pt X="109.94386" Y="-16.192265"/>
+	</skpath>
+	<skpath from="39" to="25" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="123.109665" Y="-18.852325"/>
+		<pt X="127.40192" Y="-26.823795"/>
+		<pt X="132.08679" Y="-33.66182"/>
+	</skpath>
+	<skpath from="15" to="39" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="116.27382" Y="-11.212275" Z="-219.31914"/>
+		<pt X="118.28823" Y="-16.40031"/>
+		<pt X="123.109665" Y="-18.852325"/>
+	</skpath>
+	<skpath from="35" to="40" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="92.6126" Y="-15.697458"/>
+		<pt X="100.34954" Y="-15.622342"/>
+		<pt X="102.67814" Y="-17.274893"/>
+		<pt X="107.18509" Y="-23.20905"/>
+		<pt X="110.26484" Y="-25.838106"/>
+		<pt X="112.89237" Y="-26.649153"/>
+	</skpath>
+	<skpath from="14" to="40" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="116.27382" Y="-11.212275" Z="-118.31913"/>
+		<pt X="112.89237" Y="-26.649153"/>
+	</skpath>
+	<skpath from="38" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="71.880615" Y="-11.415852"/>
+		<pt X="68.32806" Y="-11.843397"/>
+		<pt X="65.29532" Y="-12.854309"/>
+		<pt X="61.12531" Y="-11.211577"/>
+		<pt X="59.735306" Y="-5.398835"/>
+		<pt X="59.48258" Y="2.6884577"/>
+		<pt X="63.39986" Y="5.973921"/>
+		<pt X="65.92714" Y="5.5948286"/>
+		<pt X="70.52853" Y="0.6778098"/>
+	</skpath>
+	<skpath from="37" to="13" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="70.52853" Y="0.6778098"/>
+		<pt X="71.23443" Y="-0.47064108"/>
+		<pt X="73.99534" Y="0.116211176" Z="-74.54922"/>
+	</skpath>
+	<skpath from="13" to="38" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="73.99534" Y="0.116211176" Z="-74.54922"/>
+		<pt X="71.880615" Y="-11.415852"/>
+	</skpath>
+	<skpath from="40" to="41" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="112.89237" Y="-26.649153"/>
+		<pt X="114.17087" Y="-26.589264"/>
+		<pt X="116.72481" Y="-25.687874"/>
+		<pt X="118.45248" Y="-24.636251"/>
+		<pt X="118.302246" Y="-22.232542"/>
+		<pt X="119.579216" Y="-20.880455"/>
+		<pt X="122.358505" Y="-18.176283"/>
+		<pt X="121.457115" Y="-14.645835"/>
+		<pt X="119.87968" Y="-11.115388"/>
+		<pt X="114.24599" Y="-8.861911"/>
+	</skpath>
+	<skpath from="41" to="36" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="114.24599" Y="-8.861911"/>
+		<pt X="112.14274" Y="-6.232854"/>
+		<pt X="108.61229" Y="-2.4019425"/>
+		<pt X="104.03022" Y="-0.6742766"/>
+		<pt X="101.77674" Y="2.7059393"/>
+		<pt X="97.64537" Y="6.0110393"/>
+		<pt X="93.21353" Y="6.987546"/>
+		<pt X="91.11028" Y="5.63546"/>
+		<pt X="89.00704" Y="5.25988"/>
+		<pt X="85.70194" Y="3.60733"/>
+	</skpath>
+	<skpath from="41" to="40" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="114.24599" Y="-8.861911"/>
+		<pt X="111.165436" Y="-14.244312"/>
+		<pt X="111.165436" Y="-23.342516"/>
+		<pt X="112.89237" Y="-26.649153"/>
+	</skpath>
+	<skpath from="42" to="45" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="58.471664" Y="28.087612"/>
+		<pt X="57.71348" Y="33.268536"/>
+	</skpath>
+	<skpath from="19" to="46" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^25" head="skinny.26"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="-31.745567" Y="14.125801" Z="291.7893"/>
+		<pt X="-33.224106" Y="3.32055" Z="291.7893"/>
+	</skpath>
+	<skpath from="10" to="47" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^12" head="skinny^11"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="45.789738" Y="-51.203556" Z="0.011689663"/>
+		<pt X="38.789455" Y="-121.96551" Z="0.011689663"/>
+	</skpath>
+	<skpath from="47" to="48" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^11" head="skinny^10"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="38.789455" Y="-121.96551" Z="0.011689663"/>
+		<pt X="45.8409" Y="-165.18024" Z="-3.092473"/>
+	</skpath>
+	<skpath from="48" to="49" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^10" head="skinny^9"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="45.8409" Y="-165.18024" Z="-3.092473"/>
+		<pt X="45.880295" Y="-235.49776" Z="4.2976894"/>
+	</skpath>
+	<skpath from="51" to="50" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^7" head="skinny^6"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="36.228874" Y="-242.03708" Z="19.171951"/>
+		<pt X="33.747078" Y="-251.96426" Z="19.171951"/>
+	</skpath>
+	<skpath from="51" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^7" head="skinny^8"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="36.228874" Y="-242.03708" Z="19.171951"/>
+		<pt X="36.504627" Y="-241.72194" Z="8.17195"/>
+	</skpath>
+	<skpath from="49" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^9" head="skinny^8"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="45.880295" Y="-235.49776" Z="4.2976894"/>
+		<pt X="36.504627" Y="-241.72194" Z="8.17195"/>
+	</skpath>
+	<skpath from="50" to="53" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^6" head="skinny^4"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="33.747078" Y="-251.96426" Z="19.171951"/>
+		<pt X="17.753292" Y="-265.752" Z="41.55137"/>
+	</skpath>
+	<skpath from="54" to="53" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^5" head="skinny^4"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="13.4593935" Y="-297.50323" Z="41.55137"/>
+		<pt X="17.753292" Y="-265.752" Z="41.55137"/>
+	</skpath>
+	<skpath from="55" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^3" head="skinny^2"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="49.268143" Y="-284.1488" Z="1.1986065"/>
+		<pt X="68.757034" Y="-332.0807" Z="-8.056842"/>
+	</skpath>
+	<skpath from="53" to="55" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="skinny^4" head="skinny^3"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="17.753292" Y="-265.752" Z="41.55137"/>
+		<pt X="49.268143" Y="-284.1488" Z="1.1986065"/>
+	</skpath>
+	<skpath from="59" to="60" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="15.78502" Y="-298.20398"/>
+		<pt X="18.29487" Y="-287.32794"/>
+		<pt X="19.75895" Y="-278.75262"/>
+		<pt X="19.131487" Y="-272.0597"/>
+		<pt X="20.386412" Y="-270.80478"/>
+	</skpath>
+	<skpath from="61" to="62" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="13.653596" Y="-282.0895"/>
+		<pt X="12.647708" Y="-292.76596"/>
+		<pt X="12.438554" Y="-299.0406"/>
+	</skpath>
+	<skpath from="62" to="59" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="12.438554" Y="-299.0406"/>
+		<pt X="15.78502" Y="-298.20398"/>
+	</skpath>
+	<skpath from="64" to="9" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="70.58341" Y="-355.30307"/>
+		<pt X="67.49635" Y="-346.49033" Z="-9.06831"/>
+	</skpath>
+	<skpath from="63" to="9" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="76.43973" Y="-354.46643"/>
+		<pt X="67.49635" Y="-346.49033" Z="-9.06831"/>
+	</skpath>
+	<skpath from="64" to="63" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="70.58341" Y="-355.30307"/>
+		<pt X="76.43973" Y="-354.46643"/>
+	</skpath>
+	<skpath from="65" to="63" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="72.71215" Y="-326.79523"/>
+		<pt X="75.1848" Y="-329.15878"/>
+		<pt X="78.94958" Y="-339.6165"/>
+		<pt X="73.511566" Y="-345.26367"/>
+		<pt X="76.43973" Y="-354.46643"/>
+	</skpath>
+	<skpath from="65" to="8" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="72.71215" Y="-326.79523"/>
+		<pt X="68.757034" Y="-332.0807" Z="-8.056842"/>
+	</skpath>
+	<skpath from="64" to="66" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="70.58341" Y="-355.30307"/>
+		<pt X="65.98202" Y="-346.5186"/>
+		<pt X="60.54401" Y="-339.82565"/>
+		<pt X="63.05386" Y="-332.50525"/>
+		<pt X="62.67965" Y="-329.19034"/>
+	</skpath>
+	<skpath from="66" to="8" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="62.67965" Y="-329.19034"/>
+		<pt X="68.757034" Y="-332.0807" Z="-8.056842"/>
+	</skpath>
+	<skpath from="58" to="67" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="22.059645" Y="-265.15762"/>
+		<pt X="32.517353" Y="-267.04"/>
+		<pt X="35.236355" Y="-272.0597"/>
+		<pt X="48.413067" Y="-279.3801"/>
+		<pt X="51.51438" Y="-283.37332"/>
+	</skpath>
+	<skpath from="67" to="65" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="51.51438" Y="-283.37332"/>
+		<pt X="55.315155" Y="-292.1385"/>
+		<pt X="65.35455" Y="-308.66168"/>
+		<pt X="68.073555" Y="-323.09332"/>
+		<pt X="72.71215" Y="-326.79523"/>
+	</skpath>
+	<skpath from="67" to="55" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="51.51438" Y="-283.37332"/>
+		<pt X="49.268143" Y="-284.1488" Z="1.1986065"/>
+	</skpath>
+	<skpath from="66" to="68" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="62.67965" Y="-329.19034"/>
+		<pt X="55.315155" Y="-315.77292"/>
+		<pt X="45.275757" Y="-297.36737"/>
+		<pt X="42.138443" Y="-293.18427"/>
+		<pt X="41.55811" Y="-288.75488"/>
+	</skpath>
+	<skpath from="68" to="60" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="41.55811" Y="-288.75488"/>
+		<pt X="40.88352" Y="-284.19064"/>
+		<pt X="37.118744" Y="-280.00757"/>
+		<pt X="27.497652" Y="-274.98785"/>
+		<pt X="20.386412" Y="-270.80478"/>
+	</skpath>
+	<skpath from="68" to="55" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="41.55811" Y="-288.75488"/>
+		<pt X="49.268143" Y="-284.1488" Z="1.1986065"/>
+	</skpath>
+	<skpath from="69" to="61" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="15.1575575" Y="-264.73932"/>
+		<pt X="14.530095" Y="-277.0794"/>
+		<pt X="13.653596" Y="-282.0895"/>
+	</skpath>
+	<skpath from="69" to="53" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="15.1575575" Y="-264.73932"/>
+		<pt X="17.753292" Y="-265.752" Z="41.55137"/>
+	</skpath>
+	<skpath from="53" to="60" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="17.753292" Y="-265.752" Z="41.55137"/>
+		<pt X="20.386412" Y="-270.80478"/>
+	</skpath>
+	<skpath from="53" to="58" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="17.753292" Y="-265.752" Z="41.55137"/>
+		<pt X="22.059645" Y="-265.15762"/>
+	</skpath>
+	<skpath from="59" to="54" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="15.78502" Y="-298.20398"/>
+		<pt X="13.4593935" Y="-297.50323" Z="41.55137"/>
+	</skpath>
+	<skpath from="62" to="54" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="12.438554" Y="-299.0406"/>
+		<pt X="13.4593935" Y="-297.50323" Z="41.55137"/>
+	</skpath>
+	<skpath from="70" to="69" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="30.412836" Y="-242.75237"/>
+		<pt X="27.497652" Y="-244.6605"/>
+		<pt X="24.36034" Y="-247.79782"/>
+		<pt X="23.523724" Y="-255.32738"/>
+		<pt X="19.75895" Y="-258.67383"/>
+		<pt X="17.039946" Y="-244.86966"/>
+		<pt X="12.856862" Y="-244.03305"/>
+		<pt X="15.1575575" Y="-255.95483"/>
+		<pt X="15.1575575" Y="-264.73932"/>
+	</skpath>
+	<skpath from="70" to="50" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="30.412836" Y="-242.75237"/>
+		<pt X="33.747078" Y="-251.96426" Z="19.171951"/>
+	</skpath>
+	<skpath from="71" to="58" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="36.46185" Y="-248.6315"/>
+		<pt X="35.44551" Y="-251.98091"/>
+		<pt X="30.007504" Y="-258.883"/>
+		<pt X="22.059645" Y="-265.15762"/>
+	</skpath>
+	<skpath from="71" to="50" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="36.46185" Y="-248.6315"/>
+		<pt X="33.747078" Y="-251.96426" Z="19.171951"/>
+	</skpath>
+	<skpath from="56" to="72" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="47.57645" Y="-190.9079"/>
+		<pt X="47.99476" Y="-213.49654"/>
+		<pt X="48.831375" Y="-226.04579"/>
+		<pt X="49.877148" Y="-232.32042"/>
+	</skpath>
+	<skpath from="72" to="71" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="49.877148" Y="-232.32042"/>
+		<pt X="45.903217" Y="-239.2225"/>
+		<pt X="38.164516" Y="-242.77812"/>
+		<pt X="36.46185" Y="-248.6315"/>
+	</skpath>
+	<skpath from="72" to="49" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="49.877148" Y="-232.32042"/>
+		<pt X="45.880295" Y="-235.49776" Z="4.2976894"/>
+	</skpath>
+	<skpath from="57" to="73" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="43.184216" Y="-189.86212"/>
+		<pt X="43.393368" Y="-204.92122"/>
+		<pt X="42.765907" Y="-223.53593"/>
+		<pt X="41.092674" Y="-233.15703"/>
+	</skpath>
+	<skpath from="73" to="70" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="41.092674" Y="-233.15703"/>
+		<pt X="34.39974" Y="-240.26826"/>
+		<pt X="30.412836" Y="-242.75237"/>
+	</skpath>
+	<skpath from="73" to="49" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="41.092674" Y="-233.15703"/>
+		<pt X="45.880295" Y="-235.49776" Z="4.2976894"/>
+	</skpath>
+	<skpath from="74" to="57" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="41.735718" Y="-165.10364"/>
+		<pt X="44.020832" Y="-177.94034"/>
+		<pt X="43.184216" Y="-189.86212"/>
+	</skpath>
+	<skpath from="74" to="48" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="41.735718" Y="-165.10364"/>
+		<pt X="45.8409" Y="-165.18024" Z="-3.092473"/>
+	</skpath>
+	<skpath from="75" to="56" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="48.2944" Y="-165.39081"/>
+		<pt X="49.45884" Y="-180.24103"/>
+		<pt X="47.57645" Y="-190.9079"/>
+	</skpath>
+	<skpath from="75" to="48" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="48.2944" Y="-165.39081"/>
+		<pt X="45.8409" Y="-165.18024" Z="-3.092473"/>
+	</skpath>
+	<skpath from="43" to="76" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="50.6371" Y="-53.79623"/>
+		<pt X="48.413067" Y="-65.206245"/>
+		<pt X="46.53068" Y="-83.82097"/>
+		<pt X="44.648293" Y="-98.67091"/>
+		<pt X="43.811676" Y="-115.82155"/>
+		<pt X="43.278915" Y="-121.30589"/>
+	</skpath>
+	<skpath from="76" to="75" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="43.278915" Y="-121.30589"/>
+		<pt X="43.602524" Y="-129.62573"/>
+		<pt X="49.249683" Y="-140.71089"/>
+		<pt X="51.132072" Y="-154.30591"/>
+		<pt X="48.831375" Y="-159.95308"/>
+		<pt X="48.2944" Y="-165.39081"/>
+	</skpath>
+	<skpath from="76" to="47" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="43.278915" Y="-121.30589"/>
+		<pt X="38.789455" Y="-121.96551" Z="0.011689663"/>
+	</skpath>
+	<skpath from="44" to="77" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="39.896164" Y="-48.10985"/>
+		<pt X="41.301826" Y="-68.55271"/>
+		<pt X="38.582825" Y="-88.2132"/>
+		<pt X="36.282127" Y="-112.05678"/>
+		<pt X="36.79338" Y="-122.26545"/>
+	</skpath>
+	<skpath from="77" to="74" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="36.79338" Y="-122.26545"/>
+		<pt X="36.909588" Y="-128.16165"/>
+		<pt X="35.027203" Y="-148.8679"/>
+		<pt X="40.46521" Y="-161.20801"/>
+		<pt X="41.735718" Y="-165.10364"/>
+	</skpath>
+	<skpath from="77" to="47" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="36.79338" Y="-122.26545"/>
+		<pt X="38.789455" Y="-121.96551" Z="0.011689663"/>
+	</skpath>
+	<skpath from="44" to="10" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="39.896164" Y="-48.10985"/>
+		<pt X="45.789738" Y="-51.203556" Z="0.011689663"/>
+	</skpath>
+	<skpath from="43" to="10" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="50.6371" Y="-53.79623"/>
+		<pt X="45.789738" Y="-51.203556" Z="0.011689663"/>
+	</skpath>
+	<skpath from="78" to="79" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="41.092674" Y="-24.212032"/>
+		<pt X="53.432766" Y="-27.14019"/>
+		<pt X="56.15177" Y="-36.552128"/>
+		<pt X="47.99476" Y="-47.84645"/>
+		<pt X="41.5409" Y="-46.28144"/>
+	</skpath>
+	<skpath from="79" to="78" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="41.5409" Y="-46.28144"/>
+		<pt X="38.164516" Y="-43.035904"/>
+		<pt X="32.517353" Y="-30.068348"/>
+		<pt X="41.092674" Y="-24.212032"/>
+	</skpath>
+	<skpath from="79" to="44" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="41.5409" Y="-46.28144"/>
+		<pt X="39.896164" Y="-48.10985"/>
+	</skpath>
+	<skpath from="80" to="43" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="64.46924" Y="-16.506136"/>
+		<pt X="65.042595" Y="-23.72161"/>
+		<pt X="64.03168" Y="-28.649803"/>
+		<pt X="62.38895" Y="-42.044384"/>
+		<pt X="57.208027" Y="-52.1535"/>
+		<pt X="50.6371" Y="-53.79623"/>
+	</skpath>
+	<skpath from="11" to="80" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="64.3734" Y="-11.350767" Z="-26.409763"/>
+		<pt X="60.784103" Y="-13.137472"/>
+		<pt X="64.46924" Y="-16.506136"/>
+	</skpath>
+	<skpath from="44" to="43" linestyle="invisible" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="39.896164" Y="-48.10985"/>
+		<pt X="50.6371" Y="-53.79623"/>
+	</skpath>
+	<skpath from="81" to="82" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="42.170715" Y="28.34034"/>
+		<pt X="45.961636" Y="29.351252"/>
+		<pt X="48.741642" Y="34.279446"/>
+	</skpath>
+	<skpath from="42" to="81" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="58.471664" Y="28.087612"/>
+		<pt X="42.170715" Y="28.34034"/>
+	</skpath>
+	<skpath from="42" to="83" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="58.471664" Y="28.087612"/>
+		<pt X="61.630764" Y="25.181242"/>
+		<pt X="59.60894" Y="19.115772"/>
+		<pt X="55.740814" Y="12.150597"/>
+	</skpath>
+	<skpath from="83" to="80" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="55.740814" Y="12.150597"/>
+		<pt X="55.818024" Y="11.154842"/>
+		<pt X="58.345303" Y="8.5012"/>
+		<pt X="61.251675" Y="6.858468"/>
+		<pt X="66.30623" Y="3.1939137"/>
+		<pt X="66.432594" Y="-6.409747"/>
+		<pt X="64.53713" Y="-14.876132"/>
+		<pt X="64.46924" Y="-16.506136"/>
+	</skpath>
+	<skpath from="83" to="80" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="55.740814" Y="12.150597"/>
+		<pt X="52.617043" Y="-3.0104306"/>
+		<pt X="56.458218" Y="-11.299282"/>
+		<pt X="64.46924" Y="-16.506136"/>
+	</skpath>
+	<skpath from="85" to="84" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-40.30222" Y="-0.96782535"/>
+		<pt X="-37.95382" Y="-1.5952609"/>
+		<pt X="-34.112644" Y="-1.5952609"/>
+	</skpath>
+	<skpath from="86" to="85" linestyle="estwall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-22.675652" Y="-7.7635407"/>
+		<pt X="-28.654133" Y="-5.6386027"/>
+		<pt X="-33.70831" Y="-4.223433"/>
+		<pt X="-40.30222" Y="-0.96782535"/>
+	</skpath>
+	<skpath from="87" to="85" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-17.439774" Y="33.161205"/>
+		<pt X="-22.993454" Y="32.773148"/>
+		<pt X="-32.090973" Y="28.729805"/>
+		<pt X="-38.964657" Y="19.632284"/>
+		<pt X="-42.80583" Y="8.715261"/>
+		<pt X="-42.603664" Y="1.0329115"/>
+		<pt X="-40.30222" Y="-0.96782535"/>
+	</skpath>
+	<skpath from="88" to="87" linestyle="estwall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-6.100315" Y="30.109436"/>
+		<pt X="-11.672096" Y="29.942806"/>
+		<pt X="-17.439774" Y="33.161205"/>
+	</skpath>
+	<skpath from="89" to="84" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-32.29314" Y="3.2567496"/>
+		<pt X="-33.50614" Y="0.6285773"/>
+		<pt X="-34.112644" Y="-1.5952609"/>
+	</skpath>
+	<skpath from="89" to="46" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="-32.29314" Y="3.2567496"/>
+		<pt X="-33.224106" Y="3.32055" Z="291.7893"/>
+	</skpath>
+	<skpath from="85" to="46" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="-40.30222" Y="-0.96782535"/>
+		<pt X="-33.224106" Y="3.32055" Z="291.7893"/>
+	</skpath>
+	<skpath from="46" to="87" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="-33.224106" Y="3.32055" Z="291.7893"/>
+		<pt X="-36.740818" Y="18.014948"/>
+		<pt X="-17.439774" Y="33.161205"/>
+	</skpath>
+	<skpath from="87" to="89" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-17.439774" Y="33.161205"/>
+		<pt X="-17.939276" Y="28.527637"/>
+		<pt X="-21.376118" Y="21.047455"/>
+		<pt X="-23.599955" Y="15.588943"/>
+		<pt X="-26.228128" Y="10.332598"/>
+		<pt X="-29.664968" Y="5.884922"/>
+		<pt X="-32.29314" Y="3.2567496"/>
+	</skpath>
+	<skpath from="44" to="90" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="39.896164" Y="-48.10985"/>
+		<pt X="33.198875" Y="-41.03347"/>
+		<pt X="24.479763" Y="-27.386164"/>
+		<pt X="13.991554" Y="-13.86522"/>
+		<pt X="7.2942643" Y="-6.9152026"/>
+		<pt X="1.8891634" Y="-3.1666963"/>
+	</skpath>
+	<skpath from="90" to="86" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="1.8891634" Y="-3.1666963"/>
+		<pt X="-0.034845047" Y="-2.6188283"/>
+		<pt X="-6.479407" Y="-2.9979203"/>
+		<pt X="-10.775782" Y="-6.030655"/>
+		<pt X="-22.675652" Y="-7.7635407"/>
+	</skpath>
+	<skpath from="90" to="1" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="1.8891634" Y="-3.1666963"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="88" to="91" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-6.100315" Y="30.109436"/>
+		<pt X="0.84970266" Y="34.02672"/>
+		<pt X="7.2942643" Y="28.466705"/>
+		<pt X="11.982763" Y="27.37286"/>
+	</skpath>
+	<skpath from="91" to="81" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="11.982763" Y="27.37286"/>
+		<pt X="18.414291" Y="27.70852"/>
+		<pt X="28.144318" Y="27.834885"/>
+		<pt X="42.170715" Y="28.34034"/>
+	</skpath>
+	<skpath from="91" to="1" linestyle="connective">
+		<sketchsubset subname="244main"/>
+		<pt X="11.982763" Y="27.37286"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="91" to="92" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="11.982763" Y="27.37286"/>
+		<pt X="29.974327" Y="10.939099"/>
+	</skpath>
+	<skpath from="88" to="86" linestyle="wall" splined="1">
+		<sketchsubset subname="244main"/>
+		<pt X="-6.100315" Y="30.109436"/>
+		<pt X="-11.672096" Y="26.101631"/>
+		<pt X="-19.152279" Y="18.823616"/>
+		<pt X="-21.376118" Y="13.162937"/>
+		<pt X="-24.812958" Y="0.8307444"/>
+		<pt X="-24.812958" Y="-3.616932"/>
+		<pt X="-22.675652" Y="-7.7635407"/>
+	</skpath>
+	<skpath from="93" to="41" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="1.0">p10</pctext>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="116.937096" Y="-1.6060175"/>
+		<pt X="114.24599" Y="-8.861911"/>
+	</skpath>
+	<skpath from="94" to="37" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="1.0">p5</pctext>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="73.11582" Y="6.836614"/>
+		<pt X="70.52853" Y="0.6778098"/>
+	</skpath>
+	<skpath from="95" to="87" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="1.0">p28</pctext>
+		</pathcodes>
+		<sketchsubset subname="244main"/>
+		<pt X="-14.349214" Y="37.779686"/>
+		<pt X="-17.439774" Y="33.161205"/>
+	</skpath>
+</sketch>
+</tunnelxml>
