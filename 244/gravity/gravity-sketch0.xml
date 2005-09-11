@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<sketch splined="0">
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="2" head="1"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="50.369183" Y="22.425806" Z="6.769842"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="0" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="2" head="3"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="50.369183" Y="22.425806" Z="6.769842"/>
+		<pt X="59.34755" Y="53.73709" Z="17.985664"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="3" head="4"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="59.34755" Y="53.73709" Z="17.985664"/>
+		<pt X="31.51902" Y="50.812195" Z="53.800755"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="4" head="5"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="31.51902" Y="50.812195" Z="53.800755"/>
+		<pt X="56.638313" Y="102.31438" Z="29.477741"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="5" head="6"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="56.638313" Y="102.31438" Z="29.477741"/>
+		<pt X="43.45977" Y="124.24716" Z="31.266994"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="6" head="7"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="43.45977" Y="124.24716" Z="31.266994"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="7" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="8" head="7"/>
+		</pathcodes>
+		<sketchsubset subname="Skinny&space;Festers&space;Cave&space;-&space;Gravity&space;anomoly"/>
+		<pt X="73.50651" Y="160.05547" Z="-32.69482"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="8" to="0" linestyle="connective">
+		<pt X="42.598186" Y="29.595474"/>
+		<pt X="50.369183" Y="22.425806" Z="6.769842"/>
+	</skpath>
+	<skpath from="9" to="2" linestyle="connective">
+		<pt X="65.308" Y="56.84725"/>
+		<pt X="59.34755" Y="53.73709" Z="17.985664"/>
+	</skpath>
+	<skpath from="10" to="3" linestyle="connective">
+		<pt X="37.904827" Y="55.030464"/>
+		<pt X="31.51902" Y="50.812195" Z="53.800755"/>
+	</skpath>
+	<skpath from="11" to="3" linestyle="connective">
+		<pt X="25.49013" Y="46.249336"/>
+		<pt X="31.51902" Y="50.812195" Z="53.800755"/>
+	</skpath>
+	<skpath from="12" to="4" linestyle="connective">
+		<pt X="61.220234" Y="102.26688"/>
+		<pt X="56.638313" Y="102.31438" Z="29.477741"/>
+	</skpath>
+	<skpath from="13" to="4" linestyle="connective">
+		<pt X="54.71009" Y="102.26688"/>
+		<pt X="56.638313" Y="102.31438" Z="29.477741"/>
+	</skpath>
+	<skpath from="14" to="5" linestyle="connective">
+		<pt X="51.83351" Y="123.7655"/>
+		<pt X="43.45977" Y="124.24716" Z="31.266994"/>
+	</skpath>
+	<skpath from="15" to="6" linestyle="connective">
+		<pt X="36.23944" Y="125.12809"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="16" to="6" linestyle="connective">
+		<pt X="52.13631" Y="125.430885"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="17" to="6" linestyle="connective">
+		<pt X="33.81706" Y="127.39907"/>
+		<pt X="43.45977" Y="124.24716" Z="-47.883003"/>
+	</skpath>
+	<skpath from="18" to="7" linestyle="connective">
+		<pt X="76.965706" Y="156.77043"/>
+		<pt X="73.50651" Y="160.05547" Z="-32.69482"/>
+	</skpath>
+	<skpath from="19" to="7" linestyle="connective">
+		<pt X="70.30416" Y="162.82639"/>
+		<pt X="73.50651" Y="160.05547" Z="-32.69482"/>
+	</skpath>
+</sketch>
+</tunnelxml>
