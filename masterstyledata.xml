@@ -2,7 +2,7 @@
 
 <tunnelxml>
 
-<fontcolours fontstyle="PLAIN" fontname="Serif">
+<fontcolours>
 
 <image_file_directory name="surveys"/>
 
@@ -13,6 +13,7 @@
 	
 	<subsetattr name="smallcaves" uppersubset="level1"/>
 	<set uppersubset="smallcaves">
+		<subsetattr name="231"/>
 		<subsetattr name="241"/>
 		<subsetattr name="242"/>
 		<subsetattr name="243"/>

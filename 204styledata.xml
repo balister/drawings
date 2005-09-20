@@ -2,7 +2,7 @@
 
 <tunnelxml>
 
-<fontcolours fontstyle="PLAIN" fontname="Serif">
+<fontcolours>
 
 <groupsubsetattr groupsubsetname="204planes_hierarchy" groupsubsetselectable="no">
 	<subsetattr name="topl"/>
@@ -11,6 +11,7 @@
 	<subsetattr name="aris"/>
 	<subsetattr name="gaff"/>
 	<subsetattr name="raz"/>
+	<subsetattr name="subway"/>
 
 	<set uppersubset="topl">
 		<subsetattr name="suspendedsolution"/>
@@ -25,7 +26,8 @@
 		<subsetattr name="germknodel"/>
 		<subsetattr name="topofcrowning"/>
 		<subsetattr name="204elevtoplevel"/>
-		<subsetattr name="204gent"/>
+		<subsetattr name="204gupper"/>
+		<subsetattr name="204hupper"/>
 	</set>
 	<set uppersubset="topp">
 		<subsetattr name="21boltbypass"/>
@@ -67,10 +69,12 @@
 		<subsetattr name="treeslope"/>
 		<subsetattr name="treetoglory"/>
 		<subsetattr name="treeumphant"/>
+		<subsetattr name="twiglets"/>
 		<subsetattr name="umshitshimbo"/>
 		<subsetattr name="wotnotbolts"/>
 		<subsetattr name="204elevtopplane"/>
-		<subsetattr name="highhopesupper"/>
+		<subsetattr name="204glower"/>
+		<subsetattr name="204hlower"/>
 	</set>
 	<set uppersubset="bottomp">
 		<subsetattr name="110 a day"/>
@@ -86,6 +90,9 @@
 		<subsetattr name="crimper"/>
 		<subsetattr name="drillingdelight"/>
 		<subsetattr name="faith"/>
+		<subsetattr name="beyondbelief1"/>
+		<subsetattr name="beyondbelief2"/>
+		<subsetattr name="beyondbelief3"/>
 		<subsetattr name="grater"/>
 		<subsetattr name="helter skelter top"/>
 		<subsetattr name="limescale cistern"/>
@@ -112,7 +119,7 @@
 		<subsetattr name="wot no butcombe"/>
 		<subsetattr name="wot no connection"/>
 		<subsetattr name="204elevbottomplane"/>
-		<subsetattr name="highhopeslower"/>
+		<subsetattr name="highhopesupper"/>
 	</set>
 	<set uppersubset="aris">
 		<subsetattr name="allroads"/>
@@ -141,8 +148,11 @@
 		<subsetattr name="steeltoecap"/>
 		<subsetattr name="rainbow"/>
 		<subsetattr name="aristonhorizontal"/>
+		<subsetattr name="hangingontofaith"/>
 		<subsetattr name="204elevariston"/>
 		<subsetattr name="toothless"/>
+		<subsetattr name="highhopes2"/>
+		<subsetattr name="highhopes1"/>
 	</set>
 	<set uppersubset="gaff">
 		<subsetattr name="kiwisuit"/>
@@ -163,6 +173,7 @@
 		<subsetattr name="uppertube"/>
 		<subsetattr name="garenersworld"/>
 		<subsetattr name="204elevgaffered"/>
+		<subsetattr name="hippocratictop"/>
 	</set>
 	<set uppersubset="raz">
 		<subsetattr name="universitychallenge"/>
@@ -176,6 +187,12 @@
 		<subsetattr name="stoneware"/>
 		<subsetattr name="underware"/>
 		<subsetattr name="hardware"/>
+		<subsetattr name="software"/>
+		<subsetattr name="firmware"/>
+		<subsetattr name="someware"/>
+		<subsetattr name="nightsoil"/>
+		<subsetattr name="hippocratic1"/>
+		<subsetattr name="hippocratic2"/>
 		<subsetattr name="fledermausschactbottom"/>
 		<subsetattr name="aboveblacklightning"/>
 		<subsetattr name="abovemysterywind"/>
@@ -190,6 +207,11 @@
 		<subsetattr name="belowpasterofmuppets"/>
 		<subsetattr name="204elevrazor"/>
 	</set>
+	<set uppersubset="subway">
+		<subsetattr name="apocalypse"/>
+		<subsetattr name="tube"/>
+		<subsetattr name="mornington"/>
+	</set>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="204planes" groupsubsetselectable="no">
@@ -200,8 +222,9 @@
 	<subsetattr name="topp" uppersubset="level2"/>
 	<subsetattr name="bottomp" uppersubset="level3"/>
 	<subsetattr name="aris" uppersubset="level4"/>
-	<subsetattr name="gaff" uppersubset="level5"/>
-	<subsetattr name="raz" uppersubset="level6"/>
+	<subsetattr name="gaff" uppersubset="level4"/>
+	<subsetattr name="raz" uppersubset="level5"/>
+	<subsetattr name="subway" uppersubset="level6"/>
 
 	<subsetattr name="204grid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5" />
 </groupsubsetattr>

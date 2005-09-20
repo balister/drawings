@@ -9,7 +9,7 @@
 		<pathcodes>
 			<cl_stations tail="2" head="1"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="159.8244" Y="-129.42325" Z="25.25133"/>
 		<pt X="0.0" Y="-0.0" Z="0.0"/>
 	</skpath>
@@ -17,35 +17,36 @@
 		<pathcodes>
 			<cl_stations tail="2" head="3"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="159.8244" Y="-129.42325" Z="25.25133"/>
 		<pt X="381.89145" Y="-176.62506" Z="172.68512"/>
 	</skpath>
-	<skpath from="4" to="5" linestyle="centreline">
+	<skpath from="3" to="4" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="18" head="19"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="290.1668" Y="-583.72815" Z="225.69891"/>
 		<pt X="256.02325" Y="-552.9851" Z="205.72159"/>
 	</skpath>
-	<skpath from="6" to="5" linestyle="centreline">
+	<skpath from="5" to="4" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="20" head="19"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="242.50894" Y="-574.61255" Z="207.95276"/>
 		<pt X="256.02325" Y="-552.9851" Z="205.72159"/>
 	</skpath>
-	<skpath from="6" to="7" linestyle="centreline">
+	<skpath from="5" to="6" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="20" head="21"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="242.50894" Y="-574.61255" Z="207.95276"/>
 		<pt X="242.50894" Y="-574.61255" Z="164.55276"/>
 	</skpath>
-	<skpath from="8" to="9" linestyle="wall" splined="1">
+	<skpath from="7" to="8" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="174.27498" Y="-111.33483"/>
 		<pt X="182.69897" Y="-111.21225"/>
 		<pt X="230.13602" Y="-106.21888"/>
@@ -53,7 +54,8 @@
 		<pt X="348.9783" Y="-119.70099"/>
 		<pt X="391.9213" Y="-131.18575"/>
 	</skpath>
-	<skpath from="11" to="12" linestyle="wall" splined="1">
+	<skpath from="9" to="10" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="568.76434" Y="-211.51482"/>
 		<pt X="561.5183" Y="-223.5915"/>
 		<pt X="563.12854" Y="-234.86308"/>
@@ -61,7 +63,8 @@
 		<pt X="601.7739" Y="-244.52443"/>
 		<pt X="620.2915" Y="-246.13466"/>
 	</skpath>
-	<skpath from="13" to="14" linestyle="wall" splined="1">
+	<skpath from="11" to="12" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="618.68134" Y="-260.62668"/>
 		<pt X="596.1382" Y="-254.99089"/>
 		<pt X="576.0104" Y="-251.77045"/>
@@ -75,14 +78,16 @@
 		<pt X="562.3234" Y="-358.0453"/>
 		<pt X="555.07745" Y="-395.08047"/>
 	</skpath>
-	<skpath from="15" to="16" linestyle="wall" splined="1">
+	<skpath from="13" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="532.16064" Y="-631.6988"/>
 		<pt X="522.9104" Y="-654.3619"/>
 		<pt X="513.1977" Y="-668.2372"/>
 		<pt X="503.02243" Y="-689.9752"/>
 		<pt X="496.08475" Y="-715.4134"/>
 	</skpath>
-	<skpath from="17" to="18" linestyle="wall" splined="1">
+	<skpath from="15" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="425.32053" Y="-798.6654"/>
 		<pt X="423.93298" Y="-773.6898"/>
 		<pt X="435.03326" Y="-740.389"/>
@@ -90,7 +95,8 @@
 		<pt X="467.87155" Y="-701.0755"/>
 		<pt X="472.49667" Y="-695.9879"/>
 	</skpath>
-	<skpath from="19" to="20" linestyle="wall" splined="1">
+	<skpath from="17" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="403.42795" Y="-515.72943"/>
 		<pt X="413.03098" Y="-518.1302"/>
 		<pt X="425.37775" Y="-515.0435"/>
@@ -98,43 +104,49 @@
 		<pt X="459.33133" Y="-494.12262"/>
 		<pt X="472.41156" Y="-488.8646" Z="292.36356"/>
 	</skpath>
-	<skpath from="20" to="21" linestyle="wall" splined="1">
+	<skpath from="18" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="472.41156" Y="-488.8646" Z="292.36356"/>
 		<pt X="485.73965" Y="-484.51956"/>
 		<pt X="506.66055" Y="-481.77585"/>
 		<pt X="517.97845" Y="-475.2595"/>
 	</skpath>
-	<skpath from="22" to="23" linestyle="connective">
+	<skpath from="20" to="21" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="423.6629" Y="-563.05865"/>
 		<pt X="412.00208" Y="-554.8275"/>
 	</skpath>
-	<skpath from="24" to="25" linestyle="invisible" splined="1">
+	<skpath from="22" to="23" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="212.05318" Y="-547.62524"/>
 		<pt X="218.22656" Y="-549.34"/>
 	</skpath>
-	<skpath from="26" to="27" linestyle="invisible" splined="1">
+	<skpath from="24" to="25" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="322.83105" Y="-649.829"/>
 		<pt X="330.50568" Y="-647.8867"/>
 	</skpath>
-	<skpath from="28" to="29" linestyle="centreline">
+	<skpath from="26" to="27" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="16" head="15"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="358.84244" Y="-595.6404" Z="244.25429"/>
 		<pt X="370.84622" Y="-568.8891" Z="248.38773"/>
 	</skpath>
-	<skpath from="30" to="25" linestyle="connective">
+	<skpath from="28" to="23" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="1.0">05-01&space;C</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="216.16876" Y="-545.56744"/>
 		<pt X="218.22656" Y="-549.34"/>
 	</skpath>
-	<skpath from="31" to="24" linestyle="wall" splined="1">
+	<skpath from="29" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="249.01215" Y="-573.7862"/>
 		<pt X="247.03566" Y="-576.7773"/>
 		<pt X="240.51932" Y="-585.35144"/>
@@ -145,7 +157,8 @@
 		<pt X="206.22276" Y="-558.9431"/>
 		<pt X="212.05318" Y="-547.62524"/>
 	</skpath>
-	<skpath from="25" to="32" linestyle="wall" splined="1">
+	<skpath from="23" to="30" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="218.22656" Y="-549.34"/>
 		<pt X="213.08208" Y="-557.9142"/>
 		<pt X="214.11098" Y="-569.91797"/>
@@ -153,82 +166,95 @@
 		<pt X="233.31705" Y="-576.7773"/>
 		<pt X="242.92007" Y="-569.91797"/>
 	</skpath>
-	<skpath from="31" to="32" linestyle="pitchbound" splined="1">
+	<skpath from="29" to="30" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="249.01215" Y="-573.7862"/>
 		<pt X="242.92007" Y="-569.91797"/>
 	</skpath>
-	<skpath from="33" to="28" linestyle="centreline">
+	<skpath from="31" to="26" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="17" head="16"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="334.49188" Y="-620.6769" Z="238.22868"/>
 		<pt X="358.84244" Y="-595.6404" Z="244.25429"/>
 	</skpath>
-	<skpath from="33" to="4" linestyle="centreline">
+	<skpath from="31" to="3" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="17" head="18"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="334.49188" Y="-620.6769" Z="238.22868"/>
 		<pt X="290.1668" Y="-583.72815" Z="225.69891"/>
 	</skpath>
-	<skpath from="34" to="26" linestyle="connective">
+	<skpath from="32" to="24" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-02&space;B</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="327.97552" Y="-654.97345"/>
 		<pt X="322.83105" Y="-649.829"/>
 	</skpath>
-	<skpath from="6" to="31" linestyle="connective">
+	<skpath from="5" to="29" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="242.50894" Y="-574.61255" Z="207.95276"/>
 		<pt X="249.01215" Y="-573.7862"/>
 	</skpath>
-	<skpath from="6" to="32" linestyle="connective">
+	<skpath from="5" to="30" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="242.50894" Y="-574.61255" Z="207.95276"/>
 		<pt X="242.92007" Y="-569.91797"/>
 	</skpath>
-	<skpath from="6" to="35" linestyle="connective">
+	<skpath from="5" to="33" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="242.50894" Y="-574.61255" Z="207.95276"/>
 		<pt X="226.1719" Y="-583.3413"/>
 		<pt X="211.10435" Y="-572.9646"/>
 		<pt X="210.82007" Y="-555.76483"/>
 	</skpath>
-	<skpath from="24" to="35" linestyle="connective">
+	<skpath from="22" to="33" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="212.05318" Y="-547.62524"/>
 		<pt X="210.82007" Y="-555.76483"/>
 	</skpath>
-	<skpath from="25" to="35" linestyle="connective">
+	<skpath from="23" to="33" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="218.22656" Y="-549.34"/>
 		<pt X="210.82007" Y="-555.76483"/>
 	</skpath>
-	<skpath from="32" to="36" linestyle="wall" splined="1">
+	<skpath from="30" to="34" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="242.92007" Y="-569.91797"/>
 		<pt X="252.18015" Y="-557.5712"/>
 		<pt X="258.01056" Y="-552.0838"/>
 		<pt X="258.93115" Y="-552.1715"/>
 	</skpath>
-	<skpath from="36" to="4" linestyle="wall" splined="1">
+	<skpath from="34" to="3" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="258.93115" Y="-552.1715"/>
 		<pt X="265.21283" Y="-558.9431"/>
 		<pt X="278.93146" Y="-572.6617"/>
 		<pt X="290.1668" Y="-583.72815" Z="225.69891"/>
 	</skpath>
-	<skpath from="36" to="5" linestyle="connective">
+	<skpath from="34" to="4" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="258.93115" Y="-552.1715"/>
 		<pt X="259.71854" Y="-562.44574"/>
 		<pt X="256.02325" Y="-552.9851" Z="205.72159"/>
 	</skpath>
-	<skpath from="37" to="31" linestyle="wall" splined="1">
+	<skpath from="35" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="258.6965" Y="-567.5172"/>
 		<pt X="252.18015" Y="-570.2609"/>
 		<pt X="249.01215" Y="-573.7862"/>
 	</skpath>
-	<skpath from="37" to="5" linestyle="connective">
+	<skpath from="35" to="4" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="258.6965" Y="-567.5172"/>
 		<pt X="256.02325" Y="-552.9851" Z="205.72159"/>
 	</skpath>
-	<skpath from="26" to="38" linestyle="wall" splined="1">
+	<skpath from="24" to="36" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="322.83105" Y="-649.829"/>
 		<pt X="323.51697" Y="-639.197"/>
 		<pt X="322.48807" Y="-623.07764"/>
@@ -236,119 +262,136 @@
 		<pt X="292.99304" Y="-598.3841"/>
 		<pt X="284.84778" Y="-591.1768"/>
 	</skpath>
-	<skpath from="38" to="37" linestyle="wall" splined="1">
+	<skpath from="36" to="35" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="284.84778" Y="-591.1768"/>
 		<pt X="273.787" Y="-580.8929"/>
 		<pt X="262.12616" Y="-568.8891"/>
 		<pt X="258.6965" Y="-567.5172"/>
 	</skpath>
-	<skpath from="38" to="4" linestyle="connective">
+	<skpath from="36" to="3" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="284.84778" Y="-591.1768"/>
 		<pt X="290.1668" Y="-583.72815" Z="225.69891"/>
 	</skpath>
-	<skpath from="26" to="33" linestyle="connective">
+	<skpath from="24" to="31" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="322.83105" Y="-649.829"/>
 		<pt X="326.66962" Y="-632.3819"/>
 		<pt X="327.94894" Y="-621.01013"/>
 		<pt X="334.49188" Y="-620.6769" Z="238.22868"/>
 	</skpath>
-	<skpath from="27" to="33" linestyle="connective">
+	<skpath from="25" to="31" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="330.50568" Y="-647.8867"/>
 		<pt X="324.82172" Y="-619.44653"/>
 		<pt X="334.49188" Y="-620.6769" Z="238.22868"/>
 	</skpath>
-	<skpath from="4" to="39" linestyle="wall" splined="1">
+	<skpath from="3" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="290.1668" Y="-583.72815" Z="225.69891"/>
 		<pt X="302.2531" Y="-594.26855"/>
 		<pt X="319.74435" Y="-605.5864"/>
 		<pt X="332.7902" Y="-607.13007"/>
 	</skpath>
-	<skpath from="39" to="33" linestyle="connective">
+	<skpath from="37" to="31" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="332.7902" Y="-607.13007"/>
 		<pt X="334.49188" Y="-620.6769" Z="238.22868"/>
 	</skpath>
-	<skpath from="40" to="28" linestyle="connective">
+	<skpath from="38" to="26" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="361.4206" Y="-595.2275"/>
 		<pt X="358.84244" Y="-595.6404" Z="244.25429"/>
 	</skpath>
-	<skpath from="39" to="41" linestyle="wall" splined="1">
+	<skpath from="37" to="39" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="332.7902" Y="-607.13007"/>
 		<pt X="333.80594" Y="-606.95825"/>
 		<pt X="351.29718" Y="-598.7271"/>
 		<pt X="356.18716" Y="-592.39105"/>
 	</skpath>
-	<skpath from="41" to="28" linestyle="connective">
+	<skpath from="39" to="26" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="356.18716" Y="-592.39105"/>
 		<pt X="358.84244" Y="-595.6404" Z="244.25429"/>
 	</skpath>
-	<skpath from="41" to="42" linestyle="wall" splined="1">
+	<skpath from="39" to="40" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="356.18716" Y="-592.39105"/>
 		<pt X="364.32986" Y="-574.7195"/>
 		<pt X="369.13138" Y="-566.48834"/>
 	</skpath>
-	<skpath from="42" to="29" linestyle="connective">
+	<skpath from="40" to="27" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="369.13138" Y="-566.48834"/>
 		<pt X="370.84622" Y="-568.8891" Z="248.38773"/>
 	</skpath>
-	<skpath from="43" to="44" linestyle="wall" splined="1">
+	<skpath from="41" to="42" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="400.8074" Y="-551.2218"/>
 		<pt X="396.18228" Y="-551.6843"/>
 		<pt X="381.38193" Y="-570.6473"/>
 		<pt X="377.98392" Y="-574.101"/>
 	</skpath>
-	<skpath from="44" to="40" linestyle="wall" splined="1">
+	<skpath from="42" to="38" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="377.98392" Y="-574.101"/>
 		<pt X="372.5942" Y="-579.435"/>
 		<pt X="361.4206" Y="-595.2275"/>
 	</skpath>
-	<skpath from="44" to="29" linestyle="connective">
+	<skpath from="42" to="27" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="377.98392" Y="-574.101"/>
 		<pt X="370.84622" Y="-568.8891" Z="248.38773"/>
 	</skpath>
-	<skpath from="45" to="29" linestyle="centreline">
+	<skpath from="43" to="27" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="8" head="15"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="402.29166" Y="-538.7072" Z="261.95377"/>
 		<pt X="370.84622" Y="-568.8891" Z="248.38773"/>
 	</skpath>
-	<skpath from="43" to="45" linestyle="connective">
+	<skpath from="41" to="43" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="400.8074" Y="-551.2218"/>
 		<pt X="405.45288" Y="-545.4398"/>
 		<pt X="402.29166" Y="-538.7072" Z="261.95377"/>
 	</skpath>
-	<skpath from="45" to="20" linestyle="centreline">
+	<skpath from="43" to="18" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="8" head="7"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="402.29166" Y="-538.7072" Z="261.95377"/>
 		<pt X="472.41156" Y="-488.8646" Z="292.36356"/>
 	</skpath>
-	<skpath from="46" to="47" linestyle="centreline">
+	<skpath from="44" to="45" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="10" head="9"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="410.394" Y="-611.202" Z="282.14865"/>
 		<pt X="408.68826" Y="-584.3363" Z="265.96292"/>
 	</skpath>
-	<skpath from="45" to="47" linestyle="centreline">
+	<skpath from="43" to="45" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="8" head="9"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="402.29166" Y="-538.7072" Z="261.95377"/>
 		<pt X="408.68826" Y="-584.3363" Z="265.96292"/>
 	</skpath>
-	<skpath from="42" to="48" linestyle="wall" splined="1">
+	<skpath from="40" to="46" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="369.13138" Y="-566.48834"/>
 		<pt X="376.42096" Y="-560.1714"/>
 		<pt X="386.0869" Y="-550.2211"/>
 		<pt X="396.04892" Y="-541.12445"/>
 	</skpath>
-	<skpath from="48" to="49" linestyle="wall" splined="1">
+	<skpath from="46" to="47" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="396.04892" Y="-541.12445"/>
 		<pt X="400.58588" Y="-536.71716"/>
 		<pt X="406.55606" Y="-530.1784"/>
@@ -356,115 +399,125 @@
 		<pt X="404.13956" Y="-523.0711"/>
 		<pt X="401.01233" Y="-521.08105"/>
 	</skpath>
-	<skpath from="48" to="43" linestyle="invisible" splined="1">
+	<skpath from="46" to="41" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="396.04892" Y="-541.12445"/>
 		<pt X="400.8074" Y="-551.2218"/>
 	</skpath>
-	<skpath from="48" to="45" linestyle="connective">
+	<skpath from="46" to="43" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="396.04892" Y="-541.12445"/>
 		<pt X="402.29166" Y="-538.7072" Z="261.95377"/>
 	</skpath>
-	<skpath from="23" to="45" linestyle="connective">
+	<skpath from="21" to="43" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="412.00208" Y="-554.8275"/>
 		<pt X="402.29166" Y="-538.7072" Z="261.95377"/>
 	</skpath>
-	<skpath from="40" to="50" linestyle="wall" splined="1">
+	<skpath from="38" to="48" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="361.4206" Y="-595.2275"/>
 		<pt X="360.1064" Y="-597.01044"/>
 		<pt X="349.46863" Y="-610.4233"/>
 		<pt X="342.90677" Y="-616.6093"/>
 	</skpath>
-	<skpath from="50" to="27" linestyle="wall" splined="1">
+	<skpath from="48" to="25" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="342.90677" Y="-616.6093"/>
 		<pt X="337.44336" Y="-621.06104"/>
 		<pt X="330.04315" Y="-627.07367"/>
 		<pt X="329.11813" Y="-634.4739"/>
 		<pt X="330.50568" Y="-647.8867"/>
 	</skpath>
-	<skpath from="50" to="51" linestyle="connective">
+	<skpath from="48" to="49" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="breeze"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="342.90677" Y="-616.6093"/>
 		<pt X="343.15863" Y="-611.202"/>
 		<pt X="360.78482" Y="-606.22687"/>
 		<pt X="349.55524" Y="-623.99524"/>
 	</skpath>
-	<skpath from="46" to="52" linestyle="centreline">
+	<skpath from="44" to="50" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="10" head="11"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="410.394" Y="-611.202" Z="282.14865"/>
 		<pt X="394.99164" Y="-636.16516" Z="285.93878"/>
 	</skpath>
-	<skpath from="53" to="52" linestyle="centreline">
+	<skpath from="51" to="50" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="12" head="11"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="479.87988" Y="-694.09564" Z="330.71832"/>
 		<pt X="394.99164" Y="-636.16516" Z="285.93878"/>
 	</skpath>
-	<skpath from="53" to="54" linestyle="centreline">
+	<skpath from="51" to="52" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="12" head="13"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="479.87988" Y="-694.09564" Z="330.71832"/>
 		<pt X="433.22958" Y="-787.3962" Z="357.08777"/>
 	</skpath>
-	<skpath from="53" to="55" linestyle="centreline">
+	<skpath from="51" to="53" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="12" head="14"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="479.87988" Y="-694.09564" Z="330.71832"/>
 		<pt X="512.3728" Y="-629.0069" Z="319.0796"/>
 	</skpath>
-	<skpath from="56" to="55" linestyle="centreline">
+	<skpath from="54" to="53" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="22" head="14"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="496.39594" Y="-602.3788" Z="365.28"/>
 		<pt X="512.3728" Y="-629.0069" Z="319.0796"/>
 	</skpath>
-	<skpath from="57" to="56" linestyle="centreline">
+	<skpath from="55" to="54" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="6" head="22"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="544.6594" Y="-499.19485" Z="288.55875"/>
 		<pt X="496.39594" Y="-602.3788" Z="365.28"/>
 	</skpath>
-	<skpath from="57" to="20" linestyle="centreline">
+	<skpath from="55" to="18" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="6" head="7"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="544.6594" Y="-499.19485" Z="288.55875"/>
 		<pt X="472.41156" Y="-488.8646" Z="292.36356"/>
 	</skpath>
-	<skpath from="57" to="3" linestyle="centreline">
+	<skpath from="55" to="56" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="6" head="5"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="544.6594" Y="-499.19485" Z="288.55875"/>
 		<pt X="551.5696" Y="-395.08575" Z="292.19528"/>
 	</skpath>
-	<skpath from="23" to="58" linestyle="wall" splined="1">
+	<skpath from="21" to="57" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="412.00208" Y="-554.8275"/>
 		<pt X="415.84592" Y="-570.0922"/>
 		<pt X="419.50726" Y="-584.4048"/>
 	</skpath>
-	<skpath from="58" to="59" linestyle="wall" splined="1">
+	<skpath from="57" to="58" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="419.50726" Y="-584.4048"/>
 		<pt X="420.50583" Y="-595.72174"/>
 		<pt X="415.51306" Y="-612.6972"/>
 		<pt X="411.85168" Y="-622.34985"/>
 	</skpath>
-	<skpath from="60" to="61" linestyle="wall" splined="1">
+	<skpath from="59" to="60" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="479.7534" Y="-680.266"/>
 		<pt X="483.08188" Y="-678.93463"/>
 		<pt X="489.0732" Y="-658.29785"/>
@@ -472,28 +525,34 @@
 		<pt X="502.72012" Y="-621.3513"/>
 		<pt X="515.03564" Y="-616.6914"/>
 	</skpath>
-	<skpath from="62" to="43" linestyle="wall" splined="1">
+	<skpath from="61" to="41" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="404.13535" Y="-584.7588"/>
 		<pt X="402.19495" Y="-558.1595"/>
 		<pt X="400.8074" Y="-551.2218"/>
 	</skpath>
-	<skpath from="62" to="47" linestyle="connective">
+	<skpath from="61" to="45" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="404.13535" Y="-584.7588"/>
 		<pt X="408.68826" Y="-584.3363" Z="265.96292"/>
 	</skpath>
-	<skpath from="47" to="58" linestyle="connective">
+	<skpath from="45" to="57" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="408.68826" Y="-584.3363" Z="265.96292"/>
 		<pt X="419.50726" Y="-584.4048"/>
 	</skpath>
-	<skpath from="59" to="46" linestyle="connective">
+	<skpath from="58" to="44" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="411.85168" Y="-622.34985"/>
 		<pt X="410.394" Y="-611.202" Z="282.14865"/>
 	</skpath>
-	<skpath from="59" to="52" linestyle="connective">
+	<skpath from="58" to="50" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="411.85168" Y="-622.34985"/>
 		<pt X="394.99164" Y="-636.16516" Z="285.93878"/>
 	</skpath>
-	<skpath from="18" to="63" linestyle="wall" splined="1">
+	<skpath from="16" to="62" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="472.49667" Y="-695.9879"/>
 		<pt X="470.64664" Y="-692.2878"/>
 		<pt X="455.84628" Y="-685.3501"/>
@@ -502,141 +561,165 @@
 		<pt X="395.25726" Y="-642.33655"/>
 		<pt X="392.96927" Y="-636.3253"/>
 	</skpath>
-	<skpath from="63" to="52" linestyle="connective">
+	<skpath from="62" to="50" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="392.96927" Y="-636.3253"/>
 		<pt X="394.99164" Y="-636.16516" Z="285.93878"/>
 	</skpath>
-	<skpath from="63" to="64" linestyle="wall" splined="1">
+	<skpath from="62" to="63" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="392.96927" Y="-636.3253"/>
 		<pt X="392.9447" Y="-634.01135"/>
 		<pt X="396.6448" Y="-621.52356"/>
 		<pt X="405.89502" Y="-611.8108"/>
 		<pt X="406.70728" Y="-609.07654"/>
 	</skpath>
-	<skpath from="64" to="62" linestyle="wall" splined="1">
+	<skpath from="63" to="61" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="406.70728" Y="-609.07654"/>
 		<pt X="404.5075" Y="-590.9978"/>
 		<pt X="404.13535" Y="-584.7588"/>
 	</skpath>
-	<skpath from="64" to="46" linestyle="connective">
+	<skpath from="63" to="44" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="406.70728" Y="-609.07654"/>
 		<pt X="410.394" Y="-611.202" Z="282.14865"/>
 	</skpath>
-	<skpath from="60" to="53" linestyle="connective">
+	<skpath from="59" to="51" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="479.7534" Y="-680.266"/>
 		<pt X="479.87988" Y="-694.09564" Z="330.71832"/>
 	</skpath>
-	<skpath from="18" to="53" linestyle="connective">
+	<skpath from="16" to="51" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="472.49667" Y="-695.9879"/>
 		<pt X="479.87988" Y="-694.09564" Z="330.71832"/>
 	</skpath>
-	<skpath from="18" to="60" linestyle="invisible" splined="1">
+	<skpath from="16" to="59" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="472.49667" Y="-695.9879"/>
 		<pt X="479.7534" Y="-680.266"/>
 	</skpath>
-	<skpath from="23" to="65" linestyle="wall" splined="1">
+	<skpath from="21" to="64" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="412.00208" Y="-554.8275"/>
 		<pt X="410.85315" Y="-541.467"/>
 		<pt X="412.65594" Y="-538.3261"/>
 	</skpath>
-	<skpath from="65" to="66" linestyle="wall" splined="1">
+	<skpath from="64" to="65" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="412.65594" Y="-538.3261"/>
 		<pt X="429.15997" Y="-527.15436"/>
 		<pt X="449.79675" Y="-511.17752"/>
 		<pt X="474.42776" Y="-500.19342"/>
 	</skpath>
-	<skpath from="65" to="48" linestyle="invisible" splined="1">
+	<skpath from="64" to="46" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="412.65594" Y="-538.3261"/>
 		<pt X="396.04892" Y="-541.12445"/>
 	</skpath>
-	<skpath from="59" to="67" linestyle="wall" splined="1">
+	<skpath from="58" to="66" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="411.85168" Y="-622.34985"/>
 		<pt X="410.5203" Y="-630.67114"/>
 		<pt X="429.49283" Y="-648.97797"/>
 		<pt X="446.79312" Y="-660.0648"/>
 	</skpath>
-	<skpath from="67" to="68" linestyle="wall" splined="1">
+	<skpath from="66" to="67" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="446.79312" Y="-660.0648"/>
 		<pt X="449.4639" Y="-661.62634"/>
 		<pt X="468.10358" Y="-671.9447"/>
 		<pt X="471.27338" Y="-674.01843"/>
 	</skpath>
-	<skpath from="68" to="60" linestyle="wall" splined="1">
+	<skpath from="67" to="59" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="471.27338" Y="-674.01843"/>
 		<pt X="479.7534" Y="-680.266"/>
 	</skpath>
-	<skpath from="68" to="69" linestyle="connective">
+	<skpath from="67" to="68" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="471.27338" Y="-674.01843"/>
 		<pt X="461.1137" Y="-678.93463"/>
 		<pt X="448.46536" Y="-670.61334"/>
 	</skpath>
-	<skpath from="67" to="70" linestyle="connective">
+	<skpath from="66" to="69" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="446.79312" Y="-660.0648"/>
 		<pt X="433.99466" Y="-661.78015"/>
 		<pt X="424.8329" Y="-653.97076"/>
 	</skpath>
-	<skpath from="64" to="71" linestyle="connective">
+	<skpath from="63" to="70" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="406.70728" Y="-609.07654"/>
 		<pt X="411.186" Y="-605.37445"/>
 		<pt X="410.85315" Y="-594.3904"/>
 	</skpath>
-	<skpath from="62" to="72" linestyle="connective">
+	<skpath from="61" to="71" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="404.13535" Y="-584.7588"/>
 		<pt X="408.5232" Y="-566.43085"/>
 		<pt X="405.52753" Y="-553.11676"/>
 	</skpath>
-	<skpath from="58" to="73" linestyle="connective">
+	<skpath from="57" to="72" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="breeze"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="419.50726" Y="-584.4048"/>
 		<pt X="425.16574" Y="-570.75793"/>
 		<pt X="428.49426" Y="-596.72034"/>
 	</skpath>
-	<skpath from="19" to="49" linestyle="invisible" splined="1">
+	<skpath from="17" to="47" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="403.42795" Y="-515.72943"/>
 		<pt X="401.01233" Y="-521.08105"/>
 	</skpath>
-	<skpath from="74" to="49" linestyle="connective">
+	<skpath from="73" to="47" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="1.0">05-03&space;C</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="397.87195" Y="-516.836"/>
 		<pt X="401.01233" Y="-521.08105"/>
 	</skpath>
-	<skpath from="66" to="20" linestyle="connective">
+	<skpath from="65" to="18" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="474.42776" Y="-500.19342"/>
 		<pt X="472.41156" Y="-488.8646" Z="292.36356"/>
 	</skpath>
-	<skpath from="66" to="75" linestyle="connective">
+	<skpath from="65" to="74" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="474.42776" Y="-500.19342"/>
 		<pt X="435.1513" Y="-514.50604"/>
 		<pt X="423.16864" Y="-524.4916"/>
 	</skpath>
-	<skpath from="66" to="76" linestyle="connective">
+	<skpath from="65" to="75" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="474.42776" Y="-500.19342"/>
 		<pt X="469.62057" Y="-494.86603"/>
 		<pt X="454.1238" Y="-502.85623"/>
 	</skpath>
-	<skpath from="21" to="77" linestyle="pitchbound" splined="1">
+	<skpath from="19" to="76" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="517.97845" Y="-475.2595"/>
 		<pt X="527.68396" Y="-479.5566"/>
 		<pt X="537.3367" Y="-480.55518"/>
@@ -644,7 +727,8 @@
 		<pt X="548.6536" Y="-459.9184"/>
 		<pt X="551.3445" Y="-449.07437"/>
 	</skpath>
-	<skpath from="66" to="79" linestyle="wall" splined="1">
+	<skpath from="65" to="77" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="474.42776" Y="-500.19342"/>
 		<pt X="481.08478" Y="-498.52914"/>
 		<pt X="503.7187" Y="-499.86057"/>
@@ -652,28 +736,33 @@
 		<pt X="531.6782" Y="-507.849"/>
 		<pt X="532.49023" Y="-509.46362"/>
 	</skpath>
-	<skpath from="79" to="57" linestyle="connective">
+	<skpath from="77" to="55" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="532.49023" Y="-509.46362"/>
 		<pt X="544.6594" Y="-499.19485" Z="288.55875"/>
 	</skpath>
-	<skpath from="57" to="21" linestyle="connective">
+	<skpath from="55" to="19" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="544.6594" Y="-499.19485" Z="288.55875"/>
 		<pt X="519.3627" Y="-484.5494"/>
 		<pt X="517.97845" Y="-475.2595"/>
 	</skpath>
-	<skpath from="80" to="81" linestyle="connective">
+	<skpath from="78" to="79" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="541.9966" Y="-538.4713"/>
 		<pt X="535.33954" Y="-535.47565"/>
 	</skpath>
-	<skpath from="79" to="82" linestyle="wall" splined="1">
+	<skpath from="77" to="80" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="532.49023" Y="-509.46362"/>
 		<pt X="530.3468" Y="-519.16595"/>
 		<pt X="524.0628" Y="-532.17084"/>
 	</skpath>
-	<skpath from="82" to="56" linestyle="wall" splined="1">
+	<skpath from="80" to="54" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="524.0628" Y="-532.17084"/>
 		<pt X="518.36414" Y="-541.7998"/>
 		<pt X="509.37717" Y="-556.77814"/>
@@ -682,44 +771,51 @@
 		<pt X="494.06598" Y="-599.3831"/>
 		<pt X="496.39594" Y="-602.3788" Z="365.28"/>
 	</skpath>
-	<skpath from="82" to="81" linestyle="invisible" splined="1">
+	<skpath from="80" to="79" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="524.0628" Y="-532.17084"/>
 		<pt X="535.33954" Y="-535.47565"/>
 	</skpath>
-	<skpath from="82" to="83" linestyle="connective">
+	<skpath from="80" to="81" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="524.0628" Y="-532.17084"/>
 		<pt X="510.70856" Y="-561.43805"/>
 		<pt X="521.3598" Y="-565.0994"/>
 	</skpath>
-	<skpath from="82" to="84" linestyle="connective">
+	<skpath from="80" to="82" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="524.0628" Y="-532.17084"/>
 		<pt X="520.6941" Y="-544.46265"/>
 		<pt X="497.72736" Y="-581.4092"/>
 		<pt X="511.37427" Y="-581.742"/>
 	</skpath>
-	<skpath from="21" to="85" linestyle="invisible" splined="1">
+	<skpath from="19" to="83" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="517.97845" Y="-475.2595"/>
 		<pt X="519.3627" Y="-492.205"/>
 		<pt X="540.99805" Y="-502.85623"/>
 		<pt X="548.6536" Y="-518.50024"/>
 	</skpath>
-	<skpath from="86" to="81" linestyle="wall" splined="1">
+	<skpath from="84" to="79" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.1179" Y="-523.6085"/>
 		<pt X="544.99225" Y="-521.82874"/>
 		<pt X="537.6695" Y="-523.82587"/>
 		<pt X="535.33954" Y="-535.47565"/>
 	</skpath>
-	<skpath from="86" to="85" linestyle="invisible" splined="1">
+	<skpath from="84" to="83" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.1179" Y="-523.6085"/>
 		<pt X="548.6536" Y="-518.50024"/>
 	</skpath>
-	<skpath from="81" to="87" linestyle="wall" splined="1">
+	<skpath from="79" to="85" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="535.33954" Y="-535.47565"/>
 		<pt X="537.3367" Y="-546.4598"/>
 		<pt X="543.328" Y="-551.7854"/>
@@ -727,26 +823,31 @@
 		<pt X="552.6478" Y="-538.1385"/>
 		<pt X="552.95526" Y="-531.15375"/>
 	</skpath>
-	<skpath from="87" to="86" linestyle="wall" splined="1">
+	<skpath from="85" to="84" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="552.95526" Y="-531.15375"/>
 		<pt X="551.9821" Y="-527.82007"/>
 		<pt X="549.1179" Y="-523.6085"/>
 	</skpath>
-	<skpath from="87" to="88" linestyle="invisible" splined="1">
+	<skpath from="85" to="86" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="552.95526" Y="-531.15375"/>
 		<pt X="568.6247" Y="-540.46844"/>
 		<pt X="571.28754" Y="-541.467"/>
 	</skpath>
-	<skpath from="78" to="89" linestyle="wall" splined="1">
+	<skpath from="87" to="88" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="595.346" Y="-511.80927"/>
 		<pt X="589.68243" Y="-527.92865"/>
 		<pt X="574.2628" Y="-542.10565"/>
 	</skpath>
-	<skpath from="89" to="88" linestyle="invisible" splined="1">
+	<skpath from="88" to="86" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="574.2628" Y="-542.10565"/>
 		<pt X="571.28754" Y="-541.467"/>
 	</skpath>
-	<skpath from="89" to="90" linestyle="wall" splined="1">
+	<skpath from="88" to="89" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="574.2628" Y="-542.10565"/>
 		<pt X="565.2855" Y="-549.27594"/>
 		<pt X="550.0375" Y="-563.65265"/>
@@ -754,26 +855,30 @@
 		<pt X="549.16614" Y="-588.4852"/>
 		<pt X="549.7361" Y="-594.23535"/>
 	</skpath>
-	<skpath from="90" to="15" linestyle="wall" splined="1">
+	<skpath from="89" to="13" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.7361" Y="-594.23535"/>
 		<pt X="538.1733" Y="-614.5859"/>
 		<pt X="532.16064" Y="-631.6988"/>
 	</skpath>
-	<skpath from="90" to="91" linestyle="connective">
+	<skpath from="89" to="90" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="breeze"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.7361" Y="-594.23535"/>
 		<pt X="555.6435" Y="-584.07196"/>
 		<pt X="557.6406" Y="-603.7102"/>
 	</skpath>
-	<skpath from="61" to="92" linestyle="wall" splined="1">
+	<skpath from="60" to="91" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="515.03564" Y="-616.6914"/>
 		<pt X="527.68396" Y="-612.0315"/>
 		<pt X="537.00385" Y="-602.7116"/>
 		<pt X="540.6305" Y="-594.05096"/>
 	</skpath>
-	<skpath from="92" to="56" linestyle="wall" splined="1">
+	<skpath from="91" to="54" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="540.6305" Y="-594.05096"/>
 		<pt X="540.33234" Y="-590.729"/>
 		<pt X="535.33954" Y="-583.40625"/>
@@ -783,11 +888,13 @@
 		<pt X="502.38727" Y="-606.04016"/>
 		<pt X="496.39594" Y="-602.3788" Z="365.28"/>
 	</skpath>
-	<skpath from="92" to="90" linestyle="invisible" splined="1">
+	<skpath from="91" to="89" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="540.6305" Y="-594.05096"/>
 		<pt X="549.7361" Y="-594.23535"/>
 	</skpath>
-	<skpath from="93" to="93" linestyle="ceilingbound" splined="1">
+	<skpath from="92" to="92" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="458.78375" Y="-770.8016"/>
 		<pt X="450.1296" Y="-773.13153"/>
 		<pt X="445.4697" Y="-761.8146"/>
@@ -798,156 +905,181 @@
 		<pt X="462.4451" Y="-768.4716"/>
 		<pt X="458.78375" Y="-770.8016"/>
 	</skpath>
-	<skpath from="16" to="94" linestyle="wall" splined="1">
+	<skpath from="14" to="93" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="496.08475" Y="-715.4134"/>
 		<pt X="486.372" Y="-748.7142"/>
 		<pt X="481.0547" Y="-766.7964"/>
 	</skpath>
-	<skpath from="94" to="95" linestyle="wall" splined="1">
+	<skpath from="93" to="94" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="481.0547" Y="-766.7964"/>
 		<pt X="478.0468" Y="-773.6898"/>
 		<pt X="462.78394" Y="-794.96533"/>
 		<pt X="445.67102" Y="-806.0656"/>
 	</skpath>
-	<skpath from="94" to="93" linestyle="invisible" splined="1">
+	<skpath from="93" to="92" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="481.0547" Y="-766.7964"/>
 		<pt X="458.78375" Y="-770.8016"/>
 	</skpath>
-	<skpath from="54" to="93" linestyle="connective">
+	<skpath from="52" to="92" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="433.22958" Y="-787.3962" Z="357.08777"/>
 		<pt X="464.4422" Y="-785.1142"/>
 		<pt X="458.78375" Y="-770.8016"/>
 	</skpath>
-	<skpath from="17" to="95" linestyle="detail" splined="1">
+	<skpath from="15" to="94" linestyle="detail" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="425.32053" Y="-798.6654"/>
 		<pt X="434.15274" Y="-799.4268"/>
 		<pt X="445.67102" Y="-806.0656"/>
 	</skpath>
-	<skpath from="17" to="96" linestyle="estwall" splined="1">
+	<skpath from="15" to="95" linestyle="estwall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="425.32053" Y="-798.6654"/>
 		<pt X="425.4986" Y="-808.08093"/>
 		<pt X="422.17007" Y="-818.06647"/>
 	</skpath>
-	<skpath from="95" to="97" linestyle="estwall" splined="1">
+	<skpath from="94" to="96" linestyle="estwall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="445.67102" Y="-806.0656"/>
 		<pt X="438.79468" Y="-813.12585"/>
 		<pt X="432.15564" Y="-821.72784"/>
 	</skpath>
-	<skpath from="96" to="97" linestyle="invisible" splined="1">
+	<skpath from="95" to="96" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="422.17007" Y="-818.06647"/>
 		<pt X="432.15564" Y="-821.72784"/>
 	</skpath>
-	<skpath from="98" to="96" linestyle="connective">
+	<skpath from="97" to="95" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-04&space;D</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="427.82855" Y="-826.72064"/>
 		<pt X="422.17007" Y="-818.06647"/>
 	</skpath>
-	<skpath from="17" to="99" linestyle="connective">
+	<skpath from="15" to="98" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="425.32053" Y="-798.6654"/>
 		<pt X="429.82568" Y="-815.0708"/>
 		<pt X="434.4856" Y="-803.421"/>
 	</skpath>
-	<skpath from="95" to="100" linestyle="connective">
+	<skpath from="94" to="99" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="445.67102" Y="-806.0656"/>
 		<pt X="443.47256" Y="-791.77124"/>
 		<pt X="447.13394" Y="-781.7857"/>
 	</skpath>
-	<skpath from="16" to="101" linestyle="connective">
+	<skpath from="14" to="100" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="496.08475" Y="-715.4134"/>
 		<pt X="485.25284" Y="-701.94464"/>
 		<pt X="466.66605" Y="-739.1182"/>
 	</skpath>
-	<skpath from="31" to="102" linestyle="connective">
+	<skpath from="29" to="101" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="249.01215" Y="-573.7862"/>
 		<pt X="234.1796" Y="-582.5435"/>
 	</skpath>
-	<skpath from="4" to="103" linestyle="connective">
+	<skpath from="3" to="102" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="290.1668" Y="-583.72815" Z="225.69891"/>
 		<pt X="274.7126" Y="-577.3022"/>
 	</skpath>
-	<skpath from="90" to="104" linestyle="connective">
+	<skpath from="89" to="103" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.7361" Y="-594.23535"/>
 		<pt X="543.94794" Y="-589.4457"/>
 	</skpath>
-	<skpath from="60" to="105" linestyle="connective">
+	<skpath from="59" to="104" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="479.7534" Y="-680.266"/>
 		<pt X="465.6878" Y="-681.40137"/>
 	</skpath>
-	<skpath from="21" to="106" linestyle="connective">
+	<skpath from="19" to="105" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="517.97845" Y="-475.2595"/>
 		<pt X="508.7309" Y="-487.70746"/>
 	</skpath>
-	<skpath from="93" to="107" linestyle="connective">
+	<skpath from="92" to="106" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="458.78375" Y="-770.8016"/>
 		<pt X="469.6008" Y="-771.4005"/>
 	</skpath>
-	<skpath from="108" to="107" linestyle="connective">
+	<skpath from="107" to="106" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-05&space;X</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="482.31808" Y="-779.2265"/>
 		<pt X="469.6008" Y="-771.4005"/>
 	</skpath>
-	<skpath from="77" to="109" linestyle="wall" splined="1">
+	<skpath from="76" to="108" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="551.3445" Y="-449.07437"/>
 		<pt X="567.46387" Y="-458.65887"/>
 		<pt X="578.79095" Y="-469.98602"/>
 	</skpath>
-	<skpath from="109" to="78" linestyle="wall" splined="1">
+	<skpath from="108" to="87" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="578.79095" Y="-469.98602"/>
 		<pt X="590.1181" Y="-496.12555"/>
 		<pt X="595.346" Y="-511.80927"/>
 	</skpath>
-	<skpath from="109" to="110" linestyle="connective">
+	<skpath from="108" to="109" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="578.79095" Y="-469.98602"/>
 		<pt X="564.5482" Y="-463.6603"/>
 		<pt X="554.76025" Y="-470.1856"/>
 	</skpath>
-	<skpath from="109" to="111" linestyle="connective">
+	<skpath from="108" to="110" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="578.79095" Y="-469.98602"/>
 		<pt X="577.3965" Y="-482.8808"/>
 		<pt X="562.2177" Y="-485.5667"/>
 	</skpath>
-	<skpath from="77" to="112" linestyle="connective">
+	<skpath from="76" to="111" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="551.3445" Y="-449.07437"/>
 		<pt X="570.6074" Y="-527.9812"/>
 	</skpath>
-	<skpath from="113" to="113" linestyle="pitchbound" splined="1">
+	<skpath from="112" to="112" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="529.5912" Y="-459.46545"/>
 		<pt X="530.98944" Y="-474.84656"/>
 		<pt X="533.786" Y="-479.0414"/>
@@ -957,61 +1089,73 @@
 		<pt X="532.8538" Y="-449.6775"/>
 		<pt X="529.5912" Y="-459.46545"/>
 	</skpath>
-	<skpath from="14" to="114" linestyle="wall" splined="1">
+	<skpath from="12" to="113" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="555.07745" Y="-395.08047"/>
 		<pt X="550.0375" Y="-410.7364"/>
 		<pt X="548.7305" Y="-424.24182"/>
 		<pt X="549.3962" Y="-434.78885"/>
 	</skpath>
-	<skpath from="114" to="77" linestyle="wall" splined="1">
+	<skpath from="113" to="76" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.3962" Y="-434.78885"/>
 		<pt X="551.3445" Y="-449.07437"/>
 	</skpath>
-	<skpath from="114" to="115" linestyle="pitchbound" splined="1">
+	<skpath from="113" to="114" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.3962" Y="-434.78885"/>
 		<pt X="542.6418" Y="-426.8389"/>
 		<pt X="532.8538" Y="-425.9067"/>
 		<pt X="522.13367" Y="-425.44064"/>
 	</skpath>
-	<skpath from="115" to="21" linestyle="wall" splined="1">
+	<skpath from="114" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="522.13367" Y="-425.44064"/>
 		<pt X="522.13367" Y="-443.1522"/>
 		<pt X="521.2015" Y="-462.72812"/>
 		<pt X="517.97845" Y="-475.2595"/>
 	</skpath>
-	<skpath from="21" to="113" linestyle="invisible" splined="1">
+	<skpath from="19" to="112" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="517.97845" Y="-475.2595"/>
 		<pt X="523.99805" Y="-465.0586"/>
 		<pt X="529.5912" Y="-459.46545"/>
 	</skpath>
-	<skpath from="114" to="113" linestyle="connective">
+	<skpath from="113" to="112" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.3962" Y="-434.78885"/>
 		<pt X="533.31995" Y="-438.02515"/>
 		<pt X="529.5912" Y="-459.46545"/>
 	</skpath>
-	<skpath from="114" to="115" linestyle="connective">
+	<skpath from="113" to="114" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="549.3962" Y="-434.78885"/>
 		<pt X="532.8538" Y="-438.95734"/>
 		<pt X="522.13367" Y="-425.44064"/>
 	</skpath>
-	<skpath from="55" to="15" linestyle="connective">
+	<skpath from="53" to="13" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="512.3728" Y="-629.0069" Z="319.0796"/>
 		<pt X="532.16064" Y="-631.6988"/>
 	</skpath>
-	<skpath from="55" to="61" linestyle="connective">
+	<skpath from="53" to="60" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="512.3728" Y="-629.0069" Z="319.0796"/>
 		<pt X="515.03564" Y="-616.6914"/>
 	</skpath>
-	<skpath from="57" to="78" linestyle="connective">
+	<skpath from="55" to="87" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="544.6594" Y="-499.19485" Z="288.55875"/>
 		<pt X="595.346" Y="-511.80927"/>
 	</skpath>
-	<skpath from="116" to="115" linestyle="wall" splined="1">
+	<skpath from="115" to="114" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="516.1163" Y="-387.69562"/>
 		<pt X="519.13403" Y="-406.55652"/>
 		<pt X="522.13367" Y="-425.44064"/>
 	</skpath>
-	<skpath from="117" to="118" linestyle="wall" splined="1">
+	<skpath from="116" to="117" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="500.65033" Y="-255.29193"/>
 		<pt X="501.782" Y="-259.81857"/>
 		<pt X="489.711" Y="-269.24902"/>
@@ -1024,87 +1168,100 @@
 		<pt X="494.99207" Y="-338.65723"/>
 		<pt X="498.38702" Y="-354.5004"/>
 	</skpath>
-	<skpath from="118" to="116" linestyle="wall" splined="1">
+	<skpath from="117" to="115" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="498.38702" Y="-354.5004"/>
 		<pt X="504.42252" Y="-371.098"/>
 		<pt X="512.3441" Y="-380.90567"/>
 		<pt X="516.1163" Y="-387.69562"/>
 	</skpath>
-	<skpath from="116" to="3" linestyle="connective">
+	<skpath from="115" to="56" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="516.1163" Y="-387.69562"/>
 		<pt X="551.5696" Y="-395.08575" Z="292.19528"/>
 	</skpath>
-	<skpath from="3" to="14" linestyle="connective">
+	<skpath from="56" to="12" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="551.5696" Y="-395.08575" Z="292.19528"/>
 		<pt X="555.07745" Y="-395.08047"/>
 	</skpath>
-	<skpath from="3" to="115" linestyle="connective">
+	<skpath from="56" to="114" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="551.5696" Y="-395.08575" Z="292.19528"/>
 		<pt X="522.13367" Y="-425.44064"/>
 	</skpath>
-	<skpath from="119" to="2" linestyle="centreline">
+	<skpath from="118" to="2" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="4" head="3"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="523.66064" Y="-232.65883" Z="254.56097"/>
 		<pt X="381.89145" Y="-176.62506" Z="172.68512"/>
 	</skpath>
-	<skpath from="119" to="3" linestyle="centreline">
+	<skpath from="118" to="56" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="4" head="5"/>
 		</pathcodes>
-		<sketchsubset subname="Hippocratic&space;Oath"/>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="523.66064" Y="-232.65883" Z="254.56097"/>
 		<pt X="551.5696" Y="-395.08575" Z="292.19528"/>
 	</skpath>
-	<skpath from="119" to="117" linestyle="connective">
+	<skpath from="118" to="116" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="523.66064" Y="-232.65883" Z="254.56097"/>
 		<pt X="500.65033" Y="-255.29193"/>
 	</skpath>
-	<skpath from="118" to="120" linestyle="connective">
+	<skpath from="117" to="119" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="breeze"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="498.38702" Y="-354.5004"/>
 		<pt X="487.82492" Y="-345.06992"/>
 		<pt X="491.5971" Y="-371.098"/>
 	</skpath>
-	<skpath from="115" to="121" linestyle="connective">
+	<skpath from="114" to="120" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="stream"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="522.13367" Y="-425.44064"/>
 		<pt X="570.05853" Y="-437.86566"/>
 		<pt X="553.83813" Y="-440.12897"/>
 	</skpath>
-	<skpath from="10" to="11" linestyle="invisible" splined="1">
+	<skpath from="121" to="9" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="538.8352" Y="-198.94757"/>
 		<pt X="568.76434" Y="-211.51482"/>
 	</skpath>
-	<skpath from="122" to="113" linestyle="connective">
+	<skpath from="122" to="112" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">05-06&space;B</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="512.3441" Y="-454.08606"/>
 		<pt X="529.5912" Y="-459.46545"/>
 	</skpath>
-	<skpath from="11" to="119" linestyle="connective">
+	<skpath from="9" to="118" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="568.76434" Y="-211.51482"/>
 		<pt X="546.29376" Y="-215.684"/>
 		<pt X="523.66064" Y="-232.65883" Z="254.56097"/>
 	</skpath>
-	<skpath from="13" to="119" linestyle="connective">
+	<skpath from="11" to="118" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="618.68134" Y="-260.62668"/>
 		<pt X="594.57776" Y="-250.01088"/>
 		<pt X="523.66064" Y="-232.65883" Z="254.56097"/>
 	</skpath>
-	<skpath from="12" to="13" linestyle="pitchbound" splined="1">
+	<skpath from="10" to="11" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="620.2915" Y="-246.13466"/>
 		<pt X="617.5881" Y="-253.40585"/>
 		<pt X="618.68134" Y="-260.62668"/>
 	</skpath>
 	<skpath from="123" to="123" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="355.79846" Y="-200.21805"/>
 		<pt X="358.06177" Y="-203.99023"/>
 		<pt X="387.86203" Y="-215.684"/>
@@ -1114,6 +1271,7 @@
 		<pt X="355.79846" Y="-200.21805"/>
 	</skpath>
 	<skpath from="124" to="124" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="468.58676" Y="-201.72691"/>
 		<pt X="472.35895" Y="-205.87633"/>
 		<pt X="473.49063" Y="-209.27129"/>
@@ -1125,34 +1283,39 @@
 		<pt X="470.09564" Y="-198.70917"/>
 		<pt X="468.58676" Y="-201.72691"/>
 	</skpath>
-	<skpath from="123" to="126" linestyle="connective">
+	<skpath from="123" to="125" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="355.79846" Y="-200.21805"/>
 		<pt X="363.72006" Y="-203.2358"/>
 	</skpath>
-	<skpath from="124" to="127" linestyle="connective">
+	<skpath from="124" to="126" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="468.58676" Y="-201.72691"/>
 		<pt X="473.86783" Y="-202.10414"/>
 	</skpath>
-	<skpath from="125" to="128" linestyle="connective">
+	<skpath from="127" to="128" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="385.2215" Y="-172.30388"/>
 		<pt X="382.9582" Y="-168.5317"/>
 	</skpath>
-	<skpath from="9" to="129" linestyle="wall" splined="1">
+	<skpath from="8" to="129" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="391.9213" Y="-131.18575"/>
 		<pt X="437.73175" Y="-139.74883"/>
 		<pt X="466.3334" Y="-151.05646"/>
 		<pt X="488.37308" Y="-166.535"/>
 	</skpath>
-	<skpath from="129" to="10" linestyle="wall" splined="1">
+	<skpath from="129" to="121" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="488.37308" Y="-166.535"/>
 		<pt X="501.58658" Y="-177.66263"/>
 		<pt X="517.5503" Y="-197.61726"/>
@@ -1160,7 +1323,8 @@
 		<pt X="530.18823" Y="-214.91129"/>
 		<pt X="538.8352" Y="-198.94757"/>
 	</skpath>
-	<skpath from="125" to="130" linestyle="wall" splined="1">
+	<skpath from="127" to="130" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="385.2215" Y="-172.30388"/>
 		<pt X="405.5913" Y="-178.7166"/>
 		<pt X="427.09274" Y="-187.39262"/>
@@ -1170,11 +1334,13 @@
 		<pt X="450.5841" Y="-190.23846"/>
 	</skpath>
 	<skpath from="130" to="129" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="450.5841" Y="-190.23846"/>
 		<pt X="473.91635" Y="-188.3074"/>
 		<pt X="488.37308" Y="-166.535"/>
 	</skpath>
 	<skpath from="130" to="131" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="450.5841" Y="-190.23846"/>
 		<pt X="448.5942" Y="-186.63818"/>
 		<pt X="442.1815" Y="-182.48878"/>
@@ -1184,7 +1350,8 @@
 		<pt X="361.45673" Y="-150.80243"/>
 		<pt X="341.57288" Y="-145.66151"/>
 	</skpath>
-	<skpath from="131" to="125" linestyle="wall" splined="1">
+	<skpath from="131" to="127" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="341.57288" Y="-145.66151"/>
 		<pt X="338.82364" Y="-145.14415"/>
 		<pt X="318.83105" Y="-142.88084"/>
@@ -1201,12 +1368,14 @@
 		<pt X="373.90494" Y="-169.66336"/>
 		<pt X="385.2215" Y="-172.30388"/>
 	</skpath>
-	<skpath from="131" to="9" linestyle="invisible" splined="1">
+	<skpath from="131" to="8" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="341.57288" Y="-145.66151"/>
 		<pt X="362.8614" Y="-133.03348"/>
 		<pt X="391.9213" Y="-131.18575"/>
 	</skpath>
-	<skpath from="117" to="132" linestyle="wall" splined="1">
+	<skpath from="116" to="132" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="500.65033" Y="-255.29193"/>
 		<pt X="492.67905" Y="-246.62393"/>
 		<pt X="465.29565" Y="-232.42513"/>
@@ -1219,6 +1388,7 @@
 		<pt X="344.0987" Y="-198.95651"/>
 	</skpath>
 	<skpath from="132" to="133" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="344.0987" Y="-198.95651"/>
 		<pt X="331.92828" Y="-197.9423"/>
 		<pt X="312.15137" Y="-197.43521"/>
@@ -1228,14 +1398,17 @@
 		<pt X="199.57512" Y="-175.6299"/>
 	</skpath>
 	<skpath from="132" to="123" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="344.0987" Y="-198.95651"/>
 		<pt X="355.79846" Y="-200.21805"/>
 	</skpath>
 	<skpath from="124" to="130" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="468.58676" Y="-201.72691"/>
 		<pt X="450.5841" Y="-190.23846"/>
 	</skpath>
 	<skpath from="133" to="134" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="199.57512" Y="-175.6299"/>
 		<pt X="197.54672" Y="-179.1796"/>
 		<pt X="211.74553" Y="-200.98491"/>
@@ -1243,7 +1416,8 @@
 		<pt X="239.12894" Y="-230.39673"/>
 		<pt X="246.22835" Y="-242.56712"/>
 	</skpath>
-	<skpath from="137" to="137" linestyle="wall" splined="1">
+	<skpath from="135" to="135" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="133.14499" Y="-155.34589"/>
 		<pt X="134.1592" Y="-163.45949"/>
 		<pt X="144.8083" Y="-173.6015"/>
@@ -1255,22 +1429,26 @@
 		<pt X="140.2444" Y="-157.8814"/>
 		<pt X="133.14499" Y="-155.34589"/>
 	</skpath>
-	<skpath from="136" to="137" linestyle="pitchbound" splined="1">
+	<skpath from="136" to="135" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="115.90359" Y="-146.2181"/>
 		<pt X="126.04559" Y="-148.24649"/>
 		<pt X="133.14499" Y="-155.34589"/>
 	</skpath>
-	<skpath from="135" to="138" linestyle="estwall" splined="1">
+	<skpath from="137" to="138" linestyle="estwall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="228.98694" Y="-236.98903"/>
 		<pt X="235.57924" Y="-249.15944"/>
 		<pt X="239.63605" Y="-255.75174"/>
 	</skpath>
 	<skpath from="134" to="139" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="246.22835" Y="-242.56712"/>
 		<pt X="250.79225" Y="-249.15944"/>
 		<pt X="252.31355" Y="-253.21623"/>
 	</skpath>
 	<skpath from="138" to="139" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="239.63605" Y="-255.75174"/>
 		<pt X="252.31355" Y="-253.21623"/>
 	</skpath>
@@ -1278,17 +1456,20 @@
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-07&space;C</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="250.79225" Y="-260.31564"/>
 		<pt X="239.63605" Y="-255.75174"/>
 	</skpath>
-	<skpath from="141" to="137" linestyle="connective">
+	<skpath from="141" to="135" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="147.8509" Y="-169.0376"/>
 		<pt X="133.14499" Y="-155.34589"/>
 	</skpath>
 	<skpath from="1" to="142" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="0.0" Y="-0.0" Z="0.0"/>
 		<pt X="-8.843066" Y="-8.286827"/>
 		<pt X="-17.970871" Y="-21.471432"/>
@@ -1298,10 +1479,12 @@
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="1.0">p4</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="3.834439" Y="5.404879"/>
 		<pt X="0.0" Y="-0.0" Z="0.0"/>
 	</skpath>
-	<skpath from="135" to="144" linestyle="wall" splined="1">
+	<skpath from="137" to="144" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="228.98694" Y="-236.98903"/>
 		<pt X="223.40883" Y="-226.84702"/>
 		<pt X="212.25262" Y="-215.69081"/>
@@ -1312,6 +1495,7 @@
 		<pt X="156.9029" Y="-195.89621"/>
 	</skpath>
 	<skpath from="144" to="136" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="156.9029" Y="-195.89621"/>
 		<pt X="144.3012" Y="-192.8713"/>
 		<pt X="130.6095" Y="-182.72931"/>
@@ -1323,27 +1507,32 @@
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="-1.0">c3</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="159.5142" Y="-201.99911"/>
 		<pt X="156.9029" Y="-195.89621"/>
 	</skpath>
 	<skpath from="136" to="0" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="115.90359" Y="-146.2181"/>
 		<pt X="133.6521" Y="-129.99088"/>
 		<pt X="159.8244" Y="-129.42325" Z="25.25133"/>
 	</skpath>
-	<skpath from="0" to="8" linestyle="connective">
+	<skpath from="0" to="7" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="159.8244" Y="-129.42325" Z="25.25133"/>
 		<pt X="180.30531" Y="-121.87727"/>
 		<pt X="174.27498" Y="-111.33483"/>
 	</skpath>
 	<skpath from="1" to="146" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="0.0" Y="-0.0" Z="0.0"/>
 		<pt X="21.544617" Y="-16.344"/>
 		<pt X="49.483097" Y="-33.10709"/>
 		<pt X="72.76517" Y="-49.87018"/>
 		<pt X="89.52825" Y="-61.976852"/>
 	</skpath>
-	<skpath from="146" to="8" linestyle="wall" splined="1">
+	<skpath from="146" to="7" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="89.52825" Y="-61.976852"/>
 		<pt X="103.49749" Y="-74.08353"/>
 		<pt X="128.64212" Y="-88.052765"/>
@@ -1351,12 +1540,14 @@
 		<pt X="174.27498" Y="-111.33483"/>
 	</skpath>
 	<skpath from="147" to="136" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="59.58617" Y="-117.39593"/>
 		<pt X="85.98467" Y="-126.94828"/>
 		<pt X="108.804184" Y="-138.10448"/>
 		<pt X="115.90359" Y="-146.2181"/>
 	</skpath>
 	<skpath from="147" to="146" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="59.58617" Y="-117.39593"/>
 		<pt X="75.33557" Y="-92.972565"/>
 		<pt X="89.52825" Y="-61.976852"/>
@@ -1366,6 +1557,7 @@
 			<pcsymbol rname="10boulder"/>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="0.0" Y="-0.0" Z="0.0"/>
 		<pt X="20.568747" Y="-64.57495"/>
 	</skpath>
@@ -1373,10 +1565,12 @@
 		<pathcodes>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="59.58617" Y="-117.39593"/>
 		<pt X="87.505974" Y="-110.72107"/>
 	</skpath>
 	<skpath from="150" to="150" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="94.60538" Y="-85.36606"/>
 		<pt X="107.789986" Y="-87.39446"/>
 		<pt X="120.97459" Y="-93.47967"/>
@@ -1387,10 +1581,12 @@
 		<pt X="94.60538" Y="-85.36606"/>
 	</skpath>
 	<skpath from="146" to="150" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="89.52825" Y="-61.976852"/>
 		<pt X="94.60538" Y="-85.36606"/>
 	</skpath>
 	<skpath from="150" to="151" linestyle="connective">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="94.60538" Y="-85.36606"/>
 		<pt X="109.81838" Y="-92.972565"/>
 		<pt X="111.33968" Y="-86.380264"/>
@@ -1399,10 +1595,12 @@
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-08&space;X</pctext>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="116.41069" Y="-71.674355"/>
 		<pt X="111.33968" Y="-86.380264"/>
 	</skpath>
 	<skpath from="142" to="153" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="-26.591574" Y="-33.641838"/>
 		<pt X="-18.985071" Y="-50.883244"/>
 		<pt X="-11.378568" Y="-71.674355"/>
@@ -1410,6 +1608,7 @@
 		<pt X="25.75003" Y="-104.38428"/>
 	</skpath>
 	<skpath from="153" to="147" linestyle="wall" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="25.75003" Y="-104.38428"/>
 		<pt X="52.51606" Y="-114.77787"/>
 		<pt X="59.58617" Y="-117.39593"/>
@@ -1418,12 +1617,14 @@
 		<pathcodes>
 			<pcsymbol rname="stream"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="25.75003" Y="-104.38428"/>
 		<pt X="26.146849" Y="-100.07197"/>
 		<pt X="17.526144" Y="-116.29917"/>
 		<pt X="21.075846" Y="-107.67847"/>
 	</skpath>
 	<skpath from="150" to="146" linestyle="invisible" splined="1">
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="94.60538" Y="-85.36606"/>
 		<pt X="90.54858" Y="-80.29506"/>
 		<pt X="89.52825" Y="-61.976852"/>
@@ -1432,6 +1633,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="-26.591574" Y="-33.641838"/>
 		<pt X="7.8912406" Y="-72.68855"/>
 		<pt X="2.8202386" Y="-76.74535"/>
@@ -1441,6 +1643,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="-26.591574" Y="-33.641838"/>
 		<pt X="15.497744" Y="-36.177338"/>
 		<pt X="4.3415394" Y="-26.542435"/>
@@ -1449,6 +1652,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="89.52825" Y="-61.976852"/>
 		<pt X="73.81427" Y="-78.266655"/>
 		<pt X="63.165165" Y="-70.15305"/>
@@ -1457,6 +1661,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="59.58617" Y="-117.39593"/>
 		<pt X="73.81427" Y="-108.69267"/>
 		<pt X="65.193565" Y="-104.12877"/>
@@ -1465,22 +1670,25 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="115.90359" Y="-146.2181"/>
 		<pt X="141.7657" Y="-139.11868"/>
 		<pt X="131.62369" Y="-132.52638"/>
 	</skpath>
-	<skpath from="8" to="160" linestyle="connective">
+	<skpath from="7" to="160" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="174.27498" Y="-111.33483"/>
 		<pt X="149.8793" Y="-114.270775"/>
 		<pt X="135.6805" Y="-108.69267"/>
 	</skpath>
-	<skpath from="135" to="161" linestyle="connective">
+	<skpath from="137" to="161" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="228.98694" Y="-236.98903"/>
 		<pt X="231.01534" Y="-229.88962"/>
 		<pt X="220.87334" Y="-217.21211"/>
@@ -1489,6 +1697,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="199.57512" Y="-175.6299"/>
 		<pt X="192.47572" Y="-173.6015"/>
 		<pt X="190.44733" Y="-187.80031"/>
@@ -1498,16 +1707,18 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="115.90359" Y="-146.2181"/>
 		<pt X="120.46749" Y="-150.78198"/>
 		<pt X="128.5811" Y="-168.5305"/>
 		<pt X="125.53849" Y="-158.8956"/>
 	</skpath>
-	<skpath from="9" to="164" linestyle="connective">
+	<skpath from="8" to="164" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="5bigboulder"/>
 			<pcsymbol rname="mud"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="391.9213" Y="-131.18575"/>
 		<pt X="418.1353" Y="-155.853"/>
 	</skpath>
@@ -1515,6 +1726,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="341.57288" Y="-145.66151"/>
 		<pt X="297.95258" Y="-125.934074"/>
 		<pt X="276.65436" Y="-124.919876"/>
@@ -1523,6 +1735,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="344.0987" Y="-198.95651"/>
 		<pt X="300.99518" Y="-176.137"/>
 		<pt X="283.24667" Y="-172.5873"/>
@@ -1531,6 +1744,7 @@
 		<pathcodes>
 			<pcsymbol rname="breeze"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="344.0987" Y="-198.95651"/>
 		<pt X="351.7052" Y="-194.8997"/>
 		<pt X="358.2975" Y="-229.38252"/>
@@ -1540,6 +1754,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="450.5841" Y="-190.23846"/>
 		<pt X="474.42343" Y="-178.1654"/>
 		<pt X="460.22464" Y="-171.5731"/>
@@ -1548,6 +1763,7 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="450.5841" Y="-190.23846"/>
 		<pt X="454.64655" Y="-218.73341"/>
 		<pt X="425.74182" Y="-206.05591"/>
@@ -1556,30 +1772,34 @@
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="381.89145" Y="-176.62506" Z="172.68512"/>
 		<pt X="367.9324" Y="-186.279"/>
 		<pt X="347.1413" Y="-182.2222"/>
 	</skpath>
-	<skpath from="116" to="171" linestyle="connective">
+	<skpath from="115" to="171" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="516.1163" Y="-387.69562"/>
 		<pt X="526.14764" Y="-377.45578"/>
 		<pt X="524.62634" Y="-364.27118"/>
 	</skpath>
-	<skpath from="116" to="172" linestyle="connective">
+	<skpath from="115" to="172" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="516.1163" Y="-387.69562"/>
 		<pt X="544.9104" Y="-343.48007"/>
 		<pt X="542.88196" Y="-330.80258"/>
 	</skpath>
-	<skpath from="116" to="173" linestyle="connective">
+	<skpath from="115" to="173" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="516.1163" Y="-387.69562"/>
 		<pt X="520.06244" Y="-304.94046"/>
 		<pt X="518.54114" Y="-291.75586"/>
@@ -1588,6 +1808,7 @@
 		<pathcodes>
 			<pcsymbol rname="breeze"/>
 		</pathcodes>
+		<sketchsubset subname="hippocratic1"/>
 		<pt X="89.52825" Y="-61.976852"/>
 		<pt X="53.64203" Y="-49.292248"/>
 		<pt X="21.148664" Y="-6.9524064"/>

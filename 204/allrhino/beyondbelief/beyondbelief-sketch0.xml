@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<sketch splined="0">
+	<affinetrans aftrm00="0.6250511250143597" aftrm01="0.2876993020293569" aftrm10="-0.2876993020293569" aftrm11="0.6250511250143597" aftrm20="-110.59507389494365" aftrm21="-123.9424274361304">
+		<backimage imgfile="../../../../2005/2005#09/plan.jpg" selected="1"/>
+	</affinetrans>
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="2" head="1"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="53.261406" Y="24.8362" Z="9.30785"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="2" to="0" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="3" head="2"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="82.25448" Y="38.97707" Z="13.268604"/>
+		<pt X="53.261406" Y="24.8362" Z="9.30785"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="3" head="4"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="82.25448" Y="38.97707" Z="13.268604"/>
+		<pt X="82.25448" Y="38.97707" Z="16.268604"/>
+	</skpath>
+	<skpath from="4" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="5" head="4"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="70.37163" Y="77.84412" Z="3.8428068"/>
+		<pt X="82.25448" Y="38.97707" Z="16.268604"/>
+	</skpath>
+	<skpath from="5" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="6" head="5"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="72.84483" Y="85.9336" Z="6.2684155"/>
+		<pt X="70.37163" Y="77.84412" Z="3.8428068"/>
+	</skpath>
+	<skpath from="6" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="7" head="6"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="67.23365" Y="139.3204" Z="-14.337742"/>
+		<pt X="72.84483" Y="85.9336" Z="6.2684155"/>
+	</skpath>
+	<skpath from="7" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="8" head="7"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="77.620056" Y="159.70488" Z="-7.7775726"/>
+		<pt X="67.23365" Y="139.3204" Z="-14.337742"/>
+	</skpath>
+	<skpath from="8" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="9" head="8"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="76.35055" Y="171.78342" Z="-4.064452"/>
+		<pt X="77.620056" Y="159.70488" Z="-7.7775726"/>
+	</skpath>
+	<skpath from="9" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="10" head="9"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="86.32564" Y="189.06076" Z="-1.6148787"/>
+		<pt X="76.35055" Y="171.78342" Z="-4.064452"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="10" head="11"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="86.32564" Y="189.06076" Z="-1.6148787"/>
+		<pt X="91.56636" Y="226.35046" Z="-4.9093657"/>
+	</skpath>
+	<skpath from="11" to="12" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="4.8038616" Y="-25.029528"/>
+		<pt X="0.5184429" Y="-14.583819"/>
+		<pt X="-2.96346" Y="-5.745143"/>
+	</skpath>
+	<skpath from="12" to="13" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="-2.96346" Y="-5.745143"/>
+		<pt X="-2.96346" Y="1.75434"/>
+		<pt X="2.6611524" Y="6.039759"/>
+		<pt X="15.785248" Y="10.860855"/>
+		<pt X="34.801796" Y="18.360338"/>
+	</skpath>
+	<skpath from="14" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="12.035506" Y="-18.33356"/>
+		<pt X="8.553603" Y="-10.030561"/>
+		<pt X="7.21441" Y="-6.2808204"/>
+	</skpath>
+	<skpath from="15" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="7.21441" Y="-6.2808204"/>
+		<pt X="9.35712" Y="-3.334595"/>
+		<pt X="16.856602" Y="0.147308"/>
+		<pt X="26.766634" Y="3.8970497"/>
+	</skpath>
+	<skpath from="12" to="15" linestyle="detail" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="-2.96346" Y="-5.745143"/>
+		<pt X="0.12722248" Y="-8.208399"/>
+		<pt X="2.8043258" Y="-7.910943"/>
+		<pt X="7.21441" Y="-6.2808204"/>
+	</skpath>
+	<skpath from="16" to="13" linestyle="detail" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="26.766634" Y="3.8970497"/>
+		<pt X="31.360094" Y="7.8542204"/>
+		<pt X="33.14483" Y="10.233868"/>
+		<pt X="34.63211" Y="13.505883"/>
+		<pt X="34.801796" Y="18.360338"/>
+	</skpath>
+	<skpath from="12" to="17" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="puddle"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="-2.96346" Y="-5.745143"/>
+		<pt X="7.8610764" Y="-1.9618248"/>
+	</skpath>
+	<skpath from="18" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="78.27067" Y="43.843723"/>
+		<pt X="75.38357" Y="53.95989"/>
+		<pt X="72.40901" Y="64.96576"/>
+		<pt X="68.83954" Y="77.16145"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="detail" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="68.83954" Y="77.16145"/>
+		<pt X="72.40901" Y="71.50979"/>
+		<pt X="76.573395" Y="70.61742"/>
+		<pt X="78.65559" Y="68.23777"/>
+		<pt X="78.95304" Y="64.668304"/>
+		<pt X="78.35813" Y="57.529358"/>
+		<pt X="78.95304" Y="48.01077"/>
+		<pt X="78.27067" Y="43.843723"/>
+	</skpath>
+	<skpath from="20" to="21" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="83.81628" Y="70.321045"/>
+		<pt X="81.91528" Y="72.88536"/>
+		<pt X="76.38994" Y="74.50253"/>
+		<pt X="74.907524" Y="77.063065"/>
+		<pt X="74.503235" Y="79.62359"/>
+		<pt X="77.468056" Y="84.34035"/>
+		<pt X="76.524704" Y="88.78758"/>
+		<pt X="76.12041" Y="103.746445"/>
+		<pt X="73.55988" Y="112.10185"/>
+		<pt X="74.09894" Y="117.22291"/>
+		<pt X="69.11265" Y="133.39465"/>
+	</skpath>
+	<skpath from="19" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="68.83954" Y="77.16145"/>
+		<pt X="68.97788" Y="82.85794"/>
+		<pt X="70.72983" Y="88.51805"/>
+		<pt X="70.056" Y="94.44769"/>
+		<pt X="70.4603" Y="99.83827"/>
+		<pt X="69.65171" Y="106.30698"/>
+		<pt X="68.30406" Y="109.13703"/>
+		<pt X="68.70836" Y="113.85379"/>
+		<pt X="69.11265" Y="117.89673"/>
+		<pt X="65.60877" Y="125.03925"/>
+		<pt X="64.66542" Y="132.31654"/>
+		<pt X="61.16154" Y="138.92"/>
+	</skpath>
+	<skpath from="23" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="85.76219" Y="43.70856"/>
+		<pt X="85.155464" Y="46.75124"/>
+		<pt X="83.280594" Y="52.91153"/>
+		<pt X="83.81628" Y="60.94669"/>
+		<pt X="83.81628" Y="70.321045"/>
+	</skpath>
+	<skpath from="23" to="24" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="breeze"/>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="85.76219" Y="43.70856"/>
+		<pt X="81.950516" Y="46.184208"/>
+		<pt X="93.388466" Y="63.34113"/>
+		<pt X="94.87116" Y="45.12514"/>
+	</skpath>
+	<skpath from="25" to="26" linestyle="estwall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="96.09158" Y="227.32838"/>
+		<pt X="97.62474" Y="236.39304"/>
+	</skpath>
+	<skpath from="27" to="28" linestyle="estwall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="88.72856" Y="238.51117"/>
+		<pt X="87.24586" Y="227.92049"/>
+	</skpath>
+	<skpath from="28" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="87.24586" Y="227.92049"/>
+		<pt X="86.822235" Y="219.23611"/>
+		<pt X="85.55135" Y="206.95091"/>
+		<pt X="81.526886" Y="191.48851"/>
+	</skpath>
+	<skpath from="22" to="30" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="61.16154" Y="138.92"/>
+		<pt X="61.40457" Y="142.98314"/>
+		<pt X="65.42903" Y="150.1848"/>
+		<pt X="72.41889" Y="158.02191"/>
+		<pt X="73.47796" Y="159.92824"/>
+		<pt X="69.241684" Y="163.10545"/>
+	</skpath>
+	<skpath from="30" to="31" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="69.241684" Y="163.10545"/>
+		<pt X="71.57164" Y="170.51894"/>
+		<pt X="75.384285" Y="175.60246"/>
+		<pt X="78.56149" Y="184.07501"/>
+	</skpath>
+	<skpath from="21" to="32" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="69.11265" Y="133.39465"/>
+		<pt X="69.4535" Y="135.78146"/>
+		<pt X="76.86698" Y="145.73671"/>
+		<pt X="83.85684" Y="157.17467"/>
+		<pt X="81.950516" Y="166.07085"/>
+		<pt X="81.149574" Y="167.50056"/>
+	</skpath>
+	<skpath from="32" to="30" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="81.149574" Y="167.50056"/>
+		<pt X="69.241684" Y="163.10545"/>
+	</skpath>
+	<skpath from="29" to="31" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="81.526886" Y="191.48851"/>
+		<pt X="78.56149" Y="184.07501"/>
+	</skpath>
+	<skpath from="27" to="26" linestyle="invisible" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="88.72856" Y="238.51117"/>
+		<pt X="97.62474" Y="236.39304"/>
+	</skpath>
+	<skpath from="33" to="19" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="1.0" nodeposyrel="0.0">Beyond&space;Belief</pctext>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="48.456047" Y="81.16949"/>
+		<pt X="68.83954" Y="77.16145"/>
+	</skpath>
+	<skpath from="12" to="1" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="-2.96346" Y="-5.745143"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="1" to="15" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+		<pt X="7.21441" Y="-6.2808204"/>
+	</skpath>
+	<skpath from="16" to="34" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="26.766634" Y="3.8970497"/>
+		<pt X="34.266117" Y="8.182468"/>
+		<pt X="46.31886" Y="14.07492"/>
+		<pt X="58.371597" Y="20.503048"/>
+	</skpath>
+	<skpath from="34" to="23" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="58.371597" Y="20.503048"/>
+		<pt X="76.85247" Y="31.216595"/>
+		<pt X="84.61979" Y="36.841206"/>
+		<pt X="85.69115" Y="40.05527"/>
+		<pt X="85.76219" Y="43.70856"/>
+	</skpath>
+	<skpath from="34" to="0" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="58.371597" Y="20.503048"/>
+		<pt X="53.261406" Y="24.8362" Z="9.30785"/>
+	</skpath>
+	<skpath from="13" to="35" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="34.801796" Y="18.360338"/>
+		<pt X="42.960876" Y="21.537193"/>
+		<pt X="55.49659" Y="27.92331"/>
+	</skpath>
+	<skpath from="35" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="55.49659" Y="27.92331"/>
+		<pt X="56.941303" Y="28.676134"/>
+		<pt X="76.27594" Y="38.789635"/>
+		<pt X="77.763214" Y="40.57437"/>
+		<pt X="78.27067" Y="43.843723"/>
+	</skpath>
+	<skpath from="35" to="0" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="55.49659" Y="27.92331"/>
+		<pt X="53.261406" Y="24.8362" Z="9.30785"/>
+	</skpath>
+	<skpath from="3" to="18" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="82.25448" Y="38.97707" Z="16.268604"/>
+		<pt X="78.27067" Y="43.843723"/>
+	</skpath>
+	<skpath from="3" to="23" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="82.25448" Y="38.97707" Z="16.268604"/>
+		<pt X="85.76219" Y="43.70856"/>
+	</skpath>
+	<skpath from="19" to="4" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="68.83954" Y="77.16145"/>
+		<pt X="70.37163" Y="77.84412" Z="3.8428068"/>
+	</skpath>
+	<skpath from="4" to="20" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="70.37163" Y="77.84412" Z="3.8428068"/>
+		<pt X="83.81628" Y="70.321045"/>
+	</skpath>
+	<skpath from="21" to="6" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="69.11265" Y="133.39465"/>
+		<pt X="67.23365" Y="139.3204" Z="-14.337742"/>
+	</skpath>
+	<skpath from="22" to="6" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="61.16154" Y="138.92"/>
+		<pt X="67.23365" Y="139.3204" Z="-14.337742"/>
+	</skpath>
+	<skpath from="30" to="7" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="69.241684" Y="163.10545"/>
+		<pt X="77.620056" Y="159.70488" Z="-7.7775726"/>
+	</skpath>
+	<skpath from="7" to="32" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="77.620056" Y="159.70488" Z="-7.7775726"/>
+		<pt X="81.149574" Y="167.50056"/>
+	</skpath>
+	<skpath from="31" to="9" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="78.56149" Y="184.07501"/>
+		<pt X="86.32564" Y="189.06076" Z="-1.6148787"/>
+	</skpath>
+	<skpath from="9" to="29" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="86.32564" Y="189.06076" Z="-1.6148787"/>
+		<pt X="81.526886" Y="191.48851"/>
+	</skpath>
+	<skpath from="32" to="36" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="81.149574" Y="167.50056"/>
+		<pt X="80.04419" Y="169.8835"/>
+		<pt X="84.704094" Y="176.87335"/>
+		<pt X="92.32939" Y="187.25223"/>
+		<pt X="93.21732" Y="188.97324"/>
+	</skpath>
+	<skpath from="36" to="25" linestyle="wall" splined="1">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="93.21732" Y="188.97324"/>
+		<pt X="96.142044" Y="199.32562"/>
+		<pt X="94.23572" Y="208.00998"/>
+		<pt X="94.44753" Y="214.57622"/>
+		<pt X="96.09158" Y="227.32838"/>
+	</skpath>
+	<skpath from="36" to="9" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="93.21732" Y="188.97324"/>
+		<pt X="86.32564" Y="189.06076" Z="-1.6148787"/>
+	</skpath>
+	<skpath from="28" to="10" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="87.24586" Y="227.92049"/>
+		<pt X="91.56636" Y="226.35046" Z="-4.9093657"/>
+	</skpath>
+	<skpath from="10" to="25" linestyle="connective">
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="91.56636" Y="226.35046" Z="-4.9093657"/>
+		<pt X="96.09158" Y="227.32838"/>
+	</skpath>
+	<skpath from="37" to="32" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">c1</pctext>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="89.61967" Y="168.7981"/>
+		<pt X="81.149574" Y="167.50056"/>
+	</skpath>
+	<skpath from="38" to="29" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="1.0">c1</pctext>
+		</pathcodes>
+		<sketchsubset subname="beyondbelief1"/>
+		<pt X="78.081375" Y="199.35898"/>
+		<pt X="81.526886" Y="191.48851"/>
+	</skpath>
+</sketch>
+</tunnelxml>

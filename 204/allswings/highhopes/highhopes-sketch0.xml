@@ -1,0 +1,658 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<sketch splined="0">
+	<affinetrans aftrm00="-0.003351793050761667" aftrm01="-0.6939213261766078" aftrm10="0.6939213261766078" aftrm11="-0.003351793050761667" aftrm20="-564.0569480057684" aftrm21="780.7641726475997">
+		<backimage imgfile="../../../../2005/2005#01/highhopesplan.jpg" selected="1"/>
+	</affinetrans>
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="1" head="2"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="12.784791" Y="39.34754" Z="-52.954323"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="2" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="3" head="2"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-0.15661398" Y="-8.972408" Z="-5.8276377"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="3" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="4" head="3"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-22.33368" Y="-41.851257" Z="-18.713648"/>
+		<pt X="-0.15661398" Y="-8.972408" Z="-5.8276377"/>
+	</skpath>
+	<skpath from="4" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="5" head="4"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-29.703442" Y="-126.08801" Z="-58.14393"/>
+		<pt X="-22.33368" Y="-41.851257" Z="-18.713648"/>
+	</skpath>
+	<skpath from="5" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="6" head="5"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-3.5194016" Y="-171.4401" Z="-59.972664"/>
+		<pt X="-29.703442" Y="-126.08801" Z="-58.14393"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="6" head="7"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-3.5194016" Y="-171.4401" Z="-59.972664"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-88.42933"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="7" head="8"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-88.42933"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-124.42932"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="8" head="9"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-124.42932"/>
+		<pt X="3.9386916" Y="-250.16187" Z="-144.03882"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="9" head="10"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="3.9386916" Y="-250.16187" Z="-144.03882"/>
+		<pt X="-8.525055" Y="-260.62018" Z="-125.32202"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="10" head="11"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-8.525055" Y="-260.62018" Z="-125.32202"/>
+		<pt X="-35.193867" Y="-284.63287" Z="-84.0394"/>
+	</skpath>
+	<skpath from="14" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-63.944096" Y="-88.01815"/>
+		<pt X="-57.382103" Y="-97.10399"/>
+		<pt X="-41.73428" Y="-109.21843"/>
+		<pt X="-34.16275" Y="-128.9044"/>
+	</skpath>
+	<skpath from="12" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.010153" Y="-97.60876"/>
+		<pt X="-10.438624" Y="-117.29473"/>
+		<pt X="-7.4100122" Y="-130.92348"/>
+	</skpath>
+	<skpath from="16" to="17" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-7.4100122" Y="-130.92348"/>
+		<pt X="-12.090786" Y="-130.94402"/>
+		<pt X="-18.36373" Y="-136.71512"/>
+		<pt X="-18.865564" Y="-141.48256"/>
+		<pt X="-15.352716" Y="-142.2353"/>
+		<pt X="-6.068761" Y="-137.96971"/>
+	</skpath>
+	<skpath from="17" to="18" linestyle="estwall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-6.068761" Y="-137.96971"/>
+		<pt X="-1.050406" Y="-134.70778"/>
+		<pt X="3.4661133" Y="-133.45319"/>
+	</skpath>
+	<skpath from="16" to="19" linestyle="estwall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-7.4100122" Y="-130.92348"/>
+		<pt X="-2.8068302" Y="-129.94034"/>
+		<pt X="0.70601815" Y="-129.94034"/>
+	</skpath>
+	<skpath from="17" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-6.068761" Y="-137.96971"/>
+		<pt X="-2.3049946" Y="-151.01743"/>
+		<pt X="-0.5485705" Y="-165.57066"/>
+		<pt X="-0.5485705" Y="-170.58902"/>
+	</skpath>
+	<skpath from="18" to="19" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="3.4661133" Y="-133.45319"/>
+		<pt X="0.70601815" Y="-129.94034"/>
+	</skpath>
+	<skpath from="21" to="18" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">05-62&space;A</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="7.245876" Y="-130.0814"/>
+		<pt X="3.4661133" Y="-133.45319"/>
+	</skpath>
+	<skpath from="13" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-3.3718634" Y="0.31635597"/>
+		<pt X="-3.5383537" Y="-9.315501"/>
+		<pt X="-18.64364" Y="-23.581606"/>
+		<pt X="-26.476011" Y="-35.330162"/>
+	</skpath>
+	<skpath from="23" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-34.308384" Y="-43.44226"/>
+		<pt X="-43.81912" Y="-51.55436"/>
+		<pt X="-56.12713" Y="-62.74346"/>
+		<pt X="-63.959503" Y="-78.4082"/>
+		<pt X="-63.944096" Y="-88.01815"/>
+	</skpath>
+	<skpath from="22" to="24" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.476011" Y="-35.330162"/>
+		<pt X="-31.790834" Y="-30.574795"/>
+	</skpath>
+	<skpath from="23" to="25" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-34.308384" Y="-43.44226"/>
+		<pt X="-38.224567" Y="-38.686893"/>
+	</skpath>
+	<skpath from="25" to="24" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-38.224567" Y="-38.686893"/>
+		<pt X="-31.790834" Y="-30.574795"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-34.308384" Y="-43.44226"/>
+		<pt X="-26.476011" Y="-35.330162"/>
+	</skpath>
+	<skpath from="20" to="27" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-0.5485705" Y="-170.58902"/>
+		<pt X="2.615652" Y="-179.66957"/>
+		<pt X="1.2170144" Y="-189.46004"/>
+		<pt X="-4.6572638" Y="-198.69104"/>
+		<pt X="-4.936991" Y="-214.07605"/>
+	</skpath>
+	<skpath from="15" to="28" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-34.16275" Y="-128.9044"/>
+		<pt X="-29.338282" Y="-138.44977"/>
+	</skpath>
+	<skpath from="28" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-29.338282" Y="-138.44977"/>
+		<pt X="-32.630016" Y="-143.58472"/>
+	</skpath>
+	<skpath from="30" to="31" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.014685" Y="-145.91124"/>
+		<pt X="-30.392197" Y="-146.94145"/>
+	</skpath>
+	<skpath from="31" to="29" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-30.392197" Y="-146.94145"/>
+		<pt X="-32.630016" Y="-143.58472"/>
+	</skpath>
+	<skpath from="32" to="29" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">05-63&space;B</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-36.266476" Y="-148.06036"/>
+		<pt X="-32.630016" Y="-143.58472"/>
+	</skpath>
+	<skpath from="34" to="35" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-14.165443" Y="-206.07564"/>
+		<pt X="-14.418665" Y="-209.49413"/>
+	</skpath>
+	<skpath from="33" to="36" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-12.772726" Y="-187.21065"/>
+		<pt X="-16.317825" Y="-192.52829"/>
+	</skpath>
+	<skpath from="33" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-12.772726" Y="-187.21065"/>
+		<pt X="-18.723429" Y="-192.78151"/>
+		<pt X="-19.736313" Y="-200.12492"/>
+	</skpath>
+	<skpath from="37" to="33" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-19.736313" Y="-200.12492"/>
+		<pt X="-17.457321" Y="-202.0241"/>
+		<pt X="-15.30494" Y="-196.95966"/>
+		<pt X="-12.772726" Y="-187.21065"/>
+	</skpath>
+	<skpath from="37" to="26" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-19.736313" Y="-200.12492"/>
+		<pt X="-22.395138" Y="-196.2"/>
+		<pt X="-25.940237" Y="-195.18712"/>
+		<pt X="-30.392197" Y="-199.2505"/>
+	</skpath>
+	<skpath from="34" to="38" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-14.165443" Y="-206.07564"/>
+		<pt X="-16.950878" Y="-208.35463"/>
+		<pt X="-17.011497" Y="-210.8002"/>
+	</skpath>
+	<skpath from="38" to="37" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-17.011497" Y="-210.8002"/>
+		<pt X="-17.583933" Y="-205.31596"/>
+		<pt X="-19.736313" Y="-200.12492"/>
+	</skpath>
+	<skpath from="38" to="39" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-17.011497" Y="-210.8002"/>
+		<pt X="-14.671886" Y="-213.79889"/>
+		<pt X="-12.980511" Y="-213.61526"/>
+	</skpath>
+	<skpath from="39" to="34" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-12.980511" Y="-213.61526"/>
+		<pt X="-12.392894" Y="-213.03922"/>
+		<pt X="-12.266283" Y="-208.22801"/>
+		<pt X="-14.165443" Y="-206.07564"/>
+	</skpath>
+	<skpath from="27" to="39" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-4.936991" Y="-214.07605"/>
+		<pt X="-9.227627" Y="-214.43193"/>
+		<pt X="-12.980511" Y="-213.61526"/>
+	</skpath>
+	<skpath from="13" to="11" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-3.3718634" Y="0.31635597"/>
+		<pt X="6.4720974" Y="2.8319936"/>
+		<pt X="17.86706" Y="3.4650471"/>
+		<pt X="35.49532" Y="3.8497362"/>
+	</skpath>
+	<skpath from="41" to="42" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="9.763975" Y="-240.38713"/>
+		<pt X="14.8284025" Y="-238.8678"/>
+		<pt X="23.058098" Y="-234.94287"/>
+		<pt X="24.070982" Y="-232.28404"/>
+	</skpath>
+	<skpath from="42" to="43" linestyle="estwall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="24.070982" Y="-232.28404"/>
+		<pt X="21.9186" Y="-229.87843"/>
+		<pt X="17.107395" Y="-227.97928"/>
+		<pt X="12.169579" Y="-225.32045"/>
+		<pt X="9.637364" Y="-221.77536"/>
+		<pt X="7.7382045" Y="-217.97704"/>
+		<pt X="4.319716" Y="-216.20448"/>
+		<pt X="0.2681741" Y="-218.10365"/>
+	</skpath>
+	<skpath from="44" to="45" linestyle="estwall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-0.61810064" Y="-213.67227"/>
+		<pt X="2.5471663" Y="-212.02634"/>
+		<pt X="5.07938" Y="-206.07564"/>
+	</skpath>
+	<skpath from="46" to="47" linestyle="estwall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="9.763975" Y="-205.06274"/>
+		<pt X="10.65025" Y="-209.36751"/>
+		<pt X="15.841288" Y="-207.72157"/>
+	</skpath>
+	<skpath from="48" to="49" linestyle="estwall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="17.99367" Y="-211.77312"/>
+		<pt X="12.169579" Y="-214.43193"/>
+		<pt X="16.22112" Y="-221.01569"/>
+		<pt X="25.71692" Y="-226.20673"/>
+		<pt X="29.26202" Y="-230.51149"/>
+	</skpath>
+	<skpath from="43" to="44" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="0.2681741" Y="-218.10365"/>
+		<pt X="-0.61810064" Y="-213.67227"/>
+	</skpath>
+	<skpath from="45" to="46" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="5.07938" Y="-206.07564"/>
+		<pt X="9.763975" Y="-205.06274"/>
+	</skpath>
+	<skpath from="47" to="48" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="15.841288" Y="-207.72157"/>
+		<pt X="17.99367" Y="-211.77312"/>
+	</skpath>
+	<skpath from="27" to="44" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-4.936991" Y="-214.07605"/>
+		<pt X="-0.61810064" Y="-213.67227"/>
+	</skpath>
+	<skpath from="50" to="41" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-0.87132204" Y="-221.26892"/>
+		<pt X="4.4463267" Y="-228.86555"/>
+		<pt X="9.257532" Y="-236.84203"/>
+		<pt X="9.763975" Y="-240.38713"/>
+	</skpath>
+	<skpath from="50" to="43" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-0.87132204" Y="-221.26892"/>
+		<pt X="0.2681741" Y="-218.10365"/>
+	</skpath>
+	<skpath from="51" to="48" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">05-63&space;B</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="20.146051" Y="-208.86107"/>
+		<pt X="17.99367" Y="-211.77312"/>
+	</skpath>
+	<skpath from="49" to="52" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="29.26202" Y="-230.51149"/>
+		<pt X="30.274906" Y="-234.68965"/>
+		<pt X="36.22561" Y="-235.06947"/>
+		<pt X="40.15054" Y="-238.61458"/>
+		<pt X="40.27715" Y="-252.92159"/>
+	</skpath>
+	<skpath from="53" to="54" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="33.820004" Y="-254.56752"/>
+		<pt X="32.680508" Y="-244.56528"/>
+		<pt X="27.616081" Y="-242.4129"/>
+		<pt X="20.146051" Y="-244.56528"/>
+		<pt X="13.688907" Y="-248.23698"/>
+	</skpath>
+	<skpath from="53" to="52" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="33.820004" Y="-254.56752"/>
+		<pt X="40.27715" Y="-252.92159"/>
+	</skpath>
+	<skpath from="55" to="53" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="-1.0">05-64&space;C</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="38.877705" Y="-258.74258"/>
+		<pt X="33.820004" Y="-254.56752"/>
+	</skpath>
+	<skpath from="56" to="26" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0">c6</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-36.35231" Y="-197.42911"/>
+		<pt X="-30.392197" Y="-199.2505"/>
+	</skpath>
+	<skpath from="58" to="59" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-60.554996" Y="-285.76892"/>
+		<pt X="-47.848587" Y="-281.93683"/>
+		<pt X="-38.97427" Y="-274.47433"/>
+		<pt X="-35.545555" Y="-274.27264"/>
+	</skpath>
+	<skpath from="59" to="60" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-35.545555" Y="-274.27264"/>
+		<pt X="-37.562447" Y="-296.45844"/>
+		<pt X="-40.991158" Y="-307.14795"/>
+	</skpath>
+	<skpath from="59" to="61" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-35.545555" Y="-274.27264"/>
+		<pt X="-28.688128" Y="-267.01184"/>
+		<pt X="-14.973271" Y="-262.77637"/>
+	</skpath>
+	<skpath from="40" to="62" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-7.96152" Y="-248.11038"/>
+		<pt X="-15.578339" Y="-251.88515"/>
+		<pt X="-26.4199" Y="-255.70175"/>
+	</skpath>
+	<skpath from="62" to="63" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.4199" Y="-255.70175"/>
+		<pt X="-29.091505" Y="-256.72568"/>
+		<pt X="-41.797916" Y="-262.373"/>
+		<pt X="-47.24352" Y="-272.45743"/>
+		<pt X="-61.765133" Y="-278.7098"/>
+	</skpath>
+	<skpath from="64" to="62" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="1.0">c8</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-28.284748" Y="-254.10373"/>
+		<pt X="-26.4199" Y="-255.70175"/>
+	</skpath>
+	<skpath from="60" to="57" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-40.991158" Y="-307.14795"/>
+		<pt X="-28.889816" Y="-309.9716"/>
+	</skpath>
+	<skpath from="58" to="63" linestyle="invisible" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-60.554996" Y="-285.76892"/>
+		<pt X="-61.765133" Y="-278.7098"/>
+	</skpath>
+	<skpath from="50" to="65" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-0.87132204" Y="-221.26892"/>
+		<pt X="7.448932" Y="-225.06331"/>
+	</skpath>
+	<skpath from="14" to="66" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-63.944096" Y="-88.01815"/>
+		<pt X="-43.733574" Y="-81.57731"/>
+	</skpath>
+	<skpath from="14" to="67" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-63.944096" Y="-88.01815"/>
+		<pt X="-38.48409" Y="-66.266304"/>
+		<pt X="-41.10883" Y="-82.452225"/>
+	</skpath>
+	<skpath from="13" to="1" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-3.3718634" Y="0.31635597"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="1" to="11" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+		<pt X="35.49532" Y="3.8497362"/>
+	</skpath>
+	<skpath from="22" to="3" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.476011" Y="-35.330162"/>
+		<pt X="-22.33368" Y="-41.851257" Z="-18.713648"/>
+	</skpath>
+	<skpath from="11" to="68" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="35.49532" Y="3.8497362"/>
+		<pt X="15.809343" Y="-11.293322"/>
+		<pt X="-9.429087" Y="-34.007908"/>
+		<pt X="-16.023796" Y="-45.640625"/>
+	</skpath>
+	<skpath from="68" to="12" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-16.023796" Y="-45.640625"/>
+		<pt X="-17.505384" Y="-50.160503"/>
+		<pt X="-22.048302" Y="-76.40847"/>
+		<pt X="-18.010153" Y="-97.60876"/>
+	</skpath>
+	<skpath from="68" to="3" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-16.023796" Y="-45.640625"/>
+		<pt X="-22.33368" Y="-41.851257" Z="-18.713648"/>
+	</skpath>
+	<skpath from="15" to="4" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-34.16275" Y="-128.9044"/>
+		<pt X="-29.703442" Y="-126.08801" Z="-58.14393"/>
+	</skpath>
+	<skpath from="4" to="12" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-29.703442" Y="-126.08801" Z="-58.14393"/>
+		<pt X="-18.010153" Y="-97.60876"/>
+	</skpath>
+	<skpath from="5" to="20" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-3.5194016" Y="-171.4401" Z="-59.972664"/>
+		<pt X="-0.5485705" Y="-170.58902"/>
+	</skpath>
+	<skpath from="33" to="5" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-12.772726" Y="-187.21065"/>
+		<pt X="-3.5194016" Y="-171.4401" Z="-59.972664"/>
+	</skpath>
+	<skpath from="30" to="69" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.014685" Y="-145.91124"/>
+		<pt X="-22.280098" Y="-156.17245"/>
+		<pt X="-19.76255" Y="-171.55746"/>
+	</skpath>
+	<skpath from="69" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-19.76255" Y="-171.55746"/>
+		<pt X="-25.357101" Y="-184.14522"/>
+		<pt X="-30.951653" Y="-193.0965"/>
+		<pt X="-30.392197" Y="-199.2505"/>
+	</skpath>
+	<skpath from="69" to="5" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-19.76255" Y="-171.55746"/>
+		<pt X="-3.5194016" Y="-171.4401" Z="-59.972664"/>
+	</skpath>
+	<skpath from="34" to="33" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-14.165443" Y="-206.07564"/>
+		<pt X="-9.259425" Y="-195.54016"/>
+		<pt X="-12.772726" Y="-187.21065"/>
+	</skpath>
+	<skpath from="6" to="37" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-88.42933"/>
+		<pt X="-23.871046" Y="-204.13522"/>
+		<pt X="-19.736313" Y="-200.12492"/>
+	</skpath>
+	<skpath from="6" to="26" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-88.42933"/>
+		<pt X="-30.392197" Y="-199.2505"/>
+	</skpath>
+	<skpath from="7" to="50" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-124.42932"/>
+		<pt X="-8.68642" Y="-221.89838"/>
+		<pt X="-0.87132204" Y="-221.26892"/>
+	</skpath>
+	<skpath from="26" to="70" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-30.392197" Y="-199.2505"/>
+		<pt X="-27.839397" Y="-208.10141"/>
+		<pt X="-25.053963" Y="-215.82466"/>
+		<pt X="-17.583933" Y="-223.80113"/>
+		<pt X="-14.05623" Y="-226.29955"/>
+	</skpath>
+	<skpath from="70" to="40" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-14.05623" Y="-226.29955"/>
+		<pt X="-13.152558" Y="-227.34622"/>
+		<pt X="-8.341352" Y="-239.50085"/>
+		<pt X="-7.96152" Y="-248.11038"/>
+	</skpath>
+	<skpath from="7" to="70" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-18.345835" Y="-214.49918" Z="-124.42932"/>
+		<pt X="-11.551444" Y="-222.18488"/>
+		<pt X="-14.05623" Y="-226.29955"/>
+	</skpath>
+	<skpath from="40" to="8" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-7.96152" Y="-248.11038"/>
+		<pt X="3.9386916" Y="-250.16187" Z="-144.03882"/>
+	</skpath>
+	<skpath from="8" to="54" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="3.9386916" Y="-250.16187" Z="-144.03882"/>
+		<pt X="13.688907" Y="-248.23698"/>
+	</skpath>
+	<skpath from="8" to="41" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="3.9386916" Y="-250.16187" Z="-144.03882"/>
+		<pt X="9.763975" Y="-240.38713"/>
+	</skpath>
+	<skpath from="9" to="62" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-8.525055" Y="-260.62018" Z="-125.32202"/>
+		<pt X="-26.4199" Y="-255.70175"/>
+	</skpath>
+	<skpath from="59" to="9" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-35.545555" Y="-274.27264"/>
+		<pt X="-23.10704" Y="-270.3173"/>
+		<pt X="-8.525055" Y="-260.62018" Z="-125.32202"/>
+	</skpath>
+	<skpath from="59" to="10" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-35.545555" Y="-274.27264"/>
+		<pt X="-30.842606" Y="-278.43484"/>
+		<pt X="-35.193867" Y="-284.63287" Z="-84.0394"/>
+	</skpath>
+	<skpath from="57" to="71" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-28.889816" Y="-309.9716"/>
+		<pt X="-25.259413" Y="-290.40778"/>
+		<pt X="-26.105038" Y="-282.25174"/>
+	</skpath>
+	<skpath from="71" to="54" linestyle="wall" splined="1">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.105038" Y="-282.25174"/>
+		<pt X="-25.057724" Y="-279.51654"/>
+		<pt X="-8.9226" Y="-272.45743"/>
+		<pt X="7.010835" Y="-269.2304"/>
+		<pt X="14.675019" Y="-260.96115"/>
+		<pt X="13.688907" Y="-248.23698"/>
+	</skpath>
+	<skpath from="71" to="10" linestyle="connective">
+		<sketchsubset subname="highhopes1"/>
+		<pt X="-26.105038" Y="-282.25174"/>
+		<pt X="-35.193867" Y="-284.63287" Z="-84.0394"/>
+	</skpath>
+	<skpath from="72" to="12" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">High&newline;Hopes</pctext>
+		</pathcodes>
+		<sketchsubset subname="highhopes1"/>
+		<pt X="14.53075" Y="-94.80407"/>
+		<pt X="-18.010153" Y="-97.60876"/>
+	</skpath>
+</sketch>
+</tunnelxml>

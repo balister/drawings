@@ -3,206 +3,235 @@
 <tunnelxml>
 <sketch splined="0">
 	<affinetrans aftrm00="0.2131241189770966" aftrm01="-1.3999501943060336E-4" aftrm10="1.3999501943060336E-4" aftrm11="0.2131241189770966" aftrm20="-496.6643987027587" aftrm21="-595.6598038756617">
-		<backimage imgfile="/home/mjg54/surveys/2005/2005#18/plan1.jpg" selected="1"/>
+		<backimage imgfile="../../../../2005/2005#18/plan1.jpg" selected="1"/>
 	</affinetrans>
-	<skpath from="3" to="2" linestyle="centreline">
+	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="15" head="14"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-43.81605" Y="-31.62984" Z="610.21375"/>
 		<pt X="-51.171997" Y="-45.464363" Z="614.7066"/>
 	</skpath>
-	<skpath from="7" to="0" linestyle="centreline">
+	<skpath from="2" to="3" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="9" head="10"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-224.16006" Y="-112.483" Z="415.71194"/>
 		<pt X="-206.2222" Y="-91.07006" Z="427.16827"/>
 	</skpath>
-	<skpath from="4" to="7" linestyle="centreline">
+	<skpath from="4" to="2" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="8" head="9"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-224.0797" Y="-112.38931" Z="200.11194"/>
 		<pt X="-224.16006" Y="-112.483" Z="415.71194"/>
 	</skpath>
-	<skpath from="4" to="8" linestyle="centreline">
+	<skpath from="4" to="5" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="8" head="6"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-224.0797" Y="-112.38931" Z="200.11194"/>
 		<pt X="-242.3513" Y="-125.26197" Z="199.7629"/>
 	</skpath>
-	<skpath from="5" to="8" linestyle="centreline">
+	<skpath from="6" to="5" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="5" head="6"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-242.2206" Y="-125.00907" Z="13.6628895"/>
 		<pt X="-242.3513" Y="-125.26197" Z="199.7629"/>
 	</skpath>
-	<skpath from="9" to="5" linestyle="centreline">
+	<skpath from="7" to="6" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="3" head="5"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-229.422" Y="-164.80162" Z="-39.764244"/>
 		<pt X="-242.2206" Y="-125.00907" Z="13.6628895"/>
 	</skpath>
-	<skpath from="9" to="10" linestyle="centreline">
+	<skpath from="7" to="8" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="3" head="4"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-229.422" Y="-164.80162" Z="-39.764244"/>
 		<pt X="-272.1925" Y="-194.41774" Z="-68.70738"/>
 	</skpath>
-	<skpath from="11" to="10" linestyle="connective">
+	<skpath from="9" to="8" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-271.3671" Y="-198.32762"/>
 		<pt X="-272.1925" Y="-194.41774" Z="-68.70738"/>
 	</skpath>
-	<skpath from="12" to="10" linestyle="connective">
+	<skpath from="10" to="8" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-285.04813" Y="-205.99501"/>
 		<pt X="-272.1925" Y="-194.41774" Z="-68.70738"/>
 	</skpath>
-	<skpath from="13" to="9" linestyle="connective">
+	<skpath from="11" to="7" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-223.70905" Y="-158.18661"/>
 		<pt X="-229.422" Y="-164.80162" Z="-39.764244"/>
 	</skpath>
-	<skpath from="14" to="9" linestyle="connective">
+	<skpath from="12" to="7" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-248.06427" Y="-161.04309"/>
 		<pt X="-229.422" Y="-164.80162" Z="-39.764244"/>
 	</skpath>
-	<skpath from="15" to="9" linestyle="connective">
+	<skpath from="13" to="7" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-226.8662" Y="-176.5282"/>
 		<pt X="-229.422" Y="-164.80162" Z="-39.764244"/>
 	</skpath>
-	<skpath from="16" to="6" linestyle="connective">
+	<skpath from="14" to="15" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-151.3951" Y="-164.95195"/>
 		<pt X="-147.5724" Y="-168.3895" Z="-37.740177"/>
 	</skpath>
-	<skpath from="17" to="6" linestyle="connective">
+	<skpath from="16" to="15" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-132.6025" Y="-158.33696"/>
 		<pt X="-147.5724" Y="-168.3895" Z="-37.740177"/>
 	</skpath>
-	<skpath from="5" to="18" linestyle="connective">
+	<skpath from="6" to="17" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-242.2206" Y="-125.00907" Z="13.6628895"/>
 		<pt X="-248.13286" Y="-158.51085"/>
 	</skpath>
-	<skpath from="5" to="19" linestyle="connective">
+	<skpath from="6" to="18" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-242.2206" Y="-125.00907" Z="13.6628895"/>
 		<pt X="-225.41356" Y="-151.88438"/>
 	</skpath>
-	<skpath from="8" to="20" linestyle="connective">
+	<skpath from="5" to="19" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-242.3513" Y="-125.26197" Z="199.7629"/>
 		<pt X="-272.16043" Y="-158.38316"/>
 	</skpath>
-	<skpath from="21" to="8" linestyle="connective">
+	<skpath from="20" to="5" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-225.1811" Y="-126.85958"/>
 		<pt X="-242.3513" Y="-125.26197" Z="199.7629"/>
 	</skpath>
-	<skpath from="22" to="4" linestyle="connective">
+	<skpath from="21" to="4" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-223.70346" Y="-121.28636"/>
 		<pt X="-224.0797" Y="-112.38931" Z="200.11194"/>
 	</skpath>
-	<skpath from="23" to="4" linestyle="connective">
+	<skpath from="22" to="4" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-246.17244" Y="-104.22962"/>
 		<pt X="-224.0797" Y="-112.38931" Z="200.11194"/>
 	</skpath>
-	<skpath from="24" to="7" linestyle="connective">
+	<skpath from="23" to="2" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-240.07103" Y="-104.85409"/>
 		<pt X="-224.16006" Y="-112.483" Z="415.71194"/>
 	</skpath>
-	<skpath from="25" to="0" linestyle="connective">
+	<skpath from="24" to="3" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-207.0171" Y="-89.42331"/>
 		<pt X="-206.2222" Y="-91.07006" Z="427.16827"/>
 	</skpath>
-	<skpath from="26" to="0" linestyle="connective">
+	<skpath from="25" to="3" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-204.40314" Y="-95.83172"/>
 		<pt X="-206.2222" Y="-91.07006" Z="427.16827"/>
 	</skpath>
-	<skpath from="27" to="26" linestyle="connective">
+	<skpath from="26" to="25" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-201.95782" Y="-103.92656"/>
 		<pt X="-204.40314" Y="-95.83172"/>
 	</skpath>
-	<skpath from="1" to="28" linestyle="centreline">
+	<skpath from="27" to="28" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="12" head="11"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-112.552444" Y="-69.49533" Z="569.5613"/>
 		<pt X="-152.73117" Y="-98.36863" Z="481.0498"/>
 	</skpath>
-	<skpath from="0" to="28" linestyle="centreline">
+	<skpath from="3" to="28" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="10" head="11"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-206.2222" Y="-91.07006" Z="427.16827"/>
 		<pt X="-152.73117" Y="-98.36863" Z="481.0498"/>
 	</skpath>
 	<skpath from="29" to="28" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-152.73117" Y="-99.69087"/>
 		<pt X="-152.73117" Y="-98.36863" Z="481.0498"/>
 	</skpath>
-	<skpath from="30" to="1" linestyle="connective">
+	<skpath from="30" to="27" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-107.77485" Y="-91.02283"/>
 		<pt X="-112.552444" Y="-69.49533" Z="569.5613"/>
 	</skpath>
-	<skpath from="1" to="31" linestyle="connective">
+	<skpath from="27" to="31" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-112.552444" Y="-69.49533" Z="569.5613"/>
 		<pt X="-128.3431" Y="-54.146885"/>
 	</skpath>
-	<skpath from="2" to="32" linestyle="centreline">
+	<skpath from="1" to="32" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="14" head="13"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-51.171997" Y="-45.464363" Z="614.7066"/>
 		<pt X="-71.63349" Y="-65.31251" Z="608.5316"/>
 	</skpath>
-	<skpath from="32" to="1" linestyle="centreline">
+	<skpath from="32" to="27" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="13" head="12"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-71.63349" Y="-65.31251" Z="608.5316"/>
 		<pt X="-112.552444" Y="-69.49533" Z="569.5613"/>
 	</skpath>
 	<skpath from="33" to="32" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-70.75199" Y="-68.691574"/>
 		<pt X="-71.63349" Y="-65.31251" Z="608.5316"/>
 	</skpath>
 	<skpath from="34" to="32" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-76.18789" Y="-51.35548"/>
 		<pt X="-71.63349" Y="-65.31251" Z="608.5316"/>
 	</skpath>
 	<skpath from="35" to="34" linestyle="wall" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-62.230858" Y="-45.919582"/>
 		<pt X="-66.344505" Y="-49.00482"/>
 		<pt X="-76.18789" Y="-51.35548"/>
 	</skpath>
 	<skpath from="36" to="33" linestyle="wall" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-60.32095" Y="-67.36933"/>
 		<pt X="-65.46301" Y="-66.92858"/>
 		<pt X="-70.75199" Y="-68.691574"/>
 	</skpath>
 	<skpath from="30" to="33" linestyle="wall" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-107.77485" Y="-91.02283"/>
 		<pt X="-97.931465" Y="-85.2931"/>
 		<pt X="-83.97444" Y="-76.478134"/>
 		<pt X="-70.75199" Y="-68.691574"/>
 	</skpath>
 	<skpath from="31" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-128.3431" Y="-54.146885"/>
 		<pt X="-134.07283" Y="-58.113617"/>
 		<pt X="-137.30498" Y="-60.61119"/>
 	</skpath>
 	<skpath from="29" to="30" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-152.73117" Y="-99.69087"/>
 		<pt X="-146.70761" Y="-98.95629"/>
 		<pt X="-123.788704" Y="-96.60564"/>
@@ -210,23 +239,27 @@
 		<pt X="-107.77485" Y="-91.02283"/>
 	</skpath>
 	<skpath from="38" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-171.09569" Y="-74.4213"/>
 		<pt X="-163.60297" Y="-68.83849"/>
 		<pt X="-151.26201" Y="-65.75326"/>
 		<pt X="-137.30498" Y="-60.61119"/>
 	</skpath>
 	<skpath from="39" to="31" linestyle="wall" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-118.69229" Y="-49.22944"/>
 		<pt X="-122.02571" Y="-49.151737"/>
 		<pt X="-128.3431" Y="-54.146885"/>
 	</skpath>
 	<skpath from="34" to="40" linestyle="wall" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-76.18789" Y="-51.35548"/>
 		<pt X="-84.855934" Y="-55.02838"/>
 		<pt X="-91.760994" Y="-59.142033"/>
 		<pt X="-95.27977" Y="-59.83738"/>
 	</skpath>
 	<skpath from="40" to="39" linestyle="wall" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-95.27977" Y="-59.83738"/>
 		<pt X="-96.60922" Y="-59.288948"/>
 		<pt X="-98.372215" Y="-55.616047"/>
@@ -243,12 +276,15 @@
 		<pt X="-118.69229" Y="-49.22944"/>
 	</skpath>
 	<skpath from="40" to="39" linestyle="invisible" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-95.27977" Y="-59.83738"/>
 		<pt X="-103.36736" Y="-60.464275"/>
 		<pt X="-113.35766" Y="-56.791374"/>
 		<pt X="-118.69229" Y="-49.22944"/>
 	</skpath>
 	<skpath from="30" to="31" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
+		<sketchsubset subname="fatwormblowsasparky"/>
 		<pt X="-107.77485" Y="-91.02283"/>
 		<pt X="-108.06868" Y="-83.089355"/>
 		<pt X="-111.153915" Y="-67.36933"/>
@@ -257,12 +293,14 @@
 		<pt X="-128.3431" Y="-54.146885"/>
 	</skpath>
 	<skpath from="29" to="41" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-152.73117" Y="-99.69087"/>
 		<pt X="-148.76443" Y="-96.45872"/>
 		<pt X="-148.32368" Y="-91.31666"/>
 		<pt X="-148.61752" Y="-87.937584"/>
 	</skpath>
 	<skpath from="41" to="38" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-148.61752" Y="-87.937584"/>
 		<pt X="-150.38051" Y="-83.530106"/>
 		<pt X="-153.9065" Y="-78.82879"/>
@@ -270,12 +308,14 @@
 		<pt X="-171.09569" Y="-74.4213"/>
 	</skpath>
 	<skpath from="37" to="41" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-137.30498" Y="-60.61119"/>
 		<pt X="-138.77414" Y="-66.78167"/>
 		<pt X="-143.32854" Y="-78.53496"/>
 		<pt X="-148.61752" Y="-87.937584"/>
 	</skpath>
 	<skpath from="41" to="41" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-148.61752" Y="-87.937584"/>
 		<pt X="-148.61752" Y="-87.937584"/>
 	</skpath>
@@ -283,6 +323,7 @@
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">p8</pctext>
 		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-109.83167" Y="-101.30695"/>
 		<pt X="-107.77485" Y="-91.02283"/>
 	</skpath>
@@ -290,14 +331,17 @@
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">p6</pctext>
 		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-154.20033" Y="-106.74284"/>
 		<pt X="-152.73117" Y="-99.69087"/>
 	</skpath>
 	<skpath from="28" to="38" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-152.73117" Y="-98.36863" Z="481.0498"/>
 		<pt X="-171.09569" Y="-74.4213"/>
 	</skpath>
-	<skpath from="38" to="25" linestyle="wall" splined="1">
+	<skpath from="38" to="24" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-171.09569" Y="-74.4213"/>
 		<pt X="-180.93906" Y="-79.8572"/>
 		<pt X="-184.75888" Y="-83.82394"/>
@@ -305,59 +349,69 @@
 		<pt X="-207.0171" Y="-89.42331"/>
 	</skpath>
 	<skpath from="29" to="44" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-152.73117" Y="-99.69087"/>
 		<pt X="-164.9252" Y="-99.9847"/>
 		<pt X="-175.50317" Y="-100.8662"/>
 		<pt X="-186.37495" Y="-100.8662"/>
 	</skpath>
-	<skpath from="44" to="27" linestyle="wall" splined="1">
+	<skpath from="44" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-186.37495" Y="-100.8662"/>
 		<pt X="-195.04301" Y="-102.041534"/>
 		<pt X="-201.95782" Y="-103.92656"/>
 	</skpath>
-	<skpath from="25" to="24" linestyle="wall" splined="1">
+	<skpath from="24" to="23" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-207.0171" Y="-89.42331"/>
 		<pt X="-219.28416" Y="-92.05124"/>
 		<pt X="-231.77203" Y="-96.89947"/>
 		<pt X="-240.07103" Y="-104.85409"/>
 	</skpath>
-	<skpath from="44" to="26" linestyle="pitchbound" splined="1">
+	<skpath from="44" to="25" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-186.37495" Y="-100.8662"/>
 		<pt X="-184.46504" Y="-95.871056"/>
 		<pt X="-187.6972" Y="-89.406746"/>
 		<pt X="-194.60226" Y="-91.31666"/>
 		<pt X="-204.40314" Y="-95.83172"/>
 	</skpath>
-	<skpath from="26" to="45" linestyle="pitchbound" splined="1">
+	<skpath from="25" to="45" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-204.40314" Y="-95.83172"/>
 		<pt X="-213.99518" Y="-99.54396"/>
 		<pt X="-215.43822" Y="-99.985565"/>
 	</skpath>
-	<skpath from="45" to="24" linestyle="pitchbound" splined="1">
+	<skpath from="45" to="23" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-215.43822" Y="-99.985565"/>
 		<pt X="-228.39296" Y="-102.92303"/>
 		<pt X="-240.07103" Y="-104.85409"/>
 	</skpath>
-	<skpath from="47" to="44" linestyle="connective">
+	<skpath from="46" to="44" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">p22</pctext>
 		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-189.25717" Y="-107.59829"/>
 		<pt X="-186.37495" Y="-100.8662"/>
 	</skpath>
-	<skpath from="46" to="22" linestyle="wall" splined="1">
+	<skpath from="47" to="21" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-212.46342" Y="-109.1028"/>
 		<pt X="-212.48744" Y="-113.28769"/>
 		<pt X="-215.25658" Y="-117.6544"/>
 		<pt X="-223.70346" Y="-121.28636"/>
 	</skpath>
 	<skpath from="48" to="49" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-233.36249" Y="-92.412636"/>
 		<pt X="-235.3861" Y="-90.176025"/>
 		<pt X="-234.42754" Y="-88.04591"/>
 		<pt X="-233.25598" Y="-85.48979"/>
 	</skpath>
-	<skpath from="50" to="23" linestyle="wall" splined="1">
+	<skpath from="50" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-237.09018" Y="-83.14667"/>
 		<pt X="-240.17883" Y="-87.19387"/>
 		<pt X="-243.90651" Y="-88.25893"/>
@@ -366,7 +420,8 @@
 		<pt X="-250.50984" Y="-102.74365"/>
 		<pt X="-246.17244" Y="-104.22962"/>
 	</skpath>
-	<skpath from="23" to="20" linestyle="wall" splined="1">
+	<skpath from="22" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-246.17244" Y="-104.22962"/>
 		<pt X="-256.04813" Y="-113.39419"/>
 		<pt X="-265.20758" Y="-123.618706"/>
@@ -375,30 +430,35 @@
 		<pt X="-274.58005" Y="-158.23294"/>
 		<pt X="-272.16043" Y="-158.38316"/>
 	</skpath>
-	<skpath from="22" to="21" linestyle="wall" splined="1">
+	<skpath from="21" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-223.70346" Y="-121.28636"/>
 		<pt X="-224.73555" Y="-123.72521"/>
 		<pt X="-225.1811" Y="-126.85958"/>
 	</skpath>
-	<skpath from="21" to="51" linestyle="wall" splined="1">
+	<skpath from="20" to="51" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-225.1811" Y="-126.85958"/>
 		<pt X="-224.09651" Y="-130.54155"/>
 		<pt X="-217.70619" Y="-134.37575"/>
 		<pt X="-202.79546" Y="-131.07408"/>
 	</skpath>
-	<skpath from="52" to="19" linestyle="wall" splined="1">
+	<skpath from="52" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-199.28078" Y="-141.1921"/>
 		<pt X="-210.57034" Y="-145.98483"/>
 		<pt X="-221.54039" Y="-150.56456"/>
 		<pt X="-225.41356" Y="-151.88438"/>
 	</skpath>
-	<skpath from="18" to="20" linestyle="wall" splined="1">
+	<skpath from="17" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-248.13286" Y="-158.51085"/>
 		<pt X="-256.47415" Y="-159.51102"/>
 		<pt X="-269.5743" Y="-159.1915"/>
 		<pt X="-272.16043" Y="-158.38316"/>
 	</skpath>
-	<skpath from="21" to="20" linestyle="pitchbound" splined="1">
+	<skpath from="20" to="19" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-225.1811" Y="-126.85958"/>
 		<pt X="-231.12587" Y="-122.34064"/>
 		<pt X="-243.374" Y="-117.44139"/>
@@ -407,39 +467,46 @@
 		<pt X="-273.62152" Y="-151.4166"/>
 		<pt X="-272.16043" Y="-158.38316"/>
 	</skpath>
-	<skpath from="23" to="48" linestyle="pitchbound" splined="1">
+	<skpath from="22" to="48" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-246.17244" Y="-104.22962"/>
 		<pt X="-242.41544" Y="-102.956665"/>
 		<pt X="-236.98367" Y="-98.05742"/>
 		<pt X="-233.36249" Y="-92.412636"/>
 	</skpath>
-	<skpath from="23" to="22" linestyle="pitchbound" splined="1">
+	<skpath from="22" to="21" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-246.17244" Y="-104.22962"/>
 		<pt X="-241.77641" Y="-109.346985"/>
 		<pt X="-230.80635" Y="-119.25198"/>
 		<pt X="-223.70346" Y="-121.28636"/>
 	</skpath>
-	<skpath from="18" to="19" linestyle="pitchbound" splined="1">
+	<skpath from="17" to="18" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-248.13286" Y="-158.51085"/>
 		<pt X="-243.05447" Y="-157.1679"/>
 		<pt X="-234.00151" Y="-154.29225"/>
 		<pt X="-225.41356" Y="-151.88438"/>
 	</skpath>
-	<skpath from="13" to="14" linestyle="pitchbound" splined="1">
+	<skpath from="11" to="12" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-223.70905" Y="-158.18661"/>
 		<pt X="-228.99577" Y="-157.48741"/>
 		<pt X="-236.13162" Y="-158.76547"/>
 		<pt X="-248.06427" Y="-161.04309"/>
 	</skpath>
 	<skpath from="51" to="52" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-202.79546" Y="-131.07408"/>
 		<pt X="-199.28078" Y="-141.1921"/>
 	</skpath>
 	<skpath from="49" to="50" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-233.25598" Y="-85.48979"/>
 		<pt X="-237.09018" Y="-83.14667"/>
 	</skpath>
-	<skpath from="12" to="14" linestyle="wall" splined="1">
+	<skpath from="10" to="12" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-285.04813" Y="-205.99501"/>
 		<pt X="-282.86438" Y="-197.07826"/>
 		<pt X="-275.92535" Y="-182.46974"/>
@@ -447,15 +514,18 @@
 		<pt X="-254.74298" Y="-165.30473"/>
 		<pt X="-248.06427" Y="-161.04309"/>
 	</skpath>
-	<skpath from="13" to="19" linestyle="wall" splined="1">
+	<skpath from="11" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-223.70905" Y="-158.18661"/>
 		<pt X="-225.41356" Y="-151.88438"/>
 	</skpath>
-	<skpath from="14" to="18" linestyle="wall" splined="1">
+	<skpath from="12" to="17" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-248.06427" Y="-161.04309"/>
 		<pt X="-248.13286" Y="-158.51085"/>
 	</skpath>
-	<skpath from="13" to="16" linestyle="wall" splined="1">
+	<skpath from="11" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-223.70905" Y="-158.18661"/>
 		<pt X="-212.37827" Y="-160.6787"/>
 		<pt X="-195.09152" Y="-164.81778"/>
@@ -464,38 +534,45 @@
 		<pt X="-153.3355" Y="-166.64384"/>
 		<pt X="-151.3951" Y="-164.95195"/>
 	</skpath>
-	<skpath from="16" to="53" linestyle="wall" splined="1">
+	<skpath from="14" to="53" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-151.3951" Y="-164.95195"/>
 		<pt X="-149.8051" Y="-159.7048"/>
 		<pt X="-148.46599" Y="-151.79185"/>
 	</skpath>
-	<skpath from="17" to="54" linestyle="wall" splined="1">
+	<skpath from="16" to="54" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-132.6025" Y="-158.33696"/>
 		<pt X="-134.46616" Y="-167.49602"/>
 	</skpath>
 	<skpath from="54" to="55" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-134.46616" Y="-167.49602"/>
 		<pt X="-136.04875" Y="-176.01765"/>
 		<pt X="-140.18782" Y="-194.2783"/>
 	</skpath>
 	<skpath from="55" to="56" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-140.18782" Y="-194.2783"/>
 		<pt X="-145.51613" Y="-218.01814"/>
 		<pt X="-148.58772" Y="-232.13872"/>
 	</skpath>
 	<skpath from="57" to="58" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-161.97887" Y="-232.13872"/>
 		<pt X="-161.49193" Y="-223.86057"/>
 		<pt X="-159.42238" Y="-217.04324"/>
 		<pt X="-160.88324" Y="-212.66069"/>
 	</skpath>
 	<skpath from="58" to="59" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-160.88324" Y="-212.66069"/>
 		<pt X="-170.86572" Y="-210.71289"/>
 		<pt X="-192.16982" Y="-209.73898"/>
 		<pt X="-202.51752" Y="-211.19984"/>
 	</skpath>
-	<skpath from="59" to="15" linestyle="pitchbound" splined="1">
+	<skpath from="59" to="13" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-202.51752" Y="-211.19984"/>
 		<pt X="-198.86539" Y="-207.1825"/>
 		<pt X="-195.70021" Y="-196.34784"/>
@@ -505,33 +582,39 @@
 		<pt X="-219.07384" Y="-171.75684"/>
 		<pt X="-226.8662" Y="-176.5282"/>
 	</skpath>
-	<skpath from="15" to="11" linestyle="pitchbound" splined="1">
+	<skpath from="13" to="9" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-226.8662" Y="-176.5282"/>
 		<pt X="-240.01273" Y="-184.78276"/>
 		<pt X="-251.09085" Y="-189.04358"/>
 		<pt X="-271.3671" Y="-198.32762"/>
 	</skpath>
-	<skpath from="12" to="11" linestyle="pitchbound" splined="1">
+	<skpath from="10" to="9" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-285.04813" Y="-205.99501"/>
 		<pt X="-271.3671" Y="-198.32762"/>
 	</skpath>
 	<skpath from="45" to="60" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-215.43822" Y="-99.985565"/>
 		<pt X="-215.48526" Y="-99.9563"/>
 	</skpath>
 	<skpath from="60" to="48" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-215.48526" Y="-99.9563"/>
 		<pt X="-216.86171" Y="-98.19749"/>
 		<pt X="-223.39989" Y="-94.90929"/>
 		<pt X="-228.29396" Y="-93.37988"/>
 		<pt X="-233.36249" Y="-92.412636"/>
 	</skpath>
-	<skpath from="27" to="61" linestyle="wall" splined="1">
+	<skpath from="26" to="61" linestyle="wall" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-201.95782" Y="-103.92656"/>
 		<pt X="-206.9957" Y="-106.43183"/>
 		<pt X="-212.4657" Y="-109.0666"/>
 	</skpath>
-	<skpath from="61" to="24" linestyle="ceilingbound" splined="1">
+	<skpath from="61" to="23" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-212.4657" Y="-109.0666"/>
 		<pt X="-214.26994" Y="-110.01167"/>
 		<pt X="-217.65031" Y="-111.98552"/>
@@ -549,105 +632,124 @@
 		<pt X="-240.07103" Y="-104.85409"/>
 	</skpath>
 	<skpath from="61" to="45" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-212.4657" Y="-109.0666"/>
 		<pt X="-212.69481" Y="-106.43183"/>
 		<pt X="-213.81172" Y="-102.68015"/>
 		<pt X="-215.43822" Y="-99.985565"/>
 	</skpath>
-	<skpath from="46" to="60" linestyle="detail" splined="1">
+	<skpath from="47" to="60" linestyle="detail" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-212.46342" Y="-109.1028"/>
 		<pt X="-212.60889" Y="-106.689575"/>
 		<pt X="-213.26758" Y="-103.940254"/>
 		<pt X="-214.49905" Y="-101.30549"/>
 		<pt X="-215.48526" Y="-99.9563"/>
 	</skpath>
-	<skpath from="62" to="24" linestyle="connective">
+	<skpath from="62" to="23" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="hole"/>
 		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-235.54095" Y="-112.58149"/>
 		<pt X="-240.07103" Y="-104.85409"/>
 	</skpath>
-	<skpath from="63" to="20" linestyle="connective">
+	<skpath from="63" to="19" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0">p34</pctext>
 		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-286.57196" Y="-117.98802"/>
 		<pt X="-290.06317" Y="-138.60266"/>
 		<pt X="-275.59967" Y="-164.5372"/>
 		<pt X="-272.16043" Y="-158.38316"/>
 	</skpath>
-	<skpath from="53" to="17" linestyle="invisible" splined="1">
+	<skpath from="53" to="16" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-148.46599" Y="-151.79185"/>
 		<pt X="-132.6025" Y="-158.33696"/>
 	</skpath>
 	<skpath from="57" to="56" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-161.97887" Y="-232.13872"/>
 		<pt X="-148.58772" Y="-232.13872"/>
 	</skpath>
-	<skpath from="64" to="53" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-?B</pctext>
-		</pathcodes>
-		<pt X="-136.1184" Y="-139.1014"/>
-		<pt X="-148.46599" Y="-151.79185"/>
-	</skpath>
-	<skpath from="65" to="56" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-?C</pctext>
-		</pathcodes>
-		<pt X="-142.43578" Y="-236.52217"/>
-		<pt X="-148.58772" Y="-232.13872"/>
-	</skpath>
-	<skpath from="16" to="54" linestyle="invisible" splined="1">
+	<skpath from="14" to="54" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-151.3951" Y="-164.95195"/>
 		<pt X="-145.76071" Y="-166.03342"/>
 		<pt X="-138.9446" Y="-163.70596"/>
 		<pt X="-134.46616" Y="-167.49602"/>
 	</skpath>
-	<skpath from="54" to="66" linestyle="connective">
+	<skpath from="54" to="64" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-134.46616" Y="-167.49602"/>
 		<pt X="-153.40808" Y="-188.31052"/>
 	</skpath>
-	<skpath from="67" to="9" linestyle="centreline">
+	<skpath from="65" to="7" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="1" head="3"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-158.48247" Y="-190.96855" Z="0.0"/>
 		<pt X="-229.422" Y="-164.80162" Z="-39.764244"/>
 	</skpath>
-	<skpath from="6" to="67" linestyle="centreline">
+	<skpath from="15" to="65" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2" head="1"/>
 		</pathcodes>
-		<sketchsubset subname="Four&space;Pitches&space;of&space;the&space;Apocalypse"/>
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-147.5724" Y="-168.3895" Z="-37.740177"/>
 		<pt X="-158.48247" Y="-190.96855" Z="0.0"/>
 	</skpath>
-	<skpath from="68" to="55" linestyle="invisible" splined="1">
+	<skpath from="66" to="55" linestyle="invisible" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-157.06734" Y="-191.32234"/>
 		<pt X="-140.18782" Y="-194.2783"/>
 	</skpath>
-	<skpath from="68" to="58" linestyle="pitchbound" splined="1">
+	<skpath from="66" to="58" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-157.06734" Y="-191.32234"/>
 		<pt X="-158.2702" Y="-197.12442"/>
 		<pt X="-160.46367" Y="-207.10117"/>
 		<pt X="-160.88324" Y="-212.66069"/>
 	</skpath>
-	<skpath from="67" to="68" linestyle="connective">
+	<skpath from="65" to="66" linestyle="connective">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-158.48247" Y="-190.96855" Z="0.0"/>
 		<pt X="-157.06734" Y="-191.32234"/>
 	</skpath>
-	<skpath from="16" to="68" linestyle="pitchbound" splined="1">
+	<skpath from="14" to="66" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="apocalypse"/>
 		<pt X="-151.3951" Y="-164.95195"/>
 		<pt X="-152.75114" Y="-171.08582"/>
 		<pt X="-154.73235" Y="-179.78894"/>
 		<pt X="-155.86446" Y="-187.71373"/>
 		<pt X="-157.06734" Y="-191.32234"/>
+	</skpath>
+	<skpath from="67" to="53" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="1.0">05-49B</pctext>
+		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
+		<pt X="-135.8651" Y="-148.84941"/>
+		<pt X="-148.46599" Y="-151.79185"/>
+	</skpath>
+	<skpath from="68" to="56" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">05-50C</pctext>
+		</pathcodes>
+		<sketchsubset subname="apocalypse"/>
+		<pt X="-153.07599" Y="-235.28632"/>
+		<pt X="-148.58772" Y="-232.13872"/>
+	</skpath>
+	<skpath from="36" to="35" linestyle="invisible" splined="1">
+		<sketchsubset subname="fatwormblowsasparky"/>
+		<pt X="-60.32095" Y="-67.36933"/>
+		<pt X="-62.230858" Y="-45.919582"/>
 	</skpath>
 </sketch>
 </tunnelxml>
