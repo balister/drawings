@@ -40,16 +40,52 @@
 	</set>
 </groupsubsetattr>
 
+<groupsubsetattr groupsubsetname="234years_hierarchy" groupsubsetselectable="no">
+	<subsetattr name="2002"/>
+	<subsetattr name="2004"/>
+	<subsetattr name="2005"/>
+	
+	<set uppersubset="2002">
+		<subsetattr name="234entrance"/>
+		<subsetattr name="234lefthand"/>
+		<subsetattr name="234oldtrunk"/>
+		<subsetattr name="234traverse"/>
+		
+	</set>
+	<set uppersubset="2004">
+		<subsetattr name="234underhand"/>
+		<subsetattr name="234trunk"/>
+		<subsetattr name="234measles"/>
+		<subsetattr name="234sweetsight"/>
+		<subsetattr name="234sourtaste"/>
+		<subsetattr name="234pie"/>
+		<subsetattr name="234crust"/>
+		
+	</set>
+	<set uppersubset="2005">
+		<subsetattr name="234flashgun"/>
+		<subsetattr name="234weeweeland"/>
+		<subsetattr name="234wowoland"/>
+		<subsetattr name="234monster"/>
+		<subsetattr name="234piersquared"/>
+		<subsetattr name="234monstermunch"/>
+	</set>
+</groupsubsetattr>
+
 <groupsubsetattr groupsubsetname="234planes" groupsubsetselectable="no">
 	<importgroupsubsetattr groupsubsetname="planecolours"/>
 	<importgroupsubsetattr groupsubsetname="234planes_hierarchy"/>
 	
 	<subsetattr name="entarea" uppersubset="level1"/>
-	<subsetattr name="mainplane" uppersubset="level3"/>
-	<subsetattr name="pitches" uppersubset="level4"/>
-	<subsetattr name="lowerplane" uppersubset="level5"/>
-	<subsetattr name="uberpitch" uppersubset="level6"/>
+	<subsetattr name="mainplane" uppersubset="level2"/>
+	<subsetattr name="pitches" uppersubset="level3"/>
+	<subsetattr name="lowerplane" uppersubset="level4"/>
+	<subsetattr name="uberpitch" uppersubset="level4"/>
 
+	<subsetattr name="2002" uppersubset="level1"/>
+	<subsetattr name="2004" uppersubset="level3"/>
+	<subsetattr name="2005" uppersubset="level4"/>
+	
 	<subsetattr name="234grid" uppersubset="basegrid" areacolour="#88ffffff" labelcolour="#ff000000" strokecolour="#ff000000">
 		<comment>Special edits to the title font sizes to get the 234 label a more sensible size for the cave.</comment>
 		<labelfcol labelstylename="titlenum" fontname="Arial" size="40"/>

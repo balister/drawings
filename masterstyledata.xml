@@ -6,7 +6,6 @@
 
 <image_file_directory name="surveys"/>
 
-
 <groupsubsetattr groupsubsetname="CUCCplanes">
 	<importgroupsubsetattr groupsubsetname="204planes"/>
 	<importgroupsubsetattr groupsubsetname="234planes"/>
@@ -26,6 +25,71 @@
 	
 	<subsetattr name="surface" uppersubset="invisible"/>
 	<subsetattr name="243surf" uppersubset="surface"/>
+	<importgroupsubsetattr groupsubsetname="default"/>
+
+	
+
+	<subsetattr name="default" uppersubset="invisible"/>
+	
+	<subsetattr name="level1" uppersubset="visible" areacolour="#88e50033" labelcolour="#ffe50033">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+	<subsetattr name="level2" uppersubset="visible" areacolour="#88ff9900" labelcolour="#ffcd7b00">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>	
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+	<subsetattr name="level3" uppersubset="visible" areacolour="#88ccff00" labelcolour="#ffa1c900">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+	<subsetattr name="level4" uppersubset="visible" areacolour="#8819ff2d" labelcolour="#ff14cd24">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+	<subsetattr name="level5" uppersubset="visible" areacolour="#880033ff" labelcolour="#ff0033ff">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+	<subsetattr name="level6" uppersubset="visible" areacolour="#88a900e5" labelcolour="#ffa900e5">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+	
+	<subsetattr name="elev1" uppersubset="visible" areacolour="#11e50033" areamaskcolour="none"/>
+	<subsetattr name="elev2" uppersubset="visible" areacolour="#11ff9900" areamaskcolour="none"/>
+	<subsetattr name="elev3" uppersubset="visible" areacolour="#11ccff00" areamaskcolour="none"/>
+	<subsetattr name="elev4" uppersubset="visible" areacolour="#1119ff2d" areamaskcolour="none"/>
+	<subsetattr name="elev5" uppersubset="visible" areacolour="#110033ff" areamaskcolour="none"/>
+	<subsetattr name="elev6" uppersubset="visible" areacolour="#11a900e5" areamaskcolour="none"/>
+	
+	<subsetattr name="204grid" labelcolour="#ff000000">
+		<labelfcol labelstylename="titlenum" fontname="Arial" fontstyle="BOLD" size="60"/>
+		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
+		<labelfcol labelstylename="titleentname" fontname="Arial" fontstyle="BOLD" size="60"/>
+		<labelfcol labelstylename="titlestats" fontname="Arial" fontstyle="PLAIN" size="50"/>
+		<labelfcol labelstylename="titledetails" fontname="Arial" fontstyle="ITALIC" size="50"/>
+		<labelfcol labelstylename="gridnum" fontname="Arial" size="40"/>
+
+		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="10"/>
+		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="35"/>
+	</subsetattr>
+
+		
+		
 </groupsubsetattr>
 
 </fontcolours>

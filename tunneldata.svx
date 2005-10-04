@@ -100,77 +100,31 @@
 *equate 251.tag t251
 *equate 251.1 p251
 
-; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
-; Cave:	Amplitheatre
 
-
-; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
-; Cave:	Capping required
-*equate p204f 2002-08.7
-*equate t2002-08 2002-08.4
-*equate p2002-08 2002-08.3
-
-*equate 2004-14.3 p2004-14
-*entrance p2004-14
-
-
-*equate 2004-15.tagA t2004-15a
-*equate 2004-15.tagB t2004-15b
-*entrance t2004-15a ; DL - are these in fact the entrances?
-*entrance t2004-15b ; better to have some entrance point than none at all!
-
-; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
-; Cave:	2004-20
-
-*equate 2004-20.1 p2000-08
-*equate 2004-20.5 t2004-20
-*equate 2004-20.6 p2004-20
-*entrance p2004-20
-
-
-; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
-; Cave:	Quarries
-
-*entrance pquarriesd
-*equate quarriesd.2002-08 p2002-08
-*equate pquarriesd quarriesd.d3
-
-
-
-*fix p204a 36697.34 83699.91 1812.40
-*fix p204b 36685.11 83710.52 1808.67
-*fix p204c 36661.25 83904.40 1833.76
-*fix p204d 36448.86 83878.22 1779.21
-*fix p204e 36613.02 83860.78 1817.33
-*fix p204f 36621.90 83874.46 1821.44
-*fix p204g 36420.81 83993.78 1785.18
-*fix p204h 36444.53 83992.78 1795.23
-*fix p204i 36448.14 83989.32 1795.58
-*fix p231a 36715.40 83723.27 1815.12
-*fix p231b 36715.02 83744.44 1815.19
-*fix p231c 36733.44 83741.19 1823.19
-*fix p231d 36720.16 83722.08 1815.09
-*fix p231e 36722.45 83709.36 1817.19
-*fix p231f 36733.89 83708.16 1819.22
-*fix p231g 36725.64 83717.60 1820.02
-*fix p231h 36723.08 83722.10 1815.04
-*fix p231i 36707.42 83732.05 1811.75
-*fix p234a 36468.57 83441.63 1784.79
-*fix p234b 36490.46 83462.20 1793.10
-*fix p241 36744.50 83837.11 1843.50
-*fix p242 36685.12 83881.58 1837.70
-*fix p244 36754.34 83720.31 1831.09
-*fix p245 36385.99 83829.66 1740.04
-*fix p249 36528.20 83475.13 1797.36
-*fix p251 36386.30 83939.80 1756.53
-*fix t243 36407.59 83924.57 1766.28
-*fix 2002-07.1 36637.08 83907.93 1831.82
-*fix p2002-08 36614.87 83883.97 1819.14
-*fix pquarriesd 36614.48 83891.46 1825.44
-*fix p2004-14 36411.02 83655.95 1756.94
-*fix t2004-15a 36432.94 83663.70 1761.55
-*fix t2004-15b 36465.13 83672.60 1768.01 
-*fix p2004-20 36627.71 83600.78 1813.89
+*fix p204a 697.34 699.91 1812.40
+*fix p204b 685.11 710.52 1808.67
+*fix p204d 448.86 878.22 1779.21
+*fix p204e 613.02 860.78 1817.33
+*fix p204g 420.81 993.78 1785.18
+*fix p204h 444.53 992.78 1795.23
+*fix p204i 448.14 989.32 1795.58
+*fix p231a 715.40 723.27 1815.12
+*fix p231b 715.02 744.44 1815.19
+*fix p231c 733.44 741.19 1823.19
+*fix p231d 720.16 722.08 1815.09
+*fix p231e 722.45 709.36 1817.19
+*fix p231f 733.89 708.16 1819.22
+*fix p231g 725.64 717.60 1820.02
+*fix p231h 723.08 722.10 1815.04
+*fix p231i 707.42 732.05 1811.75
+*fix p234a 468.57 441.63 1784.79
+*fix p241 744.50 837.11 1843.50
+*fix p242 685.12 881.58 1837.70
+*fix p244 754.34 720.31 1831.09
+*fix p245 385.99 829.66 1740.04
+*fix p249 528.20 475.13 1797.36
+*fix p251 386.30 939.80 1756.53
+*fix t243 407.59 924.57 1766.28
 
 *include 204/204.svx
 *include 231/231.svx
@@ -182,11 +136,5 @@
 *include 245/245.svx
 *include 249/249.svx
 *include 251/251.svx
-*include 2002-07/2002-07.svx
-*include 2002-08/2002-08.svx
-*include 2004-14/2004-14.svx
-*include 2004-15/2004-15.svx
-*include 2004-20/2004-20.svx
-*include quarriesd/quarriesd.svx
 
 *end 204areasurvey05

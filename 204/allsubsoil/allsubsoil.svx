@@ -1,6 +1,6 @@
 *begin allsubsoil
 *export subsoil.19 ; connection to Gaffered
-*export fatworm.28 ; connection to Subway
+*export fatworm.27 ; connection to Subway
 *data normal from to tape compass clino ignoreall
 *units length metres
 *calibrate tape 0.0
@@ -88,7 +88,6 @@
 
 
 *equate QM04_38b.1 hardware.10 
-; this is definitely wrong! 04-38 isn't in hardware! -- DL
 
 ; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
 ; Cave:	Steinbruckenhöhle 1623/204
@@ -102,6 +101,7 @@
 *equate hippocratic.1 nightsoil.7
 
 ;2005.08.01 W created for Hippocratic Oath survey
+;2005.09.14 W corrected leg 9->12 so attached in right place and right way round
 
 *equate hippocratic.4 hippocratic2.1
 

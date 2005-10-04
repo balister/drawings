@@ -1,0 +1,53 @@
+*begin 2002-08
+*export 7 4 3
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*title "Capping Required"
+*team Insts Frank Tully
+*team Notes Ben Shaw
+*team Tape both
+*instrument set 1
+
+; Calibration: none
+; ref.:	2002#23
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape +0.0
+
+*data normal from to compass clino tape
+
+;from	to	compass	clino      tape	; remarks
+onwards     1 220       45        10   ; estimated leg, -45 changed to +45 by frank from memory
+1     2       220       -12        3.20
+2     3       -         up         8.10
+*flags surface
+4     3       335       -45        5.60
+4     5       -         up         1.00
+5     6       140       +20        4.90
+7     6       315       +52        5.50
+;end generated presettings
+
+
+;station details
+;LRUDs in the direction of the leg where station first occurs
+;name	L	R	U	D	description
+;1    partly blocked pitch head CM
+;2    rope bottom 6 foot from floor
+;3    bolt
+;4    tag 2002-08
+;5    surface intermediate
+;6    head height
+;7    1623-204F
+
+
+*end 2002-08

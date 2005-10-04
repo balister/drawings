@@ -1,0 +1,48 @@
+*begin 2004-15
+*export tagA tagB ; list all exported survey points
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2004-15
+*title "2004-15"
+*team Insts Olly M
+*team Notes Frank
+*team Tape Olly M
+*instrument Compass set ##; Clino set #4 
+; Calibration: stone bridge: 329/-24 152/+24
+; ref.:	2004 # 40
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	tagA	11.93	261	+11	; survey leg reversed	
+1	2	5.33	091	+00
+2	3	3.91	106	-03
+3	4	0.86	-	down
+4	5	6.71	103	+02
+5	6	6.35	036	+41
+6	tagB	8.41	023	+40
+
+;stn	L	R	U	D	Desc
+;tagA
+;1	0.7	0	1	1
+;2	0	0.5	0.5	2
+;3	0.3	0.5	1.5	2
+;4	-	-	-	-
+;5	0.8	0	0.5	1.3	
+;6	1.7	0	1	0
+;tagB	4	0	-	1
+
+
+*end 2004-15
