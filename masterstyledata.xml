@@ -10,17 +10,41 @@
 	<importgroupsubsetattr groupsubsetname="204planes"/>
 	<importgroupsubsetattr groupsubsetname="234planes"/>
 	
-	<subsetattr name="smallcaves" uppersubset="level1"/>
-	<set uppersubset="smallcaves">
+	<subsetattr name="smallcaveslevel1" uppersubset="level1"/>
+	<set uppersubset="smallcaveslevel1">
 		<subsetattr name="231"/>
+		<subsetattr name="231level1"/>
 		<subsetattr name="241"/>
+		<subsetattr name="241level1"/>
 		<subsetattr name="242"/>
 		<subsetattr name="243"/>
+		<subsetattr name="243level1"/>
 		<subsetattr name="244main"/>
+		<subsetattr name="244mainlevel1"/>
+		<subsetattr name="244gravitylevel1"/>
 		<subsetattr name="244gravity"/>
 		<subsetattr name="245"/>
+		<subsetattr name="245level1"/>
 		<subsetattr name="249"/>
 		<subsetattr name="251"/>
+		<subsetattr name="251level1"/>
+	</set>
+
+	<subsetattr name="smallcaveslevel2" uppersubset="level2"/>
+	<set uppersubset="smallcaveslevel2">
+		<subsetattr name="231level2"/>
+		<subsetattr name="241level2"/>
+		<subsetattr name="243level2"/>
+		<subsetattr name="244mainlevel2"/>
+
+		<subsetattr name="245level2"/>
+		<subsetattr name="251level2"/>
+	</set>
+
+	<subsetattr name="smallcaveslevel3" uppersubset="level3"/>
+	<set uppersubset="smallcaveslevel3">
+		<subsetattr name="244mainlevel3"/>
+		<subsetattr name="251level3"/>
 	</set>
 	
 	<subsetattr name="surface" uppersubset="invisible"/>
@@ -36,12 +60,16 @@
 		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
 		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
 		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+		<labelfcol labelstylename="entrance" fontname="Franklin Gothic Medium" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Franklin Gothic Medium" fontstyle="BOLD" size="50"/>
 	</subsetattr>
 	<subsetattr name="level2" uppersubset="visible" areacolour="#88ff9900" labelcolour="#ffcd7b00">
 		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
 		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>	
 		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
 		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+		<labelfcol labelstylename="entrance" fontname="Franklin Gothic Medium" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Franklin Gothic Medium" fontstyle="BOLD" size="50"/>
 	</subsetattr>
 	<subsetattr name="level3" uppersubset="visible" areacolour="#88ccff00" labelcolour="#ffa1c900">
 		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
