@@ -10,23 +10,20 @@
 	<importgroupsubsetattr groupsubsetname="204planes"/>
 	<importgroupsubsetattr groupsubsetname="234planes"/>
 
+	<importgroupsubsetattr groupsubsetname="default"/>
+
+	<subsetattr name="default" uppersubset="invisible"/>
+
 	<subsetattr name="smallcaveslevel1" uppersubset="level1"/>
 	<set uppersubset="smallcaveslevel1">
-		<subsetattr name="231"/>
 		<subsetattr name="231level1"/>
-		<subsetattr name="241"/>
 		<subsetattr name="241level1"/>
 		<subsetattr name="242"/>
-		<subsetattr name="243"/>
 		<subsetattr name="243level1"/>
-		<subsetattr name="244main"/>
 		<subsetattr name="244mainlevel1"/>
-		<subsetattr name="244gravitylevel1"/>
 		<subsetattr name="244gravity"/>
-		<subsetattr name="245"/>
 		<subsetattr name="245level1"/>
 		<subsetattr name="249"/>
-		<subsetattr name="251"/>
 		<subsetattr name="251level1"/>
 	</set>
 
@@ -49,11 +46,7 @@
 
 	<subsetattr name="surface" uppersubset="invisible"/>
 	<subsetattr name="243surf" uppersubset="surface"/>
-	<importgroupsubsetattr groupsubsetname="default"/>
 
-
-
-	<subsetattr name="default" uppersubset="invisible"/>
 
 	<subsetattr name="level1" uppersubset="visible" areacolour="#88e50033" labelcolour="#ffe50033">
 		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
@@ -103,7 +96,10 @@
 	<subsetattr name="elev5" uppersubset="visible" areacolour="#110033ff" areamaskcolour="none"/>
 	<subsetattr name="elev6" uppersubset="visible" areacolour="#11a900e5" areamaskcolour="none"/>
 
-	<subsetattr name="204grid" labelcolour="#ff000000">
+	<subsetattr name="elevcentreline" uppersubset="visible"/>
+	
+	<subsetattr name="204grid" labelcolour="#ff000000" areacolour="#88a900e5" uppersubset="basevisiblegrid">
+
 		<labelfcol labelstylename="titlenum" fontname="Arial" fontstyle="BOLD" size="60"/>
 		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
 		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
@@ -115,6 +111,9 @@
 		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="10"/>
 		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="35"/>
 	</subsetattr>
+
+	<subsetattr name="234grid" uppersubset="invisiblegrid"/>
+
 </groupsubsetattr>
 
 
