@@ -23,6 +23,7 @@
 		<subsetattr name="234measles"/>
 		<subsetattr name="234sweetsight"/>
 		<subsetattr name="234sourtaste"/>
+		<subsetattr name="234foolishplan"/>
 	</set>
 	<set uppersubset="pitches">
 		<subsetattr name="234pie"/>
@@ -85,18 +86,7 @@
 	<subsetattr name="2002" uppersubset="level1"/>
 	<subsetattr name="2004" uppersubset="level3"/>
 	<subsetattr name="2005" uppersubset="level4"/>
-	
-	<subsetattr name="234grid" uppersubset="basegrid" areacolour="#88ffffff" labelcolour="#ff000000" strokecolour="#ff000000">
-		<comment>Special edits to the title font sizes to get the 234 label a more sensible size for the cave.</comment>
-		<labelfcol labelstylename="titlenum" fontname="Arial" size="40"/>
-		<labelfcol labelstylename="titlename" fontname="Arial" size="60"/>
-		<labelfcol labelstylename="titlearea" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titlestats" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titledetails" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="20"/>
-		<labelfcol labelstylename="gridnum" fontname="Arial" size="15"/>
-	</subsetattr>
+
 </groupsubsetattr>
 
 </fontcolours>
