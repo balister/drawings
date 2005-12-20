@@ -111,7 +111,6 @@
 		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="10"/>
 		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="35"/>
 	</subsetattr>
-
 	<subsetattr name="234grid" uppersubset="invisiblegrid"/>
 
 </groupsubsetattr>
@@ -186,28 +185,30 @@
 
 
 	<subsetattr name="default" uppersubset="invisible"/>
-	<subsetattr name="level1" uppersubset="basevisiblecave" areacolour="#88242424" labelcolour="#ff303030">
+	<subsetattr name="level1" uppersubset="basevisiblecave" areacolour="#88545454" labelcolour="#ff303030">
 	</subsetattr>
-	<subsetattr name="level2" uppersubset="basevisiblecave" areacolour="#88343434" labelcolour="#ff202020">
+	<subsetattr name="level2" uppersubset="basevisiblecave" areacolour="#88747474" labelcolour="#ff202020">
 	</subsetattr>
-	<subsetattr name="level3" uppersubset="basevisiblecave" areacolour="#88646464" labelcolour="#ff101010">
+	<subsetattr name="level3" uppersubset="basevisiblecave" areacolour="#88949494" labelcolour="#ff101010">
 	</subsetattr>
-	<subsetattr name="level4" uppersubset="basevisiblecave" areacolour="#88d4d4d4" labelcolour="#ff010101">
+	<subsetattr name="level4" uppersubset="basevisiblecave" areacolour="#88b4b4b4" labelcolour="#ff010101">
 	</subsetattr>
-	<subsetattr name="level5" uppersubset="basevisiblecave" areacolour="#88e4e4e4" labelcolour="#ff000000">
+	<subsetattr name="level5" uppersubset="basevisiblecave" areacolour="#88d4d4d4" labelcolour="#ff000000">
 	</subsetattr>
 	<subsetattr name="level6" uppersubset="basevisiblecave" areacolour="#88f4f4f4" labelcolour="#ff000000">
 	</subsetattr>
 
 
-	<subsetattr name="elev1" uppersubset="visible" areacolour="none" areamaskcolour="none"/>
-	<subsetattr name="elev2" uppersubset="visible" areacolour="none" areamaskcolour="none"/>
-	<subsetattr name="elev3" uppersubset="visible" areacolour="none" areamaskcolour="none"/>
-	<subsetattr name="elev4" uppersubset="visible" areacolour="none" areamaskcolour="none"/>
-	<subsetattr name="elev5" uppersubset="visible" areacolour="none" areamaskcolour="none"/>
-	<subsetattr name="elev6" uppersubset="visible" areacolour="none" areamaskcolour="none"/>
+	<subsetattr name="elev1" uppersubset="visible" areacolour="#88545454" areamaskcolour="none"/>
+	<subsetattr name="elev2" uppersubset="visible" areacolour="#88747474" areamaskcolour="none"/>
+	<subsetattr name="elev3" uppersubset="visible" areacolour="#88949494" areamaskcolour="none"/>
+	<subsetattr name="elev4" uppersubset="visible" areacolour="#88b4b4b4" areamaskcolour="none"/>
+	<subsetattr name="elev5" uppersubset="visible" areacolour="#88d4d4d4" areamaskcolour="none"/>
+	<subsetattr name="elev6" uppersubset="visible" areacolour="#88f4f4f4" areamaskcolour="none"/>
 
-	<subsetattr name="204grid" labelcolour="#ff000000">
+	<subsetattr name="elevcentreline" uppersubset="visible"/>
+
+	<subsetattr name="204grid" labelcolour="#ff000000" strokecolour="#ff000000">
 		<labelfcol labelstylename="titlenum" fontname="Arial" fontstyle="BOLD" size="60"/>
 		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
 		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
@@ -217,7 +218,7 @@
 		<labelfcol labelstylename="gridnum" fontname="Arial" size="40" labelcolour="none"/>
 
 		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="10"/>
-		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="35"/>
+		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="50"/>
 	</subsetattr>
 </groupsubsetattr>
 
