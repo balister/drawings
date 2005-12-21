@@ -111,6 +111,8 @@
 		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="10"/>
 		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="35"/>
 	</subsetattr>
+	<subsetattr name="204gridlargescale" uppersubset="204grid"/>
+
 	<subsetattr name="234grid" uppersubset="invisiblegrid"/>
 
 </groupsubsetattr>
@@ -138,8 +140,6 @@
 	<subsetattr name="2002" uppersubset="level1"/>
 	<subsetattr name="2004" uppersubset="level3"/>
 	<subsetattr name="2005" uppersubset="level4"/>
-
-	<subsetattr name="204grid" uppersubset="visiblegrid" areacolour="#88b3b3b3" labelcolour="#ff090909" />
 
 	<subsetattr name="smallcaveslevel1" uppersubset="level1"/>
 	<set uppersubset="smallcaveslevel1">
@@ -206,20 +206,32 @@
 	<subsetattr name="elev5" uppersubset="visible" areacolour="#88d4d4d4" areamaskcolour="none"/>
 	<subsetattr name="elev6" uppersubset="visible" areacolour="#88f4f4f4" areamaskcolour="none"/>
 
-	<subsetattr name="elevcentreline" uppersubset="visible"/>
+	<subsetattr name="elevcentreline" uppersubset="visible">
+		<linestylecol linestyle="centreline" strokewidth="0.312" strokecolour="#ff00000"/>
+	</subsetattr>
 
 	<subsetattr name="204grid" labelcolour="#ff000000" strokecolour="#ff000000">
 		<labelfcol labelstylename="titlenum" fontname="Arial" fontstyle="BOLD" size="60"/>
 		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
-		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="50"/>
 		<labelfcol labelstylename="titleentname" fontname="Arial" fontstyle="BOLD" size="60"/>
 		<labelfcol labelstylename="titlestats" fontname="Arial" fontstyle="PLAIN" size="50"/>
 		<labelfcol labelstylename="titledetails" fontname="Arial" fontstyle="ITALIC" size="50"/>
-		<labelfcol labelstylename="gridnum" fontname="Arial" size="40" labelcolour="none"/>
+		<labelfcol labelstylename="gridnum" fontname="Arial" size="50"/>
 
 		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="10"/>
 		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="50"/>
+			<symbolaut dname="bignorth" description="North Arrow">
+				<asymbol name="northarrowbig" position="endpath" scale="fixed" orientation="fixed" area-interaction="allowed-outside"/>
+			</symbolaut>
+
+			<symbolaut dname="100mscale" description="100m scale bar">
+				<asymbol name="scalebar100m" position="endpath" scale="fixed" orientation="fixed" area-interaction="allowed-outside"/>
+			</symbolaut>
+		<linestylecol linestyle="detail" strokewidth="5" strokecolour="#ff000000"/>
+		<linestylecol linestyle="wall" strokewidth="5" strokecolour="#ff000000"/>
 	</subsetattr>
+	<subsetattr name="204gridsmallscale" uppersubset="204grid"/>
 </groupsubsetattr>
 
 </fontcolours>
