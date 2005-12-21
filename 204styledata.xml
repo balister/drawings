@@ -214,11 +214,14 @@
 	</set>
 	<subsetattr name="234grid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Aristongrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Crestagrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Midlevelgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Milleniumgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Nearendgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Pleasuregrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Rhinogrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Subsoilgrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Subwaygrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Swingsgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Treeumphantgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Underworldgrid" uppersubset="invisiblegrid"/>
@@ -263,7 +266,11 @@
 
 	<subsetattr name="surface" uppersubset="invisible"/>
 	<subsetattr name="243surf" uppersubset="surface"/>
-
+	<subsetattr name="smallscalelabels">
+		<labelfcol labelstylename="entrance" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
+		<labelfcol labelstylename="cave" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
+	</subsetattr>
+	
 	<subsetattr name="231" uppersubset="invisible"/>
 	<set uppersubset="231">
 		<subsetattr name="231level1"/>
@@ -340,7 +347,8 @@
 		<subsetattr name="highhopes2"/>
 		<subsetattr name="highhopes1"/>
 		<subsetattr name="pile driver"/>
-		<subsetattr name="cresta run"/>		
+		<subsetattr name="cresta run"/>
+		<subsetattr name="swings2cresta"/>	
 	</set>	
 	
 	<subsetattr name="Deep routes via Ariston" uppersubset="invisible"/>
@@ -451,6 +459,34 @@
 		<subsetattr name="hangingontofaith"/>
 	</set>
 
+	<subsetattr name="Subsoil level" uppersubset="invisible"/>
+	<set uppersubset="Subsoil level">
+		<subsetattr name="hardware"/>
+		<subsetattr name="hippohollows"/>
+		<subsetattr name="fatwormblowsasparky"/>
+		<subsetattr name="thinrift"/>
+		<subsetattr name="earthenware"/>
+		<subsetattr name="stoneware"/>
+		<subsetattr name="underware"/>
+		<subsetattr name="subsoil"/>
+		<subsetattr name="heavilysoiled"/>
+		<subsetattr name="soiled"/>
+		<subsetattr name="hippocratictop"/>
+		<subsetattr name="software"/>
+		<subsetattr name="firmware"/>
+		<subsetattr name="someware"/>
+		<subsetattr name="nightsoil"/>
+		<subsetattr name="hippocratic1"/>
+		<subsetattr name="hippocratic2"/>
+	</set>	
+	
+	<subsetattr name="Subway" uppersubset="invisible"/>
+	<set uppersubset="Subway">
+		<subsetattr name="apocalypse"/>
+		<subsetattr name="tube"/>
+		<subsetattr name="mornington"/>
+	</set>
+
 	<subsetattr name="Swings and Roundabouts" uppersubset="invisible"/>
 	<set uppersubset="Swings and Roundabouts">
 		<subsetattr name="gaffertapetop"/>
@@ -474,7 +510,6 @@
 		<subsetattr name="ermintrude"/>
 		<subsetattr name="ermintrude2"/>
 		<subsetattr name="southcircular"/>
-		<subsetattr name="swings2cresta"/>
 		<subsetattr name="swings"/>
 	</set>
 	
@@ -528,35 +563,7 @@
 		<subsetattr name="universitychallenge"/>
 		
 	</set>
-	
-	<subsetattr name="Subsoil level" uppersubset="invisible"/>
-	<set uppersubset="Subsoil level">
-		<subsetattr name="hardware"/>
-		<subsetattr name="hippohollows"/>
-		<subsetattr name="fatwormblowsasparky"/>
-		<subsetattr name="thinrift"/>
-		<subsetattr name="earthenware"/>
-		<subsetattr name="stoneware"/>
-		<subsetattr name="underware"/>
-		<subsetattr name="subsoil"/>
-		<subsetattr name="heavilysoiled"/>
-		<subsetattr name="soiled"/>
-		<subsetattr name="hippocratictop"/>
-		<subsetattr name="software"/>
-		<subsetattr name="firmware"/>
-		<subsetattr name="someware"/>
-		<subsetattr name="nightsoil"/>
-		<subsetattr name="hippocratic1"/>
-		<subsetattr name="hippocratic2"/>
-	</set>	
-	
-	<subsetattr name="Subway" uppersubset="invisible"/>
-	<set uppersubset="Subway">
-		<subsetattr name="apocalypse"/>
-		<subsetattr name="tube"/>
-		<subsetattr name="mornington"/>
-	</set>
-	
+		
 	<subsetattr name="204Elevation" uppersubset="invisible"/>
 	<set uppersubset="204Elevation">
 		<subsetattr name="204elevtoplevel"/>
@@ -568,23 +575,64 @@
 	</set>
 	
 	<subsetattr name="204grid" uppersubset="invisiblegrid"/>
+	<subsetattr name="231grid" uppersubset="invisiblegrid"/>
 	<subsetattr name="234grid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Aristongrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Crestagrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Midlevelgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Milleniumgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Nearendgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Pleasuregrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Rhinogrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Subsoilgrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Subwaygrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Swingsgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Treeumphantgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Underworldgrid" uppersubset="invisiblegrid"/>
 
 </groupsubsetattr>
 
+<groupsubsetattr groupsubsetname="231 only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="231" uppersubset="visible"/>
+	<subsetattr name="231grid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="234 only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="234" uppersubset="visible">
+		<labelfcol labelstylename="entrance" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
+		<labelfcol labelstylename="cave" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
+	</subsetattr>
+	
+	<subsetattr name="234grid" uppersubset="visiblegrid" areacolour="#88ffffff" labelcolour="#ff000000" strokecolour="#ff000000">
+		<labelfcol labelstylename="titlenum" fontname="Arial" size="40"/>
+		<labelfcol labelstylename="titlename" fontname="Arial" size="60"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" size="30"/>
+		<labelfcol labelstylename="titlestats" fontname="Arial" size="30"/>
+		<labelfcol labelstylename="titledetails" fontname="Arial" size="30"/>
+		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="30"/>
+		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="20"/>
+		<labelfcol labelstylename="gridnum" fontname="Arial" size="15"/>
+	</subsetattr>
+</groupsubsetattr>
+
 <groupsubsetattr groupsubsetname="Ariston only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Deep routes via Ariston" uppersubset="visible"/>
 	<subsetattr name="204Aristongrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+</groupsubsetattr>
+
+
+<groupsubsetattr groupsubsetname="Cresta only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="Cresta" uppersubset="visible">
+		<labelfcol labelstylename="entrance" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
+	</subsetattr>
+	<subsetattr name="204Crestagrid" uppersubset="visiblegrid" labelcolour="#ff000000">
+		<labelfcol labelstylename="gridnum" fontname="Arial" size="15"/>
+		<labelfcol labelstylename="titlearea"/>
+	</subsetattr>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Midlevel only">
@@ -617,6 +665,22 @@
 	<subsetattr name="204Rhinogrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 </groupsubsetattr>
 
+<groupsubsetattr groupsubsetname="Subsoil only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="Subsoil level" uppersubset="visible">
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="20"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="20"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="BOLD" size="40"/>
+	</subsetattr>	
+	<subsetattr name="204Subsoilgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="Subway only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="Subway" uppersubset="visible"/>
+	<subsetattr name="204Subwaygrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+</groupsubsetattr>
+
 <groupsubsetattr groupsubsetname="Swings only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Swings and Roundabouts" uppersubset="visible"/>
@@ -633,42 +697,6 @@
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Underworld" uppersubset="visible"/>
 	<subsetattr name="204Underworldgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
-</groupsubsetattr>
-
-<groupsubsetattr groupsubsetname="Susoil only">
-	<importgroupsubsetattr groupsubsetname="areas"/>
-	<subsetattr name="Subsoil" uppersubset="visible"/>
-	<subsetattr name="204Subsoilgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
-</groupsubsetattr>
-
-<groupsubsetattr groupsubsetname="Subway only">
-	<importgroupsubsetattr groupsubsetname="areas"/>
-	<subsetattr name="Subway" uppersubset="visible"/>
-	<subsetattr name="204Subwaygrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
-</groupsubsetattr>
-
-<groupsubsetattr groupsubsetname="231 only">
-	<importgroupsubsetattr groupsubsetname="areas"/>
-	<subsetattr name="231" uppersubset="visible"/>
-</groupsubsetattr>
-
-<groupsubsetattr groupsubsetname="234 only">
-	<importgroupsubsetattr groupsubsetname="areas"/>
-	<subsetattr name="234" uppersubset="visible">
-		<labelfcol labelstylename="entrance" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
-		<labelfcol labelstylename="cave" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
-	</subsetattr>
-	
-	<subsetattr name="234grid" uppersubset="visiblegrid" areacolour="#88ffffff" labelcolour="#ff000000" strokecolour="#ff000000">
-		<labelfcol labelstylename="titlenum" fontname="Arial" size="40"/>
-		<labelfcol labelstylename="titlename" fontname="Arial" size="60"/>
-		<labelfcol labelstylename="titlearea" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titlestats" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titledetails" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" size="30"/>
-		<labelfcol labelstylename="titlecreditssmall" fontname="Arial" size="20"/>
-		<labelfcol labelstylename="gridnum" fontname="Arial" size="15"/>
-	</subsetattr>
 </groupsubsetattr>
 
 </fontcolours>
