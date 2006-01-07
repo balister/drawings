@@ -246,6 +246,8 @@
 	<importgroupsubsetattr groupsubsetname="default"/>
 
 	<subsetattr name="204grid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204gridlargescale" uppersubset="invisiblegrid"/>
+	<subsetattr name="204gridsmallscale" uppersubset="invisiblegrid"/>
 	<subsetattr name="elevcentreline" uppersubset="invisible"/>
 	<subsetattr name="elev1" uppersubset="invisible"/>
 	<subsetattr name="elev2" uppersubset="invisible"/>
