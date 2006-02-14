@@ -249,20 +249,23 @@
 	<subsetattr name="204gridlargescale" uppersubset="invisiblegrid"/>
 	<subsetattr name="204gridsmallscale" uppersubset="invisiblegrid"/>
 	<subsetattr name="elevcentreline" uppersubset="invisible"/>
-	<subsetattr name="elev1" uppersubset="invisible"/>
-	<subsetattr name="elev2" uppersubset="invisible"/>
-	<subsetattr name="elev3" uppersubset="invisible"/>
-	<subsetattr name="elev4" uppersubset="invisible"/>
-	<subsetattr name="elev5" uppersubset="invisible"/>
-	<subsetattr name="elev6" uppersubset="invisible"/>
+	<subsetattr name="elev1" uppersubset="invisiblegrid"/>
+	<subsetattr name="elev2" uppersubset="invisiblegrid"/>
+	<subsetattr name="elev3" uppersubset="invisiblegrid"/>
+	<subsetattr name="elev4" uppersubset="invisiblegrid"/>
+	<subsetattr name="elev5" uppersubset="invisiblegrid"/>
+	<subsetattr name="elev6" uppersubset="invisiblegrid"/>
 	
+	<subsetattr name="invisible" areacolour="#22cccccc" areamaskcolour="#22dddddd" strokecolour="#22444444">
+		<linestylecol linestyle="wall" strokewidth="1.25" />
+	</subsetattr>
 
 	<subsetattr name="visible">
 		<labelfcol labelstylename="cave" fontname="Franklin Gothic Medium" fontstyle="BOLD" size="50"/>
-		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
-		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
-		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
-		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="46"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="68"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="22"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="30"/>
 	</subsetattr>
 		
 
@@ -659,28 +662,46 @@
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Pleasure Dome/No pain no gain" uppersubset="visible"/>
 	<subsetattr name="204Pleasuregrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="23"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="34"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Rhino only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Rhino Rift" uppersubset="visible"/>
 	<subsetattr name="204Rhinogrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="34"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="22"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="30"/>
+	</subsetattr>
+
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Subsoil only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
-	<subsetattr name="Subsoil level" uppersubset="visible">
-		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="20"/>
-		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="20"/>
-		<labelfcol labelstylename="area" fontname="Arial" fontstyle="BOLD" size="40"/>
-	</subsetattr>	
+	<subsetattr name="Subsoil level" uppersubset="visible"/>
 	<subsetattr name="204Subsoilgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="visible">
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="33"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="45"/>
+	</subsetattr>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Subway only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Subway" uppersubset="visible"/>
-	<subsetattr name="204Subwaygrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="204Subwaygrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5">
+		<labelfcol labelstylename="cave" fontname="Franklin Gothic Medium" fontstyle="BOLD" size="50" labelcolour="#ff000000" />
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="46" labelcolour="#ff000000" />
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="68" labelcolour="#ff000000" />
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="22" labelcolour="#ff000000" />
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="30" labelcolour="#ff000000" />
+	</subsetattr>		
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Swings only">
@@ -693,6 +714,13 @@
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Treeumphant" uppersubset="visible"/>
 	<subsetattr name="204Treeumphantgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="23"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="34"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
+
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Uworld only">
