@@ -225,6 +225,8 @@
 	<subsetattr name="204Swingsgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Treeumphantgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Underworldgrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Heltergrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204CSBgrid" uppersubset="invisiblegrid"/>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="204planes" groupsubsetselectable="no">
@@ -262,12 +264,11 @@
 
 	<subsetattr name="visible">
 		<labelfcol labelstylename="cave" fontname="Franklin Gothic Medium" fontstyle="BOLD" size="50"/>
-		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="46"/>
-		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="68"/>
+		<labelfcol labelstylename="area" fontname="Franklin Gothic Medium" fontstyle="ITALIC" size="46"/>
+		<labelfcol labelstylename="passage" fontname="Franklin Gothic Medium" fontstyle="PLAIN" size="30"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="26"/>
 		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="22"/>
-		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="30"/>
 	</subsetattr>
-		
 
 	<subsetattr name="surface" uppersubset="invisible"/>
 	<subsetattr name="243surf" uppersubset="surface"/>
@@ -462,6 +463,7 @@
 		<subsetattr name="beyondbelief2"/>
 		<subsetattr name="beyondbelief3"/>
 		<subsetattr name="hangingontofaith"/>
+		<subsetattr name="limescale cistern"/>
 	</set>
 
 	<subsetattr name="Subsoil level" uppersubset="invisible"/>
@@ -509,7 +511,6 @@
 		<subsetattr name="trapeze"/>
 		<subsetattr name="theslide"/>
 		<subsetattr name="suspendedsolution"/>
-		<subsetattr name="limescale cistern"/>
 		<subsetattr name="livingdaylight"/>
 		<subsetattr name="204d"/>
 		<subsetattr name="ermintrude"/>
@@ -522,18 +523,13 @@
 	<set uppersubset="Treeumphant">
 		<subsetattr name="topofcrowning"/>
 		<subsetattr name="back passage"/>
-		<subsetattr name="chocolatesaltyballs"/>
 		<subsetattr name="204c"/>
 		<subsetattr name="204f"/>
 		<subsetattr name="germknodel"/>
-		<subsetattr name="helter skelter bottom"/>
 		<subsetattr name="sucker"/>
-		<subsetattr name="sand pit"/>
 		<subsetattr name="crowningglory"/>
 		<subsetattr name="crowningglorychamber"/>
 		<subsetattr name="greatoaktocavetree"/>
-		<subsetattr name="boulder coaster"/>
-		<subsetattr name="helter skelter top"/>
 		<subsetattr name="cavetree"/>
 		<subsetattr name="treeslope"/>
 		<subsetattr name="treetoglory"/>
@@ -541,6 +537,19 @@
 		<subsetattr name="twiglets"/>
 		<subsetattr name="greatoak"/>
 		<subsetattr name="colonnade"/>
+	</set>
+
+	<subsetattr name="csballs area" uppersubset="invisible"/>
+	<set uppersubset="csballs area">
+		<subsetattr name="chocolatesaltyballs"/>
+	</set>
+	
+	<subsetattr name="helter skelter area" uppersubset="invisible"/>
+	<set uppersubset="helter skelter area">
+		<subsetattr name="boulder coaster"/>
+		<subsetattr name="helter skelter top"/>
+		<subsetattr name="helter skelter bottom"/>
+		<subsetattr name="sand pit"/>
 	</set>
 	
 	<subsetattr name="Underworld" uppersubset="invisible"/>
@@ -566,9 +575,10 @@
 		<subsetattr name="uppertube"/>
 		<subsetattr name="garenersworld"/>
 		<subsetattr name="universitychallenge"/>
-		
 	</set>
-		
+
+
+	
 	<subsetattr name="204Elevation" uppersubset="invisible"/>
 	<set uppersubset="204Elevation">
 		<subsetattr name="204elevtoplevel"/>
@@ -594,6 +604,8 @@
 	<subsetattr name="204Swingsgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Treeumphantgrid" uppersubset="invisiblegrid"/>
 	<subsetattr name="204Underworldgrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204Heltergrid" uppersubset="invisiblegrid"/>
+	<subsetattr name="204CSBgrid" uppersubset="invisiblegrid"/>
 
 </groupsubsetattr>
 
@@ -634,10 +646,7 @@
 	<subsetattr name="Cresta" uppersubset="visible">
 		<labelfcol labelstylename="entrance" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
 	</subsetattr>
-	<subsetattr name="204Crestagrid" uppersubset="visiblegrid" labelcolour="#ff000000">
-		<labelfcol labelstylename="gridnum" fontname="Arial" size="15"/>
-		<labelfcol labelstylename="titlearea"/>
-	</subsetattr>
+	<subsetattr name="204Crestagrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Midlevel only">
@@ -674,12 +683,6 @@
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Rhino Rift" uppersubset="visible"/>
 	<subsetattr name="204Rhinogrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
-	<subsetattr name="visible">
-		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="34"/>
-		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="22"/>
-		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="30"/>
-	</subsetattr>
-
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Subsoil only">
@@ -687,8 +690,9 @@
 	<subsetattr name="Subsoil level" uppersubset="visible"/>
 	<subsetattr name="204Subsoilgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 	<subsetattr name="visible">
+		<labelfcol labelstylename="passage" fontname="Franklin Gothic Medium" fontstyle="PLAIN" size="45"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="39"/>
 		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="33"/>
-		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="45"/>
 	</subsetattr>
 </groupsubsetattr>
 
@@ -696,11 +700,9 @@
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Subway" uppersubset="visible"/>
 	<subsetattr name="204Subwaygrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5">
-		<labelfcol labelstylename="cave" fontname="Franklin Gothic Medium" fontstyle="BOLD" size="50" labelcolour="#ff000000" />
-		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="46" labelcolour="#ff000000" />
-		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="68" labelcolour="#ff000000" />
+		<labelfcol labelstylename="passage" fontname="Franklin Gothic Medium" fontstyle="PLAIN" size="30" labelcolour="#ff000000" />
 		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="22" labelcolour="#ff000000" />
-		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="30" labelcolour="#ff000000" />
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="26" labelcolour="#ff000000" />
 	</subsetattr>		
 </groupsubsetattr>
 
@@ -720,13 +722,30 @@
 		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
 		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
 	</subsetattr>
+</groupsubsetattr>
 
+<groupsubsetattr groupsubsetname="CSB only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="csballs area" uppersubset="visible"/>
+	<subsetattr name="204CSBgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="Helter only">
+	<importgroupsubsetattr groupsubsetname="areas"/>
+	<subsetattr name="helter skelter area" uppersubset="visible"/>
+	<subsetattr name="204Heltergrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Uworld only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Underworld" uppersubset="visible"/>
-	<subsetattr name="204Underworldgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="204Underworldgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>	
+	<subsetattr name="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="23"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="34"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
+	</subsetattr>
 </groupsubsetattr>
 
 </fontcolours>
