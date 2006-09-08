@@ -550,6 +550,7 @@
 		<subsetattr name="helter skelter top"/>
 		<subsetattr name="helter skelter bottom"/>
 		<subsetattr name="sand pit"/>
+		<subsetattr name="swings2cresta"/>
 	</set>
 	
 	<subsetattr name="Underworld" uppersubset="invisible"/>
@@ -620,8 +621,14 @@
 	<subsetattr name="234" uppersubset="visible">
 		<labelfcol labelstylename="entrance" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
 		<labelfcol labelstylename="cave" labelcolour="none" strokecolour="none" fontstyle="PLAIN" size="1"/>
+	</subsetattr>	
+	<subsetattr name="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="23"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="34"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="11"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="15"/>
 	</subsetattr>
-	
+
 	<subsetattr name="234grid" uppersubset="visiblegrid" areacolour="#88ffffff" labelcolour="#ff000000" strokecolour="#ff000000">
 		<labelfcol labelstylename="titlenum" fontname="Arial" size="40"/>
 		<labelfcol labelstylename="titlename" fontname="Arial" size="60"/>
@@ -652,7 +659,9 @@
 <groupsubsetattr groupsubsetname="Midlevel only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Midlevel" uppersubset="visible"/>
+	<subsetattr name="Millenium dome/White Elephant" uppersubset="visible"/>
 	<subsetattr name="204Midlevelgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="204Milleniumgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Millenium/White Elephant only">
@@ -709,12 +718,14 @@
 <groupsubsetattr groupsubsetname="Swings only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Swings and Roundabouts" uppersubset="visible"/>
-	<subsetattr name="204Swingsgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
+	<subsetattr name="Rhino Rift" uppersubset="visible"/>
+	<subsetattr name="204Rhinogrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 </groupsubsetattr>
 
 <groupsubsetattr groupsubsetname="Tree only">
 	<importgroupsubsetattr groupsubsetname="areas"/>
 	<subsetattr name="Treeumphant" uppersubset="visible"/>
+	<subsetattr name="csballs area" uppersubset="visible"/>
 	<subsetattr name="204Treeumphantgrid" uppersubset="visiblegrid" areacolour="#88a900e5" labelcolour="#ffa900e5"/>
 	<subsetattr name="visible">
 		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN" size="23"/>
