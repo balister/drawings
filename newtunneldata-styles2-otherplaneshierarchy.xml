@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours>
+
+<groupsubsetattr groupsubsetname="tunnocks" groupsubsetselectable="no">
+	
+	<importgroupsubsetattr groupsubsetname="planecolours"/>
+
+	<subsetattr name="tunnocks_entpitch1" uppersubset="level1"/>
+	<set uppersubset="tunnocks_entpitch1">
+		<subsetattr name="enttoledge"/>
+	</set>
+
+	<subsetattr name="tunnocks_entpitch2" uppersubset="level2"/>
+	<set uppersubset="tunnocks_entpitch2">
+		<subsetattr name="ledgetocol"/>
+	</set>
+
+	<subsetattr name="tunnocks_entpitch3" uppersubset="level3"/>
+	<set uppersubset="tunnocks_entpitch3">
+		<subsetattr name="belowcol"/>
+	</set>
+
+	<subsetattr name="tunnocks_mainlevel" uppersubset="level4"/>
+	<set uppersubset="tunnocks_mainlevel">
+		<subsetattr name="entchamber"/>
+		<subsetattr name="3friedmice"/>
+		<subsetattr name="bauernkrapfern"/>
+		<subsetattr name="strudel"/>
+		<subsetattr name="ribsknodel"/>
+		<subsetattr name="sauerkraut"/>
+		<subsetattr name="gknodel"/>
+		<subsetattr name="alphabetsoup"/>
+	</set>
+
+	<subsetattr name="surface"/>
+	<subsetattr name="tunnockssurf" uppersubset="surface"/>
+	<subsetattr name="tunnocksgrid" uppersubset="invisiblegrid"/>
+
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="smallcaves" groupsubsetselectable="no">
+
+	<importgroupsubsetattr groupsubsetname="planecolours"/>
+
+	<subsetattr name="smallcaveslevel1" uppersubset="level1"/>
+	<set uppersubset="smallcaveslevel1">
+		<subsetattr name="231level1"/>
+		<subsetattr name="239"/>
+		<subsetattr name="241level1"/>
+		<subsetattr name="242"/>
+		<subsetattr name="243level1"/>
+		<subsetattr name="244mainlevel1"/>
+		<subsetattr name="244gravity"/>
+		<subsetattr name="245level1"/>
+		<subsetattr name="249"/>
+		<subsetattr name="251level1"/>
+		<subsetattr name="2002-05"/>
+		<subsetattr name="2002-06"/>
+		<subsetattr name="2004-15"/>
+		<subsetattr name="2006-08"/>
+		<subsetattr name="2006-09"/>
+	</set>
+
+	<subsetattr name="smallcaveslevel2" uppersubset="level2"/>
+	<set uppersubset="smallcaveslevel2">
+		<subsetattr name="231level2"/>
+		<subsetattr name="241level2"/>
+		<subsetattr name="243level2"/>
+		<subsetattr name="244mainlevel2"/>
+		<subsetattr name="245level2"/>
+		<subsetattr name="251level2"/>
+	</set>
+
+	<subsetattr name="smallcaveslevel3" uppersubset="level3"/>
+	<set uppersubset="smallcaveslevel3">
+		<subsetattr name="244mainlevel3"/>
+		<subsetattr name="251level3"/>
+	</set>
+
+	<subsetattr name="surface"/>
+	<subsetattr name="243surf" uppersubset="surface"/>
+	<subsetattr name="239surf" uppersubset="surface"/>
+
+</groupsubsetattr>

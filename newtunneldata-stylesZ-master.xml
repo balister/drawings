@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours>
+
+<groupsubsetattr groupsubsetname="CUCCplanes">
+	<importgroupsubsetattr groupsubsetname="204planes"/>
+	<importgroupsubsetattr groupsubsetname="234planes"/>
+	<importgroupsubsetattr groupsubsetname="tunnocks"/>
+	<importgroupsubsetattr groupsubsetname="smallcaves"/>
+	
+	<importgroupsubsetattr groupsubsetname="default"/>
+	<subsetattr name="surface" uppersubset="invisible"/>
+
+       	<subsetattr name="level1" uppersubset="visible" areacolour="#88e50033" labelcolour="#ffe50033">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+	<subsetattr name="level2" uppersubset="visible" areacolour="#88ff9900" labelcolour="#ffcd7b00">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+	<subsetattr name="level3" uppersubset="visible" areacolour="#88ccff00" labelcolour="#ffa1c900">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+	</subsetattr>
+	<subsetattr name="level4" uppersubset="visible" areacolour="#8819ff2d" labelcolour="#ff14cd24">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+	</subsetattr>
+	<subsetattr name="level5" uppersubset="visible" areacolour="#880033ff" labelcolour="#ff0033ff">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+	</subsetattr>
+	<subsetattr name="level6" uppersubset="visible" areacolour="#88a900e5" labelcolour="#ffa900e5">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+	</subsetattr>
+
+	<subsetattr name="subway" uppersubset="invisible" areacolour="#22cccccc" areamaskcolour="#22dddddd" strokecolour="#66444444">
+		<linestylecol linestyle="wall"/>
+		<linestylecol linestyle="estwall"/>
+	</subsetattr>
+	
+	<subsetattr name="elev1" uppersubset="level1"/>
+	<subsetattr name="elev2" uppersubset="level2"/>
+	<subsetattr name="elev3" uppersubset="level3"/>
+	<subsetattr name="elev4" uppersubset="level4"/>
+	<subsetattr name="elev5" uppersubset="level5"/>
+	<subsetattr name="elev6" uppersubset="level6"/>
+	<subsetattr name="elev7" uppersubset="subway"/>
+
+	<subsetattr name="gridlines100m" areacolour="none" areamaskcolour="none" labelcolour="#ff000000" strokecolour="#ff000000" uppersubset="basevisiblegrid">
+		<labelfcol labelstylename="gridnum" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
+		<labelfcol labelstylename="titlesubname" fontname="Arial" fontstyle="BOLD" size="60"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
+		<labelfcol labelstylename="titlestats" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<labelfcol labelstylename="titlestatcols" fontname="Arial" fontstyle="ITALIC" size="40"/>
+		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" fontstyle="PLAIN" size="30"/>
+		<labelfcol labelstylename="titlenortharrow" fontname="Times New Roman" fontstyle="PLAIN" size="80"/>
+		<linestylecol linestyle="wall" strokewidth="3.0" strokecolour="#ff000000"/>
+		<linestylecol linestyle="detail" strokewidth="0.625" strokecolour="#ff888888"/>
+	</subsetattr>
+
+	<subsetattr name="surfaceshafts" uppersubset="basevisiblecave" areacolour="none" areamaskcolour="none">
+		<linestylecol linestyle="filled" strokewidth="0.0" strokecolour="#cce50033"/>
+		<linestylecol linestyle="estwall" strokewidth="3.75" strokecolour="#ffe50033" spikegap="22.5" gapleng="11.25" spikeheight="0.0"/>
+		<labelfcol labelstylename="entrance" labelcolour="#ffe50033" fontname="Arial" fontstyle="BOLD" size="23"/>
+		<symbolaut dname="entrance" description="entrance arrow">
+			<asymbol name="ent" position="endpath" scale="fixed" picscale="0.5" orientation="fixed" area-interaction="allowed-outside"/>
+		</symbolaut>
+	</subsetattr>
+
+</groupsubsetattr>
+
+
+<groupsubsetattr groupsubsetname="Treeonly">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="treeumphant_area" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="18"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="ITALIC" size="18"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+	<subsetattr name="boulder coaster" uppersubset="treeumphant_area"/>
+	<set uppersubset="greyed">
+		<subsetattr name="swingsroundabouts"/>
+		<subsetattr name="nopain"/>
+		<subsetattr name="deathglory"/>
+		<subsetattr name="kidneybean"/>
+	</set>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="234only">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="234" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="No Pain / Insig only">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="nopain" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+	<set uppersubset="greyed">
+		<subsetattr name="treeumphant_area"/>
+		<subsetattr name="swingsroundabouts"/>
+		<subsetattr name="midlevel"/>
+		<subsetattr name="rhino"/>
+	</set>
+</groupsubsetattr>
+<groupsubsetattr groupsubsetname="No Pain / Insig only">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="nopain" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+	<set uppersubset="greyed">
+		<subsetattr name="treeumphant_area"/>
+		<subsetattr name="swingsroundabouts"/>
+		<subsetattr name="midlevel"/>
+		<subsetattr name="rhino"/>
+	</set>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="Tunnocks only">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="tunnocks" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="ITALIC" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+</groupsubsetattr>
+<groupsubsetattr groupsubsetname="Cresta area">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="cresta" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="ITALIC" size="17"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+	<set uppersubset="cresta">
+		<subsetattr name="251level1"/>	
+		<subsetattr name="251level2"/>	
+		<subsetattr name="251level3"/>	
+		<subsetattr name="243level1"/>
+		<subsetattr name="243level2"/>
+	</set>
+	<set uppersubset="greyed">
+		<subsetattr name="swingsroundabouts"/>
+		<subsetattr name="treeumphant"/>
+	</set>
+</groupsubsetattr>
+<groupsubsetattr groupsubsetname="subsoilonly">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="subsoil_level" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="20"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="ITALIC" size="20"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="uworldonly">
+	<importgroupsubsetattr groupsubsetname="204areas_hierarchy"/>
+     	<subsetattr name="underworld" uppersubset="visible">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="20"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="ITALIC" size="20"/>
+		<labelfcol labelstylename="entrance" fontname="Arial" size="30.0"/>
+		<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+	</subsetattr>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="subwayonly">
+	<importgroupsubsetattr groupsubsetname="204planes"/>
+	<importgroupsubsetattr groupsubsetname="default"/>
+	
+	<set uppersubset="invisible">
+		<subsetattr name="surface"/>
+		<subsetattr name="surfaceshafts"/>
+		<subsetattr name="toplevel"/>
+		<subsetattr name="topplane"/>
+		<subsetattr name="bottomplane"/>
+		<subsetattr name="uppershaftzone"/>
+		<subsetattr name="lowershaftzone"/>
+		<subsetattr name="razordance"/>
+		<subsetattr name="subsoil_level"/>
+	</set>
+	<subsetattr name="gridlines100m" uppersubset="invisiblegrid" strokecolour="none">
+		<linestylecol linestyle="wall"/>
+		<linestylecol linestyle="detail"/>
+	</subsetattr>
+
+	<subsetattr name="204Subwaygrid" areacolour="none" areamaskcolour="none" labelcolour="#ff000000" strokecolour="#ff000000" uppersubset="basevisiblegrid">
+		<labelfcol labelstylename="gridnum" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
+		<labelfcol labelstylename="titlesubname" fontname="Arial" fontstyle="BOLD" size="60"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
+		<labelfcol labelstylename="titlestats" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<labelfcol labelstylename="titlestatcols" fontname="Arial" fontstyle="ITALIC" size="40"/>
+		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" fontstyle="PLAIN" size="30"/>
+		<labelfcol labelstylename="titlenortharrow" fontname="Times New Roman" fontstyle="PLAIN" size="80"/>
+		<linestylecol linestyle="wall" strokewidth="3.0" strokecolour="#ff000000"/>
+		<linestylecol linestyle="detail" strokewidth="0.625" strokecolour="#ff888888"/>
+	</subsetattr>
+
+	<subsetattr name="subway" uppersubset="visible" areacolour="#88a900e5" labelcolour="#ffa900e5">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+	</subsetattr>
+	<subsetattr name="subway2" uppersubset="visible" areacolour="#88a900e5" labelcolour="#ffa900e5">
+		<labelfcol labelstylename="passage" fontname="Arial" fontstyle="PLAIN"/>
+		<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC"/>
+		<labelfcol labelstylename="qm" fontname="Times New Roman" fontstyle="PLAIN" size="14"/>
+		<labelfcol labelstylename="step" fontname="Times New Roman" fontstyle="PLAIN" size="17"/>
+	</subsetattr>
+
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="smallscale">	
+	<importgroupsubsetattr groupsubsetname="CUCCplanes"/>
+	
+
+	<subsetattr name="basevisiblecave">
+		<symbolaut dname="breeze" description="breeze symbol">
+			<asymbol name="breeze" position="endpath" scale="fixed" orientation="alongaxis" area-interaction="allowed-outside" picscale="3.0"/>
+		</symbolaut>
+
+		<symbolaut dname="slope" description="slope symbol">
+			<asymbol name="slope" position="endpath" scale="fixed" orientation="alongaxis" area-interaction="allowed-outside" picscale="2.0"/>
+		</symbolaut>
+		<symbolaut dname="stream" description="stream symbol">
+			<asymbol name="stream" position="endpath" scale="fixed" orientation="nearaxis" area-interaction="allowed-outside" picscale="2.0"/>
+		</symbolaut>
+	</subsetattr>
+
+	
+	<set labelcolour="none">
+		<subsetattr name="level1" areacolour="#88444444" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>
+		<subsetattr name="level2" areacolour="#88666666" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>	
+		<subsetattr name="level3" areacolour="#88888888" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>
+		<subsetattr name="level4" areacolour="#88aaaaaa" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>
+		<subsetattr name="level5" areacolour="#88cccccc" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>
+		<subsetattr name="level6" areacolour="#88d8d8d8" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>	
+		<subsetattr name="subway" uppersubset="visible" areacolour="#88e8e8e8" strokecolour="#ff000000" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>
+		<subsetattr name="subway2" uppersubset="visible" areacolour="#88e8e8e8" strokecolour="#ff000000" shadowstrokewidth="14.0" shadowstrokecolour="#ffffffff">
+			<labelfcol labelstylename="qm"/>
+			<labelfcol labelstylename="step"/>
+			<labelfcol labelstylename="passage"/>
+			<labelfcol labelstylename="area"/>
+			<labelfcol labelstylename="entrance"/>
+			<labelfcol labelstylename="cave"/>
+			<linestylecol linestyle="centreline" strokewidth="2.00" strokecolour="#ff000000"/>
+			<linestylecol linestyle="detail" strokewidth="3.0" strokecolour="#ff000000"/>
+			<linestylecol linestyle="wall" strokewidth="5.0"/>
+			<linestylecol linestyle="estwall" strokewidth="5.0"/>
+			<linestylecol linestyle="pitchbound" strokewidth="3.0" spikegap="30.0" gapleng="0.0" spikeheight="8.0"/>
+		</subsetattr>
+
+	</set>
+
+	<set labelcolour="#ff000000">
+	
+		<subsetattr name="smallscalelabels" labelcolour="#ff000000">
+			<labelfcol labelstylename="area" fontname="Arial" fontstyle="ITALIC" size="50.0"/>
+			<labelfcol labelstylename="cave" fontname="Arial" fontstyle="BOLD" size="50"/>
+			<labelfcol labelstylename="entrance" fontname="Arial" size="40.0"/>
+			<labelfcol labelstylename="titlecreditslarge" fontname="Arial" fontstyle="ITALIC" size="45"/>
+			<labelfcol labelstylename="titlestats" fontname="Arial" fontstyle="PLAIN" size="50" labelcolour="#ff000000"/>
+		</subsetattr>
+	</set>	
+
+	<subsetattr name="surfaceshafts" uppersubset="basevisiblecave" areacolour="none" areamaskcolour="none">
+		<linestylecol linestyle="filled" strokewidth="0.0" strokecolour="#ff000000"/>
+		<linestylecol linestyle="estwall" strokewidth="3.75" strokecolour="#ff000000" spikegap="22.5" gapleng="11.25" spikeheight="0.0"/>
+		<labelfcol labelstylename="entrance" labelcolour="#ff000000" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<symbolaut dname="entrance" description="entrance arrow">
+			<asymbol name="ent" position="endpath" scale="fixed" picscale="0.5" orientation="fixed" area-interaction="allowed-outside"/>
+		</symbolaut>
+	</subsetattr>
+	
+	<subsetattr name="gridlines100m">
+		<linestylecol linestyle="wall" strokewidth="4.0" strokecolour="#ff000000"/>
+		<linestylecol linestyle="detail" strokewidth="4.0" strokecolour="#ff000000"/>
+		<labelfcol labelstylename="titlecreditslarge" labelcolour="none"/>
+		<labelfcol labelstylename="titlestats" labelcolour="none"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="50" labelcolour="#ff000000"/>
+		<labelfcol labelstylename="titlestatcols" labelcolour="none"/>
+	</subsetattr>
+
+
+</groupsubsetattr>
+
+</fontcolours>
+
+</tunnelxml>

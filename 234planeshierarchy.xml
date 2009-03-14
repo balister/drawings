@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours>
+
+<groupsubsetattr groupsubsetname="234planes_hierarchy" groupsubsetselectable="no">
+	<subsetattr name="entarea"/>
+	<subsetattr name="mainplane"/>
+	<subsetattr name="pieseries"/>
+	<subsetattr name="lowerplane"/>
+	<subsetattr name="monstermunch"/>
+
+	<set uppersubset="entarea">
+		<subsetattr name="234entrance"/>
+		<subsetattr name="234lefthand"/>
+	</set>
+	<set uppersubset="mainplane">
+		<subsetattr name="234oldtrunk"/>
+		<subsetattr name="234underhand"/>
+		<subsetattr name="234traverse"/>
+		<subsetattr name="234trunk"/>
+		<subsetattr name="234measles"/>
+		<subsetattr name="234sweetsight"/>
+		<subsetattr name="234sourtaste"/>
+		<subsetattr name="234foolishplan"/>
+	</set>
+	<set uppersubset="pieseries">
+		<subsetattr name="234pie"/>
+		<subsetattr name="234crust"/>
+		<subsetattr name="234flashgun"/>
+	</set>
+	<set uppersubset="lowerplane">
+		<subsetattr name="234weeweeland"/>
+		<subsetattr name="234wowoland"/>
+		<subsetattr name="234monster"/>
+		<subsetattr name="234piersquared"/>
+		<subsetattr name="234spitswallow"/>
+	</set>
+	<set uppersubset="monstermunch">
+		<subsetattr name="234monstermunch"/>
+	</set>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="234planes" groupsubsetselectable="no">
+	<importgroupsubsetattr groupsubsetname="planecolours"/>
+	<importgroupsubsetattr groupsubsetname="234planes_hierarchy"/>
+	
+	<subsetattr name="entarea" uppersubset="level1"/>
+	<subsetattr name="mainplane" uppersubset="level2"/>
+	<subsetattr name="pieseries" uppersubset="level3"/>
+	<subsetattr name="lowerplane" uppersubset="level3"/>
+	<subsetattr name="monstermunch" uppersubset="level4"/>
+</groupsubsetattr>
+
+</fontcolours>
+</tunnelxml>

@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours>
+
+<groupsubsetattr groupsubsetname="204planes_hierarchy" groupsubsetselectable="no">
+	<subsetattr name="toplevel"/>
+	<subsetattr name="topplane"/>
+	<subsetattr name="bottomplane"/>
+	<subsetattr name="uppershaftzone"/>	(Below main level as far as Ariston horizontal)
+	<subsetattr name="lowershaftzone"/> 	(Underworld level)
+	<subsetattr name="subsoil_level"/>	
+	<subsetattr name="razordance"/> 	(Razor Dance + bottom of Fledermausschacht)
+	<subsetattr name="subway"/>		(Subway series: The Tube etc)
+
+	<set uppersubset="toplevel">
+		<subsetattr name="suspendedsolution"/>
+		<subsetattr name="livingdaylight"/>
+		<subsetattr name="204d"/>
+		<subsetattr name="204a"/>
+		<subsetattr name="204c"/>
+		<subsetattr name="204f"/>
+		<subsetattr name="204bent"/>
+		<subsetattr name="trickortreat"/>
+		<subsetattr name="stitchthis"/>
+		<subsetattr name="germknodel"/>
+		<subsetattr name="topofcrowning"/>
+		<subsetattr name="204gupper"/>
+		<subsetattr name="204hupper"/>
+	</set>
+	<set uppersubset="topplane">
+		<subsetattr name="21boltbypass"/>
+		<subsetattr name="allroads"/>
+		<subsetattr name="back passage"/>
+		<subsetattr name="bonsai"/>
+		<subsetattr name="cavetree"/>
+		<subsetattr name="chicargochicanes"/>
+		<subsetattr name="colonnade"/>
+		<subsetattr name="crowningglory"/>
+		<subsetattr name="crowningglorychamber"/>
+		<subsetattr name="deathglory"/>
+		<subsetattr name="dontstep"/>
+		<subsetattr name="drillingdelight"/>
+		<subsetattr name="dutchbeauty"/>
+		<subsetattr name="dutchelm"/>
+		<subsetattr name="ermintrude"/>
+		<subsetattr name="exitstageleft"/>
+		<subsetattr name="fingerbang"/>
+		<subsetattr name="flopsy"/>
+		<subsetattr name="gaffertapetop"/>
+		<subsetattr name="greatoak"/>
+		<subsetattr name="greatoaktocavetree"/>
+		<subsetattr name="insignificant"/>
+		<subsetattr name="Jim'llfixit"/>
+		<subsetattr name="juicybits"/>
+		<subsetattr name="kidneybean"/>
+		<subsetattr name="kingcarbide"/>
+		<subsetattr name="magicroundabout"/>
+		<subsetattr name="meetinghouse"/>
+		<subsetattr name="mgrpitch1"/>
+		<subsetattr name="nearend"/>
+		<subsetattr name="pendulumtop"/>
+		<subsetattr name="playground"/>
+		<subsetattr name="rhinorift"/>
+		<subsetattr name="southcircular"/>
+		<subsetattr name="sucker"/>
+		<subsetattr name="swings"/>
+		<subsetattr name="swings2cresta"/>
+		<subsetattr name="takingthepiss"/>
+		<subsetattr name="theslide"/>
+		<subsetattr name="threadthat"/>
+		<subsetattr name="trapeze"/>
+		<subsetattr name="treeslope"/>
+		<subsetattr name="treetoglory"/>
+		<subsetattr name="treeumphant"/>
+		<subsetattr name="twiglets"/>
+		<subsetattr name="umshitshimbo"/>
+		<subsetattr name="wotnotbolts"/>
+		<subsetattr name="wotnosurvey"/>
+		<subsetattr name="chocolatesaltyballs"/>
+		<subsetattr name="204glower"/>
+		<subsetattr name="204hlower"/>
+	</set>
+	<set uppersubset="bottomplane">
+		<subsetattr name="110 a day"/>
+		<subsetattr name="110 bidet"/>
+		<subsetattr name="7-11 chamber"/>
+		<subsetattr name="belief"/>
+		<subsetattr name="beyond wolpertinger"/>
+		<subsetattr name="boulder coaster"/>
+		<subsetattr name="bunnys bowels"/>
+		<subsetattr name="cresta run"/>
+		<subsetattr name="crimper"/>
+		<subsetattr name="drillingdelight"/>
+		<subsetattr name="faith"/>
+		<subsetattr name="beyondbelief1"/>
+		<subsetattr name="beyondbelief2"/>
+		<subsetattr name="beyondbelief3"/>
+		<subsetattr name="grater"/>
+		<subsetattr name="helter skelter top"/>
+		<subsetattr name="limescale cistern"/>
+		<subsetattr name="marble run"/>
+		<subsetattr name="merry fucking christmas"/>
+		<subsetattr name="midlevel label"/>
+		<subsetattr name="mgr below pitch 2"/>
+		<subsetattr name="no pain no gain"/>
+		<subsetattr name="on a mission chamber"/>
+		<subsetattr name="on a mission passage"/>
+		<subsetattr name="pendulum bottom"/>
+		<subsetattr name="pendulum middle"/>
+		<subsetattr name="perpetual motion"/>
+		<subsetattr name="phreatic"/>
+		<subsetattr name="phreatic to millenium"/>
+		<subsetattr name="pile driver"/>
+		<subsetattr name="rat biscuit"/>
+		<subsetattr name="recycled rabbit"/>
+		<subsetattr name="round trip"/>
+		<subsetattr name="sand pit"/>
+		<subsetattr name="scroat"/>
+		<subsetattr name="swallow hard"/>
+		<subsetattr name="up at 45 degrees"/>
+		<subsetattr name="wolpertinger way"/>
+		<subsetattr name="wot no butcombe"/>
+		<subsetattr name="wot no connection"/>
+		<subsetattr name="highhopesupper"/>
+		<subsetattr name="riverdance top"/>
+		<subsetattr name="goesser top"/>
+
+	</set>
+	<set uppersubset="uppershaftzone">
+		<subsetattr name="allroads"/>
+		<subsetattr name="aristonhorizontal"/>
+		<subsetattr name="beneathpleasuredome"/>
+		<subsetattr name="cat's claw"/>
+		<subsetattr name="Cellotape and below"/>
+		<subsetattr name="gaffered pitch below"/>
+		<subsetattr name="goesser lower"/>
+		<subsetattr name="hangingontofaith"/>
+		<subsetattr name="helter skelter bottom"/>
+		<subsetattr name="highhopes1"/>
+		<subsetattr name="highhopes2"/>
+		<subsetattr name="loop22"/>
+		<subsetattr name="LX tape and below"/>
+		<subsetattr name="mgr below pitch3"/>
+		<subsetattr name="mgr below pitch 4"/>
+		<subsetattr name="mgr below pitch 5"/>
+		<subsetattr name="mgr title"/>
+		<subsetattr name="micturation"/>
+		<subsetattr name="milleniumdome"/>
+		<subsetattr name="pleasuredome"/>
+		<subsetattr name="potulike"/>
+		<subsetattr name="rainbow"/>
+		<subsetattr name="riverdance lower"/>
+		<subsetattr name="steeltoecap"/>
+		<subsetattr name="tape worm below"/>
+		<subsetattr name="toothless"/>
+		<subsetattr name="Trihang and below"/>
+		<subsetattr name="unconformity"/>
+		<subsetattr name="whiteelephant"/>
+		<subsetattr name="yoursoveined"/>
+	</set>
+	<set uppersubset="lowershaftzone"> 
+		<subsetattr name="blackmaria"/>
+		<subsetattr name="bottomoftrihang"/>
+		<subsetattr name="bracketfunguspassage"/>
+		<subsetattr name="briansphatshaft"/>
+		<subsetattr name="cerberus"/>
+		<subsetattr name="eeyore"/>
+		<subsetattr name="fledermausschacttop"/>
+		<subsetattr name="garenersworld"/>
+		<subsetattr name="hippocratictop"/>
+		<subsetattr name="hontofaithbottom"/>
+		<subsetattr name="kanga"/>
+		<subsetattr name="kiwisuit"/>
+		<subsetattr name="oxtailoxbow"/>
+		<subsetattr name="poohstyxaven"/>
+		<subsetattr name="poohstyxpassage"/>
+		<subsetattr name="poohstyxpitch"/>
+		<subsetattr name="quizrift"/>
+		<subsetattr name="sirens"/>
+		<subsetattr name="terrafirma"/>
+		<subsetattr name="uppertube"/>
+	</set>
+	<set uppersubset="subsoil_level">
+		<subsetattr name="earthenware"/>
+		<subsetattr name="fatwormblowsasparky"/>
+		<subsetattr name="firmware"/>
+		<subsetattr name="hardware"/>
+		<subsetattr name="heavilysoiled"/>
+		<subsetattr name="hippocratic1"/>
+		<subsetattr name="hippocratic2"/>
+		<subsetattr name="hippohollows"/>
+		<subsetattr name="nightsoil"/>
+		<subsetattr name="software"/>
+		<subsetattr name="soiled"/>
+		<subsetattr name="someware"/>
+		<subsetattr name="stoneware"/>
+		<subsetattr name="subsoil"/>
+		<subsetattr name="thinrift"/>
+		<subsetattr name="underware"/>
+		<subsetattr name="universitychallenge"/>
+	</set>
+	<set uppersubset="razordance">
+		<subsetattr name="aboveblacklightning"/>
+		<subsetattr name="abovecopper"/>
+		<subsetattr name="aboveeasythere"/>
+		<subsetattr name="abovemashtun"/>
+		<subsetattr name="abovemysterywind"/>
+		<subsetattr name="abovepaterofmuppets"/>
+		<subsetattr name="abovepepperpot"/>
+		<subsetattr name="abovesteadynow"/>
+		<subsetattr name="abovethirteenyear"/>
+		<subsetattr name="aboveyeast"/>
+		<subsetattr name="belowpasterofmuppets"/>
+		<subsetattr name="fledermausschactbottom"/>
+	</set>
+	<set uppersubset="subway">
+		<subsetattr name="apocalypse"/>
+		<subsetattr name="mornington"/>
+		<subsetattr name="tube"/>
+		<subsetattr name="northernline"/>
+		<subsetattr name="hounslow"/>
+	</set>
+	<set uppersubset="razordance"> (yuck, yuck, horrible kludge)
+		<subsetattr name="apocalypseelev"/>
+		<subsetattr name="morningtonelev"/>
+		<subsetattr name="tubeelev"/>
+		<subsetattr name="northernlineelev"/>
+		<subsetattr name="hounslowelev"/>
+	</set>
+</groupsubsetattr>
+
+<groupsubsetattr groupsubsetname="204planes" groupsubsetselectable="no">
+	<importgroupsubsetattr groupsubsetname="planecolours"/>
+	<importgroupsubsetattr groupsubsetname="204planes_hierarchy"/>
+
+	<subsetattr name="toplevel" uppersubset="level1"/>
+	<subsetattr name="topplane" uppersubset="level2"/>
+	<subsetattr name="bottomplane" uppersubset="level3"/>
+	<subsetattr name="uppershaftzone" uppersubset="level4"/>
+	<subsetattr name="lowershaftzone" uppersubset="level5"/>
+	<subsetattr name="razordance" uppersubset="level6"/>
+	<subsetattr name="subsoil_level" uppersubset="level6"/>
+	
+	<subsetattr name="gridlines100m" uppersubset="basevisiblegrid" strokecolour="#ff000000">
+		<linestylecol linestyle="wall"/>
+		<linestylecol linestyle="detail"/>
+	</subsetattr>
+
+	<subsetattr name="204Subwaygrid" uppersubset="baseinvisiblegrid"/>
+	
+
+</groupsubsetattr>
+
+</fontcolours>
+</tunnelxml>
