@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours>
+
+<groupsubsetattr groupsubsetname="tunnocks" groupsubsetselectable="no">
+	
+	<importgroupsubsetattr groupsubsetname="planecolours"/>
+
+	<subsetattr name="tunnocks_entpitch1" uppersubset="level1"/>
+	<set uppersubset="tunnocks_entpitch1">
+		<subsetattr name="enttoledge"/>
+	</set>
+
+	<subsetattr name="tunnocks_entpitch2" uppersubset="level2"/>
+	<set uppersubset="tunnocks_entpitch2">
+		<subsetattr name="ledgetocol"/>
+	</set>
+
+	<subsetattr name="tunnocks_entpitch3" uppersubset="level3"/>
+	<set uppersubset="tunnocks_entpitch3">
+		<subsetattr name="belowcol"/>
+	</set>
+
+	<subsetattr name="tunnocks_mainlevel" uppersubset="level4"/>
+	<set uppersubset="tunnocks_mainlevel">
+		<subsetattr name="entchamber"/>
+		<subsetattr name="3friedmice"/>
+		<subsetattr name="bauernkrapfern"/>
+		<subsetattr name="strudel"/>
+		<subsetattr name="ribsknodel"/>
+		<subsetattr name="sauerkraut"/>
+		<subsetattr name="gknodel"/>
+		<subsetattr name="alphabetsoup"/>
+        <subsetattr name="apfelstrudel"/>
+        <subsetattr name="maxpleasure"/>
+        <subsetattr name="maxpleasure3"/>
+        <subsetattr name="littoralnorth"/>
+        <subsetattr name="stonemonkey"/>
+        <subsetattr name="maxpleasure"/>
+        <subsetattr name="dubiouspleasure"/>
+        <subsetattr name="flyinghigh"/>
+        <subsetattr name="hedonismhighway"/>
+        <subsetattr name="justforalaugh"/>
+        <subsetattr name="crossword"/>
+	</set>
+	<subsetattr name="tunnocks_drops" uppersubset="level5"/>
+	<set uppersubset="tunnocks_drops">
+		<subsetattr name="getnaked"/>
+        <subsetattr name="secretsquirrel"/>
+        <subsetattr name="pantinsales"/>
+	</set>    
+
+	<subsetattr name="surface"/>
+	<subsetattr name="tunnockssurf" uppersubset="surface"/>
+	<subsetattr name="tunnocksgrid" uppersubset="invisiblegrid"/>
+
+</groupsubsetattr>

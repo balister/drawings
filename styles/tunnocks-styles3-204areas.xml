@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+
+<fontcolours>
+
+<groupsubsetattr groupsubsetname="204areas_hierarchy" groupsubsetselectable="no">
+	<importgroupsubsetattr groupsubsetname="default"/>
+	<importgroupsubsetattr groupsubsetname="tunnocks"/>
+
+	<subsetattr name="visible" areacolour="#66ddf6f6">	
+		<linestylecol linestyle="centreline" strokewidth="1.5" strokecolour="#ff000000"/>
+	</subsetattr>
+
+	<subsetattr name="tunnocks" uppersubset="invisible"/>
+	<set uppersubset="tunnocks">
+		<subsetattr name="tunnocks_entpitch1"/>
+		<subsetattr name="tunnocks_entpitch2"/>
+		<subsetattr name="tunnocks_entpitch3"/>
+		<subsetattr name="tunnocks_mainlevel"/>
+	</set>
+
+
+	<set uppersubset="invisible">
+		<subsetattr name="surfaceshafts"/>
+		<subsetattr name="smallscalelabels"/>
+		<subsetattr name="smallcaveslevel1"/>
+		<subsetattr name="tunnocksgrid"/>
+		<subsetattr name="smallcaveslevel2"/>
+		<subsetattr name="smallcaveslevel3"/>
+		<subsetattr name="surface"/>
+	</set>	
+
+	<subsetattr name="gridlines50m" areacolour="none" areamaskcolour="none" labelcolour="#ff000000" strokecolour="#ff000000" uppersubset="basevisiblegrid">
+		<labelfcol labelstylename="gridnum" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<labelfcol labelstylename="titlename" fontname="Arial" fontstyle="BOLD" size="120"/>
+		<labelfcol labelstylename="titlesubname" fontname="Arial" fontstyle="BOLD" size="60"/>
+		<labelfcol labelstylename="titlearea" fontname="Arial" fontstyle="BOLD" size="40"/>
+		<labelfcol labelstylename="titlestats" fontname="Arial" fontstyle="PLAIN" size="40"/>
+		<labelfcol labelstylename="titlestatcols" fontname="Arial" fontstyle="ITALIC" size="40"/>
+		<labelfcol labelstylename="titlecreditslarge" fontname="Arial" fontstyle="PLAIN" size="30"/>
+		<labelfcol labelstylename="titlenortharrow" fontname="Times New Roman" fontstyle="PLAIN" size="80"/>
+		<linestylecol linestyle="wall" strokewidth="3.0" strokecolour="#ff000000"/>
+		<linestylecol linestyle="detail" strokewidth="0.625" strokecolour="#ff888888"/>
+	</subsetattr>
+	<subsetattr name="gridlines100m" uppersubset="invisiblegrid" strokecolour="none">
+		<linestylecol linestyle="wall"/>
+		<linestylecol linestyle="detail"/>
+	</subsetattr>
+
+</groupsubsetattr>
+
+</fontcolours>
+</tunnelxml>

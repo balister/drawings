@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml>
+<sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="2172.0" sfrotatedeg="0.0" sfxtrans="0.18275" sfytrans="0.2427" sfsketch="draft3" sfstyle="smallscale" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="524.0" Y="144.0"/>
+		<pt X="616.0" Y="243.0"/>
+	</skpath>
+	<skpath from="0" to="2" linestyle="invisible">
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="524.0" Y="144.0"/>
+		<pt X="2324.0" Y="144.0"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="invisible">
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="2324.0" Y="144.0"/>
+		<pt X="2324.0" Y="2994.0"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="invisible">
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="2324.0" Y="2994.0"/>
+		<pt X="524.0" Y="2994.0"/>
+	</skpath>
+	<skpath from="4" to="0" linestyle="invisible">
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="524.0" Y="2994.0"/>
+		<pt X="524.0" Y="144.0"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="invisible" splined="1">
+		<sketchsubset subname="gridlines100m"/>
+		<pt X="600.0" Y="2450.0"/>
+		<pt X="600.0" Y="2800.0"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="invisible" splined="1">
+		<sketchsubset subname="gridlines100m"/>
+		<pt X="600.0" Y="2800.0"/>
+		<pt X="1400.0" Y="2800.0"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="invisible" splined="1">
+		<sketchsubset subname="gridlines100m"/>
+		<pt X="1400.0" Y="2800.0"/>
+		<pt X="1400.0" Y="2450.0"/>
+	</skpath>
+	<skpath from="8" to="5" linestyle="invisible" splined="1">
+		<sketchsubset subname="gridlines100m"/>
+		<pt X="1400.0" Y="2450.0"/>
+		<pt X="600.0" Y="2450.0"/>
+	</skpath>
+	<skpath from="5" to="9" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="2678.0" sfrotatedeg="0.0" sfxtrans="0.0613" sfytrans="0.2351" sfsketch="TitleBox" sfstyle="smallscale" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<pt X="600.0" Y="2450.0"/>
+		<pt X="772.3183" Y="2650.0"/>
+	</skpath>
+</sketch>
+</tunnelxml>
