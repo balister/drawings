@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml>
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-08-09 17:00:32">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="" nodeconnzsetrelative="0.0">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="" nodeconnzsetrelative="0.0">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -53,7 +53,7 @@
 	</skpath>
 	<skpath from="7" to="8" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfxtrans="-72.81105" sfytrans="167.129" sfsketch="234" sfstyle="" nodeconnzsetrelative="0.0">
+			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-72.81105" sfytrans="167.129" sfsketch="234" sfstyle="" nodeconnzsetrelative="0.0">
 				<subsetattr name="default" uppersubset="orange"/>
 				<subsetattr name="hauch1" uppersubset="yellow2"/>
 				<subsetattr name="hauch2" uppersubset="red"/>
@@ -104,11 +104,6 @@
 		<pt X="1030.0536" Y="2608.0356"/>
 		<pt X="600.0" Y="2900.0"/>
 	</skpath>
-	<skpath from="7" to="15" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A3_land_page_1"/>
-		<pt X="600.0" Y="200.0"/>
-		<pt X="2000.0" Y="200.0"/>
-	</skpath>
 	<skpath from="15" to="16" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A3_land_page_1"/>
 		<pt X="2000.0" Y="200.0"/>
@@ -135,6 +130,41 @@
 		</pathcodes>
 		<pt X="2600.0" Y="200.0"/>
 		<pt X="2655.203" Y="384.54236"/>
+	</skpath>
+	<skpath from="7" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A3_land_page_1"/>
+		<pt X="600.0" Y="200.0"/>
+		<pt X="791.5098" Y="200.0"/>
+	</skpath>
+	<skpath from="20" to="21" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="2269.8455" sfrotatedeg="0.0" sfelevrotdeg="360.1" sfxtrans="-15.961826038796051" sfytrans="36.84657785035762" sfsketch="234" sfstyle="FatCentreline" nodeconnzsetrelative="0.0">
+				<subsetattr name="default" uppersubset="blue"/>
+				<subsetattr name="hauch1" uppersubset="yellow2"/>
+				<subsetattr name="hauch2" uppersubset="red"/>
+			</pcarea>
+		</pathcodes>
+		<pt X="791.5098" Y="200.0"/>
+		<pt X="939.5727" Y="336.44962"/>
+	</skpath>
+	<skpath from="20" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A3_land_page_1"/>
+		<pt X="791.5098" Y="200.0"/>
+		<pt X="1775.6094" Y="200.0"/>
+	</skpath>
+	<skpath from="22" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A3_land_page_1"/>
+		<pt X="1775.6094" Y="200.0"/>
+		<pt X="2000.0" Y="200.0"/>
+	</skpath>
+	<skpath from="20" to="23" linestyle="wall" splined="1">
+		<pt X="791.5098" Y="200.0"/>
+		<pt X="804.4487" Y="1038.7273"/>
+		<pt X="1780.0851" Y="1071.12"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="wall" splined="1">
+		<pt X="1780.0851" Y="1071.12"/>
+		<pt X="1775.6094" Y="200.0"/>
 	</skpath>
 </sketch>
 </tunnelxml>
