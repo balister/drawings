@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-08-10 01:06:18">
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-08-10 10:17:24">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="100.0" Y="8490.0"/>
 		<pt X="100.0" Y="90.0"/>
 	</skpath>
@@ -24,11 +25,7 @@
 		<pt X="6040.0" Y="8490.0"/>
 		<pt X="100.0" Y="8490.0"/>
 	</skpath>
-	<skpath from="5" to="6" linestyle="wall" splined="1">
-		<pt X="5990.0" Y="8440.0"/>
-		<pt X="150.0" Y="8440.0"/>
-	</skpath>
-	<skpath from="1" to="7" linestyle="connective">
+	<skpath from="1" to="6" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="" nodeconnzsetrelative="0.0">
 			</pcarea>
@@ -38,22 +35,21 @@
 		<pt X="100.0" Y="90.0"/>
 		<pt X="140.0" Y="100.0"/>
 	</skpath>
-	<skpath from="1" to="8" linestyle="invisible" splined="1">
+	<skpath from="1" to="7" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="100.0" Y="90.0"/>
 		<pt X="150.0" Y="140.0"/>
 	</skpath>
-	<skpath from="8" to="9" linestyle="connective">
+	<skpath from="7" to="8" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-36.319948896409905" sfytrans="84.72936668196533" sfsketch="258/258upperlocated" sfstyle="" nodeconnzsetrelative="0.0">
-				<subsetattr name="default" uppersubset="orange"/>
-				<subsetattr name="hauch1" uppersubset="yellow2"/>
-				<subsetattr name="hauch2" uppersubset="red"/>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-36.319948896409905" sfytrans="84.72936668196533" sfsketch="258/258upperlocated" sfstyle="base250nonote" nodeconnzsetrelative="0.0">
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="150.0" Y="140.0"/>
 		<pt X="1289.6932" Y="791.79675"/>
 	</skpath>
-	<skpath from="10" to="8" linestyle="connective">
+	<skpath from="9" to="7" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-36.319948896409905" sfytrans="84.72936668196533" sfsketch="258/258lowerlocated" sfstyle="" nodeconnzsetrelative="0.0">
 				<subsetattr name="default" uppersubset="orange"/>
@@ -61,10 +57,11 @@
 				<subsetattr name="hauch2" uppersubset="red"/>
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="559.46356" Y="1033.9264"/>
 		<pt X="150.0" Y="140.0"/>
 	</skpath>
-	<skpath from="8" to="11" linestyle="connective">
+	<skpath from="7" to="10" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-36.319948896409905" sfytrans="84.72936668196533" sfsketch="204/204andMinorCaves" sfstyle="" nodeconnzsetrelative="0.0">
 				<subsetattr name="default" uppersubset="orange"/>
@@ -72,18 +69,21 @@
 				<subsetattr name="hauch2" uppersubset="red"/>
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="150.0" Y="140.0"/>
 		<pt X="337.57993" Y="1094.382"/>
 	</skpath>
-	<skpath from="12" to="4" linestyle="wall" splined="1">
+	<skpath from="11" to="12" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3990.0" Y="140.0"/>
 		<pt X="5990.0" Y="140.0"/>
 	</skpath>
-	<skpath from="8" to="12" linestyle="wall" splined="1">
+	<skpath from="7" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="150.0" Y="140.0"/>
 		<pt X="3990.0" Y="140.0"/>
 	</skpath>
-	<skpath from="13" to="12" linestyle="connective">
+	<skpath from="13" to="11" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="2000.0" sfrotatedeg="180.0" sfelevrotdeg="339.0" sfxtrans="18.926614603945527" sfytrans="-41.1082203265177" sfsketch="204/204andMinorCaves" sfstyle="FatCentreline" nodeconnzsetrelative="0.0">
 				<subsetattr name="default" uppersubset="blue"/>
@@ -91,22 +91,22 @@
 				<subsetattr name="hauch2" uppersubset="red"/>
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="4307.1406" Y="419.80832"/>
 		<pt X="3990.0" Y="140.0"/>
 	</skpath>
-	<skpath from="14" to="5" linestyle="wall" splined="1">
-		<pt X="5990.0" Y="3490.0"/>
-		<pt X="5990.0" Y="8440.0"/>
-	</skpath>
-	<skpath from="4" to="14" linestyle="wall" splined="1">
+	<skpath from="12" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="5990.0" Y="140.0"/>
 		<pt X="5990.0" Y="3490.0"/>
 	</skpath>
-	<skpath from="12" to="12" linestyle="wall" splined="1">
+	<skpath from="11" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3990.0" Y="140.0"/>
 		<pt X="3990.0" Y="140.0"/>
 	</skpath>
-	<skpath from="12" to="14" linestyle="invisible" splined="1">
+	<skpath from="11" to="14" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3990.0" Y="140.0"/>
 		<pt X="3101.9458" Y="191.03014"/>
 		<pt X="3082.2178" Y="718.7508"/>
@@ -116,102 +116,193 @@
 		<pt X="4669.6846" Y="3499.0615"/>
 		<pt X="5990.0" Y="3490.0"/>
 	</skpath>
-	<skpath from="6" to="15" linestyle="wall" splined="1">
-		<pt X="150.0" Y="8440.0"/>
-		<pt X="150.0" Y="6998.3013"/>
-	</skpath>
-	<skpath from="16" to="14" linestyle="connective">
+	<skpath from="15" to="14" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="-1.0" nodeposyrel="-1.0">Tunnockschact</pctext>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3981.8225" Y="3982.929"/>
 		<pt X="5990.0" Y="3490.0"/>
 	</skpath>
-	<skpath from="17" to="16" linestyle="connective">
+	<skpath from="16" to="15" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="-1.0" nodeposyrel="-1.0">1623/258</pctext>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3954.3113" Y="4280.05"/>
 		<pt X="3981.8225" Y="3982.929"/>
 	</skpath>
-	<skpath from="18" to="17" linestyle="connective">
+	<skpath from="17" to="16" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="-1.0" nodeposyrel="-1.0">Explored&space;by&space;CUCC&space;2006-2010</pctext>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3937.8044" Y="4527.651"/>
 		<pt X="3954.3113" Y="4280.05"/>
 	</skpath>
-	<skpath from="19" to="18" linestyle="connective">
+	<skpath from="18" to="17" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="-1.0" nodeposyrel="-1.0">Loser&space;Plateau,&space;Totes&space;Gebirge,&space;Austria</pctext>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3937.8044" Y="4731.2334"/>
 		<pt X="3937.8044" Y="4527.651"/>
 	</skpath>
-	<skpath from="20" to="19" linestyle="connective">
+	<skpath from="19" to="18" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="-1.0" nodeposyrel="-1.0">Length&space;6760m,&space;Depth&space;289m</pctext>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3937.8044" Y="4879.794"/>
 		<pt X="3937.8044" Y="4731.2334"/>
 	</skpath>
-	<skpath from="15" to="21" linestyle="wall" splined="1">
-		<pt X="150.0" Y="6998.3013"/>
-		<pt X="150.0" Y="5361.7734"/>
-	</skpath>
-	<skpath from="21" to="8" linestyle="wall" splined="1">
-		<pt X="150.0" Y="5361.7734"/>
-		<pt X="150.0" Y="140.0"/>
-	</skpath>
-	<skpath from="22" to="22" linestyle="invisible" splined="1">
-		<pt X="5826.787" Y="6383.7495"/>
-		<pt X="4476.463" Y="6360.0596"/>
-		<pt X="4373.8066" Y="7584.0376"/>
-		<pt X="5810.9937" Y="7813.04"/>
-		<pt X="5826.787" Y="6383.7495"/>
-	</skpath>
-	<skpath from="22" to="23" linestyle="connective">
+	<skpath from="20" to="21" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="40000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-0.35107312049732753" sfytrans="2.784840657796764" sfsketch="all-with-rkh-sketch" sfstyle="" nodeconnzsetrelative="1.0">
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-36.471531391527094" sfytrans="84.76596477766846" sfsketch="258/258lowerlocated" sfstyle="" nodeconnzsetrelative="0.0">
 				<subsetattr name="default" uppersubset="orange"/>
 				<subsetattr name="hauch1" uppersubset="yellow2"/>
 				<subsetattr name="hauch2" uppersubset="red"/>
 			</pcarea>
 		</pathcodes>
-		<pt X="5826.787" Y="6383.7495"/>
-		<pt X="4855.501" Y="6636.4414"/>
-	</skpath>
-	<skpath from="24" to="22" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="2.5" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="474.4101932328968" sfytrans="686.9641375318931" sfsketch="mnt/expo/testingarea/overview17.png" sfstyle="" nodeconnzsetrelative="1.0">
-			</pcarea>
-		</pathcodes>
-		<pt X="4842.3696" Y="7378.777"/>
-		<pt X="5826.787" Y="6383.7495"/>
-	</skpath>
-	<skpath from="21" to="25" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-36.442729536058344" sfytrans="84.76596477766846" sfsketch="258/258lowerlocated" sfstyle="" nodeconnzsetrelative="0.0">
-				<subsetattr name="default" uppersubset="orange"/>
-				<subsetattr name="hauch1" uppersubset="yellow2"/>
-				<subsetattr name="hauch2" uppersubset="red"/>
-			</pcarea>
-		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="150.0" Y="5361.7734"/>
 		<pt X="686.71716" Y="6162.7764"/>
 	</skpath>
-	<skpath from="20" to="26" linestyle="connective">
+	<skpath from="22" to="20" linestyle="connective">
 		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">Lower&space;level&space;displaced&space;for&space;clarity</pctext>
 		</pathcodes>
-		<pt X="3937.8044" Y="4879.794"/>
-		<pt X="3893.579" Y="5112.764"/>
-	</skpath>
-	<skpath from="27" to="21" linestyle="connective">
-		<pathcodes>
-			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">Lower&space;level&space;moved&space;for&space;clarity</pctext>
-		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="353.0399" Y="4649.887"/>
 		<pt X="150.0" Y="5361.7734"/>
+	</skpath>
+	<skpath from="23" to="19" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="1.0">%1/1.0%%blackrect%&newline;;%1/%%whiterect%&newline;;%1/%%blackrect%&newline;;%1/%%whiterect%&newline;;%1/%%blackrect%&newline;;%5/%%whiterect%&newline;;%5/%%blackrect%&newline;;%5/%%whiterect%&newline;;%20/%%blackrect%&newline;;%20/%%whiterect%&newline;;%20/%%blackrect%&newline;;%20/%%whiterect%&newline;%v2.5/%&space;&space;&space;&space;&newline;%17/%0m&space;&space;&newline;;%20/%20m&space;&space;&newline;;%20/%40m&space;&newline;;%20/%60m&newline;;%20/%80m&newline;;%20/%100m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="3893.579" Y="5112.764"/>
+		<pt X="3937.8044" Y="4879.794"/>
+	</skpath>
+	<skpath from="24" to="23" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">%t1/0.1%%v0/%%h0/%&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5219.9087" Y="5313.766"/>
+		<pt X="3893.579" Y="5112.764"/>
+	</skpath>
+	<skpath from="14" to="25" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5990.0" Y="3490.0"/>
+		<pt X="5990.0" Y="6339.9224"/>
+	</skpath>
+	<skpath from="25" to="4" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5990.0" Y="6339.9224"/>
+		<pt X="5990.0" Y="8440.0"/>
+	</skpath>
+	<skpath from="25" to="26" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5990.0" Y="6339.9224"/>
+		<pt X="3899.7004" Y="6340.0386"/>
+	</skpath>
+	<skpath from="4" to="27" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5990.0" Y="8440.0"/>
+		<pt X="3899.982" Y="8440.0"/>
+	</skpath>
+	<skpath from="27" to="5" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="3899.982" Y="8440.0"/>
+		<pt X="150.0" Y="8440.0"/>
+	</skpath>
+	<skpath from="27" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="3899.982" Y="8440.0"/>
+		<pt X="3899.7004" Y="6340.0386"/>
+	</skpath>
+	<skpath from="28" to="25" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="394.2038944047718" sfytrans="639.1863055006431" sfsketch="overview15.png" sfstyle="" nodeconnzsetrelative="1.0">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="4842.3696" Y="7378.777"/>
+		<pt X="5990.0" Y="6339.9224"/>
+	</skpath>
+	<skpath from="25" to="29" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="69464.56" sfrotatedeg="0.29037553" sfelevrotdeg="0.0" sfxtrans="0.0013279083330854924" sfytrans="1.9566721152392768" sfsketch="all-with-rkh-sketch" sfstyle="FatCentreline" nodeconnzsetrelative="2.0">
+				<subsetattr name="default" uppersubset="orange"/>
+				<subsetattr name="hauch1" uppersubset="yellow2"/>
+				<subsetattr name="hauch2" uppersubset="red"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5990.0" Y="6339.9224"/>
+		<pt X="4855.501" Y="6636.4414"/>
+	</skpath>
+	<skpath from="30" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">%2/2.0%&newline;;%5/%%blackrect%&newline;;%5/%%whiterect%&newline;;%5/%%blackrect%&newline;;%5/%%whiterect%&newline;;%20/%%blackrect%&newline;;%20/%%whiterect%&newline;;%20/%%blackrect%&newline;;%20/%%whiterect%&newline;%v2.5/%&space;&space;&space;&space;&newline;%15/%0m&space;&space;&newline;;%20/%20m&space;&space;&newline;;%20/%40m&space;&newline;;%20/%60m&newline;;%20/%80m&newline;;%20/%100m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="5406.401" Y="2114.413"/>
+		<pt X="3990.0" Y="140.0"/>
+	</skpath>
+	<skpath from="31" to="7" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="150.0" Y="4560.0"/>
+		<pt X="150.0" Y="140.0"/>
+	</skpath>
+	<skpath from="20" to="31" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="150.0" Y="5361.7734"/>
+		<pt X="150.0" Y="4560.0"/>
+	</skpath>
+	<skpath from="31" to="32" linestyle="wall" splined="1">
+		<pt X="150.0" Y="4560.0"/>
+		<pt X="1540.0" Y="4560.0"/>
+	</skpath>
+	<skpath from="32" to="33" linestyle="wall" splined="1">
+		<pt X="1540.0" Y="4560.0"/>
+		<pt X="1540.0" Y="6930.0"/>
+	</skpath>
+	<skpath from="34" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="150.0" Y="6930.0"/>
+		<pt X="150.0" Y="5361.7734"/>
+	</skpath>
+	<skpath from="5" to="34" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="150.0" Y="8440.0"/>
+		<pt X="150.0" Y="6930.0"/>
+	</skpath>
+	<skpath from="33" to="34" linestyle="wall" splined="1">
+		<pt X="1540.0" Y="6930.0"/>
+		<pt X="150.0" Y="6930.0"/>
+	</skpath>
+	<skpath from="35" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">Projected&space;Elevation&space;facing&space;159&deg;</pctext>
+		</pathcodes>
+		<pt X="4215.012" Y="292.50085"/>
+		<pt X="3990.0" Y="140.0"/>
+	</skpath>
+	<skpath from="36" to="25" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">%100/69.464%&newline;;%1000/%%whiterect%&newline;;%1000/%%blackrect%&newline;;%1000/%%whiterect%&newline;;%1000/%%blackrect%&newline;;%1000/%%whiterect%&newline;%v100/%&space;&space;&space;&space;&newline;%1000/%0km&space;&space;&newline;;%1000/%1km&space;&space;&newline;;%1000/%2km&newline;;%1000/%3km&newline;;%1000/%4km&newline;;%1000/%5km</pctext>
+		</pathcodes>
+		<pt X="4143.396" Y="8382.652"/>
+		<pt X="5990.0" Y="6339.9224"/>
+	</skpath>
+	<skpath from="37" to="25" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="0.0">%t1/0.1%%v0/%%h0/%&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<pt X="5731.8745" Y="8085.5713"/>
+		<pt X="5990.0" Y="6339.9224"/>
 	</skpath>
 </sketch>
 </tunnelxml>
