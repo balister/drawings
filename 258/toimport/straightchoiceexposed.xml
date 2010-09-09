@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-08-23 16:07:10">
+<sketch splined="0" locoffsetx="-0.7454" locoffsety="-4.6368" locoffsetz="-2.5606" realpaperscale="1000.0">
+	<skpath from="0" to="0" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.9618158" sfrotatedeg="0.050471075" sfelevrotdeg="0.0" sfxtrans="-21.155554818760535" sfytrans="-24.73938322588772" sfsketch="2010/2010#20/StraightChoiceExposed-plan-sketch.png" sfstyle="" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<pt X="-204.10155" Y="-293.76184"/>
+		<pt X="202.6643" Y="-294.12015"/>
+		<pt X="203.1039" Y="204.90714"/>
+		<pt X="-203.66196" Y="205.26546"/>
+		<pt X="-204.10155" Y="-293.76184"/>
+	</skpath>
+	<skpath from="1" to="2" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*begin&space;straightchoiceexposed&newline;&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;Tunnocks&newline;&newline;*export&space;5&newline;&newline;*title&space;&quot;The&space;Straight&space;Choice&space;Exposed&quot;&newline;*date&space;2010.08.15&newline;*team&space;Notes&space;Andrew&newline;*team&space;Instruments&space;Becka&newline;&newline;;ref.:&space;2010#20&newline;&newline;1&tab;0&tab;5.131&tab;350.83&tab;19.08&newline;2&tab;1&tab;6.176&tab;9.30&tab;14.30&newline;2&tab;3&tab;12.804&tab;180.69&tab;-46.12&newline;3&tab;4&tab;7.847&tab;200.73&tab;44.70&newline;4&tab;5&tab;0.218&tab;279.55&tab;-5.53&newline;&newline;&newline;*end&space;straightchoiceexposed</pctext>
+		</pathcodes>
+		<pt X="-25.146" Y="-194.268"/>
+		<pt X="-28.952026" Y="-213.40219"/>
+		<pt X="-39.79066" Y="-229.62335"/>
+		<pt X="-56.01183" Y="-240.46198"/>
+		<pt X="-75.145996" Y="-244.268"/>
+		<pt X="-94.28017" Y="-240.46198"/>
+		<pt X="-110.50134" Y="-229.62335"/>
+		<pt X="-121.33998" Y="-213.40219"/>
+		<pt X="-125.145996" Y="-194.268"/>
+		<pt X="-121.33998" Y="-175.13382"/>
+		<pt X="-110.50134" Y="-158.91266"/>
+		<pt X="-94.28017" Y="-148.07404"/>
+		<pt X="-75.145996" Y="-144.268"/>
+		<pt X="-56.01183" Y="-140.46198"/>
+		<pt X="-39.79066" Y="-129.62335"/>
+		<pt X="-28.952026" Y="-113.40218"/>
+		<pt X="-25.146" Y="-94.268"/>
+		<pt X="-28.952026" Y="-75.13381"/>
+		<pt X="-39.79066" Y="-58.91265"/>
+		<pt X="-56.01183" Y="-48.074028"/>
+		<pt X="-75.145996" Y="-44.267998"/>
+		<pt X="-94.28017" Y="-48.074028"/>
+		<pt X="-110.50134" Y="-58.91265"/>
+		<pt X="-121.33998" Y="-75.13381"/>
+		<pt X="-125.145996" Y="-94.268"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="straightchoiceexposed.1" head="straightchoiceexposed.0"/>
+		</pathcodes>
+		<sketchsubset subname="The Straight Choice Exposed"/>
+		<pt X="7.454" Y="-46.367996" Z="25.606"/>
+		<pt X="-0.24599987" Y="-94.268" Z="42.406002"/>
+	</skpath>
+	<skpath from="5" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="straightchoiceexposed.2" head="straightchoiceexposed.1"/>
+		</pathcodes>
+		<sketchsubset subname="The Straight Choice Exposed"/>
+		<pt X="-2.2459998" Y="12.732001" Z="10.306001"/>
+		<pt X="7.454" Y="-46.367996" Z="25.606"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="straightchoiceexposed.2" head="straightchoiceexposed.3"/>
+		</pathcodes>
+		<sketchsubset subname="The Straight Choice Exposed"/>
+		<pt X="-2.2459998" Y="12.732001" Z="10.306001"/>
+		<pt X="-3.2459998" Y="101.432" Z="-81.894"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="straightchoiceexposed.3" head="straightchoiceexposed.4"/>
+		</pathcodes>
+		<sketchsubset subname="The Straight Choice Exposed"/>
+		<pt X="-3.2459998" Y="101.432" Z="-81.894"/>
+		<pt X="-23.046" Y="153.632" Z="-26.694"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="straightchoiceexposed.4" head="straightchoiceexposed.5"/>
+		</pathcodes>
+		<sketchsubset subname="The Straight Choice Exposed"/>
+		<pt X="-23.046" Y="153.632" Z="-26.694"/>
+		<pt X="-25.146" Y="153.232" Z="-26.994"/>
+	</skpath>
+</sketch>
+</tunnelxml>
