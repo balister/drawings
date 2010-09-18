@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-18 15:36:07">
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-18 18:45:06">
 <sketch splined="0" locoffsetx="-15.19" locoffsety="8.3475" locoffsetz="-3.03875" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -926,6 +926,49 @@
 		<pt X="-164.39418" Y="-3.0548482"/>
 		<pt X="-158.50493" Y="1.5030133"/>
 		<pt X="-152.92128" Y="-0.78417224"/>
+	</skpath>
+	<skpath from="102" to="62" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="1.0">10-B</pctext>
+		</pathcodes>
+		<pt X="-142.43828" Y="-168.1897"/>
+		<pt X="-130.81508" Y="-142.66876"/>
+	</skpath>
+	<skpath from="103" to="32" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">p10</pctext>
+		</pathcodes>
+		<pt X="-108.143845" Y="-129.77992"/>
+		<pt X="-121.333855" Y="-119.455444"/>
+	</skpath>
+	<skpath from="104" to="35" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="1.0">10-X</pctext>
+		</pathcodes>
+		<pt X="-172.06868" Y="21.389956"/>
+		<pt X="-160.21135" Y="9.135097"/>
+	</skpath>
+	<skpath from="105" to="106" linestyle="ceilingbound" splined="1">
+		<pt X="106.22108" Y="41.401447"/>
+		<pt X="101.87529" Y="43.031116"/>
+		<pt X="100.06454" Y="47.557983"/>
+		<pt X="100.06454" Y="53.171295"/>
+		<pt X="105.13463" Y="57.517086"/>
+		<pt X="112.92084" Y="57.87924"/>
+		<pt X="116.18018" Y="52.990223"/>
+		<pt X="115.27481" Y="42.125744"/>
+		<pt X="108.57505" Y="40.496075"/>
+	</skpath>
+	<skpath from="21" to="106" linestyle="invisible" splined="1">
+		<pt X="107.6885" Y="36.819633"/>
+		<pt X="108.57505" Y="40.496075"/>
+	</skpath>
+	<skpath from="107" to="106" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">p14</pctext>
+		</pathcodes>
+		<pt X="119.6206" Y="30.355894"/>
+		<pt X="108.57505" Y="40.496075"/>
 	</skpath>
 </sketch>
 </tunnelxml>
