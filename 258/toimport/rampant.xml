@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-18 17:48:51">
+<sketch splined="0" locoffsetx="11.881538" locoffsety="10.816923" locoffsetz="4.506154" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*begin&space;rampant&newline;&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;Tunnocks&newline;&newline;*export&space;11x&newline;&newline;*title&space;&quot;Ramp-Ant&quot;&newline;*date&space;2010.08.17&newline;*team&space;Insts&space;Frank&newline;*team&space;Notes&space;Becka&newline;*instrument&space;Wookeys&space;DistoX&newline;&newline;;&space;calibrate&space;&newline;&newline;;ref.:&space;2010#24&newline;&newline;*calibrate&space;tape&space;0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;from&tab;to&tab;tape&tab;compass&tab;clino&tab;remarks&newline;&newline;1&tab;2&tab;1.42&tab;132&tab;+22&newline;2&tab;3&tab;6.93&tab;057&tab;+25&newline;3&tab;4&tab;8.61&tab;071&tab;+35&newline;4&tab;5&tab;2.17&tab;045&tab;+32&newline;5&tab;6&tab;4.43&tab;031&tab;+30&newline;6&tab;7&tab;6.77&tab;054&tab;+15&newline;7&tab;8&tab;2.40&tab;025.4&tab;-02&newline;8&tab;9&tab;15.20&tab;027&tab;-25&newline;9&tab;10&tab;2.06&tab;051&tab;-31&newline;10&tab;11&tab;6.86&tab;001&tab;-10&newline;&newline;1&tab;12&tab;9.85&tab;266&tab;-34&newline;12&tab;11x&tab;15.69&tab;265&tab;-34&newline;&tab;&tab;&tab;&tab;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;1.2&tab;1.5&tab;1.2&tab;1&newline;2&tab;1&tab;0.7&tab;1.5&tab;0.9&newline;3&tab;2.2&tab;1&tab;2&tab;1&newline;4&tab;1.2&tab;2.2&tab;0.3&tab;1.4&newline;5&tab;0.5&tab;1.2&tab;1.3&tab;1.1&newline;6&tab;0.5&tab;0.7&tab;0.3&tab;1.5&newline;7&tab;1.3&tab;5.6&tab;21&tab;1.3&newline;8&tab;1&tab;6&tab;15&tab;2.5&newline;9&tab;0.6&tab;0&tab;8&tab;13&newline;10&tab;1.2&tab;0&tab;8&tab;10&newline;11&tab;2&tab;1&tab;10&tab;5&newline;12&tab;2.5&tab;1.5&tab;2&tab;1&newline;11x&tab;3&tab;2&tab;2&tab;2&newline;&newline;*end&space;&space;rampant</pctext>
+		</pathcodes>
+		<pt X="-329.81537" Y="-347.63077"/>
+		<pt X="-333.6214" Y="-366.76495"/>
+		<pt X="-344.46002" Y="-382.9861"/>
+		<pt X="-360.6812" Y="-393.82474"/>
+		<pt X="-379.81537" Y="-397.63077"/>
+		<pt X="-398.94952" Y="-393.82474"/>
+		<pt X="-415.17072" Y="-382.9861"/>
+		<pt X="-426.00934" Y="-366.76495"/>
+		<pt X="-429.81537" Y="-347.63077"/>
+		<pt X="-426.00934" Y="-328.49658"/>
+		<pt X="-415.17072" Y="-312.27542"/>
+		<pt X="-398.94952" Y="-301.4368"/>
+		<pt X="-379.81537" Y="-297.63077"/>
+		<pt X="-360.6812" Y="-293.82474"/>
+		<pt X="-344.46002" Y="-282.9861"/>
+		<pt X="-333.6214" Y="-266.76495"/>
+		<pt X="-329.81537" Y="-247.63077"/>
+		<pt X="-333.6214" Y="-228.4966"/>
+		<pt X="-344.46002" Y="-212.27542"/>
+		<pt X="-360.6812" Y="-201.4368"/>
+		<pt X="-379.81537" Y="-197.63077"/>
+		<pt X="-398.94952" Y="-201.4368"/>
+		<pt X="-415.17072" Y="-212.27542"/>
+		<pt X="-426.00934" Y="-228.4966"/>
+		<pt X="-429.81537" Y="-247.63077"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.1" head="rampant.2"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="-118.815384" Y="108.169235" Z="-45.06154"/>
+		<pt X="-109.01539" Y="116.96923" Z="-39.76154"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.2" head="rampant.3"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="-109.01539" Y="116.96923" Z="-39.76154"/>
+		<pt X="-56.315384" Y="82.76923" Z="-10.461539"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.3" head="rampant.4"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="-56.315384" Y="82.76923" Z="-10.461539"/>
+		<pt X="10.2846155" Y="59.76923" Z="38.93846"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.4" head="rampant.5"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="10.2846155" Y="59.76923" Z="38.93846"/>
+		<pt X="23.384617" Y="46.769234" Z="50.43846"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.5" head="rampant.6"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="23.384617" Y="46.769234" Z="50.43846"/>
+		<pt X="43.084618" Y="13.86923" Z="72.53846"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.6" head="rampant.7"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="43.084618" Y="13.86923" Z="72.53846"/>
+		<pt X="95.98461" Y="-24.53077" Z="90.138466"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.7" head="rampant.8"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="95.98461" Y="-24.53077" Z="90.138466"/>
+		<pt X="106.28462" Y="-46.23077" Z="89.238464"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.8" head="rampant.9"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="106.28462" Y="-46.23077" Z="89.238464"/>
+		<pt X="168.88461" Y="-168.93079" Z="25.038462"/>
+	</skpath>
+	<skpath from="10" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.9" head="rampant.10"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="168.88461" Y="-168.93079" Z="25.038462"/>
+		<pt X="182.58461" Y="-180.03076" Z="14.438461"/>
+	</skpath>
+	<skpath from="11" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.10" head="rampant.11"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="182.58461" Y="-180.03076" Z="14.438461"/>
+		<pt X="183.78462" Y="-247.63077" Z="2.5384617"/>
+	</skpath>
+	<skpath from="2" to="13" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.1" head="rampant.12"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="-118.815384" Y="108.169235" Z="-45.06154"/>
+		<pt X="-200.31538" Y="113.86923" Z="-100.161545"/>
+	</skpath>
+	<skpath from="13" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="rampant.12" head="rampant.11x"/>
+		</pathcodes>
+		<sketchsubset subname="Ramp-Ant"/>
+		<pt X="-200.31538" Y="113.86923" Z="-100.161545"/>
+		<pt X="-329.81537" Y="125.16923" Z="-187.86154"/>
+	</skpath>
+	<skpath from="15" to="15" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="3.4338474" sfrotatedeg="0.43103996" sfelevrotdeg="0.0" sfxtrans="-37.67406230284958" sfytrans="-47.74839110645833" sfsketch="2010/2010#24/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<pt X="-495.556" Y="-369.31467"/>
+		<pt X="-29.910755" Y="-372.8178"/>
+		<pt X="-24.801725" Y="306.28458"/>
+		<pt X="-490.447" Y="309.78772"/>
+		<pt X="-495.556" Y="-369.31467"/>
+	</skpath>
+	<skpath from="16" to="16" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="3.4262328" sfrotatedeg="0.3166105" sfelevrotdeg="0.0" sfxtrans="1.5180960768938352" sfytrans="-48.005332257343866" sfsketch="2010/2010#24/plan0002.png" sfstyle="" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<pt X="-103.63442" Y="-371.8841"/>
+		<pt X="363.0518" Y="-374.46298"/>
+		<pt X="366.81287" Y="306.15756"/>
+		<pt X="-99.873344" Y="308.73645"/>
+		<pt X="-103.63442" Y="-371.8841"/>
+	</skpath>
+</sketch>
+</tunnelxml>
