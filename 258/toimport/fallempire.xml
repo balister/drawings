@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-19 00:45:57">
+<sketch splined="0" locoffsetx="6.93125" locoffsety="4.5875" locoffsetz="3.70875" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*begin&space;fallempire&newline;&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;258&space;&quot;Tunnockschacht&quot;&newline;&newline;;ref.:&space;&space;2010&space;#09&newline;&newline;*export&space;8&space;&newline;&newline;*title&space;&quot;Fall&space;of&space;the&space;Empire&quot;&newline;*date&space;2010.08.07&newline;*team&space;Insts&space;Chris&space;Smith&newline;*team&space;Notes&space;Chris&space;Densham&newline;*team&space;Tape&space;Martin&space;Jahnke&newline;&newline;*calibrate&space;tape&space;+0&space;&space;&space;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;;Wook&apostrophe;s&space;DistoX&newline;&newline;;from&space;&space;&space;to&space;&space;tape&space;&space;&space;&space;compass&space;clino&space;&space;&space;remarks&newline;1&tab;2&tab;2.55&tab;081&tab;-04&newline;2&tab;3&tab;3.64&tab;076.5&tab;+24.8&newline;3&tab;4&tab;1.69&tab;067.3&tab;+02&newline;4&tab;5&tab;4.82&tab;025&tab;+61.6&newline;5&tab;6&tab;3.04&tab;033.4&tab;+09.2&newline;6&tab;7&tab;4.02&tab;348&tab;+32.9&newline;7&tab;8&tab;5.11&tab;043.2&tab;-15&tab;;estimate&space;as&space;DistoX&space;reading&space;error&newline;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;;stn&space;&space;&space;&space;L&space;&space;&space;R&space;&space;&space;U&space;&space;&space;D&space;&space;&space;Desc&newline;1&tab;0.5&tab;1&tab;3.8&tab;1.5&newline;2&tab;0.4&tab;0.8&tab;0.3&tab;0.4&newline;3&tab;1&tab;0.1&tab;0.5&tab;0.3&newline;4&tab;0.9&tab;0&tab;2.8&tab;1.8&newline;5&tab;0&tab;1.2&tab;0.7&tab;3&newline;6&tab;1&tab;0&tab;6&tab;2.5&newline;7&tab;0.3&tab;0.4&tab;1&tab;0.5&newline;&newline;*end&space;fallempire</pctext>
+		</pathcodes>
+		<pt X="-69.3125" Y="-187.125"/>
+		<pt X="-73.11853" Y="-206.25917"/>
+		<pt X="-83.95716" Y="-222.48035"/>
+		<pt X="-100.17833" Y="-233.31897"/>
+		<pt X="-119.3125" Y="-237.125"/>
+		<pt X="-138.44667" Y="-233.31897"/>
+		<pt X="-154.66785" Y="-222.48035"/>
+		<pt X="-165.50647" Y="-206.25917"/>
+		<pt X="-169.3125" Y="-187.125"/>
+		<pt X="-165.50647" Y="-167.99083"/>
+		<pt X="-154.66785" Y="-151.76965"/>
+		<pt X="-138.44667" Y="-140.93103"/>
+		<pt X="-119.3125" Y="-137.125"/>
+		<pt X="-100.17833" Y="-133.31897"/>
+		<pt X="-83.95716" Y="-122.48034"/>
+		<pt X="-73.11853" Y="-106.25917"/>
+		<pt X="-69.3125" Y="-87.125"/>
+		<pt X="-73.11853" Y="-67.99083"/>
+		<pt X="-83.95716" Y="-51.769653"/>
+		<pt X="-100.17833" Y="-40.93103"/>
+		<pt X="-119.3125" Y="-37.125"/>
+		<pt X="-138.44667" Y="-40.93103"/>
+		<pt X="-154.66785" Y="-51.769653"/>
+		<pt X="-165.50647" Y="-67.99083"/>
+		<pt X="-169.3125" Y="-87.125"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.1" head="fallempire.2"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="-69.3125" Y="45.875" Z="-37.0875"/>
+		<pt X="-44.212498" Y="41.875" Z="-38.8875"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.2" head="fallempire.3"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="-44.212498" Y="41.875" Z="-38.8875"/>
+		<pt X="-12.0125" Y="34.175" Z="-23.587502"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.3" head="fallempire.4"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="-12.0125" Y="34.175" Z="-23.587502"/>
+		<pt X="3.4875" Y="27.675" Z="-22.9875"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.4" head="fallempire.5"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="3.4875" Y="27.675" Z="-22.9875"/>
+		<pt X="13.1875" Y="6.875" Z="19.4125"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.5" head="fallempire.6"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="13.1875" Y="6.875" Z="19.4125"/>
+		<pt X="29.6875" Y="-18.125" Z="24.212502"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.6" head="fallempire.7"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="29.6875" Y="-18.125" Z="24.212502"/>
+		<pt X="22.6875" Y="-51.225" Z="46.1125"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fallempire.7" head="fallempire.8"/>
+		</pathcodes>
+		<sketchsubset subname="Fall of the Empire"/>
+		<pt X="22.6875" Y="-51.225" Z="46.1125"/>
+		<pt X="56.4875" Y="-87.125" Z="32.8125"/>
+	</skpath>
+	<skpath from="10" to="10" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="3.1596365" sfrotatedeg="0.8819197" sfelevrotdeg="0.0" sfxtrans="-21.576690297492437" sfytrans="-39.05104143477038" sfsketch="2010/2010#09/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<pt X="-285.0794" Y="-344.6354"/>
+		<pt X="249.41243" Y="-352.8632"/>
+		<pt X="260.6848" Y="379.41278"/>
+		<pt X="-273.80704" Y="387.64056"/>
+		<pt X="-285.0794" Y="-344.6354"/>
+	</skpath>
+</sketch>
+</tunnelxml>
