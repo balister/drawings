@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2009-12-29 Greenclose" tunnelproject="cuccaustria" tunneluser="expo8" tunneldate="2010-08-09 17:54:26">
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-19 15:03:31">
 <sketch splined="0" locoffsetx="4.1847057" locoffsety="-1.0670588" locoffsetz="6.222353" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -82,7 +82,7 @@
 	</skpath>
 	<skpath from="9" to="9" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="7.8419104" sfrotatedeg="0.23829983" sfxtrans="-7.607906174332197" sfytrans="-18.037108516314113" sfsketch="2009/2009#30/Frankly_Freezing-therion-sketch.png" sfstyle="" nodeconnzsetrelative="0.0">
+			<pcarea area_signal="frame" sfscaledown="7.8419104" sfrotatedeg="0.23829983" sfelevrotdeg="0.0" sfxtrans="-7.607906174332197" sfytrans="-18.037108516314113" sfsketch="2009/2009#30/Frankly_Freezing-therion-sketch.png" sfstyle="" nodeconnzsetrelative="0.0">
 			</pcarea>
 		</pathcodes>
 		<pt X="-117.92612" Y="-191.04167"/>
@@ -92,6 +92,7 @@
 		<pt X="-117.92612" Y="-191.04167"/>
 	</skpath>
 	<skpath from="10" to="8" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="15.573838" Y="71.43832"/>
 		<pt X="12.55294" Y="72.52941" Z="-23.323528"/>
 	</skpath>
@@ -112,14 +113,17 @@
 		<pt X="11.012304" Y="32.56857" Z="-59.323532"/>
 	</skpath>
 	<skpath from="13" to="6" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="63.49323" Y="12.489229"/>
 		<pt X="45.052944" Y="-0.17058823" Z="-43.42353"/>
 	</skpath>
 	<skpath from="14" to="6" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="44.783028" Y="-2.7049627"/>
 		<pt X="45.052944" Y="-0.17058823" Z="-43.42353"/>
 	</skpath>
 	<skpath from="15" to="5" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="62.7398" Y="-6.5976896"/>
 		<pt X="60.652943" Y="-9.6705885" Z="69.57647"/>
 	</skpath>
@@ -188,59 +192,73 @@
 		<pt X="-95.685905" Y="25.155325" Z="9.47647"/>
 	</skpath>
 	<skpath from="8" to="23" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="12.55294" Y="72.52941" Z="-23.323528"/>
 		<pt X="-2.1400332" Y="61.093853"/>
 	</skpath>
 	<skpath from="24" to="11" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="12.762018" Y="-2.248079"/>
 		<pt X="11.012304" Y="32.56857" Z="-59.323532"/>
 	</skpath>
 	<skpath from="25" to="11" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="8.7723465" Y="32.38953"/>
 		<pt X="11.012304" Y="32.56857" Z="-59.323532"/>
 	</skpath>
 	<skpath from="26" to="7" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="9.135044" Y="37.829994"/>
 		<pt X="22.352942" Y="37.62941" Z="-21.223528"/>
 	</skpath>
 	<skpath from="27" to="17" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-41.87179" Y="45.989334"/>
 		<pt X="-55.765648" Y="50.879944" Z="4.6764703"/>
 	</skpath>
 	<skpath from="28" to="17" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-60.933136" Y="38.096745"/>
 		<pt X="-55.765648" Y="50.879944" Z="4.6764703"/>
 	</skpath>
 	<skpath from="29" to="16" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-54.678635" Y="59.242928"/>
 		<pt X="-56.921566" Y="51.980824" Z="-8.02353"/>
 	</skpath>
 	<skpath from="30" to="22" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-86.993576" Y="33.18249"/>
 		<pt X="-95.685905" Y="25.155325" Z="9.47647"/>
 	</skpath>
 	<skpath from="22" to="31" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-95.685905" Y="25.155325" Z="9.47647"/>
 		<pt X="-84.164154" Y="28.863905"/>
 	</skpath>
 	<skpath from="32" to="21" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-77.4629" Y="-75.22892"/>
 		<pt X="-79.44706" Y="-67.47059" Z="-69.823524"/>
 	</skpath>
 	<skpath from="33" to="20" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-48.274216" Y="-12.093926"/>
 		<pt X="-42.3833" Y="-10.3613405" Z="-62.22353"/>
 	</skpath>
 	<skpath from="20" to="34" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-42.3833" Y="-10.3613405" Z="-62.22353"/>
 		<pt X="-27.726685" Y="-13.874712"/>
 		<pt X="-15.124199" Y="-11.135041"/>
 	</skpath>
 	<skpath from="35" to="7" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="41.039055" Y="36.8092"/>
 		<pt X="22.352942" Y="37.62941" Z="-21.223528"/>
 	</skpath>
 	<skpath from="30" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-86.993576" Y="33.18249"/>
 		<pt X="-84.32742" Y="35.025204"/>
 		<pt X="-78.63804" Y="37.81184"/>
@@ -256,6 +274,7 @@
 		<pt X="-54.678635" Y="59.242928"/>
 	</skpath>
 	<skpath from="29" to="36" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-54.678635" Y="59.242928"/>
 		<pt X="-52.16499" Y="57.3183"/>
 		<pt X="-48.913914" Y="57.898846"/>
@@ -269,6 +288,7 @@
 		<pt X="-36.32445" Y="93.375916"/>
 	</skpath>
 	<skpath from="31" to="28" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-84.164154" Y="28.863905"/>
 		<pt X="-80.85932" Y="31.151241"/>
 		<pt X="-72.94546" Y="36.427147"/>
@@ -276,6 +296,7 @@
 		<pt X="-60.933136" Y="38.096745"/>
 	</skpath>
 	<skpath from="28" to="37" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-60.933136" Y="38.096745"/>
 		<pt X="-57.73843" Y="37.668537"/>
 		<pt X="-55.25565" Y="33.013325"/>
@@ -283,42 +304,51 @@
 		<pt X="-54.210854" Y="23.986666"/>
 	</skpath>
 	<skpath from="37" to="18" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-54.210854" Y="23.986666"/>
 		<pt X="-53.23773" Y="20.587664" Z="12.27647"/>
 	</skpath>
 	<skpath from="19" to="38" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-38.36101" Y="26.994425" Z="15.976471"/>
 		<pt X="-40.017506" Y="29.43691"/>
 	</skpath>
 	<skpath from="37" to="39" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-54.210854" Y="23.986666"/>
 		<pt X="-53.64312" Y="16.946764"/>
 		<pt X="-52.507652" Y="9.112037"/>
 	</skpath>
 	<skpath from="40" to="12" linestyle="connective">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-52.63542" Y="1.1915815"/>
 		<pt X="-49.24706" Y="9.229411" Z="-115.623535"/>
 	</skpath>
 	<skpath from="39" to="41" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-52.507652" Y="9.112037"/>
 		<pt X="-54.9671" Y="6.404877"/>
 		<pt X="-60.076447" Y="3.8502035"/>
 	</skpath>
 	<skpath from="42" to="40" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-55.753048" Y="-0.18349947"/>
 		<pt X="-52.63542" Y="1.1915815"/>
 	</skpath>
 	<skpath from="40" to="33" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-52.63542" Y="1.1915815"/>
 		<pt X="-51.29619" Y="-1.7516539"/>
 		<pt X="-49.562965" Y="-8.684547"/>
 		<pt X="-48.274216" Y="-12.093926"/>
 	</skpath>
 	<skpath from="33" to="43" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-48.274216" Y="-12.093926"/>
 		<pt X="-50.140705" Y="-16.52532"/>
 	</skpath>
 	<skpath from="43" to="32" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-50.140705" Y="-16.52532"/>
 		<pt X="-57.98148" Y="-23.375679"/>
 		<pt X="-66.48253" Y="-30.473642"/>
@@ -329,6 +359,7 @@
 		<pt X="-77.4629" Y="-75.22892"/>
 	</skpath>
 	<skpath from="32" to="44" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-77.4629" Y="-75.22892"/>
 		<pt X="-72.01234" Y="-78.921364"/>
 		<pt X="-66.15239" Y="-80.48952"/>
@@ -340,6 +371,7 @@
 		<pt X="-28.599215" Y="-21.394852"/>
 	</skpath>
 	<skpath from="44" to="34" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-28.599215" Y="-21.394852"/>
 		<pt X="-27.113596" Y="-18.093475"/>
 		<pt X="-23.812218" Y="-15.287303"/>
@@ -347,16 +379,19 @@
 		<pt X="-15.124199" Y="-11.135041"/>
 	</skpath>
 	<skpath from="34" to="45" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-15.124199" Y="-11.135041"/>
 		<pt X="-9.451223" Y="-8.106807"/>
 		<pt X="-2.353261" Y="-6.538652"/>
 		<pt X="3.4241502" Y="-4.3927565"/>
 	</skpath>
 	<skpath from="45" to="24" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="3.4241502" Y="-4.3927565"/>
 		<pt X="12.762018" Y="-2.248079"/>
 	</skpath>
 	<skpath from="24" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="12.762018" Y="-2.248079"/>
 		<pt X="20.261177" Y="-2.4119296"/>
 		<pt X="35.11738" Y="-1.6691195"/>
@@ -364,6 +399,7 @@
 		<pt X="44.783028" Y="-2.7049627"/>
 	</skpath>
 	<skpath from="14" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="44.783028" Y="-2.7049627"/>
 		<pt X="45.104046" Y="-7.7766685"/>
 		<pt X="46.507133" Y="-11.738322"/>
@@ -373,6 +409,7 @@
 		<pt X="62.7398" Y="-6.5976896"/>
 	</skpath>
 	<skpath from="15" to="13" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="62.7398" Y="-6.5976896"/>
 		<pt X="65.077385" Y="-1.7516539"/>
 		<pt X="65.65512" Y="3.8606884"/>
@@ -380,6 +417,7 @@
 		<pt X="63.49323" Y="12.489229"/>
 	</skpath>
 	<skpath from="13" to="46" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="63.49323" Y="12.489229"/>
 		<pt X="61.5284" Y="17.478872"/>
 		<pt X="61.11573" Y="24.906973"/>
@@ -387,6 +425,7 @@
 		<pt X="52.367077" Y="36.131657"/>
 	</skpath>
 	<skpath from="46" to="47" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="52.367077" Y="36.131657"/>
 		<pt X="41.720135" Y="40.918655"/>
 		<pt X="34.62217" Y="43.889896"/>
@@ -394,6 +433,7 @@
 		<pt X="24.718037" Y="55.444717"/>
 	</skpath>
 	<skpath from="47" to="10" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="24.718037" Y="55.444717"/>
 		<pt X="25.460848" Y="60.89199"/>
 		<pt X="23.067348" Y="66.58687"/>
@@ -401,6 +441,7 @@
 		<pt X="15.573838" Y="71.43832"/>
 	</skpath>
 	<skpath from="10" to="48" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="15.573838" Y="71.43832"/>
 		<pt X="12.585474" Y="74.34511"/>
 		<pt X="10.522113" Y="79.54478"/>
@@ -409,10 +450,12 @@
 		<pt X="3.9193568" Y="87.38555"/>
 	</skpath>
 	<skpath from="49" to="48" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="0.68508655" Y="101.30436"/>
 		<pt X="3.9193568" Y="87.38555"/>
 	</skpath>
 	<skpath from="49" to="36" linestyle="estwall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="0.68508655" Y="101.30436"/>
 		<pt X="-0.79633933" Y="109.60035"/>
 		<pt X="-7.3146133" Y="118.63705"/>
@@ -422,6 +465,7 @@
 		<pt X="-36.32445" Y="93.375916"/>
 	</skpath>
 	<skpath from="36" to="48" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-36.32445" Y="93.375916"/>
 		<pt X="-29.38786" Y="87.37896"/>
 		<pt X="-21.684444" Y="83.97168"/>
@@ -429,6 +473,7 @@
 		<pt X="3.9193568" Y="87.38555"/>
 	</skpath>
 	<skpath from="50" to="23" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-9.240467" Y="52.269165"/>
 		<pt X="-9.833037" Y="55.676445"/>
 		<pt X="-9.092324" Y="58.19487"/>
@@ -436,6 +481,7 @@
 		<pt X="-2.1400332" Y="61.093853"/>
 	</skpath>
 	<skpath from="23" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-2.1400332" Y="61.093853"/>
 		<pt X="-1.8333374" Y="58.046726"/>
 		<pt X="2.1665125" Y="54.19502"/>
@@ -444,6 +490,7 @@
 		<pt X="9.135044" Y="37.829994"/>
 	</skpath>
 	<skpath from="51" to="27" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-14.5736" Y="50.34331"/>
 		<pt X="-16.055025" Y="53.15802"/>
 		<pt X="-20.203018" Y="54.78759"/>
@@ -452,17 +499,20 @@
 		<pt X="-41.87179" Y="45.989334"/>
 	</skpath>
 	<skpath from="27" to="38" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-41.87179" Y="45.989334"/>
 		<pt X="-42.424408" Y="39.084476"/>
 		<pt X="-41.831837" Y="33.45506"/>
 		<pt X="-40.017506" Y="29.43691"/>
 	</skpath>
 	<skpath from="38" to="52" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-40.017506" Y="29.43691"/>
 		<pt X="-37.239414" Y="25.307215"/>
 		<pt X="-34.869133" Y="24.41836"/>
 	</skpath>
 	<skpath from="52" to="25" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-34.869133" Y="24.41836"/>
 		<pt X="-28.202719" Y="26.936783"/>
 		<pt X="-16.499454" Y="31.381062"/>
@@ -471,10 +521,12 @@
 		<pt X="8.7723465" Y="32.38953"/>
 	</skpath>
 	<skpath from="25" to="26" linestyle="wall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="8.7723465" Y="32.38953"/>
 		<pt X="9.135044" Y="37.829994"/>
 	</skpath>
 	<skpath from="53" to="54" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="15.764705" Y="63.082615"/>
 		<pt X="19.34341" Y="59.50391"/>
 		<pt X="20.87714" Y="52.60212"/>
@@ -482,15 +534,18 @@
 		<pt X="33.74344" Y="39.90624"/>
 	</skpath>
 	<skpath from="47" to="55" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="24.718037" Y="55.444717"/>
 		<pt X="22.581285" Y="60.015152"/>
 		<pt X="17.724472" Y="64.95718"/>
 	</skpath>
 	<skpath from="46" to="35" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="52.367077" Y="36.131657"/>
 		<pt X="41.039055" Y="36.8092"/>
 	</skpath>
 	<skpath from="35" to="25" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="41.039055" Y="36.8092"/>
 		<pt X="33.848183" Y="35.20748"/>
 		<pt X="27.955801" Y="34.68537"/>
@@ -498,23 +553,27 @@
 		<pt X="8.7723465" Y="32.38953"/>
 	</skpath>
 	<skpath from="26" to="54" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="9.135044" Y="37.829994"/>
 		<pt X="16.767736" Y="38.265553"/>
 		<pt X="24.002686" Y="39.533535"/>
 		<pt X="33.74344" Y="39.90624"/>
 	</skpath>
 	<skpath from="54" to="35" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="33.74344" Y="39.90624"/>
 		<pt X="38.472584" Y="38.489315"/>
 		<pt X="41.039055" Y="36.8092"/>
 	</skpath>
 	<skpath from="52" to="39" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-34.869133" Y="24.41836"/>
 		<pt X="-40.613705" Y="20.939281"/>
 		<pt X="-46.680843" Y="15.377736"/>
 		<pt X="-52.507652" Y="9.112037"/>
 	</skpath>
 	<skpath from="52" to="45" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-34.869133" Y="24.41836"/>
 		<pt X="-34.29117" Y="19.235693"/>
 		<pt X="-32.711693" Y="11.524138"/>
@@ -526,6 +585,7 @@
 		<pt X="3.4241502" Y="-4.3927565"/>
 	</skpath>
 	<skpath from="33" to="34" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-48.274216" Y="-12.093926"/>
 		<pt X="-44.97585" Y="-10.681419"/>
 		<pt X="-39.02959" Y="-10.031048"/>
@@ -534,6 +594,7 @@
 		<pt X="-15.124199" Y="-11.135041"/>
 	</skpath>
 	<skpath from="44" to="43" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-28.599215" Y="-21.394852"/>
 		<pt X="-30.946398" Y="-16.627678"/>
 		<pt X="-34.105347" Y="-12.8183565"/>
@@ -543,10 +604,12 @@
 		<pt X="-50.140705" Y="-16.52532"/>
 	</skpath>
 	<skpath from="50" to="56" linestyle="estwall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-9.240467" Y="52.269165"/>
 		<pt X="-2.993623" Y="36.193863"/>
 	</skpath>
 	<skpath from="51" to="57" linestyle="estwall" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-14.5736" Y="50.34331"/>
 		<pt X="-10.111643" Y="33.726284"/>
 	</skpath>
@@ -554,26 +617,32 @@
 		<pathcodes>
 			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0">09-04A</pctext>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="8.143213" Y="95.91978"/>
 		<pt X="0.68508655" Y="101.30436"/>
 	</skpath>
 	<skpath from="51" to="50" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-14.5736" Y="50.34331"/>
 		<pt X="-9.240467" Y="52.269165"/>
 	</skpath>
 	<skpath from="30" to="31" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-86.993576" Y="33.18249"/>
 		<pt X="-84.164154" Y="28.863905"/>
 	</skpath>
 	<skpath from="10" to="55" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="15.573838" Y="71.43832"/>
 		<pt X="17.724472" Y="64.95718"/>
 	</skpath>
 	<skpath from="53" to="53" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="15.764705" Y="63.082615"/>
 		<pt X="15.764705" Y="63.082615"/>
 	</skpath>
 	<skpath from="53" to="23" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="15.764705" Y="63.082615"/>
 		<pt X="8.061778" Y="59.52226"/>
 		<pt X="2.718294" Y="64.27202"/>
@@ -583,10 +652,12 @@
 		<pathcodes>
 			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0">09-01X</pctext>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-85.44464" Y="-55.86353"/>
 		<pt X="-77.4629" Y="-75.22892"/>
 	</skpath>
 	<skpath from="41" to="42" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-60.076447" Y="3.8502035"/>
 		<pt X="-55.753048" Y="-0.18349947"/>
 	</skpath>
@@ -594,6 +665,7 @@
 		<pathcodes>
 			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0">09-02C</pctext>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-63.195595" Y="-1.7018764"/>
 		<pt X="-60.076447" Y="3.8502035"/>
 	</skpath>
@@ -601,6 +673,7 @@
 		<pathcodes>
 			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0">09-03A</pctext>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-98.66315" Y="28.885593"/>
 		<pt X="-86.993576" Y="33.18249"/>
 	</skpath>
@@ -608,6 +681,7 @@
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="12.762018" Y="-2.248079"/>
 		<pt X="47.001312" Y="26.523523"/>
 	</skpath>
@@ -615,25 +689,30 @@
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-68.10709" Y="-58.33546"/>
 		<pt X="-28.599215" Y="-21.394852"/>
 	</skpath>
 	<skpath from="64" to="65" linestyle="detail" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="47.378716" Y="0.07009333"/>
 		<pt X="62.014114" Y="0.5791507"/>
 	</skpath>
 	<skpath from="64" to="65" linestyle="detail">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="47.378716" Y="0.07009333"/>
 		<pt X="60.868736" Y="-1.8388717"/>
 		<pt X="62.014114" Y="0.5791507"/>
 	</skpath>
 	<skpath from="64" to="65" linestyle="detail">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="47.378716" Y="0.07009333"/>
 		<pt X="47.25145" Y="5.160667"/>
 		<pt X="54.632782" Y="7.0696316"/>
 		<pt X="62.014114" Y="0.5791507"/>
 	</skpath>
 	<skpath from="65" to="15" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="62.014114" Y="0.5791507"/>
 		<pt X="62.7398" Y="-6.5976896"/>
 	</skpath>
@@ -641,25 +720,30 @@
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-48.274216" Y="-12.093926"/>
 		<pt X="-36.98235" Y="17.982279"/>
 	</skpath>
 	<skpath from="67" to="68" linestyle="detail">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-53.453983" Y="49.0795"/>
 		<pt X="-66.19505" Y="56.36011"/>
 	</skpath>
 	<skpath from="68" to="67" linestyle="detail">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-66.19505" Y="56.36011"/>
 		<pt X="-56.742" Y="46.6722"/>
 		<pt X="-53.453983" Y="49.0795"/>
 	</skpath>
 	<skpath from="67" to="68" linestyle="detail">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-53.453983" Y="49.0795"/>
 		<pt X="-53.630127" Y="56.653687"/>
 		<pt X="-65.9602" Y="59.824276"/>
 		<pt X="-66.19505" Y="56.36011"/>
 	</skpath>
 	<skpath from="67" to="29" linestyle="invisible" splined="1">
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-53.453983" Y="49.0795"/>
 		<pt X="-51.692543" Y="55.06839"/>
 		<pt X="-52.925552" Y="56.418827"/>
@@ -670,6 +754,7 @@
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-60.933136" Y="38.096745"/>
 		<pt X="-1.1667687" Y="81.142365"/>
 	</skpath>
@@ -677,6 +762,7 @@
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
+		<sketchsubset subname="Frankly Freezing"/>
 		<pt X="-41.87179" Y="45.989334"/>
 		<pt X="-29.483492" Y="43.364445"/>
 	</skpath>
