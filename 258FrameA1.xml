@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-19 00:40:14">
+<tunnelxml tunnelversion="version2010-08-01 CUCC Expo" tunnelproject="cuccaustria" tunneluser="expo10" tunneldate="2010-09-22 02:06:54">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
@@ -966,12 +966,22 @@
 	</skpath>
 	<skpath from="46" to="9" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="3000.0" sfrotatedeg="0.0" sfelevrotdeg="159.0" sfxtrans="-10.365093702566176" sfytrans="28.59859147381337" sfsketch="258/258new" sfstyle="FatCentreline" nodeconnzsetrelative="0.0">
+			<pcarea area_signal="frame" sfscaledown="3000.0" sfrotatedeg="0.0" sfelevrotdeg="159.0" sfxtrans="-10.365093702566176" sfytrans="28.59859147381337" sfsketch="258/258new" sfstyle="FatCentreline3" nodeconnzsetrelative="0.0">
 				<subsetattr name="default" uppersubset="black"/>
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="3802.8694" Y="275.1283"/>
 		<pt X="3990.0" Y="140.0"/>
+	</skpath>
+	<skpath from="40" to="47" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="" nodeconnzsetrelative="0.0">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="6000.0" Y="3800.0"/>
+		<pt X="5698.376" Y="4040.3113"/>
 	</skpath>
 </sketch>
 </tunnelxml>
