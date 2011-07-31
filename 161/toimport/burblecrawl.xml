@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-07-31 14:38:06">
+<sketch splined="0" locoffsetx="36291.105" locoffsety="82660.74" locoffsetz="1597.356" realpaperscale="1000.0">
+	<skpath from="1" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblmaze.1" head="161.vompitch.2"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Vom Pitch"/>
+		<pt X="2457.9404" Y="-4295.5557" Z="-746.96014"/>
+		<pt X="2412.8403" Y="-4280.3555" Z="-679.26013"/>
+	</skpath>
+	<skpath from="3" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.vompitch.3" head="161.vompitch.2"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Vom Pitch"/>
+		<pt X="2413.0405" Y="-4280.0557" Z="-601.96014"/>
+		<pt X="2412.8403" Y="-4280.3555" Z="-679.26013"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.vompitch.3" head="161.vompitch.4"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Vom Pitch"/>
+		<pt X="2413.0405" Y="-4280.0557" Z="-601.96014"/>
+		<pt X="2409.6406" Y="-4275.8555" Z="-447.86014"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.vompitch.4" head="161.vompitch.5"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Vom Pitch"/>
+		<pt X="2409.6406" Y="-4275.8555" Z="-447.86014"/>
+		<pt X="2405.9404" Y="-4261.2554" Z="-407.76013"/>
+	</skpath>
+	<skpath from="5" to="0" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.vompitch.5" head="161.burblcrawl.1"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Vom Pitch"/>
+		<pt X="2405.9404" Y="-4261.2554" Z="-407.76013"/>
+		<pt X="2404.0403" Y="-4240.3555" Z="-413.96014"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.vompitch.5" head="161.vompitch.andyhead"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Vom Pitch"/>
+		<pt X="2405.9404" Y="-4261.2554" Z="-407.76013"/>
+		<pt X="2362.8403" Y="-4297.4556" Z="-325.16016"/>
+	</skpath>
+	<skpath from="7" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.leadmine.2" head="161.burblmaze.1"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Leadmine: bottom of Vom pitch to Repton"/>
+		<pt X="2406.9404" Y="-4219.8555" Z="-761.36017"/>
+		<pt X="2457.9404" Y="-4295.5557" Z="-746.96014"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.leadmine.2" head="161.leadmine.3"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Leadmine: bottom of Vom pitch to Repton"/>
+		<pt X="2406.9404" Y="-4219.8555" Z="-761.36017"/>
+		<pt X="2401.0405" Y="-4287.8555" Z="-793.26013"/>
+	</skpath>
+	<skpath from="7" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.leadmine.2" head="161.leadmine.4"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Leadmine: bottom of Vom pitch to Repton"/>
+		<pt X="2406.9404" Y="-4219.8555" Z="-761.36017"/>
+		<pt X="2443.4404" Y="-4194.256" Z="-788.16016"/>
+	</skpath>
+	<skpath from="10" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.leadmine.5" head="161.leadmine.4"/>
+		</pathcodes>
+		<sketchsubset subname="Burble - Leadmine: bottom of Vom pitch to Repton"/>
+		<pt X="2422.8403" Y="-4159.8555" Z="-802.76013"/>
+		<pt X="2443.4404" Y="-4194.256" Z="-788.16016"/>
+	</skpath>
+	<skpath from="11" to="11" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="6.7750287" sfrotatedeg="134.26686" sfelevrotdeg="0.0" sfxtrans="36515.363694400774" sfytrans="-83063.99229138401" sfsketch="surveyscans/1991surveybook/page0076.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1584" sfpixheight="2061">
+			</pcarea>
+		</pathcodes>
+		<pt X="2242.5745" Y="-4032.4854"/>
+		<pt X="2079.3818" Y="-4199.9087"/>
+		<pt X="2297.2224" Y="-4412.244"/>
+		<pt X="2460.4148" Y="-4244.8213"/>
+		<pt X="2242.5745" Y="-4032.4854"/>
+	</skpath>
+	<skpath from="11" to="6" linestyle="connective">
+		<pt X="2242.5745" Y="-4032.4854"/>
+		<pt X="2362.8403" Y="-4297.4556" Z="-325.16016"/>
+	</skpath>
+	<skpath from="12" to="12" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="2.5479863" sfrotatedeg="-177.95335" sfelevrotdeg="0.0" sfxtrans="36545.354038192316" sfytrans="-83006.71155931814" sfsketch="surveyscans/1991surveybook/page0061.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1584" sfpixheight="2061">
+			</pcarea>
+		</pathcodes>
+		<pt X="2542.4778" Y="-3459.678"/>
+		<pt X="1921.207" Y="-3437.4763"/>
+		<pt X="1892.3196" Y="-4245.8345"/>
+		<pt X="2513.5906" Y="-4268.036"/>
+		<pt X="2542.4778" Y="-3459.678"/>
+	</skpath>
+	<skpath from="13" to="0" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.2" head="161.burblcrawl.1"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2381.4263" Y="-4164.4834" Z="-427.76013"/>
+		<pt X="2404.0403" Y="-4240.3555" Z="-413.96014"/>
+	</skpath>
+	<skpath from="14" to="13" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.3" head="161.burblcrawl.2"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2396.6091" Y="-4132.9033" Z="-432.96014"/>
+		<pt X="2381.4263" Y="-4164.4834" Z="-427.76013"/>
+	</skpath>
+	<skpath from="15" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.4" head="161.burblcrawl.3"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2413.209" Y="-4087.1526" Z="-440.86014"/>
+		<pt X="2396.6091" Y="-4132.9033" Z="-432.96014"/>
+	</skpath>
+	<skpath from="16" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.5" head="161.burblcrawl.4"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2395.3945" Y="-4056.787" Z="-447.66016"/>
+		<pt X="2413.209" Y="-4087.1526" Z="-440.86014"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.6" head="161.burblcrawl.5"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2380.6167" Y="-4004.9634" Z="-457.66016"/>
+		<pt X="2395.3945" Y="-4056.787" Z="-447.66016"/>
+	</skpath>
+	<skpath from="18" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.7" head="161.burblcrawl.6"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2366.6484" Y="-3950.7104" Z="-464.26013"/>
+		<pt X="2380.6167" Y="-4004.9634" Z="-457.66016"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.8" head="161.burblcrawl.7"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2342.1536" Y="-3865.687" Z="-469.86017"/>
+		<pt X="2366.6484" Y="-3950.7104" Z="-464.26013"/>
+	</skpath>
+	<skpath from="20" to="19" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.9" head="161.burblcrawl.8"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2324.7441" Y="-3829.451" Z="-474.96014"/>
+		<pt X="2342.1536" Y="-3865.687" Z="-469.86017"/>
+	</skpath>
+	<skpath from="21" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.10" head="161.burblcrawl.9"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2338.9146" Y="-3810.6243" Z="-474.3601"/>
+		<pt X="2324.7441" Y="-3829.451" Z="-474.96014"/>
+	</skpath>
+	<skpath from="22" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.11" head="161.burblcrawl.10"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2312.3357" Y="-3740.7837" Z="-485.66013"/>
+		<pt X="2338.9146" Y="-3810.6243" Z="-474.3601"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.12" head="161.burblcrawl.11"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2316.9917" Y="-3727.828" Z="-493.16013"/>
+		<pt X="2312.3357" Y="-3740.7837" Z="-485.66013"/>
+	</skpath>
+	<skpath from="24" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.13" head="161.burblcrawl.12"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2309.299" Y="-3704.9524" Z="-497.86014"/>
+		<pt X="2316.9917" Y="-3727.828" Z="-493.16013"/>
+	</skpath>
+	<skpath from="25" to="24" linestyle="connective">
+		<pt X="2544.4775" Y="-3462.0635"/>
+		<pt X="2309.299" Y="-3704.9524" Z="-497.86014"/>
+	</skpath>
+	<skpath from="26" to="24" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.14" head="161.burblcrawl.13"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2344.1182" Y="-3650.497" Z="-505.56015"/>
+		<pt X="2309.299" Y="-3704.9524" Z="-497.86014"/>
+	</skpath>
+	<skpath from="27" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.15" head="161.burblcrawl.14"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2331.972" Y="-3606.9731" Z="-517.16016"/>
+		<pt X="2344.1182" Y="-3650.497" Z="-505.56015"/>
+	</skpath>
+	<skpath from="28" to="27" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.16" head="161.burblcrawl.15"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2347.3572" Y="-3567.7004" Z="-536.26013"/>
+		<pt X="2331.972" Y="-3606.9731" Z="-517.16016"/>
+	</skpath>
+	<skpath from="29" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.17" head="161.burblcrawl.16"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2353.4302" Y="-3514.8645" Z="-551.3601"/>
+		<pt X="2347.3572" Y="-3567.7004" Z="-536.26013"/>
+	</skpath>
+	<skpath from="30" to="29" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.18" head="161.burblcrawl.17"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<pt X="2404.2383" Y="-3501.3345" Z="-553.96014"/>
+		<pt X="2353.4302" Y="-3514.8645" Z="-551.3601"/>
+	</skpath>
+</sketch>
+</tunnelxml>
