@@ -1,0 +1,926 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-01 11:18:41">
+<sketch splined="0" locoffsetx="36291.105" locoffsety="82660.74" locoffsetz="1597.356" realpaperscale="1000.0">
+	<skpath from="1" to="0" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.21" head="161.shaftmin.5"/>
+		</pathcodes>
+		<sketchsubset subname="Shaftmine"/>
+		<pt X="7513.8403" Y="-1975.1555" Z="408.43988"/>
+		<pt X="7516.6406" Y="-1898.5557" Z="420.83987"/>
+	</skpath>
+	<skpath from="1" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.21" head="161.shaftmin.7"/>
+		</pathcodes>
+		<sketchsubset subname="Shaftmine"/>
+		<pt X="7513.8403" Y="-1975.1555" Z="408.43988"/>
+		<pt X="7524.3403" Y="-2014.2555" Z="352.73987"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.shaftmin.7" head="161.shaftmin.8"/>
+		</pathcodes>
+		<sketchsubset subname="Shaftmine"/>
+		<pt X="7524.3403" Y="-2014.2555" Z="352.73987"/>
+		<pt X="7495.9404" Y="-2094.2556" Z="321.83987"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.2" head="161.p161e"/>
+		</pathcodes>
+		<sketchsubset subname="Yorkshire Pudding"/>
+		<pt X="8259.94" Y="-1635.3555" Z="613.83984"/>
+		<pt X="8269.841" Y="-1635.0555" Z="624.83984"/>
+	</skpath>
+	<skpath from="6" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.3" head="161.pudding.2"/>
+		</pathcodes>
+		<sketchsubset subname="Yorkshire Pudding"/>
+		<pt X="8237.141" Y="-1645.4554" Z="604.33984"/>
+		<pt X="8259.94" Y="-1635.3555" Z="613.83984"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.3" head="161.pudding.4"/>
+		</pathcodes>
+		<sketchsubset subname="Yorkshire Pudding"/>
+		<pt X="8237.141" Y="-1645.4554" Z="604.33984"/>
+		<pt X="8217.341" Y="-1666.5554" Z="592.63983"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.4" head="161.pudding.5"/>
+		</pathcodes>
+		<sketchsubset subname="Yorkshire Pudding"/>
+		<pt X="8217.341" Y="-1666.5554" Z="592.63983"/>
+		<pt X="8204.841" Y="-1686.4556" Z="580.23987"/>
+	</skpath>
+	<skpath from="9" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.6" head="161.pudding.5"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8228.141" Y="-1738.9556" Z="572.13983"/>
+		<pt X="8204.841" Y="-1686.4556" Z="580.23987"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.6" head="161.pudding.7"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8228.141" Y="-1738.9556" Z="572.13983"/>
+		<pt X="8236.541" Y="-1792.9554" Z="561.53986"/>
+	</skpath>
+	<skpath from="11" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.8" head="161.pudding.7"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8278.641" Y="-1825.9556" Z="572.03986"/>
+		<pt X="8236.541" Y="-1792.9554" Z="561.53986"/>
+	</skpath>
+	<skpath from="11" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.8" head="161.pudding.9"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8278.641" Y="-1825.9556" Z="572.03986"/>
+		<pt X="8238.24" Y="-1924.7556" Z="555.23987"/>
+	</skpath>
+	<skpath from="13" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.10" head="161.pudding.9"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8169.4404" Y="-1952.3555" Z="536.83984"/>
+		<pt X="8238.24" Y="-1924.7556" Z="555.23987"/>
+	</skpath>
+	<skpath from="13" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.10" head="161.pudding.11"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8169.4404" Y="-1952.3555" Z="536.83984"/>
+		<pt X="8176.8403" Y="-2024.9556" Z="513.1399"/>
+	</skpath>
+	<skpath from="15" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.12" head="161.pudding.11"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8024.841" Y="-2094.9556" Z="471.93985"/>
+		<pt X="8176.8403" Y="-2024.9556" Z="513.1399"/>
+	</skpath>
+	<skpath from="15" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.12" head="161.iceland1.1"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="8024.841" Y="-2094.9556" Z="471.93985"/>
+		<pt X="7977.9404" Y="-2146.7556" Z="440.83987"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.14" head="161.iceland1.1"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="7886.1406" Y="-2168.8555" Z="424.43985"/>
+		<pt X="7977.9404" Y="-2146.7556" Z="440.83987"/>
+	</skpath>
+	<skpath from="17" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.14" head="161.pudding.15"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="7886.1406" Y="-2168.8555" Z="424.43985"/>
+		<pt X="7867.6406" Y="-2073.4556" Z="421.13986"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.16" head="161.pudding.15"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="7802.6406" Y="-2080.7556" Z="404.93988"/>
+		<pt X="7867.6406" Y="-2073.4556" Z="421.13986"/>
+	</skpath>
+	<skpath from="19" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.16" head="161.pudding.17"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="7802.6406" Y="-2080.7556" Z="404.93988"/>
+		<pt X="7764.9404" Y="-2062.5557" Z="399.83984"/>
+	</skpath>
+	<skpath from="21" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.18" head="161.pudding.17"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="7630.9404" Y="-1977.3555" Z="400.23987"/>
+		<pt X="7764.9404" Y="-2062.5557" Z="399.83984"/>
+	</skpath>
+	<skpath from="21" to="22" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.18" head="161.pudding.19"/>
+		</pathcodes>
+		<sketchsubset subname="Roast Beef"/>
+		<pt X="7630.9404" Y="-1977.3555" Z="400.23987"/>
+		<pt X="7618.3403" Y="-2049.8555" Z="422.73987"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.20" head="161.pudding.19"/>
+		</pathcodes>
+		<sketchsubset subname="Shaftmine"/>
+		<pt X="7514.5405" Y="-1988.5557" Z="390.43988"/>
+		<pt X="7618.3403" Y="-2049.8555" Z="422.73987"/>
+	</skpath>
+	<skpath from="1" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.pudding.21" head="161.pudding.20"/>
+		</pathcodes>
+		<sketchsubset subname="Shaftmine"/>
+		<pt X="7513.8403" Y="-1975.1555" Z="408.43988"/>
+		<pt X="7514.5405" Y="-1988.5557" Z="390.43988"/>
+	</skpath>
+	<skpath from="16" to="24" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.1" head="161.iceland1.2"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="7977.9404" Y="-2146.7556" Z="440.83987"/>
+		<pt X="8062.1406" Y="-2071.5554" Z="481.73984"/>
+	</skpath>
+	<skpath from="25" to="24" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.3" head="161.iceland1.2"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8011.7407" Y="-2163.6555" Z="449.33987"/>
+		<pt X="8062.1406" Y="-2071.5554" Z="481.73984"/>
+	</skpath>
+	<skpath from="25" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.3" head="161.iceland1.4"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8011.7407" Y="-2163.6555" Z="449.33987"/>
+		<pt X="7978.9404" Y="-2242.8555" Z="432.43988"/>
+	</skpath>
+	<skpath from="27" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.5" head="161.iceland1.4"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8088.9404" Y="-2355.8555" Z="435.03986"/>
+		<pt X="7978.9404" Y="-2242.8555" Z="432.43988"/>
+	</skpath>
+	<skpath from="27" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.5" head="161.iceland1.6"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8088.9404" Y="-2355.8555" Z="435.03986"/>
+		<pt X="8188.5405" Y="-2416.0557" Z="457.83984"/>
+	</skpath>
+	<skpath from="29" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.7" head="161.iceland1.6"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8165.54" Y="-2474.8555" Z="451.13986"/>
+		<pt X="8188.5405" Y="-2416.0557" Z="457.83984"/>
+	</skpath>
+	<skpath from="29" to="30" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.7" head="161.iceland1.8"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8165.54" Y="-2474.8555" Z="451.13986"/>
+		<pt X="8142.4404" Y="-2496.3555" Z="453.83987"/>
+	</skpath>
+	<skpath from="31" to="30" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.9" head="161.iceland1.8"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8025.74" Y="-2426.4556" Z="458.93985"/>
+		<pt X="8142.4404" Y="-2496.3555" Z="453.83987"/>
+	</skpath>
+	<skpath from="31" to="32" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.9" head="161.iceland1.10"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8025.74" Y="-2426.4556" Z="458.93985"/>
+		<pt X="8090.1406" Y="-2469.3557" Z="467.63983"/>
+	</skpath>
+	<skpath from="33" to="32" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.11" head="161.iceland1.10"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8108.5405" Y="-2540.4556" Z="505.43988"/>
+		<pt X="8090.1406" Y="-2469.3557" Z="467.63983"/>
+	</skpath>
+	<skpath from="33" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.11" head="161.iceland1.12"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8108.5405" Y="-2540.4556" Z="505.43988"/>
+		<pt X="8160.341" Y="-2674.5557" Z="485.6399"/>
+	</skpath>
+	<skpath from="35" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.13" head="161.iceland1.12"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8178.24" Y="-2633.0554" Z="478.93985"/>
+		<pt X="8160.341" Y="-2674.5557" Z="485.6399"/>
+	</skpath>
+	<skpath from="35" to="36" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.13" head="161.iceland1.14"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8178.24" Y="-2633.0554" Z="478.93985"/>
+		<pt X="8171.1406" Y="-2583.5557" Z="466.33987"/>
+	</skpath>
+	<skpath from="37" to="36" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.15" head="161.iceland1.14"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8165.4404" Y="-2520.1555" Z="458.43988"/>
+		<pt X="8171.1406" Y="-2583.5557" Z="466.33987"/>
+	</skpath>
+	<skpath from="37" to="30" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland1.15" head="161.iceland1.8"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8165.4404" Y="-2520.1555" Z="458.43988"/>
+		<pt X="8142.4404" Y="-2496.3555" Z="453.83987"/>
+	</skpath>
+	<skpath from="38" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.2" head="161.iceland1.12"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8089.3403" Y="-2721.3555" Z="505.23987"/>
+		<pt X="8160.341" Y="-2674.5557" Z="485.6399"/>
+	</skpath>
+	<skpath from="38" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.2" head="161.iceland2.3"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8089.3403" Y="-2721.3555" Z="505.23987"/>
+		<pt X="8167.841" Y="-2756.3555" Z="528.23987"/>
+	</skpath>
+	<skpath from="40" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.4" head="161.iceland2.3"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8180.54" Y="-2800.5554" Z="545.03986"/>
+		<pt X="8167.841" Y="-2756.3555" Z="528.23987"/>
+	</skpath>
+	<skpath from="40" to="41" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.4" head="161.iceland2.5"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8180.54" Y="-2800.5554" Z="545.03986"/>
+		<pt X="8213.04" Y="-2817.0557" Z="553.4399"/>
+	</skpath>
+	<skpath from="38" to="42" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.2" head="161.iceland2.6"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8089.3403" Y="-2721.3555" Z="505.23987"/>
+		<pt X="8094.3403" Y="-2750.0557" Z="520.8399"/>
+	</skpath>
+	<skpath from="42" to="43" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.6" head="161.iceland2.7"/>
+		</pathcodes>
+		<sketchsubset subname="Crystal Maze"/>
+		<pt X="8094.3403" Y="-2750.0557" Z="520.8399"/>
+		<pt X="8058.3403" Y="-2806.5554" Z="545.23987"/>
+	</skpath>
+	<skpath from="44" to="43" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.8" head="161.iceland2.7"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8039.7407" Y="-2844.0554" Z="550.33984"/>
+		<pt X="8058.3403" Y="-2806.5554" Z="545.23987"/>
+	</skpath>
+	<skpath from="44" to="45" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.8" head="161.iceland2.9"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8039.7407" Y="-2844.0554" Z="550.33984"/>
+		<pt X="8003.5405" Y="-2958.1555" Z="550.23987"/>
+	</skpath>
+	<skpath from="46" to="45" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.10" head="161.iceland2.9"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7910.54" Y="-3000.1558" Z="555.4399"/>
+		<pt X="8003.5405" Y="-2958.1555" Z="550.23987"/>
+	</skpath>
+	<skpath from="46" to="47" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.10" head="161.iceland2.11"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7910.54" Y="-3000.1558" Z="555.4399"/>
+		<pt X="7832.6406" Y="-3112.0557" Z="562.4399"/>
+	</skpath>
+	<skpath from="48" to="47" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland2.12" head="161.iceland2.11"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7791.8403" Y="-3149.4556" Z="594.4398"/>
+		<pt X="7832.6406" Y="-3112.0557" Z="562.4399"/>
+	</skpath>
+	<skpath from="49" to="50" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.2" head="161.iceland3.1"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8215.24" Y="-3575.3555" Z="756.33984"/>
+		<pt X="8272.24" Y="-3649.5557" Z="788.5399"/>
+	</skpath>
+	<skpath from="49" to="51" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.2" head="161.iceland3.3"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8215.24" Y="-3575.3555" Z="756.33984"/>
+		<pt X="8179.7407" Y="-3550.4556" Z="757.1399"/>
+	</skpath>
+	<skpath from="52" to="51" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.4" head="161.iceland3.3"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8115.341" Y="-3531.9556" Z="734.03986"/>
+		<pt X="8179.7407" Y="-3550.4556" Z="757.1399"/>
+	</skpath>
+	<skpath from="52" to="53" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.4" head="161.iceland3.5"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8115.341" Y="-3531.9556" Z="734.03986"/>
+		<pt X="8081.5405" Y="-3465.7556" Z="709.83984"/>
+	</skpath>
+	<skpath from="54" to="53" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.75" head="161.iceland3.5"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7991.0405" Y="-3448.1555" Z="683.33984"/>
+		<pt X="8081.5405" Y="-3465.7556" Z="709.83984"/>
+	</skpath>
+	<skpath from="54" to="55" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.75" head="161.iceland3.7"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7991.0405" Y="-3448.1555" Z="683.33984"/>
+		<pt X="8005.54" Y="-3516.7556" Z="719.1399"/>
+	</skpath>
+	<skpath from="56" to="55" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.8" head="161.iceland3.7"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7982.0405" Y="-3555.9556" Z="726.83984"/>
+		<pt X="8005.54" Y="-3516.7556" Z="719.1399"/>
+	</skpath>
+	<skpath from="56" to="57" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.8" head="161.iceland3.9"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7982.0405" Y="-3555.9556" Z="726.83984"/>
+		<pt X="7973.3403" Y="-3586.2554" Z="730.4398"/>
+	</skpath>
+	<skpath from="58" to="57" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.10" head="161.iceland3.9"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7979.3403" Y="-3628.5557" Z="737.1399"/>
+		<pt X="7973.3403" Y="-3586.2554" Z="730.4398"/>
+	</skpath>
+	<skpath from="54" to="59" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.75" head="161.iceland3.11"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7991.0405" Y="-3448.1555" Z="683.33984"/>
+		<pt X="7940.8403" Y="-3364.5557" Z="664.33984"/>
+	</skpath>
+	<skpath from="60" to="59" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.12" head="161.iceland3.11"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7884.0405" Y="-3280.3555" Z="629.9399"/>
+		<pt X="7940.8403" Y="-3364.5557" Z="664.33984"/>
+	</skpath>
+	<skpath from="60" to="61" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.12" head="161.iceland3.13"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7884.0405" Y="-3280.3555" Z="629.9399"/>
+		<pt X="7815.24" Y="-3198.6553" Z="613.9399"/>
+	</skpath>
+	<skpath from="61" to="48" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.iceland3.13" head="161.iceland2.12"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7815.24" Y="-3198.6553" Z="613.9399"/>
+		<pt X="7791.8403" Y="-3149.4556" Z="594.4398"/>
+	</skpath>
+	<skpath from="62" to="63" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.icelandpitch.2" head="161.icelandpitch.1"/>
+		</pathcodes>
+		<sketchsubset subname="Kaninchenhýhle, 1623/161"/>
+		<pt X="8098.9404" Y="-2756.3555" Z="342.33984"/>
+		<pt X="8125.54" Y="-2704.1555" Z="302.83987"/>
+	</skpath>
+	<skpath from="62" to="64" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.icelandpitch.2" head="161.icelandpitch.3"/>
+		</pathcodes>
+		<sketchsubset subname="Kaninchenhýhle, 1623/161"/>
+		<pt X="8098.9404" Y="-2756.3555" Z="342.33984"/>
+		<pt X="8098.9404" Y="-2756.3555" Z="524.63983"/>
+	</skpath>
+	<skpath from="65" to="64" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.icelandpitch.4" head="161.icelandpitch.3"/>
+		</pathcodes>
+		<sketchsubset subname="Kaninchenhýhle, 1623/161"/>
+		<pt X="8118.8403" Y="-2725.7556" Z="510.6399"/>
+		<pt X="8098.9404" Y="-2756.3555" Z="524.63983"/>
+	</skpath>
+	<skpath from="65" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.icelandpitch.4" head="161.iceland2.3"/>
+		</pathcodes>
+		<sketchsubset subname="Kaninchenhýhle, 1623/161"/>
+		<pt X="8118.8403" Y="-2725.7556" Z="510.6399"/>
+		<pt X="8167.841" Y="-2756.3555" Z="528.23987"/>
+	</skpath>
+	<skpath from="66" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.2" head="161.iceland3.4"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8097.0405" Y="-3571.2554" Z="726.33984"/>
+		<pt X="8115.341" Y="-3531.9556" Z="734.03986"/>
+	</skpath>
+	<skpath from="66" to="67" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.2" head="161.turkey.3"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8097.0405" Y="-3571.2554" Z="726.33984"/>
+		<pt X="8072.2407" Y="-3597.8555" Z="691.33984"/>
+	</skpath>
+	<skpath from="67" to="68" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.3" head="161.turkey.4"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8072.2407" Y="-3597.8555" Z="691.33984"/>
+		<pt X="8074.6406" Y="-3625.3555" Z="677.23987"/>
+	</skpath>
+	<skpath from="68" to="69" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.4" head="161.turkey.5"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8074.6406" Y="-3625.3555" Z="677.23987"/>
+		<pt X="8074.6406" Y="-3625.3555" Z="547.73987"/>
+	</skpath>
+	<skpath from="69" to="70" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.5" head="161.turkey.6"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8074.6406" Y="-3625.3555" Z="547.73987"/>
+		<pt X="8093.9404" Y="-3616.7556" Z="519.73987"/>
+	</skpath>
+	<skpath from="70" to="71" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.6" head="161.turkey.7"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8093.9404" Y="-3616.7556" Z="519.73987"/>
+		<pt X="8093.9404" Y="-3616.7556" Z="446.23987"/>
+	</skpath>
+	<skpath from="71" to="72" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.7" head="161.turkey.8"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8093.9404" Y="-3616.7556" Z="446.23987"/>
+		<pt X="8142.341" Y="-3640.4556" Z="427.73987"/>
+	</skpath>
+	<skpath from="72" to="73" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.8" head="161.turkey.9"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8142.341" Y="-3640.4556" Z="427.73987"/>
+		<pt X="8142.341" Y="-3640.4556" Z="305.73987"/>
+	</skpath>
+	<skpath from="74" to="73" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.10" head="161.turkey.9"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8178.14" Y="-3648.0554" Z="290.93988"/>
+		<pt X="8142.341" Y="-3640.4556" Z="305.73987"/>
+	</skpath>
+	<skpath from="74" to="75" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.10" head="161.turkey.11"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8178.14" Y="-3648.0554" Z="290.93988"/>
+		<pt X="8163.6406" Y="-3666.5554" Z="306.83987"/>
+	</skpath>
+	<skpath from="75" to="76" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.turkey.11" head="161.turkey.12"/>
+		</pathcodes>
+		<sketchsubset subname="Frozen Turkey"/>
+		<pt X="8163.6406" Y="-3666.5554" Z="306.83987"/>
+		<pt X="8166.0405" Y="-3675.4556" Z="304.53986"/>
+	</skpath>
+	<skpath from="77" to="78" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_1.2" head="161.161g.161g_1.1"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="8049.841" Y="-2511.0557" Z="1199.94"/>
+		<pt X="8038.4404" Y="-2519.2556" Z="1208.4398"/>
+	</skpath>
+	<skpath from="79" to="77" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_1.3" head="161.161g.161g_1.2"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7882.4404" Y="-2660.9556" Z="1161.7399"/>
+		<pt X="8049.841" Y="-2511.0557" Z="1199.94"/>
+	</skpath>
+	<skpath from="79" to="80" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_1.3" head="161.161g.161g_1.4"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7882.4404" Y="-2660.9556" Z="1161.7399"/>
+		<pt X="7784.5405" Y="-2694.6555" Z="1118.8398"/>
+	</skpath>
+	<skpath from="80" to="81" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_1.4" head="161.161g.161g_1.5"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7784.5405" Y="-2694.6555" Z="1118.8398"/>
+		<pt X="7784.5405" Y="-2694.6555" Z="1018.83984"/>
+	</skpath>
+	<skpath from="82" to="83" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.1" head="161.161g.161g_2.2"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8044.4404" Y="-2807.5557" Z="551.23987"/>
+		<pt X="8065.9404" Y="-2885.7556" Z="547.4399"/>
+	</skpath>
+	<skpath from="84" to="83" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.3" head="161.161g.161g_2.2"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7994.2407" Y="-2994.5557" Z="552.23987"/>
+		<pt X="8065.9404" Y="-2885.7556" Z="547.4399"/>
+	</skpath>
+	<skpath from="84" to="85" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.3" head="161.161g.161g_2.4"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7994.2407" Y="-2994.5557" Z="552.23987"/>
+		<pt X="7953.6406" Y="-3003.2556" Z="542.23987"/>
+	</skpath>
+	<skpath from="86" to="85" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.5" head="161.161g.161g_2.4"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7927.9404" Y="-3020.7556" Z="545.8399"/>
+		<pt X="7953.6406" Y="-3003.2556" Z="542.23987"/>
+	</skpath>
+	<skpath from="86" to="87" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.5" head="161.161g.161g_2.6"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7927.9404" Y="-3020.7556" Z="545.8399"/>
+		<pt X="7864.5405" Y="-3103.3555" Z="553.6399"/>
+	</skpath>
+	<skpath from="88" to="87" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.7" head="161.161g.161g_2.6"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7848.74" Y="-3127.9556" Z="559.1399"/>
+		<pt X="7864.5405" Y="-3103.3555" Z="553.6399"/>
+	</skpath>
+	<skpath from="82" to="89" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.1" head="161.161g.161g_2.8"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="8044.4404" Y="-2807.5557" Z="551.23987"/>
+		<pt X="7993.9404" Y="-2772.4556" Z="630.03986"/>
+	</skpath>
+	<skpath from="90" to="89" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.9" head="161.161g.161g_2.8"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7914.1406" Y="-2758.4556" Z="666.83984"/>
+		<pt X="7993.9404" Y="-2772.4556" Z="630.03986"/>
+	</skpath>
+	<skpath from="90" to="91" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.9" head="161.161g.161g_2.10"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7914.1406" Y="-2758.4556" Z="666.83984"/>
+		<pt X="7913.5405" Y="-2678.4556" Z="662.1399"/>
+	</skpath>
+	<skpath from="92" to="91" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.11" head="161.161g.161g_2.10"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7909.9404" Y="-2678.0554" Z="1068.6399"/>
+		<pt X="7913.5405" Y="-2678.4556" Z="662.1399"/>
+	</skpath>
+	<skpath from="79" to="92" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_1.3" head="161.161g.161g_2.11"/>
+		</pathcodes>
+		<sketchsubset subname="Arachnowrapper"/>
+		<pt X="7882.4404" Y="-2660.9556" Z="1161.7399"/>
+		<pt X="7909.9404" Y="-2678.0554" Z="1068.6399"/>
+	</skpath>
+	<skpath from="88" to="93" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_2.7" head="161.161g.161g_3.71"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7848.74" Y="-3127.9556" Z="559.1399"/>
+		<pt X="7868.9404" Y="-3212.3557" Z="607.73987"/>
+	</skpath>
+	<skpath from="94" to="93" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.72" head="161.161g.161g_3.71"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7869.7407" Y="-3250.5554" Z="610.13983"/>
+		<pt X="7868.9404" Y="-3212.3557" Z="607.73987"/>
+	</skpath>
+	<skpath from="94" to="95" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.72" head="161.161g.161g_3.73"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7869.7407" Y="-3250.5554" Z="610.13983"/>
+		<pt X="7930.341" Y="-3361.8555" Z="661.23987"/>
+	</skpath>
+	<skpath from="96" to="95" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.74" head="161.161g.161g_3.73"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7957.6406" Y="-3380.9556" Z="672.33984"/>
+		<pt X="7930.341" Y="-3361.8555" Z="661.23987"/>
+	</skpath>
+	<skpath from="96" to="54" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.74" head="161.161g.161g_3.75"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7957.6406" Y="-3380.9556" Z="672.33984"/>
+		<pt X="7991.0405" Y="-3448.1555" Z="683.33984"/>
+	</skpath>
+	<skpath from="54" to="97" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.75" head="161.161g.161g_3.76"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7991.0405" Y="-3448.1555" Z="683.33984"/>
+		<pt X="7995.74" Y="-3538.5557" Z="727.5398"/>
+	</skpath>
+	<skpath from="98" to="97" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.77" head="161.161g.161g_3.76"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7967.4404" Y="-3587.5557" Z="737.5398"/>
+		<pt X="7995.74" Y="-3538.5557" Z="727.5398"/>
+	</skpath>
+	<skpath from="98" to="99" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.77" head="161.161g.161g_3.78"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7967.4404" Y="-3587.5557" Z="737.5398"/>
+		<pt X="7976.24" Y="-3671.1553" Z="752.33984"/>
+	</skpath>
+	<skpath from="54" to="100" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.75" head="161.161g.161g_3.79"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="7991.0405" Y="-3448.1555" Z="683.33984"/>
+		<pt X="8073.74" Y="-3509.2556" Z="721.4399"/>
+	</skpath>
+	<skpath from="101" to="100" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.80" head="161.161g.161g_3.79"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8079.3403" Y="-3571.9556" Z="736.53986"/>
+		<pt X="8073.74" Y="-3509.2556" Z="721.4399"/>
+	</skpath>
+	<skpath from="101" to="102" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.80" head="161.161g.161g_3.81"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8079.3403" Y="-3571.9556" Z="736.53986"/>
+		<pt X="8132.54" Y="-3586.8555" Z="747.73987"/>
+	</skpath>
+	<skpath from="103" to="102" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.82" head="161.161g.161g_3.81"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8182.341" Y="-3597.9556" Z="762.8399"/>
+		<pt X="8132.54" Y="-3586.8555" Z="747.73987"/>
+	</skpath>
+	<skpath from="103" to="104" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161g.161g_3.82" head="161.161g.161g_3.83"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8182.341" Y="-3597.9556" Z="762.8399"/>
+		<pt X="8245.141" Y="-3706.6555" Z="798.83984"/>
+	</skpath>
+	<skpath from="105" to="103" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.2" head="161.161g.161g_3.82"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8200.24" Y="-3643.9556" Z="785.4398"/>
+		<pt X="8182.341" Y="-3597.9556" Z="762.8399"/>
+	</skpath>
+	<skpath from="105" to="106" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.2" head="161.161h.3"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8200.24" Y="-3643.9556" Z="785.4398"/>
+		<pt X="8189.0405" Y="-3688.7554" Z="799.23987"/>
+	</skpath>
+	<skpath from="107" to="106" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.4" head="161.161h.3"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8206.94" Y="-3728.4556" Z="824.03986"/>
+		<pt X="8189.0405" Y="-3688.7554" Z="799.23987"/>
+	</skpath>
+	<skpath from="108" to="107" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.5" head="161.161h.4"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8213.04" Y="-3743.5557" Z="830.13983"/>
+		<pt X="8206.94" Y="-3728.4556" Z="824.03986"/>
+	</skpath>
+	<skpath from="109" to="108" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.6" head="161.161h.5"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8221.24" Y="-3741.8555" Z="831.0399"/>
+		<pt X="8213.04" Y="-3743.5557" Z="830.13983"/>
+	</skpath>
+	<skpath from="110" to="109" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.7" head="161.161h.6"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8231.041" Y="-3747.3557" Z="832.8399"/>
+		<pt X="8221.24" Y="-3741.8555" Z="831.0399"/>
+	</skpath>
+	<skpath from="111" to="110" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.8" head="161.161h.7"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8243.341" Y="-3789.6555" Z="848.5399"/>
+		<pt X="8231.041" Y="-3747.3557" Z="832.8399"/>
+	</skpath>
+	<skpath from="111" to="112" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.8" head="161.161h.9"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8243.341" Y="-3789.6555" Z="848.5399"/>
+		<pt X="8319.94" Y="-3870.3555" Z="880.9399"/>
+	</skpath>
+	<skpath from="113" to="112" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.10" head="161.161h.9"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8387.341" Y="-3871.0557" Z="899.53986"/>
+		<pt X="8319.94" Y="-3870.3555" Z="880.9399"/>
+	</skpath>
+	<skpath from="114" to="113" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.161h.11" head="161.161h.10"/>
+		</pathcodes>
+		<sketchsubset subname="Transylvania Avenue"/>
+		<pt X="8404.141" Y="-3878.0554" Z="901.23987"/>
+		<pt X="8387.341" Y="-3871.0557" Z="899.53986"/>
+	</skpath>
+</sketch>
+</tunnelxml>
