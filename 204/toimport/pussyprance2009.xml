@@ -1,0 +1,4331 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-04 16:59:28">
+<sketch splined="0" locoffsetx="36589.78" locoffsety="83766.93" locoffsetz="1625.201" realpaperscale="1000.0">
+	<skpath from="1" to="0" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pendulum.18" head="204.domes.millennium.1"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="221.46942" Y="1287.4794" Z="886.1901"/>
+		<pt X="266.36942" Y="1277.9794" Z="909.5901"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.2" head="204.midlevel.phreatic.1"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="149.76942" Y="1365.0793" Z="867.8901"/>
+		<pt X="146.06943" Y="1407.3793" Z="853.2901"/>
+	</skpath>
+	<skpath from="4" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.3" head="204.midlevel.phreatic.2"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="172.66943" Y="1361.7793" Z="875.3901"/>
+		<pt X="149.76942" Y="1365.0793" Z="867.8901"/>
+	</skpath>
+	<skpath from="5" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.4" head="204.midlevel.phreatic.3"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="186.56943" Y="1348.8794" Z="884.2901"/>
+		<pt X="172.66943" Y="1361.7793" Z="875.3901"/>
+	</skpath>
+	<skpath from="6" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.5" head="204.midlevel.phreatic.4"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="151.76942" Y="1327.9792" Z="871.89014"/>
+		<pt X="186.56943" Y="1348.8794" Z="884.2901"/>
+	</skpath>
+	<skpath from="7" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.19" head="204.midlevel.phreatic.5"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+		<pt X="151.76942" Y="1327.9792" Z="871.89014"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.19" head="204.midlevel.phreatic.7"/>
+		</pathcodes>
+		<sketchsubset subname="Mid-level passages and Wolpertinger Way"/>
+		<sketchsubset subname="phreatic"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+		<pt X="172.66943" Y="1275.2793" Z="866.89014"/>
+	</skpath>
+	<skpath from="8" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.7" head="204.midlevel.pendulum.18"/>
+		</pathcodes>
+		<sketchsubset subname="Mid-level passages and Wolpertinger Way"/>
+		<sketchsubset subname="phreatic"/>
+		<pt X="172.66943" Y="1275.2793" Z="866.89014"/>
+		<pt X="221.46942" Y="1287.4794" Z="886.1901"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.2" head="204.midlevel.merry.1"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="177.86943" Y="1632.5793" Z="738.39014"/>
+		<pt X="170.46942" Y="1658.6793" Z="738.39014"/>
+	</skpath>
+	<skpath from="11" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.3" head="204.midlevel.merry.2"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="168.46942" Y="1623.4792" Z="736.9901"/>
+		<pt X="177.86943" Y="1632.5793" Z="738.39014"/>
+	</skpath>
+	<skpath from="12" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.4" head="204.midlevel.merry.3"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="175.56943" Y="1578.4792" Z="736.9901"/>
+		<pt X="168.46942" Y="1623.4792" Z="736.9901"/>
+	</skpath>
+	<skpath from="13" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.5" head="204.midlevel.merry.4"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="168.86942" Y="1563.3794" Z="739.4901"/>
+		<pt X="175.56943" Y="1578.4792" Z="736.9901"/>
+	</skpath>
+	<skpath from="14" to="13" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.6" head="204.midlevel.merry.5"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="174.46944" Y="1536.8793" Z="742.2901"/>
+		<pt X="168.86942" Y="1563.3794" Z="739.4901"/>
+	</skpath>
+	<skpath from="15" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.7" head="204.midlevel.merry.6"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="169.56941" Y="1529.6792" Z="742.6901"/>
+		<pt X="174.46944" Y="1536.8793" Z="742.2901"/>
+	</skpath>
+	<skpath from="16" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.8" head="204.midlevel.merry.7"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="164.96942" Y="1500.4792" Z="741.89014"/>
+		<pt X="169.56941" Y="1529.6792" Z="742.6901"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.9" head="204.midlevel.merry.8"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="157.66943" Y="1481.4794" Z="742.2901"/>
+		<pt X="164.96942" Y="1500.4792" Z="741.89014"/>
+	</skpath>
+	<skpath from="18" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.10" head="204.midlevel.merry.9"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="157.66943" Y="1470.2794" Z="743.09015"/>
+		<pt X="157.66943" Y="1481.4794" Z="742.2901"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.11" head="204.midlevel.merry.10"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="165.46942" Y="1451.8793" Z="743.39014"/>
+		<pt X="157.66943" Y="1470.2794" Z="743.09015"/>
+	</skpath>
+	<skpath from="20" to="19" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.12" head="204.midlevel.merry.11"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="175.16943" Y="1415.8794" Z="745.99005"/>
+		<pt X="165.46942" Y="1451.8793" Z="743.39014"/>
+	</skpath>
+	<skpath from="21" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.13" head="204.midlevel.merry.12"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="185.86943" Y="1396.5793" Z="751.0901"/>
+		<pt X="175.16943" Y="1415.8794" Z="745.99005"/>
+	</skpath>
+	<skpath from="22" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.14" head="204.midlevel.merry.13"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="172.86943" Y="1372.1792" Z="756.9901"/>
+		<pt X="185.86943" Y="1396.5793" Z="751.0901"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.15" head="204.midlevel.merry.14"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="166.96944" Y="1355.1793" Z="762.79004"/>
+		<pt X="172.86943" Y="1372.1792" Z="756.9901"/>
+	</skpath>
+	<skpath from="24" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.16" head="204.midlevel.merry.15"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="155.26942" Y="1338.4792" Z="808.5901"/>
+		<pt X="166.96944" Y="1355.1793" Z="762.79004"/>
+	</skpath>
+	<skpath from="25" to="24" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.17" head="204.midlevel.merry.16"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="156.26942" Y="1319.2793" Z="822.5901"/>
+		<pt X="155.26942" Y="1338.4792" Z="808.5901"/>
+	</skpath>
+	<skpath from="26" to="25" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.18" head="204.midlevel.merry.17"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="154.76942" Y="1317.6793" Z="854.4901"/>
+		<pt X="156.26942" Y="1319.2793" Z="822.5901"/>
+	</skpath>
+	<skpath from="7" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.19" head="204.midlevel.merry.18"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+		<pt X="154.76942" Y="1317.6793" Z="854.4901"/>
+	</skpath>
+	<skpath from="27" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry2.1" head="204.midlevel.merry2.2"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<pt X="201.56943" Y="1801.0792" Z="644.9901"/>
+		<pt X="172.36942" Y="1768.6793" Z="730.69006"/>
+	</skpath>
+	<skpath from="28" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry2.2" head="204.midlevel.merry.1"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<pt X="172.36942" Y="1768.6793" Z="730.69006"/>
+		<pt X="170.46942" Y="1658.6793" Z="738.39014"/>
+	</skpath>
+	<skpath from="10" to="29" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.1" head="204.midlevel.pussyprance.2"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="170.46942" Y="1658.6793" Z="738.39014"/>
+		<pt X="156.06943" Y="1690.8794" Z="641.69006"/>
+	</skpath>
+	<skpath from="29" to="30" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.2" head="204.midlevel.pussyprance.3"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="156.06943" Y="1690.8794" Z="641.69006"/>
+		<pt X="156.06943" Y="1690.8794" Z="329.3901"/>
+	</skpath>
+	<skpath from="30" to="31" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.3" head="204.midlevel.pussyprance.4"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="156.06943" Y="1690.8794" Z="329.3901"/>
+		<pt X="129.36942" Y="1655.4792" Z="334.0901"/>
+	</skpath>
+	<skpath from="32" to="31" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.5" head="204.midlevel.pussyprance.4"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="90.66942" Y="1685.6793" Z="306.7901"/>
+		<pt X="129.36942" Y="1655.4792" Z="334.0901"/>
+	</skpath>
+	<skpath from="33" to="32" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.6" head="204.midlevel.pussyprance.5"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="85.56943" Y="1734.5793" Z="300.7901"/>
+		<pt X="90.66942" Y="1685.6793" Z="306.7901"/>
+	</skpath>
+	<skpath from="33" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.6" head="204.midlevel.pussyprance.7"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="85.56943" Y="1734.5793" Z="300.7901"/>
+		<pt X="62.669426" Y="1724.8793" Z="311.2901"/>
+	</skpath>
+	<skpath from="34" to="35" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.7" head="204.midlevel.pussyprance.8"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="62.669426" Y="1724.8793" Z="311.2901"/>
+		<pt X="64.269424" Y="1701.5793" Z="291.0901"/>
+	</skpath>
+	<skpath from="35" to="36" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.8" head="204.midlevel.pussyprance.9"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="64.269424" Y="1701.5793" Z="291.0901"/>
+		<pt X="76.769424" Y="1689.0793" Z="286.99008"/>
+	</skpath>
+	<skpath from="36" to="37" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.9" head="204.midlevel.pussyprance.10"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="76.769424" Y="1689.0793" Z="286.99008"/>
+		<pt X="81.46942" Y="1673.8794" Z="298.5901"/>
+	</skpath>
+	<skpath from="37" to="38" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.10" head="204.midlevel.pussyprance.30"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="81.46942" Y="1673.8794" Z="298.5901"/>
+		<pt X="96.169426" Y="1668.7793" Z="297.4901"/>
+	</skpath>
+	<skpath from="39" to="33" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.11" head="204.midlevel.pussyprance.6"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="79.86942" Y="1747.2793" Z="297.2901"/>
+		<pt X="85.56943" Y="1734.5793" Z="300.7901"/>
+	</skpath>
+	<skpath from="39" to="40" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.11" head="204.midlevel.pussyprance.12"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="79.86942" Y="1747.2793" Z="297.2901"/>
+		<pt X="86.56943" Y="1760.9792" Z="200.8901"/>
+	</skpath>
+	<skpath from="40" to="41" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.12" head="204.midlevel.pussyprance.13"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="86.56943" Y="1760.9792" Z="200.8901"/>
+		<pt X="117.769424" Y="1771.0792" Z="203.1901"/>
+	</skpath>
+	<skpath from="41" to="42" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.13" head="204.midlevel.pussyprance.14"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="117.769424" Y="1771.0792" Z="203.1901"/>
+		<pt X="130.86943" Y="1750.9792" Z="181.5901"/>
+	</skpath>
+	<skpath from="43" to="44" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.16" head="204.midlevel.pussyprance.15"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="55.369423" Y="1827.8794" Z="290.2901"/>
+		<pt X="79.56943" Y="1764.7793" Z="266.99008"/>
+	</skpath>
+	<skpath from="44" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.15" head="204.midlevel.pussyprance.11"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="79.56943" Y="1764.7793" Z="266.99008"/>
+		<pt X="79.86942" Y="1747.2793" Z="297.2901"/>
+	</skpath>
+	<skpath from="45" to="46" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.17" head="204.midlevel.pussyprance.18"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="69.36942" Y="1743.3794" Z="241.09009"/>
+		<pt X="78.769424" Y="1729.9794" Z="148.7901"/>
+	</skpath>
+	<skpath from="46" to="47" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.18" head="204.midlevel.pussyprance.19"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="78.769424" Y="1729.9794" Z="148.7901"/>
+		<pt X="123.36943" Y="1733.1793" Z="74.2901"/>
+	</skpath>
+	<skpath from="47" to="48" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.19" head="204.midlevel.pussyprance.20"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="123.36943" Y="1733.1793" Z="74.2901"/>
+		<pt X="133.36943" Y="1754.4794" Z="40.690098"/>
+	</skpath>
+	<skpath from="48" to="49" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.20" head="204.midlevel.pussyprance.21"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="133.36943" Y="1754.4794" Z="40.690098"/>
+		<pt X="163.16942" Y="1783.2793" Z="-44.309902"/>
+	</skpath>
+	<skpath from="49" to="50" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.21" head="204.midlevel.pussyprance.22"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="163.16942" Y="1783.2793" Z="-44.309902"/>
+		<pt X="174.66942" Y="1773.5792" Z="-55.6099"/>
+	</skpath>
+	<skpath from="51" to="50" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.23" head="204.midlevel.pussyprance.22"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="210.56943" Y="1804.7793" Z="-86.5099"/>
+		<pt X="174.66942" Y="1773.5792" Z="-55.6099"/>
+	</skpath>
+	<skpath from="52" to="51" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.24" head="204.midlevel.pussyprance.23"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="193.86942" Y="1810.4792" Z="-86.809906"/>
+		<pt X="210.56943" Y="1804.7793" Z="-86.5099"/>
+	</skpath>
+	<skpath from="52" to="53" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.24" head="204.midlevel.pussyprance.25"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="193.86942" Y="1810.4792" Z="-86.809906"/>
+		<pt X="78.06943" Y="1645.0793" Z="-86.809906"/>
+	</skpath>
+	<skpath from="53" to="54" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.25" head="204.midlevel.pussyprance.26"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="78.06943" Y="1645.0793" Z="-86.809906"/>
+		<pt X="73.36943" Y="1606.8793" Z="-95.6099"/>
+	</skpath>
+	<skpath from="55" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.27" head="204.midlevel.pussyprance.24"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="130.06943" Y="1895.1793" Z="-129.6099"/>
+		<pt X="193.86942" Y="1810.4792" Z="-86.809906"/>
+	</skpath>
+	<skpath from="55" to="56" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.27" head="204.midlevel.pussyprance.28"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="130.06943" Y="1895.1793" Z="-129.6099"/>
+		<pt X="117.769424" Y="1944.4794" Z="-173.7099"/>
+	</skpath>
+	<skpath from="57" to="44" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.29" head="204.midlevel.pussyprance.15"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="78.269424" Y="1739.7793" Z="267.3901"/>
+		<pt X="79.56943" Y="1764.7793" Z="266.99008"/>
+	</skpath>
+	<skpath from="57" to="45" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.29" head="204.midlevel.pussyprance.17"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="78.269424" Y="1739.7793" Z="267.3901"/>
+		<pt X="69.36942" Y="1743.3794" Z="241.09009"/>
+	</skpath>
+	<skpath from="58" to="59" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.allroads.1" head="204.domes.phat.0"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="119.96942" Y="861.37933" Z="756.4901"/>
+		<pt X="181.26941" Y="901.1793" Z="675.3901"/>
+	</skpath>
+	<skpath from="60" to="59" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.1" head="204.domes.phat.0"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="221.26941" Y="941.1793" Z="626.1901"/>
+		<pt X="181.26941" Y="901.1793" Z="675.3901"/>
+	</skpath>
+	<skpath from="60" to="61" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.1" head="204.domes.obese.3"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="221.26941" Y="941.1793" Z="626.1901"/>
+		<pt X="225.16943" Y="958.27936" Z="617.2901"/>
+	</skpath>
+	<skpath from="61" to="62" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.3" head="204.domes.phat.3"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="225.16943" Y="958.27936" Z="617.2901"/>
+		<pt X="225.16943" Y="958.27936" Z="314.2901"/>
+	</skpath>
+	<skpath from="62" to="63" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.3" head="204.domes.phat.4"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="225.16943" Y="958.27936" Z="314.2901"/>
+		<pt X="225.16943" Y="958.27936" Z="281.2901"/>
+	</skpath>
+	<skpath from="63" to="64" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.4" head="204.domes.phat.5"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="225.16943" Y="958.27936" Z="281.2901"/>
+		<pt X="225.16943" Y="958.27936" Z="143.2901"/>
+	</skpath>
+	<skpath from="64" to="65" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.5" head="204.domes.phat.6"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="225.16943" Y="958.27936" Z="143.2901"/>
+		<pt X="225.16943" Y="958.27936" Z="-77.309906"/>
+	</skpath>
+	<skpath from="66" to="65" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.7" head="204.domes.phat.6"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="243.96942" Y="962.27936" Z="-70.0099"/>
+		<pt X="225.16943" Y="958.27936" Z="-77.309906"/>
+	</skpath>
+	<skpath from="66" to="67" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.7" head="204.domes.phat.8"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="243.96942" Y="962.27936" Z="-70.0099"/>
+		<pt X="243.96942" Y="962.27936" Z="-284.50992"/>
+	</skpath>
+	<skpath from="67" to="68" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.8" head="204.domes.phat.9"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="243.96942" Y="962.27936" Z="-284.50992"/>
+		<pt X="243.96942" Y="962.27936" Z="-429.4099"/>
+	</skpath>
+	<skpath from="69" to="70" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.1" head="204.domes.obese.2"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="202.56943" Y="976.6793" Z="635.4901"/>
+		<pt X="219.66942" Y="962.7793" Z="621.1901"/>
+	</skpath>
+	<skpath from="69" to="61" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.1" head="204.domes.obese.3"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="202.56943" Y="976.6793" Z="635.4901"/>
+		<pt X="225.16943" Y="958.27936" Z="617.2901"/>
+	</skpath>
+	<skpath from="71" to="69" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.4" head="204.domes.obese.1"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="178.16942" Y="989.07935" Z="666.89014"/>
+		<pt X="202.56943" Y="976.6793" Z="635.4901"/>
+	</skpath>
+	<skpath from="72" to="59" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="177.48038" Y="907.11194"/>
+		<pt X="181.26941" Y="901.1793" Z="675.3901"/>
+	</skpath>
+	<skpath from="73" to="74" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="213.0335" Y="958.36017"/>
+		<pt X="225.17213" Y="958.2825"/>
+	</skpath>
+	<skpath from="75" to="60" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="212.01224" Y="943.9011"/>
+		<pt X="221.26941" Y="941.1793" Z="626.1901"/>
+	</skpath>
+	<skpath from="76" to="60" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="225.15228" Y="938.8585"/>
+		<pt X="221.26941" Y="941.1793" Z="626.1901"/>
+	</skpath>
+	<skpath from="75" to="77" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="212.01224" Y="943.9011"/>
+		<pt X="208.24626" Y="939.50964"/>
+		<pt X="203.23334" Y="935.4367"/>
+		<pt X="196.97961" Y="932.94055"/>
+		<pt X="195.10411" Y="932.3184"/>
+	</skpath>
+	<skpath from="73" to="75" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="213.0335" Y="958.36017"/>
+		<pt X="212.06451" Y="953.9635"/>
+		<pt X="212.03775" Y="949.248"/>
+		<pt X="212.01224" Y="943.9011"/>
+	</skpath>
+	<skpath from="77" to="78" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="195.10411" Y="932.3184"/>
+		<pt X="192.31349" Y="936.414"/>
+		<pt X="187.64375" Y="939.5716"/>
+		<pt X="181.40396" Y="941.16046"/>
+		<pt X="175.76343" Y="936.7697"/>
+		<pt X="173.54414" Y="928.2847"/>
+		<pt X="174.1425" Y="921.36475"/>
+		<pt X="175.68939" Y="917.9019"/>
+		<pt X="175.98088" Y="912.8697"/>
+	</skpath>
+	<skpath from="76" to="79" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="225.15228" Y="938.8585"/>
+		<pt X="227.35628" Y="945.4353"/>
+		<pt X="227.67982" Y="950.4466"/>
+		<pt X="225.22688" Y="962.0501"/>
+		<pt X="222.18193" Y="969.3441"/>
+		<pt X="215.9821" Y="975.4071"/>
+		<pt X="212.23714" Y="977.33606"/>
+	</skpath>
+	<skpath from="75" to="76" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="212.01224" Y="943.9011"/>
+		<pt X="213.563" Y="941.6938"/>
+		<pt X="218.23476" Y="939.1605"/>
+		<pt X="222.00612" Y="937.9141"/>
+		<pt X="225.15228" Y="938.8585"/>
+	</skpath>
+	<skpath from="78" to="77" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.98088" Y="912.8697"/>
+		<pt X="183.1791" Y="917.88336"/>
+		<pt X="190.70836" Y="926.6694"/>
+		<pt X="195.10411" Y="932.3184"/>
+	</skpath>
+	<skpath from="80" to="81" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="218.27725" Y="936.7072"/>
+		<pt X="182.44618" Y="906.14905"/>
+	</skpath>
+	<skpath from="78" to="81" linestyle="connective">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.98088" Y="912.8697"/>
+		<pt X="182.44618" Y="906.14905"/>
+	</skpath>
+	<skpath from="82" to="76" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="198.62006" Y="904.724"/>
+		<pt X="202.28018" Y="908.7807"/>
+		<pt X="215.76013" Y="922.57086"/>
+		<pt X="222.9707" Y="930.0936"/>
+		<pt X="225.47409" Y="935.4174"/>
+		<pt X="225.15228" Y="938.8585"/>
+	</skpath>
+	<skpath from="78" to="72" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.98088" Y="912.8697"/>
+		<pt X="177.48038" Y="907.11194"/>
+	</skpath>
+	<skpath from="82" to="83" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="198.62006" Y="904.724"/>
+		<pt X="196.29239" Y="901.9525"/>
+	</skpath>
+	<skpath from="72" to="83" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="177.48038" Y="907.11194"/>
+		<pt X="196.29239" Y="901.9525"/>
+	</skpath>
+	<skpath from="84" to="85" linestyle="wall">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="234.50166" Y="1098.1532"/>
+		<pt X="231.14365" Y="1084.47"/>
+		<pt X="224.59125" Y="1066.7632"/>
+		<pt X="222.85748" Y="1061.6633"/>
+		<pt X="221.32944" Y="1046.3474"/>
+	</skpath>
+	<skpath from="85" to="86" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.32944" Y="1046.3474"/>
+		<pt X="214.39452" Y="1041.3075"/>
+		<pt X="211.10143" Y="1032.5481"/>
+		<pt X="216.46375" Y="1026.5956"/>
+		<pt X="215.93927" Y="1011.89435"/>
+		<pt X="216.87003" Y="989.51624"/>
+		<pt X="217.95012" Y="984.0367"/>
+	</skpath>
+	<skpath from="87" to="88" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="230.65204" Y="1047.2626"/>
+		<pt X="227.55457" Y="1054.3871"/>
+		<pt X="227.74103" Y="1062.2534"/>
+		<pt X="232.00069" Y="1070.7959"/>
+		<pt X="237.3227" Y="1083.2352"/>
+		<pt X="244.34616" Y="1107.8024"/>
+	</skpath>
+	<skpath from="89" to="90" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="238.7107" Y="1116.707"/>
+		<pt X="233.99907" Y="1116.4829"/>
+	</skpath>
+	<skpath from="91" to="92" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="245.0383" Y="1118.514"/>
+		<pt X="235.5301" Y="1109.312"/>
+	</skpath>
+	<skpath from="90" to="92" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="233.99907" Y="1116.4829"/>
+		<pt X="235.5301" Y="1109.312"/>
+	</skpath>
+	<skpath from="91" to="88" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="245.0383" Y="1118.514"/>
+		<pt X="244.34616" Y="1107.8024"/>
+	</skpath>
+	<skpath from="89" to="84" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="238.7107" Y="1116.707"/>
+		<pt X="234.50166" Y="1098.1532"/>
+	</skpath>
+	<skpath from="85" to="87" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.32944" Y="1046.3474"/>
+		<pt X="230.65204" Y="1047.2626"/>
+	</skpath>
+	<skpath from="87" to="66" linestyle="connective" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="230.65204" Y="1047.2626"/>
+		<pt X="243.96942" Y="962.27936" Z="-70.0099"/>
+	</skpath>
+	<skpath from="93" to="94" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="267.65955" Y="862.44714"/>
+		<pt X="226.4027" Y="1035.3273"/>
+	</skpath>
+	<skpath from="85" to="94" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.32944" Y="1046.3474"/>
+		<pt X="226.4027" Y="1035.3273"/>
+	</skpath>
+	<skpath from="95" to="96" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="267.35657" Y="878.1072"/>
+		<pt X="266.41663" Y="887.0345"/>
+	</skpath>
+	<skpath from="97" to="98" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="272.3952" Y="878.9878"/>
+		<pt X="270.95062" Y="889.75824"/>
+	</skpath>
+	<skpath from="99" to="100" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="264.07584" Y="895.5929"/>
+		<pt X="261.3588" Y="903.2216"/>
+	</skpath>
+	<skpath from="101" to="102" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="269.0456" Y="897.31006"/>
+		<pt X="267.0565" Y="905.22314"/>
+	</skpath>
+	<skpath from="103" to="104" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="231.5769" Y="950.1125"/>
+		<pt X="240.11588" Y="954.4822"/>
+	</skpath>
+	<skpath from="105" to="106" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="228.52406" Y="958.57074"/>
+		<pt X="236.42397" Y="962.9375"/>
+	</skpath>
+	<skpath from="107" to="108" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="225.24698" Y="1018.8067"/>
+		<pt X="227.99193" Y="1009.76196"/>
+	</skpath>
+	<skpath from="109" to="110" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="233.99413" Y="1012.7801"/>
+		<pt X="231.02425" Y="1021.6095"/>
+	</skpath>
+	<skpath from="111" to="112" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="230.26982" Y="1000.6959"/>
+		<pt X="233.91411" Y="991.37103"/>
+	</skpath>
+	<skpath from="113" to="114" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="237.41763" Y="1002.32495"/>
+		<pt X="241.75705" Y="993.0047"/>
+	</skpath>
+	<skpath from="109" to="108" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="233.99413" Y="1012.7801"/>
+		<pt X="227.99193" Y="1009.76196"/>
+	</skpath>
+	<skpath from="114" to="112" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="241.75705" Y="993.0047"/>
+		<pt X="233.91411" Y="991.37103"/>
+	</skpath>
+	<skpath from="106" to="104" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="236.42397" Y="962.9375"/>
+		<pt X="240.11588" Y="954.4822"/>
+	</skpath>
+	<skpath from="96" to="98" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="266.41663" Y="887.0345"/>
+		<pt X="270.95062" Y="889.75824"/>
+	</skpath>
+	<skpath from="100" to="102" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="261.3588" Y="903.2216"/>
+		<pt X="267.0565" Y="905.22314"/>
+	</skpath>
+	<skpath from="108" to="111" linestyle="connective" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="227.99193" Y="1009.76196"/>
+		<pt X="230.26982" Y="1000.6959"/>
+	</skpath>
+	<skpath from="112" to="106" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="233.91411" Y="991.37103"/>
+		<pt X="236.42397" Y="962.9375"/>
+	</skpath>
+	<skpath from="100" to="104" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="261.3588" Y="903.2216"/>
+		<pt X="240.11588" Y="954.4822"/>
+	</skpath>
+	<skpath from="96" to="99" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="266.41663" Y="887.0345"/>
+		<pt X="264.07584" Y="895.5929"/>
+	</skpath>
+	<skpath from="74" to="105" linestyle="connective">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="225.17213" Y="958.2825"/>
+		<pt X="228.52406" Y="958.57074"/>
+	</skpath>
+	<skpath from="107" to="110" linestyle="invisible">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="225.24698" Y="1018.8067"/>
+		<pt X="231.02425" Y="1021.6095"/>
+	</skpath>
+	<skpath from="113" to="111" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="237.41763" Y="1002.32495"/>
+		<pt X="230.26982" Y="1000.6959"/>
+	</skpath>
+	<skpath from="105" to="103" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="228.52406" Y="958.57074"/>
+		<pt X="231.5769" Y="950.1125"/>
+	</skpath>
+	<skpath from="101" to="99" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="269.0456" Y="897.31006"/>
+		<pt X="264.07584" Y="895.5929"/>
+	</skpath>
+	<skpath from="97" to="95" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="272.3952" Y="878.9878"/>
+		<pt X="267.35657" Y="878.1072"/>
+	</skpath>
+	<skpath from="115" to="113" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-75</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="255.39857" Y="1012.1629"/>
+		<pt X="237.41763" Y="1002.32495"/>
+	</skpath>
+	<skpath from="116" to="87" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="228.676" Y="943.23444"/>
+		<pt X="230.8908" Y="935.7223"/>
+		<pt X="244.59706" Y="898.6564"/>
+		<pt X="255.28777" Y="847.9058"/>
+		<pt X="255.82597" Y="815.429"/>
+		<pt X="285.84604" Y="845.8935"/>
+		<pt X="279.56766" Y="838.6793"/>
+		<pt X="276.12427" Y="838.57355"/>
+		<pt X="290.85495" Y="857.0079"/>
+		<pt X="286.17584" Y="856.0711"/>
+		<pt X="280.76227" Y="863.9601"/>
+		<pt X="278.76733" Y="878.4631"/>
+		<pt X="278.54678" Y="911.224"/>
+		<pt X="277.9598" Y="941.1005"/>
+		<pt X="280.6108" Y="950.36316"/>
+		<pt X="284.71088" Y="955.86566"/>
+		<pt X="281.42172" Y="961.8083"/>
+		<pt X="272.93378" Y="962.9612"/>
+		<pt X="266.74197" Y="979.16095"/>
+		<pt X="253.97147" Y="1006.69556"/>
+		<pt X="243.7315" Y="1024.3064"/>
+		<pt X="235.64835" Y="1031.9905"/>
+		<pt X="235.38004" Y="1041.2982"/>
+		<pt X="230.65204" Y="1047.2626"/>
+	</skpath>
+	<skpath from="86" to="116" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="217.95012" Y="984.0367"/>
+		<pt X="214.78447" Y="977.6117"/>
+		<pt X="213.49191" Y="964.88104"/>
+		<pt X="217.79404" Y="948.346"/>
+		<pt X="225.56596" Y="944.4682"/>
+		<pt X="228.676" Y="943.23444"/>
+	</skpath>
+	<skpath from="117" to="28" linestyle="connective" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="171.92122" Y="1774.7625"/>
+		<pt X="172.36942" Y="1768.6793" Z="730.69006"/>
+	</skpath>
+	<skpath from="118" to="27" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="201.15828" Y="1805.5466"/>
+		<pt X="201.56943" Y="1801.0792" Z="644.9901"/>
+	</skpath>
+	<skpath from="119" to="10" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="158.24976" Y="1664.7808"/>
+		<pt X="166.52617" Y="1664.8422"/>
+		<pt X="170.46942" Y="1658.6793" Z="738.39014"/>
+	</skpath>
+	<skpath from="120" to="10" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="184.98657" Y="1645.4186"/>
+		<pt X="170.46942" Y="1658.6793" Z="738.39014"/>
+	</skpath>
+	<skpath from="119" to="121" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="158.24976" Y="1664.7808"/>
+		<pt X="145.02884" Y="1666.8748"/>
+		<pt X="138.06009" Y="1666.9203"/>
+		<pt X="128.98705" Y="1670.6416"/>
+	</skpath>
+	<skpath from="121" to="122" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="128.98705" Y="1670.6416"/>
+		<pt X="125.6602" Y="1672.485"/>
+		<pt X="122.025345" Y="1671.5641"/>
+		<pt X="121.71405" Y="1666.6486"/>
+		<pt X="113.54698" Y="1662.0367"/>
+		<pt X="110.220184" Y="1665.711"/>
+		<pt X="102.659065" Y="1666.913"/>
+		<pt X="81.49098" Y="1658.8253"/>
+		<pt X="64.5545" Y="1653.7953"/>
+		<pt X="50.346786" Y="1646.629"/>
+		<pt X="41.562218" Y="1646.2355"/>
+		<pt X="34.56298" Y="1652.8867"/>
+		<pt X="31.800896" Y="1661.7141"/>
+		<pt X="33.591274" Y="1670.8928"/>
+		<pt X="34.725533" Y="1676.8068"/>
+	</skpath>
+	<skpath from="123" to="124" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="125.08562" Y="1682.3002"/>
+		<pt X="122.383705" Y="1688.7341"/>
+		<pt X="117.2779" Y="1698.825"/>
+		<pt X="116.11786" Y="1709.5227"/>
+		<pt X="119.49407" Y="1716.8776"/>
+		<pt X="131.3625" Y="1722.1531"/>
+		<pt X="140.47218" Y="1722.8091"/>
+		<pt X="145.64423" Y="1724.6661"/>
+		<pt X="147.17279" Y="1726.2036"/>
+	</skpath>
+	<skpath from="124" to="125" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.17279" Y="1726.2036"/>
+		<pt X="143.87189" Y="1731.0974"/>
+		<pt X="138.45747" Y="1738.6996"/>
+		<pt X="133.33089" Y="1750.4891"/>
+		<pt X="134.78671" Y="1767.9896"/>
+		<pt X="139.53452" Y="1776.7498"/>
+		<pt X="141.81299" Y="1778.7239"/>
+	</skpath>
+	<skpath from="126" to="117" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="185.27834" Y="1752.8649"/>
+		<pt X="180.98834" Y="1759.1146"/>
+		<pt X="176.66605" Y="1768.6636"/>
+		<pt X="171.92122" Y="1774.7625"/>
+	</skpath>
+	<skpath from="127" to="128" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.41548" Y="1775.597"/>
+		<pt X="176.76913" Y="1771.9264"/>
+		<pt X="180.36472" Y="1764.5275"/>
+		<pt X="183.70178" Y="1756.573"/>
+		<pt X="185.57619" Y="1754.7384"/>
+	</skpath>
+	<skpath from="128" to="126" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="185.57619" Y="1754.7384"/>
+		<pt X="185.27834" Y="1752.8649"/>
+	</skpath>
+	<skpath from="117" to="127" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="171.92122" Y="1774.7625"/>
+		<pt X="173.41548" Y="1775.597"/>
+	</skpath>
+	<skpath from="128" to="118" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="185.57619" Y="1754.7384"/>
+		<pt X="187.38441" Y="1759.8042"/>
+		<pt X="192.75409" Y="1764.799"/>
+		<pt X="202.97313" Y="1761.5747"/>
+		<pt X="214.23242" Y="1761.4286"/>
+		<pt X="223.82755" Y="1768.326"/>
+		<pt X="228.07182" Y="1784.2003"/>
+		<pt X="225.07362" Y="1795.5243"/>
+		<pt X="216.60403" Y="1803.7992"/>
+		<pt X="208.22981" Y="1806.0095"/>
+		<pt X="201.15828" Y="1805.5466"/>
+	</skpath>
+	<skpath from="118" to="127" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="201.15828" Y="1805.5466"/>
+		<pt X="191.92874" Y="1802.3794"/>
+		<pt X="179.87122" Y="1793.7063"/>
+		<pt X="176.64098" Y="1782.372"/>
+		<pt X="176.611" Y="1778.5038"/>
+		<pt X="173.41548" Y="1775.597"/>
+	</skpath>
+	<skpath from="129" to="123" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="51.260616" Y="1673.6024"/>
+		<pt X="50.573174" Y="1672.3096"/>
+		<pt X="47.5661" Y="1661.8896"/>
+		<pt X="50.907314" Y="1659.1738"/>
+		<pt X="62.41311" Y="1661.732"/>
+		<pt X="87.53101" Y="1669.2804"/>
+		<pt X="99.936935" Y="1673.9484"/>
+		<pt X="105.39799" Y="1680.7156"/>
+		<pt X="111.15587" Y="1682.2722"/>
+		<pt X="117.50618" Y="1679.8369"/>
+		<pt X="125.08562" Y="1682.3002"/>
+	</skpath>
+	<skpath from="122" to="130" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="34.725533" Y="1676.8068"/>
+		<pt X="35.68158" Y="1683.7275"/>
+		<pt X="36.256973" Y="1696.8306"/>
+		<pt X="38.974705" Y="1704.7765"/>
+		<pt X="47.176224" Y="1709.1433"/>
+		<pt X="50.785606" Y="1710.3461"/>
+	</skpath>
+	<skpath from="122" to="129" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="34.725533" Y="1676.8068"/>
+		<pt X="51.260616" Y="1673.6024"/>
+	</skpath>
+	<skpath from="123" to="121" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="125.08562" Y="1682.3002"/>
+		<pt X="128.98705" Y="1670.6416"/>
+	</skpath>
+	<skpath from="131" to="132" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="149.26582" Y="1766.4742"/>
+		<pt X="161.68767" Y="1746.3424"/>
+	</skpath>
+	<skpath from="133" to="132" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="161.97415" Y="1736.9767"/>
+		<pt X="161.68767" Y="1746.3424"/>
+	</skpath>
+	<skpath from="134" to="132" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.47249" Y="1753.8945"/>
+		<pt X="161.68767" Y="1746.3424"/>
+	</skpath>
+	<skpath from="131" to="133" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="149.26582" Y="1766.4742"/>
+		<pt X="146.44278" Y="1754.4291"/>
+		<pt X="161.97415" Y="1736.9767"/>
+	</skpath>
+	<skpath from="134" to="133" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.47249" Y="1753.8945"/>
+		<pt X="168.04274" Y="1741.9904"/>
+		<pt X="161.97415" Y="1736.9767"/>
+	</skpath>
+	<skpath from="134" to="131" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.47249" Y="1753.8945"/>
+		<pt X="160.5882" Y="1772.6184"/>
+		<pt X="149.26582" Y="1766.4742"/>
+	</skpath>
+	<skpath from="135" to="136" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="41.630188" Y="1699.1726"/>
+		<pt X="47.426716" Y="1693.4502"/>
+		<pt X="54.53262" Y="1700.0818"/>
+	</skpath>
+	<skpath from="135" to="137" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="41.630188" Y="1699.1726"/>
+		<pt X="41.767647" Y="1703.628"/>
+		<pt X="49.326015" Y="1708.4744"/>
+	</skpath>
+	<skpath from="137" to="136" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="49.326015" Y="1708.4744"/>
+		<pt X="54.528244" Y="1703.4978"/>
+		<pt X="54.53262" Y="1700.0818"/>
+	</skpath>
+	<skpath from="138" to="137" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="48.590168" Y="1705.3488"/>
+		<pt X="49.326015" Y="1708.4744"/>
+	</skpath>
+	<skpath from="138" to="135" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="48.590168" Y="1705.3488"/>
+		<pt X="41.630188" Y="1699.1726"/>
+	</skpath>
+	<skpath from="136" to="138" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="54.53262" Y="1700.0818"/>
+		<pt X="48.590168" Y="1705.3488"/>
+	</skpath>
+	<skpath from="139" to="140" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="38.9992" Y="1678.9005"/>
+		<pt X="44.755135" Y="1691.4753"/>
+	</skpath>
+	<skpath from="141" to="142" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="51.144043" Y="1679.0409"/>
+		<pt X="49.792156" Y="1691.6809"/>
+	</skpath>
+	<skpath from="122" to="139" linestyle="connective" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="34.725533" Y="1676.8068"/>
+		<pt X="38.9992" Y="1678.9005"/>
+	</skpath>
+	<skpath from="141" to="129" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="51.144043" Y="1679.0409"/>
+		<pt X="51.260616" Y="1673.6024"/>
+	</skpath>
+	<skpath from="130" to="129" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="50.785606" Y="1710.3461"/>
+		<pt X="55.079014" Y="1709.8538"/>
+		<pt X="58.425083" Y="1702.5952"/>
+		<pt X="60.256577" Y="1693.1707"/>
+		<pt X="58.443787" Y="1683.0844"/>
+		<pt X="51.260616" Y="1673.6024"/>
+	</skpath>
+	<skpath from="130" to="137" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="50.785606" Y="1710.3461"/>
+		<pt X="49.326015" Y="1708.4744"/>
+	</skpath>
+	<skpath from="143" to="144" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="218.20308" Y="1799.6019"/>
+		<pt X="198.71252" Y="1798.6573"/>
+	</skpath>
+	<skpath from="145" to="146" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="224.10464" Y="1783.6661"/>
+		<pt X="182.25339" Y="1783.0688"/>
+	</skpath>
+	<skpath from="128" to="146" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="185.57619" Y="1754.7384"/>
+		<pt X="182.25339" Y="1783.0688"/>
+	</skpath>
+	<skpath from="144" to="146" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="198.71252" Y="1798.6573"/>
+		<pt X="182.25339" Y="1783.0688"/>
+	</skpath>
+	<skpath from="147" to="133" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.43558" Y="1719.723"/>
+		<pt X="173.37166" Y="1724.0886"/>
+		<pt X="173.96198" Y="1732.3956"/>
+		<pt X="161.97415" Y="1736.9767"/>
+	</skpath>
+	<skpath from="125" to="117" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="141.81299" Y="1778.7239"/>
+		<pt X="150.94655" Y="1781.9857"/>
+		<pt X="159.99077" Y="1782.1283"/>
+		<pt X="166.10774" Y="1779.2571"/>
+		<pt X="171.92122" Y="1774.7625"/>
+	</skpath>
+	<skpath from="125" to="131" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="141.81299" Y="1778.7239"/>
+		<pt X="149.26582" Y="1766.4742"/>
+	</skpath>
+	<skpath from="148" to="149" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="137.53351" Y="1760.8696"/>
+		<pt X="154.86745" Y="1731.5938"/>
+	</skpath>
+	<skpath from="125" to="148" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="141.81299" Y="1778.7239"/>
+		<pt X="137.53351" Y="1760.8696"/>
+	</skpath>
+	<skpath from="150" to="126" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">c4</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="191.58292" Y="1744.9342"/>
+		<pt X="185.27834" Y="1752.8649"/>
+	</skpath>
+	<skpath from="151" to="9" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.85736" Y="1633.9269"/>
+		<pt X="177.86943" Y="1632.5793" Z="738.39014"/>
+	</skpath>
+	<skpath from="152" to="10" linestyle="connective" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="183.57849" Y="1659.0988"/>
+		<pt X="170.46942" Y="1658.6793" Z="738.39014"/>
+	</skpath>
+	<skpath from="153" to="9" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="179.33661" Y="1632.1862"/>
+		<pt X="177.86943" Y="1632.5793" Z="738.39014"/>
+	</skpath>
+	<skpath from="154" to="11" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.04663" Y="1623.1168"/>
+		<pt X="168.46942" Y="1623.4792" Z="736.9901"/>
+	</skpath>
+	<skpath from="155" to="12" linestyle="connective">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="176.80304" Y="1578.5502"/>
+		<pt X="175.56943" Y="1578.4792" Z="736.9901"/>
+	</skpath>
+	<skpath from="156" to="12" linestyle="connective">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.99982" Y="1579.0616"/>
+		<pt X="175.56943" Y="1578.4792" Z="736.9901"/>
+	</skpath>
+	<skpath from="157" to="13" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="174.68028" Y="1563.4508"/>
+		<pt X="168.86942" Y="1563.3794" Z="739.4901"/>
+	</skpath>
+	<skpath from="158" to="13" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="167.62732" Y="1563.2047"/>
+		<pt X="168.86942" Y="1563.3794" Z="739.4901"/>
+	</skpath>
+	<skpath from="159" to="14" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="171.51811" Y="1537.0944"/>
+		<pt X="174.46944" Y="1536.8793" Z="742.2901"/>
+	</skpath>
+	<skpath from="160" to="15" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.3726" Y="1528.7917"/>
+		<pt X="169.56941" Y="1529.6792" Z="742.6901"/>
+	</skpath>
+	<skpath from="161" to="16" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="166.88054" Y="1499.789"/>
+		<pt X="164.96942" Y="1500.4792" Z="741.89014"/>
+	</skpath>
+	<skpath from="162" to="16" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="161.92216" Y="1501.4122"/>
+		<pt X="164.96942" Y="1500.4792" Z="741.89014"/>
+	</skpath>
+	<skpath from="163" to="17" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.93405" Y="1482.9517"/>
+		<pt X="157.66943" Y="1481.4794" Z="742.2901"/>
+	</skpath>
+	<skpath from="164" to="17" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.26698" Y="1481.2219"/>
+		<pt X="157.66943" Y="1481.4794" Z="742.2901"/>
+	</skpath>
+	<skpath from="165" to="18" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.1226" Y="1470.9827"/>
+		<pt X="157.66943" Y="1470.2794" Z="743.09015"/>
+	</skpath>
+	<skpath from="166" to="18" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="151.91795" Y="1471.4292"/>
+		<pt X="157.66943" Y="1470.2794" Z="743.09015"/>
+	</skpath>
+	<skpath from="167" to="18" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.22513" Y="1464.7983"/>
+		<pt X="157.66943" Y="1470.2794" Z="743.09015"/>
+	</skpath>
+	<skpath from="19" to="168" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="165.46942" Y="1451.8793" Z="743.39014"/>
+		<pt X="166.70325" Y="1452.2837"/>
+	</skpath>
+	<skpath from="169" to="19" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="161.39139" Y="1450.7164"/>
+		<pt X="165.46942" Y="1451.8793" Z="743.39014"/>
+	</skpath>
+	<skpath from="170" to="20" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.63733" Y="1415.0721"/>
+		<pt X="175.16943" Y="1415.8794" Z="745.99005"/>
+	</skpath>
+	<skpath from="171" to="20" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="176.52696" Y="1416.2247"/>
+		<pt X="175.16943" Y="1415.8794" Z="745.99005"/>
+	</skpath>
+	<skpath from="172" to="21" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="192.80486" Y="1396.658"/>
+		<pt X="185.86943" Y="1396.5793" Z="751.0901"/>
+	</skpath>
+	<skpath from="173" to="22" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="167.65741" Y="1374.6484"/>
+		<pt X="172.86943" Y="1372.1792" Z="756.9901"/>
+	</skpath>
+	<skpath from="174" to="23" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.02065" Y="1357.8065"/>
+		<pt X="166.96944" Y="1355.1793" Z="762.79004"/>
+	</skpath>
+	<skpath from="175" to="23" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.75131" Y="1354.798"/>
+		<pt X="166.96944" Y="1355.1793" Z="762.79004"/>
+	</skpath>
+	<skpath from="176" to="24" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="159.52174" Y="1337.8044"/>
+		<pt X="155.26942" Y="1338.4792" Z="808.5901"/>
+	</skpath>
+	<skpath from="24" to="177" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="155.26942" Y="1338.4792" Z="808.5901"/>
+		<pt X="154.07071" Y="1338.85"/>
+	</skpath>
+	<skpath from="178" to="179" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.28845" Y="1701.348"/>
+		<pt X="144.33076" Y="1695.026"/>
+		<pt X="146.02278" Y="1691.4463"/>
+	</skpath>
+	<skpath from="179" to="180" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="146.02278" Y="1691.4463"/>
+		<pt X="150.69144" Y="1678.1832"/>
+	</skpath>
+	<skpath from="178" to="181" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.28845" Y="1701.348"/>
+		<pt X="152.78568" Y="1703.2452"/>
+	</skpath>
+	<skpath from="181" to="182" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.78568" Y="1703.2452"/>
+		<pt X="154.76907" Y="1695.6862"/>
+	</skpath>
+	<skpath from="178" to="183" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.28845" Y="1701.348"/>
+		<pt X="151.53046" Y="1683.2357"/>
+	</skpath>
+	<skpath from="180" to="183" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="150.69144" Y="1678.1832"/>
+		<pt X="151.53046" Y="1683.2357"/>
+	</skpath>
+	<skpath from="184" to="183" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="157.43408" Y="1685.5565"/>
+		<pt X="151.53046" Y="1683.2357"/>
+	</skpath>
+	<skpath from="180" to="185" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="150.69144" Y="1678.1832"/>
+		<pt X="155.55518" Y="1677.9764"/>
+		<pt X="156.80997" Y="1683.0277"/>
+	</skpath>
+	<skpath from="184" to="185" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="157.43408" Y="1685.5565"/>
+		<pt X="156.80997" Y="1683.0277"/>
+	</skpath>
+	<skpath from="181" to="186" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.78568" Y="1703.2452"/>
+		<pt X="150.03531" Y="1705.5613"/>
+		<pt X="150.24138" Y="1711.4619"/>
+	</skpath>
+	<skpath from="181" to="187" linestyle="detail" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.78568" Y="1703.2452"/>
+		<pt X="157.44014" Y="1699.0331"/>
+	</skpath>
+	<skpath from="187" to="188" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="157.44014" Y="1699.0331"/>
+		<pt X="160.6156" Y="1697.1395"/>
+	</skpath>
+	<skpath from="186" to="189" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="150.24138" Y="1711.4619"/>
+		<pt X="158.70654" Y="1703.88"/>
+	</skpath>
+	<skpath from="188" to="189" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="160.6156" Y="1697.1395"/>
+		<pt X="158.70654" Y="1703.88"/>
+	</skpath>
+	<skpath from="186" to="190" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="150.24138" Y="1711.4619"/>
+		<pt X="155.79915" Y="1717.8646"/>
+	</skpath>
+	<skpath from="189" to="191" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="158.70654" Y="1703.88"/>
+		<pt X="168.84274" Y="1715.254"/>
+	</skpath>
+	<skpath from="191" to="192" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.84274" Y="1715.254"/>
+		<pt X="169.27776" Y="1706.8242"/>
+		<pt X="164.68138" Y="1701.6818"/>
+	</skpath>
+	<skpath from="192" to="188" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="164.68138" Y="1701.6818"/>
+		<pt X="160.6156" Y="1697.1395"/>
+	</skpath>
+	<skpath from="192" to="193" linestyle="detail" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="164.68138" Y="1701.6818"/>
+		<pt X="168.87004" Y="1695.4507"/>
+	</skpath>
+	<skpath from="194" to="184" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.14691" Y="1690.3992"/>
+		<pt X="157.43408" Y="1685.5565"/>
+	</skpath>
+	<skpath from="194" to="193" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.14691" Y="1690.3992"/>
+		<pt X="163.1649" Y="1686.8221"/>
+		<pt X="168.87004" Y="1695.4507"/>
+	</skpath>
+	<skpath from="182" to="194" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="154.76907" Y="1695.6862"/>
+		<pt X="156.14691" Y="1690.3992"/>
+	</skpath>
+	<skpath from="182" to="187" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="154.76907" Y="1695.6862"/>
+		<pt X="157.44014" Y="1699.0331"/>
+	</skpath>
+	<skpath from="193" to="195" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.87004" Y="1695.4507"/>
+		<pt X="168.87971" Y="1687.871"/>
+		<pt X="162.32043" Y="1681.138"/>
+	</skpath>
+	<skpath from="185" to="195" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.80997" Y="1683.0277"/>
+		<pt X="162.32043" Y="1681.138"/>
+	</skpath>
+	<skpath from="151" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.85736" Y="1633.9269"/>
+		<pt X="168.81972" Y="1630.7755"/>
+		<pt X="167.56458" Y="1627.8239"/>
+		<pt X="168.46942" Y="1623.4792" Z="736.9901"/>
+	</skpath>
+	<skpath from="153" to="154" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="179.33661" Y="1632.1862"/>
+		<pt X="177.491" Y="1627.7766"/>
+		<pt X="175.04663" Y="1623.1168"/>
+	</skpath>
+	<skpath from="11" to="156" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.46942" Y="1623.4792" Z="736.9901"/>
+		<pt X="168.92886" Y="1614.9214"/>
+		<pt X="169.49504" Y="1597.3551"/>
+		<pt X="171.32707" Y="1593.1097"/>
+		<pt X="172.90236" Y="1585.9017"/>
+		<pt X="170.99982" Y="1579.0616"/>
+	</skpath>
+	<skpath from="154" to="155" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.04663" Y="1623.1168"/>
+		<pt X="173.86287" Y="1619.2936"/>
+		<pt X="175.60736" Y="1610.3733"/>
+		<pt X="176.48132" Y="1599.3679"/>
+		<pt X="177.55275" Y="1587.1019"/>
+		<pt X="176.80304" Y="1578.5502"/>
+	</skpath>
+	<skpath from="156" to="158" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.99982" Y="1579.0616"/>
+		<pt X="168.16776" Y="1570.369"/>
+		<pt X="167.62732" Y="1563.2047"/>
+	</skpath>
+	<skpath from="155" to="157" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="176.80304" Y="1578.5502"/>
+		<pt X="176.19438" Y="1572.453"/>
+		<pt X="174.92079" Y="1568.0415"/>
+		<pt X="174.68028" Y="1563.4508"/>
+	</skpath>
+	<skpath from="158" to="196" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="167.62732" Y="1563.2047"/>
+		<pt X="167.60277" Y="1550.9883"/>
+		<pt X="169.71536" Y="1547.174"/>
+		<pt X="170.73494" Y="1542.0403"/>
+	</skpath>
+	<skpath from="157" to="197" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="174.68028" Y="1563.4508"/>
+		<pt X="175.16737" Y="1558.0444"/>
+		<pt X="175.28993" Y="1550.91"/>
+	</skpath>
+	<skpath from="159" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="171.51811" Y="1537.0944"/>
+		<pt X="170.05838" Y="1532.8872"/>
+		<pt X="169.56941" Y="1529.6792" Z="742.6901"/>
+	</skpath>
+	<skpath from="14" to="160" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="174.46944" Y="1536.8793" Z="742.2901"/>
+		<pt X="173.71075" Y="1532.5684"/>
+		<pt X="173.3726" Y="1528.7917"/>
+	</skpath>
+	<skpath from="15" to="162" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="169.56941" Y="1529.6792" Z="742.6901"/>
+		<pt X="167.73224" Y="1524.2169"/>
+		<pt X="164.75436" Y="1513.3196"/>
+		<pt X="161.92216" Y="1501.4122"/>
+	</skpath>
+	<skpath from="160" to="161" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.3726" Y="1528.7917"/>
+		<pt X="171.16634" Y="1519.2092"/>
+		<pt X="169.23917" Y="1509.2915"/>
+		<pt X="166.88054" Y="1499.789"/>
+	</skpath>
+	<skpath from="162" to="163" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="161.92216" Y="1501.4122"/>
+		<pt X="161.67557" Y="1497.5118"/>
+		<pt X="161.02057" Y="1492.6201"/>
+		<pt X="158.90337" Y="1489.0154"/>
+		<pt X="155.73337" Y="1486.0513"/>
+		<pt X="152.93405" Y="1482.9517"/>
+	</skpath>
+	<skpath from="161" to="164" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="166.88054" Y="1499.789"/>
+		<pt X="166.31079" Y="1495.8114"/>
+		<pt X="164.61392" Y="1489.2413"/>
+		<pt X="162.26698" Y="1481.2219"/>
+	</skpath>
+	<skpath from="163" to="166" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.93405" Y="1482.9517"/>
+		<pt X="151.92038" Y="1478.6362"/>
+		<pt X="151.91795" Y="1471.4292"/>
+	</skpath>
+	<skpath from="164" to="165" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.26698" Y="1481.2219"/>
+		<pt X="161.85786" Y="1477.1427"/>
+		<pt X="162.1226" Y="1470.9827"/>
+	</skpath>
+	<skpath from="166" to="198" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="151.91795" Y="1471.4292"/>
+		<pt X="151.71089" Y="1468.6666"/>
+		<pt X="151.29408" Y="1461.4731"/>
+	</skpath>
+	<skpath from="199" to="167" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="154.8751" Y="1458.9465"/>
+		<pt X="155.51028" Y="1461.8998"/>
+		<pt X="156.22513" Y="1464.7983"/>
+	</skpath>
+	<skpath from="167" to="169" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.22513" Y="1464.7983"/>
+		<pt X="157.19887" Y="1460.4166"/>
+		<pt X="159.73312" Y="1455.1265"/>
+		<pt X="161.39139" Y="1450.7164"/>
+	</skpath>
+	<skpath from="169" to="170" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="161.39139" Y="1450.7164"/>
+		<pt X="163.97127" Y="1441.5884"/>
+		<pt X="166.10223" Y="1430.806"/>
+		<pt X="170.63733" Y="1415.0721"/>
+	</skpath>
+	<skpath from="165" to="168" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.1226" Y="1470.9827"/>
+		<pt X="163.11679" Y="1463.7883"/>
+		<pt X="165.64859" Y="1455.324"/>
+		<pt X="166.70325" Y="1452.2837"/>
+	</skpath>
+	<skpath from="168" to="171" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="166.70325" Y="1452.2837"/>
+		<pt X="169.46213" Y="1445.1833"/>
+		<pt X="172.43427" Y="1437.1537"/>
+		<pt X="174.98338" Y="1429.9679"/>
+		<pt X="176.0524" Y="1421.2948"/>
+		<pt X="176.52696" Y="1416.2247"/>
+	</skpath>
+	<skpath from="170" to="21" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.63733" Y="1415.0721"/>
+		<pt X="173.31596" Y="1409.8618"/>
+		<pt X="177.76357" Y="1404.7728"/>
+		<pt X="183.0566" Y="1400.5275"/>
+		<pt X="185.86943" Y="1396.5793" Z="751.0901"/>
+	</skpath>
+	<skpath from="171" to="172" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="176.52696" Y="1416.2247"/>
+		<pt X="181.14847" Y="1410.4951"/>
+		<pt X="185.81235" Y="1407.7461"/>
+		<pt X="188.9915" Y="1403.511"/>
+		<pt X="192.16785" Y="1399.7039"/>
+		<pt X="192.80486" Y="1396.658"/>
+	</skpath>
+	<skpath from="21" to="173" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="185.86943" Y="1396.5793" Z="751.0901"/>
+		<pt X="180.73805" Y="1390.3768"/>
+		<pt X="173.76524" Y="1382.5585"/>
+		<pt X="167.65741" Y="1374.6484"/>
+	</skpath>
+	<skpath from="172" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="192.80486" Y="1396.658"/>
+		<pt X="190.26253" Y="1391.0189"/>
+		<pt X="183.91216" Y="1384.4579"/>
+		<pt X="176.50314" Y="1376.426"/>
+		<pt X="172.86943" Y="1372.1792" Z="756.9901"/>
+	</skpath>
+	<skpath from="173" to="174" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="167.65741" Y="1374.6484"/>
+		<pt X="165.60826" Y="1368.4741"/>
+		<pt X="163.61745" Y="1362.52"/>
+		<pt X="162.02065" Y="1357.8065"/>
+	</skpath>
+	<skpath from="22" to="175" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="172.86943" Y="1372.1792" Z="756.9901"/>
+		<pt X="171.48317" Y="1366.1869"/>
+		<pt X="169.3092" Y="1358.1041"/>
+		<pt X="168.75131" Y="1354.798"/>
+	</skpath>
+	<skpath from="174" to="200" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.02065" Y="1357.8065"/>
+		<pt X="160.94019" Y="1353.7833"/>
+	</skpath>
+	<skpath from="176" to="201" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="159.52174" Y="1337.8044"/>
+		<pt X="162.5346" Y="1341.2822"/>
+	</skpath>
+	<skpath from="177" to="202" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="154.07071" Y="1338.85"/>
+		<pt X="153.6832" Y="1333.2949"/>
+		<pt X="153.7513" Y="1327.3898"/>
+	</skpath>
+	<skpath from="196" to="159" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.73494" Y="1542.0403"/>
+		<pt X="170.98293" Y="1540.3265"/>
+		<pt X="171.51811" Y="1537.0944"/>
+	</skpath>
+	<skpath from="203" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.89893" Y="1542.0989"/>
+		<pt X="175.63039" Y="1539.7761"/>
+		<pt X="174.46944" Y="1536.8793" Z="742.2901"/>
+	</skpath>
+	<skpath from="196" to="203" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.73494" Y="1542.0403"/>
+		<pt X="175.89893" Y="1542.0989"/>
+	</skpath>
+	<skpath from="197" to="203" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.28993" Y="1550.91"/>
+		<pt X="175.40468" Y="1547.824"/>
+		<pt X="175.89893" Y="1542.0989"/>
+	</skpath>
+	<skpath from="204" to="197" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="169.85297" Y="1561.388"/>
+		<pt X="170.4212" Y="1556.8282"/>
+		<pt X="170.64827" Y="1555.0063"/>
+		<pt X="170.30148" Y="1552.7264"/>
+		<pt X="169.95279" Y="1550.2126"/>
+		<pt X="171.8906" Y="1547.1455"/>
+		<pt X="173.7004" Y="1547.7078"/>
+		<pt X="175.28993" Y="1550.91"/>
+	</skpath>
+	<skpath from="197" to="205" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.28993" Y="1550.91"/>
+		<pt X="174.594" Y="1553.422"/>
+		<pt X="173.01317" Y="1555.2444"/>
+		<pt X="172.78217" Y="1557.9888"/>
+		<pt X="172.41959" Y="1561.777"/>
+	</skpath>
+	<skpath from="206" to="204" linestyle="detail" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="174.32553" Y="1585.3457"/>
+		<pt X="172.8237" Y="1577.4685"/>
+		<pt X="170.4469" Y="1570.7063"/>
+		<pt X="169.85297" Y="1561.388"/>
+	</skpath>
+	<skpath from="207" to="205" linestyle="detail" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="176.19199" Y="1585.0442"/>
+		<pt X="175.02065" Y="1575.4003"/>
+		<pt X="172.80283" Y="1568.1362"/>
+		<pt X="172.41959" Y="1561.777"/>
+	</skpath>
+	<skpath from="208" to="197" linestyle="connective" splined="1">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">01-70B</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="182.9142" Y="1552.624"/>
+		<pt X="175.28993" Y="1550.91"/>
+	</skpath>
+	<skpath from="198" to="199" linestyle="invisible" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="151.29408" Y="1461.4731"/>
+		<pt X="154.8751" Y="1458.9465"/>
+	</skpath>
+	<skpath from="201" to="209" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.5346" Y="1341.2822"/>
+		<pt X="163.07715" Y="1341.799"/>
+		<pt X="167.4102" Y="1345.1116"/>
+		<pt X="168.86201" Y="1349.8789"/>
+		<pt X="168.9894" Y="1351.5"/>
+	</skpath>
+	<skpath from="200" to="210" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="160.94019" Y="1353.7833"/>
+		<pt X="156.7715" Y="1347.2197"/>
+	</skpath>
+	<skpath from="210" to="177" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.7715" Y="1347.2197"/>
+		<pt X="155.29456" Y="1343.9835"/>
+		<pt X="154.07071" Y="1338.85"/>
+	</skpath>
+	<skpath from="210" to="201" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="156.7715" Y="1347.2197"/>
+		<pt X="157.58986" Y="1344.4343"/>
+		<pt X="159.51129" Y="1342.6115"/>
+		<pt X="162.5346" Y="1341.2822"/>
+	</skpath>
+	<skpath from="209" to="175" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.9894" Y="1351.5"/>
+		<pt X="168.75131" Y="1354.798"/>
+	</skpath>
+	<skpath from="209" to="200" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.9894" Y="1351.5"/>
+		<pt X="166.10088" Y="1354.2627"/>
+		<pt X="163.49277" Y="1355.3593"/>
+		<pt X="160.94019" Y="1353.7833"/>
+	</skpath>
+	<skpath from="211" to="212" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="191.5368" Y="1685.1698"/>
+		<pt X="172.3277" Y="1684.5253"/>
+	</skpath>
+	<skpath from="213" to="214" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="191.83333" Y="1708.037"/>
+		<pt X="175.96698" Y="1701.0778"/>
+	</skpath>
+	<skpath from="191" to="214" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.84274" Y="1715.254"/>
+		<pt X="175.96698" Y="1701.0778"/>
+	</skpath>
+	<skpath from="152" to="212" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="183.57849" Y="1659.0988"/>
+		<pt X="172.3277" Y="1684.5253"/>
+	</skpath>
+	<skpath from="190" to="191" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="155.79915" Y="1717.8646"/>
+		<pt X="161.22101" Y="1724.1078"/>
+		<pt X="168.84274" Y="1715.254"/>
+	</skpath>
+	<skpath from="190" to="124" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="155.79915" Y="1717.8646"/>
+		<pt X="151.62044" Y="1723.2562"/>
+		<pt X="147.17279" Y="1726.2036"/>
+	</skpath>
+	<skpath from="119" to="195" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="158.24976" Y="1664.7808"/>
+		<pt X="167.59573" Y="1670.011"/>
+		<pt X="165.59776" Y="1675.735"/>
+		<pt X="162.32043" Y="1681.138"/>
+	</skpath>
+	<skpath from="215" to="151" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.39517" Y="1643.1395"/>
+		<pt X="170.85736" Y="1633.9269"/>
+	</skpath>
+	<skpath from="120" to="153" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="184.98657" Y="1645.4186"/>
+		<pt X="182.65314" Y="1638.9854"/>
+		<pt X="179.33661" Y="1632.1862"/>
+	</skpath>
+	<skpath from="216" to="1" linestyle="invisible">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.93048" Y="1292.6768"/>
+		<pt X="221.46942" Y="1287.4794" Z="886.1901"/>
+	</skpath>
+	<skpath from="217" to="1" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="219.38675" Y="1283.353"/>
+		<pt X="221.46942" Y="1287.4794" Z="886.1901"/>
+	</skpath>
+	<skpath from="218" to="219" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.86441" Y="1285.252"/>
+		<pt X="172.56506" Y="1275.2285"/>
+	</skpath>
+	<skpath from="220" to="7" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="153.43712" Y="1308.5693"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+	</skpath>
+	<skpath from="221" to="6" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="151.50967" Y="1329.4"/>
+		<pt X="151.76942" Y="1327.9792" Z="871.89014"/>
+	</skpath>
+	<skpath from="222" to="6" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="157.6761" Y="1324.8948"/>
+		<pt X="151.76942" Y="1327.9792" Z="871.89014"/>
+	</skpath>
+	<skpath from="223" to="5" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="180.7205" Y="1350.156"/>
+		<pt X="186.56943" Y="1348.8794" Z="884.2901"/>
+	</skpath>
+	<skpath from="224" to="5" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="189.41367" Y="1349.0594"/>
+		<pt X="186.56943" Y="1348.8794" Z="884.2901"/>
+	</skpath>
+	<skpath from="225" to="4" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.69006" Y="1363.5795"/>
+		<pt X="172.66943" Y="1361.7793" Z="875.3901"/>
+	</skpath>
+	<skpath from="226" to="4" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.59013" Y="1359.101"/>
+		<pt X="172.66943" Y="1361.7793" Z="875.3901"/>
+	</skpath>
+	<skpath from="227" to="2" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="153.23474" Y="1368.6765"/>
+		<pt X="149.76942" Y="1365.0793" Z="867.8901"/>
+	</skpath>
+	<skpath from="228" to="2" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.31963" Y="1362.53"/>
+		<pt X="149.76942" Y="1365.0793" Z="867.8901"/>
+	</skpath>
+	<skpath from="229" to="230" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="149.86058" Y="1407.3151"/>
+		<pt X="152.94048" Y="1402.5634"/>
+		<pt X="152.38724" Y="1395.559"/>
+		<pt X="152.39267" Y="1390.2397"/>
+	</skpath>
+	<skpath from="3" to="231" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="146.06943" Y="1407.3793" Z="853.2901"/>
+		<pt X="145.37695" Y="1403.443"/>
+		<pt X="144.39708" Y="1398.9094"/>
+		<pt X="146.18913" Y="1393.7158"/>
+		<pt X="146.6765" Y="1389.9863"/>
+		<pt X="146.51122" Y="1384.9628"/>
+		<pt X="145.69662" Y="1385.2909"/>
+		<pt X="143.41817" Y="1388.2179"/>
+		<pt X="141.62859" Y="1389.6848"/>
+	</skpath>
+	<skpath from="232" to="233" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="140.4904" Y="1386.45"/>
+		<pt X="142.93182" Y="1383.6853"/>
+		<pt X="143.74586" Y="1382.2245"/>
+		<pt X="144.72087" Y="1378.4921"/>
+		<pt X="147.98204" Y="1375.56"/>
+		<pt X="147.97592" Y="1369.2433"/>
+	</skpath>
+	<skpath from="230" to="227" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.39267" Y="1390.2397"/>
+		<pt X="152.8403" Y="1383.1959"/>
+		<pt X="153.16486" Y="1373.4663"/>
+		<pt X="153.23474" Y="1368.6765"/>
+	</skpath>
+	<skpath from="227" to="225" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="153.23474" Y="1368.6765"/>
+		<pt X="155.6041" Y="1367.4509"/>
+		<pt X="163.71893" Y="1367.7649"/>
+		<pt X="167.11816" Y="1366.7921"/>
+		<pt X="173.69006" Y="1363.5795"/>
+	</skpath>
+	<skpath from="225" to="234" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.69006" Y="1363.5795"/>
+		<pt X="178.82675" Y="1360.1088"/>
+		<pt X="184.51843" Y="1354.4425"/>
+		<pt X="187.92767" Y="1352.8394"/>
+		<pt X="190.36227" Y="1352.8578"/>
+		<pt X="194.42102" Y="1354.3464"/>
+	</skpath>
+	<skpath from="235" to="224" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="195.56326" Y="1351.2631"/>
+		<pt X="192.47916" Y="1350.4342"/>
+		<pt X="189.41367" Y="1349.0594"/>
+	</skpath>
+	<skpath from="226" to="223" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.59013" Y="1359.101"/>
+		<pt X="175.42662" Y="1356.8455"/>
+		<pt X="179.16518" Y="1353.1302"/>
+		<pt X="180.7205" Y="1350.156"/>
+	</skpath>
+	<skpath from="224" to="236" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="189.41367" Y="1349.0594"/>
+		<pt X="185.98457" Y="1346.0093"/>
+		<pt X="178.33891" Y="1337.8923"/>
+		<pt X="169.7194" Y="1330.4147"/>
+		<pt X="168.37663" Y="1328.4789"/>
+	</skpath>
+	<skpath from="223" to="237" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="180.7205" Y="1350.156"/>
+		<pt X="175.90352" Y="1347.1552"/>
+		<pt X="162.40297" Y="1337.7375"/>
+	</skpath>
+	<skpath from="222" to="220" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="157.6761" Y="1324.8948"/>
+		<pt X="158.28264" Y="1320.1079"/>
+		<pt X="157.80113" Y="1313.9546"/>
+		<pt X="155.36903" Y="1310.682"/>
+		<pt X="153.43712" Y="1308.5693"/>
+	</skpath>
+	<skpath from="7" to="238" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+		<pt X="148.6939" Y="1304.1683"/>
+		<pt X="150.63487" Y="1301.243"/>
+		<pt X="151.27026" Y="1296.2142"/>
+		<pt X="155.96211" Y="1288.2495"/>
+		<pt X="159.52878" Y="1284.6659"/>
+		<pt X="162.28598" Y="1281.7338"/>
+		<pt X="163.24599" Y="1280.1105"/>
+	</skpath>
+	<skpath from="239" to="240" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="169.41104" Y="1262.666"/>
+		<pt X="170.54198" Y="1259.0597"/>
+	</skpath>
+	<skpath from="241" to="242" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="172.98816" Y="1260.0262"/>
+		<pt X="172.18196" Y="1262.8119"/>
+	</skpath>
+	<skpath from="243" to="244" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.72551" Y="1266.2466"/>
+		<pt X="168.615" Y="1271.1412"/>
+		<pt X="167.96716" Y="1275.3718"/>
+		<pt X="167.64575" Y="1277.813"/>
+		<pt X="167.81006" Y="1278.9504"/>
+	</skpath>
+	<skpath from="220" to="218" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="153.43712" Y="1308.5693"/>
+		<pt X="156.48741" Y="1303.5153"/>
+		<pt X="162.15482" Y="1294.8939"/>
+		<pt X="168.15404" Y="1288.3853"/>
+		<pt X="170.7515" Y="1286.268"/>
+		<pt X="173.86441" Y="1285.252"/>
+	</skpath>
+	<skpath from="219" to="217" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="172.56506" Y="1275.2285"/>
+		<pt X="177.10564" Y="1274.5397"/>
+		<pt X="183.46773" Y="1274.044"/>
+		<pt X="186.56383" Y="1277.1377"/>
+		<pt X="192.25943" Y="1279.0994"/>
+		<pt X="199.41632" Y="1279.4432"/>
+		<pt X="206.56972" Y="1281.7386"/>
+		<pt X="214.20804" Y="1284.0348"/>
+		<pt X="217.13373" Y="1284.6923"/>
+		<pt X="219.38675" Y="1283.353"/>
+	</skpath>
+	<skpath from="216" to="218" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.93048" Y="1292.6768"/>
+		<pt X="217.966" Y="1291.2532"/>
+		<pt X="211.29951" Y="1287.9725"/>
+		<pt X="203.49066" Y="1287.6174"/>
+		<pt X="200.23936" Y="1285.8143"/>
+		<pt X="195.02885" Y="1286.6075"/>
+		<pt X="188.51694" Y="1284.4728"/>
+		<pt X="184.27655" Y="1284.7902"/>
+		<pt X="182.31485" Y="1286.7415"/>
+		<pt X="179.54155" Y="1286.5797"/>
+		<pt X="173.86441" Y="1285.252"/>
+	</skpath>
+	<skpath from="238" to="245" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="163.24599" Y="1280.1105"/>
+		<pt X="165.35977" Y="1274.0814"/>
+		<pt X="168.43994" Y="1265.1176"/>
+	</skpath>
+	<skpath from="244" to="219" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="167.81006" Y="1278.9504"/>
+		<pt X="169.43774" Y="1277.646"/>
+		<pt X="172.56506" Y="1275.2285"/>
+	</skpath>
+	<skpath from="244" to="238" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="167.81006" Y="1278.9504"/>
+		<pt X="163.24599" Y="1280.1105"/>
+	</skpath>
+	<skpath from="246" to="246" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="163.4274" Y="1283.3502"/>
+		<pt X="165.21388" Y="1282.6968"/>
+		<pt X="166.83846" Y="1282.3666"/>
+		<pt X="168.30255" Y="1283.1763"/>
+		<pt X="168.63152" Y="1285.7754"/>
+		<pt X="166.68585" Y="1287.8907"/>
+		<pt X="163.1186" Y="1290.9816"/>
+		<pt X="159.71007" Y="1292.2853"/>
+		<pt X="158.08492" Y="1292.1298"/>
+		<pt X="159.86478" Y="1288.8792"/>
+		<pt X="160.67064" Y="1286.1179"/>
+		<pt X="163.4274" Y="1283.3502"/>
+	</skpath>
+	<skpath from="238" to="246" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="163.24599" Y="1280.1105"/>
+		<pt X="163.4274" Y="1283.3502"/>
+	</skpath>
+	<skpath from="247" to="248" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.93962" Y="1310.8381"/>
+		<pt X="154.72667" Y="1311.4943"/>
+		<pt X="155.26692" Y="1312.2307"/>
+	</skpath>
+	<skpath from="234" to="235" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="194.42102" Y="1354.3464"/>
+		<pt X="195.56326" Y="1351.2631"/>
+	</skpath>
+	<skpath from="249" to="250" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="138.21143" Y="1393.1012"/>
+		<pt X="135.44363" Y="1390.6775"/>
+	</skpath>
+	<skpath from="251" to="252" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="146.59071" Y="1350.1235"/>
+		<pt X="143.01712" Y="1350.784"/>
+	</skpath>
+	<skpath from="253" to="254" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="144.69026" Y="1334.8411"/>
+		<pt X="142.09047" Y="1333.3751"/>
+	</skpath>
+	<skpath from="243" to="242" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="170.72551" Y="1266.2466"/>
+		<pt X="172.18196" Y="1262.8119"/>
+	</skpath>
+	<skpath from="241" to="240" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="172.98816" Y="1260.0262"/>
+		<pt X="170.54198" Y="1259.0597"/>
+	</skpath>
+	<skpath from="239" to="245" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="169.41104" Y="1262.666"/>
+		<pt X="168.43994" Y="1265.1176"/>
+	</skpath>
+	<skpath from="237" to="221" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="162.40297" Y="1337.7375"/>
+		<pt X="153.77554" Y="1330.2432"/>
+		<pt X="151.50967" Y="1329.4"/>
+	</skpath>
+	<skpath from="236" to="222" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.37663" Y="1328.4789"/>
+		<pt X="167.2781" Y="1327.4849"/>
+		<pt X="165.32614" Y="1326.9943"/>
+		<pt X="160.61201" Y="1327.9663"/>
+		<pt X="158.82208" Y="1327.64"/>
+		<pt X="157.6761" Y="1324.8948"/>
+	</skpath>
+	<skpath from="236" to="237" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.37663" Y="1328.4789"/>
+		<pt X="165.18204" Y="1333.9437"/>
+		<pt X="162.40297" Y="1337.7375"/>
+	</skpath>
+	<skpath from="229" to="230" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="149.86058" Y="1407.3151"/>
+		<pt X="147.81221" Y="1403.6763"/>
+		<pt X="148.2126" Y="1397.8883"/>
+		<pt X="149.61113" Y="1391.1069"/>
+		<pt X="152.39267" Y="1390.2397"/>
+	</skpath>
+	<skpath from="233" to="228" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.97592" Y="1369.2433"/>
+		<pt X="147.14456" Y="1365.195"/>
+		<pt X="147.31963" Y="1362.53"/>
+	</skpath>
+	<skpath from="233" to="227" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.97592" Y="1369.2433"/>
+		<pt X="153.23474" Y="1368.6765"/>
+	</skpath>
+	<skpath from="255" to="256" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="150.50005" Y="1373.1656"/>
+		<pt X="149.32188" Y="1383.9739"/>
+	</skpath>
+	<skpath from="230" to="256" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.39267" Y="1390.2397"/>
+		<pt X="149.32188" Y="1383.9739"/>
+	</skpath>
+	<skpath from="257" to="258" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.07391" Y="1332.907"/>
+		<pt X="184.68004" Y="1351.6886"/>
+	</skpath>
+	<skpath from="236" to="257" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.37663" Y="1328.4789"/>
+		<pt X="168.07391" Y="1332.907"/>
+	</skpath>
+	<skpath from="259" to="260" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="216.61505" Y="1287.2191"/>
+		<pt X="175.66693" Y="1279.9744"/>
+	</skpath>
+	<skpath from="216" to="259" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.93048" Y="1292.6768"/>
+		<pt X="216.61505" Y="1287.2191"/>
+	</skpath>
+	<skpath from="220" to="261" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="153.43712" Y="1308.5693"/>
+		<pt X="152.29395" Y="1304.0111"/>
+	</skpath>
+	<skpath from="262" to="247" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.74133" Y="1317.7236"/>
+		<pt X="147.58263" Y="1316.1936"/>
+		<pt X="149.86336" Y="1312.4729"/>
+		<pt X="152.93962" Y="1310.8381"/>
+	</skpath>
+	<skpath from="248" to="262" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="155.26692" Y="1312.2307"/>
+		<pt X="155.38525" Y="1313.6167"/>
+		<pt X="153.30295" Y="1317.691"/>
+		<pt X="150.6759" Y="1318.6312"/>
+		<pt X="148.56369" Y="1318.6267"/>
+		<pt X="147.74133" Y="1317.7236"/>
+	</skpath>
+	<skpath from="247" to="7" linestyle="invisible">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="152.93962" Y="1310.8381"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+	</skpath>
+	<skpath from="217" to="1" linestyle="invisible">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="219.38675" Y="1283.353"/>
+		<pt X="221.46942" Y="1287.4794" Z="886.1901"/>
+	</skpath>
+	<skpath from="216" to="1" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.93048" Y="1292.6768"/>
+		<pt X="221.46942" Y="1287.4794" Z="886.1901"/>
+	</skpath>
+	<skpath from="216" to="265" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="221.93048" Y="1292.6768"/>
+		<pt X="225.31407" Y="1292.3804"/>
+		<pt X="230.48619" Y="1290.8839"/>
+	</skpath>
+	<skpath from="265" to="264" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="230.48619" Y="1290.8839"/>
+		<pt X="240.7522" Y="1288.7262"/>
+		<pt X="254.88895" Y="1286.1917"/>
+		<pt X="265.52512" Y="1288.1956"/>
+	</skpath>
+	<skpath from="217" to="266" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="219.38675" Y="1283.353"/>
+		<pt X="227.49857" Y="1280.3672"/>
+	</skpath>
+	<skpath from="266" to="263" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="227.49857" Y="1280.3672"/>
+		<pt X="238.18512" Y="1275.6107"/>
+		<pt X="250.25534" Y="1271.7327"/>
+		<pt X="258.96027" Y="1271.6736"/>
+	</skpath>
+	<skpath from="267" to="266" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="229.3299" Y="1284.939"/>
+		<pt X="227.49857" Y="1280.3672"/>
+	</skpath>
+	<skpath from="268" to="120" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">7-11&space;Chamber</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="206.14809" Y="1653.5684"/>
+		<pt X="184.98657" Y="1645.4186"/>
+	</skpath>
+	<skpath from="269" to="98" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-73</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="282.10205" Y="890.9915"/>
+		<pt X="270.95062" Y="889.75824"/>
+	</skpath>
+	<skpath from="270" to="102" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-74</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="282.48517" Y="910.1285"/>
+		<pt X="267.0565" Y="905.22314"/>
+	</skpath>
+	<skpath from="271" to="176" linestyle="wall">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="160.7611" Y="1327.1794"/>
+		<pt X="160.55801" Y="1328.0365"/>
+		<pt X="159.59814" Y="1333.9823"/>
+		<pt X="159.52174" Y="1337.8044"/>
+	</skpath>
+	<skpath from="272" to="271" linestyle="wall">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="160.65656" Y="1324.7555"/>
+		<pt X="160.7611" Y="1327.1794"/>
+	</skpath>
+	<skpath from="202" to="272" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="153.7513" Y="1327.3898"/>
+		<pt X="153.62907" Y="1326.677"/>
+		<pt X="152.08958" Y="1324.4275"/>
+		<pt X="150.25183" Y="1322.3907"/>
+		<pt X="148.41211" Y="1319.5885"/>
+		<pt X="147.38432" Y="1317.8907"/>
+		<pt X="147.07791" Y="1315.7244"/>
+		<pt X="147.75217" Y="1314.151"/>
+		<pt X="149.48486" Y="1311.6823"/>
+		<pt X="151.64812" Y="1310.4878"/>
+		<pt X="154.02892" Y="1310.4843"/>
+		<pt X="155.90952" Y="1312.0117"/>
+		<pt X="158.26201" Y="1314.4332"/>
+		<pt X="159.59369" Y="1317.9581"/>
+		<pt X="159.93724" Y="1320.9711"/>
+		<pt X="160.62225" Y="1324.1102"/>
+		<pt X="160.65656" Y="1324.7555"/>
+	</skpath>
+	<skpath from="273" to="248" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">c4</pctext>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="159.64413" Y="1314.6807"/>
+		<pt X="155.26692" Y="1312.2307"/>
+	</skpath>
+	<skpath from="262" to="274" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="hole"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="147.74133" Y="1317.7236"/>
+		<pt X="149.59895" Y="1316.2555"/>
+	</skpath>
+	<skpath from="71" to="275" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="178.16942" Y="989.07935" Z="666.89014"/>
+		<pt X="177.92871" Y="986.4212"/>
+		<pt X="178.675" Y="983.7241"/>
+		<pt X="181.85823" Y="981.0569"/>
+		<pt X="183.27406" Y="978.9332"/>
+		<pt X="181.9179" Y="976.5467"/>
+		<pt X="179.36722" Y="976.17163"/>
+		<pt X="176.28375" Y="977.3648"/>
+	</skpath>
+	<skpath from="276" to="277" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="174.41649" Y="978.34894"/>
+		<pt X="171.67528" Y="979.88153"/>
+	</skpath>
+	<skpath from="278" to="279" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="169.43164" Y="977.0329"/>
+		<pt X="173.05933" Y="975.0503"/>
+	</skpath>
+	<skpath from="280" to="281" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="175.36717" Y="974.2772"/>
+		<pt X="179.65715" Y="972.8746"/>
+		<pt X="182.8632" Y="972.6988"/>
+		<pt X="184.6508" Y="973.84924"/>
+		<pt X="185.45694" Y="975.881"/>
+		<pt X="186.70947" Y="978.14233"/>
+		<pt X="188.7024" Y="978.1736"/>
+		<pt X="191.43309" Y="975.86224"/>
+		<pt X="194.15993" Y="973.43945"/>
+		<pt X="198.00398" Y="972.0511"/>
+		<pt X="200.62685" Y="970.8775"/>
+	</skpath>
+	<skpath from="71" to="282" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="178.16942" Y="989.07935" Z="666.89014"/>
+		<pt X="179.10582" Y="992.75085"/>
+		<pt X="181.23824" Y="995.37225"/>
+		<pt X="183.78189" Y="995.0674"/>
+		<pt X="186.8451" Y="991.7272"/>
+		<pt X="189.35426" Y="988.2665"/>
+		<pt X="195.1724" Y="983.72186"/>
+		<pt X="200.34393" Y="980.51886"/>
+		<pt X="204.98097" Y="978.5549"/>
+	</skpath>
+	<skpath from="282" to="69" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="204.98097" Y="978.5549"/>
+		<pt X="202.56943" Y="976.6793" Z="635.4901"/>
+	</skpath>
+	<skpath from="69" to="281" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="202.56943" Y="976.6793" Z="635.4901"/>
+		<pt X="201.4664" Y="974.13196"/>
+		<pt X="200.62685" Y="970.8775"/>
+	</skpath>
+	<skpath from="275" to="276" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="176.28375" Y="977.3648"/>
+		<pt X="174.41649" Y="978.34894"/>
+	</skpath>
+	<skpath from="277" to="278" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="171.67528" Y="979.88153"/>
+		<pt X="169.43164" Y="977.0329"/>
+	</skpath>
+	<skpath from="279" to="280" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="173.05933" Y="975.0503"/>
+		<pt X="175.36717" Y="974.2772"/>
+	</skpath>
+	<skpath from="79" to="282" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="212.23714" Y="977.33606"/>
+		<pt X="204.98097" Y="978.5549"/>
+	</skpath>
+	<skpath from="73" to="281" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="204only2008"/>
+		<pt X="213.0335" Y="958.36017"/>
+		<pt X="210.60013" Y="961.368"/>
+		<pt X="207.3444" Y="965.0926"/>
+		<pt X="205.16594" Y="968.3522"/>
+		<pt X="200.62685" Y="970.8775"/>
+	</skpath>
+	<skpath from="119" to="283" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="158.24976" Y="1664.7808"/>
+		<pt X="164.14151" Y="1662.0609"/>
+		<pt X="168.09338" Y="1657.4103"/>
+	</skpath>
+	<skpath from="283" to="215" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="168.09338" Y="1657.4103"/>
+		<pt X="168.13948" Y="1652.8573"/>
+		<pt X="170.39517" Y="1643.1395"/>
+	</skpath>
+	<skpath from="120" to="284" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="184.98657" Y="1645.4186"/>
+		<pt X="185.64484" Y="1652.8518"/>
+		<pt X="186.74435" Y="1655.6595"/>
+	</skpath>
+	<skpath from="284" to="126" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="186.74435" Y="1655.6595"/>
+		<pt X="190.57733" Y="1659.6503"/>
+		<pt X="200.2994" Y="1661.5059"/>
+		<pt X="215.96378" Y="1661.7958"/>
+		<pt X="226.52405" Y="1662.9142"/>
+		<pt X="236.12262" Y="1672.6646"/>
+		<pt X="236.11948" Y="1685.6471"/>
+		<pt X="224.70485" Y="1698.4049"/>
+		<pt X="209.26099" Y="1705.213"/>
+		<pt X="194.3861" Y="1708.3701"/>
+		<pt X="187.28758" Y="1716.9381"/>
+		<pt X="181.78568" Y="1733.8705"/>
+		<pt X="183.10835" Y="1749.0684"/>
+		<pt X="185.27834" Y="1752.8649"/>
+	</skpath>
+	<skpath from="284" to="283" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="186.74435" Y="1655.6595"/>
+		<pt X="168.09338" Y="1657.4103"/>
+	</skpath>
+	<skpath from="285" to="286" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="123.242355" Y="1677.7251"/>
+		<pt X="37.78309" Y="1650.745"/>
+	</skpath>
+	<skpath from="285" to="123" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="123.242355" Y="1677.7251"/>
+		<pt X="125.08562" Y="1682.3002"/>
+	</skpath>
+	<skpath from="122" to="287" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="34.725533" Y="1676.8068"/>
+		<pt X="41.925076" Y="1667.0087"/>
+		<pt X="40.257004" Y="1659.5562"/>
+	</skpath>
+	<skpath from="288" to="210" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">c5</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="142.40764" Y="1343.7104"/>
+		<pt X="156.7715" Y="1347.2197"/>
+	</skpath>
+	<skpath from="289" to="124" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="1.0">01-68A</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="126.874695" Y="1729.5154"/>
+		<pt X="147.17279" Y="1726.2036"/>
+	</skpath>
+	<skpath from="290" to="192" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">01-72X</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="204only2008"/>
+		<pt X="231.57124" Y="1709.8375"/>
+		<pt X="164.68138" Y="1701.6818"/>
+	</skpath>
+	<skpath from="291" to="66" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="1.0">p100&newline;Brian&apostrophe;s&newline;Phat&newline;Shaft</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="287.41553" Y="946.8797"/>
+		<pt X="243.96942" Y="962.27936" Z="-70.0099"/>
+	</skpath>
+	<skpath from="292" to="110" linestyle="connective" splined="1">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-76</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="204only2008"/>
+		<pt X="241.65062" Y="1033.359"/>
+		<pt X="231.02425" Y="1021.6095"/>
+	</skpath>
+	<skpath from="293" to="198" linestyle="connective" splined="1">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">01-71C</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="143.40102" Y="1457.155"/>
+		<pt X="151.29408" Y="1461.4731"/>
+	</skpath>
+	<skpath from="3" to="294" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="146.06943" Y="1407.3793" Z="853.2901"/>
+		<pt X="145.89691" Y="1409.0533"/>
+		<pt X="145.61961" Y="1414.1721"/>
+	</skpath>
+	<skpath from="229" to="295" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="149.86058" Y="1407.3151"/>
+		<pt X="148.5316" Y="1411.1296"/>
+		<pt X="148.80894" Y="1415.1416"/>
+	</skpath>
+	<skpath from="231" to="249" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="141.62859" Y="1389.6848"/>
+		<pt X="140.20271" Y="1391.3317"/>
+		<pt X="138.21143" Y="1393.1012"/>
+	</skpath>
+	<skpath from="232" to="250" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="140.4904" Y="1386.45"/>
+		<pt X="138.06758" Y="1388.4901"/>
+		<pt X="135.44363" Y="1390.6775"/>
+	</skpath>
+	<skpath from="296" to="230" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="149.94337" Y="1400.5795"/>
+		<pt X="152.39267" Y="1390.2397"/>
+	</skpath>
+	<skpath from="297" to="296" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">99-19C</pctext>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="140.20312" Y="1408.162"/>
+		<pt X="149.94337" Y="1400.5795"/>
+	</skpath>
+	<skpath from="295" to="294" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="148.80894" Y="1415.1416"/>
+		<pt X="145.61961" Y="1414.1721"/>
+	</skpath>
+	<skpath from="223" to="298" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="180.7205" Y="1350.156"/>
+		<pt X="180.94916" Y="1345.8933"/>
+		<pt X="170.25659" Y="1337.8629"/>
+	</skpath>
+	<skpath from="299" to="226" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="150.87518" Y="1362.0898"/>
+		<pt X="155.26091" Y="1361.2655"/>
+		<pt X="161.59535" Y="1360.7616"/>
+		<pt X="166.2991" Y="1360.7577"/>
+		<pt X="170.59013" Y="1359.101"/>
+	</skpath>
+	<skpath from="228" to="252" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="147.31963" Y="1362.53"/>
+		<pt X="146.17857" Y="1357.7917"/>
+		<pt X="143.89299" Y="1352.5603"/>
+		<pt X="143.01712" Y="1350.784"/>
+	</skpath>
+	<skpath from="251" to="299" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="146.59071" Y="1350.1235"/>
+		<pt X="148.61086" Y="1354.2849"/>
+		<pt X="150.87518" Y="1362.0898"/>
+	</skpath>
+	<skpath from="300" to="7" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="148.57608" Y="1326.1564"/>
+		<pt X="148.24846" Y="1324.199"/>
+		<pt X="146.29132" Y="1319.4796"/>
+		<pt X="144.01202" Y="1318.3445"/>
+		<pt X="144.00754" Y="1316.7128"/>
+		<pt X="145.78726" Y="1312.7932"/>
+		<pt X="147.06943" Y="1309.1794" Z="853.8901"/>
+	</skpath>
+	<skpath from="221" to="253" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="151.50967" Y="1329.4"/>
+		<pt X="149.94365" Y="1330.1847"/>
+		<pt X="147.49873" Y="1332.634"/>
+		<pt X="144.69026" Y="1334.8411"/>
+	</skpath>
+	<skpath from="300" to="254" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="148.57608" Y="1326.1564"/>
+		<pt X="146.62302" Y="1328.6003"/>
+		<pt X="143.82802" Y="1331.4011"/>
+		<pt X="142.09047" Y="1333.3751"/>
+	</skpath>
+	<skpath from="6" to="221" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="204only2008"/>
+		<pt X="151.76942" Y="1327.9792" Z="871.89014"/>
+		<pt X="151.50967" Y="1329.4"/>
+	</skpath>
+	<skpath from="301" to="19" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Merry&newline;Fucking&newline;Christmas</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="204only2008"/>
+		<pt X="210.90408" Y="1435.7329"/>
+		<pt X="165.46942" Y="1451.8793" Z="743.39014"/>
+	</skpath>
+	<skpath from="302" to="303" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="160.10622" Y="1916.2269"/>
+		<pt X="170.36766" Y="1931.4823"/>
+	</skpath>
+	<skpath from="303" to="304" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="170.36766" Y="1931.4823"/>
+		<pt X="178.83125" Y="1916.4904"/>
+	</skpath>
+	<skpath from="304" to="305" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="178.83125" Y="1916.4904"/>
+		<pt X="165.79927" Y="1897.0464"/>
+	</skpath>
+	<skpath from="302" to="305" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="160.10622" Y="1916.2269"/>
+		<pt X="165.79927" Y="1897.0464"/>
+	</skpath>
+	<skpath from="306" to="307" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="194.78674" Y="1832.3597"/>
+		<pt X="205.77292" Y="1841.9076"/>
+	</skpath>
+	<skpath from="307" to="308" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="205.77292" Y="1841.9076"/>
+		<pt X="210.43866" Y="1830.2882"/>
+	</skpath>
+	<skpath from="308" to="309" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="210.43866" Y="1830.2882"/>
+		<pt X="197.42484" Y="1819.376"/>
+	</skpath>
+	<skpath from="309" to="309" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="197.42484" Y="1819.376"/>
+		<pt X="197.42484" Y="1819.376"/>
+	</skpath>
+	<skpath from="310" to="311" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="83.79467" Y="1944.5917"/>
+		<pt X="92.149895" Y="1928.1163"/>
+	</skpath>
+	<skpath from="310" to="312" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="83.79467" Y="1944.5917"/>
+		<pt X="97.50155" Y="1947.555"/>
+		<pt X="111.41724" Y="1958.8246"/>
+		<pt X="118.3877" Y="1967.4448"/>
+	</skpath>
+	<skpath from="312" to="313" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="118.3877" Y="1967.4448"/>
+		<pt X="130.47234" Y="1960.0658"/>
+		<pt X="152.70793" Y="1956.7941"/>
+		<pt X="165.65877" Y="1963.0065"/>
+	</skpath>
+	<skpath from="313" to="314" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="165.65877" Y="1963.0065"/>
+		<pt X="160.42397" Y="1949.6608"/>
+		<pt X="158.73431" Y="1941.0875"/>
+	</skpath>
+	<skpath from="314" to="302" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="158.73431" Y="1941.0875"/>
+		<pt X="158.53345" Y="1933.3228"/>
+		<pt X="160.10622" Y="1916.2269"/>
+	</skpath>
+	<skpath from="311" to="314" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="92.149895" Y="1928.1163"/>
+		<pt X="105.15294" Y="1928.4484"/>
+		<pt X="122.22651" Y="1928.5881"/>
+		<pt X="143.25679" Y="1931.4912"/>
+		<pt X="158.73431" Y="1941.0875"/>
+	</skpath>
+	<skpath from="315" to="316" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="217.15294" Y="1820.7421"/>
+		<pt X="226.00024" Y="1809.8711"/>
+	</skpath>
+	<skpath from="317" to="315" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="210.34543" Y="1811.22"/>
+		<pt X="217.15294" Y="1820.7421"/>
+	</skpath>
+	<skpath from="316" to="318" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="226.00024" Y="1809.8711"/>
+		<pt X="219.32779" Y="1802.358"/>
+	</skpath>
+	<skpath from="317" to="318" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="210.34543" Y="1811.22"/>
+		<pt X="219.32779" Y="1802.358"/>
+	</skpath>
+	<skpath from="319" to="320" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="138.68335" Y="1766.4032"/>
+		<pt X="144.43777" Y="1758.9247"/>
+	</skpath>
+	<skpath from="321" to="322" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="97.507484" Y="1736.5217"/>
+		<pt X="98.207" Y="1725.5936"/>
+	</skpath>
+	<skpath from="321" to="323" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="97.507484" Y="1736.5217"/>
+		<pt X="88.77212" Y="1736.6848"/>
+		<pt X="81.7052" Y="1737.0957"/>
+		<pt X="80.04736" Y="1741.4219"/>
+	</skpath>
+	<skpath from="323" to="323" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="80.04736" Y="1741.4219"/>
+		<pt X="80.04736" Y="1741.4219"/>
+	</skpath>
+	<skpath from="324" to="325" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="65.99164" Y="1739.723"/>
+		<pt X="66.204926" Y="1736.4747"/>
+		<pt X="70.07584" Y="1731.4199"/>
+		<pt X="76.31336" Y="1727.8479"/>
+		<pt X="77.9078" Y="1727.3431"/>
+	</skpath>
+	<skpath from="325" to="322" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="77.9078" Y="1727.3431"/>
+		<pt X="87.263245" Y="1726.3835"/>
+		<pt X="98.207" Y="1725.5936"/>
+	</skpath>
+	<skpath from="320" to="326" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="144.43777" Y="1758.9247"/>
+		<pt X="136.65889" Y="1751.707"/>
+	</skpath>
+	<skpath from="326" to="327" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="136.65889" Y="1751.707"/>
+		<pt X="134.90733" Y="1748.7214"/>
+		<pt X="133.51596" Y="1737.8468"/>
+		<pt X="128.73732" Y="1729.7025"/>
+		<pt X="125.38162" Y="1727.6587"/>
+	</skpath>
+	<skpath from="318" to="328" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="219.32779" Y="1802.358"/>
+		<pt X="215.42175" Y="1798.0424"/>
+	</skpath>
+	<skpath from="329" to="330" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="203.553" Y="1802.3715"/>
+		<pt X="196.01431" Y="1801.6523"/>
+		<pt X="195.02838" Y="1800.8627"/>
+	</skpath>
+	<skpath from="311" to="331" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="92.149895" Y="1928.1163"/>
+		<pt X="105.00109" Y="1902.997"/>
+		<pt X="113.25599" Y="1888.0956"/>
+	</skpath>
+	<skpath from="331" to="332" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="113.25599" Y="1888.0956"/>
+		<pt X="125.143845" Y="1867.1753"/>
+		<pt X="140.48132" Y="1846.5925"/>
+		<pt X="157.2324" Y="1817.5367"/>
+		<pt X="161.90396" Y="1805.1228"/>
+		<pt X="161.9248" Y="1804.0752"/>
+	</skpath>
+	<skpath from="333" to="334" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="119.1478" Y="1897.7023"/>
+		<pt X="134.62242" Y="1885.822"/>
+		<pt X="145.02777" Y="1898.3223"/>
+	</skpath>
+	<skpath from="331" to="333" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="113.25599" Y="1888.0956"/>
+		<pt X="119.1478" Y="1897.7023"/>
+	</skpath>
+	<skpath from="335" to="336" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="91.708664" Y="1607.2473"/>
+		<pt X="89.82984" Y="1577.5845"/>
+		<pt X="90.17699" Y="1562.3829"/>
+	</skpath>
+	<skpath from="337" to="338" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="48.03502" Y="1604.7628"/>
+		<pt X="33.518654" Y="1587.831"/>
+	</skpath>
+	<skpath from="339" to="340" linestyle="detail" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="68.205284" Y="1585.6299"/>
+		<pt X="85.61732" Y="1600.5167"/>
+	</skpath>
+	<skpath from="340" to="341" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="85.61732" Y="1600.5167"/>
+		<pt X="73.00563" Y="1611.9517"/>
+	</skpath>
+	<skpath from="340" to="342" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="85.61732" Y="1600.5167"/>
+		<pt X="87.272255" Y="1609.5767"/>
+		<pt X="73.29049" Y="1621.0243"/>
+	</skpath>
+	<skpath from="342" to="341" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="73.29049" Y="1621.0243"/>
+		<pt X="73.00563" Y="1611.9517"/>
+	</skpath>
+	<skpath from="341" to="343" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="73.00563" Y="1611.9517"/>
+		<pt X="56.572166" Y="1606.1108"/>
+	</skpath>
+	<skpath from="343" to="344" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="56.572166" Y="1606.1108"/>
+		<pt X="67.57283" Y="1586.3627"/>
+	</skpath>
+	<skpath from="343" to="342" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="56.572166" Y="1606.1108"/>
+		<pt X="56.06986" Y="1611.696"/>
+		<pt X="73.29049" Y="1621.0243"/>
+	</skpath>
+	<skpath from="335" to="340" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="91.708664" Y="1607.2473"/>
+		<pt X="85.61732" Y="1600.5167"/>
+	</skpath>
+	<skpath from="332" to="345" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="161.9248" Y="1804.0752"/>
+		<pt X="156.96808" Y="1789.3806"/>
+		<pt X="130.46106" Y="1751.0541"/>
+		<pt X="104.185905" Y="1709.0159"/>
+		<pt X="76.64637" Y="1654.8099"/>
+		<pt X="73.21096" Y="1647.2584"/>
+	</skpath>
+	<skpath from="345" to="346" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="73.21096" Y="1647.2584"/>
+		<pt X="64.31902" Y="1627.5616"/>
+	</skpath>
+	<skpath from="346" to="337" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="64.31902" Y="1627.5616"/>
+		<pt X="60.78782" Y="1621.1902"/>
+		<pt X="48.03502" Y="1604.7628"/>
+	</skpath>
+	<skpath from="347" to="335" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="94.15324" Y="1614.7692"/>
+		<pt X="91.708664" Y="1607.2473"/>
+	</skpath>
+	<skpath from="347" to="346" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="94.15324" Y="1614.7692"/>
+		<pt X="64.31902" Y="1627.5616"/>
+	</skpath>
+	<skpath from="309" to="348" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="197.42484" Y="1819.376"/>
+		<pt X="200.12259" Y="1811.2006"/>
+		<pt X="203.91203" Y="1810.1359"/>
+	</skpath>
+	<skpath from="348" to="317" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="203.91203" Y="1810.1359"/>
+		<pt X="210.34543" Y="1811.22"/>
+	</skpath>
+	<skpath from="348" to="329" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="203.91203" Y="1810.1359"/>
+		<pt X="203.553" Y="1802.3715"/>
+	</skpath>
+	<skpath from="306" to="309" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="194.78674" Y="1832.3597"/>
+		<pt X="197.42484" Y="1819.376"/>
+	</skpath>
+	<skpath from="305" to="349" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="165.79927" Y="1897.0464"/>
+		<pt X="177.68742" Y="1874.7766"/>
+	</skpath>
+	<skpath from="349" to="306" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="177.68742" Y="1874.7766"/>
+		<pt X="178.95284" Y="1872.3727"/>
+		<pt X="186.92238" Y="1856.4392"/>
+		<pt X="194.78674" Y="1832.3597"/>
+	</skpath>
+	<skpath from="328" to="350" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="215.42175" Y="1798.0424"/>
+		<pt X="208.3198" Y="1790.8328"/>
+		<pt X="195.49992" Y="1778.6063"/>
+	</skpath>
+	<skpath from="350" to="351" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="195.49992" Y="1778.6063"/>
+		<pt X="187.92615" Y="1773.8425"/>
+		<pt X="177.6807" Y="1771.8896"/>
+	</skpath>
+	<skpath from="349" to="352" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="bigboulders"/>
+			<pcsymbol rname="bigboulders"/>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="177.68742" Y="1874.7766"/>
+		<pt X="160.6768" Y="1863.9132"/>
+	</skpath>
+	<skpath from="352" to="353" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="160.6768" Y="1863.9132"/>
+		<pt X="151.95592" Y="1878.9131"/>
+	</skpath>
+	<skpath from="350" to="354" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="195.49992" Y="1778.6063"/>
+		<pt X="190.35901" Y="1784.4766"/>
+	</skpath>
+	<skpath from="354" to="355" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="190.35901" Y="1784.4766"/>
+		<pt X="200.67714" Y="1791.6527"/>
+	</skpath>
+	<skpath from="351" to="356" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="177.6807" Y="1771.8896"/>
+		<pt X="167.52193" Y="1771.8083"/>
+		<pt X="159.74207" Y="1771.4087"/>
+	</skpath>
+	<skpath from="356" to="357" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="159.74207" Y="1771.4087"/>
+		<pt X="157.3397" Y="1770.4828"/>
+		<pt X="146.82423" Y="1761.357"/>
+	</skpath>
+	<skpath from="357" to="320" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="146.82423" Y="1761.357"/>
+		<pt X="144.43777" Y="1758.9247"/>
+	</skpath>
+	<skpath from="357" to="358" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="146.82423" Y="1761.357"/>
+		<pt X="144.05894" Y="1764.6881"/>
+	</skpath>
+	<skpath from="358" to="359" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="144.05894" Y="1764.6881"/>
+		<pt X="149.33325" Y="1769.5764"/>
+	</skpath>
+	<skpath from="360" to="360" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="152.84708" Y="1770.9452"/>
+		<pt X="156.3606" Y="1772.1167"/>
+		<pt X="158.70674" Y="1776.0271"/>
+		<pt X="153.82368" Y="1776.6135"/>
+		<pt X="150.11116" Y="1774.6577"/>
+		<pt X="149.52661" Y="1770.7488"/>
+		<pt X="152.84708" Y="1770.9452"/>
+	</skpath>
+	<skpath from="360" to="356" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="152.84708" Y="1770.9452"/>
+		<pt X="159.74207" Y="1771.4087"/>
+	</skpath>
+	<skpath from="327" to="361" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="125.38162" Y="1727.6587"/>
+		<pt X="115.849335" Y="1726.3066"/>
+		<pt X="107.70072" Y="1725.7806"/>
+	</skpath>
+	<skpath from="361" to="322" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="107.70072" Y="1725.7806"/>
+		<pt X="98.207" Y="1725.5936"/>
+	</skpath>
+	<skpath from="361" to="362" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="107.70072" Y="1725.7806"/>
+		<pt X="107.09332" Y="1730.6738"/>
+	</skpath>
+	<skpath from="362" to="363" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="107.09332" Y="1730.6738"/>
+		<pt X="115.679985" Y="1730.8855"/>
+	</skpath>
+	<skpath from="323" to="364" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="80.04736" Y="1741.4219"/>
+		<pt X="73.74785" Y="1737.7739"/>
+	</skpath>
+	<skpath from="364" to="365" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="73.74785" Y="1737.7739"/>
+		<pt X="84.41677" Y="1731.5773"/>
+	</skpath>
+	<skpath from="366" to="367" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="mud"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="173.60896" Y="1755.6772"/>
+		<pt X="159.54167" Y="1754.7317"/>
+	</skpath>
+	<skpath from="368" to="347" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="101.30193" Y="1633.3015"/>
+		<pt X="96.982834" Y="1622.5869"/>
+		<pt X="94.15324" Y="1614.7692"/>
+	</skpath>
+	<skpath from="366" to="369" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="173.60896" Y="1755.6772"/>
+		<pt X="169.18422" Y="1748.1328"/>
+		<pt X="148.00664" Y="1713.0795"/>
+		<pt X="128.99947" Y="1687.5411"/>
+	</skpath>
+	<skpath from="369" to="368" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="128.99947" Y="1687.5411"/>
+		<pt X="127.71762" Y="1685.6163"/>
+		<pt X="111.51364" Y="1656.7402"/>
+		<pt X="101.30193" Y="1633.3015"/>
+	</skpath>
+	<skpath from="330" to="370" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="195.02838" Y="1800.8627"/>
+		<pt X="191.8426" Y="1792.6514"/>
+	</skpath>
+	<skpath from="370" to="366" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="191.8426" Y="1792.6514"/>
+		<pt X="184.99138" Y="1776.4392"/>
+		<pt X="173.60896" Y="1755.6772"/>
+	</skpath>
+	<skpath from="370" to="332" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="191.8426" Y="1792.6514"/>
+		<pt X="161.9248" Y="1804.0752"/>
+	</skpath>
+	<skpath from="57" to="323" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="78.269424" Y="1739.7793" Z="267.3901"/>
+		<pt X="80.04736" Y="1741.4219"/>
+	</skpath>
+	<skpath from="324" to="45" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="65.99164" Y="1739.723"/>
+		<pt X="69.36942" Y="1743.3794" Z="241.09009"/>
+	</skpath>
+	<skpath from="327" to="47" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="125.38162" Y="1727.6587"/>
+		<pt X="123.36943" Y="1733.1793" Z="74.2901"/>
+	</skpath>
+	<skpath from="326" to="48" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="136.65889" Y="1751.707"/>
+		<pt X="133.36943" Y="1754.4794" Z="40.690098"/>
+	</skpath>
+	<skpath from="50" to="351" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="174.66942" Y="1773.5792" Z="-55.6099"/>
+		<pt X="177.6807" Y="1771.8896"/>
+	</skpath>
+	<skpath from="329" to="371" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="203.553" Y="1802.3715"/>
+		<pt X="195.076" Y="1793.5085"/>
+		<pt X="186.01433" Y="1787.6001"/>
+	</skpath>
+	<skpath from="51" to="328" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="210.56943" Y="1804.7793" Z="-86.5099"/>
+		<pt X="215.42175" Y="1798.0424"/>
+	</skpath>
+	<skpath from="52" to="309" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="193.86942" Y="1810.4792" Z="-86.809906"/>
+		<pt X="197.42484" Y="1819.376"/>
+	</skpath>
+	<skpath from="319" to="372" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="138.68335" Y="1766.4032"/>
+		<pt X="146.50652" Y="1775.224"/>
+		<pt X="150.94807" Y="1781.0276"/>
+		<pt X="160.3273" Y="1785.2289"/>
+		<pt X="163.17769" Y="1785.696"/>
+	</skpath>
+	<skpath from="372" to="371" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="163.17769" Y="1785.696"/>
+		<pt X="170.44249" Y="1785.5942"/>
+		<pt X="185.5098" Y="1787.5958"/>
+		<pt X="186.01433" Y="1787.6001"/>
+	</skpath>
+	<skpath from="372" to="49" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="163.17769" Y="1785.696"/>
+		<pt X="163.16942" Y="1783.2793" Z="-44.309902"/>
+	</skpath>
+	<skpath from="319" to="373" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="138.68335" Y="1766.4032"/>
+		<pt X="136.96016" Y="1765.0416"/>
+		<pt X="124.65377" Y="1756.9987"/>
+		<pt X="123.31196" Y="1749.487"/>
+		<pt X="121.94335" Y="1739.262"/>
+	</skpath>
+	<skpath from="373" to="321" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="121.94335" Y="1739.262"/>
+		<pt X="112.44065" Y="1735.1532"/>
+		<pt X="97.507484" Y="1736.5217"/>
+	</skpath>
+	<skpath from="373" to="374" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="121.94335" Y="1739.262"/>
+		<pt X="126.16517" Y="1736.95"/>
+	</skpath>
+	<skpath from="374" to="375" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="126.16517" Y="1736.95"/>
+		<pt X="129.13261" Y="1747.129"/>
+	</skpath>
+	<skpath from="333" to="334" linestyle="detail">
+		<importfrom subname="204only2008"/>
+		<pt X="119.1478" Y="1897.7023"/>
+		<pt X="122.38768" Y="1907.0359"/>
+		<pt X="138.59688" Y="1912.1975"/>
+		<pt X="145.02777" Y="1898.3223"/>
+	</skpath>
+	<skpath from="376" to="377" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="58.08888" Y="1830.2441"/>
+		<pt X="52.582657" Y="1844.924"/>
+	</skpath>
+	<skpath from="378" to="379" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="45.507496" Y="1842.3623"/>
+		<pt X="50.449272" Y="1827.1104"/>
+	</skpath>
+	<skpath from="379" to="380" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="50.449272" Y="1827.1104"/>
+		<pt X="55.98933" Y="1807.5433"/>
+		<pt X="62.6422" Y="1790.8427"/>
+		<pt X="68.429924" Y="1775.5188"/>
+		<pt X="67.84827" Y="1776.9518"/>
+	</skpath>
+	<skpath from="376" to="381" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="58.08888" Y="1830.2441"/>
+		<pt X="63.58457" Y="1816.4272"/>
+		<pt X="68.22577" Y="1802.615"/>
+		<pt X="71.03591" Y="1795.3488"/>
+	</skpath>
+	<skpath from="381" to="382" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="71.03591" Y="1795.3488"/>
+		<pt X="75.42776" Y="1783.9341"/>
+		<pt X="77.69605" Y="1775.9436"/>
+	</skpath>
+	<skpath from="381" to="383" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="71.03591" Y="1795.3488"/>
+		<pt X="66.300545" Y="1793.7109"/>
+	</skpath>
+	<skpath from="383" to="383" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="66.300545" Y="1793.7109"/>
+		<pt X="67.152115" Y="1793.9954"/>
+		<pt X="66.54532" Y="1799.4591"/>
+		<pt X="63.935524" Y="1806.942"/>
+		<pt X="56.990887" Y="1824.7883"/>
+		<pt X="53.844013" Y="1827.9618"/>
+		<pt X="53.004776" Y="1825.9531"/>
+		<pt X="54.18351" Y="1819.6255"/>
+		<pt X="55.920147" Y="1815.0199"/>
+		<pt X="58.52819" Y="1807.5366"/>
+		<pt X="61.412533" Y="1801.4897"/>
+		<pt X="66.300545" Y="1793.7109"/>
+	</skpath>
+	<skpath from="378" to="377" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="45.507496" Y="1842.3623"/>
+		<pt X="52.582657" Y="1844.924"/>
+	</skpath>
+	<skpath from="384" to="385" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="116.24034" Y="1776.2349"/>
+		<pt X="126.26114" Y="1772.7762"/>
+		<pt X="130.58844" Y="1767.2972"/>
+		<pt X="135.78091" Y="1760.382"/>
+		<pt X="136.65161" Y="1758.6565"/>
+		<pt X="131.86382" Y="1753.2379"/>
+	</skpath>
+	<skpath from="386" to="35" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="61.68714" Y="1699.6443"/>
+		<pt X="64.269424" Y="1701.5793" Z="291.0901"/>
+	</skpath>
+	<skpath from="387" to="388" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="99.13113" Y="1667.749"/>
+		<pt X="92.62857" Y="1672.5793"/>
+		<pt X="84.70444" Y="1675.4313"/>
+		<pt X="83.85489" Y="1675.7164"/>
+	</skpath>
+	<skpath from="388" to="37" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="83.85489" Y="1675.7164"/>
+		<pt X="81.46942" Y="1673.8794" Z="298.5901"/>
+	</skpath>
+	<skpath from="38" to="389" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="96.169426" Y="1668.7793" Z="297.4901"/>
+		<pt X="96.29077" Y="1664.3563"/>
+	</skpath>
+	<skpath from="389" to="387" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="96.29077" Y="1664.3563"/>
+		<pt X="99.13113" Y="1667.749"/>
+	</skpath>
+	<skpath from="386" to="390" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="61.68714" Y="1699.6443"/>
+		<pt X="67.936226" Y="1691.5544"/>
+		<pt X="73.6168" Y="1685.3085"/>
+	</skpath>
+	<skpath from="390" to="389" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="73.6168" Y="1685.3085"/>
+		<pt X="75.63178" Y="1675.9779"/>
+		<pt X="80.17529" Y="1670.6213"/>
+		<pt X="88.09066" Y="1667.7811"/>
+		<pt X="94.310555" Y="1665.211"/>
+		<pt X="96.29077" Y="1664.3563"/>
+	</skpath>
+	<skpath from="390" to="36" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="73.6168" Y="1685.3085"/>
+		<pt X="76.769424" Y="1689.0793" Z="286.99008"/>
+	</skpath>
+	<skpath from="388" to="391" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="83.85489" Y="1675.7164"/>
+		<pt X="81.57035" Y="1681.9408"/>
+		<pt X="80.42674" Y="1685.3302"/>
+		<pt X="77.29659" Y="1690.4102"/>
+		<pt X="74.1801" Y="1693.8057"/>
+		<pt X="68.79858" Y="1700.0647"/>
+		<pt X="65.10704" Y="1703.4718"/>
+		<pt X="64.86763" Y="1715.9662"/>
+		<pt X="64.88117" Y="1719.0966"/>
+		<pt X="65.742546" Y="1722.422"/>
+	</skpath>
+	<skpath from="391" to="392" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="65.742546" Y="1722.422"/>
+		<pt X="66.8176" Y="1723.7715"/>
+		<pt X="71.189766" Y="1725.4423"/>
+		<pt X="79.40455" Y="1727.5668"/>
+		<pt X="78.94886" Y="1720.6857"/>
+	</skpath>
+	<skpath from="391" to="34" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="65.742546" Y="1722.422"/>
+		<pt X="62.669426" Y="1724.8793" Z="311.2901"/>
+	</skpath>
+	<skpath from="393" to="31" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="116.064705" Y="1653.9287"/>
+		<pt X="129.36942" Y="1655.4792" Z="334.0901"/>
+	</skpath>
+	<skpath from="392" to="394" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="78.94886" Y="1720.6857"/>
+		<pt X="78.90639" Y="1705.5015"/>
+		<pt X="81.65711" Y="1694.1965"/>
+		<pt X="86.946976" Y="1681.8549"/>
+	</skpath>
+	<skpath from="394" to="393" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="86.946976" Y="1681.8549"/>
+		<pt X="106.16019" Y="1662.6947"/>
+		<pt X="116.064705" Y="1653.9287"/>
+	</skpath>
+	<skpath from="394" to="32" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="bigboulders"/>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="86.946976" Y="1681.8549"/>
+		<pt X="89.46461" Y="1685.3131"/>
+		<pt X="90.66942" Y="1685.6793" Z="306.7901"/>
+	</skpath>
+	<skpath from="395" to="395" linestyle="detail" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="91.44822" Y="1763.5856"/>
+		<pt X="96.8202" Y="1763.1604"/>
+		<pt X="104.05478" Y="1766.4751"/>
+		<pt X="110.231445" Y="1767.4955"/>
+		<pt X="110.3948" Y="1771.4716"/>
+		<pt X="107.27829" Y="1771.9597"/>
+		<pt X="101.08783" Y="1771.5248"/>
+		<pt X="95.76847" Y="1770.2666"/>
+		<pt X="91.054054" Y="1767.5928"/>
+		<pt X="91.44822" Y="1763.5856"/>
+	</skpath>
+	<skpath from="396" to="395" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="97.135796" Y="1762.0339"/>
+		<pt X="91.44822" Y="1763.5856"/>
+	</skpath>
+	<skpath from="397" to="397" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="69.56533" Y="1777.2676"/>
+		<pt X="69.56533" Y="1777.2676"/>
+	</skpath>
+	<skpath from="380" to="397" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="67.84827" Y="1776.9518"/>
+		<pt X="69.56533" Y="1777.2676"/>
+	</skpath>
+	<skpath from="380" to="398" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="67.84827" Y="1776.9518"/>
+		<pt X="72.7153" Y="1761.9407"/>
+	</skpath>
+	<skpath from="382" to="399" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="77.69605" Y="1775.9436"/>
+		<pt X="80.60718" Y="1767.7859"/>
+	</skpath>
+	<skpath from="400" to="391" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="66.28689" Y="1725.8539"/>
+		<pt X="65.742546" Y="1722.422"/>
+	</skpath>
+	<skpath from="400" to="400" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="66.28689" Y="1725.8539"/>
+		<pt X="70.35444" Y="1728.6857"/>
+		<pt X="72.39434" Y="1731.7699"/>
+		<pt X="74.75361" Y="1736.5211"/>
+		<pt X="73.16148" Y="1735.5077"/>
+		<pt X="70.18292" Y="1732.7552"/>
+		<pt X="67.53504" Y="1730.9502"/>
+		<pt X="66.28689" Y="1725.8539"/>
+	</skpath>
+	<skpath from="401" to="402" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="87.560265" Y="1734.1605"/>
+		<pt X="91.33043" Y="1724.5109"/>
+		<pt X="94.6601" Y="1714.091"/>
+		<pt X="96.5767" Y="1702.4634"/>
+		<pt X="102.457954" Y="1692.9716"/>
+		<pt X="110.21627" Y="1683.7682"/>
+	</skpath>
+	<skpath from="401" to="392" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="87.560265" Y="1734.1605"/>
+		<pt X="78.94886" Y="1720.6857"/>
+	</skpath>
+	<skpath from="403" to="403" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="61.73483" Y="1723.0084"/>
+		<pt X="59.896263" Y="1717.7644"/>
+		<pt X="60.430943" Y="1713.6576"/>
+		<pt X="61.70145" Y="1705.7983"/>
+		<pt X="63.19163" Y="1707.857"/>
+		<pt X="63.228523" Y="1719.6573"/>
+		<pt X="61.73483" Y="1723.0084"/>
+	</skpath>
+	<skpath from="34" to="403" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="62.669426" Y="1724.8793" Z="311.2901"/>
+		<pt X="61.73483" Y="1723.0084"/>
+	</skpath>
+	<skpath from="403" to="391" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="61.73483" Y="1723.0084"/>
+		<pt X="65.742546" Y="1722.422"/>
+	</skpath>
+	<skpath from="404" to="404" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="65.40733" Y="1697.9294"/>
+		<pt X="70.46795" Y="1692.4957"/>
+		<pt X="73.46633" Y="1690.0591"/>
+		<pt X="73.27552" Y="1693.2412"/>
+		<pt X="68.02843" Y="1697.9264"/>
+		<pt X="65.40733" Y="1697.9294"/>
+	</skpath>
+	<skpath from="404" to="386" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="65.40733" Y="1697.9294"/>
+		<pt X="61.68714" Y="1699.6443"/>
+	</skpath>
+	<skpath from="405" to="405" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="78.74971" Y="1674.9548"/>
+		<pt X="79.30803" Y="1679.4331"/>
+		<pt X="79.48244" Y="1684.4707"/>
+		<pt X="76.101845" Y="1688.9382"/>
+		<pt X="74.615234" Y="1687.4457"/>
+		<pt X="74.625534" Y="1684.8379"/>
+		<pt X="78.74971" Y="1674.9548"/>
+	</skpath>
+	<skpath from="405" to="388" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="78.74971" Y="1674.9548"/>
+		<pt X="83.85489" Y="1675.7164"/>
+	</skpath>
+	<skpath from="406" to="401" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="83.03898" Y="1748.018"/>
+		<pt X="83.372246" Y="1746.0099"/>
+		<pt X="85.55289" Y="1739.4227"/>
+		<pt X="87.560265" Y="1734.1605"/>
+	</skpath>
+	<skpath from="323" to="407" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="80.04736" Y="1741.4219"/>
+		<pt X="82.55987" Y="1748.661"/>
+	</skpath>
+	<skpath from="397" to="397" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="69.56533" Y="1777.2676"/>
+		<pt X="74.30563" Y="1769.48"/>
+		<pt X="76.12807" Y="1773.5272"/>
+		<pt X="73.72682" Y="1781.0499"/>
+		<pt X="70.58873" Y="1787.5728"/>
+		<pt X="67.09159" Y="1792.2167"/>
+		<pt X="65.12075" Y="1790.7113"/>
+		<pt X="66.267624" Y="1785.9393"/>
+		<pt X="69.56533" Y="1777.2676"/>
+	</skpath>
+	<skpath from="325" to="46" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="77.9078" Y="1727.3431"/>
+		<pt X="78.769424" Y="1729.9794" Z="148.7901"/>
+	</skpath>
+	<skpath from="384" to="399" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="116.24034" Y="1776.2349"/>
+		<pt X="93.03455" Y="1771.0828"/>
+		<pt X="85.65689" Y="1767.8278"/>
+		<pt X="80.60718" Y="1767.7859"/>
+	</skpath>
+	<skpath from="408" to="386" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="59.079655" Y="1723.8916"/>
+		<pt X="58.87227" Y="1714.1147"/>
+		<pt X="61.68714" Y="1699.6443"/>
+	</skpath>
+	<skpath from="408" to="34" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="59.079655" Y="1723.8916"/>
+		<pt X="62.669426" Y="1724.8793" Z="311.2901"/>
+	</skpath>
+	<skpath from="408" to="409" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="59.079655" Y="1723.8916"/>
+		<pt X="65.18811" Y="1731.6814"/>
+		<pt X="70.473404" Y="1739.8201"/>
+		<pt X="70.56487" Y="1746.5688"/>
+	</skpath>
+	<skpath from="410" to="399" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="86.41749" Y="1759.0056"/>
+		<pt X="80.60718" Y="1767.7859"/>
+	</skpath>
+	<skpath from="410" to="396" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="86.41749" Y="1759.0056"/>
+		<pt X="97.135796" Y="1762.0339"/>
+	</skpath>
+	<skpath from="398" to="411" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="72.7153" Y="1761.9407"/>
+		<pt X="71.34322" Y="1756.6189"/>
+	</skpath>
+	<skpath from="411" to="324" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="71.34322" Y="1756.6189"/>
+		<pt X="69.09288" Y="1748.9371"/>
+		<pt X="65.99164" Y="1739.723"/>
+	</skpath>
+	<skpath from="385" to="396" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="131.86382" Y="1753.2379"/>
+		<pt X="126.78317" Y="1746.5214"/>
+		<pt X="125.08403" Y="1744.7712"/>
+		<pt X="123.56617" Y="1748.4182"/>
+		<pt X="123.39226" Y="1753.4324"/>
+		<pt X="119.75879" Y="1760.9891"/>
+		<pt X="111.06205" Y="1763.7236"/>
+		<pt X="97.135796" Y="1762.0339"/>
+	</skpath>
+	<skpath from="407" to="410" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="82.55987" Y="1748.661"/>
+		<pt X="86.41749" Y="1759.0056"/>
+	</skpath>
+	<skpath from="399" to="398" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="80.60718" Y="1767.7859"/>
+		<pt X="72.7153" Y="1761.9407"/>
+	</skpath>
+	<skpath from="395" to="412" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="puddle"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="91.44822" Y="1763.5856"/>
+		<pt X="99.600334" Y="1766.4832"/>
+	</skpath>
+	<skpath from="409" to="413" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="70.56487" Y="1746.5688"/>
+		<pt X="72.596176" Y="1758.7516"/>
+		<pt X="72.471" Y="1766.3925"/>
+		<pt X="70.60459" Y="1773.3204"/>
+	</skpath>
+	<skpath from="406" to="414" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="83.03898" Y="1748.018"/>
+		<pt X="80.3294" Y="1761.7096"/>
+		<pt X="76.72937" Y="1776.016"/>
+	</skpath>
+	<skpath from="414" to="413" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="76.72937" Y="1776.016"/>
+		<pt X="70.60459" Y="1773.3204"/>
+	</skpath>
+	<skpath from="415" to="415" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.7514307" sfrotatedeg="-5.4895506" sfelevrotdeg="0.0" sfxtrans="36595.0477163802" sfytrans="-83615.49707089695" sfsketch="204description/7-11chamber.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="52.664665" Y="1514.3418"/>
+		<pt X="343.088" Y="1542.2529"/>
+		<pt X="314.46683" Y="1840.0647"/>
+		<pt X="24.043556" Y="1812.1534"/>
+		<pt X="52.664665" Y="1514.3418"/>
+	</skpath>
+	<skpath from="313" to="416" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="165.65877" Y="1963.0065"/>
+		<pt X="186.1306" Y="1971.3938"/>
+		<pt X="220.91335" Y="1987.3198"/>
+	</skpath>
+	<skpath from="417" to="310" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="50.898396" Y="1966.3726"/>
+		<pt X="71.496925" Y="1952.0615"/>
+		<pt X="83.79467" Y="1944.5917"/>
+	</skpath>
+	<skpath from="417" to="416" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="50.898396" Y="1966.3726"/>
+		<pt X="220.91335" Y="1987.3198"/>
+	</skpath>
+	<skpath from="418" to="419" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="37.312782" Y="1539.1969"/>
+		<pt X="44.926205" Y="1536.5876"/>
+		<pt X="51.293755" Y="1542.4933"/>
+		<pt X="52.749805" Y="1552.7598"/>
+		<pt X="50.670856" Y="1563.4224"/>
+		<pt X="37.745037" Y="1567.377"/>
+	</skpath>
+	<skpath from="419" to="418" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="37.745037" Y="1567.377"/>
+		<pt X="31.671001" Y="1561.4565"/>
+		<pt X="31.399035" Y="1551.1504"/>
+		<pt X="37.312782" Y="1539.1969"/>
+	</skpath>
+	<skpath from="419" to="338" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="37.745037" Y="1567.377"/>
+		<pt X="33.518654" Y="1587.831"/>
+	</skpath>
+	<skpath from="420" to="421" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="69.89627" Y="1531.3611"/>
+		<pt X="79.00865" Y="1528.1932"/>
+		<pt X="87.997055" Y="1533.4467"/>
+		<pt X="88.452896" Y="1542.4344"/>
+		<pt X="81.773346" Y="1551.5256"/>
+	</skpath>
+	<skpath from="421" to="420" linestyle="pitchbound" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="81.773346" Y="1551.5256"/>
+		<pt X="71.246544" Y="1557.4598"/>
+		<pt X="65.55465" Y="1553.9637"/>
+		<pt X="62.74355" Y="1546.1982"/>
+		<pt X="62.61667" Y="1539.2864"/>
+		<pt X="69.89627" Y="1531.3611"/>
+	</skpath>
+	<skpath from="421" to="336" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="81.773346" Y="1551.5256"/>
+		<pt X="90.17699" Y="1562.3829"/>
+	</skpath>
+	<skpath from="338" to="422" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="33.518654" Y="1587.831"/>
+		<pt X="19.645832" Y="1577.6987"/>
+		<pt X="4.483777" Y="1569.6722"/>
+	</skpath>
+	<skpath from="423" to="336" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="104.34647" Y="1534.0378"/>
+		<pt X="101.357834" Y="1539.5111"/>
+		<pt X="90.17699" Y="1562.3829"/>
+	</skpath>
+	<skpath from="423" to="424" linestyle="estwall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="104.34647" Y="1534.0378"/>
+		<pt X="104.51165" Y="1534.147"/>
+	</skpath>
+	<skpath from="422" to="423" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="4.483777" Y="1569.6722"/>
+		<pt X="41.91234" Y="1517.7112"/>
+		<pt X="98.31757" Y="1522.2598"/>
+		<pt X="104.34647" Y="1534.0378"/>
+	</skpath>
+	<skpath from="425" to="402" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="130.72324" Y="1677.0001"/>
+		<pt X="129.29118" Y="1670.8724"/>
+		<pt X="123.03982" Y="1671.9304"/>
+		<pt X="110.21627" Y="1683.7682"/>
+	</skpath>
+	<skpath from="393" to="426" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="116.064705" Y="1653.9287"/>
+		<pt X="127.95929" Y="1645.7302"/>
+		<pt X="141.56723" Y="1638.6779"/>
+		<pt X="149.5057" Y="1638.132"/>
+		<pt X="156.59335" Y="1639.2874"/>
+		<pt X="158.00146" Y="1646.6665"/>
+		<pt X="159.69446" Y="1654.9104"/>
+		<pt X="160.49852" Y="1658.3455"/>
+	</skpath>
+	<skpath from="427" to="312" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">08-3A</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="116.58778" Y="1988.7543"/>
+		<pt X="118.3877" Y="1967.4448"/>
+	</skpath>
+	<skpath from="428" to="420" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="-1.0">08-2A</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="54.22084" Y="1524.6206"/>
+		<pt X="69.89627" Y="1531.3611"/>
+	</skpath>
+	<skpath from="429" to="316" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-0.5" nodeposyrel="-0.2">08-1A</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="240.01321" Y="1823.4127"/>
+		<pt X="226.00024" Y="1809.8711"/>
+	</skpath>
+	<skpath from="430" to="308" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-0.6" nodeposyrel="0.0">08-5B&space;and&space;08-6B</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="228.51738" Y="1844.9452"/>
+		<pt X="210.43866" Y="1830.2882"/>
+	</skpath>
+	<skpath from="431" to="304" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-0.3" nodeposyrel="0.0">08-4A</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="195.653" Y="1931.1797"/>
+		<pt X="178.83125" Y="1916.4904"/>
+	</skpath>
+	<skpath from="432" to="321" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="1.0">c4</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="100.87807" Y="1745.0541"/>
+		<pt X="97.507484" Y="1736.5217"/>
+	</skpath>
+	<skpath from="433" to="319" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.8" nodeposyrel="0.0">c4</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="134.09773" Y="1781.0476"/>
+		<pt X="138.68335" Y="1766.4032"/>
+	</skpath>
+	<skpath from="434" to="434" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="11.772026" sfrotatedeg="1.6284161" sfelevrotdeg="0.0" sfxtrans="36590.142388163316" sfytrans="-83602.60383293498" sfsketch="surveyscans/2008/2008#16/plan1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3509">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="3.6113813" Y="1643.2742"/>
+		<pt X="220.13913" Y="1637.1185"/>
+		<pt X="228.60994" Y="1935.0778"/>
+		<pt X="12.08212" Y="1941.2335"/>
+		<pt X="3.6113813" Y="1643.2742"/>
+	</skpath>
+	<skpath from="401" to="33" linestyle="detail" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="87.560265" Y="1734.1605"/>
+		<pt X="85.56943" Y="1734.5793" Z="300.7901"/>
+	</skpath>
+	<skpath from="435" to="39" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">p10</pctext>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="47.59046" Y="1751.9725"/>
+		<pt X="79.86942" Y="1747.2793" Z="297.2901"/>
+	</skpath>
+	<skpath from="409" to="39" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="70.56487" Y="1746.5688"/>
+		<pt X="79.86942" Y="1747.2793" Z="297.2901"/>
+	</skpath>
+	<skpath from="406" to="39" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="83.03898" Y="1748.018"/>
+		<pt X="79.86942" Y="1747.2793" Z="297.2901"/>
+	</skpath>
+	<skpath from="396" to="40" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="97.135796" Y="1762.0339"/>
+		<pt X="86.56943" Y="1760.9792" Z="200.8901"/>
+	</skpath>
+	<skpath from="44" to="382" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="79.56943" Y="1764.7793" Z="266.99008"/>
+		<pt X="77.69605" Y="1775.9436"/>
+	</skpath>
+	<skpath from="384" to="41" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="116.24034" Y="1776.2349"/>
+		<pt X="117.769424" Y="1771.0792" Z="203.1901"/>
+	</skpath>
+	<skpath from="385" to="42" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="131.86382" Y="1753.2379"/>
+		<pt X="130.86943" Y="1750.9792" Z="181.5901"/>
+	</skpath>
+	<skpath from="379" to="43" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="50.449272" Y="1827.1104"/>
+		<pt X="55.369423" Y="1827.8794" Z="290.2901"/>
+	</skpath>
+	<skpath from="368" to="53" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="101.30193" Y="1633.3015"/>
+		<pt X="78.06943" Y="1645.0793" Z="-86.809906"/>
+	</skpath>
+	<skpath from="345" to="53" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="73.21096" Y="1647.2584"/>
+		<pt X="78.06943" Y="1645.0793" Z="-86.809906"/>
+	</skpath>
+	<skpath from="54" to="337" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="73.36943" Y="1606.8793" Z="-95.6099"/>
+		<pt X="48.03502" Y="1604.7628"/>
+	</skpath>
+	<skpath from="55" to="436" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="130.06943" Y="1895.1793" Z="-129.6099"/>
+		<pt X="113.247765" Y="1887.9977"/>
+	</skpath>
+	<skpath from="56" to="310" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="117.769424" Y="1944.4794" Z="-173.7099"/>
+		<pt X="83.79467" Y="1944.5917"/>
+	</skpath>
+	<skpath from="313" to="56" linestyle="connective">
+		<importfrom subname="204only2008"/>
+		<pt X="165.65877" Y="1963.0065"/>
+		<pt X="117.769424" Y="1944.4794" Z="-173.7099"/>
+	</skpath>
+	<skpath from="437" to="437" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="4.729924" sfrotatedeg="-0.4859682" sfelevrotdeg="0.0" sfxtrans="36577.26522646136" sfytrans="-83616.11553933348" sfsketch="surveyscans/2008/2008#16/plan2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3509">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="-125.16024" Y="1508.1571"/>
+		<pt X="413.94104" Y="1512.7297"/>
+		<pt X="407.6487" Y="2254.5754"/>
+		<pt X="-131.45256" Y="2250.0027"/>
+		<pt X="-125.16024" Y="1508.1571"/>
+	</skpath>
+	<skpath from="124" to="438" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="hole"/>
+		</pathcodes>
+		<importfrom subname="204only2008"/>
+		<pt X="147.17279" Y="1726.2036"/>
+		<pt X="146.1072" Y="1713.3096"/>
+	</skpath>
+	<skpath from="439" to="426" linestyle="wall" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="161.79153" Y="1681.3848"/>
+		<pt X="164.96083" Y="1675.4077"/>
+		<pt X="168.44745" Y="1667.4874"/>
+		<pt X="164.15434" Y="1662.6558"/>
+		<pt X="160.49852" Y="1658.3455"/>
+	</skpath>
+	<skpath from="439" to="440" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="161.79153" Y="1681.3848"/>
+		<pt X="157.82954" Y="1682.3951"/>
+		<pt X="155.49316" Y="1677.7231"/>
+		<pt X="150.0909" Y="1678.8914"/>
+		<pt X="145.8569" Y="1691.1543"/>
+		<pt X="144.25105" Y="1696.5555"/>
+		<pt X="146.87915" Y="1702.1031"/>
+		<pt X="150.23703" Y="1702.6875"/>
+		<pt X="149.65337" Y="1708.0889"/>
+		<pt X="150.67554" Y="1712.0306"/>
+		<pt X="154.03354" Y="1717.4326"/>
+	</skpath>
+	<skpath from="425" to="440" linestyle="invisible" splined="1">
+		<importfrom subname="204only2008"/>
+		<pt X="130.72324" Y="1677.0001"/>
+		<pt X="128.92056" Y="1680.9333"/>
+		<pt X="122.78961" Y="1689.9843"/>
+		<pt X="118.99403" Y="1696.846"/>
+		<pt X="117.09599" Y="1702.9785"/>
+		<pt X="118.118286" Y="1711.1537"/>
+		<pt X="123.08252" Y="1717.724"/>
+		<pt X="130.96594" Y="1720.938"/>
+		<pt X="135.34604" Y="1721.2297"/>
+		<pt X="142.79195" Y="1722.1051"/>
+		<pt X="145.41982" Y="1722.397"/>
+		<pt X="148.04756" Y="1724.441"/>
+		<pt X="151.55151" Y="1722.6887"/>
+		<pt X="154.03354" Y="1717.4326"/>
+	</skpath>
+	<skpath from="263" to="264" linestyle="detail">
+		<pt X="258.96027" Y="1271.6736"/>
+		<pt X="265.52512" Y="1288.1956"/>
+	</skpath>
+	<skpath from="72" to="83" linestyle="invisible" splined="1">
+		<pt X="177.48038" Y="907.11194"/>
+		<pt X="196.29239" Y="901.9525"/>
+	</skpath>
+	<skpath from="437" to="53" linestyle="connective">
+		<pt X="-125.16024" Y="1508.1571"/>
+		<pt X="78.06943" Y="1645.0793" Z="-86.809906"/>
+	</skpath>
+	<skpath from="434" to="41" linestyle="connective">
+		<pt X="3.6113813" Y="1643.2742"/>
+		<pt X="117.769424" Y="1771.0792" Z="203.1901"/>
+	</skpath>
+	<skpath from="415" to="31" linestyle="connective">
+		<pt X="52.664665" Y="1514.3418"/>
+		<pt X="129.36942" Y="1655.4792" Z="334.0901"/>
+	</skpath>
+</sketch>
+</tunnelxml>
