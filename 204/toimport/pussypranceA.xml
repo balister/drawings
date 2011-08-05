@@ -1,0 +1,4955 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-05 10:47:24">
+<sketch splined="0" locoffsetx="36244.008" locoffsety="82674.4" locoffsetz="1762.1937" realpaperscale="1000.0">
+	<skpath from="1" to="0" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pendulum.18" head="204.domes.millennium.1"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3751.873" Y="-9468.661" Z="-409.25003"/>
+		<pt X="3796.7573" Y="-9478.202" Z="-385.8695"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.2" head="204.midlevel.phreatic.1"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3680.1167" Y="-9391.111" Z="-427.53015"/>
+		<pt X="3676.4084" Y="-9348.725" Z="-442.18073"/>
+	</skpath>
+	<skpath from="4" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.3" head="204.midlevel.phreatic.2"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3703.0024" Y="-9394.327" Z="-420.02103"/>
+		<pt X="3680.1167" Y="-9391.111" Z="-427.53015"/>
+	</skpath>
+	<skpath from="5" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.4" head="204.midlevel.phreatic.3"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3716.9216" Y="-9407.308" Z="-411.14606"/>
+		<pt X="3703.0024" Y="-9394.327" Z="-420.02103"/>
+	</skpath>
+	<skpath from="6" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.5" head="204.midlevel.phreatic.4"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3682.1658" Y="-9428.191" Z="-423.5426"/>
+		<pt X="3716.9216" Y="-9407.308" Z="-411.14606"/>
+	</skpath>
+	<skpath from="7" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.19" head="204.midlevel.phreatic.5"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+		<pt X="3682.1658" Y="-9428.191" Z="-423.5426"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.19" head="204.midlevel.phreatic.7"/>
+		</pathcodes>
+		<sketchsubset subname="Mid-level passages and Wolpertinger Way"/>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+		<pt X="3703.0479" Y="-9480.835" Z="-428.56604"/>
+	</skpath>
+	<skpath from="8" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.phreatic.7" head="204.midlevel.pendulum.18"/>
+		</pathcodes>
+		<sketchsubset subname="Mid-level passages and Wolpertinger Way"/>
+		<sketchsubset subname="phreatic"/>
+		<pt X="3703.0479" Y="-9480.835" Z="-428.56604"/>
+		<pt X="3751.873" Y="-9468.661" Z="-409.25003"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.2" head="204.midlevel.merry.1"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3708.2954" Y="-9123.573" Z="-557.0837"/>
+		<pt X="3700.798" Y="-9097.427" Z="-557.0837"/>
+	</skpath>
+	<skpath from="11" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.3" head="204.midlevel.merry.2"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3698.852" Y="-9132.692" Z="-558.46344"/>
+		<pt X="3708.2954" Y="-9123.573" Z="-557.0837"/>
+	</skpath>
+	<skpath from="12" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.4" head="204.midlevel.merry.3"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3705.9697" Y="-9177.632" Z="-558.46344"/>
+		<pt X="3698.852" Y="-9132.692" Z="-558.46344"/>
+	</skpath>
+	<skpath from="13" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.5" head="204.midlevel.merry.4"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3699.2117" Y="-9192.811" Z="-555.9802"/>
+		<pt X="3705.9697" Y="-9177.632" Z="-558.46344"/>
+	</skpath>
+	<skpath from="14" to="13" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.6" head="204.midlevel.merry.5"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3704.836" Y="-9219.2705" Z="-553.1371"/>
+		<pt X="3699.2117" Y="-9192.811" Z="-555.9802"/>
+	</skpath>
+	<skpath from="15" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.7" head="204.midlevel.merry.6"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3699.9756" Y="-9226.477" Z="-552.75757"/>
+		<pt X="3704.836" Y="-9219.2705" Z="-553.1371"/>
+	</skpath>
+	<skpath from="16" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.8" head="204.midlevel.merry.7"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3695.3467" Y="-9255.702" Z="-553.5324"/>
+		<pt X="3699.9756" Y="-9226.477" Z="-552.75757"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.9" head="204.midlevel.merry.8"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3688.0728" Y="-9274.65" Z="-553.17816"/>
+		<pt X="3695.3467" Y="-9255.702" Z="-553.5324"/>
+	</skpath>
+	<skpath from="18" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.10" head="204.midlevel.merry.9"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3688.0728" Y="-9285.823" Z="-552.39685"/>
+		<pt X="3688.0728" Y="-9274.65" Z="-553.17816"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.11" head="204.midlevel.merry.10"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3695.8862" Y="-9304.23" Z="-552.0478"/>
+		<pt X="3688.0728" Y="-9285.823" Z="-552.39685"/>
+	</skpath>
+	<skpath from="20" to="19" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.12" head="204.midlevel.merry.11"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3705.5425" Y="-9340.269" Z="-549.4389"/>
+		<pt X="3695.8862" Y="-9304.23" Z="-552.0478"/>
+	</skpath>
+	<skpath from="21" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.13" head="204.midlevel.merry.12"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3716.2185" Y="-9359.528" Z="-544.355"/>
+		<pt X="3705.5425" Y="-9340.269" Z="-549.4389"/>
+	</skpath>
+	<skpath from="22" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.14" head="204.midlevel.merry.13"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3703.223" Y="-9383.97" Z="-538.4711"/>
+		<pt X="3716.2185" Y="-9359.528" Z="-544.355"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.15" head="204.midlevel.merry.14"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3697.3708" Y="-9400.966" Z="-532.6307"/>
+		<pt X="3703.223" Y="-9383.97" Z="-538.4711"/>
+	</skpath>
+	<skpath from="24" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.16" head="204.midlevel.merry.15"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3685.683" Y="-9417.658" Z="-486.86206"/>
+		<pt X="3697.3708" Y="-9400.966" Z="-532.6307"/>
+	</skpath>
+	<skpath from="25" to="24" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.17" head="204.midlevel.merry.16"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3686.6907" Y="-9436.887" Z="-472.87277"/>
+		<pt X="3685.683" Y="-9417.658" Z="-486.86206"/>
+	</skpath>
+	<skpath from="26" to="25" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.18" head="204.midlevel.merry.17"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3685.1123" Y="-9438.465" Z="-440.95074"/>
+		<pt X="3686.6907" Y="-9436.887" Z="-472.87277"/>
+	</skpath>
+	<skpath from="7" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.19" head="204.midlevel.merry.18"/>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+		<pt X="3685.1123" Y="-9438.465" Z="-440.95074"/>
+	</skpath>
+	<skpath from="27" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry2.1" head="204.midlevel.merry2.2"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<pt X="3731.9404" Y="-8955.057" Z="-650.4856"/>
+		<pt X="3702.7168" Y="-8987.512" Z="-564.7708"/>
+	</skpath>
+	<skpath from="28" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry2.2" head="204.midlevel.merry.1"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<pt X="3702.7168" Y="-8987.512" Z="-564.7708"/>
+		<pt X="3700.798" Y="-9097.427" Z="-557.0837"/>
+	</skpath>
+	<skpath from="10" to="29" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.merry.1" head="204.midlevel.pussyprance.2"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3700.798" Y="-9097.427" Z="-557.0837"/>
+		<pt X="3686.4834" Y="-9065.275" Z="-653.7781"/>
+	</skpath>
+	<skpath from="29" to="30" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.2" head="204.midlevel.pussyprance.3"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3686.4834" Y="-9065.275" Z="-653.7781"/>
+		<pt X="3686.4834" Y="-9065.275" Z="-966.078"/>
+	</skpath>
+	<skpath from="30" to="31" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.3" head="204.midlevel.pussyprance.4"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3686.4834" Y="-9065.275" Z="-966.078"/>
+		<pt X="3659.7896" Y="-9100.699" Z="-961.4161"/>
+	</skpath>
+	<skpath from="32" to="31" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.5" head="204.midlevel.pussyprance.4"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3621.056" Y="-9070.4375" Z="-988.6624"/>
+		<pt X="3659.7896" Y="-9100.699" Z="-961.4161"/>
+	</skpath>
+	<skpath from="33" to="32" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.6" head="204.midlevel.pussyprance.5"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3615.9204" Y="-9021.576" Z="-994.69495"/>
+		<pt X="3621.056" Y="-9070.4375" Z="-988.6624"/>
+	</skpath>
+	<skpath from="33" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.6" head="204.midlevel.pussyprance.7"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3615.9204" Y="-9021.576" Z="-994.69495"/>
+		<pt X="3593.0425" Y="-9031.287" Z="-984.1452"/>
+	</skpath>
+	<skpath from="34" to="35" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.7" head="204.midlevel.pussyprance.8"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3593.0425" Y="-9031.287" Z="-984.1452"/>
+		<pt X="3594.6694" Y="-9054.551" Z="-1004.4174"/>
+	</skpath>
+	<skpath from="35" to="36" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.8" head="204.midlevel.pussyprance.9"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3594.6694" Y="-9054.551" Z="-1004.4174"/>
+		<pt X="3607.1401" Y="-9067.021" Z="-1008.489"/>
+	</skpath>
+	<skpath from="36" to="37" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.9" head="204.midlevel.pussyprance.10"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3607.1401" Y="-9067.021" Z="-1008.489"/>
+		<pt X="3611.7998" Y="-9082.263" Z="-996.90967"/>
+	</skpath>
+	<skpath from="37" to="38" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.10" head="204.midlevel.pussyprance.30"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3611.7998" Y="-9082.263" Z="-996.90967"/>
+		<pt X="3626.514" Y="-9087.329" Z="-997.9978"/>
+	</skpath>
+	<skpath from="39" to="33" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.11" head="204.midlevel.pussyprance.6"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3610.2769" Y="-9008.9" Z="-998.1544"/>
+		<pt X="3615.9204" Y="-9021.576" Z="-994.69495"/>
+	</skpath>
+	<skpath from="39" to="40" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.11" head="204.midlevel.pussyprance.12"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3610.2769" Y="-9008.9" Z="-998.1544"/>
+		<pt X="3616.97" Y="-8995.178" Z="-1094.5529"/>
+	</skpath>
+	<skpath from="40" to="41" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.12" head="204.midlevel.pussyprance.13"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3616.97" Y="-8995.178" Z="-1094.5529"/>
+		<pt X="3648.1836" Y="-8985.036" Z="-1092.2578"/>
+	</skpath>
+	<skpath from="41" to="42" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.13" head="204.midlevel.pussyprance.14"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3648.1836" Y="-8985.036" Z="-1092.2578"/>
+		<pt X="3661.257" Y="-9005.167" Z="-1113.8707"/>
+	</skpath>
+	<skpath from="43" to="44" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.16" head="204.midlevel.pussyprance.15"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3585.7441" Y="-8928.289" Z="-1005.18726"/>
+		<pt X="3609.9712" Y="-8991.402" Z="-1028.4653"/>
+	</skpath>
+	<skpath from="44" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.15" head="204.midlevel.pussyprance.11"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3609.9712" Y="-8991.402" Z="-1028.4653"/>
+		<pt X="3610.2769" Y="-9008.9" Z="-998.1544"/>
+	</skpath>
+	<skpath from="45" to="46" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.17" head="204.midlevel.pussyprance.18"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3599.784" Y="-9012.777" Z="-1054.3405"/>
+		<pt X="3609.1265" Y="-9026.119" Z="-1146.7153"/>
+	</skpath>
+	<skpath from="46" to="47" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.18" head="204.midlevel.pussyprance.19"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3609.1265" Y="-9026.119" Z="-1146.7153"/>
+		<pt X="3653.7744" Y="-9022.997" Z="-1221.2032"/>
+	</skpath>
+	<skpath from="47" to="48" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.19" head="204.midlevel.pussyprance.20"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3653.7744" Y="-9022.997" Z="-1221.2032"/>
+		<pt X="3663.7131" Y="-9001.684" Z="-1254.7885"/>
+	</skpath>
+	<skpath from="48" to="49" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.20" head="204.midlevel.pussyprance.21"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3663.7131" Y="-9001.684" Z="-1254.7885"/>
+		<pt X="3693.5127" Y="-8972.907" Z="-1339.7244"/>
+	</skpath>
+	<skpath from="49" to="50" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.21" head="204.midlevel.pussyprance.22"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3693.5127" Y="-8972.907" Z="-1339.7244"/>
+		<pt X="3705.0144" Y="-8982.558" Z="-1351.0386"/>
+	</skpath>
+	<skpath from="51" to="50" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.23" head="204.midlevel.pussyprance.22"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3740.9028" Y="-8951.36" Z="-1381.9196"/>
+		<pt X="3705.0144" Y="-8982.558" Z="-1351.0386"/>
+	</skpath>
+	<skpath from="52" to="51" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.23" head="204.midlevel.pussyprance.23"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3724.2642" Y="-8945.631" Z="-1382.2267"/>
+		<pt X="3740.9028" Y="-8951.36" Z="-1381.9196"/>
+	</skpath>
+	<skpath from="52" to="53" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.23" head="204.midlevel.pussyprance.25"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3724.2642" Y="-8945.631" Z="-1382.2267"/>
+		<pt X="3608.4019" Y="-9111.1" Z="-1382.2267"/>
+	</skpath>
+	<skpath from="53" to="54" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.25" head="204.midlevel.catflap3.3"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3608.4019" Y="-9111.1" Z="-1382.2267"/>
+		<pt X="3635.6714" Y="-9194.576" Z="-1397.8743"/>
+	</skpath>
+	<skpath from="55" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.27" head="204.midlevel.catflap.23"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3660.4856" Y="-8860.994" Z="-1425.0442"/>
+		<pt X="3724.2642" Y="-8945.631" Z="-1382.2267"/>
+	</skpath>
+	<skpath from="55" to="56" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.27" head="204.midlevel.paintedlady.28"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3660.4856" Y="-8860.994" Z="-1425.0442"/>
+		<pt X="3648.198" Y="-8811.711" Z="-1469.197"/>
+	</skpath>
+	<skpath from="57" to="44" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.29" head="204.midlevel.pussyprance.15"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3608.663" Y="-9016.365" Z="-1028.029"/>
+		<pt X="3609.9712" Y="-8991.402" Z="-1028.4653"/>
+	</skpath>
+	<skpath from="57" to="45" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance.29" head="204.midlevel.pussyprance.17"/>
+		</pathcodes>
+		<sketchsubset subname="Pussyprance"/>
+		<pt X="3608.663" Y="-9016.365" Z="-1028.029"/>
+		<pt X="3599.784" Y="-9012.777" Z="-1054.3405"/>
+	</skpath>
+	<skpath from="58" to="55" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.1" head="204.midlevel.pussyprance.27"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3702.2888" Y="-8882.294" Z="-1402.1613"/>
+		<pt X="3660.4856" Y="-8860.994" Z="-1425.0442"/>
+	</skpath>
+	<skpath from="58" to="59" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.1" head="204.midlevel.pussyprance2.2"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3702.2888" Y="-8882.294" Z="-1402.1613"/>
+		<pt X="3730.228" Y="-8871.569" Z="-1397.4213"/>
+	</skpath>
+	<skpath from="59" to="60" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.2" head="204.midlevel.pussyprance2.3"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3730.228" Y="-8871.569" Z="-1397.4213"/>
+		<pt X="3730.228" Y="-8871.569" Z="-1602.1213"/>
+	</skpath>
+	<skpath from="61" to="60" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.4" head="204.midlevel.pussyprance2.3"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3751.6174" Y="-8861.137" Z="-1620.7142"/>
+		<pt X="3730.228" Y="-8871.569" Z="-1602.1213"/>
+	</skpath>
+	<skpath from="62" to="61" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.5" head="204.midlevel.pussyprance2.4"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3719.162" Y="-8804.923" Z="-1624.1161"/>
+		<pt X="3751.6174" Y="-8861.137" Z="-1620.7142"/>
+	</skpath>
+	<skpath from="61" to="63" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.4" head="204.midlevel.pussyprance2.6"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3751.6174" Y="-8861.137" Z="-1620.7142"/>
+		<pt X="3758.854" Y="-8902.179" Z="-1622.1697"/>
+	</skpath>
+	<skpath from="61" to="64" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.4" head="204.midlevel.pussyprance2.7"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3751.6174" Y="-8861.137" Z="-1620.7142"/>
+		<pt X="3750.9673" Y="-8848.731" Z="-1623.3547"/>
+	</skpath>
+	<skpath from="64" to="65" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.7" head="204.midlevel.pussyprance2.8"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3750.9673" Y="-8848.731" Z="-1623.3547"/>
+		<pt X="3768.197" Y="-8839.57" Z="-1628.9502"/>
+	</skpath>
+	<skpath from="65" to="66" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.8" head="204.midlevel.pussyprance2.9"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3768.197" Y="-8839.57" Z="-1628.9502"/>
+		<pt X="3792.0828" Y="-8829.92" Z="-1621.5631"/>
+	</skpath>
+	<skpath from="67" to="66" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.10" head="204.midlevel.pussyprance2.9"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3800.4177" Y="-8825.488" Z="-1644.9281"/>
+		<pt X="3792.0828" Y="-8829.92" Z="-1621.5631"/>
+	</skpath>
+	<skpath from="67" to="68" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.10" head="204.midlevel.pussyprance2.11"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3800.4177" Y="-8825.488" Z="-1644.9281"/>
+		<pt X="3800.4177" Y="-8825.488" Z="-1677.3281"/>
+	</skpath>
+	<skpath from="69" to="68" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.12" head="204.midlevel.pussyprance2.11"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3806.5808" Y="-8836.606" Z="-1661.6298"/>
+		<pt X="3800.4177" Y="-8825.488" Z="-1677.3281"/>
+	</skpath>
+	<skpath from="69" to="70" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.12" head="204.midlevel.pussyprance2.13"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3806.5808" Y="-8836.606" Z="-1661.6298"/>
+		<pt X="3802.494" Y="-8838.426" Z="-1654.9976"/>
+	</skpath>
+	<skpath from="71" to="70" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.14" head="204.midlevel.pussyprance2.13"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3817.1724" Y="-8850.742" Z="-1651.9628"/>
+		<pt X="3802.494" Y="-8838.426" Z="-1654.9976"/>
+	</skpath>
+	<skpath from="71" to="72" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.14" head="204.midlevel.pussyprance2.15"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3817.1724" Y="-8850.742" Z="-1651.9628"/>
+		<pt X="3824.1318" Y="-8864.401" Z="-1671.5842"/>
+	</skpath>
+	<skpath from="72" to="73" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.15" head="204.midlevel.pussyprance2.16"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3824.1318" Y="-8864.401" Z="-1671.5842"/>
+		<pt X="3824.1318" Y="-8864.401" Z="-1743.4841"/>
+	</skpath>
+	<skpath from="74" to="73" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.17" head="204.midlevel.pussyprance2.16"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3843.1738" Y="-8866.067" Z="-1731.9989"/>
+		<pt X="3824.1318" Y="-8864.401" Z="-1743.4841"/>
+	</skpath>
+	<skpath from="74" to="75" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.17" head="204.midlevel.pussyprance2.18"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3843.1738" Y="-8866.067" Z="-1731.9989"/>
+		<pt X="3856.9104" Y="-8863.397" Z="-1727.1804"/>
+	</skpath>
+	<skpath from="75" to="76" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussyprance2.18" head="204.midlevel.pussyprance2.19"/>
+		</pathcodes>
+		<sketchsubset subname="Caterwaul"/>
+		<pt X="3856.9104" Y="-8863.397" Z="-1727.1804"/>
+		<pt X="3856.9104" Y="-8863.397" Z="-1773.3804"/>
+	</skpath>
+	<skpath from="77" to="78" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.1" head="204.midlevel.catflap.2"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3769.9858" Y="-8929.698" Z="-1532.8175"/>
+		<pt X="3779.542" Y="-8971.09" Z="-1513.9043"/>
+	</skpath>
+	<skpath from="79" to="78" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.3" head="204.midlevel.catflap.2"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3694.6628" Y="-9075.906" Z="-1532.8596"/>
+		<pt X="3779.542" Y="-8971.09" Z="-1513.9043"/>
+	</skpath>
+	<skpath from="79" to="80" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.3" head="204.midlevel.catflap.4"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3694.6628" Y="-9075.906" Z="-1532.8596"/>
+		<pt X="3622.5957" Y="-9211.444" Z="-1538.2202"/>
+	</skpath>
+	<skpath from="80" to="81" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.4" head="204.midlevel.catflap.5"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3622.5957" Y="-9211.444" Z="-1538.2202"/>
+		<pt X="3608.3672" Y="-9241.958" Z="-1549.1594"/>
+	</skpath>
+	<skpath from="81" to="82" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.5" head="204.midlevel.catflap.6"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3608.3672" Y="-9241.958" Z="-1549.1594"/>
+		<pt X="3596.5928" Y="-9289.183" Z="-1577.2594"/>
+	</skpath>
+	<skpath from="82" to="83" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.6" head="204.midlevel.catflap.7"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3596.5928" Y="-9289.183" Z="-1577.2594"/>
+		<pt X="3632.2156" Y="-9321.258" Z="-1557.8921"/>
+	</skpath>
+	<skpath from="84" to="83" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.8" head="204.midlevel.catflap.7"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3602.8342" Y="-9439.101" Z="-1597.3536"/>
+		<pt X="3632.2156" Y="-9321.258" Z="-1557.8921"/>
+	</skpath>
+	<skpath from="85" to="84" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.9" head="204.midlevel.catflap.8"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3546.7969" Y="-9457.308" Z="-1605.6345"/>
+		<pt X="3602.8342" Y="-9439.101" Z="-1597.3536"/>
+	</skpath>
+	<skpath from="86" to="85" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.10" head="204.midlevel.catflap.9"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3615.7688" Y="-9495.539" Z="-1558.2509"/>
+		<pt X="3546.7969" Y="-9457.308" Z="-1605.6345"/>
+	</skpath>
+	<skpath from="86" to="87" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.10" head="204.midlevel.catflap.11"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3615.7688" Y="-9495.539" Z="-1558.2509"/>
+		<pt X="3697.0056" Y="-9568.686" Z="-1514.0847"/>
+	</skpath>
+	<skpath from="82" to="88" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.6" head="204.midlevel.catflap.18"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3596.5928" Y="-9289.183" Z="-1577.2594"/>
+		<pt X="3537.7397" Y="-9249.486" Z="-1578.4985"/>
+	</skpath>
+	<skpath from="89" to="88" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.19" head="204.midlevel.catflap.18"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3538.769" Y="-9220.015" Z="-1599.1473"/>
+		<pt X="3537.7397" Y="-9249.486" Z="-1578.4985"/>
+	</skpath>
+	<skpath from="90" to="91" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.21" head="204.midlevel.catflap.20"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3777.0903" Y="-8963.122" Z="-1411.186"/>
+		<pt X="3777.0903" Y="-8963.122" Z="-1550.9861"/>
+	</skpath>
+	<skpath from="77" to="91" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.1" head="204.midlevel.catflap.20"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3769.9858" Y="-8929.698" Z="-1532.8175"/>
+		<pt X="3777.0903" Y="-8963.122" Z="-1550.9861"/>
+	</skpath>
+	<skpath from="90" to="92" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.21" head="204.midlevel.catflap.22"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3777.0903" Y="-8963.122" Z="-1411.186"/>
+		<pt X="3753.4849" Y="-8966.861" Z="-1369.79"/>
+	</skpath>
+	<skpath from="87" to="93" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.11" head="204.midlevel.catflap.12"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3697.0056" Y="-9568.686" Z="-1514.0847"/>
+		<pt X="3730.9998" Y="-9599.294" Z="-1505.193"/>
+	</skpath>
+	<skpath from="93" to="94" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.12" head="204.midlevel.catflap.13"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3730.9998" Y="-9599.294" Z="-1505.193"/>
+		<pt X="3751.5034" Y="-9641.332" Z="-1487.2388"/>
+	</skpath>
+	<skpath from="93" to="95" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.12" head="204.midlevel.catflap.14"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3730.9998" Y="-9599.294" Z="-1505.193"/>
+		<pt X="3774.102" Y="-9634.197" Z="-1470.5364"/>
+	</skpath>
+	<skpath from="96" to="95" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.15" head="204.midlevel.catflap.14"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3772.4697" Y="-9680.94" Z="-1472.1697"/>
+		<pt X="3774.102" Y="-9634.197" Z="-1470.5364"/>
+	</skpath>
+	<skpath from="96" to="97" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.15" head="204.midlevel.catflap.16"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3772.4697" Y="-9680.94" Z="-1472.1697"/>
+		<pt X="3783.7627" Y="-9726.234" Z="-1463.9387"/>
+	</skpath>
+	<skpath from="96" to="98" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.15" head="204.midlevel.catflap.17"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3772.4697" Y="-9680.94" Z="-1472.1697"/>
+		<pt X="3807.0298" Y="-9654.898" Z="-1473.6807"/>
+	</skpath>
+	<skpath from="52" to="92" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap.23" head="204.midlevel.catflap.22"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap"/>
+		<pt X="3724.2642" Y="-8945.631" Z="-1382.2267"/>
+		<pt X="3753.4849" Y="-8966.861" Z="-1369.79"/>
+	</skpath>
+	<skpath from="99" to="77" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap2.3" head="204.midlevel.catflap.1"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 2"/>
+		<pt X="3775.3735" Y="-8895.683" Z="-1516.7579"/>
+		<pt X="3769.9858" Y="-8929.698" Z="-1532.8175"/>
+	</skpath>
+	<skpath from="100" to="99" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap2.4" head="204.midlevel.catflap2.3"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 2"/>
+		<pt X="3735.769" Y="-8863.612" Z="-1541.6136"/>
+		<pt X="3775.3735" Y="-8895.683" Z="-1516.7579"/>
+	</skpath>
+	<skpath from="101" to="77" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap2.5" head="204.midlevel.catflap.1"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 2"/>
+		<pt X="3837.3313" Y="-8916.607" Z="-1529.2222"/>
+		<pt X="3769.9858" Y="-8929.698" Z="-1532.8175"/>
+	</skpath>
+	<skpath from="102" to="101" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap2.6" head="204.midlevel.catflap2.5"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 2"/>
+		<pt X="3865.2964" Y="-8921.539" Z="-1549.8534"/>
+		<pt X="3837.3313" Y="-8916.607" Z="-1529.2222"/>
+	</skpath>
+	<skpath from="102" to="103" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap2.6" head="204.midlevel.catflap2.7"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 2"/>
+		<pt X="3865.2964" Y="-8921.539" Z="-1549.8534"/>
+		<pt X="3865.2964" Y="-8921.539" Z="-1633.8533"/>
+	</skpath>
+	<skpath from="104" to="89" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap3.1" head="204.midlevel.catflap.19"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 3"/>
+		<pt X="3607.4119" Y="-9201.622" Z="-1414.0184"/>
+		<pt X="3538.769" Y="-9220.015" Z="-1599.1473"/>
+	</skpath>
+	<skpath from="54" to="104" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.catflap3.3" head="204.midlevel.catflap3.1"/>
+		</pathcodes>
+		<sketchsubset subname="Catflap 3"/>
+		<pt X="3635.6714" Y="-9194.576" Z="-1397.8743"/>
+		<pt X="3607.4119" Y="-9201.622" Z="-1414.0184"/>
+	</skpath>
+	<skpath from="56" to="105" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.paintedlady.28" head="204.midlevel.paintedlady.4"/>
+		</pathcodes>
+		<sketchsubset subname="Painted Lady"/>
+		<pt X="3648.198" Y="-8811.711" Z="-1469.197"/>
+		<pt X="3644.2942" Y="-8817.084" Z="-1488.4857"/>
+	</skpath>
+	<skpath from="105" to="106" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.paintedlady.4" head="204.midlevel.paintedlady.5"/>
+		</pathcodes>
+		<sketchsubset subname="Painted Lady"/>
+		<pt X="3644.2942" Y="-8817.084" Z="-1488.4857"/>
+		<pt X="3644.2942" Y="-8817.084" Z="-1569.6857"/>
+	</skpath>
+	<skpath from="107" to="106" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.paintedlady.6" head="204.midlevel.paintedlady.5"/>
+		</pathcodes>
+		<sketchsubset subname="Painted Lady"/>
+		<pt X="3609.115" Y="-8744.955" Z="-1598.8942"/>
+		<pt X="3644.2942" Y="-8817.084" Z="-1569.6857"/>
+	</skpath>
+	<skpath from="108" to="107" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.paintedlady.7" head="204.midlevel.paintedlady.6"/>
+		</pathcodes>
+		<sketchsubset subname="Painted Lady"/>
+		<pt X="3638.0884" Y="-8738.267" Z="-1573.0455"/>
+		<pt X="3609.115" Y="-8744.955" Z="-1598.8942"/>
+	</skpath>
+	<skpath from="107" to="109" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.paintedlady.6" head="204.midlevel.paintedlady.8"/>
+		</pathcodes>
+		<sketchsubset subname="Painted Lady"/>
+		<pt X="3609.115" Y="-8744.955" Z="-1598.8942"/>
+		<pt X="3592.563" Y="-8811.343" Z="-1612.1936"/>
+	</skpath>
+	<skpath from="110" to="111" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.1" head="204.midlevel.pussinbolts.2"/>
+		</pathcodes>
+		<sketchsubset subname="Puss in Bolts"/>
+		<pt X="3644.728" Y="-8485.923" Z="-1510.7933"/>
+		<pt X="3579.8628" Y="-8593.877" Z="-1486.3125"/>
+	</skpath>
+	<skpath from="112" to="111" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussinbolts.3" head="204.midlevel.pussinbolts.2"/>
+		</pathcodes>
+		<sketchsubset subname="Puss in Bolts"/>
+		<pt X="3591.4946" Y="-8640.531" Z="-1489.6748"/>
+		<pt X="3579.8628" Y="-8593.877" Z="-1486.3125"/>
+	</skpath>
+	<skpath from="113" to="112" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussinbolts.4" head="204.midlevel.pussinbolts.3"/>
+		</pathcodes>
+		<sketchsubset subname="Puss in Bolts"/>
+		<pt X="3589.9924" Y="-8726.607" Z="-1483.6548"/>
+		<pt X="3591.4946" Y="-8640.531" Z="-1489.6748"/>
+	</skpath>
+	<skpath from="114" to="113" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.pussinbolts.5" head="204.midlevel.pussinbolts.4"/>
+		</pathcodes>
+		<sketchsubset subname="Puss in Bolts"/>
+		<pt X="3612.084" Y="-8735.533" Z="-1508.3281"/>
+		<pt X="3589.9924" Y="-8726.607" Z="-1483.6548"/>
+	</skpath>
+	<skpath from="108" to="114" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.paintedlady.7" head="204.midlevel.pussinbolts.5"/>
+		</pathcodes>
+		<sketchsubset subname="Puss in Bolts"/>
+		<pt X="3638.0884" Y="-8738.267" Z="-1573.0455"/>
+		<pt X="3612.084" Y="-8735.533" Z="-1508.3281"/>
+	</skpath>
+	<skpath from="110" to="115" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.1" head="204.midlevel.ontheprowl.2"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3644.728" Y="-8485.923" Z="-1510.7933"/>
+		<pt X="3724.2288" Y="-8436.245" Z="-1492.571"/>
+	</skpath>
+	<skpath from="116" to="115" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.3" head="204.midlevel.ontheprowl.2"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3716.2822" Y="-8411.789" Z="-1508.0223"/>
+		<pt X="3724.2288" Y="-8436.245" Z="-1492.571"/>
+	</skpath>
+	<skpath from="117" to="116" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.4" head="204.midlevel.ontheprowl.3"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3750.4587" Y="-8405.1455" Z="-1541.6438"/>
+		<pt X="3716.2822" Y="-8411.789" Z="-1508.0223"/>
+	</skpath>
+	<skpath from="118" to="117" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.5" head="204.midlevel.ontheprowl.4"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3768.1992" Y="-8390.78" Z="-1554.2974"/>
+		<pt X="3750.4587" Y="-8405.1455" Z="-1541.6438"/>
+	</skpath>
+	<skpath from="118" to="119" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.5" head="204.midlevel.ontheprowl.6"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3768.1992" Y="-8390.78" Z="-1554.2974"/>
+		<pt X="3636.714" Y="-8295.25" Z="-1513.7755"/>
+	</skpath>
+	<skpath from="120" to="118" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.7" head="204.midlevel.ontheprowl.5"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3811.398" Y="-8403.167" Z="-1532.3789"/>
+		<pt X="3768.1992" Y="-8390.78" Z="-1554.2974"/>
+	</skpath>
+	<skpath from="120" to="121" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.7" head="204.midlevel.fatcat.8"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3811.398" Y="-8403.167" Z="-1532.3789"/>
+		<pt X="3857.0063" Y="-8440.1" Z="-1564.9095"/>
+	</skpath>
+	<skpath from="120" to="122" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.7" head="204.midlevel.ontheprowl.9"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3811.398" Y="-8403.167" Z="-1532.3789"/>
+		<pt X="3858.0764" Y="-8408.073" Z="-1529.9192"/>
+	</skpath>
+	<skpath from="123" to="122" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.10" head="204.midlevel.ontheprowl.9"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3857.4246" Y="-8398.75" Z="-1522.0771"/>
+		<pt X="3858.0764" Y="-8408.073" Z="-1529.9192"/>
+	</skpath>
+	<skpath from="124" to="123" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.11" head="204.midlevel.ontheprowl.10"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3885.5789" Y="-8362.714" Z="-1514.8342"/>
+		<pt X="3857.4246" Y="-8398.75" Z="-1522.0771"/>
+	</skpath>
+	<skpath from="124" to="125" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.11" head="204.midlevel.ontheprowl.12"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3885.5789" Y="-8362.714" Z="-1514.8342"/>
+		<pt X="3886.3213" Y="-8320.179" Z="-1512.6049"/>
+	</skpath>
+	<skpath from="125" to="126" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.12" head="204.midlevel.ontheprowl.13"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3886.3213" Y="-8320.179" Z="-1512.6049"/>
+		<pt X="3916.8516" Y="-8316.971" Z="-1508.2904"/>
+	</skpath>
+	<skpath from="126" to="127" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.13" head="204.midlevel.ontheprowl.14"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3916.8516" Y="-8316.971" Z="-1508.2904"/>
+		<pt X="3950.1077" Y="-8341.132" Z="-1531.0765"/>
+	</skpath>
+	<skpath from="110" to="128" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.1" head="204.midlevel.ontheprowl.15"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3644.728" Y="-8485.923" Z="-1510.7933"/>
+		<pt X="3606.272" Y="-8552.53" Z="-1516.1716"/>
+	</skpath>
+	<skpath from="128" to="129" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.15" head="204.midlevel.ontheprowl.16"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3606.272" Y="-8552.53" Z="-1516.1716"/>
+		<pt X="3594.4995" Y="-8478.202" Z="-1574.9672"/>
+	</skpath>
+	<skpath from="130" to="129" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.17" head="204.midlevel.ontheprowl.16"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3565.4165" Y="-8454.65" Z="-1581.5659"/>
+		<pt X="3594.4995" Y="-8478.202" Z="-1574.9672"/>
+	</skpath>
+	<skpath from="130" to="131" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.ontheprowl.17" head="204.midlevel.ontheprowl.18"/>
+		</pathcodes>
+		<sketchsubset subname="On the Prowl"/>
+		<pt X="3565.4165" Y="-8454.65" Z="-1581.5659"/>
+		<pt X="3526.1938" Y="-8374.232" Z="-1631.1619"/>
+	</skpath>
+	<skpath from="132" to="97" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.snowleopard.2" head="204.midlevel.catflap.16"/>
+		</pathcodes>
+		<sketchsubset subname="Snow Leopard"/>
+		<pt X="3787.2097" Y="-9732.717" Z="-1482.1116"/>
+		<pt X="3783.7627" Y="-9726.234" Z="-1463.9387"/>
+	</skpath>
+	<skpath from="132" to="133" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.snowleopard.2" head="204.midlevel.snowleopard.3"/>
+		</pathcodes>
+		<sketchsubset subname="Snow Leopard"/>
+		<pt X="3787.2097" Y="-9732.717" Z="-1482.1116"/>
+		<pt X="3802.9482" Y="-9732.168" Z="-1485.4589"/>
+	</skpath>
+	<skpath from="133" to="134" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.snowleopard.3" head="204.midlevel.snowleopard.4"/>
+		</pathcodes>
+		<sketchsubset subname="Snow Leopard"/>
+		<pt X="3802.9482" Y="-9732.168" Z="-1485.4589"/>
+		<pt X="3802.9482" Y="-9732.168" Z="-1562.4587"/>
+	</skpath>
+	<skpath from="134" to="135" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.snowleopard.4" head="204.midlevel.snowleopard.5"/>
+		</pathcodes>
+		<sketchsubset subname="Snow Leopard"/>
+		<pt X="3802.9482" Y="-9732.168" Z="-1562.4587"/>
+		<pt X="3809.7896" Y="-9745.034" Z="-1571.2145"/>
+	</skpath>
+	<skpath from="135" to="136" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.snowleopard.5" head="204.midlevel.snowleopard.6"/>
+		</pathcodes>
+		<sketchsubset subname="Snow Leopard"/>
+		<pt X="3809.7896" Y="-9745.034" Z="-1571.2145"/>
+		<pt X="3809.7896" Y="-9745.034" Z="-1721.0144"/>
+	</skpath>
+	<skpath from="137" to="138" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.theowlandthepussycat.1" head="204.midlevel.theowlandthepussycat.2"/>
+		</pathcodes>
+		<sketchsubset subname="The Owl and the Pussycat"/>
+		<pt X="3530.417" Y="-9504.523" Z="-1693.6401"/>
+		<pt X="3532.479" Y="-9563.576" Z="-1683.2213"/>
+	</skpath>
+	<skpath from="138" to="139" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.theowlandthepussycat.2" head="204.midlevel.theowlandthepussycat.3"/>
+		</pathcodes>
+		<sketchsubset subname="The Owl and the Pussycat"/>
+		<pt X="3532.479" Y="-9563.576" Z="-1683.2213"/>
+		<pt X="3508.369" Y="-9479.494" Z="-1607.184"/>
+	</skpath>
+	<skpath from="139" to="85" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.theowlandthepussycat.3" head="204.midlevel.catflap.9"/>
+		</pathcodes>
+		<sketchsubset subname="The Owl and the Pussycat"/>
+		<pt X="3508.369" Y="-9479.494" Z="-1607.184"/>
+		<pt X="3546.7969" Y="-9457.308" Z="-1605.6345"/>
+	</skpath>
+	<skpath from="140" to="121" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.9" head="204.midlevel.fatcat.8"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3840.355" Y="-8428.868" Z="-1569.9172"/>
+		<pt X="3857.0063" Y="-8440.1" Z="-1564.9095"/>
+	</skpath>
+	<skpath from="140" to="141" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.9" head="204.midlevel.fatcat.10"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3840.355" Y="-8428.868" Z="-1569.9172"/>
+		<pt X="3845.1606" Y="-8440.189" Z="-1607.7693"/>
+	</skpath>
+	<skpath from="141" to="142" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.10" head="204.midlevel.fatcat.11"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3845.1606" Y="-8440.189" Z="-1607.7693"/>
+		<pt X="3841.4194" Y="-8446.177" Z="-1688.4612"/>
+	</skpath>
+	<skpath from="142" to="143" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.11" head="204.midlevel.fatcat.12"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3841.4194" Y="-8446.177" Z="-1688.4612"/>
+		<pt X="3829.6975" Y="-8446.177" Z="-1716.0764"/>
+	</skpath>
+	<skpath from="143" to="144" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.12" head="204.midlevel.fatcat.13"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3829.6975" Y="-8446.177" Z="-1716.0764"/>
+		<pt X="3829.4663" Y="-8450.59" Z="-1766.5834"/>
+	</skpath>
+	<skpath from="144" to="145" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.13" head="204.midlevel.fatcat.14"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3829.4663" Y="-8450.59" Z="-1766.5834"/>
+		<pt X="3829.4663" Y="-8450.59" Z="-1923.9834"/>
+	</skpath>
+	<skpath from="145" to="146" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.midlevel.fatcat.14" head="204.midlevel.fatcat.15"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Cat"/>
+		<pt X="3829.4663" Y="-8450.59" Z="-1923.9834"/>
+		<pt X="3889.2476" Y="-8384.195" Z="-2019.7908"/>
+	</skpath>
+	<skpath from="0" to="147" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.millennium.1" head="204.domes.millennium.2"/>
+		</pathcodes>
+		<sketchsubset subname="Millenium Dome and White Elephant Series"/>
+		<pt X="3796.7573" Y="-9478.202" Z="-385.8695"/>
+		<pt X="3796.7573" Y="-9478.202" Z="-366.5195"/>
+	</skpath>
+	<skpath from="148" to="149" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.1" head="204.domes.phat.0"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="3785.1855" Y="-9739.071" Z="-669.09357"/>
+		<pt X="3745.2146" Y="-9779.042" Z="-619.9548"/>
+	</skpath>
+	<skpath from="150" to="151" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.5" head="204.domes.phat.6"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-1152.0372"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-1372.6372"/>
+	</skpath>
+	<skpath from="152" to="153" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.3" head="204.domes.phat.3"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-678.0372"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-981.0371"/>
+	</skpath>
+	<skpath from="154" to="149" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.allroads.1" head="204.domes.phat.0"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="3683.9336" Y="-9818.839" Z="-538.80334"/>
+		<pt X="3745.2146" Y="-9779.042" Z="-619.9548"/>
+	</skpath>
+	<skpath from="148" to="152" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.1" head="204.domes.obese.3"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="3785.1855" Y="-9739.071" Z="-669.09357"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-678.0372"/>
+	</skpath>
+	<skpath from="155" to="152" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.1" head="204.domes.obese.3"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="3766.4626" Y="-9703.609" Z="-659.808"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-678.0372"/>
+	</skpath>
+	<skpath from="156" to="155" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.4" head="204.domes.obese.1"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="3742.1455" Y="-9691.219" Z="-628.41205"/>
+		<pt X="3766.4626" Y="-9703.609" Z="-659.808"/>
+	</skpath>
+	<skpath from="157" to="158" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.7" head="204.domes.phat.8"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1365.2906"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1579.7906"/>
+	</skpath>
+	<skpath from="153" to="159" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.3" head="204.domes.phat.4"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-981.0371"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-1014.0372"/>
+	</skpath>
+	<skpath from="158" to="160" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.8" head="204.domes.phat.9"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1579.7906"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1724.6907"/>
+	</skpath>
+	<skpath from="157" to="151" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.7" head="204.domes.phat.6"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1365.2906"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-1372.6372"/>
+	</skpath>
+	<skpath from="155" to="161" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.obese.1" head="204.domes.obese.2"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<pt X="3766.4626" Y="-9703.609" Z="-659.808"/>
+		<pt X="3783.604" Y="-9717.49" Z="-674.132"/>
+	</skpath>
+	<skpath from="159" to="150" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="204.domes.phat.4" head="204.domes.phat.5"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-1014.0372"/>
+		<pt X="3789.1343" Y="-9721.969" Z="-1152.0372"/>
+	</skpath>
+	<skpath from="162" to="149" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3741.4248" Y="-9773.11"/>
+		<pt X="3745.2146" Y="-9779.042" Z="-619.9548"/>
+	</skpath>
+	<skpath from="163" to="164" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3776.939" Y="-9721.903"/>
+		<pt X="3789.1206" Y="-9721.969"/>
+	</skpath>
+	<skpath from="165" to="148" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3775.931" Y="-9736.347"/>
+		<pt X="3785.1855" Y="-9739.071" Z="-669.09357"/>
+	</skpath>
+	<skpath from="166" to="148" linestyle="connective" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3789.0676" Y="-9741.394"/>
+		<pt X="3785.1855" Y="-9739.071" Z="-669.09357"/>
+	</skpath>
+	<skpath from="165" to="167" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3775.931" Y="-9736.347"/>
+		<pt X="3772.1675" Y="-9740.735"/>
+		<pt X="3767.158" Y="-9744.805"/>
+		<pt X="3760.9075" Y="-9747.298"/>
+		<pt X="3759.0327" Y="-9747.919"/>
+	</skpath>
+	<skpath from="163" to="165" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3776.939" Y="-9721.903"/>
+		<pt X="3775.9773" Y="-9726.29"/>
+		<pt X="3775.9546" Y="-9731.002"/>
+		<pt X="3775.931" Y="-9736.347"/>
+	</skpath>
+	<skpath from="167" to="168" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3759.0327" Y="-9747.919"/>
+		<pt X="3756.2417" Y="-9743.824"/>
+		<pt X="3751.5725" Y="-9740.666"/>
+		<pt X="3745.3345" Y="-9739.075"/>
+		<pt X="3739.6975" Y="-9743.463"/>
+		<pt X="3737.4822" Y="-9751.943"/>
+		<pt X="3738.083" Y="-9758.861"/>
+		<pt X="3739.6306" Y="-9762.323"/>
+		<pt X="3739.9238" Y="-9767.354"/>
+	</skpath>
+	<skpath from="166" to="169" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3789.0676" Y="-9741.394"/>
+		<pt X="3791.2705" Y="-9734.82"/>
+		<pt X="3791.6" Y="-9729.811"/>
+		<pt X="3789.1672" Y="-9718.201"/>
+		<pt X="3786.0786" Y="-9710.919"/>
+		<pt X="3779.8552" Y="-9704.873"/>
+		<pt X="3776.1128" Y="-9702.95"/>
+	</skpath>
+	<skpath from="165" to="166" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3775.931" Y="-9736.347"/>
+		<pt X="3777.4817" Y="-9738.554"/>
+		<pt X="3782.1526" Y="-9741.088"/>
+		<pt X="3785.9229" Y="-9742.336"/>
+		<pt X="3789.0676" Y="-9741.394"/>
+	</skpath>
+	<skpath from="168" to="167" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3739.9238" Y="-9767.354"/>
+		<pt X="3747.1174" Y="-9762.345"/>
+		<pt X="3754.6409" Y="-9753.564"/>
+		<pt X="3759.0327" Y="-9747.919"/>
+	</skpath>
+	<skpath from="170" to="171" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3782.196" Y="-9743.541"/>
+		<pt X="3746.3892" Y="-9774.074"/>
+	</skpath>
+	<skpath from="168" to="171" linestyle="connective">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3739.9238" Y="-9767.354"/>
+		<pt X="3746.3892" Y="-9774.074"/>
+	</skpath>
+	<skpath from="172" to="166" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3762.5576" Y="-9775.505"/>
+		<pt X="3766.2148" Y="-9771.451"/>
+		<pt X="3779.6848" Y="-9757.671"/>
+		<pt X="3786.89" Y="-9750.153"/>
+		<pt X="3789.3904" Y="-9744.833"/>
+		<pt X="3789.0676" Y="-9741.394"/>
+	</skpath>
+	<skpath from="168" to="162" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3739.9238" Y="-9767.354"/>
+		<pt X="3741.4248" Y="-9773.11"/>
+	</skpath>
+	<skpath from="172" to="173" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3762.5576" Y="-9775.505"/>
+		<pt X="3760.2317" Y="-9778.274"/>
+	</skpath>
+	<skpath from="174" to="175" linestyle="wall">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3798.3384" Y="-9582.116"/>
+		<pt X="3794.9988" Y="-9595.797"/>
+		<pt X="3788.4788" Y="-9613.497"/>
+		<pt X="3786.7542" Y="-9618.596"/>
+		<pt X="3785.2422" Y="-9633.909"/>
+	</skpath>
+	<skpath from="175" to="176" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3785.2422" Y="-9633.909"/>
+		<pt X="3778.3318" Y="-9638.942"/>
+		<pt X="3775.0515" Y="-9647.699"/>
+		<pt X="3780.3997" Y="-9653.654"/>
+		<pt X="3779.881" Y="-9668.3545"/>
+		<pt X="3780.8167" Y="-9690.732"/>
+		<pt X="3781.8982" Y="-9696.212"/>
+	</skpath>
+	<skpath from="177" to="178" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3794.5325" Y="-9633.003"/>
+		<pt X="3791.441" Y="-9625.876"/>
+		<pt X="3791.6213" Y="-9618.011"/>
+		<pt X="3795.861" Y="-9609.472"/>
+		<pt X="3801.1582" Y="-9597.037"/>
+		<pt X="3808.1465" Y="-9572.476"/>
+	</skpath>
+	<skpath from="179" to="180" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3802.5251" Y="-9563.565"/>
+		<pt X="3797.828" Y="-9563.785"/>
+	</skpath>
+	<skpath from="181" to="182" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3808.8315" Y="-9561.764"/>
+		<pt X="3799.3586" Y="-9570.957"/>
+	</skpath>
+	<skpath from="180" to="182" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3797.828" Y="-9563.785"/>
+		<pt X="3799.3586" Y="-9570.957"/>
+	</skpath>
+	<skpath from="181" to="178" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3808.8315" Y="-9561.764"/>
+		<pt X="3808.1465" Y="-9572.476"/>
+	</skpath>
+	<skpath from="179" to="174" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3802.5251" Y="-9563.565"/>
+		<pt X="3798.3384" Y="-9582.116"/>
+	</skpath>
+	<skpath from="175" to="177" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3785.2422" Y="-9633.909"/>
+		<pt X="3794.5325" Y="-9633.003"/>
+	</skpath>
+	<skpath from="177" to="157" linestyle="connective" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3794.5325" Y="-9633.003"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1365.2906"/>
+	</skpath>
+	<skpath from="183" to="184" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3831.5627" Y="-9817.824"/>
+		<pt X="3790.305" Y="-9644.932"/>
+	</skpath>
+	<skpath from="175" to="184" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3785.2422" Y="-9633.909"/>
+		<pt X="3790.305" Y="-9644.932"/>
+	</skpath>
+	<skpath from="185" to="186" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3831.2449" Y="-9802.141"/>
+		<pt X="3830.3054" Y="-9793.216"/>
+	</skpath>
+	<skpath from="187" to="188" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3836.2812" Y="-9801.261"/>
+		<pt X="3834.838" Y="-9790.493"/>
+	</skpath>
+	<skpath from="189" to="190" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3827.9663" Y="-9784.659"/>
+		<pt X="3825.2512" Y="-9777.031"/>
+	</skpath>
+	<skpath from="191" to="192" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3832.9338" Y="-9782.942"/>
+		<pt X="3830.9463" Y="-9775.031"/>
+	</skpath>
+	<skpath from="193" to="194" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3795.494" Y="-9730.145"/>
+		<pt X="3804.0244" Y="-9725.776"/>
+	</skpath>
+	<skpath from="195" to="196" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3792.4644" Y="-9721.682"/>
+		<pt X="3800.333" Y="-9717.32"/>
+	</skpath>
+	<skpath from="197" to="198" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3789.1477" Y="-9661.474"/>
+		<pt X="3791.8867" Y="-9670.517"/>
+	</skpath>
+	<skpath from="199" to="200" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3797.8853" Y="-9667.497"/>
+		<pt X="3794.9207" Y="-9658.67"/>
+	</skpath>
+	<skpath from="201" to="202" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3794.1584" Y="-9679.58"/>
+		<pt X="3797.7966" Y="-9688.9"/>
+	</skpath>
+	<skpath from="203" to="204" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3801.302" Y="-9677.949"/>
+		<pt X="3805.6365" Y="-9687.266"/>
+	</skpath>
+	<skpath from="199" to="198" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3797.8853" Y="-9667.497"/>
+		<pt X="3791.8867" Y="-9670.517"/>
+	</skpath>
+	<skpath from="204" to="202" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3805.6365" Y="-9687.266"/>
+		<pt X="3797.7966" Y="-9688.9"/>
+	</skpath>
+	<skpath from="196" to="194" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3800.333" Y="-9717.32"/>
+		<pt X="3804.0244" Y="-9725.776"/>
+	</skpath>
+	<skpath from="186" to="188" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3830.3054" Y="-9793.216"/>
+		<pt X="3834.838" Y="-9790.493"/>
+	</skpath>
+	<skpath from="190" to="192" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3825.2512" Y="-9777.031"/>
+		<pt X="3830.9463" Y="-9775.031"/>
+	</skpath>
+	<skpath from="198" to="201" linestyle="connective" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3791.8867" Y="-9670.517"/>
+		<pt X="3794.1584" Y="-9679.58"/>
+	</skpath>
+	<skpath from="202" to="196" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3797.7966" Y="-9688.9"/>
+		<pt X="3800.333" Y="-9717.32"/>
+	</skpath>
+	<skpath from="190" to="194" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3825.2512" Y="-9777.031"/>
+		<pt X="3804.0244" Y="-9725.776"/>
+	</skpath>
+	<skpath from="186" to="189" linestyle="connective">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3830.3054" Y="-9793.216"/>
+		<pt X="3827.9663" Y="-9784.659"/>
+	</skpath>
+	<skpath from="164" to="195" linestyle="connective">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3789.1206" Y="-9721.969"/>
+		<pt X="3792.4644" Y="-9721.682"/>
+	</skpath>
+	<skpath from="197" to="200" linestyle="invisible">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3789.1477" Y="-9661.474"/>
+		<pt X="3794.9207" Y="-9658.67"/>
+	</skpath>
+	<skpath from="203" to="201" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3801.302" Y="-9677.949"/>
+		<pt X="3794.1584" Y="-9679.58"/>
+	</skpath>
+	<skpath from="195" to="193" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3792.4644" Y="-9721.682"/>
+		<pt X="3795.494" Y="-9730.145"/>
+	</skpath>
+	<skpath from="191" to="189" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3832.9338" Y="-9782.942"/>
+		<pt X="3827.9663" Y="-9784.659"/>
+	</skpath>
+	<skpath from="187" to="185" linestyle="invisible" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3836.2812" Y="-9801.261"/>
+		<pt X="3831.2449" Y="-9802.141"/>
+	</skpath>
+	<skpath from="205" to="203" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-75</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3819.2737" Y="-9668.111"/>
+		<pt X="3801.302" Y="-9677.949"/>
+	</skpath>
+	<skpath from="206" to="177" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3792.6196" Y="-9737.0205"/>
+		<pt X="3794.8293" Y="-9744.534"/>
+		<pt X="3808.5286" Y="-9781.6045"/>
+		<pt X="3819.2192" Y="-9832.357"/>
+		<pt X="3819.7734" Y="-9864.831"/>
+		<pt X="3849.6897" Y="-9834.393"/>
+		<pt X="3843.4336" Y="-9841.602"/>
+		<pt X="3840.0002" Y="-9841.704"/>
+		<pt X="3854.6729" Y="-9823.284"/>
+		<pt X="3850.0083" Y="-9824.217"/>
+		<pt X="3844.6057" Y="-9816.325"/>
+		<pt X="3842.6062" Y="-9801.822"/>
+		<pt X="3842.3586" Y="-9769.065"/>
+		<pt X="3841.7417" Y="-9739.194"/>
+		<pt X="3844.3738" Y="-9729.937"/>
+		<pt X="3848.4546" Y="-9724.438"/>
+		<pt X="3845.1714" Y="-9718.494"/>
+		<pt X="3836.7114" Y="-9717.334"/>
+		<pt X="3830.5315" Y="-9701.131"/>
+		<pt X="3817.7944" Y="-9673.587"/>
+		<pt X="3807.581" Y="-9655.968"/>
+		<pt X="3799.5215" Y="-9648.277"/>
+		<pt X="3799.2476" Y="-9638.971"/>
+		<pt X="3794.5325" Y="-9633.003"/>
+	</skpath>
+	<skpath from="176" to="206" linestyle="wall" splined="1">
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3781.8982" Y="-9696.212"/>
+		<pt X="3778.7302" Y="-9702.641"/>
+		<pt X="3777.45" Y="-9715.378"/>
+		<pt X="3781.7634" Y="-9731.896"/>
+		<pt X="3789.5085" Y="-9735.785"/>
+		<pt X="3792.6196" Y="-9737.0205"/>
+	</skpath>
+	<skpath from="207" to="28" linestyle="connective" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3702.2695" Y="-8981.426"/>
+		<pt X="3702.7168" Y="-8987.512" Z="-564.7708"/>
+	</skpath>
+	<skpath from="208" to="27" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3731.53" Y="-8950.587"/>
+		<pt X="3731.9404" Y="-8955.057" Z="-650.4856"/>
+	</skpath>
+	<skpath from="209" to="10" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3688.5618" Y="-9091.336"/>
+		<pt X="3696.8425" Y="-9091.263"/>
+		<pt X="3700.798" Y="-9097.427" Z="-557.0837"/>
+	</skpath>
+	<skpath from="210" to="10" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.375" Y="-9110.689"/>
+		<pt X="3700.798" Y="-9097.427" Z="-557.0837"/>
+	</skpath>
+	<skpath from="209" to="211" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3688.5618" Y="-9091.336"/>
+		<pt X="3675.343" Y="-9089.257"/>
+		<pt X="3668.377" Y="-9089.22"/>
+		<pt X="3659.2998" Y="-9085.505"/>
+	</skpath>
+	<skpath from="211" to="212" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3659.2998" Y="-9085.505"/>
+		<pt X="3655.9744" Y="-9083.661"/>
+		<pt X="3652.3433" Y="-9084.585"/>
+		<pt X="3652.0403" Y="-9089.503"/>
+		<pt X="3643.8801" Y="-9094.122"/>
+		<pt X="3640.5508" Y="-9090.447"/>
+		<pt X="3632.9888" Y="-9089.249"/>
+		<pt X="3611.8252" Y="-9097.353"/>
+		<pt X="3594.89" Y="-9102.394"/>
+		<pt X="3580.684" Y="-9109.569"/>
+		<pt X="3571.8987" Y="-9109.969"/>
+		<pt X="3564.896" Y="-9103.318"/>
+		<pt X="3562.1309" Y="-9094.491"/>
+		<pt X="3563.919" Y="-9085.309"/>
+		<pt X="3565.0522" Y="-9079.393"/>
+	</skpath>
+	<skpath from="213" to="214" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3655.3933" Y="-9073.835"/>
+		<pt X="3652.6926" Y="-9067.399"/>
+		<pt X="3647.5898" Y="-9057.31"/>
+		<pt X="3646.4346" Y="-9046.614"/>
+		<pt X="3649.8157" Y="-9039.264"/>
+		<pt X="3661.6926" Y="-9033.994"/>
+		<pt X="3670.8064" Y="-9033.342"/>
+		<pt X="3675.9805" Y="-9031.487"/>
+		<pt X="3677.5098" Y="-9029.951"/>
+	</skpath>
+	<skpath from="214" to="215" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.5098" Y="-9029.951"/>
+		<pt X="3674.2097" Y="-9025.063"/>
+		<pt X="3668.796" Y="-9017.47"/>
+		<pt X="3663.6697" Y="-9005.694"/>
+		<pt X="3665.1257" Y="-8988.211"/>
+		<pt X="3669.8735" Y="-8979.456"/>
+		<pt X="3672.1519" Y="-8977.482"/>
+	</skpath>
+	<skpath from="216" to="207" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.6267" Y="-9003.32"/>
+		<pt X="3711.337" Y="-8997.072"/>
+		<pt X="3707.0154" Y="-8987.523"/>
+		<pt X="3702.2695" Y="-8981.426"/>
+	</skpath>
+	<skpath from="217" to="218" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.765" Y="-8980.589"/>
+		<pt X="3707.1196" Y="-8984.258"/>
+		<pt X="3710.7146" Y="-8991.659"/>
+		<pt X="3714.0508" Y="-8999.613"/>
+		<pt X="3715.9255" Y="-9001.446"/>
+	</skpath>
+	<skpath from="218" to="216" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.9255" Y="-9001.446"/>
+		<pt X="3715.6267" Y="-9003.32"/>
+	</skpath>
+	<skpath from="207" to="217" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3702.2695" Y="-8981.426"/>
+		<pt X="3703.765" Y="-8980.589"/>
+	</skpath>
+	<skpath from="208" to="217" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3731.53" Y="-8950.587"/>
+		<pt X="3722.2944" Y="-8953.766"/>
+		<pt X="3710.228" Y="-8962.459"/>
+		<pt X="3706.9937" Y="-8973.805"/>
+		<pt X="3706.963" Y="-8977.676"/>
+		<pt X="3703.765" Y="-8980.589"/>
+	</skpath>
+	<skpath from="219" to="213" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3581.5874" Y="-9082.589"/>
+		<pt X="3580.9001" Y="-9083.883"/>
+		<pt X="3577.8962" Y="-9094.308"/>
+		<pt X="3581.2385" Y="-9097.021"/>
+		<pt X="3592.7441" Y="-9094.456"/>
+		<pt X="3617.859" Y="-9086.889"/>
+		<pt X="3630.2622" Y="-9082.211"/>
+		<pt X="3635.7163" Y="-9075.437"/>
+		<pt X="3641.471" Y="-9073.875"/>
+		<pt X="3647.8203" Y="-9076.307"/>
+		<pt X="3655.3933" Y="-9073.835"/>
+	</skpath>
+	<skpath from="212" to="220" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3565.0522" Y="-9079.393"/>
+		<pt X="3566.0083" Y="-9072.469"/>
+		<pt X="3566.5864" Y="-9059.361"/>
+		<pt X="3569.309" Y="-9051.411"/>
+		<pt X="3577.5266" Y="-9047.034"/>
+		<pt X="3581.1487" Y="-9045.826"/>
+	</skpath>
+	<skpath from="212" to="219" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3565.0522" Y="-9079.393"/>
+		<pt X="3581.5874" Y="-9082.589"/>
+	</skpath>
+	<skpath from="213" to="211" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3655.3933" Y="-9073.835"/>
+		<pt X="3659.2998" Y="-9085.505"/>
+	</skpath>
+	<skpath from="221" to="222" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3679.6055" Y="-8989.729"/>
+		<pt X="3692.03" Y="-9009.837"/>
+	</skpath>
+	<skpath from="223" to="222" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.3154" Y="-9019.192"/>
+		<pt X="3692.03" Y="-9009.837"/>
+	</skpath>
+	<skpath from="224" to="222" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.8171" Y="-9002.286"/>
+		<pt X="3692.03" Y="-9009.837"/>
+	</skpath>
+	<skpath from="221" to="223" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3679.6055" Y="-8989.729"/>
+		<pt X="3676.7808" Y="-9001.77"/>
+		<pt X="3692.3154" Y="-9019.192"/>
+	</skpath>
+	<skpath from="224" to="223" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.8171" Y="-9002.286"/>
+		<pt X="3698.3855" Y="-9014.181"/>
+		<pt X="3692.3154" Y="-9019.192"/>
+	</skpath>
+	<skpath from="224" to="221" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.8171" Y="-9002.286"/>
+		<pt X="3690.9329" Y="-8983.578"/>
+		<pt X="3679.6055" Y="-8989.729"/>
+	</skpath>
+	<skpath from="225" to="226" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3571.9736" Y="-9057.01"/>
+		<pt X="3577.771" Y="-9062.729"/>
+		<pt X="3584.9116" Y="-9056.08"/>
+	</skpath>
+	<skpath from="225" to="227" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3571.9736" Y="-9057.01"/>
+		<pt X="3572.112" Y="-9052.555"/>
+		<pt X="3579.684" Y="-9047.7"/>
+	</skpath>
+	<skpath from="227" to="226" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3579.684" Y="-9047.7"/>
+		<pt X="3584.9119" Y="-9052.665"/>
+		<pt X="3584.9116" Y="-9056.08"/>
+	</skpath>
+	<skpath from="228" to="227" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3578.9456" Y="-9050.827"/>
+		<pt X="3579.684" Y="-9047.7"/>
+	</skpath>
+	<skpath from="228" to="225" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3578.9456" Y="-9050.827"/>
+		<pt X="3571.9736" Y="-9057.01"/>
+	</skpath>
+	<skpath from="226" to="228" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3584.9116" Y="-9056.08"/>
+		<pt X="3578.9456" Y="-9050.827"/>
+	</skpath>
+	<skpath from="229" to="230" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3569.327" Y="-9077.295"/>
+		<pt X="3575.0886" Y="-9064.709"/>
+	</skpath>
+	<skpath from="231" to="232" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3581.4702" Y="-9077.147"/>
+		<pt X="3580.1235" Y="-9064.502"/>
+	</skpath>
+	<skpath from="212" to="229" linestyle="connective" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3565.0522" Y="-9079.393"/>
+		<pt X="3569.327" Y="-9077.295"/>
+	</skpath>
+	<skpath from="231" to="219" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3581.4702" Y="-9077.147"/>
+		<pt X="3581.5874" Y="-9082.589"/>
+	</skpath>
+	<skpath from="220" to="219" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3581.1487" Y="-9045.826"/>
+		<pt X="3585.4607" Y="-9046.312"/>
+		<pt X="3588.8352" Y="-9053.557"/>
+		<pt X="3590.605" Y="-9062.998"/>
+		<pt X="3588.7725" Y="-9073.096"/>
+		<pt X="3581.5874" Y="-9082.589"/>
+	</skpath>
+	<skpath from="220" to="227" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3581.1487" Y="-9045.826"/>
+		<pt X="3579.684" Y="-9047.7"/>
+	</skpath>
+	<skpath from="233" to="234" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3748.5815" Y="-8956.523"/>
+		<pt X="3729.0813" Y="-8957.483"/>
+	</skpath>
+	<skpath from="218" to="235" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.9255" Y="-9001.446"/>
+		<pt X="3712.6094" Y="-8973.102"/>
+	</skpath>
+	<skpath from="234" to="235" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3729.0813" Y="-8957.483"/>
+		<pt X="3712.6094" Y="-8973.102"/>
+	</skpath>
+	<skpath from="215" to="207" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3672.1519" Y="-8977.482"/>
+		<pt X="3681.289" Y="-8974.216"/>
+		<pt X="3690.3362" Y="-8974.068"/>
+		<pt X="3696.4546" Y="-8976.936"/>
+		<pt X="3702.2695" Y="-8981.426"/>
+	</skpath>
+	<skpath from="215" to="221" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3672.1519" Y="-8977.482"/>
+		<pt X="3679.6055" Y="-8989.729"/>
+	</skpath>
+	<skpath from="236" to="237" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3667.8687" Y="-8995.338"/>
+		<pt X="3685.2068" Y="-9024.576"/>
+	</skpath>
+	<skpath from="215" to="236" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3672.1519" Y="-8977.482"/>
+		<pt X="3667.8687" Y="-8995.338"/>
+	</skpath>
+	<skpath from="238" to="216" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c4</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3721.9314" Y="-9011.247"/>
+		<pt X="3715.6267" Y="-9003.32"/>
+	</skpath>
+	<skpath from="239" to="9" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.2747" Y="-9122.229"/>
+		<pt X="3708.2954" Y="-9123.573" Z="-557.0837"/>
+	</skpath>
+	<skpath from="240" to="10" linestyle="connective" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3713.9087" Y="-9096.983"/>
+		<pt X="3700.798" Y="-9097.427" Z="-557.0837"/>
+	</skpath>
+	<skpath from="241" to="9" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3709.7642" Y="-9123.966"/>
+		<pt X="3708.2954" Y="-9123.573" Z="-557.0837"/>
+	</skpath>
+	<skpath from="242" to="11" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.4392" Y="-9133.053"/>
+		<pt X="3698.852" Y="-9132.692" Z="-558.46344"/>
+	</skpath>
+	<skpath from="243" to="12" linestyle="connective">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3707.2043" Y="-9177.56"/>
+		<pt X="3705.9697" Y="-9177.632" Z="-558.46344"/>
+	</skpath>
+	<skpath from="244" to="12" linestyle="connective">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.3984" Y="-9177.052"/>
+		<pt X="3705.9697" Y="-9177.632" Z="-558.46344"/>
+	</skpath>
+	<skpath from="245" to="13" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.0261" Y="-9192.732"/>
+		<pt X="3699.2117" Y="-9192.811" Z="-555.9802"/>
+	</skpath>
+	<skpath from="246" to="13" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3697.9688" Y="-9192.987"/>
+		<pt X="3699.2117" Y="-9192.811" Z="-555.9802"/>
+	</skpath>
+	<skpath from="247" to="14" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.8855" Y="-9219.064"/>
+		<pt X="3704.836" Y="-9219.2705" Z="-553.1371"/>
+	</skpath>
+	<skpath from="248" to="15" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.78" Y="-9227.354"/>
+		<pt X="3699.9756" Y="-9226.477" Z="-552.75757"/>
+	</skpath>
+	<skpath from="249" to="16" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3697.2576" Y="-9256.393"/>
+		<pt X="3695.3467" Y="-9255.702" Z="-553.5324"/>
+	</skpath>
+	<skpath from="250" to="16" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.2998" Y="-9254.768"/>
+		<pt X="3695.3467" Y="-9255.702" Z="-553.5324"/>
+	</skpath>
+	<skpath from="251" to="17" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.3374" Y="-9273.18"/>
+		<pt X="3688.0728" Y="-9274.65" Z="-553.17816"/>
+	</skpath>
+	<skpath from="252" to="17" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.6697" Y="-9274.908"/>
+		<pt X="3688.0728" Y="-9274.65" Z="-553.17816"/>
+	</skpath>
+	<skpath from="253" to="18" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.526" Y="-9285.12"/>
+		<pt X="3688.0728" Y="-9285.823" Z="-552.39685"/>
+	</skpath>
+	<skpath from="254" to="18" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3682.321" Y="-9284.676"/>
+		<pt X="3688.0728" Y="-9285.823" Z="-552.39685"/>
+	</skpath>
+	<skpath from="255" to="18" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3686.6316" Y="-9291.305"/>
+		<pt X="3688.0728" Y="-9285.823" Z="-552.39685"/>
+	</skpath>
+	<skpath from="19" to="256" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3695.8862" Y="-9304.23" Z="-552.0478"/>
+		<pt X="3697.12" Y="-9303.826"/>
+	</skpath>
+	<skpath from="257" to="19" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3691.808" Y="-9305.393"/>
+		<pt X="3695.8862" Y="-9304.23" Z="-552.0478"/>
+	</skpath>
+	<skpath from="258" to="20" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.0107" Y="-9341.075"/>
+		<pt X="3705.5425" Y="-9340.269" Z="-549.4389"/>
+	</skpath>
+	<skpath from="259" to="20" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3706.9001" Y="-9339.924"/>
+		<pt X="3705.5425" Y="-9340.269" Z="-549.4389"/>
+	</skpath>
+	<skpath from="260" to="21" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3723.153" Y="-9359.442"/>
+		<pt X="3716.2185" Y="-9359.528" Z="-544.355"/>
+	</skpath>
+	<skpath from="261" to="22" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.0068" Y="-9381.51"/>
+		<pt X="3703.223" Y="-9383.97" Z="-538.4711"/>
+	</skpath>
+	<skpath from="262" to="23" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.4187" Y="-9398.345"/>
+		<pt X="3697.3708" Y="-9400.966" Z="-532.6307"/>
+	</skpath>
+	<skpath from="263" to="23" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.1533" Y="-9401.345"/>
+		<pt X="3697.3708" Y="-9400.966" Z="-532.6307"/>
+	</skpath>
+	<skpath from="264" to="24" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3689.935" Y="-9418.333"/>
+		<pt X="3685.683" Y="-9417.658" Z="-486.86206"/>
+	</skpath>
+	<skpath from="24" to="265" linestyle="connective" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3685.683" Y="-9417.658" Z="-486.86206"/>
+		<pt X="3684.4844" Y="-9417.287"/>
+	</skpath>
+	<skpath from="266" to="267" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.6199" Y="-9054.783"/>
+		<pt X="3674.6602" Y="-9061.101"/>
+		<pt X="3676.354" Y="-9064.679"/>
+	</skpath>
+	<skpath from="267" to="268" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3676.354" Y="-9064.679"/>
+		<pt X="3681.0105" Y="-9077.933"/>
+	</skpath>
+	<skpath from="266" to="269" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.6199" Y="-9054.783"/>
+		<pt X="3683.1187" Y="-9052.889"/>
+	</skpath>
+	<skpath from="269" to="270" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.1187" Y="-9052.889"/>
+		<pt X="3685.1128" Y="-9060.446"/>
+	</skpath>
+	<skpath from="266" to="271" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.6199" Y="-9054.783"/>
+		<pt X="3681.857" Y="-9072.883"/>
+	</skpath>
+	<skpath from="268" to="271" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3681.0105" Y="-9077.933"/>
+		<pt X="3681.857" Y="-9072.883"/>
+	</skpath>
+	<skpath from="272" to="271" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3687.7834" Y="-9070.571"/>
+		<pt X="3681.857" Y="-9072.883"/>
+	</skpath>
+	<skpath from="268" to="273" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3681.0105" Y="-9077.933"/>
+		<pt X="3685.8796" Y="-9078.139"/>
+		<pt X="3687.149" Y="-9073.094"/>
+	</skpath>
+	<skpath from="272" to="273" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3687.7834" Y="-9070.571"/>
+		<pt X="3687.149" Y="-9073.094"/>
+	</skpath>
+	<skpath from="269" to="274" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.1187" Y="-9052.889"/>
+		<pt X="3680.3672" Y="-9050.573"/>
+		<pt X="3680.5745" Y="-9044.678"/>
+	</skpath>
+	<skpath from="269" to="275" linestyle="detail" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.1187" Y="-9052.889"/>
+		<pt X="3687.776" Y="-9057.1"/>
+	</skpath>
+	<skpath from="275" to="276" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3687.776" Y="-9057.1"/>
+		<pt X="3690.9512" Y="-9058.993"/>
+	</skpath>
+	<skpath from="274" to="277" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.5745" Y="-9044.678"/>
+		<pt X="3689.0413" Y="-9052.257"/>
+	</skpath>
+	<skpath from="276" to="277" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3690.9512" Y="-9058.993"/>
+		<pt X="3689.0413" Y="-9052.257"/>
+	</skpath>
+	<skpath from="274" to="278" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.5745" Y="-9044.678"/>
+		<pt X="3686.1357" Y="-9038.283"/>
+	</skpath>
+	<skpath from="277" to="279" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3689.0413" Y="-9052.257"/>
+		<pt X="3699.1807" Y="-9040.895"/>
+	</skpath>
+	<skpath from="279" to="280" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.1807" Y="-9040.895"/>
+		<pt X="3699.6143" Y="-9049.318"/>
+		<pt X="3695.016" Y="-9054.455"/>
+	</skpath>
+	<skpath from="280" to="276" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3695.016" Y="-9054.455"/>
+		<pt X="3690.9512" Y="-9058.993"/>
+	</skpath>
+	<skpath from="280" to="281" linestyle="detail" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3695.016" Y="-9054.455"/>
+		<pt X="3699.204" Y="-9060.683"/>
+	</skpath>
+	<skpath from="282" to="272" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3686.5076" Y="-9065.735"/>
+		<pt X="3687.7834" Y="-9070.571"/>
+	</skpath>
+	<skpath from="282" to="281" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3686.5076" Y="-9065.735"/>
+		<pt X="3693.498" Y="-9069.303"/>
+		<pt X="3699.204" Y="-9060.683"/>
+	</skpath>
+	<skpath from="270" to="282" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3685.1128" Y="-9060.446"/>
+		<pt X="3686.5076" Y="-9065.735"/>
+	</skpath>
+	<skpath from="270" to="275" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3685.1128" Y="-9060.446"/>
+		<pt X="3687.776" Y="-9057.1"/>
+	</skpath>
+	<skpath from="281" to="283" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.204" Y="-9060.683"/>
+		<pt X="3699.2122" Y="-9068.256"/>
+		<pt X="3692.6545" Y="-9074.981"/>
+	</skpath>
+	<skpath from="273" to="283" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3687.149" Y="-9073.094"/>
+		<pt X="3692.6545" Y="-9074.981"/>
+	</skpath>
+	<skpath from="239" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.2747" Y="-9122.229"/>
+		<pt X="3699.224" Y="-9125.385"/>
+		<pt X="3697.958" Y="-9128.342"/>
+		<pt X="3698.852" Y="-9132.692" Z="-558.46344"/>
+	</skpath>
+	<skpath from="241" to="242" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3709.7642" Y="-9123.966"/>
+		<pt X="3707.9033" Y="-9128.384"/>
+		<pt X="3705.4392" Y="-9133.053"/>
+	</skpath>
+	<skpath from="11" to="244" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.852" Y="-9132.692" Z="-558.46344"/>
+		<pt X="3699.315" Y="-9141.239"/>
+		<pt X="3699.888" Y="-9158.784"/>
+		<pt X="3701.7217" Y="-9163.022"/>
+		<pt X="3703.3" Y="-9170.221"/>
+		<pt X="3701.3984" Y="-9177.052"/>
+	</skpath>
+	<skpath from="242" to="243" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.4392" Y="-9133.053"/>
+		<pt X="3704.2473" Y="-9136.87"/>
+		<pt X="3705.9949" Y="-9145.777"/>
+		<pt X="3706.8733" Y="-9156.768"/>
+		<pt X="3707.9497" Y="-9169.018"/>
+		<pt X="3707.2043" Y="-9177.56"/>
+	</skpath>
+	<skpath from="244" to="246" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.3984" Y="-9177.052"/>
+		<pt X="3698.533" Y="-9185.788"/>
+		<pt X="3697.9688" Y="-9192.987"/>
+	</skpath>
+	<skpath from="243" to="245" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3707.2043" Y="-9177.56"/>
+		<pt X="3706.575" Y="-9183.687"/>
+		<pt X="3705.2844" Y="-9188.121"/>
+		<pt X="3705.0261" Y="-9192.732"/>
+	</skpath>
+	<skpath from="246" to="284" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3697.9688" Y="-9192.987"/>
+		<pt X="3697.9563" Y="-9205.188"/>
+		<pt X="3700.0723" Y="-9208.995"/>
+		<pt X="3701.0923" Y="-9214.123"/>
+	</skpath>
+	<skpath from="245" to="285" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.0261" Y="-9192.732"/>
+		<pt X="3705.5122" Y="-9198.134"/>
+		<pt X="3705.6416" Y="-9205.257"/>
+	</skpath>
+	<skpath from="247" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.8855" Y="-9219.064"/>
+		<pt X="3700.4482" Y="-9223.271"/>
+		<pt X="3699.9756" Y="-9226.477" Z="-552.75757"/>
+	</skpath>
+	<skpath from="14" to="248" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3704.836" Y="-9219.2705" Z="-553.1371"/>
+		<pt X="3704.0994" Y="-9223.578"/>
+		<pt X="3703.78" Y="-9227.354"/>
+	</skpath>
+	<skpath from="15" to="250" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.9756" Y="-9226.477" Z="-552.75757"/>
+		<pt X="3698.133" Y="-9231.943"/>
+		<pt X="3695.1443" Y="-9242.849"/>
+		<pt X="3692.2998" Y="-9254.768"/>
+	</skpath>
+	<skpath from="248" to="249" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.78" Y="-9227.354"/>
+		<pt X="3701.5623" Y="-9236.958"/>
+		<pt X="3699.6252" Y="-9246.884"/>
+		<pt X="3697.2576" Y="-9256.393"/>
+	</skpath>
+	<skpath from="250" to="251" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.2998" Y="-9254.768"/>
+		<pt X="3692.0571" Y="-9258.661"/>
+		<pt X="3691.409" Y="-9263.539"/>
+		<pt X="3689.2969" Y="-9267.134"/>
+		<pt X="3686.132" Y="-9270.089"/>
+		<pt X="3683.3374" Y="-9273.18"/>
+	</skpath>
+	<skpath from="249" to="252" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3697.2576" Y="-9256.393"/>
+		<pt X="3696.693" Y="-9260.36"/>
+		<pt X="3695.0051" Y="-9266.912"/>
+		<pt X="3692.6697" Y="-9274.908"/>
+	</skpath>
+	<skpath from="251" to="254" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.3374" Y="-9273.18"/>
+		<pt X="3682.3242" Y="-9277.485"/>
+		<pt X="3682.321" Y="-9284.676"/>
+	</skpath>
+	<skpath from="252" to="253" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.6697" Y="-9274.908"/>
+		<pt X="3692.2612" Y="-9278.977"/>
+		<pt X="3692.526" Y="-9285.12"/>
+	</skpath>
+	<skpath from="254" to="286" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3682.321" Y="-9284.676"/>
+		<pt X="3682.1147" Y="-9287.436"/>
+		<pt X="3681.702" Y="-9294.625"/>
+	</skpath>
+	<skpath from="287" to="255" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3685.2854" Y="-9297.158"/>
+		<pt X="3685.9187" Y="-9294.204"/>
+		<pt X="3686.6316" Y="-9291.305"/>
+	</skpath>
+	<skpath from="255" to="257" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3686.6316" Y="-9291.305"/>
+		<pt X="3687.6091" Y="-9295.69"/>
+		<pt X="3690.1475" Y="-9300.982"/>
+		<pt X="3691.808" Y="-9305.393"/>
+	</skpath>
+	<skpath from="257" to="258" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3691.808" Y="-9305.393"/>
+		<pt X="3694.3755" Y="-9314.525"/>
+		<pt X="3696.4932" Y="-9325.318"/>
+		<pt X="3701.0107" Y="-9341.075"/>
+	</skpath>
+	<skpath from="253" to="256" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.526" Y="-9285.12"/>
+		<pt X="3693.5251" Y="-9292.316"/>
+		<pt X="3696.0632" Y="-9300.784"/>
+		<pt X="3697.12" Y="-9303.826"/>
+	</skpath>
+	<skpath from="256" to="259" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3697.12" Y="-9303.826"/>
+		<pt X="3699.8708" Y="-9310.937"/>
+		<pt X="3702.8333" Y="-9318.977"/>
+		<pt X="3705.3738" Y="-9326.171"/>
+		<pt X="3706.4321" Y="-9334.852"/>
+		<pt X="3706.9001" Y="-9339.924"/>
+	</skpath>
+	<skpath from="258" to="21" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.0107" Y="-9341.075"/>
+		<pt X="3703.684" Y="-9346.278"/>
+		<pt X="3708.1245" Y="-9351.3545"/>
+		<pt X="3713.411" Y="-9355.589"/>
+		<pt X="3716.2185" Y="-9359.528" Z="-544.355"/>
+	</skpath>
+	<skpath from="259" to="260" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3706.9001" Y="-9339.924"/>
+		<pt X="3711.5134" Y="-9345.64"/>
+		<pt X="3716.172" Y="-9348.38"/>
+		<pt X="3719.3455" Y="-9352.6045"/>
+		<pt X="3722.5168" Y="-9356.401"/>
+		<pt X="3723.153" Y="-9359.442"/>
+	</skpath>
+	<skpath from="21" to="261" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3716.2185" Y="-9359.528" Z="-544.355"/>
+		<pt X="3711.0876" Y="-9365.744"/>
+		<pt X="3704.1155" Y="-9373.579"/>
+		<pt X="3698.0068" Y="-9381.51"/>
+	</skpath>
+	<skpath from="260" to="22" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3723.153" Y="-9359.442"/>
+		<pt X="3720.6138" Y="-9365.087"/>
+		<pt X="3714.2646" Y="-9371.664"/>
+		<pt X="3706.8562" Y="-9379.714"/>
+		<pt X="3703.223" Y="-9383.97" Z="-538.4711"/>
+	</skpath>
+	<skpath from="261" to="262" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.0068" Y="-9381.51"/>
+		<pt X="3695.9724" Y="-9387.687"/>
+		<pt X="3694.0" Y="-9393.639"/>
+		<pt X="3692.4187" Y="-9398.345"/>
+	</skpath>
+	<skpath from="22" to="263" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.223" Y="-9383.97" Z="-538.4711"/>
+		<pt X="3701.8535" Y="-9389.959"/>
+		<pt X="3699.7024" Y="-9398.039"/>
+		<pt X="3699.1533" Y="-9401.345"/>
+	</skpath>
+	<skpath from="262" to="288" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.4187" Y="-9398.345"/>
+		<pt X="3691.344" Y="-9402.363"/>
+	</skpath>
+	<skpath from="264" to="289" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3689.935" Y="-9418.333"/>
+		<pt X="3692.9453" Y="-9414.856"/>
+	</skpath>
+	<skpath from="265" to="290" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3684.4844" Y="-9417.287"/>
+		<pt X="3684.1" Y="-9422.841"/>
+		<pt X="3684.1714" Y="-9428.748"/>
+	</skpath>
+	<skpath from="284" to="247" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.0923" Y="-9214.123"/>
+		<pt X="3701.342" Y="-9215.835"/>
+		<pt X="3701.8855" Y="-9219.064"/>
+	</skpath>
+	<skpath from="291" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3706.2544" Y="-9214.055"/>
+		<pt X="3705.9895" Y="-9216.375"/>
+		<pt X="3704.836" Y="-9219.2705" Z="-553.1371"/>
+	</skpath>
+	<skpath from="284" to="291" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.0923" Y="-9214.123"/>
+		<pt X="3706.2544" Y="-9214.055"/>
+	</skpath>
+	<skpath from="285" to="291" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.6416" Y="-9205.257"/>
+		<pt X="3705.7593" Y="-9208.338"/>
+		<pt X="3706.2544" Y="-9214.055"/>
+	</skpath>
+	<skpath from="292" to="285" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3700.1958" Y="-9194.8"/>
+		<pt X="3700.768" Y="-9199.354"/>
+		<pt X="3700.9968" Y="-9201.173"/>
+		<pt X="3700.6523" Y="-9203.45"/>
+		<pt X="3700.306" Y="-9205.961"/>
+		<pt X="3702.2468" Y="-9209.021"/>
+		<pt X="3704.0557" Y="-9208.457"/>
+		<pt X="3705.6416" Y="-9205.257"/>
+	</skpath>
+	<skpath from="285" to="293" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.6416" Y="-9205.257"/>
+		<pt X="3704.9434" Y="-9202.749"/>
+		<pt X="3703.3613" Y="-9200.932"/>
+		<pt X="3703.1274" Y="-9198.191"/>
+		<pt X="3702.7625" Y="-9194.407"/>
+	</skpath>
+	<skpath from="294" to="292" linestyle="detail" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3704.723" Y="-9170.772"/>
+		<pt X="3703.2126" Y="-9178.657"/>
+		<pt X="3700.8057" Y="-9185.459"/>
+		<pt X="3700.1958" Y="-9194.8"/>
+	</skpath>
+	<skpath from="295" to="293" linestyle="detail" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3706.5898" Y="-9171.071"/>
+		<pt X="3705.405" Y="-9180.73"/>
+		<pt X="3703.1543" Y="-9188.038"/>
+		<pt X="3702.7625" Y="-9194.407"/>
+	</skpath>
+	<skpath from="296" to="285" linestyle="connective" splined="1">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">01-70B</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3713.2595" Y="-9203.537"/>
+		<pt X="3705.6416" Y="-9205.257"/>
+	</skpath>
+	<skpath from="286" to="287" linestyle="invisible" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3681.702" Y="-9294.625"/>
+		<pt X="3685.2854" Y="-9297.158"/>
+	</skpath>
+	<skpath from="289" to="297" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.9453" Y="-9414.856"/>
+		<pt X="3693.4875" Y="-9414.34"/>
+		<pt X="3697.8184" Y="-9411.029"/>
+		<pt X="3699.2688" Y="-9406.263"/>
+		<pt X="3699.3962" Y="-9404.641"/>
+	</skpath>
+	<skpath from="288" to="298" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3691.344" Y="-9402.363"/>
+		<pt X="3687.18" Y="-9408.922"/>
+	</skpath>
+	<skpath from="298" to="265" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3687.18" Y="-9408.922"/>
+		<pt X="3685.705" Y="-9412.156"/>
+		<pt X="3684.4844" Y="-9417.287"/>
+	</skpath>
+	<skpath from="298" to="289" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3687.18" Y="-9408.922"/>
+		<pt X="3687.9998" Y="-9411.706"/>
+		<pt X="3689.9216" Y="-9413.528"/>
+		<pt X="3692.9453" Y="-9414.856"/>
+	</skpath>
+	<skpath from="297" to="263" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.3962" Y="-9404.641"/>
+		<pt X="3699.1533" Y="-9401.345"/>
+	</skpath>
+	<skpath from="297" to="288" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.3962" Y="-9404.641"/>
+		<pt X="3696.5037" Y="-9401.883"/>
+		<pt X="3693.8945" Y="-9400.788"/>
+		<pt X="3691.344" Y="-9402.363"/>
+	</skpath>
+	<skpath from="299" to="300" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3721.8425" Y="-9070.912"/>
+		<pt X="3702.6577" Y="-9071.598"/>
+	</skpath>
+	<skpath from="301" to="302" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3722.1655" Y="-9048.103"/>
+		<pt X="3706.3022" Y="-9055.062"/>
+	</skpath>
+	<skpath from="279" to="302" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.1807" Y="-9040.895"/>
+		<pt X="3706.3022" Y="-9055.062"/>
+	</skpath>
+	<skpath from="240" to="300" linestyle="connective">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3713.9087" Y="-9096.983"/>
+		<pt X="3702.6577" Y="-9071.598"/>
+	</skpath>
+	<skpath from="278" to="279" linestyle="detail">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3686.1357" Y="-9038.283"/>
+		<pt X="3691.5596" Y="-9032.046"/>
+		<pt X="3699.1807" Y="-9040.895"/>
+	</skpath>
+	<skpath from="278" to="214" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3686.1357" Y="-9038.283"/>
+		<pt X="3681.9575" Y="-9032.8955"/>
+		<pt X="3677.5098" Y="-9029.951"/>
+	</skpath>
+	<skpath from="209" to="283" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3688.5618" Y="-9091.336"/>
+		<pt X="3697.9202" Y="-9086.099"/>
+		<pt X="3695.925" Y="-9080.379"/>
+		<pt X="3692.6545" Y="-9074.981"/>
+	</skpath>
+	<skpath from="303" to="239" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3700.7947" Y="-9113.004"/>
+		<pt X="3701.2747" Y="-9122.229"/>
+	</skpath>
+	<skpath from="210" to="241" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.375" Y="-9110.689"/>
+		<pt X="3713.0632" Y="-9117.143"/>
+		<pt X="3709.7642" Y="-9123.966"/>
+	</skpath>
+	<skpath from="304" to="1" linestyle="invisible">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3752.3386" Y="-9463.464"/>
+		<pt X="3751.873" Y="-9468.661" Z="-409.25003"/>
+	</skpath>
+	<skpath from="305" to="1" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3749.7866" Y="-9472.786"/>
+		<pt X="3751.873" Y="-9468.661" Z="-409.25003"/>
+	</skpath>
+	<skpath from="306" to="307" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3704.288" Y="-9470.827"/>
+		<pt X="3702.951" Y="-9480.878"/>
+	</skpath>
+	<skpath from="308" to="7" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.8616" Y="-9447.534"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+	</skpath>
+	<skpath from="309" to="6" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3681.9048" Y="-9426.773"/>
+		<pt X="3682.1658" Y="-9428.191" Z="-423.5426"/>
+	</skpath>
+	<skpath from="310" to="6" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3688.0732" Y="-9431.2705"/>
+		<pt X="3682.1658" Y="-9428.191" Z="-423.5426"/>
+	</skpath>
+	<skpath from="311" to="5" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3711.0657" Y="-9406.011"/>
+		<pt X="3716.9216" Y="-9407.308" Z="-411.14606"/>
+	</skpath>
+	<skpath from="312" to="5" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3719.7683" Y="-9407.135"/>
+		<pt X="3716.9216" Y="-9407.308" Z="-411.14606"/>
+	</skpath>
+	<skpath from="313" to="4" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3704.0208" Y="-9392.525"/>
+		<pt X="3703.0024" Y="-9394.327" Z="-420.02103"/>
+	</skpath>
+	<skpath from="314" to="4" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3700.9233" Y="-9397.006"/>
+		<pt X="3703.0024" Y="-9394.327" Z="-420.02103"/>
+	</skpath>
+	<skpath from="315" to="2" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.5698" Y="-9387.503"/>
+		<pt X="3680.1167" Y="-9391.111" Z="-427.53015"/>
+	</skpath>
+	<skpath from="316" to="2" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.6748" Y="-9393.668"/>
+		<pt X="3680.1167" Y="-9391.111" Z="-427.53015"/>
+	</skpath>
+	<skpath from="317" to="318" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.1997" Y="-9348.79"/>
+		<pt X="3683.2803" Y="-9353.552"/>
+		<pt X="3682.728" Y="-9360.57"/>
+		<pt X="3682.7336" Y="-9365.9"/>
+	</skpath>
+	<skpath from="3" to="319" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3676.4084" Y="-9348.725" Z="-442.18073"/>
+		<pt X="3675.7168" Y="-9352.669"/>
+		<pt X="3674.7378" Y="-9357.212"/>
+		<pt X="3676.5308" Y="-9362.416"/>
+		<pt X="3677.0188" Y="-9366.153"/>
+		<pt X="3676.8545" Y="-9371.187"/>
+		<pt X="3676.0398" Y="-9370.858"/>
+		<pt X="3673.7605" Y="-9367.925"/>
+		<pt X="3671.9705" Y="-9366.455"/>
+	</skpath>
+	<skpath from="320" to="321" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3670.8303" Y="-9369.699"/>
+		<pt X="3673.273" Y="-9372.469"/>
+		<pt X="3674.0874" Y="-9373.933"/>
+		<pt X="3675.0627" Y="-9377.674"/>
+		<pt X="3678.325" Y="-9380.611"/>
+		<pt X="3678.3167" Y="-9386.946"/>
+	</skpath>
+	<skpath from="318" to="315" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3682.7336" Y="-9365.9"/>
+		<pt X="3683.182" Y="-9372.959"/>
+		<pt X="3683.5044" Y="-9382.708"/>
+		<pt X="3683.5698" Y="-9387.503"/>
+	</skpath>
+	<skpath from="315" to="313" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.5698" Y="-9387.503"/>
+		<pt X="3685.9375" Y="-9388.719"/>
+		<pt X="3694.0417" Y="-9388.374"/>
+		<pt X="3697.4404" Y="-9389.334"/>
+		<pt X="3704.0208" Y="-9392.525"/>
+	</skpath>
+	<skpath from="313" to="322" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3704.0208" Y="-9392.525"/>
+		<pt X="3709.1702" Y="-9396.024"/>
+		<pt X="3714.8699" Y="-9401.727"/>
+		<pt X="3718.2837" Y="-9403.347"/>
+		<pt X="3720.721" Y="-9403.336"/>
+		<pt X="3724.782" Y="-9401.856"/>
+	</skpath>
+	<skpath from="323" to="312" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3725.9229" Y="-9404.944"/>
+		<pt X="3722.8362" Y="-9405.767"/>
+		<pt X="3719.7683" Y="-9407.135"/>
+	</skpath>
+	<skpath from="314" to="311" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3700.9233" Y="-9397.006"/>
+		<pt X="3705.7622" Y="-9399.28"/>
+		<pt X="3709.5059" Y="-9403.019"/>
+		<pt X="3711.0657" Y="-9406.011"/>
+	</skpath>
+	<skpath from="312" to="324" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3719.7683" Y="-9407.135"/>
+		<pt X="3716.3386" Y="-9410.177"/>
+		<pt X="3708.7053" Y="-9418.289"/>
+		<pt X="3700.0989" Y="-9425.762"/>
+		<pt X="3698.759" Y="-9427.696"/>
+	</skpath>
+	<skpath from="311" to="325" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3711.0657" Y="-9406.011"/>
+		<pt X="3706.2634" Y="-9409.025"/>
+		<pt X="3692.7832" Y="-9418.439"/>
+	</skpath>
+	<skpath from="310" to="308" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3688.0732" Y="-9431.2705"/>
+		<pt X="3688.688" Y="-9436.039"/>
+		<pt X="3688.216" Y="-9442.17"/>
+		<pt X="3685.7898" Y="-9445.43"/>
+		<pt X="3683.8616" Y="-9447.534"/>
+	</skpath>
+	<skpath from="7" to="326" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+		<pt X="3679.127" Y="-9451.921"/>
+		<pt X="3681.0693" Y="-9454.84"/>
+		<pt X="3681.7107" Y="-9459.855"/>
+		<pt X="3686.4016" Y="-9467.812"/>
+		<pt X="3689.9595" Y="-9471.4"/>
+		<pt X="3692.7085" Y="-9474.338"/>
+		<pt X="3693.6665" Y="-9475.962"/>
+	</skpath>
+	<skpath from="327" to="328" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.8384" Y="-9493.385"/>
+		<pt X="3700.976" Y="-9496.982"/>
+	</skpath>
+	<skpath from="329" to="330" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.4136" Y="-9496.027"/>
+		<pt X="3702.6" Y="-9493.25"/>
+	</skpath>
+	<skpath from="331" to="332" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.1345" Y="-9489.826"/>
+		<pt X="3699.015" Y="-9484.944"/>
+		<pt X="3698.3652" Y="-9480.72"/>
+		<pt X="3698.0444" Y="-9478.28"/>
+		<pt X="3698.2083" Y="-9477.1455"/>
+	</skpath>
+	<skpath from="308" to="306" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.8616" Y="-9447.534"/>
+		<pt X="3686.9175" Y="-9452.575"/>
+		<pt X="3692.5847" Y="-9461.1875"/>
+		<pt X="3698.5786" Y="-9467.695"/>
+		<pt X="3701.1746" Y="-9469.8125"/>
+		<pt X="3704.288" Y="-9470.827"/>
+	</skpath>
+	<skpath from="307" to="305" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3702.951" Y="-9480.878"/>
+		<pt X="3707.492" Y="-9481.569"/>
+		<pt X="3713.8552" Y="-9482.069"/>
+		<pt X="3716.9502" Y="-9478.982"/>
+		<pt X="3722.648" Y="-9477.024"/>
+		<pt X="3729.8071" Y="-9476.685"/>
+		<pt X="3736.9646" Y="-9474.394"/>
+		<pt X="3744.6072" Y="-9472.102"/>
+		<pt X="3747.5342" Y="-9471.445"/>
+		<pt X="3749.7866" Y="-9472.786"/>
+	</skpath>
+	<skpath from="304" to="306" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3752.3386" Y="-9463.464"/>
+		<pt X="3748.3723" Y="-9464.885"/>
+		<pt X="3741.7007" Y="-9468.162"/>
+		<pt X="3733.8892" Y="-9468.513"/>
+		<pt X="3730.6355" Y="-9470.313"/>
+		<pt X="3725.4255" Y="-9469.516"/>
+		<pt X="3718.9136" Y="-9471.644"/>
+		<pt X="3714.6797" Y="-9471.316"/>
+		<pt X="3712.7273" Y="-9469.356"/>
+		<pt X="3709.9595" Y="-9469.511"/>
+		<pt X="3704.288" Y="-9470.827"/>
+	</skpath>
+	<skpath from="326" to="333" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3693.6665" Y="-9475.962"/>
+		<pt X="3695.7756" Y="-9481.989"/>
+		<pt X="3698.8623" Y="-9490.939"/>
+	</skpath>
+	<skpath from="332" to="307" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.2083" Y="-9477.1455"/>
+		<pt X="3699.8313" Y="-9478.454"/>
+		<pt X="3702.951" Y="-9480.878"/>
+	</skpath>
+	<skpath from="332" to="326" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.2083" Y="-9477.1455"/>
+		<pt X="3693.6665" Y="-9475.962"/>
+	</skpath>
+	<skpath from="334" to="334" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3693.8394" Y="-9472.736"/>
+		<pt X="3695.6196" Y="-9473.3955"/>
+		<pt X="3697.2405" Y="-9473.73"/>
+		<pt X="3698.7058" Y="-9472.921"/>
+		<pt X="3699.044" Y="-9470.316"/>
+		<pt X="3697.1008" Y="-9468.2"/>
+		<pt X="3693.5361" Y="-9465.109"/>
+		<pt X="3690.129" Y="-9463.806"/>
+		<pt X="3688.5073" Y="-9463.956"/>
+		<pt X="3690.2842" Y="-9467.206"/>
+		<pt X="3691.0908" Y="-9469.963"/>
+		<pt X="3693.8394" Y="-9472.736"/>
+	</skpath>
+	<skpath from="326" to="334" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3693.6665" Y="-9475.962"/>
+		<pt X="3693.8394" Y="-9472.736"/>
+	</skpath>
+	<skpath from="335" to="336" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.359" Y="-9445.273"/>
+		<pt X="3685.143" Y="-9444.62"/>
+		<pt X="3685.681" Y="-9443.887"/>
+	</skpath>
+	<skpath from="322" to="323" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3724.782" Y="-9401.856"/>
+		<pt X="3725.9229" Y="-9404.944"/>
+	</skpath>
+	<skpath from="337" to="338" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3668.5515" Y="-9363.032"/>
+		<pt X="3665.7827" Y="-9365.463"/>
+	</skpath>
+	<skpath from="339" to="340" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3676.9756" Y="-9406.078"/>
+		<pt X="3673.4016" Y="-9405.43"/>
+	</skpath>
+	<skpath from="341" to="342" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3675.0823" Y="-9421.342"/>
+		<pt X="3672.4846" Y="-9422.806"/>
+	</skpath>
+	<skpath from="331" to="330" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3701.1345" Y="-9489.826"/>
+		<pt X="3702.6" Y="-9493.25"/>
+	</skpath>
+	<skpath from="329" to="328" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.4136" Y="-9496.027"/>
+		<pt X="3700.976" Y="-9496.982"/>
+	</skpath>
+	<skpath from="327" to="333" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3699.8384" Y="-9493.385"/>
+		<pt X="3698.8623" Y="-9490.939"/>
+	</skpath>
+	<skpath from="325" to="309" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.7832" Y="-9418.439"/>
+		<pt X="3684.1685" Y="-9425.93"/>
+		<pt X="3681.9048" Y="-9426.773"/>
+	</skpath>
+	<skpath from="324" to="310" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.759" Y="-9427.696"/>
+		<pt X="3697.6624" Y="-9428.689"/>
+		<pt X="3695.7126" Y="-9429.18"/>
+		<pt X="3691.002" Y="-9428.207"/>
+		<pt X="3689.2139" Y="-9428.532"/>
+		<pt X="3688.0732" Y="-9431.2705"/>
+	</skpath>
+	<skpath from="324" to="325" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.759" Y="-9427.696"/>
+		<pt X="3695.5627" Y="-9422.232"/>
+		<pt X="3692.7832" Y="-9418.439"/>
+	</skpath>
+	<skpath from="317" to="318" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.1997" Y="-9348.79"/>
+		<pt X="3678.1519" Y="-9352.436"/>
+		<pt X="3678.5535" Y="-9358.235"/>
+		<pt X="3679.953" Y="-9365.031"/>
+		<pt X="3682.7336" Y="-9365.9"/>
+	</skpath>
+	<skpath from="321" to="316" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3678.3167" Y="-9386.946"/>
+		<pt X="3677.4937" Y="-9391.002"/>
+		<pt X="3677.6748" Y="-9393.668"/>
+	</skpath>
+	<skpath from="321" to="315" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3678.3167" Y="-9386.946"/>
+		<pt X="3683.5698" Y="-9387.503"/>
+	</skpath>
+	<skpath from="343" to="344" linestyle="connective" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.8442" Y="-9383.009"/>
+		<pt X="3679.6648" Y="-9372.179"/>
+	</skpath>
+	<skpath from="318" to="344" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3682.7336" Y="-9365.9"/>
+		<pt X="3679.6648" Y="-9372.179"/>
+	</skpath>
+	<skpath from="345" to="346" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.453" Y="-9423.2705"/>
+		<pt X="3715.0315" Y="-9404.495"/>
+	</skpath>
+	<skpath from="324" to="345" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.759" Y="-9427.696"/>
+		<pt X="3698.453" Y="-9423.2705"/>
+	</skpath>
+	<skpath from="347" to="348" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3747.0173" Y="-9468.918"/>
+		<pt X="3706.0513" Y="-9476.141"/>
+	</skpath>
+	<skpath from="304" to="347" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3752.3386" Y="-9463.464"/>
+		<pt X="3747.0173" Y="-9468.918"/>
+	</skpath>
+	<skpath from="308" to="349" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.8616" Y="-9447.534"/>
+		<pt X="3682.7253" Y="-9452.078"/>
+	</skpath>
+	<skpath from="350" to="335" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3678.1528" Y="-9438.411"/>
+		<pt X="3677.9963" Y="-9439.936"/>
+		<pt X="3680.2812" Y="-9443.644"/>
+		<pt X="3683.359" Y="-9445.273"/>
+	</skpath>
+	<skpath from="336" to="350" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3685.681" Y="-9443.887"/>
+		<pt X="3685.7947" Y="-9442.506"/>
+		<pt X="3683.7056" Y="-9438.445"/>
+		<pt X="3681.0845" Y="-9437.507"/>
+		<pt X="3678.9736" Y="-9437.511"/>
+		<pt X="3678.1528" Y="-9438.411"/>
+	</skpath>
+	<skpath from="335" to="7" linestyle="invisible">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.359" Y="-9445.273"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+	</skpath>
+	<skpath from="305" to="1" linestyle="invisible">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3749.7866" Y="-9472.786"/>
+		<pt X="3751.873" Y="-9468.661" Z="-409.25003"/>
+	</skpath>
+	<skpath from="304" to="1" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3752.3386" Y="-9463.464"/>
+		<pt X="3751.873" Y="-9468.661" Z="-409.25003"/>
+	</skpath>
+	<skpath from="304" to="351" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3752.3386" Y="-9463.464"/>
+		<pt X="3755.7222" Y="-9463.763"/>
+		<pt X="3760.8926" Y="-9465.264"/>
+	</skpath>
+	<skpath from="351" to="352" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3760.8926" Y="-9465.264"/>
+		<pt X="3771.155" Y="-9467.432"/>
+		<pt X="3785.2869" Y="-9469.9795"/>
+		<pt X="3795.9236" Y="-9467.984"/>
+	</skpath>
+	<skpath from="305" to="353" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3749.7866" Y="-9472.786"/>
+		<pt X="3757.8958" Y="-9475.778"/>
+	</skpath>
+	<skpath from="353" to="354" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3757.8958" Y="-9475.778"/>
+		<pt X="3768.5764" Y="-9480.544"/>
+		<pt X="3780.641" Y="-9484.433"/>
+		<pt X="3789.344" Y="-9484.5"/>
+	</skpath>
+	<skpath from="355" to="353" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3759.7305" Y="-9471.208"/>
+		<pt X="3757.8958" Y="-9475.778"/>
+	</skpath>
+	<skpath from="356" to="210" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">7-11&space;Chamber</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3736.5347" Y="-9102.494"/>
+		<pt X="3715.375" Y="-9110.689"/>
+	</skpath>
+	<skpath from="357" to="188" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-73</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3845.9836" Y="-9789.261"/>
+		<pt X="3834.838" Y="-9790.493"/>
+	</skpath>
+	<skpath from="358" to="192" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-74</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3846.3662" Y="-9770.128"/>
+		<pt X="3830.9463" Y="-9775.031"/>
+	</skpath>
+	<skpath from="359" to="264" linestyle="wall">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3691.181" Y="-9428.955"/>
+		<pt X="3690.9773" Y="-9428.099"/>
+		<pt X="3690.0137" Y="-9422.153"/>
+		<pt X="3689.935" Y="-9418.333"/>
+	</skpath>
+	<skpath from="360" to="359" linestyle="wall">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3691.078" Y="-9431.38"/>
+		<pt X="3691.181" Y="-9428.955"/>
+	</skpath>
+	<skpath from="290" to="360" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3684.1714" Y="-9428.748"/>
+		<pt X="3684.0496" Y="-9429.461"/>
+		<pt X="3682.5117" Y="-9431.71"/>
+		<pt X="3680.6758" Y="-9433.745"/>
+		<pt X="3678.8384" Y="-9436.547"/>
+		<pt X="3677.8118" Y="-9438.244"/>
+		<pt X="3677.5068" Y="-9440.41"/>
+		<pt X="3678.182" Y="-9441.983"/>
+		<pt X="3679.9158" Y="-9444.452"/>
+		<pt X="3682.0793" Y="-9445.647"/>
+		<pt X="3684.4597" Y="-9445.652"/>
+		<pt X="3686.3389" Y="-9444.127"/>
+		<pt X="3688.6892" Y="-9441.708"/>
+		<pt X="3690.0186" Y="-9438.184"/>
+		<pt X="3690.3606" Y="-9435.168"/>
+		<pt X="3691.044" Y="-9432.025"/>
+		<pt X="3691.078" Y="-9431.38"/>
+	</skpath>
+	<skpath from="361" to="336" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">c4</pctext>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3690.0469" Y="-9441.448"/>
+		<pt X="3685.681" Y="-9443.887"/>
+	</skpath>
+	<skpath from="350" to="362" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="hole"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3678.1528" Y="-9438.411"/>
+		<pt X="3680.0112" Y="-9439.874"/>
+	</skpath>
+	<skpath from="156" to="363" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3742.1455" Y="-9691.219" Z="-628.41205"/>
+		<pt X="3741.8994" Y="-9693.875"/>
+		<pt X="3742.638" Y="-9696.57"/>
+		<pt X="3745.808" Y="-9699.236"/>
+		<pt X="3747.216" Y="-9701.358"/>
+		<pt X="3745.8577" Y="-9703.744"/>
+		<pt X="3743.3118" Y="-9704.119"/>
+		<pt X="3740.2378" Y="-9702.927"/>
+	</skpath>
+	<skpath from="364" to="365" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3738.377" Y="-9701.943"/>
+		<pt X="3735.6453" Y="-9700.412"/>
+	</skpath>
+	<skpath from="366" to="367" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3733.4001" Y="-9703.259"/>
+		<pt X="3737.0151" Y="-9705.24"/>
+	</skpath>
+	<skpath from="368" to="369" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3739.316" Y="-9706.013"/>
+		<pt X="3743.5933" Y="-9707.414"/>
+		<pt X="3746.7917" Y="-9707.59"/>
+		<pt X="3748.578" Y="-9706.439"/>
+		<pt X="3749.3867" Y="-9704.409"/>
+		<pt X="3750.6416" Y="-9702.148"/>
+		<pt X="3752.6301" Y="-9702.117"/>
+		<pt X="3755.3494" Y="-9704.427"/>
+		<pt X="3758.0647" Y="-9706.849"/>
+		<pt X="3761.898" Y="-9708.236"/>
+		<pt X="3764.5137" Y="-9709.408"/>
+	</skpath>
+	<skpath from="156" to="370" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3742.1455" Y="-9691.219" Z="-628.41205"/>
+		<pt X="3743.088" Y="-9687.55"/>
+		<pt X="3745.2214" Y="-9684.93"/>
+		<pt X="3747.7585" Y="-9685.233"/>
+		<pt X="3750.8074" Y="-9688.571"/>
+		<pt X="3753.3032" Y="-9692.03"/>
+		<pt X="3759.098" Y="-9696.571"/>
+		<pt X="3764.2507" Y="-9699.772"/>
+		<pt X="3768.8728" Y="-9701.734"/>
+	</skpath>
+	<skpath from="370" to="155" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3768.8728" Y="-9701.734"/>
+		<pt X="3766.4626" Y="-9703.609" Z="-659.808"/>
+	</skpath>
+	<skpath from="155" to="369" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3766.4626" Y="-9703.609" Z="-659.808"/>
+		<pt X="3765.3572" Y="-9706.155"/>
+		<pt X="3764.5137" Y="-9709.408"/>
+	</skpath>
+	<skpath from="363" to="364" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3740.2378" Y="-9702.927"/>
+		<pt X="3738.377" Y="-9701.943"/>
+	</skpath>
+	<skpath from="365" to="366" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3735.6453" Y="-9700.412"/>
+		<pt X="3733.4001" Y="-9703.259"/>
+	</skpath>
+	<skpath from="367" to="368" linestyle="invisible" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3737.0151" Y="-9705.24"/>
+		<pt X="3739.316" Y="-9706.013"/>
+	</skpath>
+	<skpath from="169" to="370" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3776.1128" Y="-9702.95"/>
+		<pt X="3768.8728" Y="-9701.734"/>
+	</skpath>
+	<skpath from="163" to="369" linestyle="wall" splined="1">
+		<sketchsubset subname="pleasuredome"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3776.939" Y="-9721.903"/>
+		<pt X="3774.4937" Y="-9718.906"/>
+		<pt X="3771.2275" Y="-9715.188"/>
+		<pt X="3769.0474" Y="-9711.932"/>
+		<pt X="3764.5137" Y="-9709.408"/>
+	</skpath>
+	<skpath from="209" to="371" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3688.5618" Y="-9091.336"/>
+		<pt X="3694.4602" Y="-9094.051"/>
+		<pt X="3698.4268" Y="-9098.703"/>
+	</skpath>
+	<skpath from="371" to="303" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3698.4268" Y="-9098.703"/>
+		<pt X="3698.4907" Y="-9103.268"/>
+		<pt X="3700.7947" Y="-9113.004"/>
+	</skpath>
+	<skpath from="210" to="372" linestyle="wall" splined="1">
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.375" Y="-9110.689"/>
+		<pt X="3716.0088" Y="-9103.238"/>
+		<pt X="3717.1" Y="-9100.423"/>
+	</skpath>
+	<skpath from="372" to="216" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3717.1" Y="-9100.423"/>
+		<pt X="3720.9258" Y="-9096.432"/>
+		<pt X="3730.6458" Y="-9094.587"/>
+		<pt X="3746.3057" Y="-9094.308"/>
+		<pt X="3756.863" Y="-9093.194"/>
+		<pt X="3766.4587" Y="-9083.455"/>
+		<pt X="3766.4548" Y="-9070.485"/>
+		<pt X="3755.0405" Y="-9057.738"/>
+		<pt X="3739.5974" Y="-9050.936"/>
+		<pt X="3724.7231" Y="-9047.779"/>
+		<pt X="3717.6262" Y="-9039.217"/>
+		<pt X="3712.1272" Y="-9022.297"/>
+		<pt X="3713.4536" Y="-9007.113"/>
+		<pt X="3715.6267" Y="-9003.32"/>
+	</skpath>
+	<skpath from="372" to="371" linestyle="invisible" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3717.1" Y="-9100.423"/>
+		<pt X="3698.4268" Y="-9098.703"/>
+	</skpath>
+	<skpath from="373" to="374" linestyle="connective" splined="1">
+		<pathcodes>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3653.555" Y="-9078.415"/>
+		<pt X="3568.117" Y="-9105.461"/>
+	</skpath>
+	<skpath from="373" to="213" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3653.555" Y="-9078.415"/>
+		<pt X="3655.3933" Y="-9073.835"/>
+	</skpath>
+	<skpath from="212" to="375" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3565.0522" Y="-9079.393"/>
+		<pt X="3572.2568" Y="-9089.187"/>
+		<pt X="3570.591" Y="-9096.642"/>
+	</skpath>
+	<skpath from="376" to="298" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">c5</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3672.8218" Y="-9412.432"/>
+		<pt X="3687.18" Y="-9408.922"/>
+	</skpath>
+	<skpath from="377" to="280" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">01-72X</pctext>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3761.8997" Y="-9046.266"/>
+		<pt X="3695.016" Y="-9054.455"/>
+	</skpath>
+	<skpath from="378" to="157" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="1.0">p100&newline;Brian&apostrophe;s&newline;Phat&newline;Shaft</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3851.1372" Y="-9733.431"/>
+		<pt X="3807.8542" Y="-9717.989" Z="-1365.2906"/>
+	</skpath>
+	<skpath from="379" to="200" linestyle="connective" splined="1">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">00-76</pctext>
+		</pathcodes>
+		<sketchsubset subname="briansphatshaft"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3805.5415" Y="-9646.92"/>
+		<pt X="3794.9207" Y="-9658.67"/>
+	</skpath>
+	<skpath from="380" to="286" linestyle="connective" splined="1">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">01-71C</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3673.8115" Y="-9298.939"/>
+		<pt X="3681.702" Y="-9294.625"/>
+	</skpath>
+	<skpath from="3" to="381" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3676.4084" Y="-9348.725" Z="-442.18073"/>
+		<pt X="3676.2356" Y="-9347.047"/>
+		<pt X="3675.9573" Y="-9341.918"/>
+	</skpath>
+	<skpath from="317" to="382" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.1997" Y="-9348.79"/>
+		<pt X="3678.8699" Y="-9344.967"/>
+		<pt X="3679.1465" Y="-9340.947"/>
+	</skpath>
+	<skpath from="319" to="337" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3671.9705" Y="-9366.455"/>
+		<pt X="3670.544" Y="-9364.805"/>
+		<pt X="3668.5515" Y="-9363.032"/>
+	</skpath>
+	<skpath from="320" to="338" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3670.8303" Y="-9369.699"/>
+		<pt X="3668.407" Y="-9367.655"/>
+		<pt X="3665.7827" Y="-9365.463"/>
+	</skpath>
+	<skpath from="383" to="318" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3680.283" Y="-9355.539"/>
+		<pt X="3682.7336" Y="-9365.9"/>
+	</skpath>
+	<skpath from="384" to="383" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">99-19C</pctext>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3670.5408" Y="-9347.94"/>
+		<pt X="3680.283" Y="-9355.539"/>
+	</skpath>
+	<skpath from="382" to="381" linestyle="invisible" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3679.1465" Y="-9340.947"/>
+		<pt X="3675.9573" Y="-9341.918"/>
+	</skpath>
+	<skpath from="311" to="385" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3711.0657" Y="-9406.011"/>
+		<pt X="3711.3037" Y="-9410.287"/>
+		<pt X="3700.6287" Y="-9418.314"/>
+	</skpath>
+	<skpath from="386" to="314" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3681.2295" Y="-9394.095"/>
+		<pt X="3685.613" Y="-9394.901"/>
+		<pt X="3691.9414" Y="-9395.38"/>
+		<pt X="3696.6387" Y="-9395.364"/>
+		<pt X="3700.9233" Y="-9397.006"/>
+	</skpath>
+	<skpath from="316" to="340" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.6748" Y="-9393.668"/>
+		<pt X="3676.5457" Y="-9398.412"/>
+		<pt X="3674.2732" Y="-9403.65"/>
+		<pt X="3673.4016" Y="-9405.43"/>
+	</skpath>
+	<skpath from="339" to="386" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3676.9756" Y="-9406.078"/>
+		<pt X="3678.9868" Y="-9401.907"/>
+		<pt X="3681.2295" Y="-9394.095"/>
+	</skpath>
+	<skpath from="387" to="7" linestyle="wall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3678.9758" Y="-9430.008"/>
+		<pt X="3678.651" Y="-9431.958"/>
+		<pt X="3676.7012" Y="-9436.66"/>
+		<pt X="3674.424" Y="-9437.791"/>
+		<pt X="3674.422" Y="-9439.417"/>
+		<pt X="3676.2075" Y="-9443.323"/>
+		<pt X="3677.4949" Y="-9446.925" Z="-441.54736"/>
+	</skpath>
+	<skpath from="309" to="341" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3681.9048" Y="-9426.773"/>
+		<pt X="3680.3384" Y="-9425.989"/>
+		<pt X="3677.8918" Y="-9423.545"/>
+		<pt X="3675.0823" Y="-9421.342"/>
+	</skpath>
+	<skpath from="387" to="342" linestyle="estwall" splined="1">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3678.9758" Y="-9430.008"/>
+		<pt X="3677.02" Y="-9427.57"/>
+		<pt X="3674.223" Y="-9424.776"/>
+		<pt X="3672.4846" Y="-9422.806"/>
+	</skpath>
+	<skpath from="6" to="309" linestyle="connective">
+		<sketchsubset subname="phreatic"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3682.1658" Y="-9428.191" Z="-423.5426"/>
+		<pt X="3681.9048" Y="-9426.773"/>
+	</skpath>
+	<skpath from="388" to="19" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Merry&newline;Fucking&newline;Christmas</pctext>
+		</pathcodes>
+		<sketchsubset subname="merry fucking christmas"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3741.3103" Y="-9320.419"/>
+		<pt X="3695.8862" Y="-9304.23" Z="-552.0478"/>
+	</skpath>
+	<skpath from="389" to="389" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3727.8418" Y="-8936.743"/>
+		<pt X="3727.8418" Y="-8936.743"/>
+	</skpath>
+	<skpath from="390" to="391" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3747.508" Y="-8935.408"/>
+		<pt X="3756.324" Y="-8946.28"/>
+	</skpath>
+	<skpath from="392" to="390" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3740.6948" Y="-8944.921"/>
+		<pt X="3747.508" Y="-8935.408"/>
+	</skpath>
+	<skpath from="391" to="393" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3756.324" Y="-8946.28"/>
+		<pt X="3749.6484" Y="-8953.788"/>
+	</skpath>
+	<skpath from="392" to="393" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3740.6948" Y="-8944.921"/>
+		<pt X="3749.6484" Y="-8953.788"/>
+	</skpath>
+	<skpath from="394" to="395" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3669.0269" Y="-8989.765"/>
+		<pt X="3674.779" Y="-8997.243"/>
+	</skpath>
+	<skpath from="396" to="397" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3627.892" Y="-9019.61"/>
+		<pt X="3628.5732" Y="-9030.538"/>
+	</skpath>
+	<skpath from="395" to="398" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3674.779" Y="-8997.243"/>
+		<pt X="3667.0066" Y="-9004.451"/>
+	</skpath>
+	<skpath from="398" to="399" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3667.0066" Y="-9004.451"/>
+		<pt X="3665.2659" Y="-9007.436"/>
+		<pt X="3663.9067" Y="-9018.309"/>
+		<pt X="3659.15" Y="-9026.463"/>
+		<pt X="3655.7915" Y="-9028.515"/>
+	</skpath>
+	<skpath from="393" to="400" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3749.6484" Y="-8953.788"/>
+		<pt X="3745.745" Y="-8958.099"/>
+	</skpath>
+	<skpath from="401" to="402" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3733.8923" Y="-8953.76"/>
+		<pt X="3726.3645" Y="-8954.469"/>
+		<pt X="3725.3772" Y="-8955.259"/>
+	</skpath>
+	<skpath from="403" to="404" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.286" Y="-8952.068"/>
+		<pt X="3687.31" Y="-8966.799"/>
+		<pt X="3660.811" Y="-9005.108"/>
+		<pt X="3634.602" Y="-9047.152"/>
+		<pt X="3607.0557" Y="-9101.305"/>
+		<pt X="3603.646" Y="-9108.851"/>
+	</skpath>
+	<skpath from="404" to="405" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3603.646" Y="-9108.851"/>
+		<pt X="3594.8167" Y="-9128.541"/>
+	</skpath>
+	<skpath from="389" to="406" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3727.8418" Y="-8936.743"/>
+		<pt X="3730.504" Y="-8944.922"/>
+		<pt X="3734.279" Y="-8945.993"/>
+	</skpath>
+	<skpath from="406" to="392" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3734.279" Y="-8945.993"/>
+		<pt X="3740.6948" Y="-8944.921"/>
+	</skpath>
+	<skpath from="406" to="401" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3734.279" Y="-8945.993"/>
+		<pt X="3733.8923" Y="-8953.76"/>
+	</skpath>
+	<skpath from="400" to="407" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3745.745" Y="-8958.099"/>
+		<pt X="3738.655" Y="-8965.306"/>
+		<pt X="3725.8406" Y="-8977.53"/>
+	</skpath>
+	<skpath from="407" to="408" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3725.8406" Y="-8977.53"/>
+		<pt X="3718.269" Y="-8982.293"/>
+		<pt X="3708.0256" Y="-8984.245"/>
+	</skpath>
+	<skpath from="407" to="409" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3725.8406" Y="-8977.53"/>
+		<pt X="3720.6995" Y="-8971.661"/>
+	</skpath>
+	<skpath from="409" to="410" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3720.6995" Y="-8971.661"/>
+		<pt X="3731.0144" Y="-8964.485"/>
+	</skpath>
+	<skpath from="408" to="411" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3708.0256" Y="-8984.245"/>
+		<pt X="3697.8713" Y="-8984.338"/>
+		<pt X="3690.0889" Y="-8984.762"/>
+	</skpath>
+	<skpath from="411" to="412" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3690.0889" Y="-8984.762"/>
+		<pt X="3687.6843" Y="-8985.693"/>
+		<pt X="3677.1655" Y="-8994.813"/>
+	</skpath>
+	<skpath from="412" to="395" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.1655" Y="-8994.813"/>
+		<pt X="3674.779" Y="-8997.243"/>
+	</skpath>
+	<skpath from="412" to="413" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.1655" Y="-8994.813"/>
+		<pt X="3674.4019" Y="-8991.482"/>
+	</skpath>
+	<skpath from="413" to="414" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3674.4019" Y="-8991.482"/>
+		<pt X="3679.6763" Y="-8986.599"/>
+	</skpath>
+	<skpath from="415" to="415" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.1907" Y="-8985.231"/>
+		<pt X="3686.7048" Y="-8984.061"/>
+		<pt X="3689.0513" Y="-8980.152"/>
+		<pt X="3684.1685" Y="-8979.565"/>
+		<pt X="3680.4563" Y="-8981.52"/>
+		<pt X="3679.8706" Y="-8985.427"/>
+		<pt X="3683.1907" Y="-8985.231"/>
+	</skpath>
+	<skpath from="415" to="411" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3683.1907" Y="-8985.231"/>
+		<pt X="3690.0889" Y="-8984.762"/>
+	</skpath>
+	<skpath from="399" to="416" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3655.7915" Y="-9028.515"/>
+		<pt X="3646.239" Y="-9029.859"/>
+		<pt X="3638.0784" Y="-9030.37"/>
+	</skpath>
+	<skpath from="416" to="397" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3638.0784" Y="-9030.37"/>
+		<pt X="3628.5732" Y="-9030.538"/>
+	</skpath>
+	<skpath from="416" to="417" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3638.0784" Y="-9030.37"/>
+		<pt X="3637.4785" Y="-9025.475"/>
+	</skpath>
+	<skpath from="417" to="418" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3637.4785" Y="-9025.475"/>
+		<pt X="3646.0742" Y="-9025.278"/>
+	</skpath>
+	<skpath from="419" to="420" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="mud"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.953" Y="-9000.458"/>
+		<pt X="3689.8853" Y="-9001.417"/>
+	</skpath>
+	<skpath from="421" to="422" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3631.7312" Y="-9122.841"/>
+		<pt X="3627.4316" Y="-9133.552"/>
+		<pt X="3624.618" Y="-9141.366"/>
+	</skpath>
+	<skpath from="419" to="423" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3703.953" Y="-9000.458"/>
+		<pt X="3699.5283" Y="-9008.005"/>
+		<pt X="3678.4001" Y="-9043.081"/>
+		<pt X="3659.4146" Y="-9068.628"/>
+	</skpath>
+	<skpath from="423" to="421" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3659.4146" Y="-9068.628"/>
+		<pt X="3658.1328" Y="-9070.552"/>
+		<pt X="3641.9146" Y="-9099.407"/>
+		<pt X="3631.7312" Y="-9122.841"/>
+	</skpath>
+	<skpath from="402" to="424" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3725.3772" Y="-8955.259"/>
+		<pt X="3722.1807" Y="-8963.484"/>
+	</skpath>
+	<skpath from="424" to="419" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3722.1807" Y="-8963.484"/>
+		<pt X="3715.332" Y="-8979.696"/>
+		<pt X="3703.953" Y="-9000.458"/>
+	</skpath>
+	<skpath from="424" to="403" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3722.1807" Y="-8963.484"/>
+		<pt X="3692.286" Y="-8952.068"/>
+	</skpath>
+	<skpath from="399" to="47" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3655.7915" Y="-9028.515"/>
+		<pt X="3653.7744" Y="-9022.997" Z="-1221.2032"/>
+	</skpath>
+	<skpath from="398" to="48" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3667.0066" Y="-9004.451"/>
+		<pt X="3663.7131" Y="-9001.684" Z="-1254.7885"/>
+	</skpath>
+	<skpath from="50" to="408" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3705.0144" Y="-8982.558" Z="-1351.0386"/>
+		<pt X="3708.0256" Y="-8984.245"/>
+	</skpath>
+	<skpath from="401" to="425" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3733.8923" Y="-8953.76"/>
+		<pt X="3725.4128" Y="-8962.628"/>
+		<pt X="3716.3516" Y="-8968.549"/>
+	</skpath>
+	<skpath from="51" to="400" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3740.9028" Y="-8951.36" Z="-1381.9196"/>
+		<pt X="3745.745" Y="-8958.099"/>
+	</skpath>
+	<skpath from="52" to="389" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3724.2642" Y="-8945.631" Z="-1382.2267"/>
+		<pt X="3727.8418" Y="-8936.743"/>
+	</skpath>
+	<skpath from="394" to="426" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3669.0269" Y="-8989.765"/>
+		<pt X="3676.8518" Y="-8980.951"/>
+		<pt X="3681.294" Y="-8975.152"/>
+		<pt X="3690.6714" Y="-8970.958"/>
+		<pt X="3693.5208" Y="-8970.491"/>
+	</skpath>
+	<skpath from="426" to="425" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3693.5208" Y="-8970.491"/>
+		<pt X="3700.7825" Y="-8970.591"/>
+		<pt X="3715.847" Y="-8968.555"/>
+		<pt X="3716.3516" Y="-8968.549"/>
+	</skpath>
+	<skpath from="426" to="49" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3693.5208" Y="-8970.491"/>
+		<pt X="3693.5127" Y="-8972.907" Z="-1339.7244"/>
+	</skpath>
+	<skpath from="394" to="427" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3669.0269" Y="-8989.765"/>
+		<pt X="3667.3032" Y="-8991.125"/>
+		<pt X="3655.0002" Y="-8999.168"/>
+		<pt X="3653.6746" Y="-9006.685"/>
+		<pt X="3652.341" Y="-9016.914"/>
+	</skpath>
+	<skpath from="427" to="396" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3652.341" Y="-9016.914"/>
+		<pt X="3642.8381" Y="-9021.006"/>
+		<pt X="3627.892" Y="-9019.61"/>
+	</skpath>
+	<skpath from="427" to="428" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3652.341" Y="-9016.914"/>
+		<pt X="3656.5652" Y="-9019.225"/>
+	</skpath>
+	<skpath from="428" to="429" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3656.5652" Y="-9019.225"/>
+		<pt X="3659.4995" Y="-9009.039"/>
+	</skpath>
+	<skpath from="430" to="431" linestyle="estwall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3588.463" Y="-8925.923"/>
+		<pt X="3582.9502" Y="-8911.24"/>
+	</skpath>
+	<skpath from="432" to="433" linestyle="estwall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3575.8757" Y="-8913.804"/>
+		<pt X="3580.8242" Y="-8929.06"/>
+	</skpath>
+	<skpath from="430" to="434" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3588.463" Y="-8925.923"/>
+		<pt X="3593.9644" Y="-8939.743"/>
+		<pt X="3598.6116" Y="-8953.559"/>
+		<pt X="3601.425" Y="-8960.826"/>
+	</skpath>
+	<skpath from="434" to="435" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3601.425" Y="-8960.826"/>
+		<pt X="3605.822" Y="-8972.244"/>
+		<pt X="3608.0947" Y="-8980.238"/>
+	</skpath>
+	<skpath from="432" to="431" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3575.8757" Y="-8913.804"/>
+		<pt X="3582.9502" Y="-8911.24"/>
+	</skpath>
+	<skpath from="436" to="437" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3629.4785" Y="-9088.353"/>
+		<pt X="3622.9631" Y="-9083.538"/>
+		<pt X="3615.0317" Y="-9080.705"/>
+		<pt X="3614.1824" Y="-9080.422"/>
+	</skpath>
+	<skpath from="437" to="37" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3614.1824" Y="-9080.422"/>
+		<pt X="3611.7998" Y="-9082.263" Z="-996.90967"/>
+	</skpath>
+	<skpath from="438" to="31" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3646.474" Y="-9102.234"/>
+		<pt X="3659.7896" Y="-9100.699" Z="-961.4161"/>
+	</skpath>
+	<skpath from="439" to="438" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3617.3333" Y="-9074.261"/>
+		<pt X="3636.5608" Y="-9093.452"/>
+		<pt X="3646.474" Y="-9102.234"/>
+	</skpath>
+	<skpath from="439" to="32" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="bigboulders"/>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3617.3333" Y="-9074.261"/>
+		<pt X="3619.8506" Y="-9070.804"/>
+		<pt X="3621.056" Y="-9070.4375" Z="-988.6624"/>
+	</skpath>
+	<skpath from="440" to="441" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="puddle"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3621.6665" Y="-8992.578"/>
+		<pt X="3629.4702" Y="-8989.636"/>
+	</skpath>
+	<skpath from="442" to="442" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.7525077" sfrotatedeg="-5.4381895" sfelevrotdeg="0.0" sfxtrans="36602.32971177205" sfytrans="-83598.57509824069" sfsketch="204description/7-11chamber.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3583.2346" Y="-9241.751"/>
+		<pt X="3873.5044" Y="-9214.117"/>
+		<pt X="3844.4128" Y="-8916.137"/>
+		<pt X="3554.4941" Y="-8944.018"/>
+		<pt X="3583.2346" Y="-9241.751"/>
+	</skpath>
+	<skpath from="443" to="444" linestyle="estwall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3634.6992" Y="-9222.001"/>
+		<pt X="3634.8645" Y="-9221.892"/>
+	</skpath>
+	<skpath from="445" to="446" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3661.1335" Y="-9079.166"/>
+		<pt X="3659.7058" Y="-9085.291"/>
+		<pt X="3653.4521" Y="-9084.223"/>
+		<pt X="3640.6184" Y="-9072.355"/>
+	</skpath>
+	<skpath from="438" to="447" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3646.474" Y="-9102.234"/>
+		<pt X="3658.379" Y="-9110.451"/>
+		<pt X="3671.9978" Y="-9117.521"/>
+		<pt X="3679.942" Y="-9118.075"/>
+		<pt X="3687.0344" Y="-9116.927"/>
+		<pt X="3688.4429" Y="-9109.546"/>
+		<pt X="3690.1357" Y="-9101.299"/>
+		<pt X="3690.9392" Y="-9097.862"/>
+	</skpath>
+	<skpath from="448" to="391" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-0.5" nodeposyrel="-0.2">08-1A</pctext>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3770.338" Y="-8932.748"/>
+		<pt X="3756.324" Y="-8946.28"/>
+	</skpath>
+	<skpath from="449" to="396" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c4</pctext>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3631.271" Y="-9011.091"/>
+		<pt X="3627.892" Y="-9019.61"/>
+	</skpath>
+	<skpath from="450" to="394" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.8" nodeposyrel="0.0">c4</pctext>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3664.4326" Y="-8975.124"/>
+		<pt X="3669.0269" Y="-8989.765"/>
+	</skpath>
+	<skpath from="451" to="40" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3627.1821" Y="-8994.026"/>
+		<pt X="3616.97" Y="-8995.178" Z="-1094.5529"/>
+	</skpath>
+	<skpath from="44" to="435" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.9712" Y="-8991.402" Z="-1028.4653"/>
+		<pt X="3608.0947" Y="-8980.238"/>
+	</skpath>
+	<skpath from="452" to="42" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3662.1184" Y="-9002.815"/>
+		<pt X="3661.257" Y="-9005.167" Z="-1113.8707"/>
+	</skpath>
+	<skpath from="433" to="43" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3580.8242" Y="-8929.06"/>
+		<pt X="3585.7441" Y="-8928.289" Z="-1005.18726"/>
+	</skpath>
+	<skpath from="214" to="453" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="hole"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3677.5098" Y="-9029.951"/>
+		<pt X="3676.4426" Y="-9042.835"/>
+	</skpath>
+	<skpath from="454" to="447" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.2195" Y="-9074.798"/>
+		<pt X="3695.3938" Y="-9080.787"/>
+		<pt X="3698.8833" Y="-9088.717"/>
+		<pt X="3694.5945" Y="-9093.551"/>
+		<pt X="3690.9392" Y="-9097.862"/>
+	</skpath>
+	<skpath from="454" to="455" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3692.2195" Y="-9074.798"/>
+		<pt X="3688.2537" Y="-9073.778"/>
+		<pt X="3685.9202" Y="-9078.456"/>
+		<pt X="3680.5115" Y="-9077.277"/>
+		<pt X="3676.2815" Y="-9065.024"/>
+		<pt X="3674.6802" Y="-9059.633"/>
+		<pt X="3677.3096" Y="-9054.091"/>
+		<pt X="3680.6665" Y="-9053.505"/>
+		<pt X="3680.0845" Y="-9048.11"/>
+		<pt X="3681.1052" Y="-9044.169"/>
+		<pt X="3684.456" Y="-9038.764"/>
+	</skpath>
+	<skpath from="445" to="455" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3661.1335" Y="-9079.166"/>
+		<pt X="3659.3328" Y="-9075.233"/>
+		<pt X="3653.2063" Y="-9066.183"/>
+		<pt X="3649.4114" Y="-9059.323"/>
+		<pt X="3647.5093" Y="-9053.194"/>
+		<pt X="3648.5166" Y="-9045.027"/>
+		<pt X="3653.471" Y="-9038.463"/>
+		<pt X="3661.365" Y="-9035.253"/>
+		<pt X="3665.7559" Y="-9034.967"/>
+		<pt X="3673.2136" Y="-9034.095"/>
+		<pt X="3675.8423" Y="-9033.801"/>
+		<pt X="3678.468" Y="-9031.752"/>
+		<pt X="3681.9697" Y="-9033.504"/>
+		<pt X="3684.456" Y="-9038.764"/>
+	</skpath>
+	<skpath from="354" to="352" linestyle="detail">
+		<importfrom subname="pussyprance"/>
+		<pt X="3789.344" Y="-9484.5"/>
+		<pt X="3795.9236" Y="-9467.984"/>
+	</skpath>
+	<skpath from="442" to="31" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3583.2346" Y="-9241.751"/>
+		<pt X="3659.7896" Y="-9100.699" Z="-961.4161"/>
+	</skpath>
+	<skpath from="456" to="456" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="2.3769407" sfrotatedeg="0.34132224" sfelevrotdeg="0.0" sfxtrans="36568.37187310237" sfytrans="-83626.6783654605" sfsketch="surveyscans/2001/2001#31/merry2_plan.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2202" sfpixheight="2178">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3243.6562" Y="-9522.783"/>
+		<pt X="4170.0405" Y="-9528.303"/>
+		<pt X="4175.3486" Y="-8611.898"/>
+		<pt X="3249.0154" Y="-8606.4"/>
+		<pt X="3243.6562" Y="-9522.783"/>
+	</skpath>
+	<skpath from="457" to="457" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.1677382" sfrotatedeg="0.19012251" sfelevrotdeg="0.0" sfxtrans="36605.830302785864" sfytrans="-83620.44867297156" sfsketch="surveyscans/2001/2001#31/plan.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="518" sfpixheight="814">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3618.2405" Y="-9460.486"/>
+		<pt X="4061.8306" Y="-9461.959"/>
+		<pt X="4064.1367" Y="-8764.888"/>
+		<pt X="3620.5469" Y="-8763.416"/>
+		<pt X="3618.2405" Y="-9460.486"/>
+	</skpath>
+	<skpath from="456" to="9" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3243.6562" Y="-9522.783"/>
+		<pt X="3708.2954" Y="-9123.573" Z="-557.0837"/>
+	</skpath>
+	<skpath from="457" to="18" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3618.2405" Y="-9460.486"/>
+		<pt X="3688.0728" Y="-9285.823" Z="-552.39685"/>
+	</skpath>
+	<skpath from="405" to="422" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3594.8167" Y="-9128.541"/>
+		<pt X="3624.618" Y="-9141.366"/>
+	</skpath>
+	<skpath from="458" to="421" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.4998" Y="-9111.038"/>
+		<pt X="3631.7312" Y="-9122.841"/>
+	</skpath>
+	<skpath from="458" to="404" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.4998" Y="-9111.038"/>
+		<pt X="3603.646" Y="-9108.851"/>
+	</skpath>
+	<skpath from="389" to="403" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3727.8418" Y="-8936.743"/>
+		<pt X="3692.286" Y="-8952.068"/>
+	</skpath>
+	<skpath from="218" to="459" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3715.9255" Y="-9001.446"/>
+		<pt X="3717.7366" Y="-8996.379"/>
+		<pt X="3723.1108" Y="-8991.376"/>
+		<pt X="3733.335" Y="-8994.591"/>
+		<pt X="3744.601" Y="-8994.725"/>
+		<pt X="3754.2039" Y="-8987.812"/>
+		<pt X="3758.4534" Y="-8973.297"/>
+	</skpath>
+	<skpath from="459" to="208" linestyle="wall" splined="1">
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3758.4534" Y="-8973.297"/>
+		<pt X="3758.4546" Y="-8971.92"/>
+		<pt X="3755.457" Y="-8960.59"/>
+		<pt X="3746.9844" Y="-8952.318"/>
+		<pt X="3738.6057" Y="-8950.115"/>
+		<pt X="3731.53" Y="-8950.587"/>
+	</skpath>
+	<skpath from="459" to="235" linestyle="connective">
+		<pathcodes>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="7-11 chamber"/>
+		<importfrom subname="pussyprance"/>
+		<pt X="3758.4534" Y="-8973.297"/>
+		<pt X="3712.6094" Y="-8973.102"/>
+	</skpath>
+	<skpath from="162" to="173" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3741.4248" Y="-9773.11"/>
+		<pt X="3760.2317" Y="-9778.274"/>
+	</skpath>
+	<skpath from="460" to="17" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3404.6362" Y="-9261.469"/>
+		<pt X="3688.0728" Y="-9274.65" Z="-553.17816"/>
+	</skpath>
+	<skpath from="460" to="460" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="4.7338924" sfrotatedeg="-0.7935052" sfelevrotdeg="0.0" sfxtrans="36584.469861834965" sfytrans="-83600.54687901854" sfsketch="surveyscans/2008/2008#16/plan2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3509">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3404.6362" Y="-9261.469"/>
+		<pt X="3943.2532" Y="-9254.009"/>
+		<pt X="3932.9614" Y="-8512.816"/>
+		<pt X="3394.3533" Y="-8520.278"/>
+		<pt X="3404.6362" Y="-9261.469"/>
+	</skpath>
+	<skpath from="461" to="33" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3620.9897" Y="-9025.912"/>
+		<pt X="3615.9204" Y="-9021.576" Z="-994.69495"/>
+	</skpath>
+	<skpath from="461" to="446" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3620.9897" Y="-9025.912"/>
+		<pt X="3624.2378" Y="-9034.784"/>
+		<pt X="3627.0667" Y="-9044.355"/>
+		<pt X="3628.575" Y="-9055.0"/>
+		<pt X="3633.7397" Y="-9063.785"/>
+		<pt X="3640.6184" Y="-9072.355"/>
+	</skpath>
+	<skpath from="461" to="462" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3620.9897" Y="-9025.912"/>
+		<pt X="3610.9644" Y="-9035.064"/>
+	</skpath>
+	<skpath from="462" to="439" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3610.9644" Y="-9035.064"/>
+		<pt X="3610.2063" Y="-9050.289"/>
+		<pt X="3612.5146" Y="-9061.708"/>
+		<pt X="3617.3333" Y="-9074.261"/>
+	</skpath>
+	<skpath from="463" to="463" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="11.768533" sfrotatedeg="0.14964612" sfelevrotdeg="0.0" sfxtrans="36597.693609111426" sfytrans="-83587.23191575416" sfsketch="surveyscans/2008/2008#16/plan1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3509">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3536.8735" Y="-9128.319"/>
+		<pt X="3753.5522" Y="-9128.885"/>
+		<pt X="3750.4087" Y="-8829.255"/>
+		<pt X="3534.8628" Y="-8829.673"/>
+		<pt X="3536.8735" Y="-9128.319"/>
+	</skpath>
+	<skpath from="463" to="41" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3536.8735" Y="-9128.319"/>
+		<pt X="3648.1836" Y="-8985.036" Z="-1092.2578"/>
+	</skpath>
+	<skpath from="452" to="464" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3662.1184" Y="-9002.815"/>
+		<pt X="3657.4111" Y="-9009.862"/>
+		<pt X="3655.8064" Y="-9011.708"/>
+		<pt X="3654.0408" Y="-9007.992"/>
+		<pt X="3653.5461" Y="-9002.833"/>
+		<pt X="3649.3955" Y="-8995.145"/>
+		<pt X="3645.015" Y="-8992.87"/>
+	</skpath>
+	<skpath from="465" to="41" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3644.9153" Y="-8982.688"/>
+		<pt X="3648.1836" Y="-8985.036" Z="-1092.2578"/>
+	</skpath>
+	<skpath from="465" to="452" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3644.9153" Y="-8982.688"/>
+		<pt X="3654.5366" Y="-8985.011"/>
+		<pt X="3659.1929" Y="-8989.752"/>
+		<pt X="3664.8223" Y="-8995.76"/>
+		<pt X="3665.8367" Y="-8997.298"/>
+		<pt X="3662.1184" Y="-9002.815"/>
+	</skpath>
+	<skpath from="464" to="41" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3645.015" Y="-8992.87"/>
+		<pt X="3648.1836" Y="-8985.036" Z="-1092.2578"/>
+	</skpath>
+	<skpath from="464" to="466" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3645.015" Y="-8992.87"/>
+		<pt X="3641.5928" Y="-8992.554"/>
+		<pt X="3636.3994" Y="-8994.038"/>
+		<pt X="3632.9355" Y="-8994.652"/>
+		<pt X="3625.8303" Y="-8996.431"/>
+	</skpath>
+	<skpath from="466" to="467" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3625.8303" Y="-8996.431"/>
+		<pt X="3622.0703" Y="-8997.774"/>
+	</skpath>
+	<skpath from="467" to="468" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3622.0703" Y="-8997.774"/>
+		<pt X="3618.4834" Y="-8999.49"/>
+		<pt X="3616.8525" Y="-9003.487"/>
+		<pt X="3616.0369" Y="-9009.214"/>
+		<pt X="3616.6743" Y="-9011.305"/>
+	</skpath>
+	<skpath from="468" to="461" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3616.6743" Y="-9011.305"/>
+		<pt X="3617.6719" Y="-9017.399"/>
+		<pt X="3620.9897" Y="-9025.912"/>
+	</skpath>
+	<skpath from="468" to="39" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3616.6743" Y="-9011.305"/>
+		<pt X="3610.2769" Y="-9008.9" Z="-998.1544"/>
+	</skpath>
+	<skpath from="465" to="469" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3644.9153" Y="-8982.688"/>
+		<pt X="3637.9922" Y="-8983.955"/>
+		<pt X="3631.288" Y="-8987.026"/>
+		<pt X="3623.0662" Y="-8988.536"/>
+		<pt X="3616.6987" Y="-8990.96"/>
+	</skpath>
+	<skpath from="435" to="470" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.0947" Y="-8980.238"/>
+		<pt X="3612.6736" Y="-8989.658"/>
+	</skpath>
+	<skpath from="440" to="440" linestyle="detail" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3621.6665" Y="-8992.578"/>
+		<pt X="3625.2698" Y="-8995.126"/>
+		<pt X="3631.248" Y="-8994.125"/>
+		<pt X="3639.753" Y="-8991.273"/>
+		<pt X="3641.4685" Y="-8988.853"/>
+		<pt X="3640.144" Y="-8986.841"/>
+		<pt X="3634.2295" Y="-8986.905"/>
+		<pt X="3630.3494" Y="-8988.11"/>
+		<pt X="3626.6165" Y="-8988.59"/>
+		<pt X="3622.7886" Y="-8990.051"/>
+		<pt X="3621.6665" Y="-8992.578"/>
+	</skpath>
+	<skpath from="440" to="469" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3621.6665" Y="-8992.578"/>
+		<pt X="3616.6987" Y="-8990.96"/>
+	</skpath>
+	<skpath from="467" to="469" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3622.0703" Y="-8997.774"/>
+		<pt X="3621.1963" Y="-8995.057"/>
+		<pt X="3618.6287" Y="-8992.138"/>
+		<pt X="3616.6987" Y="-8990.96"/>
+	</skpath>
+	<skpath from="470" to="471" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3612.6736" Y="-8989.658"/>
+		<pt X="3610.8994" Y="-8989.958"/>
+		<pt X="3609.7588" Y="-8990.618"/>
+	</skpath>
+	<skpath from="471" to="472" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.7588" Y="-8990.618"/>
+		<pt X="3608.7383" Y="-8991.158"/>
+	</skpath>
+	<skpath from="473" to="472" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3601.4773" Y="-8978.556"/>
+		<pt X="3603.2603" Y="-8984.023"/>
+		<pt X="3605.1619" Y="-8987.153"/>
+		<pt X="3606.905" Y="-8989.213"/>
+		<pt X="3608.7383" Y="-8991.158"/>
+	</skpath>
+	<skpath from="474" to="473" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3599.7834" Y="-8978.611"/>
+		<pt X="3601.4773" Y="-8978.556"/>
+	</skpath>
+	<skpath from="475" to="431" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="0.0" nodeposyrel="1.0">too&newline;tight</pctext>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3582.7952" Y="-8908.498"/>
+		<pt X="3582.9502" Y="-8911.24"/>
+	</skpath>
+	<skpath from="476" to="477" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3596.69" Y="-8962.466"/>
+		<pt X="3597.5415" Y="-8962.181"/>
+		<pt X="3596.9324" Y="-8956.716"/>
+		<pt X="3594.3193" Y="-8949.23"/>
+		<pt X="3587.367" Y="-8931.381"/>
+		<pt X="3584.7988" Y="-8928.234"/>
+	</skpath>
+	<skpath from="477" to="476" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3584.7988" Y="-8928.234"/>
+		<pt X="3584.2188" Y="-8928.207"/>
+		<pt X="3583.3804" Y="-8930.217"/>
+		<pt X="3584.5618" Y="-8936.546"/>
+		<pt X="3586.3005" Y="-8941.152"/>
+		<pt X="3588.9119" Y="-8948.638"/>
+		<pt X="3591.7988" Y="-8954.686"/>
+		<pt X="3596.69" Y="-8962.466"/>
+	</skpath>
+	<skpath from="477" to="430" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3584.7988" Y="-8928.234"/>
+		<pt X="3588.463" Y="-8925.923"/>
+	</skpath>
+	<skpath from="477" to="43" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3584.7988" Y="-8928.234"/>
+		<pt X="3585.7441" Y="-8928.289" Z="-1005.18726"/>
+	</skpath>
+	<skpath from="471" to="478" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.7588" Y="-8990.618"/>
+		<pt X="3609.1633" Y="-8988.184"/>
+		<pt X="3607.0635" Y="-8981.646"/>
+		<pt X="3604.1318" Y="-8974.079"/>
+		<pt X="3603.3792" Y="-8970.83"/>
+		<pt X="3601.8735" Y="-8969.8"/>
+		<pt X="3601.0415" Y="-8970.514"/>
+	</skpath>
+	<skpath from="478" to="473" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3601.0415" Y="-8970.514"/>
+		<pt X="3600.2095" Y="-8973.921"/>
+		<pt X="3601.4773" Y="-8978.556"/>
+	</skpath>
+	<skpath from="433" to="479" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3580.8242" Y="-8929.06"/>
+		<pt X="3586.9739" Y="-8948.429"/>
+		<pt X="3594.1445" Y="-8964.899"/>
+		<pt X="3594.2573" Y="-8965.165"/>
+	</skpath>
+	<skpath from="479" to="476" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3594.2573" Y="-8965.165"/>
+		<pt X="3596.69" Y="-8962.466"/>
+	</skpath>
+	<skpath from="434" to="480" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3601.425" Y="-8960.826"/>
+		<pt X="3599.0186" Y="-8965.071"/>
+	</skpath>
+	<skpath from="480" to="476" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3599.0186" Y="-8965.071"/>
+		<pt X="3596.69" Y="-8962.466"/>
+	</skpath>
+	<skpath from="480" to="478" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3599.0186" Y="-8965.071"/>
+		<pt X="3601.0415" Y="-8970.514"/>
+	</skpath>
+	<skpath from="474" to="479" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3599.7834" Y="-8978.611"/>
+		<pt X="3598.4797" Y="-8974.443"/>
+		<pt X="3596.2532" Y="-8970.238"/>
+		<pt X="3594.2573" Y="-8965.165"/>
+	</skpath>
+	<skpath from="481" to="482" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="0.0" nodeposyrel="-1.0">too&newline;tight</pctext>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3630.0547" Y="-9094.159"/>
+		<pt X="3627.3052" Y="-9090.124"/>
+	</skpath>
+	<skpath from="482" to="436" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3627.3052" Y="-9090.124"/>
+		<pt X="3629.4785" Y="-9088.353"/>
+	</skpath>
+	<skpath from="38" to="482" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3626.514" Y="-9087.329" Z="-997.9978"/>
+		<pt X="3627.3052" Y="-9090.124"/>
+	</skpath>
+	<skpath from="482" to="483" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3627.3052" Y="-9090.124"/>
+		<pt X="3624.1401" Y="-9089.374"/>
+		<pt X="3616.9768" Y="-9087.5"/>
+		<pt X="3611.9375" Y="-9085.751"/>
+		<pt X="3609.9802" Y="-9083.544"/>
+	</skpath>
+	<skpath from="37" to="483" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3611.7998" Y="-9082.263" Z="-996.90967"/>
+		<pt X="3609.9802" Y="-9083.544"/>
+	</skpath>
+	<skpath from="437" to="484" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3614.1824" Y="-9080.422"/>
+		<pt X="3613.3943" Y="-9076.339"/>
+		<pt X="3611.9758" Y="-9072.467"/>
+		<pt X="3610.8052" Y="-9070.427"/>
+		<pt X="3609.7046" Y="-9068.108"/>
+	</skpath>
+	<skpath from="484" to="485" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.7046" Y="-9068.108"/>
+		<pt X="3606.284" Y="-9064.64"/>
+		<pt X="3604.4624" Y="-9062.207"/>
+	</skpath>
+	<skpath from="485" to="486" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3604.4624" Y="-9062.207"/>
+		<pt X="3601.9724" Y="-9059.385"/>
+	</skpath>
+	<skpath from="486" to="487" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3601.9724" Y="-9059.385"/>
+		<pt X="3598.4788" Y="-9054.794"/>
+		<pt X="3597.7646" Y="-9053.943"/>
+	</skpath>
+	<skpath from="488" to="34" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3596.1833" Y="-9036.385"/>
+		<pt X="3593.0425" Y="-9031.287" Z="-984.1452"/>
+	</skpath>
+	<skpath from="489" to="35" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3592.7483" Y="-9056.281"/>
+		<pt X="3594.6694" Y="-9054.551" Z="-1004.4174"/>
+	</skpath>
+	<skpath from="484" to="36" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.7046" Y="-9068.108"/>
+		<pt X="3607.1401" Y="-9067.021" Z="-1008.489"/>
+	</skpath>
+	<skpath from="487" to="35" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3597.7646" Y="-9053.943"/>
+		<pt X="3594.6694" Y="-9054.551" Z="-1004.4174"/>
+	</skpath>
+	<skpath from="35" to="490" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3594.6694" Y="-9054.551" Z="-1004.4174"/>
+		<pt X="3594.7964" Y="-9055.836"/>
+	</skpath>
+	<skpath from="483" to="491" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.9802" Y="-9083.544"/>
+		<pt X="3608.257" Y="-9080.703"/>
+		<pt X="3607.5486" Y="-9077.871"/>
+		<pt X="3605.6255" Y="-9072.245"/>
+		<pt X="3603.6248" Y="-9068.277"/>
+	</skpath>
+	<skpath from="491" to="490" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3603.6248" Y="-9068.277"/>
+		<pt X="3602.788" Y="-9066.413"/>
+		<pt X="3598.9102" Y="-9062.9375"/>
+		<pt X="3596.2085" Y="-9058.916"/>
+		<pt X="3594.7964" Y="-9055.836"/>
+	</skpath>
+	<skpath from="486" to="485" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3601.9724" Y="-9059.385"/>
+		<pt X="3598.8894" Y="-9057.078"/>
+		<pt X="3596.9575" Y="-9056.044"/>
+		<pt X="3596.9558" Y="-9057.036"/>
+		<pt X="3600.394" Y="-9061.983"/>
+		<pt X="3604.3782" Y="-9065.831"/>
+		<pt X="3605.5278" Y="-9065.8955"/>
+		<pt X="3605.054" Y="-9064.399"/>
+		<pt X="3604.4624" Y="-9062.207"/>
+	</skpath>
+	<skpath from="484" to="484" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.7046" Y="-9068.108"/>
+		<pt X="3607.6086" Y="-9068.582"/>
+		<pt X="3607.095" Y="-9071.531"/>
+		<pt X="3609.6506" Y="-9078.368"/>
+		<pt X="3610.78" Y="-9081.617"/>
+		<pt X="3611.78" Y="-9081.118"/>
+		<pt X="3611.1902" Y="-9077.037"/>
+		<pt X="3609.9683" Y="-9070.588"/>
+		<pt X="3609.7046" Y="-9068.108"/>
+	</skpath>
+	<skpath from="36" to="491" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3607.1401" Y="-9067.021" Z="-1008.489"/>
+		<pt X="3603.6248" Y="-9068.277"/>
+	</skpath>
+	<skpath from="487" to="492" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3597.7646" Y="-9053.943"/>
+		<pt X="3596.1362" Y="-9050.122"/>
+		<pt X="3595.8486" Y="-9045.444"/>
+		<pt X="3595.7537" Y="-9041.022"/>
+	</skpath>
+	<skpath from="492" to="488" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3595.7537" Y="-9041.022"/>
+		<pt X="3595.7087" Y="-9038.369"/>
+		<pt X="3596.1833" Y="-9036.385"/>
+	</skpath>
+	<skpath from="490" to="493" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3594.7964" Y="-9055.836"/>
+		<pt X="3593.3472" Y="-9051.55"/>
+		<pt X="3592.5513" Y="-9047.692"/>
+		<pt X="3592.0151" Y="-9043.079"/>
+		<pt X="3591.4734" Y="-9039.792"/>
+	</skpath>
+	<skpath from="493" to="494" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3591.4734" Y="-9039.792"/>
+		<pt X="3591.124" Y="-9035.9375"/>
+		<pt X="3592.1013" Y="-9030.833"/>
+	</skpath>
+	<skpath from="494" to="34" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3592.1013" Y="-9030.833"/>
+		<pt X="3593.0425" Y="-9031.287" Z="-984.1452"/>
+	</skpath>
+	<skpath from="488" to="493" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3596.1833" Y="-9036.385"/>
+		<pt X="3595.2317" Y="-9033.946"/>
+		<pt X="3593.3481" Y="-9033.112"/>
+		<pt X="3592.0713" Y="-9035.691"/>
+		<pt X="3591.4734" Y="-9039.792"/>
+	</skpath>
+	<skpath from="493" to="492" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3591.4734" Y="-9039.792"/>
+		<pt X="3593.6135" Y="-9049.279"/>
+		<pt X="3595.4285" Y="-9051.376"/>
+		<pt X="3595.129" Y="-9049.101"/>
+		<pt X="3594.986" Y="-9042.407"/>
+		<pt X="3595.7537" Y="-9041.022"/>
+	</skpath>
+	<skpath from="494" to="495" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3592.1013" Y="-9030.833"/>
+		<pt X="3595.6555" Y="-9027.402"/>
+		<pt X="3599.851" Y="-9022.007"/>
+		<pt X="3602.9568" Y="-9016.139"/>
+		<pt X="3604.802" Y="-9011.01"/>
+		<pt X="3605.9553" Y="-9005.481"/>
+	</skpath>
+	<skpath from="496" to="497" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3606.306" Y="-9020.828"/>
+		<pt X="3603.9119" Y="-9021.767"/>
+		<pt X="3600.1233" Y="-9026.016"/>
+		<pt X="3598.1428" Y="-9028.95"/>
+		<pt X="3597.9019" Y="-9031.139"/>
+	</skpath>
+	<skpath from="497" to="496" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3597.9019" Y="-9031.139"/>
+		<pt X="3599.5654" Y="-9031.057"/>
+		<pt X="3602.0984" Y="-9027.739"/>
+		<pt X="3605.6152" Y="-9023.2"/>
+		<pt X="3606.518" Y="-9022.065"/>
+		<pt X="3606.306" Y="-9020.828"/>
+	</skpath>
+	<skpath from="498" to="499" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3607.5278" Y="-9018.917"/>
+		<pt X="3609.3506" Y="-9017.606"/>
+		<pt X="3609.554" Y="-9013.327"/>
+		<pt X="3610.788" Y="-9006.392"/>
+		<pt X="3612.5532" Y="-9000.532"/>
+		<pt X="3613.8733" Y="-8994.986"/>
+		<pt X="3613.7363" Y="-8992.903"/>
+		<pt X="3612.5417" Y="-8992.456"/>
+	</skpath>
+	<skpath from="499" to="500" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3612.5417" Y="-8992.456"/>
+		<pt X="3609.8386" Y="-8994.47"/>
+		<pt X="3609.027" Y="-8997.877"/>
+		<pt X="3607.1594" Y="-9003.868"/>
+		<pt X="3606.9128" Y="-9005.634"/>
+	</skpath>
+	<skpath from="500" to="498" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3606.9128" Y="-9005.634"/>
+		<pt X="3606.992" Y="-9010.801"/>
+		<pt X="3607.0334" Y="-9015.02"/>
+		<pt X="3606.8367" Y="-9018.161"/>
+		<pt X="3607.5278" Y="-9018.917"/>
+	</skpath>
+	<skpath from="500" to="495" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3606.9128" Y="-9005.634"/>
+		<pt X="3605.9553" Y="-9005.481"/>
+	</skpath>
+	<skpath from="39" to="57" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3610.2769" Y="-9008.9" Z="-998.1544"/>
+		<pt X="3608.663" Y="-9016.365" Z="-1028.029"/>
+	</skpath>
+	<skpath from="496" to="498" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3606.306" Y="-9020.828"/>
+		<pt X="3607.5278" Y="-9018.917"/>
+	</skpath>
+	<skpath from="462" to="501" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3610.9644" Y="-9035.064"/>
+		<pt X="3611.4697" Y="-9030.506"/>
+		<pt X="3608.8914" Y="-9029.534"/>
+	</skpath>
+	<skpath from="501" to="488" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.8914" Y="-9029.534"/>
+		<pt X="3606.7002" Y="-9029.821"/>
+		<pt X="3600.6086" Y="-9032.406"/>
+		<pt X="3597.3574" Y="-9034.022"/>
+		<pt X="3596.1833" Y="-9036.385"/>
+	</skpath>
+	<skpath from="501" to="498" linestyle="invisible" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.8914" Y="-9029.534"/>
+		<pt X="3607.5278" Y="-9018.917"/>
+	</skpath>
+	<skpath from="499" to="502" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="hole"/>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3612.5417" Y="-8992.456"/>
+		<pt X="3611.9102" Y="-8997.105"/>
+	</skpath>
+	<skpath from="469" to="495" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3616.6987" Y="-8990.96"/>
+		<pt X="3612.611" Y="-8990.584"/>
+		<pt X="3610.163" Y="-8992.281"/>
+		<pt X="3608.592" Y="-8995.123"/>
+		<pt X="3607.0303" Y="-8998.848"/>
+		<pt X="3606.056" Y="-9003.45"/>
+		<pt X="3605.9553" Y="-9005.481"/>
+	</skpath>
+	<skpath from="397" to="503" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3628.5732" Y="-9030.538"/>
+		<pt X="3623.3125" Y="-9029.444"/>
+		<pt X="3613.0276" Y="-9027.417"/>
+		<pt X="3608.682" Y="-9026.692"/>
+	</skpath>
+	<skpath from="503" to="504" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.682" Y="-9026.692"/>
+		<pt X="3605.35" Y="-9025.533"/>
+		<pt X="3600.5696" Y="-9022.781"/>
+		<pt X="3597.3828" Y="-9019.595"/>
+		<pt X="3596.6584" Y="-9014.959"/>
+		<pt X="3597.6726" Y="-9011.337"/>
+	</skpath>
+	<skpath from="504" to="505" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3597.6726" Y="-9011.337"/>
+		<pt X="3598.8313" Y="-9008.875"/>
+		<pt X="3600.5698" Y="-9004.529"/>
+		<pt X="3602.453" Y="-9000.473"/>
+		<pt X="3602.5977" Y="-8998.88"/>
+	</skpath>
+	<skpath from="474" to="505" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3599.7834" Y="-8978.611"/>
+		<pt X="3602.5977" Y="-8998.88"/>
+	</skpath>
+	<skpath from="472" to="505" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.7383" Y="-8991.158"/>
+		<pt X="3605.865" Y="-8993.769"/>
+		<pt X="3602.5977" Y="-8998.88"/>
+	</skpath>
+	<skpath from="505" to="506" linestyle="pitchbound" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3602.5977" Y="-8998.88"/>
+		<pt X="3608.8267" Y="-9001.053"/>
+		<pt X="3615.3452" Y="-9000.184"/>
+		<pt X="3615.635" Y="-8999.459"/>
+	</skpath>
+	<skpath from="506" to="470" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3615.635" Y="-8999.459"/>
+		<pt X="3615.2004" Y="-8994.823"/>
+		<pt X="3612.6736" Y="-8989.658"/>
+	</skpath>
+	<skpath from="396" to="507" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3627.892" Y="-9019.61"/>
+		<pt X="3617.8064" Y="-9018.58"/>
+		<pt X="3611.5789" Y="-9018.001"/>
+	</skpath>
+	<skpath from="507" to="506" linestyle="wall" splined="1">
+		<importfrom subname="pussyprance"/>
+		<pt X="3611.5789" Y="-9018.001"/>
+		<pt X="3609.9856" Y="-9016.697"/>
+		<pt X="3610.4202" Y="-9011.771"/>
+		<pt X="3612.8826" Y="-9006.122"/>
+		<pt X="3614.7659" Y="-9002.356"/>
+		<pt X="3615.635" Y="-8999.459"/>
+	</skpath>
+	<skpath from="47" to="427" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3653.7744" Y="-9022.997" Z="-1221.2032"/>
+		<pt X="3652.341" Y="-9016.914"/>
+	</skpath>
+	<skpath from="503" to="46" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.682" Y="-9026.692"/>
+		<pt X="3609.1265" Y="-9026.119" Z="-1146.7153"/>
+	</skpath>
+	<skpath from="46" to="507" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.1265" Y="-9026.119" Z="-1146.7153"/>
+		<pt X="3611.5789" Y="-9018.001"/>
+	</skpath>
+	<skpath from="45" to="504" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3599.784" Y="-9012.777" Z="-1054.3405"/>
+		<pt X="3597.6726" Y="-9011.337"/>
+	</skpath>
+	<skpath from="57" to="507" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3608.663" Y="-9016.365" Z="-1028.029"/>
+		<pt X="3611.5789" Y="-9018.001"/>
+	</skpath>
+	<skpath from="44" to="505" linestyle="connective">
+		<importfrom subname="pussyprance"/>
+		<pt X="3609.9712" Y="-8991.402" Z="-1028.4653"/>
+		<pt X="3602.5977" Y="-8998.88"/>
+	</skpath>
+	<skpath from="508" to="505" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0">p15</pctext>
+		</pathcodes>
+		<importfrom subname="pussyprance"/>
+		<pt X="3595.3176" Y="-8995.498"/>
+		<pt X="3602.5977" Y="-8998.88"/>
+	</skpath>
+</sketch>
+</tunnelxml>
