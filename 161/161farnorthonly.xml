@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-04 09:42:34">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-10 15:25:28">
 <sketch splined="0" locoffsetx="36291.105" locoffsety="82660.74" locoffsetz="1597.356" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -34461,6 +34461,21 @@
 		<pt X="1386.5979" Y="2599.4407"/>
 		<pt X="-2145.4111" Y="288.9197"/>
 		<pt X="2475.6309" Y="-6775.098"/>
+	</skpath>
+	<skpath from="3001" to="3001" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="3.1534195" sfrotatedeg="-0.017046483" sfelevrotdeg="0.0" sfxtrans="36725.53021477329" sfytrans="-83148.9967794407" sfsketch="surveyscans/2009/2009#32/East_Anglia-plan.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="5260" sfpixheight="3449">
+			</pcarea>
+		</pathcodes>
+		<pt X="4344.2397" Y="-4882.5303"/>
+		<pt X="6012.27" Y="-4882.034"/>
+		<pt X="6011.945" Y="-3788.3008"/>
+		<pt X="4343.914" Y="-3788.797"/>
+		<pt X="4344.2397" Y="-4882.5303"/>
+	</skpath>
+	<skpath from="3001" to="547" linestyle="connective">
+		<pt X="4344.2397" Y="-4882.5303"/>
+		<pt X="5275.8403" Y="-4275.756" Z="-125.36014"/>
 	</skpath>
 </sketch>
 </tunnelxml>
