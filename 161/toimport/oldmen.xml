@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-12 23:11:37">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-12 23:19:58">
 <sketch splined="0" locoffsetx="36299.977" locoffsety="82694.164" locoffsetz="1598.7203" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -2307,7 +2307,7 @@
 	</skpath>
 	<skpath from="249" to="248" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0">Chocolate&newline;River</pctext>
+			<pctext style="passage" nodeposxrel="1.0" nodeposyrel="0.0">Chocolate&newline;River</pctext>
 		</pathcodes>
 		<importfrom subname="oldmen"/>
 		<pt X="2433.5088" Y="-4874.821"/>
@@ -2385,7 +2385,7 @@
 	</skpath>
 	<skpath from="257" to="250" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0">2011-08-03&newline;20:00</pctext>
+			<pctext style="note" nodeposxrel="1.0" nodeposyrel="0.0">2011-08-03&newline;20:00</pctext>
 		</pathcodes>
 		<importfrom subname="oldmen"/>
 		<pt X="2386.652" Y="-4314.8735"/>
@@ -2744,7 +2744,7 @@
 	</skpath>
 	<skpath from="289" to="280" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0">2011-08-03&newline;19:00</pctext>
+			<pctext style="note" nodeposxrel="1.0" nodeposyrel="0.0">2011-08-03&newline;19:00</pctext>
 		</pathcodes>
 		<importfrom subname="oldmen"/>
 		<pt X="2615.101" Y="-4272.5693"/>
@@ -7398,7 +7398,7 @@
 	</skpath>
 	<skpath from="703" to="758" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="hole"/>
+			<pcarea area_signal="rock"/>
 		</pathcodes>
 		<pt X="2406.0496" Y="-3925.221"/>
 		<pt X="2405.6965" Y="-3906.9739"/>
