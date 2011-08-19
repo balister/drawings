@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-19 15:26:45">
+<sketch splined="0" locoffsetx="36291.105" locoffsety="82660.74" locoffsetz="1597.356" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.yapate.8" head="161.yapate.7"/>
+		</pathcodes>
+		<sketchsubset subname="Waterfall Chamber to top of Flapjack"/>
+		<pt X="2427.9404" Y="-2362.3555" Z="-829.5602"/>
+		<pt X="2494.6406" Y="-2270.4556" Z="-839.46014"/>
+	</skpath>
+	<skpath from="2" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.19" head="161.burblcrawl.18"/>
+		</pathcodes>
+		<sketchsubset subname="Burble crawl"/>
+		<sketchsubset subname="burble"/>
+		<pt X="2431.1404" Y="-3415.9556" Z="-569.5601"/>
+		<pt X="2404.4404" Y="-3501.8555" Z="-553.96014"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="6 mile bottom" uppersubset="orange"/>
+				<subsetattr name="anglia" uppersubset="purple"/>
+				<subsetattr name="bear bum" uppersubset="blue"/>
+				<subsetattr name="burble" uppersubset="cyan"/>
+				<subsetattr name="clear as mud" uppersubset="orange"/>
+				<subsetattr name="far too far" uppersubset="blue"/>
+				<subsetattr name="fuzzy logic" uppersubset="purple"/>
+				<subsetattr name="irony of time" uppersubset="purple"/>
+				<subsetattr name="lead mine" uppersubset="red"/>
+				<subsetattr name="midnight in moscow" uppersubset="cyan"/>
+				<subsetattr name="mostly mud" uppersubset="red"/>
+				<subsetattr name="natural way" uppersubset="yellow"/>
+				<subsetattr name="pipeless" uppersubset="red"/>
+				<subsetattr name="private investigations" uppersubset="blue"/>
+				<subsetattr name="psycho street" uppersubset="green"/>
+				<subsetattr name="repton" uppersubset="green"/>
+				<subsetattr name="satans" uppersubset="orange"/>
+				<subsetattr name="scrofulosity" uppersubset="yellow"/>
+				<subsetattr name="sebody elses problem" uppersubset="yellow"/>
+				<subsetattr name="siberia" uppersubset="red"/>
+				<subsetattr name="three wise men" uppersubset="green"/>
+				<subsetattr name="wellie scraper" uppersubset="green"/>
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="leadmine"/>
+		<pt X="990.89685" Y="-7511.433"/>
+		<pt X="3849.6921" Y="-7796.185"/>
+		<pt X="1028.0859" Y="-6925.1636"/>
+		<pt X="3991.5205" Y="-7399.505"/>
+		<pt X="1185.5919" Y="-6532.13"/>
+	</skpath>
+	<skpath from="8" to="8" linestyle="wall" splined="1">
+		<importfrom subname="anglia"/>
+		<pt X="4521.606" Y="-3464.282"/>
+		<pt X="4521.606" Y="-3464.282"/>
+	</skpath>
+	<skpath from="9" to="9" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="5.964348" sfrotatedeg="-0.706516" sfelevrotdeg="0.0" sfxtrans="36423.344879725875" sfytrans="-83240.97651473513" sfsketch="surveyscans/1997-99kh/43.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2367" sfpixheight="2627">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="bearbum"/>
+		<pt X="1322.3864" Y="-5802.3276"/>
+		<pt X="1719.2142" Y="-5797.434"/>
+		<pt X="1713.7834" Y="-5357.017"/>
+		<pt X="1316.9556" Y="-5361.9106"/>
+		<pt X="1322.3864" Y="-5802.3276"/>
+	</skpath>
+	<skpath from="10" to="10" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.8539094" sfrotatedeg="-13.196049" sfelevrotdeg="0.0" sfxtrans="36475.33533786177" sfytrans="-83079.3448089197" sfsketch="surveyscans/90Surveybookkh/scan014.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3114">
+			</pcarea>
+		</pathcodes>
+		<pt X="1842.2909" Y="-4186.0107"/>
+		<pt X="3181.4429" Y="-3872.0127"/>
+		<pt X="2797.996" Y="-2236.6719"/>
+		<pt X="1458.8441" Y="-2550.6697"/>
+		<pt X="1842.2909" Y="-4186.0107"/>
+	</skpath>
+	<skpath from="11" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.15" head="161.cfn.16"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2557.8525" Y="-3486.3872" Z="-556.3601"/>
+		<pt X="2664.3406" Y="-3504.5557" Z="-580.46014"/>
+	</skpath>
+	<skpath from="11" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.15" head="161.cfn.14"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2557.8525" Y="-3486.3872" Z="-556.3601"/>
+		<pt X="2481.0857" Y="-3499.0227" Z="-554.96014"/>
+	</skpath>
+	<skpath from="2" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.19" head="161.cfn.14"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2431.1404" Y="-3415.9556" Z="-569.5601"/>
+		<pt X="2481.0857" Y="-3499.0227" Z="-554.96014"/>
+	</skpath>
+	<skpath from="10" to="13" linestyle="connective">
+		<pt X="1842.2909" Y="-4186.0107"/>
+		<pt X="2480.0933" Y="-3094.0671" Z="-618.0602"/>
+	</skpath>
+	<skpath from="2" to="13" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.burblcrawl.19" head="161.cfn.12"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2431.1404" Y="-3415.9556" Z="-569.5601"/>
+		<pt X="2480.0933" Y="-3094.0671" Z="-618.0602"/>
+	</skpath>
+	<skpath from="15" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.07" head="161.cfn.06"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2249.2188" Y="-2967.256" Z="-647.4602"/>
+		<pt X="2292.4558" Y="-2997.9053" Z="-641.16016"/>
+	</skpath>
+	<skpath from="15" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.07" head="161.cfn.08"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2249.2188" Y="-2967.256" Z="-647.4602"/>
+		<pt X="2234.4414" Y="-2850.6802" Z="-663.16016"/>
+	</skpath>
+	<skpath from="16" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.08" head="161.cfn.09"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2234.4414" Y="-2850.6802" Z="-663.16016"/>
+		<pt X="2183.542" Y="-2705.097" Z="-674.46014"/>
+	</skpath>
+	<skpath from="18" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.05" head="161.cfn.06"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2348.8284" Y="-2974.371" Z="-653.86017"/>
+		<pt X="2292.4558" Y="-2997.9053" Z="-641.16016"/>
+	</skpath>
+	<skpath from="18" to="13" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.05" head="161.cfn.12"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2348.8284" Y="-2974.371" Z="-653.86017"/>
+		<pt X="2480.0933" Y="-3094.0671" Z="-618.0602"/>
+	</skpath>
+	<skpath from="19" to="18" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.04" head="161.cfn.05"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2502.621" Y="-2939.3435" Z="-662.76013"/>
+		<pt X="2348.8284" Y="-2974.371" Z="-653.86017"/>
+	</skpath>
+	<skpath from="19" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.04" head="161.cfn.03"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2502.621" Y="-2939.3435" Z="-662.76013"/>
+		<pt X="2479.6343" Y="-2783.909" Z="-685.96014"/>
+	</skpath>
+	<skpath from="21" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.02" head="161.cfn.03"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2372.3623" Y="-2682.11" Z="-721.26013"/>
+		<pt X="2479.6343" Y="-2783.909" Z="-685.96014"/>
+	</skpath>
+	<skpath from="21" to="22" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.02" head="161.cfn.01"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2372.3623" Y="-2682.11" Z="-721.26013"/>
+		<pt X="2405.7866" Y="-2378.1475" Z="-762.0602"/>
+	</skpath>
+	<skpath from="15" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.07" head="161.cfn.10"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2249.2188" Y="-2967.256" Z="-647.4602"/>
+		<pt X="2320.3052" Y="-3149.2153" Z="-647.4602"/>
+	</skpath>
+	<skpath from="24" to="24" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.5980036" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="36585.33046625757" sfytrans="-83035.20222660038" sfsketch="surveyscans/90Surveybookkh/scan016.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3185">
+			</pcarea>
+		</pathcodes>
+		<pt X="2942.2422" Y="-3744.5847"/>
+		<pt X="4537.9834" Y="-3744.5847"/>
+		<pt X="4537.9834" Y="-1751.4729"/>
+		<pt X="2942.2422" Y="-1751.4729"/>
+		<pt X="2942.2422" Y="-3744.5847"/>
+	</skpath>
+	<skpath from="24" to="4" linestyle="connective">
+		<pt X="2942.2422" Y="-3744.5847"/>
+		<pt X="2811.0403" Y="-3615.0557" Z="-679.16016"/>
+	</skpath>
+	<skpath from="3" to="25" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="161.cfn.16" head="161.cfn.17"/>
+		</pathcodes>
+		<sketchsubset subname="RH route - De-Hydration series: Chicken Flied Nice"/>
+		<pt X="2664.3406" Y="-3504.5557" Z="-580.46014"/>
+		<pt X="2693.346" Y="-3481.5388" Z="-603.76013"/>
+	</skpath>
+</sketch>
+</tunnelxml>
