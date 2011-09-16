@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-09-16 20:19:13">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-09-16 22:10:44">
 <sketch splined="0" locoffsetx="36297.496" locoffsety="82678.984" locoffsetz="1597.0283" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -5185,7 +5185,7 @@
 	</skpath>
 	<skpath from="577" to="566" linestyle="connective">
 		<pathcodes>
-			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">QM</pctext>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">?</pctext>
 		</pathcodes>
 		<pt X="3394.6968" Y="-13921.215"/>
 		<pt X="3375.6902" Y="-13917.609"/>
@@ -5727,7 +5727,7 @@
 	</skpath>
 	<skpath from="634" to="617" linestyle="connective">
 		<pathcodes>
-			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="1.0">CONNECTION&newline;SPLIT&space;CAVES&space;HERE</pctext>
+			<pctext style="passage" nodeposxrel="1.0" nodeposyrel="1.0">CONNECTION&newline;SPLIT&space;CAVES&space;HERE</pctext>
 		</pathcodes>
 		<pt X="3225.451" Y="-13532.211"/>
 		<pt X="3240.0098" Y="-13586.035"/>
@@ -7832,6 +7832,36 @@
 		<pt X="3063.4226" Y="-13075.731"/>
 		<pt X="2379.3313" Y="-13137.447"/>
 		<pt X="2462.2156" Y="-14056.191"/>
+	</skpath>
+	<skpath from="849" to="849" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="8.000482" sfrotatedeg="0.025153274" sfelevrotdeg="0.0" sfxtrans="36634.297889681206" sfytrans="-84084.04231117714" sfsketch="surveyscans/2011/2011#01/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1259" sfpixheight="1749">
+			</pcarea>
+		</pathcodes>
+		<pt X="3368.0103" Y="-14050.548"/>
+		<pt X="3525.3757" Y="-14050.617"/>
+		<pt X="3525.4717" Y="-13832.006"/>
+		<pt X="3368.1062" Y="-13831.937"/>
+		<pt X="3368.0103" Y="-14050.548"/>
+	</skpath>
+	<skpath from="849" to="20" linestyle="connective">
+		<pt X="3368.0103" Y="-14050.548"/>
+		<pt X="3465.8337" Y="-13973.826" Z="187.4169"/>
+	</skpath>
+	<skpath from="850" to="850" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="2.3657806" sfrotatedeg="1.0986155" sfelevrotdeg="0.0" sfxtrans="36583.185085711746" sfytrans="-84077.5608412001" sfsketch="surveyscans/2007/2007#61/plan.JPG" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2540" sfpixheight="3492">
+			</pcarea>
+		</pathcodes>
+		<pt X="2856.882" Y="-13985.733"/>
+		<pt X="3930.3262" Y="-14006.318"/>
+		<pt X="3958.6267" Y="-12530.544"/>
+		<pt X="2885.1829" Y="-12509.959"/>
+		<pt X="2856.882" Y="-13985.733"/>
+	</skpath>
+	<skpath from="850" to="11" linestyle="connective">
+		<pt X="2856.882" Y="-13985.733"/>
+		<pt X="3461.334" Y="-13666.925" Z="175.81688"/>
 	</skpath>
 </sketch>
 </tunnelxml>
