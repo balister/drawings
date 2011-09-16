@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-08-10 10:20:26">
+<sketch splined="0" locoffsetx="-21.59143" locoffsety="23.622242" locoffsetz="-14.529931" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.subsoil.9" head="allsubsoil.subsoil.10"/>
+		</pathcodes>
+		<sketchsubset subname="subsoil"/>
+		<pt X="145.4143" Y="685.82245" Z="-1.8006897"/>
+		<pt X="182.51431" Y="769.1224" Z="9.39931"/>
+	</skpath>
+	<skpath from="2" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1ss11" head="allsubsoil.subsoil.10"/>
+		</pathcodes>
+		<sketchsubset subname="subsoil"/>
+		<pt X="241.8143" Y="832.7224" Z="7.8993106"/>
+		<pt X="182.51431" Y="769.1224" Z="9.39931"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1ss11" head="allsubsoil.hippohollows.1ss12"/>
+		</pathcodes>
+		<sketchsubset subname="subsoil"/>
+		<pt X="241.8143" Y="832.7224" Z="7.8993106"/>
+		<pt X="219.61432" Y="943.12244" Z="-3.7006898"/>
+	</skpath>
+	<skpath from="4" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1ss13" head="allsubsoil.hippohollows.1ss12"/>
+		</pathcodes>
+		<sketchsubset subname="subsoil"/>
+		<pt X="231.6143" Y="1011.4224" Z="-6.10069"/>
+		<pt X="219.61432" Y="943.12244" Z="-3.7006898"/>
+	</skpath>
+	<skpath from="5" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1" head="allsubsoil.hippohollows.1ss12"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="269.61432" Y="965.02246" Z="36.09931"/>
+		<pt X="219.61432" Y="943.12244" Z="-3.7006898"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1" head="allsubsoil.hippohollows.2"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="269.61432" Y="965.02246" Z="36.09931"/>
+		<pt X="290.5143" Y="1002.62244" Z="44.499313"/>
+	</skpath>
+	<skpath from="5" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1" head="allsubsoil.hippohollows.3"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="269.61432" Y="965.02246" Z="36.09931"/>
+		<pt X="275.5143" Y="924.32245" Z="32.09931"/>
+	</skpath>
+	<skpath from="8" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.4" head="allsubsoil.hippohollows.3"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="219.4143" Y="884.32245" Z="-7.8006897"/>
+		<pt X="275.5143" Y="924.32245" Z="32.09931"/>
+	</skpath>
+	<skpath from="2" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1ss11" head="allsubsoil.hippohollows.4"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="241.8143" Y="832.7224" Z="7.8993106"/>
+		<pt X="219.4143" Y="884.32245" Z="-7.8006897"/>
+	</skpath>
+	<skpath from="9" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.5" head="allsubsoil.hippohollows.1ss11"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="285.8143" Y="857.2224" Z="47.19931"/>
+		<pt X="241.8143" Y="832.7224" Z="7.8993106"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.5" head="allsubsoil.hippohollows.6"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="285.8143" Y="857.2224" Z="47.19931"/>
+		<pt X="360.51428" Y="893.62244" Z="89.49931"/>
+	</skpath>
+	<skpath from="11" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.7" head="allsubsoil.hippohollows.6"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="396.4143" Y="916.92236" Z="113.19931"/>
+		<pt X="360.51428" Y="893.62244" Z="89.49931"/>
+	</skpath>
+	<skpath from="11" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.7" head="allsubsoil.hippohollows.8"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="396.4143" Y="916.92236" Z="113.19931"/>
+		<pt X="429.3143" Y="926.3224" Z="135.4993"/>
+	</skpath>
+	<skpath from="13" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.10" head="allsubsoil.fatworm.11"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="205.21431" Y="1034.2224" Z="-15.60069"/>
+		<pt X="108.11431" Y="1065.8225" Z="-215.9007"/>
+	</skpath>
+	<skpath from="13" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.10" head="allsubsoil.hippohollows.9"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="205.21431" Y="1034.2224" Z="-15.60069"/>
+		<pt X="231.9143" Y="1024.5225" Z="-6.3006897"/>
+	</skpath>
+	<skpath from="4" to="15" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.hippohollows.1ss13" head="allsubsoil.hippohollows.9"/>
+		</pathcodes>
+		<sketchsubset subname="Hippo Hollows area"/>
+		<pt X="231.6143" Y="1011.4224" Z="-6.10069"/>
+		<pt X="231.9143" Y="1024.5225" Z="-6.3006897"/>
+	</skpath>
+	<skpath from="16" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.20" head="allsubsoil.fatworm.11"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="179.4143" Y="1168.8224" Z="-225.00069"/>
+		<pt X="108.11431" Y="1065.8225" Z="-215.9007"/>
+	</skpath>
+	<skpath from="16" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.20" head="allsubsoil.fatworm.21"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="179.4143" Y="1168.8224" Z="-225.00069"/>
+		<pt X="124.51431" Y="1189.5225" Z="-259.8007"/>
+	</skpath>
+	<skpath from="18" to="17" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.22" head="allsubsoil.fatworm.21"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="109.71431" Y="1259.8224" Z="-272.1007"/>
+		<pt X="124.51431" Y="1189.5225" Z="-259.8007"/>
+	</skpath>
+	<skpath from="18" to="19" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.22" head="allsubsoil.fatworm.23"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="109.71431" Y="1259.8224" Z="-272.1007"/>
+		<pt X="184.4143" Y="1215.6224" Z="-228.4007"/>
+	</skpath>
+	<skpath from="20" to="16" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.24" head="allsubsoil.fatworm.20"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="200.31432" Y="1172.6224" Z="-210.30069"/>
+		<pt X="179.4143" Y="1168.8224" Z="-225.00069"/>
+	</skpath>
+	<skpath from="19" to="20" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.23" head="allsubsoil.fatworm.24"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="184.4143" Y="1215.6224" Z="-228.4007"/>
+		<pt X="200.31432" Y="1172.6224" Z="-210.30069"/>
+	</skpath>
+	<skpath from="18" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.22" head="allsubsoil.fatworm.27"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="109.71431" Y="1259.8224" Z="-272.1007"/>
+		<pt X="85.91431" Y="1188.9224" Z="-272.20068"/>
+	</skpath>
+	<skpath from="22" to="21" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.28" head="allsubsoil.fatworm.27"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="88.61431" Y="1151.8224" Z="-258.8007"/>
+		<pt X="85.91431" Y="1188.9224" Z="-272.20068"/>
+	</skpath>
+	<skpath from="22" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.28" head="allsubsoil.fatworm.29"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="88.61431" Y="1151.8224" Z="-258.8007"/>
+		<pt X="51.514313" Y="1120.3224" Z="-266.60068"/>
+	</skpath>
+	<skpath from="24" to="23" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.30" head="allsubsoil.fatworm.29"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky"/>
+		<pt X="73.81431" Y="1101.7224" Z="-253.80069"/>
+		<pt X="51.514313" Y="1120.3224" Z="-266.60068"/>
+	</skpath>
+	<skpath from="25" to="14" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.1" head="allsubsoil.fatworm.11"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="58.014313" Y="1037.4224" Z="-139.5007"/>
+		<pt X="108.11431" Y="1065.8225" Z="-215.9007"/>
+	</skpath>
+	<skpath from="25" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.1" head="allsubsoil.fatworm2.2"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="58.014313" Y="1037.4224" Z="-139.5007"/>
+		<pt X="31.314312" Y="985.02246" Z="-132.30069"/>
+	</skpath>
+	<skpath from="27" to="26" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.3" head="allsubsoil.fatworm2.2"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="-38.38569" Y="922.2224" Z="-172.1007"/>
+		<pt X="31.314312" Y="985.02246" Z="-132.30069"/>
+	</skpath>
+	<skpath from="27" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.3" head="allsubsoil.fatworm2.4"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="-38.38569" Y="922.2224" Z="-172.1007"/>
+		<pt X="-39.68569" Y="909.1224" Z="-179.7007"/>
+	</skpath>
+	<skpath from="29" to="28" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.5" head="allsubsoil.fatworm2.4"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="-136.68568" Y="820.2224" Z="-205.30069"/>
+		<pt X="-39.68569" Y="909.1224" Z="-179.7007"/>
+	</skpath>
+	<skpath from="29" to="30" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.5" head="allsubsoil.fatworm2.6"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="-136.68568" Y="820.2224" Z="-205.30069"/>
+		<pt X="-147.0857" Y="799.8224" Z="-208.10068"/>
+	</skpath>
+	<skpath from="14" to="31" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.11" head="allsubsoil.fatworm2.7"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="108.11431" Y="1065.8225" Z="-215.9007"/>
+		<pt X="87.814316" Y="1058.5225" Z="-215.20068"/>
+	</skpath>
+	<skpath from="31" to="32" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.7" head="allsubsoil.fatworm2.8"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="87.814316" Y="1058.5225" Z="-215.20068"/>
+		<pt X="67.71431" Y="1061.0225" Z="-247.2007"/>
+	</skpath>
+	<skpath from="32" to="33" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.8" head="allsubsoil.fatworm2.9"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="67.71431" Y="1061.0225" Z="-247.2007"/>
+		<pt X="75.81431" Y="1094.0225" Z="-246.00069"/>
+	</skpath>
+	<skpath from="24" to="33" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.30" head="allsubsoil.fatworm2.9"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="73.81431" Y="1101.7224" Z="-253.80069"/>
+		<pt X="75.81431" Y="1094.0225" Z="-246.00069"/>
+	</skpath>
+	<skpath from="32" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.8" head="allsubsoil.fatworm2.10"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="67.71431" Y="1061.0225" Z="-247.2007"/>
+		<pt X="45.514313" Y="1057.5225" Z="-244.10068"/>
+	</skpath>
+	<skpath from="35" to="34" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.11" head="allsubsoil.fatworm2.10"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="31.01431" Y="1073.7224" Z="-237.80069"/>
+		<pt X="45.514313" Y="1057.5225" Z="-244.10068"/>
+	</skpath>
+	<skpath from="35" to="36" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.11" head="allsubsoil.fatworm2.12"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="31.01431" Y="1073.7224" Z="-237.80069"/>
+		<pt X="3.7143102" Y="1087.0225" Z="-255.4007"/>
+	</skpath>
+	<skpath from="37" to="36" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm2.13" head="allsubsoil.fatworm2.12"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="-35.48569" Y="1085.6224" Z="-266.60068"/>
+		<pt X="3.7143102" Y="1087.0225" Z="-255.4007"/>
+	</skpath>
+	<skpath from="18" to="38" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.22" head="allsubsoil.fatworm2.14"/>
+		</pathcodes>
+		<sketchsubset subname="Fat Worm Blows a Sparky, part 2"/>
+		<pt X="109.71431" Y="1259.8224" Z="-272.1007"/>
+		<pt X="73.91431" Y="1295.8225" Z="-299.5007"/>
+	</skpath>
+	<skpath from="14" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.fatworm.11" head="allsubsoil.stupidhole.1"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="108.11431" Y="1065.8225" Z="-215.9007"/>
+		<pt X="140.4143" Y="1113.7224" Z="-213.90068"/>
+	</skpath>
+	<skpath from="40" to="39" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.2" head="allsubsoil.stupidhole.1"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="170.51431" Y="1130.3224" Z="-236.30069"/>
+		<pt X="140.4143" Y="1113.7224" Z="-213.90068"/>
+	</skpath>
+	<skpath from="40" to="41" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.2" head="allsubsoil.stupidhole.3"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="170.51431" Y="1130.3224" Z="-236.30069"/>
+		<pt X="227.9143" Y="1090.1224" Z="-336.4007"/>
+	</skpath>
+	<skpath from="42" to="41" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.4" head="allsubsoil.stupidhole.3"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="273.5143" Y="1094.1224" Z="-389.0007"/>
+		<pt X="227.9143" Y="1090.1224" Z="-336.4007"/>
+	</skpath>
+	<skpath from="43" to="41" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.5" head="allsubsoil.stupidhole.3"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="175.7143" Y="1066.9224" Z="-303.4007"/>
+		<pt X="227.9143" Y="1090.1224" Z="-336.4007"/>
+	</skpath>
+	<skpath from="43" to="44" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.5" head="allsubsoil.stupidhole.6"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="175.7143" Y="1066.9224" Z="-303.4007"/>
+		<pt X="146.3143" Y="1052.5225" Z="-278.70068"/>
+	</skpath>
+	<skpath from="44" to="45" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.6" head="allsubsoil.stupidhole.7"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="146.3143" Y="1052.5225" Z="-278.70068"/>
+		<pt X="138.1143" Y="1041.2224" Z="-277.50067"/>
+	</skpath>
+	<skpath from="46" to="45" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.8" head="allsubsoil.stupidhole.7"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="161.41432" Y="1012.4224" Z="-347.20068"/>
+		<pt X="138.1143" Y="1041.2224" Z="-277.50067"/>
+	</skpath>
+	<skpath from="46" to="47" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.8" head="allsubsoil.stupidhole.9"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="161.41432" Y="1012.4224" Z="-347.20068"/>
+		<pt X="161.41432" Y="1012.4224" Z="-419.40067"/>
+	</skpath>
+	<skpath from="48" to="49" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.2" head="allsubsoil.stupidhole2.1"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="160.9143" Y="1006.0224" Z="-487.70068"/>
+		<pt X="169.81432" Y="991.7224" Z="-474.60068"/>
+	</skpath>
+	<skpath from="50" to="48" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.3" head="allsubsoil.stupidhole2.2"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="153.71431" Y="982.62244" Z="-540.1007"/>
+		<pt X="160.9143" Y="1006.0224" Z="-487.70068"/>
+	</skpath>
+	<skpath from="50" to="51" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.3" head="allsubsoil.stupidhole2.4"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="153.71431" Y="982.62244" Z="-540.1007"/>
+		<pt X="166.21431" Y="1009.32245" Z="-559.9007"/>
+	</skpath>
+	<skpath from="51" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.4" head="allsubsoil.stupidhole2.5"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="166.21431" Y="1009.32245" Z="-559.9007"/>
+		<pt X="166.21431" Y="1009.32245" Z="-665.8007"/>
+	</skpath>
+	<skpath from="53" to="52" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.6" head="allsubsoil.stupidhole2.5"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="195.31432" Y="997.52246" Z="-658.00073"/>
+		<pt X="166.21431" Y="1009.32245" Z="-665.8007"/>
+	</skpath>
+	<skpath from="53" to="54" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.6" head="allsubsoil.stupidhole2.7"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="195.31432" Y="997.52246" Z="-658.00073"/>
+		<pt X="195.31432" Y="997.52246" Z="-682.5007"/>
+	</skpath>
+	<skpath from="55" to="54" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.8" head="allsubsoil.stupidhole2.7"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="198.3143" Y="978.7224" Z="-660.60065"/>
+		<pt X="195.31432" Y="997.52246" Z="-682.5007"/>
+	</skpath>
+	<skpath from="55" to="56" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.8" head="allsubsoil.stupidhole2.9"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="198.3143" Y="978.7224" Z="-660.60065"/>
+		<pt X="198.3143" Y="978.7224" Z="-725.1007"/>
+	</skpath>
+	<skpath from="57" to="56" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.10" head="allsubsoil.stupidhole2.9"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="219.61432" Y="957.4224" Z="-710.4007"/>
+		<pt X="198.3143" Y="978.7224" Z="-725.1007"/>
+	</skpath>
+	<skpath from="57" to="58" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.10" head="allsubsoil.stupidhole2.11"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="219.61432" Y="957.4224" Z="-710.4007"/>
+		<pt X="219.61432" Y="957.4224" Z="-797.9007"/>
+	</skpath>
+	<skpath from="59" to="58" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.12" head="allsubsoil.stupidhole2.11"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="223.01431" Y="956.0224" Z="-797.40063"/>
+		<pt X="219.61432" Y="957.4224" Z="-797.9007"/>
+	</skpath>
+	<skpath from="60" to="59" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.13" head="allsubsoil.stupidhole2.12"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="242.6143" Y="930.02246" Z="-825.60065"/>
+		<pt X="223.01431" Y="956.0224" Z="-797.40063"/>
+	</skpath>
+	<skpath from="60" to="61" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.13" head="allsubsoil.stupidhole2.14"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="242.6143" Y="930.02246" Z="-825.60065"/>
+		<pt X="242.6143" Y="930.02246" Z="-880.1007"/>
+	</skpath>
+	<skpath from="62" to="61" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.15" head="allsubsoil.stupidhole2.14"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="242.11432" Y="921.82245" Z="-878.2007"/>
+		<pt X="242.6143" Y="930.02246" Z="-880.1007"/>
+	</skpath>
+	<skpath from="63" to="62" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.16" head="allsubsoil.stupidhole2.15"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="239.81432" Y="902.8224" Z="-859.7007"/>
+		<pt X="242.11432" Y="921.82245" Z="-878.2007"/>
+	</skpath>
+	<skpath from="64" to="63" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.17" head="allsubsoil.stupidhole2.16"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="218.01431" Y="912.52246" Z="-865.7007"/>
+		<pt X="239.81432" Y="902.8224" Z="-859.7007"/>
+	</skpath>
+	<skpath from="64" to="65" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.17" head="allsubsoil.stupidhole2.18"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="218.01431" Y="912.52246" Z="-865.7007"/>
+		<pt X="218.01431" Y="912.52246" Z="-927.2007"/>
+	</skpath>
+	<skpath from="66" to="65" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.19" head="allsubsoil.stupidhole2.18"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="203.81432" Y="940.4224" Z="-929.90063"/>
+		<pt X="218.01431" Y="912.52246" Z="-927.2007"/>
+	</skpath>
+	<skpath from="67" to="66" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.20" head="allsubsoil.stupidhole2.19"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="187.71431" Y="961.0224" Z="-965.90076"/>
+		<pt X="203.81432" Y="940.4224" Z="-929.90063"/>
+	</skpath>
+	<skpath from="68" to="67" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.21" head="allsubsoil.stupidhole2.20"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="120.91431" Y="963.32245" Z="-1024.0007"/>
+		<pt X="187.71431" Y="961.0224" Z="-965.90076"/>
+	</skpath>
+	<skpath from="47" to="49" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole.9" head="allsubsoil.stupidhole2.1"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="161.41432" Y="1012.4224" Z="-419.40067"/>
+		<pt X="169.81432" Y="991.7224" Z="-474.60068"/>
+	</skpath>
+	<skpath from="68" to="69" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole2.21" head="allsubsoil.stupidhole3.22"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="120.91431" Y="963.32245" Z="-1024.0007"/>
+		<pt X="120.91431" Y="963.32245" Z="-1132.5007"/>
+	</skpath>
+	<skpath from="70" to="69" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole3.23" head="allsubsoil.stupidhole3.22"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="53.41431" Y="960.92236" Z="-1193.3007"/>
+		<pt X="120.91431" Y="963.32245" Z="-1132.5007"/>
+	</skpath>
+	<skpath from="71" to="70" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole3.24" head="allsubsoil.stupidhole3.23"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="40.91431" Y="984.42236" Z="-1222.9006"/>
+		<pt X="53.41431" Y="960.92236" Z="-1193.3007"/>
+	</skpath>
+	<skpath from="72" to="71" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole3.25" head="allsubsoil.stupidhole3.24"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="68.91431" Y="970.7224" Z="-1238.7007"/>
+		<pt X="40.91431" Y="984.42236" Z="-1222.9006"/>
+	</skpath>
+	<skpath from="73" to="72" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole3.26" head="allsubsoil.stupidhole3.25"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="63.61431" Y="952.0224" Z="-1280.5006"/>
+		<pt X="68.91431" Y="970.7224" Z="-1238.7007"/>
+	</skpath>
+	<skpath from="74" to="73" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole3.27" head="allsubsoil.stupidhole3.26"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="49.81431" Y="987.9224" Z="-1293.0006"/>
+		<pt X="63.61431" Y="952.0224" Z="-1280.5006"/>
+	</skpath>
+	<skpath from="75" to="74" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="allsubsoil.stupidhole3.28" head="allsubsoil.stupidhole3.27"/>
+		</pathcodes>
+		<sketchsubset subname="That Stupid Hole"/>
+		<pt X="70.41431" Y="1018.5224" Z="-1295.6007"/>
+		<pt X="49.81431" Y="987.9224" Z="-1293.0006"/>
+	</skpath>
+	<skpath from="76" to="76" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="4.9144588" sfrotatedeg="-0.2447571" sfelevrotdeg="0.0" sfxtrans="-15.651836359119631" sfytrans="67.25304251152366" sfsketch="surveyscans/2011/2011#08/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1267" sfpixheight="1751">
+			</pcarea>
+		</pathcodes>
+		<pt X="59.395943" Y="908.7528"/>
+		<pt X="317.20428" Y="909.8541"/>
+		<pt X="315.68225" Y="1266.1465"/>
+		<pt X="57.873917" Y="1265.0452"/>
+		<pt X="59.395943" Y="908.7528"/>
+	</skpath>
+	<skpath from="76" to="41" linestyle="connective">
+		<pt X="59.395943" Y="908.7528"/>
+		<pt X="227.9143" Y="1090.1224" Z="-336.4007"/>
+	</skpath>
+	<skpath from="77" to="63" linestyle="connective">
+		<pt X="80.44614" Y="825.31165"/>
+		<pt X="239.81432" Y="902.8224" Z="-859.7007"/>
+	</skpath>
+	<skpath from="77" to="77" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10.137251" sfrotatedeg="-0.10947423" sfelevrotdeg="0.0" sfxtrans="-13.546816805685525" sfytrans="58.90892121995154" sfsketch="surveyscans/2011/2011#07/plan.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2063" sfpixheight="2916">
+			</pcarea>
+		</pathcodes>
+		<pt X="80.44614" Y="825.31165"/>
+		<pt X="283.9526" Y="825.70044"/>
+		<pt X="283.403" Y="1113.3519"/>
+		<pt X="79.89653" Y="1112.963"/>
+		<pt X="80.44614" Y="825.31165"/>
+	</skpath>
+	<skpath from="78" to="78" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10.965392" sfrotatedeg="0.08347792" sfelevrotdeg="0.0" sfxtrans="-19.392742240916583" sfytrans="67.64785062261507" sfsketch="surveyscans/2011/2011#09/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1263" sfpixheight="1751">
+			</pcarea>
+		</pathcodes>
+		<pt X="21.986885" Y="912.7009"/>
+		<pt X="137.16733" Y="912.5331"/>
+		<pt X="137.39998" Y="1072.2172"/>
+		<pt X="22.219538" Y="1072.385"/>
+		<pt X="21.986885" Y="912.7009"/>
+	</skpath>
+	<skpath from="78" to="71" linestyle="connective">
+		<pt X="21.986885" Y="912.7009"/>
+		<pt X="40.91431" Y="984.42236" Z="-1222.9006"/>
+	</skpath>
+</sketch>
+</tunnelxml>
