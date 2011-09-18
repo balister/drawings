@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-09-11 17:42:50">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2011-09-19 00:14:37">
 <sketch splined="0" locoffsetx="36297.496" locoffsety="82678.984" locoffsetz="1597.0283" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -3388,16 +3388,7 @@
 		<pt X="2636.4875" Y="-13798.707"/>
 		<pt X="2639.483" Y="-13798.219"/>
 	</skpath>
-	<skpath from="358" to="359" linestyle="connective">
-		<pathcodes>
-			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="1.0">p15</pctext>
-		</pathcodes>
-		<sketchsubset subname="Sandy Balls"/>
-		<importfrom subname="258new"/>
-		<pt X="2627.7258" Y="-13826.887"/>
-		<pt X="2627.7563" Y="-13802.47"/>
-	</skpath>
-	<skpath from="357" to="359" linestyle="wall" splined="1">
+	<skpath from="357" to="358" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2629.9563" Y="-13801.304"/>
@@ -3409,24 +3400,24 @@
 		<pt X="2629.9563" Y="-13801.304"/>
 		<pt X="2623.734" Y="-13793.625" Z="-496.3831"/>
 	</skpath>
-	<skpath from="360" to="359" linestyle="wall" splined="1">
+	<skpath from="359" to="358" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2626.4758" Y="-13805.309"/>
 		<pt X="2627.7563" Y="-13802.47"/>
 	</skpath>
-	<skpath from="361" to="359" linestyle="pitchbound" splined="1">
+	<skpath from="360" to="358" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2617.5312" Y="-13785.227"/>
 		<pt X="2627.7563" Y="-13802.47"/>
 	</skpath>
-	<skpath from="362" to="98" linestyle="connective">
+	<skpath from="361" to="98" linestyle="connective">
 		<importfrom subname="258new"/>
 		<pt X="2624.2212" Y="-13807.394"/>
 		<pt X="2624.6338" Y="-13803.125" Z="-494.2831"/>
 	</skpath>
-	<skpath from="361" to="360" linestyle="detail">
+	<skpath from="360" to="359" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2617.5312" Y="-13785.227"/>
@@ -3436,7 +3427,7 @@
 		<pt X="2621.0078" Y="-13807.933"/>
 		<pt X="2626.4758" Y="-13805.309"/>
 	</skpath>
-	<skpath from="363" to="360" linestyle="wall" splined="1">
+	<skpath from="362" to="359" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2597.6514" Y="-13850.189"/>
@@ -3447,14 +3438,14 @@
 		<pt X="2625.577" Y="-13811.607"/>
 		<pt X="2626.4758" Y="-13805.309"/>
 	</skpath>
-	<skpath from="360" to="74" linestyle="connective">
+	<skpath from="359" to="74" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2626.4758" Y="-13805.309"/>
 		<pt X="2622.151" Y="-13811.129"/>
 		<pt X="2610.334" Y="-13807.226" Z="-479.9831"/>
 	</skpath>
-	<skpath from="356" to="364" linestyle="wall" splined="1">
+	<skpath from="356" to="363" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2640.0254" Y="-13782.181"/>
@@ -3468,13 +3459,13 @@
 		<pt X="2628.0261" Y="-13737.78"/>
 		<pt X="2628.9336" Y="-13736.693"/>
 	</skpath>
-	<skpath from="365" to="71" linestyle="invisible" splined="1">
+	<skpath from="364" to="71" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2655.0781" Y="-13689.224"/>
 		<pt X="2654.0337" Y="-13691.826" Z="-485.98312"/>
 	</skpath>
-	<skpath from="365" to="366" linestyle="wall" splined="1">
+	<skpath from="364" to="365" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2655.0781" Y="-13689.224"/>
@@ -3482,7 +3473,7 @@
 		<pt X="2662.4966" Y="-13681.334"/>
 		<pt X="2664.0728" Y="-13679.919"/>
 	</skpath>
-	<skpath from="71" to="367" linestyle="connective">
+	<skpath from="71" to="366" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 			<pcsymbol rname="sand"/>
@@ -3492,7 +3483,7 @@
 		<pt X="2654.0337" Y="-13691.826" Z="-485.98312"/>
 		<pt X="2649.1016" Y="-13710.007"/>
 	</skpath>
-	<skpath from="365" to="368" linestyle="connective">
+	<skpath from="364" to="367" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
@@ -3502,7 +3493,7 @@
 		<pt X="2654.2622" Y="-13680.677"/>
 		<pt X="2659.9373" Y="-13676.091"/>
 	</skpath>
-	<skpath from="369" to="366" linestyle="connective">
+	<skpath from="368" to="365" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">p30</pctext>
 		</pathcodes>
@@ -3511,7 +3502,7 @@
 		<pt X="2673.0266" Y="-13686.189"/>
 		<pt X="2664.0728" Y="-13679.919"/>
 	</skpath>
-	<skpath from="370" to="365" linestyle="pitchbound" splined="1">
+	<skpath from="369" to="364" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2639.7578" Y="-13672.414"/>
@@ -3521,7 +3512,7 @@
 		<pt X="2651.3804" Y="-13685.781"/>
 		<pt X="2655.0781" Y="-13689.224"/>
 	</skpath>
-	<skpath from="371" to="366" linestyle="pitchbound" splined="1">
+	<skpath from="370" to="365" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2654.2703" Y="-13666.705"/>
@@ -3530,7 +3521,7 @@
 		<pt X="2663.3706" Y="-13675.903"/>
 		<pt X="2664.0728" Y="-13679.919"/>
 	</skpath>
-	<skpath from="372" to="71" linestyle="invisible" splined="1">
+	<skpath from="371" to="71" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2654.2766" Y="-13716.127"/>
@@ -3540,7 +3531,7 @@
 		<pt X="2645.781" Y="-13701.913"/>
 		<pt X="2654.0337" Y="-13691.826" Z="-485.98312"/>
 	</skpath>
-	<skpath from="372" to="365" linestyle="wall" splined="1">
+	<skpath from="371" to="364" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2654.2766" Y="-13716.127"/>
@@ -3552,14 +3543,14 @@
 		<pt X="2654.9714" Y="-13692.975"/>
 		<pt X="2655.0781" Y="-13689.224"/>
 	</skpath>
-	<skpath from="371" to="370" linestyle="wall" splined="1">
+	<skpath from="370" to="369" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2654.2703" Y="-13666.705"/>
 		<pt X="2648.0955" Y="-13668.165"/>
 		<pt X="2639.7578" Y="-13672.414"/>
 	</skpath>
-	<skpath from="370" to="373" linestyle="connective">
+	<skpath from="369" to="372" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
@@ -3570,7 +3561,7 @@
 		<pt X="2652.3262" Y="-13673.614"/>
 		<pt X="2655.757" Y="-13670.441"/>
 	</skpath>
-	<skpath from="370" to="374" linestyle="connective">
+	<skpath from="369" to="373" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
@@ -3580,13 +3571,13 @@
 		<pt X="2641.2705" Y="-13685.307"/>
 		<pt X="2645.1328" Y="-13681.314"/>
 	</skpath>
-	<skpath from="72" to="372" linestyle="connective">
+	<skpath from="72" to="371" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2640.1338" Y="-13703.726" Z="-483.98312"/>
 		<pt X="2654.2766" Y="-13716.127"/>
 	</skpath>
-	<skpath from="370" to="375" linestyle="wall" splined="1">
+	<skpath from="369" to="374" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2639.7578" Y="-13672.414"/>
@@ -3594,13 +3585,13 @@
 		<pt X="2623.6404" Y="-13683.646"/>
 		<pt X="2620.3418" Y="-13687.91"/>
 	</skpath>
-	<skpath from="72" to="375" linestyle="connective">
+	<skpath from="72" to="374" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2640.1338" Y="-13703.726" Z="-483.98312"/>
 		<pt X="2620.3418" Y="-13687.91"/>
 	</skpath>
-	<skpath from="376" to="363" linestyle="connective">
+	<skpath from="375" to="362" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="0.0">Sandy&newline;&space;&space;&space;Balls</pctext>
 		</pathcodes>
@@ -3609,7 +3600,7 @@
 		<pt X="2492.5923" Y="-13810.739"/>
 		<pt X="2597.6514" Y="-13850.189"/>
 	</skpath>
-	<skpath from="377" to="361" linestyle="pitchbound" splined="1">
+	<skpath from="376" to="360" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2616.2039" Y="-13753.231"/>
@@ -3619,13 +3610,13 @@
 		<pt X="2619.409" Y="-13780.717"/>
 		<pt X="2617.5312" Y="-13785.227"/>
 	</skpath>
-	<skpath from="378" to="375" linestyle="invisible" splined="1">
+	<skpath from="377" to="374" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2626.4844" Y="-13694.174"/>
 		<pt X="2620.3418" Y="-13687.91"/>
 	</skpath>
-	<skpath from="375" to="379" linestyle="connective">
+	<skpath from="374" to="378" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
@@ -3635,13 +3626,13 @@
 		<pt X="2623.1587" Y="-13701.858"/>
 		<pt X="2623.2312" Y="-13713.523"/>
 	</skpath>
-	<skpath from="378" to="380" linestyle="detail">
+	<skpath from="377" to="379" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2626.4844" Y="-13694.174"/>
 		<pt X="2628.0845" Y="-13684.449"/>
 	</skpath>
-	<skpath from="375" to="381" linestyle="connective">
+	<skpath from="374" to="380" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -3650,26 +3641,26 @@
 		<pt X="2620.3418" Y="-13687.91"/>
 		<pt X="2633.5906" Y="-13725.438"/>
 	</skpath>
-	<skpath from="378" to="382" linestyle="detail">
+	<skpath from="377" to="381" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2626.4844" Y="-13694.174"/>
 		<pt X="2637.2551" Y="-13705.739"/>
 		<pt X="2642.4045" Y="-13701.985"/>
 	</skpath>
-	<skpath from="383" to="380" linestyle="detail">
+	<skpath from="382" to="379" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2635.3188" Y="-13684.52"/>
 		<pt X="2628.0845" Y="-13684.449"/>
 	</skpath>
-	<skpath from="380" to="384" linestyle="detail">
+	<skpath from="379" to="383" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2628.0845" Y="-13684.449"/>
 		<pt X="2637.0532" Y="-13681.1875"/>
 	</skpath>
-	<skpath from="363" to="385" linestyle="connective">
+	<skpath from="362" to="384" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -3678,67 +3669,67 @@
 		<pt X="2597.6514" Y="-13850.189"/>
 		<pt X="2577.9539" Y="-13862.449"/>
 	</skpath>
-	<skpath from="384" to="383" linestyle="detail">
+	<skpath from="383" to="382" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2637.0532" Y="-13681.1875"/>
 		<pt X="2635.3188" Y="-13684.52"/>
 	</skpath>
-	<skpath from="383" to="386" linestyle="detail">
+	<skpath from="382" to="385" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2635.3188" Y="-13684.52"/>
 		<pt X="2642.4534" Y="-13693.857"/>
 	</skpath>
-	<skpath from="387" to="384" linestyle="detail">
+	<skpath from="386" to="383" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2644.9456" Y="-13692.318"/>
 		<pt X="2637.0532" Y="-13681.1875"/>
 	</skpath>
-	<skpath from="386" to="382" linestyle="detail">
+	<skpath from="385" to="381" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2642.4534" Y="-13693.857"/>
 		<pt X="2642.4045" Y="-13701.985"/>
 	</skpath>
-	<skpath from="387" to="382" linestyle="detail">
+	<skpath from="386" to="381" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2644.9456" Y="-13692.318"/>
 		<pt X="2642.4045" Y="-13701.985"/>
 	</skpath>
-	<skpath from="386" to="387" linestyle="detail">
+	<skpath from="385" to="386" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2642.4534" Y="-13693.857"/>
 		<pt X="2644.9456" Y="-13692.318"/>
 	</skpath>
-	<skpath from="388" to="74" linestyle="connective">
+	<skpath from="387" to="74" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2584.182" Y="-13790.805"/>
 		<pt X="2610.334" Y="-13807.226" Z="-479.9831"/>
 	</skpath>
-	<skpath from="389" to="388" linestyle="detail">
+	<skpath from="388" to="387" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2589.9255" Y="-13792.191"/>
 		<pt X="2584.182" Y="-13790.805"/>
 	</skpath>
-	<skpath from="390" to="388" linestyle="wall" splined="1">
+	<skpath from="389" to="387" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2585.6938" Y="-13786.333"/>
 		<pt X="2584.182" Y="-13790.805"/>
 	</skpath>
-	<skpath from="391" to="389" linestyle="detail">
+	<skpath from="390" to="388" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2588.3982" Y="-13796.755"/>
 		<pt X="2589.9255" Y="-13792.191"/>
 	</skpath>
-	<skpath from="391" to="389" linestyle="detail">
+	<skpath from="390" to="388" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2588.3982" Y="-13796.755"/>
@@ -3747,13 +3738,13 @@
 		<pt X="2586.9348" Y="-13792.387"/>
 		<pt X="2589.9255" Y="-13792.191"/>
 	</skpath>
-	<skpath from="392" to="389" linestyle="detail">
+	<skpath from="391" to="388" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.533" Y="-13783.703"/>
 		<pt X="2589.9255" Y="-13792.191"/>
 	</skpath>
-	<skpath from="364" to="372" linestyle="wall" splined="1">
+	<skpath from="363" to="371" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2628.9336" Y="-13736.693"/>
@@ -3762,7 +3753,7 @@
 		<pt X="2647.9104" Y="-13721.642"/>
 		<pt X="2654.2766" Y="-13716.127"/>
 	</skpath>
-	<skpath from="388" to="393" linestyle="wall" splined="1">
+	<skpath from="387" to="392" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2584.182" Y="-13790.805"/>
@@ -3770,13 +3761,13 @@
 		<pt X="2581.4363" Y="-13800.93"/>
 		<pt X="2581.127" Y="-13801.336"/>
 	</skpath>
-	<skpath from="390" to="394" linestyle="detail">
+	<skpath from="389" to="393" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2585.6938" Y="-13786.333"/>
 		<pt X="2599.573" Y="-13775.769"/>
 	</skpath>
-	<skpath from="392" to="392" linestyle="detail">
+	<skpath from="391" to="391" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.533" Y="-13783.703"/>
@@ -3785,14 +3776,14 @@
 		<pt X="2601.767" Y="-13787.594"/>
 		<pt X="2603.533" Y="-13783.703"/>
 	</skpath>
-	<skpath from="389" to="395" linestyle="detail">
+	<skpath from="388" to="394" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2589.9255" Y="-13792.191"/>
 		<pt X="2593.0347" Y="-13793.562"/>
 		<pt X="2590.5728" Y="-13801.192"/>
 	</skpath>
-	<skpath from="396" to="392" linestyle="detail">
+	<skpath from="395" to="391" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.7517" Y="-13772.654"/>
@@ -3800,20 +3791,20 @@
 		<pt X="2606.7148" Y="-13781.834"/>
 		<pt X="2603.533" Y="-13783.703"/>
 	</skpath>
-	<skpath from="397" to="391" linestyle="detail">
+	<skpath from="396" to="390" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2587.9045" Y="-13801.196"/>
 		<pt X="2588.3982" Y="-13796.755"/>
 	</skpath>
-	<skpath from="394" to="396" linestyle="detail">
+	<skpath from="393" to="395" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2599.573" Y="-13775.769"/>
 		<pt X="2602.711" Y="-13772.501"/>
 		<pt X="2603.7517" Y="-13772.654"/>
 	</skpath>
-	<skpath from="394" to="398" linestyle="detail">
+	<skpath from="393" to="397" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2599.573" Y="-13775.769"/>
@@ -3821,13 +3812,13 @@
 		<pt X="2600.4995" Y="-13767.574"/>
 		<pt X="2603.4685" Y="-13769.225"/>
 	</skpath>
-	<skpath from="398" to="396" linestyle="detail">
+	<skpath from="397" to="395" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.4685" Y="-13769.225"/>
 		<pt X="2603.7517" Y="-13772.654"/>
 	</skpath>
-	<skpath from="398" to="396" linestyle="detail">
+	<skpath from="397" to="395" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.4685" Y="-13769.225"/>
@@ -3837,45 +3828,45 @@
 		<pt X="2612.7268" Y="-13769.652"/>
 		<pt X="2603.7517" Y="-13772.654"/>
 	</skpath>
-	<skpath from="393" to="397" linestyle="detail">
+	<skpath from="392" to="396" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2581.127" Y="-13801.336"/>
 		<pt X="2587.9045" Y="-13801.196"/>
 	</skpath>
-	<skpath from="395" to="397" linestyle="detail">
+	<skpath from="394" to="396" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2590.5728" Y="-13801.192"/>
 		<pt X="2587.9045" Y="-13801.196"/>
 	</skpath>
-	<skpath from="399" to="393" linestyle="detail">
+	<skpath from="398" to="392" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2581.8225" Y="-13807.199"/>
 		<pt X="2581.127" Y="-13801.336"/>
 	</skpath>
-	<skpath from="395" to="400" linestyle="detail">
+	<skpath from="394" to="399" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2590.5728" Y="-13801.192"/>
 		<pt X="2594.4424" Y="-13800.97"/>
 		<pt X="2596.0122" Y="-13807.496"/>
 	</skpath>
-	<skpath from="400" to="399" linestyle="detail">
+	<skpath from="399" to="398" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2596.0122" Y="-13807.496"/>
 		<pt X="2591.8853" Y="-13810.119"/>
 		<pt X="2581.8225" Y="-13807.199"/>
 	</skpath>
-	<skpath from="400" to="401" linestyle="invisible" splined="1">
+	<skpath from="399" to="400" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2596.0122" Y="-13807.496"/>
 		<pt X="2597.185" Y="-13807.363"/>
 	</skpath>
-	<skpath from="375" to="402" linestyle="wall" splined="1">
+	<skpath from="374" to="401" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2620.3418" Y="-13687.91"/>
@@ -3885,14 +3876,14 @@
 		<pt X="2609.1523" Y="-13726.588"/>
 		<pt X="2606.4976" Y="-13731.875"/>
 	</skpath>
-	<skpath from="401" to="403" linestyle="detail">
+	<skpath from="400" to="402" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2597.185" Y="-13807.363"/>
 		<pt X="2595.3784" Y="-13812.271"/>
 		<pt X="2599.3252" Y="-13814.747"/>
 	</skpath>
-	<skpath from="403" to="401" linestyle="detail">
+	<skpath from="402" to="400" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2599.3252" Y="-13814.747"/>
@@ -3902,21 +3893,21 @@
 		<pt X="2598.2512" Y="-13804.619"/>
 		<pt X="2597.185" Y="-13807.363"/>
 	</skpath>
-	<skpath from="393" to="404" linestyle="wall" splined="1">
+	<skpath from="392" to="403" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2581.127" Y="-13801.336"/>
 		<pt X="2576.6255" Y="-13804.892"/>
 		<pt X="2572.515" Y="-13807.616"/>
 	</skpath>
-	<skpath from="403" to="405" linestyle="detail">
+	<skpath from="402" to="404" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2599.3252" Y="-13814.747"/>
 		<pt X="2601.656" Y="-13817.214"/>
 		<pt X="2596.5005" Y="-13828.308"/>
 	</skpath>
-	<skpath from="405" to="403" linestyle="detail">
+	<skpath from="404" to="402" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2596.5005" Y="-13828.308"/>
@@ -3925,13 +3916,13 @@
 		<pt X="2593.841" Y="-13816.2"/>
 		<pt X="2599.3252" Y="-13814.747"/>
 	</skpath>
-	<skpath from="399" to="404" linestyle="detail">
+	<skpath from="398" to="403" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2581.8225" Y="-13807.199"/>
 		<pt X="2572.515" Y="-13807.616"/>
 	</skpath>
-	<skpath from="404" to="399" linestyle="detail">
+	<skpath from="403" to="398" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2572.515" Y="-13807.616"/>
@@ -3940,19 +3931,19 @@
 		<pt X="2582.9922" Y="-13813.675"/>
 		<pt X="2581.8225" Y="-13807.199"/>
 	</skpath>
-	<skpath from="406" to="405" linestyle="invisible" splined="1">
+	<skpath from="405" to="404" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2593.278" Y="-13832.102"/>
 		<pt X="2596.5005" Y="-13828.308"/>
 	</skpath>
-	<skpath from="407" to="405" linestyle="invisible" splined="1">
+	<skpath from="406" to="404" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.749" Y="-13832.222"/>
 		<pt X="2596.5005" Y="-13828.308"/>
 	</skpath>
-	<skpath from="406" to="406" linestyle="detail">
+	<skpath from="405" to="405" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2593.278" Y="-13832.102"/>
@@ -3962,7 +3953,7 @@
 		<pt X="2583.9153" Y="-13835.285"/>
 		<pt X="2593.278" Y="-13832.102"/>
 	</skpath>
-	<skpath from="407" to="407" linestyle="detail">
+	<skpath from="406" to="406" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2603.749" Y="-13832.222"/>
@@ -3972,7 +3963,7 @@
 		<pt X="2607.3442" Y="-13832.397"/>
 		<pt X="2603.749" Y="-13832.222"/>
 	</skpath>
-	<skpath from="402" to="390" linestyle="wall" splined="1">
+	<skpath from="401" to="389" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2606.4976" Y="-13731.875"/>
@@ -3981,7 +3972,7 @@
 		<pt X="2587.7375" Y="-13781.136"/>
 		<pt X="2585.6938" Y="-13786.333"/>
 	</skpath>
-	<skpath from="408" to="377" linestyle="detail" splined="1">
+	<skpath from="407" to="376" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2613.7522" Y="-13734.635"/>
@@ -3991,7 +3982,7 @@
 		<pt X="2613.8323" Y="-13749.52"/>
 		<pt X="2616.2039" Y="-13753.231"/>
 	</skpath>
-	<skpath from="409" to="377" linestyle="pitchbound" splined="1">
+	<skpath from="408" to="376" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2619.32" Y="-13736.66"/>
@@ -3999,14 +3990,14 @@
 		<pt X="2617.4717" Y="-13744.84"/>
 		<pt X="2616.2039" Y="-13753.231"/>
 	</skpath>
-	<skpath from="364" to="410" linestyle="detail">
+	<skpath from="363" to="409" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2628.9336" Y="-13736.693"/>
 		<pt X="2627.9656" Y="-13729.294"/>
 		<pt X="2610.6272" Y="-13728.6875"/>
 	</skpath>
-	<skpath from="410" to="364" linestyle="detail">
+	<skpath from="409" to="363" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2610.6272" Y="-13728.6875"/>
@@ -4014,27 +4005,27 @@
 		<pt X="2629.6274" Y="-13727.638"/>
 		<pt X="2628.9336" Y="-13736.693"/>
 	</skpath>
-	<skpath from="364" to="409" linestyle="pitchbound" splined="1">
+	<skpath from="363" to="408" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2628.9336" Y="-13736.693"/>
 		<pt X="2624.9749" Y="-13736.056"/>
 		<pt X="2619.32" Y="-13736.66"/>
 	</skpath>
-	<skpath from="410" to="408" linestyle="detail">
+	<skpath from="409" to="407" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2610.6272" Y="-13728.6875"/>
 		<pt X="2613.7522" Y="-13734.635"/>
 	</skpath>
-	<skpath from="408" to="409" linestyle="detail">
+	<skpath from="407" to="408" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2613.7522" Y="-13734.635"/>
 		<pt X="2614.8547" Y="-13736.733"/>
 		<pt X="2619.32" Y="-13736.66"/>
 	</skpath>
-	<skpath from="404" to="411" linestyle="wall" splined="1">
+	<skpath from="403" to="410" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2572.515" Y="-13807.616"/>
@@ -4042,48 +4033,48 @@
 		<pt X="2560.539" Y="-13811.589"/>
 		<pt X="2550.409" Y="-13812.474"/>
 	</skpath>
-	<skpath from="410" to="402" linestyle="invisible" splined="1">
+	<skpath from="409" to="401" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2610.6272" Y="-13728.6875"/>
 		<pt X="2606.4976" Y="-13731.875"/>
 	</skpath>
-	<skpath from="412" to="413" linestyle="pitchbound" splined="1">
+	<skpath from="411" to="412" linestyle="pitchbound" splined="1">
 		<importfrom subname="258new"/>
 		<pt X="2614.2217" Y="-13733.234"/>
 		<pt X="2610.4827" Y="-13735.843"/>
 		<pt X="2607.118" Y="-13735.839"/>
 	</skpath>
-	<skpath from="409" to="73" linestyle="connective">
+	<skpath from="408" to="73" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2619.32" Y="-13736.66"/>
 		<pt X="2612.3337" Y="-13735.226" Z="-463.8831"/>
 	</skpath>
-	<skpath from="73" to="402" linestyle="connective">
+	<skpath from="73" to="401" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2612.3337" Y="-13735.226" Z="-463.8831"/>
 		<pt X="2606.4976" Y="-13731.875"/>
 	</skpath>
-	<skpath from="412" to="73" linestyle="connective">
+	<skpath from="411" to="73" linestyle="connective">
 		<importfrom subname="258new"/>
 		<pt X="2614.2217" Y="-13733.234"/>
 		<pt X="2612.3337" Y="-13735.226" Z="-463.8831"/>
 	</skpath>
-	<skpath from="411" to="414" linestyle="invisible" splined="1">
+	<skpath from="410" to="413" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2550.409" Y="-13812.474"/>
 		<pt X="2549.6543" Y="-13814.942"/>
 	</skpath>
-	<skpath from="415" to="414" linestyle="detail">
+	<skpath from="414" to="413" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2560.484" Y="-13815.11"/>
 		<pt X="2549.6543" Y="-13814.942"/>
 	</skpath>
-	<skpath from="416" to="363" linestyle="wall" splined="1">
+	<skpath from="415" to="362" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2574.0046" Y="-13878.791"/>
@@ -4092,7 +4083,7 @@
 		<pt X="2584.9336" Y="-13861.41"/>
 		<pt X="2597.6514" Y="-13850.189"/>
 	</skpath>
-	<skpath from="363" to="416" linestyle="invisible" splined="1">
+	<skpath from="362" to="415" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2597.6514" Y="-13850.189"/>
@@ -4103,20 +4094,20 @@
 		<pt X="2572.2866" Y="-13869.192"/>
 		<pt X="2574.0046" Y="-13878.791"/>
 	</skpath>
-	<skpath from="417" to="415" linestyle="detail">
+	<skpath from="416" to="414" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2559.959" Y="-13829.941"/>
 		<pt X="2563.8994" Y="-13822.17"/>
 		<pt X="2560.484" Y="-13815.11"/>
 	</skpath>
-	<skpath from="414" to="418" linestyle="detail" splined="1">
+	<skpath from="413" to="417" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2549.6543" Y="-13814.942"/>
 		<pt X="2548.3955" Y="-13833.85"/>
 	</skpath>
-	<skpath from="415" to="418" linestyle="detail">
+	<skpath from="414" to="417" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2560.484" Y="-13815.11"/>
@@ -4124,7 +4115,7 @@
 		<pt X="2557.2927" Y="-13827.862"/>
 		<pt X="2548.3955" Y="-13833.85"/>
 	</skpath>
-	<skpath from="411" to="419" linestyle="wall" splined="1">
+	<skpath from="410" to="418" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2550.409" Y="-13812.474"/>
@@ -4134,7 +4125,7 @@
 		<pt X="2539.991" Y="-13831.6045"/>
 		<pt X="2540.9326" Y="-13837.071"/>
 	</skpath>
-	<skpath from="420" to="420" linestyle="detail">
+	<skpath from="419" to="419" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2575.3655" Y="-13827.127"/>
@@ -4143,20 +4134,20 @@
 		<pt X="2574.0146" Y="-13822.488"/>
 		<pt X="2575.3655" Y="-13827.127"/>
 	</skpath>
-	<skpath from="421" to="420" linestyle="invisible" splined="1">
+	<skpath from="420" to="419" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2571.1165" Y="-13826.807"/>
 		<pt X="2575.3655" Y="-13827.127"/>
 	</skpath>
-	<skpath from="422" to="421" linestyle="detail">
+	<skpath from="421" to="420" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2565.647" Y="-13834.524"/>
 		<pt X="2571.0686" Y="-13833.784"/>
 		<pt X="2571.1165" Y="-13826.807"/>
 	</skpath>
-	<skpath from="423" to="423" linestyle="detail">
+	<skpath from="422" to="422" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2564.0042" Y="-13836.226"/>
@@ -4166,38 +4157,38 @@
 		<pt X="2559.214" Y="-13840.092"/>
 		<pt X="2564.0042" Y="-13836.226"/>
 	</skpath>
-	<skpath from="423" to="422" linestyle="invisible" splined="1">
+	<skpath from="422" to="421" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2564.0042" Y="-13836.226"/>
 		<pt X="2565.647" Y="-13834.524"/>
 	</skpath>
-	<skpath from="421" to="424" linestyle="detail">
+	<skpath from="420" to="423" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2571.1165" Y="-13826.807"/>
 		<pt X="2566.7498" Y="-13825.976"/>
 		<pt X="2562.2058" Y="-13831.799"/>
 	</skpath>
-	<skpath from="424" to="422" linestyle="detail">
+	<skpath from="423" to="421" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2562.2058" Y="-13831.799"/>
 		<pt X="2565.647" Y="-13834.524"/>
 	</skpath>
-	<skpath from="424" to="417" linestyle="invisible" splined="1">
+	<skpath from="423" to="416" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2562.2058" Y="-13831.799"/>
 		<pt X="2559.959" Y="-13829.941"/>
 	</skpath>
-	<skpath from="418" to="417" linestyle="detail" splined="1">
+	<skpath from="417" to="416" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.3955" Y="-13833.85"/>
 		<pt X="2559.959" Y="-13829.941"/>
 	</skpath>
-	<skpath from="425" to="426" linestyle="connective">
+	<skpath from="424" to="425" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -4206,14 +4197,14 @@
 		<pt X="2557.8606" Y="-13883.005"/>
 		<pt X="2563.9492" Y="-13888.173"/>
 	</skpath>
-	<skpath from="425" to="427" linestyle="detail">
+	<skpath from="424" to="426" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2557.8606" Y="-13883.005"/>
 		<pt X="2554.7776" Y="-13871.396"/>
 		<pt X="2548.9575" Y="-13872.694"/>
 	</skpath>
-	<skpath from="427" to="425" linestyle="detail">
+	<skpath from="426" to="424" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.9575" Y="-13872.694"/>
@@ -4222,44 +4213,44 @@
 		<pt X="2550.832" Y="-13891.939"/>
 		<pt X="2557.8606" Y="-13883.005"/>
 	</skpath>
-	<skpath from="425" to="416" linestyle="invisible" splined="1">
+	<skpath from="424" to="415" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2557.8606" Y="-13883.005"/>
 		<pt X="2574.0046" Y="-13878.791"/>
 	</skpath>
-	<skpath from="75" to="416" linestyle="connective">
+	<skpath from="75" to="415" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2546.1338" Y="-13865.926" Z="-436.6831"/>
 		<pt X="2574.0046" Y="-13878.791"/>
 	</skpath>
-	<skpath from="418" to="419" linestyle="invisible" splined="1">
+	<skpath from="417" to="418" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.3955" Y="-13833.85"/>
 		<pt X="2540.9326" Y="-13837.071"/>
 	</skpath>
-	<skpath from="75" to="428" linestyle="connective">
+	<skpath from="75" to="427" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2546.1338" Y="-13865.926" Z="-436.6831"/>
 		<pt X="2539.8062" Y="-13861.365"/>
 		<pt X="2540.978" Y="-13852.088"/>
 	</skpath>
-	<skpath from="427" to="429" linestyle="invisible" splined="1">
+	<skpath from="426" to="428" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.9575" Y="-13872.694"/>
 		<pt X="2548.5723" Y="-13871.106"/>
 	</skpath>
-	<skpath from="430" to="428" linestyle="wall" splined="1">
+	<skpath from="429" to="427" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2541.557" Y="-13848.859"/>
 		<pt X="2540.978" Y="-13852.088"/>
 	</skpath>
-	<skpath from="428" to="431" linestyle="detail" splined="1">
+	<skpath from="427" to="430" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2540.978" Y="-13852.088"/>
@@ -4267,7 +4258,7 @@
 		<pt X="2544.783" Y="-13857.224"/>
 		<pt X="2547.5918" Y="-13855.356"/>
 	</skpath>
-	<skpath from="431" to="430" linestyle="detail" splined="1">
+	<skpath from="430" to="429" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2547.5918" Y="-13855.356"/>
@@ -4277,20 +4268,20 @@
 		<pt X="2548.7573" Y="-13842.989"/>
 		<pt X="2541.557" Y="-13848.859"/>
 	</skpath>
-	<skpath from="419" to="430" linestyle="wall" splined="1">
+	<skpath from="418" to="429" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2540.9326" Y="-13837.071"/>
 		<pt X="2541.7278" Y="-13843.949"/>
 		<pt X="2541.557" Y="-13848.859"/>
 	</skpath>
-	<skpath from="431" to="432" linestyle="invisible" splined="1">
+	<skpath from="430" to="431" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2547.5918" Y="-13855.356"/>
 		<pt X="2548.5261" Y="-13856.475"/>
 	</skpath>
-	<skpath from="419" to="433" linestyle="connective">
+	<skpath from="418" to="432" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -4299,7 +4290,7 @@
 		<pt X="2540.9326" Y="-13837.071"/>
 		<pt X="2545.2036" Y="-13820.289"/>
 	</skpath>
-	<skpath from="432" to="429" linestyle="detail">
+	<skpath from="431" to="428" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.5261" Y="-13856.475"/>
@@ -4307,14 +4298,14 @@
 		<pt X="2557.3127" Y="-13862.76"/>
 		<pt X="2548.5723" Y="-13871.106"/>
 	</skpath>
-	<skpath from="429" to="432" linestyle="detail">
+	<skpath from="428" to="431" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.5723" Y="-13871.106"/>
 		<pt X="2543.0833" Y="-13866.349"/>
 		<pt X="2548.5261" Y="-13856.475"/>
 	</skpath>
-	<skpath from="416" to="434" linestyle="wall" splined="1">
+	<skpath from="415" to="433" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2574.0046" Y="-13878.791"/>
@@ -4323,7 +4314,7 @@
 		<pt X="2572.053" Y="-13900.186"/>
 		<pt X="2576.3762" Y="-13900.034"/>
 	</skpath>
-	<skpath from="428" to="435" linestyle="wall" splined="1">
+	<skpath from="427" to="434" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2540.978" Y="-13852.088"/>
@@ -4333,21 +4324,21 @@
 		<pt X="2527.7656" Y="-13867.097"/>
 		<pt X="2528.1736" Y="-13869.908"/>
 	</skpath>
-	<skpath from="436" to="434" linestyle="invisible" splined="1">
+	<skpath from="435" to="433" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2556.319" Y="-13909.93"/>
 		<pt X="2569.0278" Y="-13906.452"/>
 		<pt X="2576.3762" Y="-13900.034"/>
 	</skpath>
-	<skpath from="437" to="436" linestyle="detail">
+	<skpath from="436" to="435" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2550.038" Y="-13913.387"/>
 		<pt X="2552.803" Y="-13909.907"/>
 		<pt X="2556.319" Y="-13909.93"/>
 	</skpath>
-	<skpath from="436" to="437" linestyle="detail">
+	<skpath from="435" to="436" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2556.319" Y="-13909.93"/>
@@ -4355,13 +4346,13 @@
 		<pt X="2558.9226" Y="-13932.284"/>
 		<pt X="2550.038" Y="-13913.387"/>
 	</skpath>
-	<skpath from="437" to="438" linestyle="invisible" splined="1">
+	<skpath from="436" to="437" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2550.038" Y="-13913.387"/>
 		<pt X="2547.9495" Y="-13913.236"/>
 	</skpath>
-	<skpath from="434" to="439" linestyle="wall" splined="1">
+	<skpath from="433" to="438" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2576.3762" Y="-13900.034"/>
@@ -4370,14 +4361,14 @@
 		<pt X="2576.5989" Y="-13912.205"/>
 		<pt X="2571.6377" Y="-13933.829"/>
 	</skpath>
-	<skpath from="435" to="440" linestyle="wall" splined="1">
+	<skpath from="434" to="439" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2528.1736" Y="-13869.908"/>
 		<pt X="2528.2808" Y="-13881.013"/>
 		<pt X="2532.1414" Y="-13895.803"/>
 	</skpath>
-	<skpath from="441" to="435" linestyle="detail">
+	<skpath from="440" to="434" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2534.7004" Y="-13893.985"/>
@@ -4385,19 +4376,19 @@
 		<pt X="2536.9094" Y="-13880.817"/>
 		<pt X="2528.1736" Y="-13869.908"/>
 	</skpath>
-	<skpath from="76" to="442" linestyle="connective">
+	<skpath from="76" to="441" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2543.234" Y="-13930.926" Z="-390.08313"/>
 		<pt X="2533.421" Y="-13927.832"/>
 	</skpath>
-	<skpath from="76" to="443" linestyle="connective">
+	<skpath from="76" to="442" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2543.234" Y="-13930.926" Z="-390.08313"/>
 		<pt X="2567.0217" Y="-13933.265"/>
 	</skpath>
-	<skpath from="444" to="438" linestyle="detail">
+	<skpath from="443" to="437" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2538.1638" Y="-13908.976"/>
@@ -4405,7 +4396,7 @@
 		<pt X="2546.4404" Y="-13901.874"/>
 		<pt X="2547.9495" Y="-13913.236"/>
 	</skpath>
-	<skpath from="438" to="444" linestyle="detail">
+	<skpath from="437" to="443" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2547.9495" Y="-13913.236"/>
@@ -4414,13 +4405,13 @@
 		<pt X="2539.3389" Y="-13927.843"/>
 		<pt X="2538.1638" Y="-13908.976"/>
 	</skpath>
-	<skpath from="443" to="439" linestyle="connective">
+	<skpath from="442" to="438" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2567.0217" Y="-13933.265"/>
 		<pt X="2571.6377" Y="-13933.829"/>
 	</skpath>
-	<skpath from="440" to="442" linestyle="wall" splined="1">
+	<skpath from="439" to="441" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2532.1414" Y="-13895.803"/>
@@ -4428,7 +4419,7 @@
 		<pt X="2533.148" Y="-13917.532"/>
 		<pt X="2533.421" Y="-13927.832"/>
 	</skpath>
-	<skpath from="445" to="439" linestyle="wall" splined="1">
+	<skpath from="444" to="438" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2563.7908" Y="-13973.619"/>
@@ -4436,27 +4427,27 @@
 		<pt X="2570.345" Y="-13938.653"/>
 		<pt X="2571.6377" Y="-13933.829"/>
 	</skpath>
-	<skpath from="440" to="441" linestyle="detail">
+	<skpath from="439" to="440" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2532.1414" Y="-13895.803"/>
 		<pt X="2534.7004" Y="-13893.985"/>
 	</skpath>
-	<skpath from="441" to="444" linestyle="detail">
+	<skpath from="440" to="443" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2534.7004" Y="-13893.985"/>
 		<pt X="2535.5999" Y="-13911.546"/>
 		<pt X="2538.1638" Y="-13908.976"/>
 	</skpath>
-	<skpath from="444" to="441" linestyle="detail">
+	<skpath from="443" to="440" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2538.1638" Y="-13908.976"/>
 		<pt X="2537.2483" Y="-13894.494"/>
 		<pt X="2534.7004" Y="-13893.985"/>
 	</skpath>
-	<skpath from="443" to="446" linestyle="wall" splined="1">
+	<skpath from="442" to="445" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2567.0217" Y="-13933.265"/>
@@ -4465,7 +4456,7 @@
 		<pt X="2550.3271" Y="-13978.56"/>
 		<pt X="2545.2366" Y="-13980.952"/>
 	</skpath>
-	<skpath from="442" to="447" linestyle="wall" splined="1">
+	<skpath from="441" to="446" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2533.421" Y="-13927.832"/>
@@ -4473,13 +4464,13 @@
 		<pt X="2527.2698" Y="-13937.473"/>
 		<pt X="2524.246" Y="-13939.564"/>
 	</skpath>
-	<skpath from="446" to="448" linestyle="wall" splined="1">
+	<skpath from="445" to="447" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2545.2366" Y="-13980.952"/>
 		<pt X="2543.4912" Y="-13979.353"/>
 	</skpath>
-	<skpath from="448" to="449" linestyle="wall" splined="1">
+	<skpath from="447" to="448" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2543.4912" Y="-13979.353"/>
@@ -4490,13 +4481,13 @@
 		<pt X="2537.6506" Y="-13934.583"/>
 		<pt X="2537.28" Y="-13930.295"/>
 	</skpath>
-	<skpath from="447" to="77" linestyle="connective">
+	<skpath from="446" to="77" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2524.246" Y="-13939.564"/>
 		<pt X="2520.734" Y="-13960.526" Z="-283.7831"/>
 	</skpath>
-	<skpath from="450" to="446" linestyle="detail">
+	<skpath from="449" to="445" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2538.6758" Y="-13998.338"/>
@@ -4504,13 +4495,13 @@
 		<pt X="2544.7966" Y="-14005.782"/>
 		<pt X="2545.2366" Y="-13980.952"/>
 	</skpath>
-	<skpath from="448" to="451" linestyle="detail">
+	<skpath from="447" to="450" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2543.4912" Y="-13979.353"/>
 		<pt X="2539.4102" Y="-13991.85"/>
 	</skpath>
-	<skpath from="447" to="452" linestyle="wall" splined="1">
+	<skpath from="446" to="451" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2524.246" Y="-13939.564"/>
@@ -4520,7 +4511,7 @@
 		<pt X="2478.552" Y="-13947.448"/>
 		<pt X="2472.7378" Y="-13946.996"/>
 	</skpath>
-	<skpath from="453" to="445" linestyle="wall" splined="1">
+	<skpath from="452" to="444" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2520.9077" Y="-14035.299"/>
@@ -4531,32 +4522,32 @@
 		<pt X="2559.6326" Y="-13983.122"/>
 		<pt X="2563.7908" Y="-13973.619"/>
 	</skpath>
-	<skpath from="451" to="450" linestyle="detail" splined="1">
+	<skpath from="450" to="449" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.4102" Y="-13991.85"/>
 		<pt X="2538.6758" Y="-13998.338"/>
 	</skpath>
-	<skpath from="450" to="454" linestyle="detail">
+	<skpath from="449" to="453" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2538.6758" Y="-13998.338"/>
 		<pt X="2536.5845" Y="-13996.713"/>
 	</skpath>
-	<skpath from="455" to="450" linestyle="detail">
+	<skpath from="454" to="449" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2533.3818" Y="-14026.351"/>
 		<pt X="2537.6084" Y="-14019.994"/>
 		<pt X="2538.6758" Y="-13998.338"/>
 	</skpath>
-	<skpath from="454" to="455" linestyle="detail">
+	<skpath from="453" to="454" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2536.5845" Y="-13996.713"/>
 		<pt X="2533.3818" Y="-14026.351"/>
 	</skpath>
-	<skpath from="456" to="77" linestyle="connective">
+	<skpath from="455" to="77" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2492.642" Y="-14011.475"/>
@@ -4564,7 +4555,7 @@
 		<pt X="2514.2998" Y="-13984.27"/>
 		<pt X="2520.734" Y="-13960.526" Z="-283.7831"/>
 	</skpath>
-	<skpath from="457" to="451" linestyle="detail" splined="1">
+	<skpath from="456" to="450" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2519.7395" Y="-14001.588"/>
@@ -4574,7 +4565,7 @@
 		<pt X="2531.9622" Y="-13997.428"/>
 		<pt X="2539.4102" Y="-13991.85"/>
 	</skpath>
-	<skpath from="458" to="452" linestyle="connective">
+	<skpath from="457" to="451" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="1.0">Pigeon&space;&newline;in&space;flight</pctext>
 		</pathcodes>
@@ -4583,13 +4574,13 @@
 		<pt X="2468.1812" Y="-13928.862"/>
 		<pt X="2472.7378" Y="-13946.996"/>
 	</skpath>
-	<skpath from="452" to="459" linestyle="connective">
+	<skpath from="451" to="458" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2472.7378" Y="-13946.996"/>
 		<pt X="2471.7966" Y="-13956.116"/>
 	</skpath>
-	<skpath from="452" to="460" linestyle="wall" splined="1">
+	<skpath from="451" to="459" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2472.7378" Y="-13946.996"/>
@@ -4598,25 +4589,25 @@
 		<pt X="2455.582" Y="-13947.474"/>
 		<pt X="2451.7368" Y="-13948.766"/>
 	</skpath>
-	<skpath from="459" to="78" linestyle="connective">
+	<skpath from="458" to="78" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2471.7966" Y="-13956.116"/>
 		<pt X="2461.4336" Y="-13971.426" Z="-174.98312"/>
 	</skpath>
-	<skpath from="78" to="461" linestyle="connective">
+	<skpath from="78" to="460" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2461.4336" Y="-13971.426" Z="-174.98312"/>
 		<pt X="2454.8618" Y="-13953.224"/>
 	</skpath>
-	<skpath from="460" to="461" linestyle="connective">
+	<skpath from="459" to="460" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2451.7368" Y="-13948.766"/>
 		<pt X="2454.8618" Y="-13953.224"/>
 	</skpath>
-	<skpath from="456" to="462" linestyle="wall" splined="1">
+	<skpath from="455" to="461" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2492.642" Y="-14011.475"/>
@@ -4624,7 +4615,7 @@
 		<pt X="2503.7256" Y="-14024.734"/>
 		<pt X="2513.0024" Y="-14031.364"/>
 	</skpath>
-	<skpath from="457" to="456" linestyle="detail" splined="1">
+	<skpath from="456" to="455" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2519.7395" Y="-14001.588"/>
@@ -4634,7 +4625,7 @@
 		<pt X="2498.2703" Y="-14006.689"/>
 		<pt X="2492.642" Y="-14011.475"/>
 	</skpath>
-	<skpath from="462" to="457" linestyle="detail" splined="1">
+	<skpath from="461" to="456" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2513.0024" Y="-14031.364"/>
@@ -4645,13 +4636,13 @@
 		<pt X="2519.9473" Y="-14005.625"/>
 		<pt X="2519.7395" Y="-14001.588"/>
 	</skpath>
-	<skpath from="462" to="453" linestyle="wall" splined="1">
+	<skpath from="461" to="452" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2513.0024" Y="-14031.364"/>
 		<pt X="2520.9077" Y="-14035.299"/>
 	</skpath>
-	<skpath from="453" to="453" linestyle="detail">
+	<skpath from="452" to="452" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2520.9077" Y="-14035.299"/>
@@ -4661,7 +4652,7 @@
 		<pt X="2521.366" Y="-14030.544"/>
 		<pt X="2520.9077" Y="-14035.299"/>
 	</skpath>
-	<skpath from="459" to="463" linestyle="detail" splined="1">
+	<skpath from="458" to="462" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2471.7966" Y="-13956.116"/>
@@ -4671,7 +4662,7 @@
 		<pt X="2463.6511" Y="-13989.954"/>
 		<pt X="2460.4292" Y="-13995.36"/>
 	</skpath>
-	<skpath from="464" to="461" linestyle="detail" splined="1">
+	<skpath from="463" to="460" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2440.474" Y="-13990.165"/>
@@ -4683,7 +4674,7 @@
 		<pt X="2453.9458" Y="-13957.9375"/>
 		<pt X="2454.8618" Y="-13953.224"/>
 	</skpath>
-	<skpath from="456" to="465" linestyle="wall" splined="1">
+	<skpath from="455" to="464" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2492.642" Y="-14011.475"/>
@@ -4694,23 +4685,23 @@
 		<pt X="2465.5042" Y="-14018.271"/>
 		<pt X="2465.2" Y="-14018.903"/>
 	</skpath>
-	<skpath from="68" to="466" linestyle="connective">
+	<skpath from="68" to="465" linestyle="connective">
 		<importfrom subname="258new"/>
 		<pt X="2379.4338" Y="-13982.125" Z="-108.18312"/>
 		<pt X="2383.417" Y="-13982.343"/>
 	</skpath>
-	<skpath from="68" to="467" linestyle="connective">
+	<skpath from="68" to="466" linestyle="connective">
 		<importfrom subname="258new"/>
 		<pt X="2379.4338" Y="-13982.125" Z="-108.18312"/>
 		<pt X="2373.8855" Y="-13982.205"/>
 	</skpath>
-	<skpath from="467" to="466" linestyle="invisible" splined="1">
+	<skpath from="466" to="465" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2373.8855" Y="-13982.205"/>
 		<pt X="2383.417" Y="-13982.343"/>
 	</skpath>
-	<skpath from="468" to="467" linestyle="connective">
+	<skpath from="467" to="466" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">10-01C</pctext>
 		</pathcodes>
@@ -4719,7 +4710,7 @@
 		<pt X="2362.1191" Y="-13979.062"/>
 		<pt X="2373.8855" Y="-13982.205"/>
 	</skpath>
-	<skpath from="469" to="466" linestyle="wall" splined="1">
+	<skpath from="468" to="465" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2379.9712" Y="-14030.157"/>
@@ -4742,7 +4733,7 @@
 		<pt X="2383.0466" Y="-13983.529"/>
 		<pt X="2383.417" Y="-13982.343"/>
 	</skpath>
-	<skpath from="467" to="470" linestyle="wall" splined="1">
+	<skpath from="466" to="469" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2373.8855" Y="-13982.205"/>
@@ -4756,37 +4747,37 @@
 		<pt X="2374.7793" Y="-14027.209"/>
 		<pt X="2376.3286" Y="-14032.351"/>
 	</skpath>
-	<skpath from="463" to="471" linestyle="connective">
+	<skpath from="462" to="470" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2460.4292" Y="-13995.36"/>
 		<pt X="2470.003" Y="-13999.37"/>
 	</skpath>
-	<skpath from="67" to="470" linestyle="connective">
+	<skpath from="67" to="469" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2377.3337" Y="-14032.226" Z="-100.78311"/>
 		<pt X="2376.3286" Y="-14032.351"/>
 	</skpath>
-	<skpath from="67" to="469" linestyle="connective">
+	<skpath from="67" to="468" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2377.3337" Y="-14032.226" Z="-100.78311"/>
 		<pt X="2379.9712" Y="-14030.157"/>
 	</skpath>
-	<skpath from="79" to="464" linestyle="connective">
+	<skpath from="79" to="463" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2453.1338" Y="-13993.026" Z="-98.683105"/>
 		<pt X="2440.474" Y="-13990.165"/>
 	</skpath>
-	<skpath from="79" to="463" linestyle="connective">
+	<skpath from="79" to="462" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2453.1338" Y="-13993.026" Z="-98.683105"/>
 		<pt X="2460.4292" Y="-13995.36"/>
 	</skpath>
-	<skpath from="463" to="472" linestyle="detail" splined="1">
+	<skpath from="462" to="471" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2460.4292" Y="-13995.36"/>
@@ -4795,7 +4786,7 @@
 		<pt X="2448.5583" Y="-14015.016"/>
 		<pt X="2449.69" Y="-14019.202"/>
 	</skpath>
-	<skpath from="470" to="473" linestyle="wall" splined="1">
+	<skpath from="469" to="472" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2376.3286" Y="-14032.351"/>
@@ -4819,7 +4810,7 @@
 		<pt X="2425.563" Y="-14024.808"/>
 		<pt X="2426.4797" Y="-14024.715"/>
 	</skpath>
-	<skpath from="474" to="469" linestyle="wall" splined="1">
+	<skpath from="473" to="468" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2425.48" Y="-14015.835"/>
@@ -4837,33 +4828,33 @@
 		<pt X="2381.0686" Y="-14030.423"/>
 		<pt X="2379.9712" Y="-14030.157"/>
 	</skpath>
-	<skpath from="66" to="475" linestyle="connective">
+	<skpath from="66" to="474" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2430.9338" Y="-14019.126" Z="-84.68311"/>
 		<pt X="2437.2397" Y="-14019.474"/>
 	</skpath>
-	<skpath from="66" to="473" linestyle="connective">
+	<skpath from="66" to="472" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2430.9338" Y="-14019.126" Z="-84.68311"/>
 		<pt X="2426.4797" Y="-14024.715"/>
 	</skpath>
-	<skpath from="465" to="476" linestyle="wall" splined="1">
+	<skpath from="464" to="475" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2465.2" Y="-14018.903"/>
 		<pt X="2465.229" Y="-14020.546"/>
 		<pt X="2469.138" Y="-14028.486"/>
 	</skpath>
-	<skpath from="465" to="477" linestyle="invisible" splined="1">
+	<skpath from="464" to="476" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2465.2" Y="-14018.903"/>
 		<pt X="2460.3257" Y="-14017.9795"/>
 		<pt X="2454.4717" Y="-14023.098"/>
 	</skpath>
-	<skpath from="473" to="478" linestyle="connective">
+	<skpath from="472" to="477" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -4872,7 +4863,7 @@
 		<pt X="2426.4797" Y="-14024.715"/>
 		<pt X="2421.2622" Y="-14023.052"/>
 	</skpath>
-	<skpath from="479" to="476" linestyle="invisible" splined="1">
+	<skpath from="478" to="475" linestyle="invisible" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2457.7896" Y="-14030.897"/>
@@ -4880,66 +4871,66 @@
 		<pt X="2467.1694" Y="-14032.187"/>
 		<pt X="2469.138" Y="-14028.486"/>
 	</skpath>
-	<skpath from="474" to="480" linestyle="wall" splined="1">
+	<skpath from="473" to="479" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2425.48" Y="-14015.835"/>
 		<pt X="2428.379" Y="-14012.382"/>
 		<pt X="2428.91" Y="-14009.221"/>
 	</skpath>
-	<skpath from="481" to="477" linestyle="pitchbound" splined="1">
+	<skpath from="480" to="476" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2450.9495" Y="-14026.183"/>
 		<pt X="2454.4717" Y="-14023.098"/>
 	</skpath>
-	<skpath from="481" to="479" linestyle="wall" splined="1">
+	<skpath from="480" to="478" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2450.9495" Y="-14026.183"/>
 		<pt X="2454.3044" Y="-14026.792"/>
 		<pt X="2457.7896" Y="-14030.897"/>
 	</skpath>
-	<skpath from="477" to="80" linestyle="connective">
+	<skpath from="476" to="80" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2454.4717" Y="-14023.098"/>
 		<pt X="2441.471" Y="-14028.255"/>
 		<pt X="2428.734" Y="-14031.125" Z="-81.38312"/>
 	</skpath>
-	<skpath from="482" to="473" linestyle="wall" splined="1">
+	<skpath from="481" to="472" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2428.6301" Y="-14032.083"/>
 		<pt X="2427.8398" Y="-14027.483"/>
 		<pt X="2426.4797" Y="-14024.715"/>
 	</skpath>
-	<skpath from="483" to="482" linestyle="wall" splined="1">
+	<skpath from="482" to="481" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2428.1248" Y="-14046.727"/>
 		<pt X="2428.6301" Y="-14032.083"/>
 	</skpath>
-	<skpath from="483" to="484" linestyle="invisible" splined="1">
+	<skpath from="482" to="483" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2428.1248" Y="-14046.727"/>
 		<pt X="2433.535" Y="-14050.935"/>
 		<pt X="2440.3774" Y="-14046.764"/>
 	</skpath>
-	<skpath from="65" to="483" linestyle="connective">
+	<skpath from="65" to="482" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2434.3337" Y="-14046.426" Z="-75.68311"/>
 		<pt X="2428.1248" Y="-14046.727"/>
 	</skpath>
-	<skpath from="65" to="484" linestyle="connective">
+	<skpath from="65" to="483" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2434.3337" Y="-14046.426" Z="-75.68311"/>
 		<pt X="2440.3774" Y="-14046.764"/>
 	</skpath>
-	<skpath from="483" to="485" linestyle="wall" splined="1">
+	<skpath from="482" to="484" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2428.1248" Y="-14046.727"/>
@@ -4951,7 +4942,7 @@
 		<pt X="2423.4268" Y="-14079.427"/>
 		<pt X="2424.9429" Y="-14085.038"/>
 	</skpath>
-	<skpath from="484" to="486" linestyle="wall" splined="1">
+	<skpath from="483" to="485" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2440.3774" Y="-14046.764"/>
@@ -4966,74 +4957,19 @@
 		<pt X="2429.8965" Y="-14083.246"/>
 		<pt X="2429.5999" Y="-14084.662"/>
 	</skpath>
-	<skpath from="64" to="485" linestyle="connective">
+	<skpath from="64" to="484" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2425.9338" Y="-14084.926" Z="-67.78311"/>
 		<pt X="2424.9429" Y="-14085.038"/>
 	</skpath>
-	<skpath from="64" to="486" linestyle="connective">
+	<skpath from="64" to="485" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2425.9338" Y="-14084.926" Z="-67.78311"/>
 		<pt X="2429.5999" Y="-14084.662"/>
 	</skpath>
-	<skpath from="487" to="121" linestyle="connective">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2690.3088" Y="-13861.966"/>
-		<pt X="2686.8337" Y="-13863.426" Z="-79.78311"/>
-	</skpath>
-	<skpath from="487" to="488" linestyle="invisible" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2690.3088" Y="-13861.966"/>
-		<pt X="2690.9849" Y="-13863.558"/>
-	</skpath>
-	<skpath from="489" to="487" linestyle="estwall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2692.4146" Y="-13843.893"/>
-		<pt X="2691.916" Y="-13853.241"/>
-		<pt X="2690.3088" Y="-13861.966"/>
-	</skpath>
-	<skpath from="487" to="490" linestyle="detail" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2690.3088" Y="-13861.966"/>
-		<pt X="2693.3906" Y="-13860.971"/>
-		<pt X="2698.9397" Y="-13855.49"/>
-		<pt X="2703.1353" Y="-13846.893"/>
-	</skpath>
-	<skpath from="488" to="491" linestyle="detail">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2690.9849" Y="-13863.558"/>
-		<pt X="2691.1094" Y="-13868.584"/>
-		<pt X="2696.4573" Y="-13875.16"/>
-		<pt X="2703.0872" Y="-13868.722"/>
-	</skpath>
-	<skpath from="488" to="491" linestyle="detail">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2690.9849" Y="-13863.558"/>
-		<pt X="2700.7974" Y="-13862.019"/>
-		<pt X="2703.0872" Y="-13868.722"/>
-	</skpath>
-	<skpath from="488" to="491" linestyle="detail">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2690.9849" Y="-13863.558"/>
-		<pt X="2701.8186" Y="-13859.562"/>
-		<pt X="2703.0872" Y="-13868.722"/>
-	</skpath>
-	<skpath from="490" to="489" linestyle="invisible" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2703.1353" Y="-13846.893"/>
-		<pt X="2692.4146" Y="-13843.893"/>
-	</skpath>
-	<skpath from="485" to="492" linestyle="wall" splined="1">
+	<skpath from="484" to="486" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2424.9429" Y="-14085.038"/>
@@ -5044,22 +4980,7 @@
 		<pt X="2432.34" Y="-14096.256"/>
 		<pt X="2435.3516" Y="-14099.525"/>
 	</skpath>
-	<skpath from="493" to="491" linestyle="invisible" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2704.601" Y="-13869.581"/>
-		<pt X="2703.0872" Y="-13868.722"/>
-	</skpath>
-	<skpath from="490" to="494" linestyle="invisible" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2703.1353" Y="-13846.893"/>
-		<pt X="2704.8596" Y="-13848.889"/>
-		<pt X="2705.968" Y="-13850.51"/>
-		<pt X="2707.8164" Y="-13850.761"/>
-		<pt X="2710.8984" Y="-13849.766"/>
-	</skpath>
-	<skpath from="486" to="495" linestyle="wall" splined="1">
+	<skpath from="485" to="487" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2429.5999" Y="-14084.662"/>
@@ -5074,58 +4995,7 @@
 		<pt X="2442.6145" Y="-14103.204"/>
 		<pt X="2444.3674" Y="-14104.359"/>
 	</skpath>
-	<skpath from="490" to="496" linestyle="connective">
-		<pathcodes>
-			<pcsymbol rname="stream"/>
-		</pathcodes>
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2703.1353" Y="-13846.893"/>
-		<pt X="2699.799" Y="-13861.724"/>
-		<pt X="2705.2278" Y="-13852.005"/>
-	</skpath>
-	<skpath from="493" to="494" linestyle="detail" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2704.601" Y="-13869.581"/>
-		<pt X="2703.8635" Y="-13866.215"/>
-		<pt X="2705.2227" Y="-13860.232"/>
-		<pt X="2710.8984" Y="-13849.766"/>
-	</skpath>
-	<skpath from="493" to="497" linestyle="estwall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2704.601" Y="-13869.581"/>
-		<pt X="2706.7002" Y="-13862.851"/>
-		<pt X="2714.7178" Y="-13852.261"/>
-	</skpath>
-	<skpath from="498" to="493" linestyle="connective">
-		<pathcodes>
-			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">c3</pctext>
-		</pathcodes>
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2713.0452" Y="-13862.194"/>
-		<pt X="2704.601" Y="-13869.581"/>
-	</skpath>
-	<skpath from="497" to="494" linestyle="invisible" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2714.7178" Y="-13852.261"/>
-		<pt X="2710.8984" Y="-13849.766"/>
-	</skpath>
-	<skpath from="499" to="487" linestyle="wall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2675.7524" Y="-13884.892"/>
-		<pt X="2677.2336" Y="-13880.904"/>
-		<pt X="2678.5945" Y="-13872.055"/>
-		<pt X="2677.7336" Y="-13868.8125"/>
-		<pt X="2680.2002" Y="-13865.823"/>
-		<pt X="2683.036" Y="-13864.454"/>
-		<pt X="2690.3088" Y="-13861.966"/>
-	</skpath>
-	<skpath from="492" to="500" linestyle="wall" splined="1">
+	<skpath from="486" to="488" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2435.3516" Y="-14099.525"/>
@@ -5134,25 +5004,25 @@
 		<pt X="2441.2122" Y="-14105.575"/>
 		<pt X="2442.6433" Y="-14106.735"/>
 	</skpath>
-	<skpath from="63" to="500" linestyle="connective">
+	<skpath from="63" to="488" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2443.234" Y="-14106.525" Z="-61.683113"/>
 		<pt X="2442.6433" Y="-14106.735"/>
 	</skpath>
-	<skpath from="63" to="495" linestyle="connective">
+	<skpath from="63" to="487" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2443.234" Y="-14106.525" Z="-61.683113"/>
 		<pt X="2444.3674" Y="-14104.359"/>
 	</skpath>
-	<skpath from="500" to="495" linestyle="invisible" splined="1">
+	<skpath from="488" to="487" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2442.6433" Y="-14106.735"/>
 		<pt X="2444.3674" Y="-14104.359"/>
 	</skpath>
-	<skpath from="495" to="501" linestyle="connective">
+	<skpath from="487" to="489" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -5161,7 +5031,7 @@
 		<pt X="2444.3674" Y="-14104.359"/>
 		<pt X="2441.637" Y="-14104.179"/>
 	</skpath>
-	<skpath from="500" to="502" linestyle="wall" splined="1">
+	<skpath from="488" to="490" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2442.6433" Y="-14106.735"/>
@@ -5171,14 +5041,7 @@
 		<pt X="2454.3372" Y="-14111.994"/>
 		<pt X="2457.0684" Y="-14111.063"/>
 	</skpath>
-	<skpath from="503" to="499" linestyle="wall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2668.9714" Y="-13889.25"/>
-		<pt X="2673.1619" Y="-13889.128"/>
-		<pt X="2675.7524" Y="-13884.892"/>
-	</skpath>
-	<skpath from="495" to="504" linestyle="wall" splined="1">
+	<skpath from="487" to="491" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2444.3674" Y="-14104.359"/>
@@ -5187,34 +5050,25 @@
 		<pt X="2458.1436" Y="-14105.234"/>
 		<pt X="2461.1504" Y="-14106.46"/>
 	</skpath>
-	<skpath from="505" to="503" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="1.0">10-C</pctext>
-		</pathcodes>
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2655.5752" Y="-13887.236"/>
-		<pt X="2668.9714" Y="-13889.25"/>
-	</skpath>
-	<skpath from="502" to="506" linestyle="wall" splined="1">
+	<skpath from="490" to="492" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2457.0684" Y="-14111.063"/>
 		<pt X="2458.0867" Y="-14115.586"/>
 	</skpath>
-	<skpath from="62" to="502" linestyle="connective">
+	<skpath from="62" to="490" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2460.3337" Y="-14106.525" Z="-57.183113"/>
 		<pt X="2457.0684" Y="-14111.063"/>
 	</skpath>
-	<skpath from="62" to="504" linestyle="connective">
+	<skpath from="62" to="491" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2460.3337" Y="-14106.525" Z="-57.183113"/>
 		<pt X="2461.1504" Y="-14106.46"/>
 	</skpath>
-	<skpath from="504" to="507" linestyle="wall" splined="1">
+	<skpath from="491" to="493" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2461.1504" Y="-14106.46"/>
@@ -5222,32 +5076,25 @@
 		<pt X="2461.7632" Y="-14110.257"/>
 		<pt X="2462.09" Y="-14112.325"/>
 	</skpath>
-	<skpath from="506" to="508" linestyle="wall" splined="1">
+	<skpath from="492" to="494" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2458.0867" Y="-14115.586"/>
 		<pt X="2458.085" Y="-14119.998"/>
 	</skpath>
-	<skpath from="507" to="509" linestyle="wall" splined="1">
+	<skpath from="493" to="495" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2462.09" Y="-14112.325"/>
 		<pt X="2462.795" Y="-14113.523"/>
 	</skpath>
-	<skpath from="509" to="510" linestyle="wall" splined="1">
+	<skpath from="495" to="496" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2462.795" Y="-14113.523"/>
 		<pt X="2463.646" Y="-14117.064"/>
 	</skpath>
-	<skpath from="499" to="511" linestyle="detail" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2675.7524" Y="-13884.892"/>
-		<pt X="2676.8867" Y="-13892.098"/>
-		<pt X="2676.975" Y="-13902.345"/>
-	</skpath>
-	<skpath from="512" to="508" linestyle="wall" splined="1">
+	<skpath from="497" to="494" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2463.2097" Y="-14134.514"/>
@@ -5257,7 +5104,7 @@
 		<pt X="2458.348" Y="-14124.812"/>
 		<pt X="2458.085" Y="-14119.998"/>
 	</skpath>
-	<skpath from="510" to="513" linestyle="detail" splined="1">
+	<skpath from="496" to="498" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2463.646" Y="-14117.064"/>
@@ -5266,49 +5113,39 @@
 		<pt X="2462.607" Y="-14122.491"/>
 		<pt X="2463.8325" Y="-14124.91"/>
 	</skpath>
-	<skpath from="510" to="513" linestyle="wall" splined="1">
+	<skpath from="496" to="498" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2463.646" Y="-14117.064"/>
 		<pt X="2464.1777" Y="-14121.056"/>
 		<pt X="2463.8325" Y="-14124.91"/>
 	</skpath>
-	<skpath from="503" to="514" linestyle="estwall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2668.9714" Y="-13889.25"/>
-		<pt X="2663.4727" Y="-13889.262"/>
-		<pt X="2658.813" Y="-13891.897"/>
-		<pt X="2658.8096" Y="-13897.739"/>
-		<pt X="2663.0933" Y="-13901.512"/>
-		<pt X="2669.0881" Y="-13901.717"/>
-	</skpath>
-	<skpath from="513" to="515" linestyle="wall" splined="1">
+	<skpath from="498" to="499" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2463.8325" Y="-14124.91"/>
 		<pt X="2463.8782" Y="-14126.558"/>
 		<pt X="2464.5125" Y="-14128.643"/>
 	</skpath>
-	<skpath from="61" to="512" linestyle="connective">
+	<skpath from="61" to="497" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2460.9338" Y="-14133.826" Z="-53.983112"/>
 		<pt X="2463.2097" Y="-14134.514"/>
 	</skpath>
-	<skpath from="61" to="515" linestyle="connective">
+	<skpath from="61" to="499" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2460.9338" Y="-14133.826" Z="-53.983112"/>
 		<pt X="2464.5125" Y="-14128.643"/>
 	</skpath>
-	<skpath from="515" to="516" linestyle="wall" splined="1">
+	<skpath from="499" to="500" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2464.5125" Y="-14128.643"/>
 		<pt X="2465.7197" Y="-14128.85"/>
 	</skpath>
-	<skpath from="512" to="517" linestyle="wall" splined="1">
+	<skpath from="497" to="501" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2463.2097" Y="-14134.514"/>
@@ -5318,50 +5155,50 @@
 		<pt X="2471.1584" Y="-14133.578"/>
 		<pt X="2470.6643" Y="-14138.779"/>
 	</skpath>
-	<skpath from="516" to="518" linestyle="detail" splined="1">
+	<skpath from="500" to="502" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2465.7197" Y="-14128.85"/>
 		<pt X="2466.7986" Y="-14130.22"/>
 		<pt X="2470.5286" Y="-14127.175"/>
 	</skpath>
-	<skpath from="516" to="518" linestyle="wall" splined="1">
+	<skpath from="500" to="502" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2465.7197" Y="-14128.85"/>
 		<pt X="2470.5286" Y="-14127.175"/>
 	</skpath>
-	<skpath from="519" to="107" linestyle="connective">
+	<skpath from="503" to="107" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2606.0962" Y="-14020.441"/>
 		<pt X="2604.734" Y="-14019.227" Z="-59.883114"/>
 	</skpath>
-	<skpath from="520" to="107" linestyle="connective">
+	<skpath from="504" to="107" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2604.6191" Y="-14015.872"/>
 		<pt X="2604.734" Y="-14019.227" Z="-59.883114"/>
 	</skpath>
-	<skpath from="517" to="521" linestyle="wall" splined="1">
+	<skpath from="501" to="505" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2470.6643" Y="-14138.779"/>
 		<pt X="2470.007" Y="-14142.012"/>
 	</skpath>
-	<skpath from="517" to="522" linestyle="invisible" splined="1">
+	<skpath from="501" to="506" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2470.6643" Y="-14138.779"/>
 		<pt X="2475.4558" Y="-14139.937"/>
 	</skpath>
-	<skpath from="518" to="523" linestyle="wall" splined="1">
+	<skpath from="502" to="507" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2470.5286" Y="-14127.175"/>
 		<pt X="2473.1443" Y="-14126.062"/>
 	</skpath>
-	<skpath from="522" to="524" linestyle="connective">
+	<skpath from="506" to="508" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -5370,20 +5207,20 @@
 		<pt X="2475.4558" Y="-14139.937"/>
 		<pt X="2473.9294" Y="-14136.541"/>
 	</skpath>
-	<skpath from="522" to="525" linestyle="wall" splined="1">
+	<skpath from="506" to="509" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2475.4558" Y="-14139.937"/>
 		<pt X="2474.4707" Y="-14142.984"/>
 	</skpath>
-	<skpath from="526" to="522" linestyle="wall" splined="1">
+	<skpath from="510" to="506" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2478.0957" Y="-14131.837"/>
 		<pt X="2476.5425" Y="-14136.532"/>
 		<pt X="2475.4558" Y="-14139.937"/>
 	</skpath>
-	<skpath from="523" to="526" linestyle="wall" splined="1">
+	<skpath from="507" to="510" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2473.1443" Y="-14126.062"/>
@@ -5394,19 +5231,19 @@
 		<pt X="2479.9058" Y="-14129.033"/>
 		<pt X="2478.0957" Y="-14131.837"/>
 	</skpath>
-	<skpath from="60" to="523" linestyle="connective">
+	<skpath from="60" to="507" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2475.3337" Y="-14128.726" Z="-51.78311"/>
 		<pt X="2473.1443" Y="-14126.062"/>
 	</skpath>
-	<skpath from="60" to="526" linestyle="connective">
+	<skpath from="60" to="510" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2475.3337" Y="-14128.726" Z="-51.78311"/>
 		<pt X="2478.0957" Y="-14131.837"/>
 	</skpath>
-	<skpath from="521" to="59" linestyle="wall" splined="1">
+	<skpath from="505" to="59" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2470.007" Y="-14142.012"/>
@@ -5415,7 +5252,7 @@
 		<pt X="2467.4534" Y="-14154.716"/>
 		<pt X="2468.0337" Y="-14156.826" Z="-51.78311"/>
 	</skpath>
-	<skpath from="519" to="527" linestyle="connective">
+	<skpath from="503" to="511" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -5424,7 +5261,7 @@
 		<pt X="2606.0962" Y="-14020.441"/>
 		<pt X="2669.9058" Y="-14005.564"/>
 	</skpath>
-	<skpath from="525" to="528" linestyle="wall" splined="1">
+	<skpath from="509" to="512" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2474.4707" Y="-14142.984"/>
@@ -5434,30 +5271,30 @@
 		<pt X="2472.2588" Y="-14154.44"/>
 		<pt X="2472.6812" Y="-14155.273"/>
 	</skpath>
-	<skpath from="59" to="529" linestyle="connective">
+	<skpath from="59" to="513" linestyle="connective">
 		<importfrom subname="258new"/>
 		<pt X="2468.0337" Y="-14156.826" Z="-51.78311"/>
 		<pt X="2469.0298" Y="-14158.04"/>
 	</skpath>
-	<skpath from="59" to="529" linestyle="detail">
+	<skpath from="59" to="513" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2468.0337" Y="-14156.826" Z="-51.78311"/>
 		<pt X="2469.0298" Y="-14158.04"/>
 	</skpath>
-	<skpath from="59" to="530" linestyle="invisible" splined="1">
+	<skpath from="59" to="514" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2468.0337" Y="-14156.826" Z="-51.78311"/>
 		<pt X="2469.5957" Y="-14155.983"/>
 	</skpath>
-	<skpath from="58" to="531" linestyle="wall" splined="1">
+	<skpath from="58" to="515" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2477.034" Y="-14158.026" Z="-51.983112"/>
 		<pt X="2477.5935" Y="-14157.823"/>
 	</skpath>
-	<skpath from="532" to="519" linestyle="wall" splined="1">
+	<skpath from="516" to="503" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2589.3796" Y="-14021.637"/>
@@ -5471,13 +5308,13 @@
 		<pt X="2602.579" Y="-14019.913"/>
 		<pt X="2606.0962" Y="-14020.441"/>
 	</skpath>
-	<skpath from="59" to="528" linestyle="connective">
+	<skpath from="59" to="512" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2468.0337" Y="-14156.826" Z="-51.78311"/>
 		<pt X="2472.6812" Y="-14155.273"/>
 	</skpath>
-	<skpath from="528" to="531" linestyle="wall" splined="1">
+	<skpath from="512" to="515" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2472.6812" Y="-14155.273"/>
@@ -5486,19 +5323,19 @@
 		<pt X="2477.2722" Y="-14157.097"/>
 		<pt X="2477.5935" Y="-14157.823"/>
 	</skpath>
-	<skpath from="529" to="533" linestyle="detail">
+	<skpath from="513" to="517" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2469.0298" Y="-14158.04"/>
 		<pt X="2471.5815" Y="-14159.99"/>
 	</skpath>
-	<skpath from="58" to="533" linestyle="connective">
+	<skpath from="58" to="517" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2477.034" Y="-14158.026" Z="-51.983112"/>
 		<pt X="2471.5815" Y="-14159.99"/>
 	</skpath>
-	<skpath from="519" to="534" linestyle="wall" splined="1">
+	<skpath from="503" to="518" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2606.0962" Y="-14020.441"/>
@@ -5508,7 +5345,7 @@
 		<pt X="2622.1584" Y="-14020.378"/>
 		<pt X="2625.4602" Y="-14017.414"/>
 	</skpath>
-	<skpath from="59" to="535" linestyle="detail" splined="1">
+	<skpath from="59" to="519" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2468.0337" Y="-14156.826" Z="-51.78311"/>
@@ -5517,7 +5354,7 @@
 		<pt X="2474.5654" Y="-14160.424"/>
 		<pt X="2474.424" Y="-14161.104"/>
 	</skpath>
-	<skpath from="536" to="520" linestyle="wall" splined="1">
+	<skpath from="520" to="504" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2627.762" Y="-14012.086"/>
@@ -5526,7 +5363,7 @@
 		<pt X="2608.2957" Y="-14016.581"/>
 		<pt X="2604.6191" Y="-14015.872"/>
 	</skpath>
-	<skpath from="530" to="537" linestyle="detail" splined="1">
+	<skpath from="514" to="521" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2469.5957" Y="-14155.983"/>
@@ -5535,32 +5372,12 @@
 		<pt X="2475.4412" Y="-14158.347"/>
 		<pt X="2475.398" Y="-14159.885"/>
 	</skpath>
-	<skpath from="538" to="493" linestyle="wall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2702.7336" Y="-13943.35"/>
-		<pt X="2701.8762" Y="-13936.499"/>
-		<pt X="2701.9888" Y="-13930.029"/>
-		<pt X="2704.821" Y="-13920.6875"/>
-		<pt X="2707.1677" Y="-13908.475"/>
-		<pt X="2707.9143" Y="-13894.888"/>
-		<pt X="2707.18" Y="-13885.663"/>
-		<pt X="2704.9673" Y="-13875.439"/>
-		<pt X="2704.601" Y="-13869.581"/>
-	</skpath>
-	<skpath from="511" to="514" linestyle="wall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2676.975" Y="-13902.345"/>
-		<pt X="2673.525" Y="-13901.345"/>
-		<pt X="2669.0881" Y="-13901.717"/>
-	</skpath>
-	<skpath from="533" to="539" linestyle="invisible" splined="1">
+	<skpath from="517" to="522" linestyle="invisible" splined="1">
 		<importfrom subname="258new"/>
 		<pt X="2471.5815" Y="-14159.99"/>
 		<pt X="2476.8296" Y="-14164.558"/>
 	</skpath>
-	<skpath from="520" to="540" linestyle="wall" splined="1">
+	<skpath from="504" to="523" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2604.6191" Y="-14015.872"/>
@@ -5570,12 +5387,12 @@
 		<pt X="2590.8953" Y="-14007.58"/>
 		<pt X="2591.397" Y="-14005.748"/>
 	</skpath>
-	<skpath from="539" to="541" linestyle="invisible" splined="1">
+	<skpath from="522" to="524" linestyle="invisible" splined="1">
 		<importfrom subname="258new"/>
 		<pt X="2476.8296" Y="-14164.558"/>
 		<pt X="2478.2236" Y="-14164.443"/>
 	</skpath>
-	<skpath from="104" to="532" linestyle="wall" splined="1">
+	<skpath from="104" to="516" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2579.6338" Y="-14049.425" Z="-56.183113"/>
@@ -5586,7 +5403,7 @@
 		<pt X="2586.3508" Y="-14024.244"/>
 		<pt X="2589.3796" Y="-14021.637"/>
 	</skpath>
-	<skpath from="539" to="542" linestyle="detail" splined="1">
+	<skpath from="522" to="525" linestyle="detail" splined="1">
 		<importfrom subname="258new"/>
 		<pt X="2476.8296" Y="-14164.558"/>
 		<pt X="2477.3567" Y="-14166.913"/>
@@ -5594,7 +5411,7 @@
 		<pt X="2479.323" Y="-14173.55"/>
 		<pt X="2479.5322" Y="-14174.998"/>
 	</skpath>
-	<skpath from="541" to="543" linestyle="detail" splined="1">
+	<skpath from="524" to="526" linestyle="detail" splined="1">
 		<importfrom subname="258new"/>
 		<pt X="2478.2236" Y="-14164.443"/>
 		<pt X="2478.6501" Y="-14166.639"/>
@@ -5602,44 +5419,44 @@
 		<pt X="2480.462" Y="-14173.063"/>
 		<pt X="2481.431" Y="-14174.188"/>
 	</skpath>
-	<skpath from="534" to="108" linestyle="connective">
+	<skpath from="518" to="108" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2625.4602" Y="-14017.414"/>
 		<pt X="2623.2336" Y="-14014.227" Z="-56.683113"/>
 	</skpath>
-	<skpath from="536" to="108" linestyle="connective">
+	<skpath from="520" to="108" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2627.762" Y="-14012.086"/>
 		<pt X="2626.8347" Y="-14012.44"/>
 		<pt X="2623.2336" Y="-14014.227" Z="-56.683113"/>
 	</skpath>
-	<skpath from="105" to="532" linestyle="connective">
+	<skpath from="105" to="516" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2583.9336" Y="-14006.525" Z="-54.483112"/>
 		<pt X="2589.3796" Y="-14021.637"/>
 	</skpath>
-	<skpath from="544" to="104" linestyle="connective">
+	<skpath from="527" to="104" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2572.2751" Y="-14039.524"/>
 		<pt X="2579.6338" Y="-14049.425" Z="-56.183113"/>
 	</skpath>
-	<skpath from="540" to="105" linestyle="connective">
+	<skpath from="523" to="105" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2591.397" Y="-14005.748"/>
 		<pt X="2583.9336" Y="-14006.525" Z="-54.483112"/>
 	</skpath>
-	<skpath from="105" to="545" linestyle="connective">
+	<skpath from="105" to="528" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2583.9336" Y="-14006.525" Z="-54.483112"/>
 		<pt X="2581.8745" Y="-14008.101"/>
 	</skpath>
-	<skpath from="545" to="544" linestyle="wall" splined="1">
+	<skpath from="528" to="527" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2581.8745" Y="-14008.101"/>
@@ -5650,7 +5467,7 @@
 		<pt X="2573.96" Y="-14038.653"/>
 		<pt X="2572.2751" Y="-14039.524"/>
 	</skpath>
-	<skpath from="546" to="544" linestyle="wall" splined="1">
+	<skpath from="529" to="527" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2561.8794" Y="-14040.981"/>
@@ -5660,19 +5477,19 @@
 		<pt X="2570.963" Y="-14041.681"/>
 		<pt X="2572.2751" Y="-14039.524"/>
 	</skpath>
-	<skpath from="70" to="547" linestyle="connective">
+	<skpath from="70" to="530" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2564.8337" Y="-14043.926" Z="-45.583115"/>
 		<pt X="2564.7104" Y="-14042.183"/>
 	</skpath>
-	<skpath from="70" to="548" linestyle="connective">
+	<skpath from="70" to="531" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2564.8337" Y="-14043.926" Z="-45.583115"/>
 		<pt X="2570.6858" Y="-14044.424"/>
 	</skpath>
-	<skpath from="531" to="549" linestyle="wall" splined="1">
+	<skpath from="515" to="532" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2477.5935" Y="-14157.823"/>
@@ -5684,7 +5501,7 @@
 		<pt X="2484.5144" Y="-14175.841"/>
 		<pt X="2486.0256" Y="-14177.0205"/>
 	</skpath>
-	<skpath from="533" to="550" linestyle="detail">
+	<skpath from="517" to="533" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2471.5815" Y="-14159.99"/>
@@ -5695,17 +5512,7 @@
 		<pt X="2478.0876" Y="-14175.695"/>
 		<pt X="2477.4524" Y="-14177.581"/>
 	</skpath>
-	<skpath from="551" to="511" linestyle="wall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2682.1213" Y="-13946.231"/>
-		<pt X="2681.6343" Y="-13942.363"/>
-		<pt X="2680.9026" Y="-13930.52"/>
-		<pt X="2681.7695" Y="-13922.916"/>
-		<pt X="2681.159" Y="-13913.067"/>
-		<pt X="2676.975" Y="-13902.345"/>
-	</skpath>
-	<skpath from="546" to="552" linestyle="wall" splined="1">
+	<skpath from="529" to="534" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2561.8794" Y="-14040.981"/>
@@ -5714,7 +5521,7 @@
 		<pt X="2554.1743" Y="-14046.8955"/>
 		<pt X="2551.5256" Y="-14049.41"/>
 	</skpath>
-	<skpath from="553" to="554" linestyle="connective">
+	<skpath from="535" to="536" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -5724,7 +5531,7 @@
 		<pt X="2565.0212" Y="-14059.722"/>
 		<pt X="2561.5205" Y="-14053.58"/>
 	</skpath>
-	<skpath from="540" to="555" linestyle="wall" splined="1">
+	<skpath from="523" to="537" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2591.397" Y="-14005.748"/>
@@ -5735,13 +5542,13 @@
 		<pt X="2609.2166" Y="-13977.957"/>
 		<pt X="2611.469" Y="-13970.656"/>
 	</skpath>
-	<skpath from="546" to="103" linestyle="connective">
+	<skpath from="529" to="103" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2561.8794" Y="-14040.981"/>
 		<pt X="2560.4336" Y="-14043.125" Z="-45.88311"/>
 	</skpath>
-	<skpath from="556" to="545" linestyle="wall" splined="1">
+	<skpath from="538" to="528" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2601.9705" Y="-13963.167"/>
@@ -5754,14 +5561,14 @@
 		<pt X="2582.8462" Y="-14003.958"/>
 		<pt X="2581.8745" Y="-14008.101"/>
 	</skpath>
-	<skpath from="557" to="553" linestyle="invisible" splined="1">
+	<skpath from="539" to="535" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2544.0063" Y="-14055.719"/>
 		<pt X="2565.0212" Y="-14059.722"/>
 	</skpath>
-	<skpath from="558" to="536" linestyle="wall" splined="1">
+	<skpath from="540" to="520" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2674.4363" Y="-14001.651"/>
@@ -5771,13 +5578,13 @@
 		<pt X="2636.4268" Y="-14009.702"/>
 		<pt X="2627.762" Y="-14012.086"/>
 	</skpath>
-	<skpath from="559" to="560" linestyle="wall" splined="1">
+	<skpath from="541" to="542" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2471.9463" Y="-14194.293"/>
 		<pt X="2462.954" Y="-14191.495"/>
 	</skpath>
-	<skpath from="534" to="561" linestyle="wall" splined="1">
+	<skpath from="518" to="543" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2625.4602" Y="-14017.414"/>
@@ -5790,20 +5597,20 @@
 		<pt X="2671.593" Y="-14007.526"/>
 		<pt X="2673.3457" Y="-14007.731"/>
 	</skpath>
-	<skpath from="562" to="557" linestyle="wall" splined="1">
+	<skpath from="544" to="539" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2542.1614" Y="-14060.92"/>
 		<pt X="2544.0063" Y="-14055.719"/>
 	</skpath>
-	<skpath from="563" to="553" linestyle="wall" splined="1">
+	<skpath from="545" to="535" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2554.4668" Y="-14076.869"/>
 		<pt X="2563.5828" Y="-14063.474"/>
 		<pt X="2565.0212" Y="-14059.722"/>
 	</skpath>
-	<skpath from="564" to="559" linestyle="wall" splined="1">
+	<skpath from="546" to="541" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2482.9463" Y="-14183.539"/>
@@ -5822,7 +5629,7 @@
 		<pt X="2471.6458" Y="-14195.52"/>
 		<pt X="2471.9463" Y="-14194.293"/>
 	</skpath>
-	<skpath from="559" to="564" linestyle="wall" splined="1">
+	<skpath from="541" to="546" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2471.9463" Y="-14194.293"/>
@@ -5830,7 +5637,7 @@
 		<pt X="2479.4731" Y="-14185.052"/>
 		<pt X="2482.9463" Y="-14183.539"/>
 	</skpath>
-	<skpath from="565" to="564" linestyle="connective">
+	<skpath from="547" to="546" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="rock"/>
 		</pathcodes>
@@ -5838,7 +5645,7 @@
 		<pt X="2484.529" Y="-14188.869"/>
 		<pt X="2482.9463" Y="-14183.539"/>
 	</skpath>
-	<skpath from="566" to="567" linestyle="detail" splined="1">
+	<skpath from="548" to="549" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2479.3237" Y="-14182.249"/>
@@ -5846,7 +5653,7 @@
 		<pt X="2473.0845" Y="-14189.6455"/>
 		<pt X="2469.6772" Y="-14193.136"/>
 	</skpath>
-	<skpath from="568" to="562" linestyle="wall" splined="1">
+	<skpath from="550" to="544" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2538.4456" Y="-14073.829"/>
@@ -5854,7 +5661,7 @@
 		<pt X="2541.2578" Y="-14064.617"/>
 		<pt X="2542.1614" Y="-14060.92"/>
 	</skpath>
-	<skpath from="569" to="570" linestyle="detail" splined="1">
+	<skpath from="551" to="552" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2476.2063" Y="-14180.032"/>
@@ -5865,20 +5672,20 @@
 		<pt X="2469.0303" Y="-14191.317"/>
 		<pt X="2468.2766" Y="-14192.894"/>
 	</skpath>
-	<skpath from="566" to="564" linestyle="invisible" splined="1">
+	<skpath from="548" to="546" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2479.3237" Y="-14182.249"/>
 		<pt X="2482.9463" Y="-14183.539"/>
 	</skpath>
-	<skpath from="571" to="563" linestyle="wall" splined="1">
+	<skpath from="553" to="545" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2548.305" Y="-14082.785"/>
 		<pt X="2552.5137" Y="-14078.831"/>
 		<pt X="2554.4668" Y="-14076.869"/>
 	</skpath>
-	<skpath from="572" to="568" linestyle="wall" splined="1">
+	<skpath from="554" to="550" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2536.2856" Y="-14087.188"/>
@@ -5886,71 +5693,71 @@
 		<pt X="2538.3909" Y="-14078.809"/>
 		<pt X="2538.4456" Y="-14073.829"/>
 	</skpath>
-	<skpath from="573" to="571" linestyle="wall" splined="1">
+	<skpath from="555" to="553" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2543.14" Y="-14086.761"/>
 		<pt X="2548.305" Y="-14082.785"/>
 	</skpath>
-	<skpath from="569" to="566" linestyle="invisible" splined="1">
+	<skpath from="551" to="548" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2476.2063" Y="-14180.032"/>
 		<pt X="2479.3237" Y="-14182.249"/>
 	</skpath>
-	<skpath from="574" to="573" linestyle="wall" splined="1">
+	<skpath from="556" to="555" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.9832" Y="-14089.29"/>
 		<pt X="2540.3772" Y="-14088.75"/>
 		<pt X="2543.14" Y="-14086.761"/>
 	</skpath>
-	<skpath from="575" to="574" linestyle="wall" splined="1">
+	<skpath from="557" to="556" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.0928" Y="-14093.106"/>
 		<pt X="2539.4014" Y="-14091.027"/>
 		<pt X="2539.9832" Y="-14089.29"/>
 	</skpath>
-	<skpath from="69" to="573" linestyle="connective">
+	<skpath from="69" to="555" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.9338" Y="-14088.525" Z="-37.78311"/>
 		<pt X="2543.14" Y="-14086.761"/>
 	</skpath>
-	<skpath from="69" to="573" linestyle="connective">
+	<skpath from="69" to="555" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.9338" Y="-14088.525" Z="-37.78311"/>
 		<pt X="2543.14" Y="-14086.761"/>
 	</skpath>
-	<skpath from="576" to="572" linestyle="wall" splined="1">
+	<skpath from="558" to="554" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2533.6702" Y="-14090.56"/>
 		<pt X="2536.2856" Y="-14087.188"/>
 	</skpath>
-	<skpath from="69" to="572" linestyle="connective">
+	<skpath from="69" to="554" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.9338" Y="-14088.525" Z="-37.78311"/>
 		<pt X="2536.2856" Y="-14087.188"/>
 	</skpath>
-	<skpath from="577" to="576" linestyle="wall" splined="1">
+	<skpath from="559" to="558" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2528.905" Y="-14098.775"/>
 		<pt X="2532.6843" Y="-14091.381"/>
 		<pt X="2533.6702" Y="-14090.56"/>
 	</skpath>
-	<skpath from="578" to="575" linestyle="wall" splined="1">
+	<skpath from="560" to="557" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2539.175" Y="-14100.747"/>
 		<pt X="2539.5037" Y="-14094.749"/>
 		<pt X="2539.0928" Y="-14093.106"/>
 	</skpath>
-	<skpath from="555" to="579" linestyle="connective">
+	<skpath from="537" to="561" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
@@ -5960,40 +5767,20 @@
 		<pt X="2603.3271" Y="-13974.069"/>
 		<pt X="2594.5203" Y="-13986.986"/>
 	</skpath>
-	<skpath from="551" to="538" linestyle="estwall" splined="1">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2682.1213" Y="-13946.231"/>
-		<pt X="2683.7158" Y="-13952.963"/>
-		<pt X="2688.766" Y="-13961.934"/>
-		<pt X="2695.904" Y="-13971.036"/>
-		<pt X="2701.4485" Y="-13974.9"/>
-		<pt X="2705.643" Y="-13973.404"/>
-		<pt X="2708.7324" Y="-13968.543"/>
-		<pt X="2708.374" Y="-13959.442"/>
-		<pt X="2703.5786" Y="-13949.592"/>
-		<pt X="2702.7336" Y="-13943.35"/>
-	</skpath>
-	<skpath from="120" to="538" linestyle="connective">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2687.3337" Y="-13945.825" Z="-45.683113"/>
-		<pt X="2702.7336" Y="-13943.35"/>
-	</skpath>
-	<skpath from="580" to="578" linestyle="wall" splined="1">
+	<skpath from="562" to="560" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2536.3816" Y="-14116.275"/>
 		<pt X="2537.614" Y="-14109.867"/>
 		<pt X="2539.175" Y="-14100.747"/>
 	</skpath>
-	<skpath from="550" to="569" linestyle="wall" splined="1">
+	<skpath from="533" to="551" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2477.4524" Y="-14177.581"/>
 		<pt X="2476.2063" Y="-14180.032"/>
 	</skpath>
-	<skpath from="581" to="577" linestyle="wall" splined="1">
+	<skpath from="563" to="559" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2525.208" Y="-14116.851"/>
@@ -6001,31 +5788,25 @@
 		<pt X="2527.5083" Y="-14104.526"/>
 		<pt X="2528.905" Y="-14098.775"/>
 	</skpath>
-	<skpath from="120" to="551" linestyle="connective">
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2687.3337" Y="-13945.825" Z="-45.683113"/>
-		<pt X="2682.1213" Y="-13946.231"/>
-	</skpath>
-	<skpath from="56" to="549" linestyle="connective">
+	<skpath from="56" to="532" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2481.3337" Y="-14176.626" Z="-34.883114"/>
 		<pt X="2486.0256" Y="-14177.0205"/>
 	</skpath>
-	<skpath from="582" to="115" linestyle="connective">
+	<skpath from="564" to="115" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2662.4148" Y="-14037.396"/>
 		<pt X="2665.4336" Y="-14031.925" Z="-43.083115"/>
 	</skpath>
-	<skpath from="550" to="56" linestyle="connective">
+	<skpath from="533" to="56" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2477.4524" Y="-14177.581"/>
 		<pt X="2481.3337" Y="-14176.626" Z="-34.883114"/>
 	</skpath>
-	<skpath from="569" to="583" linestyle="wall" splined="1">
+	<skpath from="551" to="565" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2476.2063" Y="-14180.032"/>
@@ -6034,13 +5815,13 @@
 		<pt X="2461.9026" Y="-14192.524"/>
 		<pt X="2461.229" Y="-14193.195"/>
 	</skpath>
-	<skpath from="584" to="115" linestyle="connective">
+	<skpath from="566" to="115" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2671.1816" Y="-14041.415"/>
 		<pt X="2665.4336" Y="-14031.925" Z="-43.083115"/>
 	</skpath>
-	<skpath from="585" to="556" linestyle="connective">
+	<skpath from="567" to="538" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="0.0" nodeposyrel="1.0">choke</pctext>
 		</pathcodes>
@@ -6048,7 +5829,7 @@
 		<pt X="2606.4246" Y="-13959.102"/>
 		<pt X="2601.9705" Y="-13963.167"/>
 	</skpath>
-	<skpath from="555" to="556" linestyle="invisible" splined="1">
+	<skpath from="537" to="538" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2611.469" Y="-13970.656"/>
@@ -6056,7 +5837,7 @@
 		<pt X="2608.7415" Y="-13962.646"/>
 		<pt X="2601.9705" Y="-13963.167"/>
 	</skpath>
-	<skpath from="582" to="584" linestyle="invisible" splined="1">
+	<skpath from="564" to="566" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2662.4148" Y="-14037.396"/>
@@ -6068,7 +5849,7 @@
 		<pt X="2466.0337" Y="-14197.125" Z="-34.28311"/>
 		<pt X="2466.0337" Y="-14197.125" Z="-34.28311"/>
 	</skpath>
-	<skpath from="586" to="581" linestyle="wall" splined="1">
+	<skpath from="568" to="563" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2517.5684" Y="-14129.916"/>
@@ -6076,25 +5857,25 @@
 		<pt X="2523.4006" Y="-14120.795"/>
 		<pt X="2525.208" Y="-14116.851"/>
 	</skpath>
-	<skpath from="106" to="555" linestyle="connective">
+	<skpath from="106" to="537" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2605.9338" Y="-13967.325" Z="-39.183113"/>
 		<pt X="2611.469" Y="-13970.656"/>
 	</skpath>
-	<skpath from="556" to="106" linestyle="connective">
+	<skpath from="538" to="106" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2601.9705" Y="-13963.167"/>
 		<pt X="2605.9338" Y="-13967.325" Z="-39.183113"/>
 	</skpath>
-	<skpath from="55" to="583" linestyle="connective">
+	<skpath from="55" to="565" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2466.0337" Y="-14197.125" Z="-34.28311"/>
 		<pt X="2461.229" Y="-14193.195"/>
 	</skpath>
-	<skpath from="587" to="580" linestyle="wall" splined="1">
+	<skpath from="569" to="562" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2532.52" Y="-14136.323"/>
@@ -6102,31 +5883,31 @@
 		<pt X="2534.9026" Y="-14123.588"/>
 		<pt X="2536.3816" Y="-14116.275"/>
 	</skpath>
-	<skpath from="588" to="55" linestyle="connective">
+	<skpath from="570" to="55" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2465.6887" Y="-14204.707"/>
 		<pt X="2466.0337" Y="-14197.125" Z="-34.28311"/>
 	</skpath>
-	<skpath from="589" to="586" linestyle="wall" splined="1">
+	<skpath from="571" to="568" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2515.1868" Y="-14137.968"/>
 		<pt X="2517.5684" Y="-14129.916"/>
 	</skpath>
-	<skpath from="590" to="113" linestyle="connective">
+	<skpath from="572" to="113" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2684.1455" Y="-13961.689"/>
 		<pt X="2688.2336" Y="-13962.426" Z="-41.983112"/>
 	</skpath>
-	<skpath from="558" to="109" linestyle="connective">
+	<skpath from="540" to="109" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2674.4363" Y="-14001.651"/>
 		<pt X="2673.9336" Y="-14003.325" Z="-39.383114"/>
 	</skpath>
-	<skpath from="584" to="591" linestyle="connective">
+	<skpath from="566" to="573" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -6135,7 +5916,7 @@
 		<pt X="2671.1816" Y="-14041.415"/>
 		<pt X="2632.618" Y="-14120.166"/>
 	</skpath>
-	<skpath from="592" to="582" linestyle="wall" splined="1">
+	<skpath from="574" to="564" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2670.744" Y="-14017.446"/>
@@ -6143,39 +5924,39 @@
 		<pt X="2665.6282" Y="-14030.505"/>
 		<pt X="2662.4148" Y="-14037.396"/>
 	</skpath>
-	<skpath from="583" to="593" linestyle="wall" splined="1">
+	<skpath from="565" to="575" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2461.229" Y="-14193.195"/>
 		<pt X="2456.787" Y="-14194.874"/>
 	</skpath>
-	<skpath from="594" to="113" linestyle="connective">
+	<skpath from="576" to="113" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2697.9182" Y="-13960.934"/>
 		<pt X="2692.783" Y="-13959.925"/>
 		<pt X="2688.2336" Y="-13962.426" Z="-41.983112"/>
 	</skpath>
-	<skpath from="561" to="109" linestyle="connective">
+	<skpath from="543" to="109" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2673.3457" Y="-14007.731"/>
 		<pt X="2673.9336" Y="-14003.325" Z="-39.383114"/>
 	</skpath>
-	<skpath from="595" to="588" linestyle="wall" splined="1">
+	<skpath from="577" to="570" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2469.1118" Y="-14203.655"/>
 		<pt X="2465.6887" Y="-14204.707"/>
 	</skpath>
-	<skpath from="584" to="596" linestyle="wall" splined="1">
+	<skpath from="566" to="578" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2671.1816" Y="-14041.415"/>
 		<pt X="2675.4905" Y="-14030.132"/>
 		<pt X="2678.0342" Y="-14018.752"/>
 	</skpath>
-	<skpath from="597" to="589" linestyle="wall" splined="1">
+	<skpath from="579" to="571" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2512.2947" Y="-14154.53"/>
@@ -6183,25 +5964,25 @@
 		<pt X="2513.7908" Y="-14143.392"/>
 		<pt X="2515.1868" Y="-14137.968"/>
 	</skpath>
-	<skpath from="598" to="558" linestyle="invisible" splined="1">
+	<skpath from="580" to="540" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2677.303" Y="-14000.444"/>
 		<pt X="2674.4363" Y="-14001.651"/>
 	</skpath>
-	<skpath from="599" to="587" linestyle="wall" splined="1">
+	<skpath from="581" to="569" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2529.316" Y="-14149.387"/>
 		<pt X="2530.7126" Y="-14142.074"/>
 		<pt X="2532.52" Y="-14136.323"/>
 	</skpath>
-	<skpath from="600" to="594" linestyle="connective">
+	<skpath from="582" to="576" linestyle="connective">
 		<importfrom subname="258new"/>
 		<pt X="2704.8855" Y="-13960.102"/>
 		<pt X="2697.9182" Y="-13960.934"/>
 	</skpath>
-	<skpath from="601" to="590" linestyle="wall" splined="1">
+	<skpath from="583" to="572" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2683.64" Y="-13935.437"/>
@@ -6209,7 +5990,7 @@
 		<pt X="2684.5103" Y="-13952.988"/>
 		<pt X="2684.1455" Y="-13961.689"/>
 	</skpath>
-	<skpath from="599" to="602" linestyle="connective">
+	<skpath from="581" to="584" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -6218,26 +5999,26 @@
 		<pt X="2529.316" Y="-14149.387"/>
 		<pt X="2521.9214" Y="-14149.634"/>
 	</skpath>
-	<skpath from="595" to="603" linestyle="invisible" splined="1">
+	<skpath from="577" to="585" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2469.1118" Y="-14203.655"/>
 		<pt X="2472.38" Y="-14197.754"/>
 	</skpath>
-	<skpath from="604" to="595" linestyle="wall" splined="1">
+	<skpath from="586" to="577" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2474.612" Y="-14204.273"/>
 		<pt X="2470.3977" Y="-14203.529"/>
 		<pt X="2469.1118" Y="-14203.655"/>
 	</skpath>
-	<skpath from="561" to="605" linestyle="wall" splined="1">
+	<skpath from="543" to="587" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2673.3457" Y="-14007.731"/>
 		<pt X="2673.4165" Y="-14010.394"/>
 	</skpath>
-	<skpath from="606" to="594" linestyle="pitchbound" splined="1">
+	<skpath from="588" to="576" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2698.2659" Y="-13952.288"/>
@@ -6245,7 +6026,7 @@
 		<pt X="2696.3765" Y="-13957.276"/>
 		<pt X="2697.9182" Y="-13960.934"/>
 	</skpath>
-	<skpath from="607" to="584" linestyle="wall" splined="1">
+	<skpath from="589" to="566" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2670.7131" Y="-14062.379"/>
@@ -6253,14 +6034,14 @@
 		<pt X="2670.5142" Y="-14047.987"/>
 		<pt X="2671.1816" Y="-14041.415"/>
 	</skpath>
-	<skpath from="608" to="558" linestyle="wall" splined="1">
+	<skpath from="590" to="540" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2673.9387" Y="-13995.087"/>
 		<pt X="2674.6729" Y="-13999.189"/>
 		<pt X="2674.4363" Y="-14001.651"/>
 	</skpath>
-	<skpath from="609" to="594" linestyle="wall" splined="1">
+	<skpath from="591" to="576" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2686.859" Y="-13989.673"/>
@@ -6271,7 +6052,7 @@
 		<pt X="2695.6858" Y="-13962.9"/>
 		<pt X="2697.9182" Y="-13960.934"/>
 	</skpath>
-	<skpath from="582" to="610" linestyle="wall" splined="1">
+	<skpath from="564" to="592" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2662.4148" Y="-14037.396"/>
@@ -6280,14 +6061,14 @@
 		<pt X="2656.1318" Y="-14056.158"/>
 		<pt X="2654.9792" Y="-14061.788"/>
 	</skpath>
-	<skpath from="605" to="592" linestyle="wall" splined="1">
+	<skpath from="587" to="574" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2673.4165" Y="-14010.394"/>
 		<pt X="2672.452" Y="-14013.347"/>
 		<pt X="2670.744" Y="-14017.446"/>
 	</skpath>
-	<skpath from="611" to="600" linestyle="connective">
+	<skpath from="593" to="582" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">c5</pctext>
 		</pathcodes>
@@ -6296,7 +6077,7 @@
 		<pt X="2714.5024" Y="-13964.635"/>
 		<pt X="2704.8855" Y="-13960.102"/>
 	</skpath>
-	<skpath from="549" to="612" linestyle="wall" splined="1">
+	<skpath from="532" to="594" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2486.0256" Y="-14177.0205"/>
@@ -6306,33 +6087,33 @@
 		<pt X="2506.4626" Y="-14189.459"/>
 		<pt X="2507.118" Y="-14187.813"/>
 	</skpath>
-	<skpath from="613" to="598" linestyle="wall" splined="1">
+	<skpath from="595" to="580" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2678.8684" Y="-14002.084"/>
 		<pt X="2677.307" Y="-14001.599"/>
 		<pt X="2677.303" Y="-14000.444"/>
 	</skpath>
-	<skpath from="593" to="614" linestyle="wall" splined="1">
+	<skpath from="575" to="596" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2456.787" Y="-14194.874"/>
 		<pt X="2454.384" Y="-14195.551"/>
 	</skpath>
-	<skpath from="588" to="615" linestyle="wall" splined="1">
+	<skpath from="570" to="597" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2465.6887" Y="-14204.707"/>
 		<pt X="2461.8594" Y="-14205.947"/>
 		<pt X="2459.6326" Y="-14207.6045"/>
 	</skpath>
-	<skpath from="110" to="605" linestyle="connective">
+	<skpath from="110" to="587" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2678.6338" Y="-14008.525" Z="-35.58311"/>
 		<pt X="2673.4165" Y="-14010.394"/>
 	</skpath>
-	<skpath from="606" to="114" linestyle="wall" splined="1">
+	<skpath from="588" to="114" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2698.2659" Y="-13952.288"/>
@@ -6341,19 +6122,19 @@
 		<pt X="2696.179" Y="-13943.573"/>
 		<pt X="2695.7336" Y="-13936.125" Z="-38.183113"/>
 	</skpath>
-	<skpath from="592" to="596" linestyle="invisible" splined="1">
+	<skpath from="574" to="578" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2670.744" Y="-14017.446"/>
 		<pt X="2678.0342" Y="-14018.752"/>
 	</skpath>
-	<skpath from="599" to="616" linestyle="wall" splined="1">
+	<skpath from="581" to="598" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2529.316" Y="-14149.387"/>
 		<pt X="2525.2637" Y="-14163.197"/>
 	</skpath>
-	<skpath from="601" to="114" linestyle="pitchbound" splined="1">
+	<skpath from="583" to="114" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2683.64" Y="-13935.437"/>
@@ -6362,20 +6143,20 @@
 		<pt X="2693.2034" Y="-13937.207"/>
 		<pt X="2695.7336" Y="-13936.125" Z="-38.183113"/>
 	</skpath>
-	<skpath from="613" to="110" linestyle="invisible" splined="1">
+	<skpath from="595" to="110" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2678.8684" Y="-14002.084"/>
 		<pt X="2678.6338" Y="-14008.525" Z="-35.58311"/>
 	</skpath>
-	<skpath from="596" to="110" linestyle="wall" splined="1">
+	<skpath from="578" to="110" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2678.0342" Y="-14018.752"/>
 		<pt X="2678.512" Y="-14012.039"/>
 		<pt X="2678.6338" Y="-14008.525" Z="-35.58311"/>
 	</skpath>
-	<skpath from="590" to="617" linestyle="wall" splined="1">
+	<skpath from="572" to="599" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2684.1455" Y="-13961.689"/>
@@ -6384,20 +6165,20 @@
 		<pt X="2684.1465" Y="-13982.427"/>
 		<pt X="2682.4116" Y="-13984.5625"/>
 	</skpath>
-	<skpath from="110" to="618" linestyle="wall" splined="1">
+	<skpath from="110" to="600" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2678.6338" Y="-14008.525" Z="-35.58311"/>
 		<pt X="2683.5913" Y="-14007.076"/>
 		<pt X="2689.0078" Y="-14003.897"/>
 	</skpath>
-	<skpath from="609" to="112" linestyle="connective">
+	<skpath from="591" to="112" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2686.859" Y="-13989.673"/>
 		<pt X="2685.6338" Y="-13990.326" Z="-36.58311"/>
 	</skpath>
-	<skpath from="596" to="619" linestyle="connective">
+	<skpath from="578" to="601" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 			<pcsymbol rname="boulders"/>
@@ -6407,7 +6188,7 @@
 		<pt X="2678.0342" Y="-14018.752"/>
 		<pt X="2665.2424" Y="-14035.641"/>
 	</skpath>
-	<skpath from="620" to="613" linestyle="wall" splined="1">
+	<skpath from="602" to="595" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2687.5557" Y="-13999.017"/>
@@ -6415,14 +6196,14 @@
 		<pt X="2682.042" Y="-13999.449"/>
 		<pt X="2678.8684" Y="-14002.084"/>
 	</skpath>
-	<skpath from="621" to="597" linestyle="wall" splined="1">
+	<skpath from="603" to="579" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2509.2415" Y="-14180.793"/>
 		<pt X="2511.5474" Y="-14168.722"/>
 		<pt X="2512.2947" Y="-14154.53"/>
 	</skpath>
-	<skpath from="616" to="622" linestyle="connective">
+	<skpath from="598" to="604" linestyle="connective">
 		<pathcodes>
 		</pathcodes>
 		<sketchsubset subname="Konisberg Passage"/>
@@ -6430,13 +6211,13 @@
 		<pt X="2525.2637" Y="-14163.197"/>
 		<pt X="2521.9026" Y="-14166.808"/>
 	</skpath>
-	<skpath from="620" to="618" linestyle="invisible" splined="1">
+	<skpath from="602" to="600" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2687.5557" Y="-13999.017"/>
 		<pt X="2689.0078" Y="-14003.897"/>
 	</skpath>
-	<skpath from="618" to="623" linestyle="wall" splined="1">
+	<skpath from="600" to="605" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2689.0078" Y="-14003.897"/>
@@ -6445,13 +6226,13 @@
 		<pt X="2695.0056" Y="-14000.03"/>
 		<pt X="2699.5576" Y="-13997.647"/>
 	</skpath>
-	<skpath from="615" to="614" linestyle="invisible" splined="1">
+	<skpath from="597" to="596" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2459.6326" Y="-14207.6045"/>
 		<pt X="2454.384" Y="-14195.551"/>
 	</skpath>
-	<skpath from="624" to="620" linestyle="connective">
+	<skpath from="606" to="602" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
@@ -6460,7 +6241,7 @@
 		<pt X="2680.5425" Y="-14005.581"/>
 		<pt X="2687.5557" Y="-13999.017"/>
 	</skpath>
-	<skpath from="607" to="625" linestyle="connective">
+	<skpath from="589" to="607" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 			<pcsymbol rname="boulders"/>
@@ -6470,7 +6251,7 @@
 		<pt X="2670.7131" Y="-14062.379"/>
 		<pt X="2655.7883" Y="-14083.217"/>
 	</skpath>
-	<skpath from="626" to="620" linestyle="wall" splined="1">
+	<skpath from="608" to="602" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2696.527" Y="-13993.842"/>
@@ -6478,25 +6259,25 @@
 		<pt X="2688.5122" Y="-13998.978"/>
 		<pt X="2687.5557" Y="-13999.017"/>
 	</skpath>
-	<skpath from="623" to="627" linestyle="invisible" splined="1">
+	<skpath from="605" to="609" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2699.5576" Y="-13997.647"/>
 		<pt X="2701.894" Y="-13995.082"/>
 	</skpath>
-	<skpath from="626" to="623" linestyle="invisible" splined="1">
+	<skpath from="608" to="605" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2696.527" Y="-13993.842"/>
 		<pt X="2699.5576" Y="-13997.647"/>
 	</skpath>
-	<skpath from="617" to="112" linestyle="connective">
+	<skpath from="599" to="112" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2682.4116" Y="-13984.5625"/>
 		<pt X="2685.6338" Y="-13990.326" Z="-36.58311"/>
 	</skpath>
-	<skpath from="615" to="628" linestyle="connective">
+	<skpath from="597" to="610" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 			<pcsymbol rname="boulders"/>
@@ -6506,68 +6287,68 @@
 		<pt X="2459.6326" Y="-14207.6045"/>
 		<pt X="2462.311" Y="-14201.049"/>
 	</skpath>
-	<skpath from="627" to="629" linestyle="wall" splined="1">
+	<skpath from="609" to="611" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2701.894" Y="-13995.082"/>
 		<pt X="2704.4937" Y="-13993.429"/>
 	</skpath>
-	<skpath from="615" to="630" linestyle="detail" splined="1">
+	<skpath from="597" to="612" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2459.6326" Y="-14207.6045"/>
 		<pt X="2458.879" Y="-14204.237"/>
 	</skpath>
-	<skpath from="631" to="626" linestyle="invisible" splined="1">
+	<skpath from="613" to="608" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2699.7637" Y="-13991.904"/>
 		<pt X="2696.527" Y="-13993.842"/>
 	</skpath>
-	<skpath from="616" to="632" linestyle="wall" splined="1">
+	<skpath from="598" to="614" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2525.2637" Y="-14163.197"/>
 		<pt X="2521.5405" Y="-14179.471"/>
 	</skpath>
-	<skpath from="629" to="633" linestyle="invisible" splined="1">
+	<skpath from="611" to="615" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2704.4937" Y="-13993.429"/>
 		<pt X="2702.5337" Y="-13990.427"/>
 	</skpath>
-	<skpath from="633" to="631" linestyle="wall" splined="1">
+	<skpath from="615" to="613" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2702.5337" Y="-13990.427"/>
 		<pt X="2699.7637" Y="-13991.904"/>
 	</skpath>
-	<skpath from="634" to="621" linestyle="wall" splined="1">
+	<skpath from="616" to="603" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2508.4102" Y="-14183.841"/>
 		<pt X="2509.2415" Y="-14180.793"/>
 	</skpath>
-	<skpath from="607" to="116" linestyle="connective">
+	<skpath from="589" to="116" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2670.7131" Y="-14062.379"/>
 		<pt X="2658.834" Y="-14068.525" Z="-29.683113"/>
 	</skpath>
-	<skpath from="635" to="636" linestyle="detail" splined="1">
+	<skpath from="617" to="618" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2454.1365" Y="-14213.356"/>
 		<pt X="2453.2297" Y="-14216.05"/>
 	</skpath>
-	<skpath from="614" to="637" linestyle="wall" splined="1">
+	<skpath from="596" to="619" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2454.384" Y="-14195.551"/>
 		<pt X="2450.7334" Y="-14193.6045"/>
 		<pt X="2448.7454" Y="-14193.619"/>
 	</skpath>
-	<skpath from="637" to="614" linestyle="detail" splined="1">
+	<skpath from="619" to="596" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2448.7454" Y="-14193.619"/>
@@ -6575,7 +6356,7 @@
 		<pt X="2453.5574" Y="-14196.463"/>
 		<pt X="2454.384" Y="-14195.551"/>
 	</skpath>
-	<skpath from="57" to="604" linestyle="wall" splined="1">
+	<skpath from="57" to="586" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2511.5337" Y="-14198.426" Z="-17.783112"/>
@@ -6590,20 +6371,20 @@
 		<pt X="2474.7766" Y="-14204.328"/>
 		<pt X="2474.612" Y="-14204.273"/>
 	</skpath>
-	<skpath from="615" to="638" linestyle="wall" splined="1">
+	<skpath from="597" to="620" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2459.6326" Y="-14207.6045"/>
 		<pt X="2457.573" Y="-14209.919"/>
 	</skpath>
-	<skpath from="639" to="635" linestyle="detail" splined="1">
+	<skpath from="621" to="617" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2445.7778" Y="-14206.262"/>
 		<pt X="2453.0906" Y="-14212.081"/>
 		<pt X="2454.1365" Y="-14213.356"/>
 	</skpath>
-	<skpath from="639" to="635" linestyle="invisible">
+	<skpath from="621" to="617" linestyle="invisible">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2445.7778" Y="-14206.262"/>
@@ -6611,7 +6392,7 @@
 		<pt X="2453.9424" Y="-14212.293"/>
 		<pt X="2454.1365" Y="-14213.356"/>
 	</skpath>
-	<skpath from="640" to="641" linestyle="connective">
+	<skpath from="622" to="623" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 			<pcsymbol rname="boulders"/>
@@ -6621,31 +6402,31 @@
 		<pt X="2519.7322" Y="-14185.14"/>
 		<pt X="2515.3074" Y="-14181.011"/>
 	</skpath>
-	<skpath from="640" to="632" linestyle="wall" splined="1">
+	<skpath from="622" to="614" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2519.7322" Y="-14185.14"/>
 		<pt X="2521.5405" Y="-14179.471"/>
 	</skpath>
-	<skpath from="610" to="116" linestyle="connective">
+	<skpath from="592" to="116" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2654.9792" Y="-14061.788"/>
 		<pt X="2658.834" Y="-14068.525" Z="-29.683113"/>
 	</skpath>
-	<skpath from="634" to="640" linestyle="invisible" splined="1">
+	<skpath from="616" to="622" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2508.4102" Y="-14183.841"/>
 		<pt X="2519.7322" Y="-14185.14"/>
 	</skpath>
-	<skpath from="612" to="634" linestyle="wall" splined="1">
+	<skpath from="594" to="616" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2507.118" Y="-14187.813"/>
 		<pt X="2508.4102" Y="-14183.841"/>
 	</skpath>
-	<skpath from="640" to="642" linestyle="connective">
+	<skpath from="622" to="624" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
@@ -6654,7 +6435,7 @@
 		<pt X="2519.7322" Y="-14185.14"/>
 		<pt X="2515.954" Y="-14183.333"/>
 	</skpath>
-	<skpath from="643" to="607" linestyle="wall" splined="1">
+	<skpath from="625" to="589" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2655.4402" Y="-14093.352"/>
@@ -6664,7 +6445,7 @@
 		<pt X="2670.6968" Y="-14066.184"/>
 		<pt X="2670.7131" Y="-14062.379"/>
 	</skpath>
-	<skpath from="607" to="643" linestyle="invisible" splined="1">
+	<skpath from="589" to="625" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2670.7131" Y="-14062.379"/>
@@ -6673,19 +6454,19 @@
 		<pt X="2654.0437" Y="-14082.015"/>
 		<pt X="2655.4402" Y="-14093.352"/>
 	</skpath>
-	<skpath from="636" to="638" linestyle="invisible" splined="1">
+	<skpath from="618" to="620" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2453.2297" Y="-14216.05"/>
 		<pt X="2457.573" Y="-14209.919"/>
 	</skpath>
-	<skpath from="644" to="645" linestyle="invisible">
+	<skpath from="626" to="627" linestyle="invisible">
 		<importfrom subname="258new"/>
 		<pt X="2442.9368" Y="-14207.3125"/>
 		<pt X="2443.1162" Y="-14205.651"/>
 		<pt X="2445.6929" Y="-14204.708"/>
 	</skpath>
-	<skpath from="638" to="646" linestyle="connective">
+	<skpath from="620" to="628" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="sand"/>
 		</pathcodes>
@@ -6694,13 +6475,13 @@
 		<pt X="2457.573" Y="-14209.919"/>
 		<pt X="2453.0725" Y="-14207.049"/>
 	</skpath>
-	<skpath from="644" to="639" linestyle="detail" splined="1">
+	<skpath from="626" to="621" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2442.9368" Y="-14207.3125"/>
 		<pt X="2445.7778" Y="-14206.262"/>
 	</skpath>
-	<skpath from="636" to="647" linestyle="detail">
+	<skpath from="618" to="629" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2453.2297" Y="-14216.05"/>
@@ -6708,7 +6489,7 @@
 		<pt X="2447.9539" Y="-14221.966"/>
 		<pt X="2446.4014" Y="-14224.05"/>
 	</skpath>
-	<skpath from="647" to="636" linestyle="detail" splined="1">
+	<skpath from="629" to="618" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2446.4014" Y="-14224.05"/>
@@ -6716,7 +6497,7 @@
 		<pt X="2448.088" Y="-14212.79"/>
 		<pt X="2453.2297" Y="-14216.05"/>
 	</skpath>
-	<skpath from="598" to="648" linestyle="wall" splined="1">
+	<skpath from="580" to="630" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2677.303" Y="-14000.444"/>
@@ -6724,7 +6505,7 @@
 		<pt X="2677.6406" Y="-13994.858"/>
 		<pt X="2677.049" Y="-13990.933"/>
 	</skpath>
-	<skpath from="649" to="638" linestyle="wall" splined="1">
+	<skpath from="631" to="620" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2451.2297" Y="-14225.088"/>
@@ -6733,32 +6514,32 @@
 		<pt X="2455.8362" Y="-14213.257"/>
 		<pt X="2457.573" Y="-14209.919"/>
 	</skpath>
-	<skpath from="649" to="650" linestyle="invisible" splined="1">
+	<skpath from="631" to="632" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2451.2297" Y="-14225.088"/>
 		<pt X="2445.6106" Y="-14224.65"/>
 	</skpath>
-	<skpath from="651" to="649" linestyle="wall" splined="1">
+	<skpath from="633" to="631" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2449.9175" Y="-14228.778"/>
 		<pt X="2451.2297" Y="-14225.088"/>
 	</skpath>
-	<skpath from="647" to="652" linestyle="invisible">
+	<skpath from="629" to="634" linestyle="invisible">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2446.4014" Y="-14224.05"/>
 		<pt X="2446.2996" Y="-14220.73"/>
 		<pt X="2444.3396" Y="-14216.932"/>
 	</skpath>
-	<skpath from="647" to="650" linestyle="detail">
+	<skpath from="629" to="632" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2446.4014" Y="-14224.05"/>
 		<pt X="2445.6106" Y="-14224.65"/>
 	</skpath>
-	<skpath from="610" to="117" linestyle="wall" splined="1">
+	<skpath from="592" to="117" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2654.9792" Y="-14061.788"/>
@@ -6772,7 +6553,7 @@
 		<pt X="2630.689" Y="-14122.703"/>
 		<pt X="2633.5337" Y="-14124.425" Z="-24.583113"/>
 	</skpath>
-	<skpath from="609" to="648" linestyle="wall" splined="1">
+	<skpath from="591" to="630" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2686.859" Y="-13989.673"/>
@@ -6782,7 +6563,7 @@
 		<pt X="2678.388" Y="-13989.121"/>
 		<pt X="2677.049" Y="-13990.933"/>
 	</skpath>
-	<skpath from="653" to="644" linestyle="detail" splined="1">
+	<skpath from="635" to="626" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2439.944" Y="-14211.567"/>
@@ -6790,48 +6571,48 @@
 		<pt X="2441.0342" Y="-14208.74"/>
 		<pt X="2442.9368" Y="-14207.3125"/>
 	</skpath>
-	<skpath from="57" to="640" linestyle="wall" splined="1">
+	<skpath from="57" to="622" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2511.5337" Y="-14198.426" Z="-17.783112"/>
 		<pt X="2517.3484" Y="-14191.218"/>
 		<pt X="2519.7322" Y="-14185.14"/>
 	</skpath>
-	<skpath from="57" to="612" linestyle="connective">
+	<skpath from="57" to="594" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2511.5337" Y="-14198.426" Z="-17.783112"/>
 		<pt X="2507.118" Y="-14187.813"/>
 	</skpath>
-	<skpath from="653" to="650" linestyle="detail" splined="1">
+	<skpath from="635" to="632" linestyle="detail" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2439.944" Y="-14211.567"/>
 		<pt X="2443.17" Y="-14221.551"/>
 		<pt X="2445.6106" Y="-14224.65"/>
 	</skpath>
-	<skpath from="651" to="654" linestyle="wall" splined="1">
+	<skpath from="633" to="636" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2449.9175" Y="-14228.778"/>
 		<pt X="2448.2769" Y="-14233.266"/>
 		<pt X="2447.778" Y="-14236.425"/>
 	</skpath>
-	<skpath from="650" to="655" linestyle="invisible" splined="1">
+	<skpath from="632" to="637" linestyle="invisible" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2445.6106" Y="-14224.65"/>
 		<pt X="2439.7603" Y="-14220.973"/>
 		<pt X="2437.868" Y="-14220.43"/>
 	</skpath>
-	<skpath from="656" to="644" linestyle="wall" splined="1">
+	<skpath from="638" to="626" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2446.5156" Y="-14195.607"/>
 		<pt X="2444.2412" Y="-14200.73"/>
 		<pt X="2442.9368" Y="-14207.3125"/>
 	</skpath>
-	<skpath from="657" to="643" linestyle="wall" splined="1">
+	<skpath from="639" to="625" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2638.9534" Y="-14117.875"/>
@@ -6840,7 +6621,7 @@
 		<pt X="2648.3557" Y="-14102.028"/>
 		<pt X="2655.4402" Y="-14093.352"/>
 	</skpath>
-	<skpath from="655" to="653" linestyle="wall" splined="1">
+	<skpath from="637" to="635" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2437.868" Y="-14220.43"/>
@@ -6848,31 +6629,31 @@
 		<pt X="2439.057" Y="-14213.412"/>
 		<pt X="2439.944" Y="-14211.567"/>
 	</skpath>
-	<skpath from="637" to="656" linestyle="wall" splined="1">
+	<skpath from="619" to="638" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2448.7454" Y="-14193.619"/>
 		<pt X="2446.5156" Y="-14195.607"/>
 	</skpath>
-	<skpath from="658" to="655" linestyle="wall" splined="1">
+	<skpath from="640" to="637" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2437.159" Y="-14222.984"/>
 		<pt X="2437.868" Y="-14220.43"/>
 	</skpath>
-	<skpath from="54" to="638" linestyle="connective">
+	<skpath from="54" to="620" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2451.6338" Y="-14200.226" Z="-13.783113"/>
 		<pt X="2457.573" Y="-14209.919"/>
 	</skpath>
-	<skpath from="657" to="117" linestyle="connective">
+	<skpath from="639" to="117" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2638.9534" Y="-14117.875"/>
 		<pt X="2633.5337" Y="-14124.425" Z="-24.583113"/>
 	</skpath>
-	<skpath from="659" to="608" linestyle="wall" splined="1">
+	<skpath from="641" to="590" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2672.6135" Y="-13983.816"/>
@@ -6881,7 +6662,7 @@
 		<pt X="2673.21" Y="-13991.49"/>
 		<pt X="2673.9387" Y="-13995.087"/>
 	</skpath>
-	<skpath from="617" to="659" linestyle="wall" splined="1">
+	<skpath from="599" to="641" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2682.4116" Y="-13984.5625"/>
@@ -6889,13 +6670,13 @@
 		<pt X="2675.9646" Y="-13982.939"/>
 		<pt X="2672.6135" Y="-13983.816"/>
 	</skpath>
-	<skpath from="54" to="656" linestyle="connective">
+	<skpath from="54" to="638" linestyle="connective">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2451.6338" Y="-14200.226" Z="-13.783113"/>
 		<pt X="2446.5156" Y="-14195.607"/>
 	</skpath>
-	<skpath from="658" to="660" linestyle="wall" splined="1">
+	<skpath from="640" to="642" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2437.159" Y="-14222.984"/>
@@ -6903,7 +6684,7 @@
 		<pt X="2432.2542" Y="-14228.667"/>
 		<pt X="2430.137" Y="-14229.892"/>
 	</skpath>
-	<skpath from="117" to="662" linestyle="wall" splined="1">
+	<skpath from="117" to="643" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2633.5337" Y="-14124.425" Z="-24.583113"/>
@@ -6916,7 +6697,7 @@
 		<pt X="2677.1367" Y="-14102.385"/>
 		<pt X="2681.8352" Y="-14099.624"/>
 	</skpath>
-	<skpath from="663" to="657" linestyle="wall" splined="1">
+	<skpath from="644" to="639" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2676.9888" Y="-14097.835"/>
@@ -6927,13 +6708,13 @@
 		<pt X="2641.7744" Y="-14118.09"/>
 		<pt X="2638.9534" Y="-14117.875"/>
 	</skpath>
-	<skpath from="661" to="660" linestyle="wall" splined="1">
+	<skpath from="645" to="642" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<importfrom subname="258new"/>
 		<pt X="2424.3774" Y="-14233.856"/>
 		<pt X="2430.137" Y="-14229.892"/>
 	</skpath>
-	<skpath from="659" to="664" linestyle="connective">
+	<skpath from="641" to="646" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
@@ -6942,31 +6723,31 @@
 		<pt X="2672.6135" Y="-13983.816"/>
 		<pt X="2678.382" Y="-13985.981"/>
 	</skpath>
-	<skpath from="648" to="111" linestyle="connective">
+	<skpath from="630" to="111" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2677.049" Y="-13990.933"/>
 		<pt X="2673.2336" Y="-13986.626" Z="-13.583112"/>
 	</skpath>
-	<skpath from="662" to="118" linestyle="connective">
+	<skpath from="643" to="118" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2681.8352" Y="-14099.624"/>
 		<pt X="2679.3337" Y="-14100.725" Z="-15.883112"/>
 	</skpath>
-	<skpath from="663" to="118" linestyle="connective">
+	<skpath from="644" to="118" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2676.9888" Y="-14097.835"/>
 		<pt X="2679.3337" Y="-14100.725" Z="-15.883112"/>
 	</skpath>
-	<skpath from="659" to="111" linestyle="connective">
+	<skpath from="641" to="111" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2672.6135" Y="-13983.816"/>
 		<pt X="2673.2336" Y="-13986.626" Z="-13.583112"/>
 	</skpath>
-	<skpath from="662" to="665" linestyle="wall" splined="1">
+	<skpath from="643" to="647" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2681.8352" Y="-14099.624"/>
@@ -6974,7 +6755,7 @@
 		<pt X="2687.2288" Y="-14093.186"/>
 		<pt X="2698.7651" Y="-14072.318"/>
 	</skpath>
-	<skpath from="666" to="663" linestyle="wall" splined="1">
+	<skpath from="648" to="644" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2693.906" Y="-14068.934"/>
@@ -6983,17 +6764,7 @@
 		<pt X="2681.0547" Y="-14091.353"/>
 		<pt X="2676.9888" Y="-14097.835"/>
 	</skpath>
-	<skpath from="667" to="665" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">10-A</pctext>
-		</pathcodes>
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2739.7363" Y="-14071.068"/>
-		<pt X="2715.2122" Y="-14056.335"/>
-		<pt X="2698.7651" Y="-14072.318"/>
-	</skpath>
-	<skpath from="668" to="665" linestyle="connective">
+	<skpath from="649" to="647" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">p80</pctext>
 		</pathcodes>
@@ -7002,13 +6773,13 @@
 		<pt X="2704.9304" Y="-14081.719"/>
 		<pt X="2698.7651" Y="-14072.318"/>
 	</skpath>
-	<skpath from="666" to="665" linestyle="pitchbound" splined="1">
+	<skpath from="648" to="647" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2693.906" Y="-14068.934"/>
 		<pt X="2698.7651" Y="-14072.318"/>
 	</skpath>
-	<skpath from="665" to="666" linestyle="estwall" splined="1">
+	<skpath from="647" to="648" linestyle="estwall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2698.7651" Y="-14072.318"/>
@@ -7023,28 +6794,19 @@
 		<pt X="2692.7134" Y="-14062.128"/>
 		<pt X="2693.906" Y="-14068.934"/>
 	</skpath>
-	<skpath from="665" to="119" linestyle="connective">
+	<skpath from="647" to="119" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2698.7651" Y="-14072.318"/>
 		<pt X="2696.1338" Y="-14070.526" Z="-9.483112"/>
 	</skpath>
-	<skpath from="666" to="119" linestyle="connective">
+	<skpath from="648" to="119" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2693.906" Y="-14068.934"/>
 		<pt X="2696.1338" Y="-14070.526" Z="-9.483112"/>
 	</skpath>
-	<skpath from="669" to="489" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">10-B</pctext>
-		</pathcodes>
-		<sketchsubset subname="Konigsberg Passage 4"/>
-		<importfrom subname="258new"/>
-		<pt X="2716.7139" Y="-13848.175"/>
-		<pt X="2692.4146" Y="-13843.893"/>
-	</skpath>
-	<skpath from="670" to="670" linestyle="connective">
+	<skpath from="650" to="650" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="3.7557323" sfrotatedeg="0.42192122" sfelevrotdeg="0.0" sfxtrans="36535.115625481165" sfytrans="-84110.39697238387" sfsketch="surveyscans/2010/2010#14/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1679" sfpixheight="2332">
 			</pcarea>
@@ -7056,11 +6818,11 @@
 		<pt X="2380.7598" Y="-13693.194"/>
 		<pt X="2376.1875" Y="-14314.095"/>
 	</skpath>
-	<skpath from="670" to="117" linestyle="connective">
+	<skpath from="650" to="117" linestyle="connective">
 		<pt X="2376.1875" Y="-14314.095"/>
 		<pt X="2633.5337" Y="-14124.425" Z="-24.583113"/>
 	</skpath>
-	<skpath from="104" to="553" linestyle="wall" splined="1">
+	<skpath from="104" to="535" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<pt X="2579.6338" Y="-14049.425" Z="-56.183113"/>
 		<pt X="2572.6355" Y="-14051.219"/>
@@ -7069,19 +6831,19 @@
 		<pt X="2564.9421" Y="-14052.661"/>
 		<pt X="2565.0212" Y="-14059.722"/>
 	</skpath>
-	<skpath from="552" to="557" linestyle="wall" splined="1">
+	<skpath from="534" to="539" linestyle="wall" splined="1">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<pt X="2551.5256" Y="-14049.41"/>
 		<pt X="2548.353" Y="-14052.301"/>
 		<pt X="2544.0063" Y="-14055.719"/>
 	</skpath>
-	<skpath from="553" to="103" linestyle="connective">
+	<skpath from="535" to="103" linestyle="connective">
 		<sketchsubset subname="Konigsberg Passage 4"/>
 		<importfrom subname="258new"/>
 		<pt X="2565.0212" Y="-14059.722"/>
 		<pt X="2560.4336" Y="-14043.125" Z="-45.88311"/>
 	</skpath>
-	<skpath from="671" to="671" linestyle="connective">
+	<skpath from="651" to="651" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="4.920312" sfrotatedeg="-0.1638494" sfelevrotdeg="0.0" sfxtrans="36527.253224188" sfytrans="-84112.7788086236" sfsketch="surveyscans/2010/2010#06/plan0002.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1618" sfpixheight="2302">
 			</pcarea>
@@ -7093,70 +6855,70 @@
 		<pt X="2296.2256" Y="-13870.059"/>
 		<pt X="2297.5635" Y="-14337.913"/>
 	</skpath>
-	<skpath from="482" to="80" linestyle="connective">
+	<skpath from="481" to="80" linestyle="connective">
 		<pt X="2428.6301" Y="-14032.083"/>
 		<pt X="2428.734" Y="-14031.125" Z="-81.38312"/>
 	</skpath>
-	<skpath from="484" to="672" linestyle="wall" splined="1">
+	<skpath from="483" to="652" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<pt X="2440.3774" Y="-14046.764"/>
 		<pt X="2444.8591" Y="-14037.004"/>
 	</skpath>
-	<skpath from="672" to="481" linestyle="wall" splined="1">
+	<skpath from="652" to="480" linestyle="wall" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<pt X="2444.8591" Y="-14037.004"/>
 		<pt X="2446.6807" Y="-14031.176"/>
 		<pt X="2450.9495" Y="-14026.183"/>
 	</skpath>
-	<skpath from="672" to="673" linestyle="detail">
+	<skpath from="652" to="653" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<pt X="2444.8591" Y="-14037.004"/>
 		<pt X="2438.12" Y="-14044.836"/>
 		<pt X="2430.4705" Y="-14032.269"/>
 	</skpath>
-	<skpath from="482" to="473" linestyle="detail">
+	<skpath from="481" to="472" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<pt X="2428.6301" Y="-14032.083"/>
 		<pt X="2433.217" Y="-14025.006"/>
 		<pt X="2431.3923" Y="-14022.546"/>
 		<pt X="2426.4797" Y="-14024.715"/>
 	</skpath>
-	<skpath from="673" to="674" linestyle="detail">
+	<skpath from="653" to="654" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<pt X="2430.4705" Y="-14032.269"/>
 		<pt X="2436.232" Y="-14024.291"/>
 		<pt X="2438.2947" Y="-14023.736"/>
 	</skpath>
-	<skpath from="674" to="675" linestyle="pitchbound" splined="1">
+	<skpath from="654" to="655" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<sketchsubset subname="Sandy Balls"/>
 		<pt X="2438.2947" Y="-14023.736"/>
 		<pt X="2440.1194" Y="-14023.498"/>
 		<pt X="2442.103" Y="-14027.227"/>
 	</skpath>
-	<skpath from="675" to="672" linestyle="detail">
+	<skpath from="655" to="652" linestyle="detail">
 		<sketchsubset subname="Konisberg Passage"/>
 		<pt X="2442.103" Y="-14027.227"/>
 		<pt X="2444.8591" Y="-14037.004"/>
 	</skpath>
-	<skpath from="675" to="481" linestyle="pitchbound" splined="1">
+	<skpath from="655" to="480" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<sketchsubset subname="Sandy Balls"/>
 		<pt X="2442.103" Y="-14027.227"/>
 		<pt X="2450.9495" Y="-14026.183"/>
 	</skpath>
-	<skpath from="481" to="472" linestyle="detail">
+	<skpath from="480" to="471" linestyle="detail">
 		<sketchsubset subname="Sandy Balls"/>
 		<pt X="2450.9495" Y="-14026.183"/>
 		<pt X="2449.69" Y="-14019.202"/>
 	</skpath>
-	<skpath from="464" to="676" linestyle="connective">
+	<skpath from="463" to="656" linestyle="connective">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2440.474" Y="-13990.165"/>
 		<pt X="2430.6108" Y="-13987.202"/>
 	</skpath>
-	<skpath from="460" to="676" linestyle="wall" splined="1">
+	<skpath from="459" to="656" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2451.7368" Y="-13948.766"/>
@@ -7166,19 +6928,19 @@
 		<pt X="2435.4294" Y="-13979.445"/>
 		<pt X="2430.6108" Y="-13987.202"/>
 	</skpath>
-	<skpath from="676" to="480" linestyle="wall" splined="1">
+	<skpath from="656" to="479" linestyle="wall" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<pt X="2430.6108" Y="-13987.202"/>
 		<pt X="2428.327" Y="-13998.742"/>
 		<pt X="2428.91" Y="-14009.221"/>
 	</skpath>
-	<skpath from="480" to="464" linestyle="detail" splined="1">
+	<skpath from="479" to="463" linestyle="detail" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<pt X="2428.91" Y="-14009.221"/>
 		<pt X="2437.1333" Y="-13994.791"/>
 		<pt X="2440.474" Y="-13990.165"/>
 	</skpath>
-	<skpath from="480" to="674" linestyle="pitchbound" splined="1">
+	<skpath from="479" to="654" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Konisberg Passage"/>
 		<sketchsubset subname="Sandy Balls"/>
 		<pt X="2428.91" Y="-14009.221"/>
@@ -7186,7 +6948,7 @@
 		<pt X="2432.0557" Y="-14019.782"/>
 		<pt X="2438.2947" Y="-14023.736"/>
 	</skpath>
-	<skpath from="479" to="677" linestyle="connective">
+	<skpath from="478" to="657" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
@@ -7195,7 +6957,7 @@
 		<pt X="2457.7896" Y="-14030.897"/>
 		<pt X="2459.5862" Y="-14027.002"/>
 	</skpath>
-	<skpath from="678" to="480" linestyle="connective">
+	<skpath from="658" to="479" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">p35</pctext>
 		</pathcodes>
@@ -7203,7 +6965,7 @@
 		<pt X="2411.259" Y="-14000.483"/>
 		<pt X="2428.91" Y="-14009.221"/>
 	</skpath>
-	<skpath from="452" to="471" linestyle="ceilingbound" splined="1">
+	<skpath from="451" to="470" linestyle="ceilingbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2472.7378" Y="-13946.996"/>
@@ -7215,7 +6977,7 @@
 		<pt X="2473.6282" Y="-13992.038"/>
 		<pt X="2470.003" Y="-13999.37"/>
 	</skpath>
-	<skpath from="471" to="477" linestyle="pitchbound" splined="1">
+	<skpath from="470" to="476" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="Sandy Balls"/>
 		<importfrom subname="258new"/>
 		<pt X="2470.003" Y="-13999.37"/>
@@ -7223,7 +6985,7 @@
 		<pt X="2457.5537" Y="-14018.758"/>
 		<pt X="2454.4717" Y="-14023.098"/>
 	</skpath>
-	<skpath from="654" to="679" linestyle="connective">
+	<skpath from="636" to="659" linestyle="connective">
 		<pathcodes>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
@@ -7232,17 +6994,17 @@
 		<pt X="2447.778" Y="-14236.425"/>
 		<pt X="2442.2283" Y="-14232.48"/>
 	</skpath>
-	<skpath from="661" to="654" linestyle="invisible" splined="1">
+	<skpath from="645" to="636" linestyle="invisible" splined="1">
 		<pt X="2424.3774" Y="-14233.856"/>
 		<pt X="2430.707" Y="-14233.071"/>
 		<pt X="2439.4216" Y="-14234.4"/>
 		<pt X="2447.778" Y="-14236.425"/>
 	</skpath>
-	<skpath from="64" to="671" linestyle="connective">
+	<skpath from="64" to="651" linestyle="connective">
 		<pt X="2425.9338" Y="-14084.926" Z="-67.78311"/>
 		<pt X="2297.5635" Y="-14337.913"/>
 	</skpath>
-	<skpath from="680" to="680" linestyle="connective">
+	<skpath from="660" to="660" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="3.1695902" sfrotatedeg="0.60899174" sfelevrotdeg="0.0" sfxtrans="36548.355131312084" sfytrans="-84085.37857931704" sfsketch="surveyscans/2010/2010#13/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1508" sfpixheight="2332">
 			</pcarea>
@@ -7253,9 +7015,43 @@
 		<pt X="2516.4026" Y="-13328.211"/>
 		<pt X="2508.5825" Y="-14063.911"/>
 	</skpath>
-	<skpath from="680" to="91" linestyle="connective">
+	<skpath from="660" to="91" linestyle="connective">
 		<pt X="2508.5825" Y="-14063.911"/>
 		<pt X="2757.0337" Y="-13686.826" Z="-647.1831"/>
+	</skpath>
+	<skpath from="661" to="358" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">p15</pctext>
+		</pathcodes>
+		<sketchsubset subname="Sandy Balls"/>
+		<importfrom subname="258new"/>
+		<pt X="2627.7258" Y="-13826.887"/>
+		<pt X="2627.7563" Y="-13802.47"/>
+	</skpath>
+	<skpath from="662" to="662" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="3.1322992" sfrotatedeg="0.6475411" sfelevrotdeg="0.0" sfxtrans="36523.923518513715" sfytrans="-84098.89883002682" sfsketch="surveyscans/2010/2010#08/plan0001.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1689" sfpixheight="2314">
+			</pcarea>
+		</pathcodes>
+		<pt X="2264.2664" Y="-14199.113"/>
+		<pt X="2803.4526" Y="-14205.207"/>
+		<pt X="2811.8015" Y="-13466.5"/>
+		<pt X="2272.6155" Y="-13460.406"/>
+		<pt X="2264.2664" Y="-14199.113"/>
+	</skpath>
+	<skpath from="662" to="75" linestyle="connective">
+		<pt X="2264.2664" Y="-14199.113"/>
+		<pt X="2546.1338" Y="-13865.926" Z="-436.6831"/>
+	</skpath>
+	<skpath from="663" to="647" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">10-A</pctext>
+		</pathcodes>
+		<sketchsubset subname="Konigsberg Passage 4"/>
+		<importfrom subname="258new"/>
+		<pt X="2701.2295" Y="-14054.095"/>
+		<pt X="2692.9028" Y="-14063.862"/>
+		<pt X="2698.7651" Y="-14072.318"/>
 	</skpath>
 </sketch>
 </tunnelxml>
