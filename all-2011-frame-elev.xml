@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-01-21 21:48:50">
+<sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="invisible">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2539.5947" Y="-929.96826"/>
+		<pt X="-2539.5947" Y="-3029.9683"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="invisible">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="430.40527" Y="-3029.9683"/>
+		<pt X="430.40527" Y="-929.96826"/>
+	</skpath>
+	<skpath from="1" to="2" linestyle="invisible">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2539.5947" Y="-3029.9683"/>
+		<pt X="430.40527" Y="-3029.9683"/>
+	</skpath>
+	<skpath from="3" to="0" linestyle="invisible">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="430.40527" Y="-929.96826"/>
+		<pt X="-2539.5947" Y="-929.96826"/>
+	</skpath>
+	<skpath from="1" to="4" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="eishohle" uppersubset="green"/>
+				<subsetattr name="kaninchenhohle" uppersubset="orange"/>
+				<subsetattr name="schnell" uppersubset="blue"/>
+				<subsetattr name="schwa" uppersubset="purple"/>
+				<subsetattr name="schwaschacht" uppersubset="purple"/>
+				<subsetattr name="steinbruckenhohle" uppersubset="purple"/>
+				<subsetattr name="steinschlagschacht" uppersubset="red"/>
+				<subsetattr name="stellerweg" uppersubset="red"/>
+				<subsetattr name="tunnocks" uppersubset="blue"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2539.5947" Y="-3029.9683"/>
+		<pt X="-2423.927" Y="-2985.6438"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="350.0" Y="-970.0"/>
+		<pt X="-2490.0" Y="-970.0"/>
+	</skpath>
+	<skpath from="7" to="0" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-970.0"/>
+		<pt X="-2539.5947" Y="-929.96826"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-970.0"/>
+		<pt X="-2490.0" Y="-1640.0"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="15000.0" sfrotatedeg="0.0" sfelevrotdeg="90.0" sfxtrans="5.413547301950347" sfytrans="-0.03609227560460599" sfsketch="all-2011" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="eishohle" uppersubset="green"/>
+				<subsetattr name="kaninchenhohle" uppersubset="orange"/>
+				<subsetattr name="schnell" uppersubset="blue"/>
+				<subsetattr name="schwa" uppersubset="purple"/>
+				<subsetattr name="schwaschacht" uppersubset="purple"/>
+				<subsetattr name="steinbruckenhohle" uppersubset="purple"/>
+				<subsetattr name="steinschlagschacht" uppersubset="red"/>
+				<subsetattr name="stellerweg" uppersubset="red"/>
+				<subsetattr name="tunnocks" uppersubset="blue"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-1640.0"/>
+		<pt X="-2371.9756" Y="-1349.5438"/>
+	</skpath>
+	<skpath from="10" to="6" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="350.0" Y="-1640.0"/>
+		<pt X="350.0" Y="-970.0"/>
+	</skpath>
+	<skpath from="8" to="10" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-1640.0"/>
+		<pt X="350.0" Y="-1640.0"/>
+	</skpath>
+	<skpath from="12" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlenum" nodeposxrel="-1.0" nodeposyrel="-1.0">%t3/0.15%%v1/%%h0/%&newline;;%v1/%%t0/%%h3/%%blackrect%&newline;%t0/%%v0/%%h3/%&newline;;%v1/%%t3/%%h0/%%whiterect%&newline;&space;&space;&newline;Z</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2414.9763" Y="-1869.4229"/>
+		<pt X="-2490.0" Y="-1680.0"/>
+	</skpath>
+	<skpath from="13" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%10/0.75%%v1.75/%%whiterect%&newline;;%10/%%v1.75/%%blackrect%&space;&space;&space;&newline;;%10/%%v1.75/%%whiterect%&newline;;%10/%%v1.75/%%blackrect%&newline;;%10/%%v1.75/%%whiterect%&newline;%v0.75/0.75%&space;&space;&newline;%10/%0m&newline;;%10/%200m&newline;;%10/%400m&newline;;%10/%600m&newline;;%10/%800m&newline;;%10/%1km</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2435.6938" Y="-1714.2831"/>
+		<pt X="-2490.0" Y="-1680.0"/>
+	</skpath>
+	<skpath from="11" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-1680.0"/>
+		<pt X="350.0" Y="-1680.0"/>
+	</skpath>
+	<skpath from="14" to="5" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="350.0" Y="-1680.0"/>
+		<pt X="350.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="15" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Stellerweg&newline;(1623/41)</pctext>
+		</pathcodes>
+		<sketchsubset subname="stellerweg"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="50.96648" Y="-1943.1517"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Schnellzugh&ouml;hle&newline;(1623/115)</pctext>
+		</pathcodes>
+		<sketchsubset subname="schnell"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-356.7383" Y="-1791.3989"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="18" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="1.0">Schwa-Schacht&space;&newline;(1623/144)</pctext>
+		</pathcodes>
+		<sketchsubset subname="schwa"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-634.6857" Y="-2135.612"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="16" to="19" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="15000.0" sfrotatedeg="90.0" sfelevrotdeg="0.0" sfxtrans="5.413547301950347" sfytrans="2.1830316523251545" sfsketch="all-2011" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="eishohle" uppersubset="green"/>
+				<subsetattr name="kaninchenhohle" uppersubset="orange"/>
+				<subsetattr name="schnell" uppersubset="blue"/>
+				<subsetattr name="schwa" uppersubset="purple"/>
+				<subsetattr name="schwaschacht" uppersubset="purple"/>
+				<subsetattr name="steinbruckenhohle" uppersubset="purple"/>
+				<subsetattr name="steinschlagschacht" uppersubset="red"/>
+				<subsetattr name="stellerweg" uppersubset="red"/>
+				<subsetattr name="tunnocks" uppersubset="blue"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+		<pt X="-2449.627" Y="-2781.7017"/>
+	</skpath>
+	<skpath from="20" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Eish&ouml;hle&newline;(1623/40)</pctext>
+		</pathcodes>
+		<sketchsubset subname="eishohle"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-505.83594" Y="-2671.259"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="21" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Steinschlagschacht&newline;(1623/136)</pctext>
+		</pathcodes>
+		<sketchsubset subname="steinschlagschacht"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-940.24384" Y="-2279.1875"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="22" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Kaninchenh&ouml;hle&newline;(1623/161)</pctext>
+		</pathcodes>
+		<sketchsubset subname="kaninchenhohle"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-907.111" Y="-2825.8787"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="23" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Steinbr&uuml;ckenh&ouml;hle&newline;(1623/204)</pctext>
+		</pathcodes>
+		<sketchsubset subname="steinbruckenhohle"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-1871.6437" Y="-2748.5688"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="24" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="0.0">Tunnockschacht&newline;(1623/258)</pctext>
+		</pathcodes>
+		<sketchsubset subname="tunnocks"/>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2377.8394" Y="-2719.1174"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="1" to="16" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2539.5947" Y="-3029.9683"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="5" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="350.0" Y="-2970.0"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+	</skpath>
+	<skpath from="16" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2490.0" Y="-2970.0"/>
+		<pt X="-2490.0" Y="-1680.0"/>
+	</skpath>
+	<skpath from="25" to="8" linestyle="connective">
+		<pathcodes>
+			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="1.0">%1/0.75%%v5/%%blackrect%&newline;;1800m&space;&newline;%1/%%v5.0/%%whiterect%&newline;;1700m&newline;%1/%%v5/%%blackrect%&newline;;1600m&newline;%1/%%v5.0/%%whiterect%&newline;;1500m&newline;%1/%%v5/%%blackrect%&newline;;1400m&newline;%1/%%v5.0/%%whiterect%&newline;;1300m&newline;%1/%%v5/%%blackrect%&newline;;1200m&newline;%1/%%v5.0/%%whiterect%&newline;;1100m&space;&space;&newline;%1/%%v5/%%blackrect%&newline;;1000m&space;&newline;%1/%%v0/%&newline;;</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-2467.223" Y="-1591.3654"/>
+		<pt X="-2490.0" Y="-1640.0"/>
+	</skpath>
+</sketch>
+</tunnelxml>
