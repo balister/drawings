@@ -1,46 +1,38 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-07-29 01:14:01">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-07-29 10:49:37">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
-	<skpath from="0" to="1" linestyle="connective">
-		<pathcodes>
-			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">%10/1.0000%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A1_page_1"/>
-		<pt X="-3113.6887" Y="-2971.187"/>
-		<pt X="-1573.7891" Y="-2730.1577"/>
-	</skpath>
-	<skpath from="2" to="3" linestyle="invisible">
+	<skpath from="1" to="2" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-1565.4124" Y="3124.457"/>
 		<pt X="-7505.4126" Y="3124.457"/>
 	</skpath>
-	<skpath from="4" to="5" linestyle="invisible">
+	<skpath from="3" to="4" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-1573.7891" Y="-17436.18"/>
 		<pt X="-1573.7891" Y="-11130.158"/>
 	</skpath>
-	<skpath from="5" to="1" linestyle="invisible">
+	<skpath from="4" to="0" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-1573.7891" Y="-11130.158"/>
 		<pt X="-1573.7891" Y="-2730.1577"/>
 	</skpath>
-	<skpath from="6" to="7" linestyle="invisible">
+	<skpath from="5" to="6" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 		<pt X="-7513.789" Y="-11130.158"/>
 	</skpath>
-	<skpath from="7" to="8" linestyle="invisible">
+	<skpath from="6" to="7" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-7513.789" Y="-17436.18"/>
 	</skpath>
-	<skpath from="8" to="4" linestyle="invisible">
+	<skpath from="7" to="3" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7513.789" Y="-17436.18"/>
 		<pt X="-1573.7891" Y="-17436.18"/>
 	</skpath>
-	<skpath from="8" to="9" linestyle="connective">
+	<skpath from="7" to="8" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="8000" sfpixheight="-1">
 			</pcarea>
@@ -50,22 +42,22 @@
 		<pt X="-7513.789" Y="-17436.18"/>
 		<pt X="-5381.4214" Y="-16248.18"/>
 	</skpath>
-	<skpath from="1" to="2" linestyle="invisible">
+	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-1573.7891" Y="-2730.1577"/>
 		<pt X="-1565.4124" Y="3124.457"/>
 	</skpath>
-	<skpath from="6" to="6" linestyle="invisible">
+	<skpath from="5" to="5" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 	</skpath>
-	<skpath from="3" to="6" linestyle="invisible">
+	<skpath from="2" to="5" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7505.4126" Y="3124.457"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 	</skpath>
-	<skpath from="7" to="10" linestyle="connective">
+	<skpath from="6" to="9" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="258/258all" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="258 part 1" uppersubset="red"/>
@@ -192,9 +184,9 @@
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-3504.7883" Y="-11466.803"/>
 	</skpath>
-	<skpath from="7" to="11" linestyle="connective">
+	<skpath from="6" to="10" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204belowgaffered" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204belowgaffered" sfstyle="base250nonote" nodeconnzsetrelative="-20.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
 				<subsetattr name="110 bidet" uppersubset="red"/>
 				<subsetattr name="204a" uppersubset="red2"/>
@@ -402,7 +394,7 @@
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-4437.0195" Y="-7400.7593"/>
 	</skpath>
-	<skpath from="7" to="12" linestyle="connective">
+	<skpath from="6" to="11" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204residue" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
@@ -613,7 +605,7 @@
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-3132.9521" Y="-7266.867"/>
 	</skpath>
-	<skpath from="7" to="13" linestyle="connective">
+	<skpath from="6" to="12" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204razor" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
@@ -820,7 +812,7 @@
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-3353.5168" Y="-5907.8105"/>
 	</skpath>
-	<skpath from="6" to="14" linestyle="connective">
+	<skpath from="5" to="13" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/phumour2" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="G" uppersubset="green"/>
@@ -838,7 +830,7 @@
 		<pt X="-7513.789" Y="-2730.1577"/>
 		<pt X="1310.7393" Y="-491.8109"/>
 	</skpath>
-	<skpath from="15" to="6" linestyle="connective">
+	<skpath from="14" to="5" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/161farnorthonly" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="6 mile bottom" uppersubset="orange"/>
@@ -869,7 +861,7 @@
 		<pt X="-4326.2817" Y="-220.59471"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 	</skpath>
-	<skpath from="16" to="6" linestyle="connective">
+	<skpath from="15" to="5" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/toimport/oldmenfinal" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -883,33 +875,52 @@
 		<pt X="-4086.6255" Y="-570.8112"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 	</skpath>
-	<skpath from="17" to="6" linestyle="connective">
+	<skpath from="16" to="5" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="all-2011" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="eishohle" uppersubset="green"/>
-				<subsetattr name="kaninchenhohle" uppersubset="orange"/>
+				<subsetattr name="kaninchenhohle" uppersubset="obscuredsets"/>
 				<subsetattr name="puffball" uppersubset="cyan"/>
 				<subsetattr name="schnell" uppersubset="blue"/>
 				<subsetattr name="schwa" uppersubset="purple"/>
 				<subsetattr name="schwaschacht" uppersubset="purple"/>
 				<subsetattr name="steinbruckenhohle" uppersubset="purple"/>
-				<subsetattr name="steinschlagschacht" uppersubset="red"/>
+				<subsetattr name="steinschlagschacht" uppersubset="obscuredsets"/>
 				<subsetattr name="stellerweg" uppersubset="red"/>
 				<subsetattr name="thomaseise" uppersubset="cyan"/>
-				<subsetattr name="tunnocks" uppersubset="blue"/>
+				<subsetattr name="tunnocks" uppersubset="obscuredsets"/>
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7120.903" Y="-3910.788"/>
 		<pt X="-7513.789" Y="-2730.1577"/>
 	</skpath>
-	<skpath from="7" to="18" linestyle="connective">
+	<skpath from="6" to="17" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="234/234sketch" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-5146.2188" Y="-4982.9946"/>
+	</skpath>
+	<skpath from="18" to="0" linestyle="connective">
+		<pathcodes>
+			<pctext style="titleentname" nodeposxrel="-1.0" nodeposyrel="-1.0">%10/0.1%%v1/%%whiterect%&newline;;%10/%%v1/%%blackrect%&space;&space;&newline;;%10/%%v1/%%whiterect%&newline;;%10/%%v1/%%blackrect%&newline;;%10/%%v1/%%whiterect%&newline;%v0.5/0.1%&space;&space;&space;&newline;%10/%0m&newline;;%10/%100m&newline;;%10/%200m&newline;;%10/%300m&newline;;%10/%400m&newline;;%10/%500m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="-7041.864" Y="-10494.01"/>
+		<pt X="-1573.7891" Y="-2730.1577"/>
+	</skpath>
+	<skpath from="19" to="5" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="default" uppersubset="orange"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
+		<pt X="-7017.813" Y="-3845.1238"/>
+		<pt X="-7513.789" Y="-2730.1577"/>
 	</skpath>
 </sketch>
 </tunnelxml>
