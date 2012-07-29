@@ -1,205 +1,26 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-07-29 01:00:18">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-07-29 10:18:06">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
-	<skpath from="0" to="1" linestyle="invisible">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-45296.67" Y="-24654.547"/>
-		<pt X="-47396.67" Y="-24654.547"/>
-	</skpath>
-	<skpath from="2" to="3" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47353.88" Y="-24757.576"/>
-		<pt X="-47353.88" Y="-27577.576"/>
-	</skpath>
-	<skpath from="4" to="0" linestyle="invisible">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-45296.67" Y="-27624.547"/>
-		<pt X="-45296.67" Y="-24654.547"/>
-	</skpath>
-	<skpath from="5" to="6" linestyle="connective">
-		<pathcodes>
-			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46460.38" Y="-24798.799"/>
-		<pt X="-45343.88" Y="-24757.576"/>
-	</skpath>
-	<skpath from="6" to="2" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-45343.88" Y="-24757.576"/>
-		<pt X="-47353.88" Y="-24757.576"/>
-	</skpath>
-	<skpath from="7" to="4" linestyle="invisible">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47396.67" Y="-27624.547"/>
-		<pt X="-45296.67" Y="-27624.547"/>
-	</skpath>
-	<skpath from="1" to="7" linestyle="invisible">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47396.67" Y="-24654.547"/>
-		<pt X="-47396.67" Y="-27624.547"/>
-	</skpath>
-	<skpath from="3" to="8" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47353.88" Y="-27577.576"/>
-		<pt X="-45343.88" Y="-27577.576"/>
-	</skpath>
-	<skpath from="7" to="9" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="framestyle"/>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47396.67" Y="-27624.547"/>
-		<pt X="-47331.074" Y="-27594.527"/>
-	</skpath>
-	<skpath from="7" to="3" linestyle="invisible" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47396.67" Y="-27624.547"/>
-		<pt X="-47353.88" Y="-27577.576"/>
-	</skpath>
-	<skpath from="8" to="6" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-45343.88" Y="-27577.576"/>
-		<pt X="-45343.88" Y="-24757.576"/>
-	</skpath>
-	<skpath from="10" to="11" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46681.52" Y="-26768.592"/>
-		<pt X="-47301.52" Y="-26768.592"/>
-	</skpath>
-	<skpath from="12" to="13" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46815.152" Y="-27454.016"/>
-		<pt X="-46681.52" Y="-27558.592"/>
-	</skpath>
-	<skpath from="14" to="13" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="204/204residue" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46839.03" Y="-27477.893"/>
-		<pt X="-46681.52" Y="-27558.592"/>
-	</skpath>
-	<skpath from="15" to="13" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47301.52" Y="-27558.592"/>
-		<pt X="-46681.52" Y="-27558.592"/>
-	</skpath>
-	<skpath from="13" to="10" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46681.52" Y="-27558.592"/>
-		<pt X="-46681.52" Y="-26768.592"/>
-	</skpath>
-	<skpath from="11" to="15" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47301.52" Y="-26768.592"/>
-		<pt X="-47301.52" Y="-27558.592"/>
-	</skpath>
-	<skpath from="15" to="3" linestyle="invisible" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47301.52" Y="-27558.592"/>
-		<pt X="-47353.88" Y="-27577.576"/>
-	</skpath>
-	<skpath from="3" to="16" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-				<subsetattr name="germanoldmen" uppersubset="green"/>
-				<subsetattr name="holey cow" uppersubset="cyan"/>
-				<subsetattr name="ironyoftime" uppersubset="red"/>
-				<subsetattr name="mordor" uppersubset="red"/>
-				<subsetattr name="oldmen" uppersubset="yellow"/>
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47353.88" Y="-27577.576"/>
-		<pt X="-47331.594" Y="-27290.537"/>
-	</skpath>
-	<skpath from="17" to="18" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46921.715" Y="-27124.393"/>
-		<pt X="-47032.504" Y="-27128.682"/>
-	</skpath>
-	<skpath from="19" to="17" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46921.52" Y="-27268.592"/>
-		<pt X="-46921.715" Y="-27124.393"/>
-	</skpath>
-	<skpath from="20" to="19" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47025.355" Y="-27268.773"/>
-		<pt X="-46921.52" Y="-27268.592"/>
-	</skpath>
-	<skpath from="18" to="21" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47032.504" Y="-27128.682"/>
-		<pt X="-47031.074" Y="-27269.488"/>
-	</skpath>
-	<skpath from="21" to="15" linestyle="invisible" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-47031.074" Y="-27269.488"/>
-		<pt X="-47301.52" Y="-27558.592"/>
-	</skpath>
-	<skpath from="22" to="23" linestyle="invisible" splined="1">
+	<skpath from="0" to="1" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49249.19" Y="-26666.936"/>
 		<pt X="-49206.4" Y="-26619.965"/>
 	</skpath>
-	<skpath from="23" to="24" linestyle="wall" splined="1">
+	<skpath from="1" to="2" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49206.4" Y="-26619.965"/>
 		<pt X="-47196.4" Y="-26619.965"/>
 	</skpath>
-	<skpath from="25" to="26" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="204/204residue" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48691.55" Y="-26520.281"/>
-		<pt X="-48534.04" Y="-26600.98"/>
-	</skpath>
-	<skpath from="27" to="28" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48774.04" Y="-26310.98"/>
-		<pt X="-48774.234" Y="-26166.781"/>
-	</skpath>
-	<skpath from="29" to="30" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48885.023" Y="-26171.07"/>
-		<pt X="-48883.594" Y="-26311.877"/>
-	</skpath>
-	<skpath from="24" to="31" linestyle="wall" splined="1">
+	<skpath from="2" to="4" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-47196.4" Y="-26619.965"/>
 		<pt X="-47196.4" Y="-23799.965"/>
 	</skpath>
-	<skpath from="28" to="29" linestyle="estwall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48774.234" Y="-26166.781"/>
-		<pt X="-48885.023" Y="-26171.07"/>
-	</skpath>
-	<skpath from="32" to="23" linestyle="invisible" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-49154.04" Y="-26600.98"/>
-		<pt X="-49206.4" Y="-26619.965"/>
-	</skpath>
-	<skpath from="23" to="33" linestyle="connective">
+	<skpath from="1" to="5" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -214,37 +35,27 @@
 		<pt X="-49206.4" Y="-26619.965"/>
 		<pt X="-49184.113" Y="-26332.926"/>
 	</skpath>
-	<skpath from="34" to="27" linestyle="estwall" splined="1">
+	<skpath from="6" to="3" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-48877.875" Y="-26311.162"/>
 		<pt X="-48774.04" Y="-26310.98"/>
 	</skpath>
-	<skpath from="35" to="26" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.530389076758013" sfytrans="5.704216283280553" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48667.67" Y="-26496.404"/>
-		<pt X="-48534.04" Y="-26600.98"/>
-	</skpath>
-	<skpath from="36" to="22" linestyle="invisible">
+	<skpath from="7" to="0" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49249.19" Y="-23696.936"/>
 		<pt X="-49249.19" Y="-26666.936"/>
 	</skpath>
-	<skpath from="37" to="36" linestyle="invisible">
+	<skpath from="8" to="7" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-47149.19" Y="-23696.936"/>
 		<pt X="-49249.19" Y="-23696.936"/>
 	</skpath>
-	<skpath from="22" to="38" linestyle="connective">
+	<skpath from="0" to="9" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -253,43 +64,31 @@
 		<pt X="-49249.19" Y="-26666.936"/>
 		<pt X="-49183.594" Y="-26636.916"/>
 	</skpath>
-	<skpath from="22" to="39" linestyle="invisible">
+	<skpath from="0" to="10" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49249.19" Y="-26666.936"/>
 		<pt X="-47149.19" Y="-26666.936"/>
 	</skpath>
-	<skpath from="31" to="40" linestyle="wall" splined="1">
+	<skpath from="4" to="11" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-47196.4" Y="-23799.965"/>
 		<pt X="-49206.4" Y="-23799.965"/>
 	</skpath>
-	<skpath from="30" to="32" linestyle="invisible" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48883.594" Y="-26311.877"/>
-		<pt X="-49154.04" Y="-26600.98"/>
-	</skpath>
-	<skpath from="32" to="26" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-49154.04" Y="-26600.98"/>
-		<pt X="-48534.04" Y="-26600.98"/>
-	</skpath>
-	<skpath from="40" to="23" linestyle="wall" splined="1">
+	<skpath from="11" to="1" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49206.4" Y="-23799.965"/>
 		<pt X="-49206.4" Y="-26619.965"/>
 	</skpath>
-	<skpath from="39" to="37" linestyle="invisible">
+	<skpath from="10" to="8" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_3"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-47149.19" Y="-26666.936"/>
 		<pt X="-47149.19" Y="-23696.936"/>
 	</skpath>
-	<skpath from="41" to="31" linestyle="connective">
+	<skpath from="12" to="4" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -298,83 +97,49 @@
 		<pt X="-49032.34" Y="-23837.31"/>
 		<pt X="-47196.4" Y="-23799.965"/>
 	</skpath>
-	<skpath from="26" to="42" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48534.04" Y="-26600.98"/>
-		<pt X="-48542.18" Y="-25942.36"/>
-	</skpath>
-	<skpath from="42" to="43" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-48542.18" Y="-25942.36"/>
-		<pt X="-49157.86" Y="-25942.36"/>
-	</skpath>
-	<skpath from="43" to="32" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_3"/>
-		<importfrom subname="D2012routefinder"/>
-		<pt X="-49157.86" Y="-25942.36"/>
-		<pt X="-49154.04" Y="-26600.98"/>
-	</skpath>
-	<skpath from="44" to="45" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="0.0" nodeposyrel="0.0">UP</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46438.637" Y="-25718.703"/>
-		<pt X="-46376.574" Y="-25718.621"/>
-	</skpath>
-	<skpath from="46" to="45" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Elevation&space;to&space;&newline;scale</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46401.44" Y="-25612.717"/>
-		<pt X="-46376.574" Y="-25718.621"/>
-	</skpath>
-	<skpath from="47" to="48" linestyle="invisible">
+	<skpath from="13" to="14" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51199.0" Y="-23564.178"/>
 		<pt X="-49099.0" Y="-23564.178"/>
 	</skpath>
-	<skpath from="49" to="50" linestyle="wall" splined="1">
+	<skpath from="15" to="16" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51156.207" Y="-20697.207"/>
 		<pt X="-51156.207" Y="-23517.207"/>
 	</skpath>
-	<skpath from="47" to="50" linestyle="invisible" splined="1">
+	<skpath from="13" to="16" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51199.0" Y="-23564.178"/>
 		<pt X="-51156.207" Y="-23517.207"/>
 	</skpath>
-	<skpath from="50" to="51" linestyle="wall" splined="1">
+	<skpath from="16" to="17" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51156.207" Y="-23517.207"/>
 		<pt X="-49146.207" Y="-23517.207"/>
 	</skpath>
-	<skpath from="52" to="53" linestyle="invisible">
+	<skpath from="18" to="19" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49099.0" Y="-20594.178"/>
 		<pt X="-51199.0" Y="-20594.178"/>
 	</skpath>
-	<skpath from="53" to="47" linestyle="invisible">
+	<skpath from="19" to="13" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51199.0" Y="-20594.178"/>
 		<pt X="-51199.0" Y="-23564.178"/>
 	</skpath>
-	<skpath from="48" to="52" linestyle="invisible">
+	<skpath from="14" to="18" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49099.0" Y="-23564.178"/>
 		<pt X="-49099.0" Y="-20594.178"/>
 	</skpath>
-	<skpath from="50" to="54" linestyle="connective">
+	<skpath from="16" to="20" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -389,9 +154,9 @@
 		<pt X="-51156.207" Y="-23517.207"/>
 		<pt X="-51133.92" Y="-23230.168"/>
 	</skpath>
-	<skpath from="47" to="55" linestyle="connective">
+	<skpath from="13" to="21" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -400,19 +165,19 @@
 		<pt X="-51199.0" Y="-23564.178"/>
 		<pt X="-51133.402" Y="-23534.158"/>
 	</skpath>
-	<skpath from="56" to="49" linestyle="wall" splined="1">
+	<skpath from="22" to="15" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49146.207" Y="-20697.207"/>
 		<pt X="-51156.207" Y="-20697.207"/>
 	</skpath>
-	<skpath from="51" to="56" linestyle="wall" splined="1">
+	<skpath from="17" to="22" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49146.207" Y="-23517.207"/>
 		<pt X="-49146.207" Y="-20697.207"/>
 	</skpath>
-	<skpath from="57" to="56" linestyle="connective">
+	<skpath from="23" to="22" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -421,25 +186,25 @@
 		<pt X="-50262.707" Y="-20738.43"/>
 		<pt X="-49146.207" Y="-20697.207"/>
 	</skpath>
-	<skpath from="58" to="59" linestyle="wall" splined="1">
+	<skpath from="24" to="25" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51121.8" Y="-21121.45"/>
 		<pt X="-51121.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="60" to="61" linestyle="wall" splined="1">
+	<skpath from="26" to="27" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50501.8" Y="-21911.45"/>
 		<pt X="-50501.8" Y="-21121.45"/>
 	</skpath>
-	<skpath from="59" to="60" linestyle="wall" splined="1">
+	<skpath from="25" to="26" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51121.8" Y="-21911.45"/>
 		<pt X="-50501.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="62" to="60" linestyle="connective">
+	<skpath from="28" to="26" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.699601576758011" sfytrans="6.158886009843053" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -449,18 +214,18 @@
 		<pt X="-50635.434" Y="-21806.873"/>
 		<pt X="-50501.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="61" to="58" linestyle="wall" splined="1">
+	<skpath from="27" to="24" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50501.8" Y="-21121.45"/>
 		<pt X="-51121.8" Y="-21121.45"/>
 	</skpath>
-	<skpath from="58" to="49" linestyle="invisible" splined="1">
+	<skpath from="24" to="15" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<pt X="-51121.8" Y="-21121.45"/>
 		<pt X="-51156.207" Y="-20697.207"/>
 	</skpath>
-	<skpath from="64" to="65" linestyle="connective">
+	<skpath from="29" to="30" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -475,43 +240,43 @@
 		<pt X="-46442.33" Y="-30933.387"/>
 		<pt X="-46337.727" Y="-30670.176"/>
 	</skpath>
-	<skpath from="66" to="67" linestyle="wall" splined="1">
+	<skpath from="31" to="32" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-45092.33" Y="-30883.387"/>
 		<pt X="-44472.33" Y="-30883.387"/>
 	</skpath>
-	<skpath from="64" to="68" linestyle="wall" splined="1">
+	<skpath from="29" to="33" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-46442.33" Y="-30933.387"/>
 		<pt X="-44432.33" Y="-30933.387"/>
 	</skpath>
-	<skpath from="69" to="70" linestyle="invisible">
+	<skpath from="34" to="35" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-46485.12" Y="-28010.357"/>
 		<pt X="-46485.12" Y="-30980.357"/>
 	</skpath>
-	<skpath from="67" to="71" linestyle="wall" splined="1">
+	<skpath from="32" to="36" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44472.33" Y="-30883.387"/>
 		<pt X="-44472.33" Y="-30093.387"/>
 	</skpath>
-	<skpath from="72" to="73" linestyle="invisible">
+	<skpath from="37" to="38" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44385.12" Y="-30980.357"/>
 		<pt X="-44385.12" Y="-28010.357"/>
 	</skpath>
-	<skpath from="74" to="75" linestyle="estwall" splined="1">
+	<skpath from="39" to="40" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44712.33" Y="-30593.387"/>
 		<pt X="-44712.33" Y="-30393.387"/>
 	</skpath>
-	<skpath from="76" to="67" linestyle="connective">
+	<skpath from="41" to="32" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.142971498633012" sfytrans="5.308193236405553" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -521,19 +286,19 @@
 		<pt X="-44605.96" Y="-30778.81"/>
 		<pt X="-44472.33" Y="-30883.387"/>
 	</skpath>
-	<skpath from="75" to="77" linestyle="estwall" splined="1">
+	<skpath from="40" to="42" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44712.33" Y="-30393.387"/>
 		<pt X="-44862.33" Y="-30393.387"/>
 	</skpath>
-	<skpath from="70" to="64" linestyle="invisible" splined="1">
+	<skpath from="35" to="29" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-46485.12" Y="-30980.357"/>
 		<pt X="-46442.33" Y="-30933.387"/>
 	</skpath>
-	<skpath from="78" to="63" linestyle="connective">
+	<skpath from="43" to="44" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -542,45 +307,39 @@
 		<pt X="-45548.83" Y="-28154.61"/>
 		<pt X="-44432.33" Y="-28113.387"/>
 	</skpath>
-	<skpath from="79" to="66" linestyle="invisible" splined="1">
+	<skpath from="45" to="31" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44862.33" Y="-30593.387"/>
 		<pt X="-45092.33" Y="-30883.387"/>
 	</skpath>
-	<skpath from="80" to="64" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_1"/>
-		<importfrom subname="2012routefinder"/>
-		<pt X="-46442.33" Y="-28113.387"/>
-		<pt X="-46442.33" Y="-30933.387"/>
-	</skpath>
-	<skpath from="70" to="72" linestyle="invisible">
+	<skpath from="35" to="37" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-46485.12" Y="-30980.357"/>
 		<pt X="-44385.12" Y="-30980.357"/>
 	</skpath>
-	<skpath from="68" to="67" linestyle="invisible">
+	<skpath from="33" to="32" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44432.33" Y="-30933.387"/>
 		<pt X="-44472.33" Y="-30883.387"/>
 	</skpath>
-	<skpath from="71" to="81" linestyle="wall" splined="1">
+	<skpath from="36" to="47" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44472.33" Y="-30093.387"/>
 		<pt X="-45092.33" Y="-30093.387"/>
 	</skpath>
-	<skpath from="63" to="80" linestyle="wall" splined="1">
+	<skpath from="44" to="46" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44432.33" Y="-28113.387"/>
 		<pt X="-46442.33" Y="-28113.387"/>
 	</skpath>
-	<skpath from="70" to="82" linestyle="connective">
+	<skpath from="35" to="48" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -589,37 +348,37 @@
 		<pt X="-46485.12" Y="-30980.357"/>
 		<pt X="-46419.523" Y="-30950.338"/>
 	</skpath>
-	<skpath from="68" to="63" linestyle="wall" splined="1">
+	<skpath from="33" to="44" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44432.33" Y="-30933.387"/>
 		<pt X="-44432.33" Y="-28113.387"/>
 	</skpath>
-	<skpath from="77" to="79" linestyle="estwall" splined="1">
+	<skpath from="42" to="45" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44862.33" Y="-30393.387"/>
 		<pt X="-44862.33" Y="-30593.387"/>
 	</skpath>
-	<skpath from="73" to="69" linestyle="invisible">
+	<skpath from="38" to="34" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44385.12" Y="-28010.357"/>
 		<pt X="-46485.12" Y="-28010.357"/>
 	</skpath>
-	<skpath from="83" to="74" linestyle="estwall" splined="1">
+	<skpath from="49" to="39" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44855.133" Y="-30593.387"/>
 		<pt X="-44712.33" Y="-30593.387"/>
 	</skpath>
-	<skpath from="81" to="66" linestyle="wall" splined="1">
+	<skpath from="47" to="31" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-45092.33" Y="-30093.387"/>
 		<pt X="-45092.33" Y="-30883.387"/>
 	</skpath>
-	<skpath from="84" to="85" linestyle="connective">
+	<skpath from="50" to="51" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">UP&space;&newline;(elevation)</pctext>
 		</pathcodes>
@@ -627,18 +386,18 @@
 		<pt X="-44931.215" Y="-28371.316"/>
 		<pt X="-44927.695" Y="-28285.744"/>
 	</skpath>
-	<skpath from="69" to="69" linestyle="wall" splined="1">
+	<skpath from="34" to="34" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="-46485.12" Y="-28010.357"/>
 		<pt X="-46485.12" Y="-28010.357"/>
 	</skpath>
-	<skpath from="86" to="87" linestyle="invisible">
+	<skpath from="52" to="53" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52206.38" Y="-17953.498"/>
 		<pt X="-52206.38" Y="-20923.498"/>
 	</skpath>
-	<skpath from="88" to="89" linestyle="connective">
+	<skpath from="54" to="55" linestyle="connective">
 		<pathcodes>
 			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -647,51 +406,51 @@
 		<pt X="-51380.34" Y="-18166.582"/>
 		<pt X="-50153.586" Y="-18056.527"/>
 	</skpath>
-	<skpath from="90" to="89" linestyle="wall" splined="1">
+	<skpath from="56" to="55" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50153.586" Y="-20876.527"/>
 		<pt X="-50153.586" Y="-18056.527"/>
 	</skpath>
-	<skpath from="91" to="86" linestyle="invisible">
+	<skpath from="57" to="52" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50106.38" Y="-17953.498"/>
 		<pt X="-52206.38" Y="-17953.498"/>
 	</skpath>
-	<skpath from="89" to="92" linestyle="wall" splined="1">
+	<skpath from="55" to="58" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50153.586" Y="-18056.527"/>
 		<pt X="-52163.586" Y="-18056.527"/>
 	</skpath>
-	<skpath from="93" to="90" linestyle="wall" splined="1">
+	<skpath from="59" to="56" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52163.586" Y="-20876.527"/>
 		<pt X="-50153.586" Y="-20876.527"/>
 	</skpath>
-	<skpath from="87" to="94" linestyle="invisible">
+	<skpath from="53" to="60" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52206.38" Y="-20923.498"/>
 		<pt X="-50106.38" Y="-20923.498"/>
 	</skpath>
-	<skpath from="87" to="93" linestyle="invisible" splined="1">
+	<skpath from="53" to="59" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52206.38" Y="-20923.498"/>
 		<pt X="-52163.586" Y="-20876.527"/>
 	</skpath>
-	<skpath from="94" to="91" linestyle="invisible">
+	<skpath from="60" to="57" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50106.38" Y="-20923.498"/>
 		<pt X="-50106.38" Y="-17953.498"/>
 	</skpath>
-	<skpath from="87" to="95" linestyle="connective">
+	<skpath from="53" to="61" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -700,29 +459,29 @@
 		<pt X="-52206.38" Y="-20923.498"/>
 		<pt X="-52140.78" Y="-20893.479"/>
 	</skpath>
-	<skpath from="96" to="97" linestyle="invisible">
+	<skpath from="62" to="63" linestyle="invisible">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-47289.855" Y="-17554.686"/>
 		<pt X="-50259.855" Y="-17554.686"/>
 	</skpath>
-	<skpath from="97" to="98" linestyle="invisible">
+	<skpath from="63" to="64" linestyle="invisible">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-50259.855" Y="-17554.686"/>
 		<pt X="-50259.855" Y="-19654.686"/>
 	</skpath>
-	<skpath from="98" to="99" linestyle="invisible">
+	<skpath from="64" to="65" linestyle="invisible">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-50259.855" Y="-19654.686"/>
 		<pt X="-47289.855" Y="-19654.686"/>
 	</skpath>
-	<skpath from="99" to="96" linestyle="invisible">
+	<skpath from="65" to="62" linestyle="invisible">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-47289.855" Y="-19654.686"/>
 		<pt X="-47289.855" Y="-17554.686"/>
 	</skpath>
-	<skpath from="98" to="100" linestyle="connective">
+	<skpath from="64" to="66" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="4000">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -730,7 +489,7 @@
 		<pt X="-50259.855" Y="-19654.686"/>
 		<pt X="-49974.74" Y="-19636.732"/>
 	</skpath>
-	<skpath from="101" to="67" linestyle="connective">
+	<skpath from="67" to="32" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.142971498633012" sfytrans="5.308193236405553" sfsketch="204/204residue" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -739,7 +498,7 @@
 		<pt X="-44622.914" Y="-30853.238"/>
 		<pt X="-44472.33" Y="-30883.387"/>
 	</skpath>
-	<skpath from="102" to="103" linestyle="connective">
+	<skpath from="68" to="69" linestyle="connective">
 		<pathcodes>
 			<pctext style="titleentname" nodeposxrel="-1.0" nodeposyrel="1.0">Elevation&newline;to&space;scale</pctext>
 		</pathcodes>
@@ -747,7 +506,7 @@
 		<pt X="-51990.793" Y="-18619.213"/>
 		<pt X="-52051.062" Y="-18619.898"/>
 	</skpath>
-	<skpath from="104" to="60" linestyle="connective">
+	<skpath from="70" to="26" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.699601576758011" sfytrans="6.158886009843053" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -756,17 +515,17 @@
 		<pt X="-50598.07" Y="-21806.613"/>
 		<pt X="-50501.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="105" to="106" linestyle="wall" splined="1">
+	<skpath from="71" to="72" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-50130.0" Y="-19060.0"/>
 		<pt X="-50130.0" Y="-19570.0"/>
 	</skpath>
-	<skpath from="107" to="108" linestyle="wall" splined="1">
+	<skpath from="73" to="74" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-47410.0" Y="-18780.0"/>
 		<pt X="-47410.0" Y="-19060.0"/>
 	</skpath>
-	<skpath from="109" to="108" linestyle="connective">
+	<skpath from="75" to="74" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="360.0" sfxtrans="-77.8" sfytrans="1.1538478464847095" sfsketch="161/toimport/oldmenfinal" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="default" uppersubset="obscuredsets"/>
@@ -777,7 +536,7 @@
 		<pt X="-47665.348" Y="-19172.72"/>
 		<pt X="-47410.0" Y="-19060.0"/>
 	</skpath>
-	<skpath from="110" to="108" linestyle="connective">
+	<skpath from="76" to="74" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="360.0" sfxtrans="-77.8" sfytrans="1.1538478464847095" sfsketch="161/161farnorthonly" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="chicken flied nice" uppersubset="green"/>
@@ -788,7 +547,7 @@
 		<pt X="-47590.61" Y="-19258.135"/>
 		<pt X="-47410.0" Y="-19060.0"/>
 	</skpath>
-	<skpath from="111" to="112" linestyle="connective">
+	<skpath from="77" to="78" linestyle="connective">
 		<pathcodes>
 			<pctext style="titleentname" nodeposxrel="0.0" nodeposyrel="1.0">%t1/0.2%%v0/%%h0/%&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
 		</pathcodes>
@@ -796,17 +555,17 @@
 		<pt X="-47677.195" Y="-19522.98"/>
 		<pt X="-47410.0" Y="-19570.0"/>
 	</skpath>
-	<skpath from="106" to="112" linestyle="wall" splined="1">
+	<skpath from="72" to="78" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-50130.0" Y="-19570.0"/>
 		<pt X="-47410.0" Y="-19570.0"/>
 	</skpath>
-	<skpath from="112" to="108" linestyle="wall" splined="1">
+	<skpath from="78" to="74" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-47410.0" Y="-19570.0"/>
 		<pt X="-47410.0" Y="-19060.0"/>
 	</skpath>
-	<skpath from="113" to="114" linestyle="connective">
+	<skpath from="79" to="80" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -815,13 +574,13 @@
 		<pt X="-49493.12" Y="-17684.088"/>
 		<pt X="-47330.0" Y="-17610.0"/>
 	</skpath>
-	<skpath from="115" to="116" linestyle="wall" splined="1">
+	<skpath from="81" to="82" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50180.0" Y="-17630.0"/>
 		<pt X="-50180.0" Y="-18160.0"/>
 	</skpath>
-	<skpath from="117" to="118" linestyle="connective">
+	<skpath from="83" to="84" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.636905873633012" sfytrans="6.510631908280554" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -831,7 +590,7 @@
 		<pt X="-49674.074" Y="-18089.398"/>
 		<pt X="-49560.0" Y="-18160.0"/>
 	</skpath>
-	<skpath from="119" to="118" linestyle="connective">
+	<skpath from="85" to="84" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.636905873633012" sfytrans="6.510631908280554" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -841,30 +600,30 @@
 		<pt X="-49676.4" Y="-18140.557"/>
 		<pt X="-49560.0" Y="-18160.0"/>
 	</skpath>
-	<skpath from="116" to="118" linestyle="wall" splined="1">
+	<skpath from="82" to="84" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50180.0" Y="-18160.0"/>
 		<pt X="-49560.0" Y="-18160.0"/>
 	</skpath>
-	<skpath from="118" to="120" linestyle="wall" splined="1">
+	<skpath from="84" to="86" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49560.0" Y="-18160.0"/>
 		<pt X="-49560.0" Y="-17630.0"/>
 	</skpath>
-	<skpath from="120" to="115" linestyle="wall" splined="1">
+	<skpath from="86" to="81" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49560.0" Y="-17630.0"/>
 		<pt X="-50180.0" Y="-17630.0"/>
 	</skpath>
-	<skpath from="105" to="107" linestyle="wall">
+	<skpath from="71" to="73" linestyle="wall">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-50130.0" Y="-19060.0"/>
 		<pt X="-47410.0" Y="-18780.0"/>
 	</skpath>
-	<skpath from="121" to="112" linestyle="connective">
+	<skpath from="87" to="78" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlearea" nodeposxrel="1.0" nodeposyrel="0.0">Elevation&newline;to&space;scale</pctext>
 		</pathcodes>
@@ -872,7 +631,7 @@
 		<pt X="-47771.496" Y="-19477.477"/>
 		<pt X="-47410.0" Y="-19570.0"/>
 	</skpath>
-	<skpath from="103" to="122" linestyle="connective">
+	<skpath from="69" to="88" linestyle="connective">
 		<pathcodes>
 			<pctext style="titleentname" nodeposxrel="0.0" nodeposyrel="1.0">%t1/0.2%%v0/%%h0/%&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
 		</pathcodes>
@@ -880,13 +639,13 @@
 		<pt X="-52051.062" Y="-18619.898"/>
 		<pt X="-52120.0" Y="-18110.0"/>
 	</skpath>
-	<skpath from="123" to="122" linestyle="wall" splined="1">
+	<skpath from="89" to="88" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50190.0" Y="-18110.0"/>
 		<pt X="-52120.0" Y="-18110.0"/>
 	</skpath>
-	<skpath from="123" to="124" linestyle="connective">
+	<skpath from="89" to="90" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="360.0" sfxtrans="-77.800415234375" sfytrans="1.2258435496097095" sfsketch="161/toimport/oldmenfinal" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -902,36 +661,36 @@
 		<pt X="-50190.0" Y="-18110.0"/>
 		<pt X="-50429.074" Y="-18192.158"/>
 	</skpath>
-	<skpath from="123" to="89" linestyle="invisible">
+	<skpath from="89" to="55" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50190.0" Y="-18110.0"/>
 		<pt X="-50153.586" Y="-18056.527"/>
 	</skpath>
-	<skpath from="125" to="123" linestyle="wall" splined="1">
+	<skpath from="91" to="89" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50190.0" Y="-18950.0"/>
 		<pt X="-50190.0" Y="-18110.0"/>
 	</skpath>
-	<skpath from="126" to="125" linestyle="wall">
+	<skpath from="92" to="91" linestyle="wall">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-51020.0" Y="-18690.0"/>
 		<pt X="-50190.0" Y="-18950.0"/>
 	</skpath>
-	<skpath from="122" to="127" linestyle="wall" splined="1">
+	<skpath from="88" to="93" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52120.0" Y="-18110.0"/>
 		<pt X="-52120.0" Y="-18690.0"/>
 	</skpath>
-	<skpath from="127" to="126" linestyle="wall" splined="1">
+	<skpath from="93" to="92" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52120.0" Y="-18690.0"/>
 		<pt X="-51020.0" Y="-18690.0"/>
 	</skpath>
-	<skpath from="128" to="51" linestyle="connective">
+	<skpath from="94" to="17" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Inset</pctext>
 		</pathcodes>
@@ -939,70 +698,18 @@
 		<pt X="-49290.54" Y="-23449.617"/>
 		<pt X="-49146.207" Y="-23517.207"/>
 	</skpath>
-	<skpath from="45" to="129" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">%t2/0.1%%v0/%%h0/%&newline;;%v0.5/%%t0/%%h2/%%whiterect%&newline;%v0.5/0.1%&space;&newline;%v0.5/%%t0/%%h2/%&newline;;%v0.5/%%t2/%%h0/%%blackrect%</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46376.574" Y="-25718.621"/>
-		<pt X="-46512.125" Y="-26559.764"/>
-	</skpath>
-	<skpath from="129" to="130" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<importfrom subname="2012routefinder"/>
-		<pt X="-46512.125" Y="-26559.764"/>
-		<pt X="-45363.645" Y="-26559.764"/>
-	</skpath>
-	<skpath from="130" to="131" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<importfrom subname="2012routefinder"/>
-		<pt X="-45363.645" Y="-26559.764"/>
-		<pt X="-45363.645" Y="-24857.742"/>
-	</skpath>
-	<skpath from="131" to="132" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="90.0" sfelevrotdeg="270.0" sfxtrans="-1.4662206412184375" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-				<subsetattr name="germanoldmen" uppersubset="green"/>
-				<subsetattr name="holey cow" uppersubset="cyan"/>
-				<subsetattr name="ironyoftime" uppersubset="red"/>
-				<subsetattr name="mordor" uppersubset="red"/>
-				<subsetattr name="oldmen" uppersubset="yellow"/>
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<importfrom subname="2012routefinder"/>
-		<pt X="-45363.645" Y="-24857.742"/>
-		<pt X="-45565.61" Y="-25066.61"/>
-	</skpath>
-	<skpath from="131" to="6" linestyle="invisible">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-45363.645" Y="-24857.742"/>
-		<pt X="-45343.88" Y="-24757.576"/>
-	</skpath>
-	<skpath from="131" to="133" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<importfrom subname="2012routefinder"/>
-		<pt X="-45363.645" Y="-24857.742"/>
-		<pt X="-46512.125" Y="-24857.742"/>
-	</skpath>
-	<skpath from="133" to="129" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A4_page_2"/>
-		<importfrom subname="2012routefinder"/>
-		<pt X="-46512.125" Y="-24857.742"/>
-		<pt X="-46512.125" Y="-26559.764"/>
-	</skpath>
-	<skpath from="134" to="135" linestyle="wall" splined="1">
+	<skpath from="95" to="96" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51091.22" Y="-23444.547"/>
 		<pt X="-50194.195" Y="-23444.547"/>
 	</skpath>
-	<skpath from="50" to="134" linestyle="invisible">
+	<skpath from="16" to="95" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<pt X="-51156.207" Y="-23517.207"/>
 		<pt X="-51091.22" Y="-23444.547"/>
 	</skpath>
-	<skpath from="136" to="137" linestyle="connective">
+	<skpath from="97" to="98" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.95245234375" sfytrans="164.2079611328125" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -1017,25 +724,25 @@
 		<pt X="-50194.195" Y="-22129.59"/>
 		<pt X="-50306.324" Y="-22245.795"/>
 	</skpath>
-	<skpath from="135" to="136" linestyle="wall" splined="1">
+	<skpath from="96" to="97" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50194.195" Y="-23444.547"/>
 		<pt X="-50194.195" Y="-22129.59"/>
 	</skpath>
-	<skpath from="136" to="138" linestyle="wall" splined="1">
+	<skpath from="97" to="99" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50194.195" Y="-22129.59"/>
 		<pt X="-51091.22" Y="-22129.59"/>
 	</skpath>
-	<skpath from="138" to="134" linestyle="wall" splined="1">
+	<skpath from="99" to="95" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-51091.22" Y="-22129.59"/>
 		<pt X="-51091.22" Y="-23444.547"/>
 	</skpath>
-	<skpath from="139" to="138" linestyle="connective">
+	<skpath from="100" to="99" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Inset</pctext>
 		</pathcodes>
@@ -1043,56 +750,46 @@
 		<pt X="-50863.516" Y="-22343.617"/>
 		<pt X="-51091.22" Y="-22129.59"/>
 	</skpath>
-	<skpath from="140" to="114" linestyle="wall" splined="1">
+	<skpath from="101" to="80" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-47330.0" Y="-19621.64"/>
 		<pt X="-47330.0" Y="-17610.0"/>
 	</skpath>
-	<skpath from="140" to="99" linestyle="invisible" splined="1">
+	<skpath from="101" to="65" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-47330.0" Y="-19621.64"/>
 		<pt X="-47289.855" Y="-19654.686"/>
 	</skpath>
-	<skpath from="112" to="140" linestyle="invisible" splined="1">
+	<skpath from="78" to="101" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-47410.0" Y="-19570.0"/>
 		<pt X="-47330.0" Y="-19621.64"/>
 	</skpath>
-	<skpath from="115" to="141" linestyle="invisible" splined="1">
+	<skpath from="81" to="102" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-50180.0" Y="-17630.0"/>
 		<pt X="-50220.836" Y="-17610.0"/>
 	</skpath>
-	<skpath from="114" to="141" linestyle="wall" splined="1">
+	<skpath from="80" to="102" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-47330.0" Y="-17610.0"/>
 		<pt X="-50220.836" Y="-17610.0"/>
 	</skpath>
-	<skpath from="141" to="142" linestyle="wall" splined="1">
+	<skpath from="102" to="103" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50220.836" Y="-17610.0"/>
 		<pt X="-50220.836" Y="-19621.64"/>
 	</skpath>
-	<skpath from="142" to="140" linestyle="wall" splined="1">
+	<skpath from="103" to="101" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50220.836" Y="-19621.64"/>
 		<pt X="-47330.0" Y="-19621.64"/>
 	</skpath>
-	<skpath from="143" to="142" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-				<subsetattr name="chicken flied nice" uppersubset="green"/>
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_land_page_1"/>
-		<pt X="-50050.516" Y="-19422.785"/>
-		<pt X="-50220.836" Y="-19621.64"/>
-	</skpath>
-	<skpath from="142" to="144" linestyle="connective">
+	<skpath from="103" to="104" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -1108,78 +805,78 @@
 		<pt X="-50220.836" Y="-19621.64"/>
 		<pt X="-50199.39" Y="-19326.244"/>
 	</skpath>
-	<skpath from="145" to="116" linestyle="invisible" splined="1">
+	<skpath from="105" to="82" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<pt X="-49982.055" Y="-17929.621"/>
 		<pt X="-50180.0" Y="-18160.0"/>
 	</skpath>
-	<skpath from="145" to="146" linestyle="estwall" splined="1">
+	<skpath from="105" to="106" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49982.055" Y="-17929.621"/>
 		<pt X="-49849.56" Y="-17929.621"/>
 	</skpath>
-	<skpath from="146" to="147" linestyle="estwall" splined="1">
+	<skpath from="106" to="107" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49849.56" Y="-17929.621"/>
 		<pt X="-49849.56" Y="-17823.979"/>
 	</skpath>
-	<skpath from="147" to="148" linestyle="estwall" splined="1">
+	<skpath from="107" to="108" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49849.56" Y="-17823.979"/>
 		<pt X="-49985.75" Y="-17823.979"/>
 	</skpath>
-	<skpath from="148" to="149" linestyle="estwall" splined="1">
+	<skpath from="108" to="109" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_land_page_1"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-49985.75" Y="-17823.979"/>
 		<pt X="-49985.75" Y="-17929.19"/>
 	</skpath>
-	<skpath from="150" to="151" linestyle="estwall" splined="1">
+	<skpath from="110" to="111" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50576.89" Y="-20052.172"/>
 		<pt X="-50576.89" Y="-19935.836"/>
 	</skpath>
-	<skpath from="151" to="152" linestyle="estwall" splined="1">
+	<skpath from="111" to="112" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50576.89" Y="-19935.836"/>
 		<pt X="-50684.344" Y="-19935.836"/>
 	</skpath>
-	<skpath from="153" to="154" linestyle="wall" splined="1">
+	<skpath from="113" to="114" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50189.797" Y="-19800.973"/>
 		<pt X="-50809.797" Y="-19800.973"/>
 	</skpath>
-	<skpath from="155" to="153" linestyle="wall" splined="1">
+	<skpath from="115" to="113" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50189.797" Y="-20590.973"/>
 		<pt X="-50189.797" Y="-19800.973"/>
 	</skpath>
-	<skpath from="152" to="156" linestyle="estwall" splined="1">
+	<skpath from="112" to="116" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50684.344" Y="-19935.836"/>
 		<pt X="-50684.344" Y="-20056.611"/>
 	</skpath>
-	<skpath from="156" to="157" linestyle="invisible" splined="1">
+	<skpath from="116" to="117" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50684.344" Y="-20056.611"/>
 		<pt X="-50809.797" Y="-20590.973"/>
 	</skpath>
-	<skpath from="157" to="155" linestyle="wall" splined="1">
+	<skpath from="117" to="115" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50809.797" Y="-20590.973"/>
 		<pt X="-50189.797" Y="-20590.973"/>
 	</skpath>
-	<skpath from="158" to="155" linestyle="connective">
+	<skpath from="118" to="115" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.696088686133011" sfytrans="6.303499291093053" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -1189,7 +886,7 @@
 		<pt X="-50323.43" Y="-20486.396"/>
 		<pt X="-50189.797" Y="-20590.973"/>
 	</skpath>
-	<skpath from="159" to="155" linestyle="connective">
+	<skpath from="119" to="115" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.696088686133011" sfytrans="6.303499291093053" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -1198,24 +895,24 @@
 		<pt X="-50256.402" Y="-20488.36"/>
 		<pt X="-50189.797" Y="-20590.973"/>
 	</skpath>
-	<skpath from="154" to="157" linestyle="wall" splined="1">
+	<skpath from="114" to="117" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50809.797" Y="-19800.973"/>
 		<pt X="-50809.797" Y="-20590.973"/>
 	</skpath>
-	<skpath from="160" to="150" linestyle="estwall" splined="1">
+	<skpath from="120" to="110" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50674.58" Y="-20052.172"/>
 		<pt X="-50576.89" Y="-20052.172"/>
 	</skpath>
-	<skpath from="90" to="155" linestyle="invisible" splined="1">
+	<skpath from="56" to="115" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-50153.586" Y="-20876.527"/>
 		<pt X="-50189.797" Y="-20590.973"/>
 	</skpath>
-	<skpath from="161" to="114" linestyle="connective">
+	<skpath from="121" to="80" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlearea" nodeposxrel="0.0" nodeposyrel="0.0">Chicken&newline;Flied&space;Nice</pctext>
 		</pathcodes>
@@ -1223,7 +920,7 @@
 		<pt X="-47681.562" Y="-17766.15"/>
 		<pt X="-47330.0" Y="-17610.0"/>
 	</skpath>
-	<skpath from="162" to="118" linestyle="connective">
+	<skpath from="122" to="84" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.636905873633012" sfytrans="6.510631908280554" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="chicken flied nice" uppersubset="green"/>
@@ -1232,15 +929,15 @@
 		<pt X="-49615.008" Y="-18086.48"/>
 		<pt X="-49560.0" Y="-18160.0"/>
 	</skpath>
-	<skpath from="163" to="164" linestyle="connective">
+	<skpath from="123" to="124" linestyle="connective">
 		<pt X="-45687.98" Y="-31804.906"/>
 		<pt X="-45676.12" Y="-31775.654"/>
 	</skpath>
-	<skpath from="165" to="166" linestyle="connective">
+	<skpath from="125" to="126" linestyle="connective">
 		<pt X="-45542.133" Y="-31458.08"/>
 		<pt X="-45528.69" Y="-31428.826"/>
 	</skpath>
-	<skpath from="93" to="167" linestyle="connective">
+	<skpath from="59" to="127" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -1256,7 +953,7 @@
 		<pt X="-52163.586" Y="-20876.527"/>
 		<pt X="-52071.945" Y="-20637.902"/>
 	</skpath>
-	<skpath from="168" to="60" linestyle="connective">
+	<skpath from="128" to="26" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.699601576758011" sfytrans="6.158886009843053" sfsketch="76centreline" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -1265,7 +962,7 @@
 		<pt X="-50670.254" Y="-21861.312"/>
 		<pt X="-50501.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="169" to="60" linestyle="connective">
+	<skpath from="129" to="26" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.699601576758011" sfytrans="6.158886009843053" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 			</pcarea>
@@ -1274,36 +971,36 @@
 		<pt X="-50559.445" Y="-21787.613"/>
 		<pt X="-50501.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="170" to="171" linestyle="estwall" splined="1">
+	<skpath from="130" to="131" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50684.086" Y="-21623.104"/>
 		<pt X="-50580.348" Y="-21623.104"/>
 	</skpath>
-	<skpath from="171" to="172" linestyle="estwall" splined="1">
+	<skpath from="131" to="132" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50580.348" Y="-21623.104"/>
 		<pt X="-50580.348" Y="-21480.959"/>
 	</skpath>
-	<skpath from="172" to="173" linestyle="estwall" splined="1">
+	<skpath from="132" to="133" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50580.348" Y="-21480.959"/>
 		<pt X="-50690.52" Y="-21480.959"/>
 	</skpath>
-	<skpath from="173" to="174" linestyle="estwall" splined="1">
+	<skpath from="133" to="134" linestyle="estwall" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-50690.52" Y="-21480.959"/>
 		<pt X="-50690.52" Y="-21623.91"/>
 	</skpath>
-	<skpath from="174" to="59" linestyle="invisible" splined="1">
+	<skpath from="134" to="25" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_4"/>
 		<pt X="-50690.52" Y="-21623.91"/>
 		<pt X="-51121.8" Y="-21911.45"/>
 	</skpath>
-	<skpath from="64" to="175" linestyle="connective">
+	<skpath from="29" to="135" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="204/204residue" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
@@ -1518,7 +1215,7 @@
 		<pt X="-46442.33" Y="-30933.387"/>
 		<pt X="-46285.195" Y="-30765.69"/>
 	</skpath>
-	<skpath from="85" to="176" linestyle="connective">
+	<skpath from="51" to="136" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">%t2/0.1%%v0/%%h0/%&newline;;%v0.5/%%t0/%%h2/%%whiterect%&newline;%v0.5/0.1%&space;&newline;%v0.5/%%t0/%%h2/%&newline;;%v0.5/%%t2/%%h0/%%blackrect%</pctext>
 		</pathcodes>
@@ -1526,31 +1223,31 @@
 		<pt X="-44927.695" Y="-28285.744"/>
 		<pt X="-45087.617" Y="-28223.229"/>
 	</skpath>
-	<skpath from="176" to="177" linestyle="wall" splined="1">
+	<skpath from="136" to="137" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-45087.617" Y="-28223.229"/>
 		<pt X="-45087.617" Y="-29912.219"/>
 	</skpath>
-	<skpath from="177" to="178" linestyle="wall" splined="1">
+	<skpath from="137" to="138" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-45087.617" Y="-29912.219"/>
 		<pt X="-44489.43" Y="-29912.219"/>
 	</skpath>
-	<skpath from="178" to="179" linestyle="wall" splined="1">
+	<skpath from="138" to="139" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44489.43" Y="-29912.219"/>
 		<pt X="-44489.43" Y="-28223.387"/>
 	</skpath>
-	<skpath from="179" to="176" linestyle="wall" splined="1">
+	<skpath from="139" to="136" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44489.43" Y="-28223.387"/>
 		<pt X="-45087.617" Y="-28223.229"/>
 	</skpath>
-	<skpath from="179" to="180" linestyle="connective">
+	<skpath from="139" to="140" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="90.0" sfelevrotdeg="270.0" sfxtrans="-1.3545698599684375" sfytrans="164.1" sfsketch="204/204residue" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="7-11 chamber" uppersubset="blue"/>
@@ -1566,7 +1263,7 @@
 		<pt X="-44489.43" Y="-28223.387"/>
 		<pt X="-44579.16" Y="-28509.219"/>
 	</skpath>
-	<skpath from="179" to="181" linestyle="connective">
+	<skpath from="139" to="141" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="90.0" sfelevrotdeg="270.0" sfxtrans="-1.3545698599684375" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -1581,65 +1278,49 @@
 		<pt X="-44489.43" Y="-28223.387"/>
 		<pt X="-44636.332" Y="-28431.893"/>
 	</skpath>
-	<skpath from="179" to="63" linestyle="invisible" splined="1">
+	<skpath from="139" to="44" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_1"/>
 		<importfrom subname="2012routefinder"/>
 		<pt X="-44489.43" Y="-28223.387"/>
 		<pt X="-44432.33" Y="-28113.387"/>
 	</skpath>
-	<skpath from="182" to="13" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_2"/>
-		<pt X="-46751.477" Y="-27420.441"/>
-		<pt X="-46681.52" Y="-27558.592"/>
-	</skpath>
-	<skpath from="183" to="26" linestyle="connective">
-		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.530389076758013" sfytrans="5.704216283280553" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_3"/>
-		<pt X="-48610.133" Y="-26495.42"/>
-		<pt X="-48534.04" Y="-26600.98"/>
-	</skpath>
-	<skpath from="184" to="185" linestyle="connective">
+	<skpath from="142" to="143" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">300m&space;to&space;Eislufthohle</pctext>
 		</pathcodes>
+		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-52116.36" Y="-19144.977"/>
 		<pt X="-52152.73" Y="-19144.186"/>
 	</skpath>
-	<skpath from="92" to="186" linestyle="wall" splined="1">
+	<skpath from="58" to="144" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52163.586" Y="-18056.527"/>
 		<pt X="-52163.586" Y="-18955.287"/>
 	</skpath>
-	<skpath from="186" to="187" linestyle="wall" splined="1">
+	<skpath from="144" to="145" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-52163.586" Y="-18955.287"/>
 		<pt X="-51749.574" Y="-18955.287"/>
 	</skpath>
-	<skpath from="186" to="188" linestyle="wall" splined="1">
+	<skpath from="144" to="146" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52163.586" Y="-18955.287"/>
 		<pt X="-52163.586" Y="-19189.4"/>
 	</skpath>
-	<skpath from="185" to="188" linestyle="connective">
+	<skpath from="143" to="146" linestyle="connective">
+		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-52152.73" Y="-19144.186"/>
 		<pt X="-52163.586" Y="-19189.4"/>
 	</skpath>
-	<skpath from="188" to="93" linestyle="wall" splined="1">
+	<skpath from="146" to="59" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-52163.586" Y="-19189.4"/>
 		<pt X="-52163.586" Y="-20876.527"/>
 	</skpath>
-	<skpath from="188" to="189" linestyle="connective">
+	<skpath from="146" to="147" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.771500390625" sfytrans="164.07939101562502" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
@@ -1654,55 +1335,55 @@
 		<pt X="-52163.586" Y="-19189.4"/>
 		<pt X="-52144.09" Y="-19106.592"/>
 	</skpath>
-	<skpath from="188" to="190" linestyle="wall" splined="1">
+	<skpath from="146" to="148" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-52163.586" Y="-19189.4"/>
 		<pt X="-51749.574" Y="-19189.4"/>
 	</skpath>
-	<skpath from="190" to="187" linestyle="wall" splined="1">
+	<skpath from="148" to="145" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_5"/>
 		<pt X="-51749.574" Y="-19189.4"/>
 		<pt X="-51749.574" Y="-18955.287"/>
 	</skpath>
-	<skpath from="192" to="193" linestyle="invisible">
+	<skpath from="149" to="150" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44263.76" Y="-30695.455"/>
 		<pt X="-46363.76" Y="-30695.455"/>
 	</skpath>
-	<skpath from="194" to="195" linestyle="wall" splined="1">
+	<skpath from="151" to="152" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-46320.97" Y="-30798.484"/>
 		<pt X="-46320.97" Y="-33618.484"/>
 	</skpath>
-	<skpath from="196" to="191" linestyle="wall" splined="1">
+	<skpath from="153" to="154" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44310.97" Y="-33618.484"/>
 		<pt X="-44310.97" Y="-30798.484"/>
 	</skpath>
-	<skpath from="193" to="197" linestyle="invisible">
+	<skpath from="150" to="155" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-46363.76" Y="-30695.455"/>
 		<pt X="-46363.76" Y="-33665.453"/>
 	</skpath>
-	<skpath from="197" to="198" linestyle="invisible">
+	<skpath from="155" to="156" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-46363.76" Y="-33665.453"/>
 		<pt X="-44263.76" Y="-33665.453"/>
 	</skpath>
-	<skpath from="197" to="195" linestyle="invisible" splined="1">
+	<skpath from="155" to="152" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-46363.76" Y="-33665.453"/>
 		<pt X="-46320.97" Y="-33618.484"/>
 	</skpath>
-	<skpath from="197" to="199" linestyle="connective">
+	<skpath from="155" to="157" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -1711,19 +1392,19 @@
 		<pt X="-46363.76" Y="-33665.453"/>
 		<pt X="-46298.164" Y="-33635.438"/>
 	</skpath>
-	<skpath from="195" to="196" linestyle="wall" splined="1">
+	<skpath from="152" to="153" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-46320.97" Y="-33618.484"/>
 		<pt X="-44310.97" Y="-33618.484"/>
 	</skpath>
-	<skpath from="191" to="194" linestyle="wall" splined="1">
+	<skpath from="154" to="151" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44310.97" Y="-30798.484"/>
 		<pt X="-46320.97" Y="-30798.484"/>
 	</skpath>
-	<skpath from="195" to="200" linestyle="connective">
+	<skpath from="152" to="158" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="204/204residue" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
@@ -1938,13 +1619,13 @@
 		<pt X="-46320.97" Y="-33618.484"/>
 		<pt X="-46186.09" Y="-33397.85"/>
 	</skpath>
-	<skpath from="198" to="192" linestyle="invisible">
+	<skpath from="156" to="149" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_6"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44263.76" Y="-33665.453"/>
 		<pt X="-44263.76" Y="-30695.455"/>
 	</skpath>
-	<skpath from="201" to="191" linestyle="connective">
+	<skpath from="159" to="154" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -1953,37 +1634,37 @@
 		<pt X="-45829.934" Y="-31146.037"/>
 		<pt X="-44310.97" Y="-30798.484"/>
 	</skpath>
-	<skpath from="202" to="203" linestyle="invisible">
+	<skpath from="160" to="161" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-42882.195" Y="-49650.93"/>
 		<pt X="-44982.195" Y="-49650.93"/>
 	</skpath>
-	<skpath from="204" to="205" linestyle="invisible">
+	<skpath from="162" to="163" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44982.195" Y="-52620.93"/>
 		<pt X="-42882.195" Y="-52620.93"/>
 	</skpath>
-	<skpath from="203" to="204" linestyle="invisible">
+	<skpath from="161" to="162" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44982.195" Y="-49650.93"/>
 		<pt X="-44982.195" Y="-52620.93"/>
 	</skpath>
-	<skpath from="205" to="202" linestyle="invisible">
+	<skpath from="163" to="160" linestyle="invisible">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-42882.195" Y="-52620.93"/>
 		<pt X="-42882.195" Y="-49650.93"/>
 	</skpath>
-	<skpath from="206" to="207" linestyle="wall" splined="1">
+	<skpath from="164" to="165" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44939.402" Y="-52573.957"/>
 		<pt X="-42929.402" Y="-52573.957"/>
 	</skpath>
-	<skpath from="208" to="209" linestyle="connective">
+	<skpath from="166" to="167" linestyle="connective">
 		<pathcodes>
 			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
@@ -1992,7 +1673,7 @@
 		<pt X="-44045.902" Y="-49795.18"/>
 		<pt X="-42929.402" Y="-49753.957"/>
 	</skpath>
-	<skpath from="206" to="210" linestyle="connective">
+	<skpath from="164" to="168" linestyle="connective">
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="258/258all" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="258 part 1" uppersubset="red"/>
@@ -2120,33 +1801,33 @@
 		<pt X="-44939.402" Y="-52573.957"/>
 		<pt X="-44824.586" Y="-52344.004"/>
 	</skpath>
-	<skpath from="211" to="206" linestyle="wall" splined="1">
+	<skpath from="169" to="164" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44939.402" Y="-49753.957"/>
 		<pt X="-44939.402" Y="-52573.957"/>
 	</skpath>
-	<skpath from="209" to="211" linestyle="wall" splined="1">
+	<skpath from="167" to="169" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-42929.402" Y="-49753.957"/>
 		<pt X="-44939.402" Y="-49753.957"/>
 	</skpath>
-	<skpath from="204" to="206" linestyle="invisible" splined="1">
+	<skpath from="162" to="164" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44982.195" Y="-52620.93"/>
 		<pt X="-44939.402" Y="-52573.957"/>
 	</skpath>
-	<skpath from="207" to="209" linestyle="wall" splined="1">
+	<skpath from="165" to="167" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A4_page_7"/>
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-42929.402" Y="-52573.957"/>
 		<pt X="-42929.402" Y="-49753.957"/>
 	</skpath>
-	<skpath from="204" to="212" linestyle="connective">
+	<skpath from="162" to="170" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -2154,6 +1835,395 @@
 		<importfrom subname="D2012routefinder"/>
 		<pt X="-44982.195" Y="-52620.93"/>
 		<pt X="-44916.598" Y="-52590.906"/>
+	</skpath>
+	<skpath from="171" to="103" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="chicken flied nice" uppersubset="green"/>
+				<subsetattr name="default" uppersubset="obscuredsets"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_land_page_1"/>
+		<pt X="-50147.49" Y="-19457.299"/>
+		<pt X="-50220.836" Y="-19621.64"/>
+	</skpath>
+	<skpath from="173" to="174" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.530389076758013" sfytrans="5.704216283280553" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_3"/>
+		<pt X="-48610.133" Y="-26495.42"/>
+		<pt X="-48538.11" Y="-26600.98"/>
+	</skpath>
+	<skpath from="175" to="174" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.530389076758013" sfytrans="5.704216283280553" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48667.67" Y="-26496.404"/>
+		<pt X="-48538.11" Y="-26600.98"/>
+	</skpath>
+	<skpath from="176" to="174" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="204/204residue" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48691.55" Y="-26520.281"/>
+		<pt X="-48538.11" Y="-26600.98"/>
+	</skpath>
+	<skpath from="174" to="177" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48538.11" Y="-26600.98"/>
+		<pt X="-48538.11" Y="-25942.36"/>
+	</skpath>
+	<skpath from="177" to="178" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48538.11" Y="-25942.36"/>
+		<pt X="-49155.95" Y="-25942.36"/>
+	</skpath>
+	<skpath from="178" to="179" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-49155.95" Y="-25942.36"/>
+		<pt X="-49155.95" Y="-26600.98"/>
+	</skpath>
+	<skpath from="179" to="174" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-49155.95" Y="-26600.98"/>
+		<pt X="-48538.11" Y="-26600.98"/>
+	</skpath>
+	<skpath from="172" to="179" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48884.31" Y="-26311.877"/>
+		<pt X="-49155.95" Y="-26600.98"/>
+	</skpath>
+	<skpath from="179" to="1" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-49155.95" Y="-26600.98"/>
+		<pt X="-49206.4" Y="-26619.965"/>
+	</skpath>
+	<skpath from="3" to="180" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48774.04" Y="-26310.98"/>
+		<pt X="-48774.234" Y="-26168.926"/>
+	</skpath>
+	<skpath from="180" to="181" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48774.234" Y="-26168.926"/>
+		<pt X="-48884.31" Y="-26168.926"/>
+	</skpath>
+	<skpath from="181" to="172" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_3"/>
+		<importfrom subname="D2012routefinder"/>
+		<pt X="-48884.31" Y="-26168.926"/>
+		<pt X="-48884.31" Y="-26311.877"/>
+	</skpath>
+	<skpath from="182" to="183" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Elevation&space;to&space;&newline;scale</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46481.332" Y="-25615.379"/>
+		<pt X="-46456.465" Y="-25721.283"/>
+	</skpath>
+	<skpath from="184" to="185" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47476.562" Y="-27627.209"/>
+		<pt X="-47433.77" Y="-27580.238"/>
+	</skpath>
+	<skpath from="186" to="187" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="161/161farnorthonly" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46831.367" Y="-27423.104"/>
+		<pt X="-46761.41" Y="-27561.254"/>
+	</skpath>
+	<skpath from="188" to="185" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47381.41" Y="-27561.254"/>
+		<pt X="-47433.77" Y="-27580.238"/>
+	</skpath>
+	<skpath from="189" to="190" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-46592.016" Y="-26562.426"/>
+		<pt X="-45443.535" Y="-26562.426"/>
+	</skpath>
+	<skpath from="191" to="187" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="204/204residue" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46918.92" Y="-27480.555"/>
+		<pt X="-46761.41" Y="-27561.254"/>
+	</skpath>
+	<skpath from="192" to="193" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-45443.535" Y="-24860.404"/>
+		<pt X="-46592.016" Y="-24860.404"/>
+	</skpath>
+	<skpath from="194" to="195" linestyle="connective">
+		<pathcodes>
+			<pctext style="gridnum" nodeposxrel="-1.0" nodeposyrel="0.0">%1/0.5%&space;&newline;;%10/0.5%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/0.5%0m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46540.27" Y="-24801.46"/>
+		<pt X="-45423.77" Y="-24760.238"/>
+	</skpath>
+	<skpath from="196" to="183" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="0.0" nodeposyrel="0.0">UP</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46518.527" Y="-25721.365"/>
+		<pt X="-46456.465" Y="-25721.283"/>
+	</skpath>
+	<skpath from="197" to="198" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47105.246" Y="-27271.436"/>
+		<pt X="-47001.41" Y="-27271.254"/>
+	</skpath>
+	<skpath from="188" to="187" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47381.41" Y="-27561.254"/>
+		<pt X="-46761.41" Y="-27561.254"/>
+	</skpath>
+	<skpath from="185" to="199" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47433.77" Y="-27580.238"/>
+		<pt X="-45423.77" Y="-27580.238"/>
+	</skpath>
+	<skpath from="192" to="200" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="90.0" sfelevrotdeg="270.0" sfxtrans="-1.478206412184373" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="FatCentreline2" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="germanoldmen" uppersubset="green"/>
+				<subsetattr name="holey cow" uppersubset="cyan"/>
+				<subsetattr name="ironyoftime" uppersubset="red"/>
+				<subsetattr name="mordor" uppersubset="red"/>
+				<subsetattr name="oldmen" uppersubset="yellow"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-45443.535" Y="-24860.404"/>
+		<pt X="-45645.5" Y="-25069.271"/>
+	</skpath>
+	<skpath from="201" to="188" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47381.41" Y="-26771.254"/>
+		<pt X="-47381.41" Y="-27561.254"/>
+	</skpath>
+	<skpath from="190" to="192" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-45443.535" Y="-26562.426"/>
+		<pt X="-45443.535" Y="-24860.404"/>
+	</skpath>
+	<skpath from="193" to="189" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-46592.016" Y="-24860.404"/>
+		<pt X="-46592.016" Y="-26562.426"/>
+	</skpath>
+	<skpath from="202" to="187" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="10000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-8.356388295508012" sfytrans="5.616644408280553" sfsketch="161/toimport/oldmenfinal" sfstyle="baseBW4000" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46895.043" Y="-27456.678"/>
+		<pt X="-46761.41" Y="-27561.254"/>
+	</skpath>
+	<skpath from="183" to="189" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">%t2/0.1%%v0/%%h0/%&newline;;%v0.5/%%t0/%%h2/%%whiterect%&newline;%v0.5/0.1%&space;&newline;%v0.5/%%t0/%%h2/%&newline;;%v0.5/%%t2/%%h0/%%blackrect%</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46456.465" Y="-25721.283"/>
+		<pt X="-46592.016" Y="-26562.426"/>
+	</skpath>
+	<skpath from="185" to="203" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.8" sfytrans="164.1" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="germanoldmen" uppersubset="green"/>
+				<subsetattr name="holey cow" uppersubset="cyan"/>
+				<subsetattr name="ironyoftime" uppersubset="red"/>
+				<subsetattr name="mordor" uppersubset="red"/>
+				<subsetattr name="oldmen" uppersubset="yellow"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47433.77" Y="-27580.238"/>
+		<pt X="-47411.484" Y="-27293.2"/>
+	</skpath>
+	<skpath from="199" to="195" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-45423.77" Y="-27580.238"/>
+		<pt X="-45423.77" Y="-24760.238"/>
+	</skpath>
+	<skpath from="195" to="204" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-45423.77" Y="-24760.238"/>
+		<pt X="-47433.77" Y="-24760.238"/>
+	</skpath>
+	<skpath from="204" to="185" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47433.77" Y="-24760.238"/>
+		<pt X="-47433.77" Y="-27580.238"/>
+	</skpath>
+	<skpath from="192" to="195" linestyle="invisible">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-45443.535" Y="-24860.404"/>
+		<pt X="-45423.77" Y="-24760.238"/>
+	</skpath>
+	<skpath from="205" to="184" linestyle="invisible">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47476.562" Y="-24657.209"/>
+		<pt X="-47476.562" Y="-27627.209"/>
+	</skpath>
+	<skpath from="184" to="206" linestyle="invisible">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47476.562" Y="-27627.209"/>
+		<pt X="-45376.562" Y="-27627.209"/>
+	</skpath>
+	<skpath from="207" to="205" linestyle="invisible">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-45376.562" Y="-24657.209"/>
+		<pt X="-47476.562" Y="-24657.209"/>
+	</skpath>
+	<skpath from="206" to="207" linestyle="invisible">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-45376.562" Y="-27627.209"/>
+		<pt X="-45376.562" Y="-24657.209"/>
+	</skpath>
+	<skpath from="184" to="208" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="4000" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47476.562" Y="-27627.209"/>
+		<pt X="-47410.965" Y="-27597.19"/>
+	</skpath>
+	<skpath from="209" to="188" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47111.68" Y="-27272.15"/>
+		<pt X="-47381.41" Y="-27561.254"/>
+	</skpath>
+	<skpath from="198" to="210" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47001.41" Y="-27271.254"/>
+		<pt X="-47001.605" Y="-27129.2"/>
+	</skpath>
+	<skpath from="210" to="211" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47001.605" Y="-27129.2"/>
+		<pt X="-47111.68" Y="-27129.2"/>
+	</skpath>
+	<skpath from="211" to="209" linestyle="estwall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-47111.68" Y="-27129.2"/>
+		<pt X="-47111.68" Y="-27272.15"/>
+	</skpath>
+	<skpath from="187" to="212" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46761.41" Y="-27561.254"/>
+		<pt X="-46761.41" Y="-26975.691"/>
+	</skpath>
+	<skpath from="212" to="213" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46761.41" Y="-26975.691"/>
+		<pt X="-46925.297" Y="-26975.691"/>
+	</skpath>
+	<skpath from="213" to="214" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46925.297" Y="-26975.691"/>
+		<pt X="-46925.297" Y="-26771.254"/>
+	</skpath>
+	<skpath from="214" to="201" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_2"/>
+		<pt X="-46925.297" Y="-26771.254"/>
+		<pt X="-47381.41" Y="-26771.254"/>
+	</skpath>
+	<skpath from="215" to="29" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_1"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-46442.33" Y="-29354.234"/>
+		<pt X="-46442.33" Y="-30933.387"/>
+	</skpath>
+	<skpath from="216" to="215" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_1"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-46442.33" Y="-28784.723"/>
+		<pt X="-46442.33" Y="-29354.234"/>
+	</skpath>
+	<skpath from="46" to="216" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_1"/>
+		<importfrom subname="2012routefinder"/>
+		<pt X="-46442.33" Y="-28113.387"/>
+		<pt X="-46442.33" Y="-28784.723"/>
+	</skpath>
+	<skpath from="215" to="217" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="-46442.33" Y="-29354.234"/>
+		<pt X="-46075.035" Y="-29354.234"/>
+	</skpath>
+	<skpath from="217" to="218" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="-46075.035" Y="-29354.234"/>
+		<pt X="-46075.035" Y="-28784.723"/>
+	</skpath>
+	<skpath from="216" to="218" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="-46442.33" Y="-28784.723"/>
+		<pt X="-46075.035" Y="-28784.723"/>
+	</skpath>
+	<skpath from="215" to="219" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="500.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-77.836769921875" sfytrans="163.9741333984375" sfsketch="161/toimport/oldmenfinal" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="germanoldmen" uppersubset="green"/>
+				<subsetattr name="holey cow" uppersubset="cyan"/>
+				<subsetattr name="ironyoftime" uppersubset="red"/>
+				<subsetattr name="mordor" uppersubset="red"/>
+				<subsetattr name="oldmen" uppersubset="yellow"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="-46442.33" Y="-29354.234"/>
+		<pt X="-46367.504" Y="-29254.299"/>
+	</skpath>
+	<skpath from="220" to="215" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Inset</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="-46346.465" Y="-29329.967"/>
+		<pt X="-46442.33" Y="-29354.234"/>
+	</skpath>
+	<skpath from="221" to="46" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Inset</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="-45891.227" Y="-28145.736"/>
+		<pt X="-46442.33" Y="-28113.387"/>
 	</skpath>
 </sketch>
 </tunnelxml>
