@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-07-31 15:48:15">
+<tunnelxml tunnelversion="version2011-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria11" tunneldate="2012-08-16 11:58:06">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A0_page_1"/>
@@ -900,25 +900,31 @@
 	</skpath>
 	<skpath from="16" to="2" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="0.06564604" sfrotatedeg="0.10397578" sfelevrotdeg="0.0" sfxtrans="-3640.6448651228284" sfytrans="-2105.516358619606" sfsketch="Vorschlag-Ausschnitt-AV-Karte-1-15000-faded.png" sfstyle="" nodeconnzsetrelative="-2000.0" sfpixwidth="1169" sfpixheight="1653">
+			<pcarea area_signal="frame" sfscaledown="0.118032075" sfrotatedeg="-0.5413936" sfelevrotdeg="0.0" sfxtrans="-3869.1407172960935" sfytrans="-3244.4711413214286" sfsketch="location_maps/1623-1626-300dpi-faded.png" sfstyle="" nodeconnzsetrelative="-2000.0" sfpixwidth="2472" sfpixheight="3449">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="-23131.893" Y="-18362.965"/>
 		<pt X="-22311.402" Y="-18599.709"/>
 	</skpath>
-	<skpath from="17" to="18" linestyle="connective">
-		<pt X="-24612.922" Y="-17022.277"/>
-		<pt X="-24599.512" Y="-16998.14"/>
+	<skpath from="17" to="17" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="0.22659053" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-3127.5096688589974" sfytrans="-2202.8864727300315" sfsketch="location_maps/1623-1626-300dpi.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2472" sfpixheight="3449">
+			</pcarea>
+		</pathcodes>
+		<pt X="-31275.098" Y="-22028.865"/>
+		<pt X="-20365.55" Y="-22028.865"/>
+		<pt X="-20365.55" Y="-6807.575"/>
+		<pt X="-31275.098" Y="-6807.575"/>
+		<pt X="-31275.098" Y="-22028.865"/>
 	</skpath>
-	<skpath from="19" to="20" linestyle="connective">
-		<pt X="-29437.91" Y="-2228.9392"/>
-		<pt X="-29411.498" Y="-2214.7173"/>
+	<skpath from="18" to="19" linestyle="connective">
+		<pt X="-26891.127" Y="-18252.928"/>
+		<pt X="-26590.56" Y="-17901.494"/>
 	</skpath>
-	<skpath from="21" to="22" linestyle="connective">
-		<pt X="-26417.19" Y="-9529.664"/>
-		<pt X="-26398.879" Y="-9518.678"/>
-		<pt X="-26417.19" Y="-9512.575"/>
+	<skpath from="20" to="21" linestyle="connective">
+		<pt X="-32242.87" Y="-6387.5947"/>
+		<pt X="-31864.533" Y="-6030.2764"/>
 	</skpath>
 </sketch>
 </tunnelxml>
