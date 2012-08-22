@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2012-08-22 23:15:53">
+<sketch splined="0" locoffsetx="-12.756667" locoffsety="-10.356667" locoffsetz="-0.53" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*begin&space;farfromsupport&newline;&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;Steinbrueckenhoehle,&space;1623/204&newline;*title&space;&quot;Far&space;from&space;support&quot;&newline;*date&space;2012.08.09&newline;*team&space;Insts&space;Oliver&space;Madge&newline;*team&space;Notes&space;Becka&space;Lawson&newline;*instrument&space;Becka&apostrophe;s&space;distoX&newline;;&space;Calibration:&space;None&newline;;&space;ref.:&space;2012#21&newline;&newline;;&space;======&space;stations&space;refindable&space;to&space;link&space;to&space;other&space;surveys:&space;======&newline;*export&space;0&space;5&newline;&newline;*calibrate&space;tape&space;&space;&space;&space;&space;0;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;*data&space;normal&space;from&space;to&space;tape&space;compass&space;clino&newline;0&space;1&space;2.63&space;196&space;-37&newline;;0&space;1&space;2.63&space;196&space;-37&newline;;0&space;1&space;2.61&space;196&space;-37&newline;1&space;2&space;16.75&space;235&space;-6&newline;;1&space;2&space;16.74&space;235&space;-6&newline;;1&space;2&space;16.72&space;235&space;-6&newline;2&space;3&space;4.97&space;283&space;50&newline;;2&space;3&space;4.96&space;283&space;50&newline;;2&space;3&space;4.95&space;282&space;50&newline;3&space;4&space;3.70&space;180&space;21&newline;;3&space;4&space;3.69&space;181&space;21&newline;;3&space;4&space;3.70&space;180&space;21&newline;4&space;5&space;13.50&space;227&space;-10&newline;;4&space;5&space;13.49&space;228&space;-9&newline;;4&space;5&space;13.50&space;228&space;-9&newline;&newline;*end&space;farfromsupport</pctext>
+		</pathcodes>
+		<pt X="-143.03333" Y="-203.56667"/>
+		<pt X="-146.83936" Y="-222.70084"/>
+		<pt X="-157.67798" Y="-238.922"/>
+		<pt X="-173.89915" Y="-249.76064"/>
+		<pt X="-193.03333" Y="-253.56667"/>
+		<pt X="-212.1675" Y="-249.76064"/>
+		<pt X="-228.38867" Y="-238.922"/>
+		<pt X="-239.2273" Y="-222.70084"/>
+		<pt X="-243.03333" Y="-203.56667"/>
+		<pt X="-239.2273" Y="-184.4325"/>
+		<pt X="-228.38867" Y="-168.21133"/>
+		<pt X="-212.1675" Y="-157.3727"/>
+		<pt X="-193.03333" Y="-153.56667"/>
+		<pt X="-173.89915" Y="-149.76064"/>
+		<pt X="-157.67798" Y="-138.922"/>
+		<pt X="-146.83936" Y="-122.700836"/>
+		<pt X="-143.03333" Y="-103.566666"/>
+		<pt X="-146.83936" Y="-84.432495"/>
+		<pt X="-157.67798" Y="-68.21132"/>
+		<pt X="-173.89915" Y="-57.372696"/>
+		<pt X="-193.03333" Y="-53.566666"/>
+		<pt X="-212.1675" Y="-57.372696"/>
+		<pt X="-228.38867" Y="-68.21132"/>
+		<pt X="-239.2273" Y="-84.432495"/>
+		<pt X="-243.03333" Y="-103.566666"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="farfromsupport.0" head="farfromsupport.1"/>
+		</pathcodes>
+		<sketchsubset subname="Far from support"/>
+		<pt X="127.56667" Y="-103.566666" Z="5.2999997"/>
+		<pt X="121.76666" Y="-83.36667" Z="-10.5"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="farfromsupport.1" head="farfromsupport.2"/>
+		</pathcodes>
+		<sketchsubset subname="Far from support"/>
+		<pt X="121.76666" Y="-83.36667" Z="-10.5"/>
+		<pt X="-14.633333" Y="12.133333" Z="-28.0"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="farfromsupport.2" head="farfromsupport.3"/>
+		</pathcodes>
+		<sketchsubset subname="Far from support"/>
+		<pt X="-14.633333" Y="12.133333" Z="-28.0"/>
+		<pt X="-45.833336" Y="5.0333333" Z="10.0"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="farfromsupport.3" head="farfromsupport.4"/>
+		</pathcodes>
+		<sketchsubset subname="Far from support"/>
+		<pt X="-45.833336" Y="5.0333333" Z="10.0"/>
+		<pt X="-45.833336" Y="39.533333" Z="23.3"/>
+	</skpath>
+	<skpath from="7" to="7" linestyle="connective">
+		<pathcodes>
+			<pcarea area_signal="frame" sfscaledown="1.9519267" sfrotatedeg="-0.1301328" sfelevrotdeg="0.0" sfxtrans="-55.38613887654363" sfytrans="-11.616249336777614" sfsketch="surveyscans/2012/2012#22-FarFromSupport/traverse-sketch-0.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1810" sfpixheight="1186">
+			</pcarea>
+		</pathcodes>
+		<pt X="-426.2947" Y="-219.72916"/>
+		<pt X="500.99182" Y="-217.62306"/>
+		<pt X="499.6118" Y="389.98016"/>
+		<pt X="-427.67474" Y="387.87405"/>
+		<pt X="-426.2947" Y="-219.72916"/>
+	</skpath>
+	<skpath from="6" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="farfromsupport.4" head="farfromsupport.5"/>
+		</pathcodes>
+		<sketchsubset subname="Far from support"/>
+		<pt X="-45.833336" Y="39.533333" Z="23.3"/>
+		<pt X="-146.17041" Y="129.97406" Z="-0.099999994"/>
+	</skpath>
+</sketch>
+</tunnelxml>
