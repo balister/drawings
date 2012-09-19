@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2012-08-31 18:14:24">
+<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2012-08-31 18:36:30">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
@@ -880,6 +880,7 @@
 		<pathcodes>
 			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="all-2011" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="eishohle" uppersubset="green"/>
+				<subsetattr name="hauchhohle" uppersubset="obscuredsets"/>
 				<subsetattr name="kaninchenhohle" uppersubset="obscuredsets"/>
 				<subsetattr name="puffball" uppersubset="cyan"/>
 				<subsetattr name="schnell" uppersubset="blue"/>
@@ -939,6 +940,7 @@
 				<subsetattr name="pussy prance" uppersubset="yellow"/>
 			</pcarea>
 		</pathcodes>
+		<sketchsubset subname="paper_A1_page_1"/>
 		<pt X="-7513.789" Y="-11130.158"/>
 		<pt X="-5097.633" Y="-6193.515"/>
 	</skpath>
