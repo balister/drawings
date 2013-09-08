@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2013-09-01 18:55:50">
+<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2013-09-08 21:44:32">
 <sketch splined="0" locoffsetx="6.184" locoffsety="1.326" locoffsetz="-23.626" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
-			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*begin&space;surfergirl&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;Tunnocks&newline;&newline;*export&space;4&newline;&newline;*title&space;&quot;Surfer&space;Girl&quot;&newline;*date&space;2013.07.31&newline;*team&space;Insts&space;Holly&space;Bradley&newline;*team&space;Notes&space;Mike&space;Futrell&newline;*instrument&space;clino&space;compass&newline;*calibrate&space;tape&space;0.40&newline;&newline;;ref.:&space;2013#04&newline;&newline;;from&tab;to&tab;tape&tab;compass&tab;clino&tab;remarks&newline;4&tab;SG1&tab;09.02&tab;057.0&tab;-44.0&newline;SG1&tab;SG2&tab;28.40&tab;-&tab;down&newline;SG2&tab;SG3&tab;05.39&tab;156.0&tab;-20.0&newline;SG3&tab;SG4&tab;09.80&tab;075.0&tab;-46.0&newline;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;SG1&tab;3.00&tab;2.00&tab;2.00&tab;0.00&newline;SG2&tab;4.00&tab;3.00&tab;3.00&tab;0.00&newline;SG3&tab;4.00&tab;3.00&tab;40.0&tab;0.00&newline;SG4&tab;5.00&tab;2.00&tab;2.00&tab;2.00&newline;&newline;*end&space;&space;&space;surfergirl</pctext>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*begin&space;surfergirl&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;Tunnocks&newline;&newline;*export&space;4&newline;&newline;*title&space;&quot;Surfer&space;Girl&quot;&newline;*date&space;2013.07.31&newline;*team&space;Insts&space;Holly&space;Bradley&newline;*team&space;Notes&space;Mike&space;Futrell&newline;*instrument&space;clino&space;compass&newline;*calibrate&space;tape&space;0.40&newline;&newline;;ref.:&space;2013#04&newline;&newline;;from&tab;to&tab;tape&tab;compass&tab;clino&tab;remarks&newline;4&tab;SG1&tab;09.02&tab;057.0&tab;-44.0&newline;SG1&tab;SG2&tab;28.40&tab;-&tab;down&newline;SG2&tab;SG3&tab;05.39&tab;156.0&tab;-20.0&newline;SG3&tab;SG4&tab;09.80&tab;075.0&tab;-46.0&newline;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;SG1&tab;3.00&tab;2.00&tab;2.00&tab;0.00&newline;SG2&tab;4.00&tab;3.00&tab;3.00&tab;0.00&newline;SG3&tab;4.00&tab;3.00&tab;40.0&tab;0.00&newline;SG4&tab;5.00&tab;2.00&tab;2.00&tab;2.00&newline;&newline;*end&space;&space;&space;surfergirl</pctext>
 		</pathcodes>
 		<pt X="-61.84" Y="-120.54"/>
 		<pt X="-65.64603" Y="-139.67416"/>
@@ -35,6 +35,7 @@
 	<skpath from="2" to="3" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="surfergirl.4" head="surfergirl.sg1"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Surfer Girl"/>
 		<pt X="-61.84" Y="13.26" Z="236.26"/>
@@ -43,6 +44,7 @@
 	<skpath from="3" to="4" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="surfergirl.sg1" head="surfergirl.sg2"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Surfer Girl"/>
 		<pt X="-9.84" Y="-20.539999" Z="176.36"/>
@@ -51,6 +53,7 @@
 	<skpath from="4" to="5" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="surfergirl.sg2" head="surfergirl.sg3"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Surfer Girl"/>
 		<pt X="-9.84" Y="-20.539999" Z="-103.64"/>
@@ -59,6 +62,7 @@
 	<skpath from="5" to="6" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="surfergirl.sg3" head="surfergirl.sg4"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Surfer Girl"/>
 		<pt X="9.26" Y="22.36" Z="-120.64"/>
@@ -66,6 +70,7 @@
 	</skpath>
 	<skpath from="7" to="7" linestyle="connective">
 		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="5.907203" sfrotatedeg="0.19207841" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-14.738079710713325" sfytrans="-26.928475252930827" sfsketch="surveyscans/2013/2013#04/cave012.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2480" sfpixheight="3507">
 			</pcarea>
 		</pathcodes>
@@ -159,6 +164,7 @@
 	</skpath>
 	<skpath from="13" to="19" linestyle="connective">
 		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="bigboulders"/>
 			<pcsymbol rname="boulders"/>
 		</pathcodes>
@@ -201,6 +207,7 @@
 	</skpath>
 	<skpath from="20" to="22" linestyle="connective">
 		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
 			<pcsymbol rname="bigboulders"/>
 		</pathcodes>
@@ -219,6 +226,7 @@
 	</skpath>
 	<skpath from="12" to="23" linestyle="connective">
 		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
 			<pcsymbol rname="bigboulders"/>
 		</pathcodes>
@@ -227,11 +235,16 @@
 	</skpath>
 	<skpath from="10" to="24" linestyle="connective">
 		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="bigboulders"/>
 			<pcsymbol rname="pebbles"/>
 		</pathcodes>
 		<pt X="5.1365805" Y="-31.055573"/>
 		<pt X="20.799822" Y="-15.718649"/>
+	</skpath>
+	<skpath from="7" to="5" linestyle="connective">
+		<pt X="-209.2208" Y="-256.02475"/>
+		<pt X="9.26" Y="22.36" Z="-120.64"/>
 	</skpath>
 </sketch>
 </tunnelxml>
