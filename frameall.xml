@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2012-08-31 18:36:30">
+<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2014-07-18 00:23:04">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_1"/>
@@ -34,7 +34,8 @@
 	</skpath>
 	<skpath from="7" to="8" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="8000" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="8000" sfpixheight="-1">
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="framestyle"/>
@@ -59,124 +60,117 @@
 	</skpath>
 	<skpath from="6" to="9" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="258/258all" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
-				<subsetattr name="258 part 1" uppersubset="red"/>
-				<subsetattr name="258 part 2" uppersubset="red"/>
-				<subsetattr name="258: Boulder Surfer" uppersubset="yellow"/>
-				<subsetattr name="258: Damp Squib" uppersubset="green"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="258/258-2014pre" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="258 part 1" uppersubset="green"/>
+				<subsetattr name="258 part 2" uppersubset="green"/>
+				<subsetattr name="258: Boulder Surfer" uppersubset="orange"/>
+				<subsetattr name="258: Damp Squib" uppersubset="red"/>
 				<subsetattr name="258: Flapjack Choke" uppersubset="yellow"/>
-				<subsetattr name="258: Frankly Freezing" uppersubset="green"/>
-				<subsetattr name="258: Germknodel" uppersubset="yellow"/>
-				<subsetattr name="258: Literal North (Ribs and Knoedel part 3)" uppersubset="green"/>
-				<subsetattr name="258: Oompah" uppersubset="yellow"/>
-				<subsetattr name="258: Ribs and Knoedel" uppersubset="yellow"/>
-				<subsetattr name="258: Ribs and Knoedel part 2" uppersubset="yellow"/>
-				<subsetattr name="258: Sauerkraut" uppersubset="yellow"/>
-				<subsetattr name="258: Sauerkraut link" uppersubset="yellow"/>
-				<subsetattr name="258: Secret Squirrel" uppersubset="green"/>
-				<subsetattr name="258: Stone Monkey" uppersubset="yellow"/>
-				<subsetattr name="258: Stone Monkey2" uppersubset="yellow"/>
-				<subsetattr name="258: Stone Monkey3 and Texel" uppersubset="yellow"/>
-				<subsetattr name="258: Stone Monkey4 and The Claw and Sombrero Passage" uppersubset="yellow"/>
-				<subsetattr name="3friedmice" uppersubset="yellow"/>
-				<subsetattr name="Alphabet Soup" uppersubset="yellow"/>
-				<subsetattr name="Apfel Strudel" uppersubset="yellow"/>
-				<subsetattr name="Arctic Angle" uppersubset="red"/>
-				<subsetattr name="Beer And Sunshine" uppersubset="orange"/>
-				<subsetattr name="Blind And Broken" uppersubset="green"/>
-				<subsetattr name="C Lead Jackpot" uppersubset="yellow"/>
-				<subsetattr name="Delicious Caek" uppersubset="green"/>
-				<subsetattr name="Delicious Caek 2" uppersubset="green"/>
-				<subsetattr name="Delicious Ceak 1" uppersubset="green"/>
-				<subsetattr name="Dubious Pleasure" uppersubset="green"/>
+				<subsetattr name="258: Frankly Freezing" uppersubset="red"/>
+				<subsetattr name="258: Oompah" uppersubset="orange"/>
+				<subsetattr name="258: Ribs and Knoedel" uppersubset="orange"/>
+				<subsetattr name="258: Ribs and Knoedel part 2" uppersubset="orange"/>
+				<subsetattr name="3friedmice" uppersubset="orange"/>
+				<subsetattr name="Alphabet Soup" uppersubset="orange"/>
+				<subsetattr name="Apfel Strudel" uppersubset="orange"/>
+				<subsetattr name="Arctic Angle" uppersubset="purple"/>
+				<subsetattr name="Beer And Sunshine" uppersubset="red"/>
+				<subsetattr name="Blind And Broken" uppersubset="red"/>
+				<subsetattr name="C Lead Jackpot" uppersubset="orange"/>
+				<subsetattr name="Crossword" uppersubset="red"/>
+				<subsetattr name="Delicious Caek" uppersubset="red"/>
+				<subsetattr name="Delicious Caek 2" uppersubset="red"/>
+				<subsetattr name="Delicious Ceak 1" uppersubset="red"/>
+				<subsetattr name="Downgrade" uppersubset="orange"/>
+				<subsetattr name="Dubious Pleasure" uppersubset="red"/>
 				<subsetattr name="Fall of the Empire" uppersubset="orange"/>
-				<subsetattr name="Flying High" uppersubset="green"/>
-				<subsetattr name="Flying High 2" uppersubset="green"/>
-				<subsetattr name="Flying High 3" uppersubset="green"/>
-				<subsetattr name="Frankly Freezing" uppersubset="green"/>
-				<subsetattr name="Goody Goody" uppersubset="green"/>
-				<subsetattr name="Gravity Always Wins" uppersubset="green"/>
-				<subsetattr name="Gravity Always Wins Bypass" uppersubset="green"/>
-				<subsetattr name="Hastespeed" uppersubset="red"/>
-				<subsetattr name="Hedonism Highway" uppersubset="green"/>
-				<subsetattr name="Ice Flow" uppersubset="blue"/>
-				<subsetattr name="Just For A Laugh" uppersubset="green"/>
-				<subsetattr name="Just For A Laugh 2" uppersubset="green"/>
-				<subsetattr name="Konigsberg Passage 4" uppersubset="red"/>
-				<subsetattr name="Konisberg Passage" uppersubset="red"/>
-				<subsetattr name="Lets Get Naked" uppersubset="green"/>
-				<subsetattr name="Literal North 2" uppersubset="green"/>
-				<subsetattr name="Literal North 3" uppersubset="green"/>
-				<subsetattr name="Literal North 4" uppersubset="green"/>
-				<subsetattr name="Literal North 5" uppersubset="green"/>
-				<subsetattr name="Loompah" uppersubset="yellow"/>
-				<subsetattr name="Marconian Empire: Comedy of Errors" uppersubset="yellow"/>
-				<subsetattr name="Marconian Empire: Comedy of Errors Pitches Area" uppersubset="yellow"/>
-				<subsetattr name="Marconian Empire: Racoon Festival" uppersubset="yellow"/>
-				<subsetattr name="Marconian Empire: The Flaming Sword of Fire" uppersubset="yellow"/>
-				<subsetattr name="Max Pleasure 1" uppersubset="green"/>
-				<subsetattr name="Maximum pleasure 2" uppersubset="green"/>
-				<subsetattr name="Maximum pleasure 3" uppersubset="green"/>
-				<subsetattr name="Maximum pleasure 4" uppersubset="green"/>
-				<subsetattr name="Maximum pleasure 5" uppersubset="green"/>
-				<subsetattr name="Maximum pleasure 6" uppersubset="green"/>
-				<subsetattr name="Naughty Naughty" uppersubset="green"/>
-				<subsetattr name="Naughty Naughty 2" uppersubset="green"/>
-				<subsetattr name="Pantin Sales Pitch" uppersubset="yellow"/>
-				<subsetattr name="Rampant" uppersubset="orange"/>
-				<subsetattr name="Rocky Landing" uppersubset="orange"/>
-				<subsetattr name="Rocky Road" uppersubset="green"/>
-				<subsetattr name="Sandy Balls" uppersubset="red"/>
-				<subsetattr name="Sleeping Beauty" uppersubset="yellow"/>
-				<subsetattr name="So Vein" uppersubset="orange"/>
-				<subsetattr name="Stomach ULSA" uppersubset="green"/>
-				<subsetattr name="String Theory" uppersubset="red"/>
-				<subsetattr name="String Theory Top" uppersubset="orange"/>
-				<subsetattr name="Thin Red Line" uppersubset="blue"/>
-				<subsetattr name="Thin Red Line 2" uppersubset="blue"/>
-				<subsetattr name="Too much of a good thing" uppersubset="green"/>
-				<subsetattr name="Trident" uppersubset="red"/>
-				<subsetattr name="Ugh the Caveman" uppersubset="yellow"/>
+				<subsetattr name="Flying High" uppersubset="red"/>
+				<subsetattr name="Flying High 2" uppersubset="red"/>
+				<subsetattr name="Flying High 3" uppersubset="red"/>
+				<subsetattr name="Frankly Freezing" uppersubset="red"/>
+				<subsetattr name="Goody Goody" uppersubset="red"/>
+				<subsetattr name="Gravity Always Wins" uppersubset="red"/>
+				<subsetattr name="Gravity Always Wins Bypass" uppersubset="red"/>
+				<subsetattr name="Hastespeed" uppersubset="purple"/>
+				<subsetattr name="Hedonism Highway" uppersubset="red"/>
+				<subsetattr name="Ice Flow" uppersubset="purple"/>
+				<subsetattr name="Just For A Laugh" uppersubset="red"/>
+				<subsetattr name="Just For A Laugh 2" uppersubset="red"/>
+				<subsetattr name="Konigsberg Passage 4" uppersubset="purple"/>
+				<subsetattr name="Konisberg Passage" uppersubset="purple"/>
+				<subsetattr name="Lets Get Naked" uppersubset="red"/>
+				<subsetattr name="Literal North 2" uppersubset="red"/>
+				<subsetattr name="Literal North 3" uppersubset="red"/>
+				<subsetattr name="Literal North 4" uppersubset="red"/>
+				<subsetattr name="Literal North 5" uppersubset="red"/>
+				<subsetattr name="Loompah" uppersubset="orange"/>
+				<subsetattr name="Marconian Empire: Racoon Festival" uppersubset="orange"/>
+				<subsetattr name="Max Pleasure 1" uppersubset="red"/>
+				<subsetattr name="Maximum pleasure 2" uppersubset="red"/>
+				<subsetattr name="Maximum pleasure 3" uppersubset="red"/>
+				<subsetattr name="Maximum pleasure 4" uppersubset="red"/>
+				<subsetattr name="Maximum pleasure 5" uppersubset="red"/>
+				<subsetattr name="Maximum pleasure 6" uppersubset="red"/>
+				<subsetattr name="Naughty Naughty" uppersubset="purple"/>
+				<subsetattr name="Naughty Naughty 2" uppersubset="purple"/>
+				<subsetattr name="Pantin Sales Pitch" uppersubset="orange"/>
+				<subsetattr name="Rampant" uppersubset="red"/>
+				<subsetattr name="Rocky Landing" uppersubset="red"/>
+				<subsetattr name="Rocky Road" uppersubset="red"/>
+				<subsetattr name="Sandy Balls" uppersubset="purple"/>
+				<subsetattr name="Sleeping Beauty" uppersubset="orange"/>
+				<subsetattr name="So Vein" uppersubset="red"/>
+				<subsetattr name="Stomach ULSA" uppersubset="red"/>
+				<subsetattr name="String Theory" uppersubset="purple"/>
+				<subsetattr name="String Theory Top" uppersubset="red"/>
+				<subsetattr name="Thin Red Line" uppersubset="purple"/>
+				<subsetattr name="Thin Red Line 2" uppersubset="purple"/>
+				<subsetattr name="Too much of a good thing" uppersubset="red"/>
+				<subsetattr name="Trident" uppersubset="purple"/>
+				<subsetattr name="Ugh the Caveman" uppersubset="orange"/>
 				<subsetattr name="Usual Suspects" uppersubset="purple"/>
 				<subsetattr name="Usual Suspects 4" uppersubset="purple"/>
 				<subsetattr name="Usual Suspects 5" uppersubset="purple"/>
 				<subsetattr name="Usual Suspects 6" uppersubset="purple"/>
-				<subsetattr name="West Side Story" uppersubset="red"/>
-				<subsetattr name="above and beyond" uppersubset="red"/>
-				<subsetattr name="alphabetsoup" uppersubset="yellow"/>
-				<subsetattr name="apfelstrudel" uppersubset="yellow"/>
-				<subsetattr name="bauernkrapfern" uppersubset="yellow"/>
-				<subsetattr name="belowcol" uppersubset="red"/>
-				<subsetattr name="blackpool sands" uppersubset="red"/>
+				<subsetattr name="West Side Story" uppersubset="purple"/>
+				<subsetattr name="above and beyond" uppersubset="purple"/>
+				<subsetattr name="alphabetsoup" uppersubset="orange"/>
+				<subsetattr name="antsinpants" uppersubset="green"/>
+				<subsetattr name="apfelstrudel" uppersubset="orange"/>
+				<subsetattr name="bauernkrapfern" uppersubset="orange"/>
+				<subsetattr name="belowcol" uppersubset="green"/>
+				<subsetattr name="blackpool sands" uppersubset="purple"/>
 				<subsetattr name="bobon" uppersubset="blue"/>
-				<subsetattr name="crossword" uppersubset="yellow"/>
-				<subsetattr name="dark fumblings" uppersubset="yellow"/>
-				<subsetattr name="downtoearth" uppersubset="orange"/>
-				<subsetattr name="dubiouspleasure" uppersubset="green"/>
-				<subsetattr name="entchamber" uppersubset="yellow"/>
-				<subsetattr name="enttoledge" uppersubset="red"/>
-				<subsetattr name="flyinghigh" uppersubset="green"/>
-				<subsetattr name="getnaked" uppersubset="green"/>
-				<subsetattr name="gknodel" uppersubset="yellow"/>
-				<subsetattr name="grannyscroggins" uppersubset="green"/>
-				<subsetattr name="hedonismhighway" uppersubset="green"/>
-				<subsetattr name="justforalaugh" uppersubset="green"/>
-				<subsetattr name="ledgetocol" uppersubset="red"/>
-				<subsetattr name="littoralnorth" uppersubset="green"/>
-				<subsetattr name="marchofthepenguins" uppersubset="blue"/>
-				<subsetattr name="maxpleasure" uppersubset="green"/>
-				<subsetattr name="maxpleasure3" uppersubset="green"/>
-				<subsetattr name="pantinsales" uppersubset="yellow"/>
-				<subsetattr name="procrastination" uppersubset="yellow"/>
-				<subsetattr name="ribsknodel" uppersubset="yellow"/>
-				<subsetattr name="sauerkraut" uppersubset="yellow"/>
-				<subsetattr name="secretsquirrel" uppersubset="green"/>
-				<subsetattr name="smallscalelabels" uppersubset="yellow"/>
-				<subsetattr name="stonemonkey" uppersubset="yellow"/>
-				<subsetattr name="strudel" uppersubset="yellow"/>
-				<subsetattr name="temp: chamber below sombrero passage: rename following B lead extension!" uppersubset="yellow"/>
+				<subsetattr name="boobies" uppersubset="red"/>
+				<subsetattr name="dark fumblings" uppersubset="orange"/>
+				<subsetattr name="determination" uppersubset="purple"/>
+				<subsetattr name="downtoearth" uppersubset="red"/>
+				<subsetattr name="dubiouspleasure" uppersubset="red"/>
+				<subsetattr name="entchamber" uppersubset="orange"/>
+				<subsetattr name="enttoledge" uppersubset="green"/>
+				<subsetattr name="flyinghigh" uppersubset="red"/>
+				<subsetattr name="getnaked" uppersubset="red"/>
+				<subsetattr name="gknodel" uppersubset="orange"/>
+				<subsetattr name="grannyscroggins" uppersubset="red"/>
+				<subsetattr name="hedonismhighway" uppersubset="red"/>
+				<subsetattr name="justforalaugh" uppersubset="red"/>
+				<subsetattr name="ledgetocol" uppersubset="green"/>
+				<subsetattr name="littoralnorth" uppersubset="red"/>
+				<subsetattr name="marchofthepenguins" uppersubset="red"/>
+				<subsetattr name="maxpleasure" uppersubset="red"/>
+				<subsetattr name="maxpleasure3" uppersubset="red"/>
+				<subsetattr name="number of beast" uppersubset="blue"/>
+				<subsetattr name="pantinsales" uppersubset="orange"/>
+				<subsetattr name="procrastination" uppersubset="blue"/>
+				<subsetattr name="ribsknodel" uppersubset="orange"/>
+				<subsetattr name="sauerkraut" uppersubset="orange"/>
+				<subsetattr name="secretsquirrel" uppersubset="red"/>
+				<subsetattr name="smallscalelabels" uppersubset="orange"/>
+				<subsetattr name="stonemonkey" uppersubset="orange"/>
+				<subsetattr name="strudel" uppersubset="orange"/>
 				<subsetattr name="thirtynine steps" uppersubset="red"/>
-				<subsetattr name="upper blindandbroken" uppersubset="blue"/>
+				<subsetattr name="upper blindandbroken" uppersubset="purple"/>
 				<subsetattr name="where area" uppersubset="purple"/>
 			</pcarea>
 		</pathcodes>
@@ -186,7 +180,8 @@
 	</skpath>
 	<skpath from="6" to="10" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204belowgaffered" sfstyle="base250nonote" nodeconnzsetrelative="-20.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204belowgaffered" sfstyle="base250nonote" nodeconnzsetrelative="-20.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
 				<subsetattr name="110 bidet" uppersubset="red"/>
 				<subsetattr name="204a" uppersubset="red2"/>
@@ -396,7 +391,8 @@
 	</skpath>
 	<skpath from="6" to="11" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204residue" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204residue" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
 				<subsetattr name="110 bidet" uppersubset="red"/>
 				<subsetattr name="204a" uppersubset="red2"/>
@@ -607,7 +603,8 @@
 	</skpath>
 	<skpath from="6" to="12" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204razor" sfstyle="base250nonote" nodeconnzsetrelative="-50.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204razor" sfstyle="base250nonote" nodeconnzsetrelative="-50.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="110 a day" uppersubset="red"/>
 				<subsetattr name="110 bidet" uppersubset="red"/>
 				<subsetattr name="204a" uppersubset="red2"/>
@@ -814,7 +811,8 @@
 	</skpath>
 	<skpath from="5" to="13" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/phumour2" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/phumour2" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="G" uppersubset="green"/>
 				<subsetattr name="between the thighs" uppersubset="orange"/>
 				<subsetattr name="completely loopy" uppersubset="red"/>
@@ -832,7 +830,8 @@
 	</skpath>
 	<skpath from="14" to="5" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/161farnorthonly" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/161farnorthonly" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="6 mile bottom" uppersubset="orange"/>
 				<subsetattr name="anglia" uppersubset="purple"/>
 				<subsetattr name="bear bum" uppersubset="blue"/>
@@ -863,7 +862,8 @@
 	</skpath>
 	<skpath from="15" to="5" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/161oldmen" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/161oldmen" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="germanoldmen" uppersubset="green"/>
 				<subsetattr name="holey cow" uppersubset="cyan"/>
 				<subsetattr name="ironyoftime" uppersubset="red"/>
@@ -878,7 +878,8 @@
 	</skpath>
 	<skpath from="16" to="5" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="all-2011" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="all-2011" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="eishohle" uppersubset="green"/>
 				<subsetattr name="hauchhohle" uppersubset="obscuredsets"/>
 				<subsetattr name="kaninchenhohle" uppersubset="obscuredsets"/>
@@ -899,7 +900,8 @@
 	</skpath>
 	<skpath from="6" to="17" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="234/234sketch" sfstyle="base250nonote" nodeconnzsetrelative="50.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="234/234sketch" sfstyle="base250nonote" nodeconnzsetrelative="50.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="hauch1" uppersubset="yellow2"/>
 				<subsetattr name="hauch2" uppersubset="red"/>
 			</pcarea>
@@ -910,7 +912,8 @@
 	</skpath>
 	<skpath from="18" to="5" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="161/centrelineofmissing" sfstyle="FatCentreline2" nodeconnzsetrelative="-1000.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="default" uppersubset="orange"/>
 			</pcarea>
 		</pathcodes>
@@ -928,7 +931,8 @@
 	</skpath>
 	<skpath from="6" to="20" linestyle="connective">
 		<pathcodes>
-			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204pussy" sfstyle="base250nonote" nodeconnzsetrelative="-30.0" sfpixwidth="-1" sfpixheight="-1">
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1000.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-37.0" sfytrans="83.0" sfsketch="204/204pussy" sfstyle="base250nonote" nodeconnzsetrelative="-30.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="7-11 chamber" uppersubset="blue"/>
 				<subsetattr name="cat flap" uppersubset="orange"/>
 				<subsetattr name="cirquedusoleil" uppersubset="red"/>
