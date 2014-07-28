@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2014-07-17 22:52:35">
+<tunnelxml tunnelversion="version2012-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria12" tunneldate="2014-07-27 21:21:37">
 <sketch splined="0" locoffsetx="36307.754" locoffsety="82767.97" locoffsetz="1601.2257" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -3869,7 +3869,6 @@
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Gemshöhle (1623/107)"/>
-		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<pt X="-1243.4508" Y="-1952.9092" Z="-1041.3572"/>
 		<pt X="-1219.8508" Y="-1916.8092" Z="-1011.1572"/>
@@ -4725,7 +4724,6 @@
 	</skpath>
 	<skpath from="489" to="500" linestyle="detail" splined="1">
 		<sketchsubset subname="china"/>
-		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1223.9298" Y="-1977.6824"/>
 		<pt X="-1223.9263" Y="-1971.0505"/>
@@ -4937,20 +4935,6 @@
 		<pt X="-1170.5417" Y="-2016.6794"/>
 		<pt X="-1168.1641" Y="-2020.5428"/>
 	</skpath>
-	<skpath from="522" to="523" linestyle="wall" splined="1">
-		<sketchsubset subname="china"/>
-		<importfrom subname="107sketchD"/>
-		<pt X="-1320.9232" Y="-2099.003"/>
-		<pt X="-1328.0559" Y="-2079.0908"/>
-		<pt X="-1333.4055" Y="-2059.7732"/>
-		<pt X="-1338.755" Y="-2050.8572"/>
-		<pt X="-1339.3492" Y="-2036.8888"/>
-		<pt X="-1344.4016" Y="-2007.4663"/>
-		<pt X="-1353.3175" Y="-1989.0402"/>
-		<pt X="-1367.2858" Y="-1967.345"/>
-		<pt X="-1380.9568" Y="-1945.9469"/>
-		<pt X="-1388.3867" Y="-1937.031"/>
-	</skpath>
 	<skpath from="523" to="524" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5029,13 +5013,13 @@
 		<pt X="-1616.2151" Y="-1352.2977"/>
 		<pt X="-1622.2957" Y="-1335.2327"/>
 	</skpath>
-	<skpath from="534" to="535" linestyle="invisible" splined="1">
+	<skpath from="533" to="534" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1677.0659" Y="-1102.5156"/>
 		<pt X="-1671.5737" Y="-1099.1812"/>
 	</skpath>
-	<skpath from="536" to="537" linestyle="wall" splined="1">
+	<skpath from="535" to="536" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1638.6205" Y="-1252.9625"/>
@@ -5043,7 +5027,7 @@
 		<pt X="-1628.5157" Y="-1291.8121"/>
 		<pt X="-1622.869" Y="-1304.2943"/>
 	</skpath>
-	<skpath from="537" to="538" linestyle="wall" splined="1">
+	<skpath from="536" to="537" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1622.869" Y="-1304.2943"/>
@@ -5054,7 +5038,7 @@
 		<pt X="-1572.6428" Y="-1390.1842"/>
 		<pt X="-1561.9437" Y="-1403.2609"/>
 	</skpath>
-	<skpath from="538" to="539" linestyle="wall" splined="1">
+	<skpath from="537" to="538" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1561.9437" Y="-1403.2609"/>
@@ -5063,48 +5047,34 @@
 		<pt X="-1510.8259" Y="-1484.99"/>
 		<pt X="-1501.0184" Y="-1501.0387"/>
 	</skpath>
-	<skpath from="540" to="541" linestyle="invisible" splined="1">
+	<skpath from="539" to="540" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1415.4257" Y="-1674.0071"/>
 		<pt X="-1405.3209" Y="-1692.4335"/>
 	</skpath>
-	<skpath from="542" to="543" linestyle="wall" splined="1">
-		<sketchsubset subname="china"/>
-		<importfrom subname="107sketchD"/>
-		<pt X="-1374.1156" Y="-1804.1793"/>
-		<pt X="-1367.8744" Y="-1820.2279"/>
-		<pt X="-1345.8818" Y="-1846.0841"/>
-		<pt X="-1320.9172" Y="-1884.1251"/>
-		<pt X="-1312.893" Y="-1890.3663"/>
-		<pt X="-1306.3546" Y="-1901.6598"/>
-		<pt X="-1300.1134" Y="-1909.3868"/>
-		<pt X="-1294.7639" Y="-1919.7886"/>
-		<pt X="-1281.5173" Y="-1949.2325"/>
-		<pt X="-1279.1871" Y="-1952.9868"/>
-	</skpath>
-	<skpath from="543" to="503" linestyle="wall" splined="1">
+	<skpath from="542" to="503" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1279.1871" Y="-1952.9868"/>
 		<pt X="-1273.6733" Y="-1954.0912"/>
 	</skpath>
-	<skpath from="540" to="544" linestyle="estwall" splined="1">
+	<skpath from="539" to="543" linestyle="estwall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1415.4257" Y="-1674.0071"/>
 		<pt X="-1399.7047" Y="-1657.4943"/>
 		<pt X="-1375.3821" Y="-1632.5834"/>
 	</skpath>
-	<skpath from="545" to="541" linestyle="estwall" splined="1">
+	<skpath from="544" to="540" linestyle="estwall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1361.4553" Y="-1647.687"/>
 		<pt X="-1398.3314" Y="-1684.5647"/>
 		<pt X="-1405.3209" Y="-1692.4335"/>
 	</skpath>
-	<skpath from="545" to="546" linestyle="pitchbound" splined="1">
+	<skpath from="544" to="545" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1361.4553" Y="-1647.687"/>
@@ -5112,13 +5082,13 @@
 		<pt X="-1345.9595" Y="-1627.2875"/>
 		<pt X="-1345.5673" Y="-1625.5221"/>
 	</skpath>
-	<skpath from="546" to="547" linestyle="pitchbound" splined="1">
+	<skpath from="545" to="546" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1345.5673" Y="-1625.5221"/>
 		<pt X="-1343.4095" Y="-1618.4607"/>
 	</skpath>
-	<skpath from="547" to="544" linestyle="pitchbound" splined="1">
+	<skpath from="546" to="543" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1343.4095" Y="-1618.4607"/>
@@ -5130,7 +5100,7 @@
 		<pt X="-1369.7095" Y="-1625.7378"/>
 		<pt X="-1375.3821" Y="-1632.5834"/>
 	</skpath>
-	<skpath from="545" to="548" linestyle="wall" splined="1">
+	<skpath from="544" to="547" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1361.4553" Y="-1647.687"/>
@@ -5143,7 +5113,7 @@
 		<pt X="-1313.7281" Y="-1611.1049"/>
 		<pt X="-1317.4551" Y="-1603.2589"/>
 	</skpath>
-	<skpath from="548" to="549" linestyle="wall" splined="1">
+	<skpath from="547" to="548" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1317.4551" Y="-1603.2589"/>
@@ -5152,7 +5122,7 @@
 		<pt X="-1318.8282" Y="-1589.7245"/>
 		<pt X="-1318.4359" Y="-1586.1938"/>
 	</skpath>
-	<skpath from="549" to="550" linestyle="wall" splined="1">
+	<skpath from="548" to="549" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1318.4359" Y="-1586.1938"/>
@@ -5160,28 +5130,28 @@
 		<pt X="-1312.3552" Y="-1580.5055"/>
 		<pt X="-1302.744" Y="-1581.6823"/>
 	</skpath>
-	<skpath from="550" to="551" linestyle="wall" splined="1">
+	<skpath from="549" to="550" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1302.744" Y="-1581.6823"/>
 		<pt X="-1293.7212" Y="-1581.0939"/>
 		<pt X="-1290.3866" Y="-1580.3092"/>
 	</skpath>
-	<skpath from="551" to="552" linestyle="wall" splined="1">
+	<skpath from="550" to="551" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1290.3866" Y="-1580.3092"/>
 		<pt X="-1279.7946" Y="-1577.7593"/>
 		<pt X="-1272.3408" Y="-1577.367"/>
 	</skpath>
-	<skpath from="552" to="553" linestyle="wall" splined="1">
+	<skpath from="551" to="552" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1272.3408" Y="-1577.367"/>
 		<pt X="-1270.5754" Y="-1581.0939"/>
 		<pt X="-1268.4178" Y="-1580.5054"/>
 	</skpath>
-	<skpath from="553" to="554" linestyle="wall" splined="1">
+	<skpath from="552" to="553" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1268.4178" Y="-1580.5054"/>
@@ -5192,26 +5162,26 @@
 		<pt X="-1243.899" Y="-1581.2899"/>
 		<pt X="-1241.153" Y="-1580.5054"/>
 	</skpath>
-	<skpath from="554" to="555" linestyle="wall" splined="1">
+	<skpath from="553" to="554" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1241.153" Y="-1580.5054"/>
 		<pt X="-1235.2686" Y="-1580.7015"/>
 	</skpath>
-	<skpath from="556" to="557" linestyle="wall" splined="1">
+	<skpath from="555" to="556" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1200.746" Y="-1579.9169"/>
 		<pt X="-1195.6461" Y="-1593.059"/>
 	</skpath>
-	<skpath from="557" to="558" linestyle="wall" splined="1">
+	<skpath from="556" to="557" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1195.6461" Y="-1593.059"/>
 		<pt X="-1194.8617" Y="-1582.0746"/>
 		<pt X="-1193.6847" Y="-1580.7015"/>
 	</skpath>
-	<skpath from="558" to="559" linestyle="wall" splined="1">
+	<skpath from="557" to="558" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1193.6847" Y="-1580.7015"/>
@@ -5220,7 +5190,7 @@
 		<pt X="-1158.9662" Y="-1583.4476"/>
 		<pt X="-1153.474" Y="-1585.0168"/>
 	</skpath>
-	<skpath from="560" to="561" linestyle="wall" splined="1">
+	<skpath from="559" to="560" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1135.4282" Y="-1623.4622"/>
@@ -5228,7 +5198,7 @@
 		<pt X="-1125.2286" Y="-1639.9392"/>
 		<pt X="-1123.6238" Y="-1644.5153"/>
 	</skpath>
-	<skpath from="544" to="562" linestyle="wall" splined="1">
+	<skpath from="543" to="561" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1375.3821" Y="-1632.5834"/>
@@ -5240,7 +5210,7 @@
 		<pt X="-1348.4851" Y="-1583.2177"/>
 		<pt X="-1342.271" Y="-1582.8292"/>
 	</skpath>
-	<skpath from="562" to="563" linestyle="wall" splined="1">
+	<skpath from="561" to="562" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1342.271" Y="-1582.8292"/>
@@ -5253,7 +5223,7 @@
 		<pt X="-1317.6738" Y="-1559.9148"/>
 		<pt X="-1311.9777" Y="-1560.6914"/>
 	</skpath>
-	<skpath from="550" to="563" linestyle="pitchbound" splined="1">
+	<skpath from="549" to="562" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1302.744" Y="-1581.6823"/>
@@ -5261,7 +5231,7 @@
 		<pt X="-1307.1876" Y="-1568.0706"/>
 		<pt X="-1311.9777" Y="-1560.6914"/>
 	</skpath>
-	<skpath from="564" to="564" linestyle="pitchbound" splined="1">
+	<skpath from="563" to="563" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1334.2446" Y="-1576.4856"/>
@@ -5276,26 +5246,26 @@
 		<pt X="-1333.9857" Y="-1571.6957"/>
 		<pt X="-1334.2446" Y="-1576.4856"/>
 	</skpath>
-	<skpath from="548" to="565" linestyle="pitchbound" splined="1">
+	<skpath from="547" to="564" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1317.4551" Y="-1603.2589"/>
 		<pt X="-1319.4861" Y="-1601.8595"/>
 	</skpath>
-	<skpath from="565" to="566" linestyle="pitchbound" splined="1">
+	<skpath from="564" to="565" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1319.4861" Y="-1601.8595"/>
 		<pt X="-1325.4413" Y="-1598.1052"/>
 	</skpath>
-	<skpath from="566" to="562" linestyle="pitchbound" splined="1">
+	<skpath from="565" to="561" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1325.4413" Y="-1598.1052"/>
 		<pt X="-1337.0927" Y="-1587.4897"/>
 		<pt X="-1342.271" Y="-1582.8292"/>
 	</skpath>
-	<skpath from="546" to="565" linestyle="detail" splined="1">
+	<skpath from="545" to="564" linestyle="detail" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1345.5673" Y="-1625.5221"/>
@@ -5310,7 +5280,7 @@
 		<pt X="-1319.6078" Y="-1606.5553"/>
 		<pt X="-1319.4861" Y="-1601.8595"/>
 	</skpath>
-	<skpath from="566" to="547" linestyle="detail" splined="1">
+	<skpath from="565" to="546" linestyle="detail" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1325.4413" Y="-1598.1052"/>
@@ -5322,13 +5292,13 @@
 		<pt X="-1339.0266" Y="-1620.6782"/>
 		<pt X="-1343.4095" Y="-1618.4607"/>
 	</skpath>
-	<skpath from="564" to="562" linestyle="invisible" splined="1">
+	<skpath from="563" to="561" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1334.2446" Y="-1576.4856"/>
 		<pt X="-1342.271" Y="-1582.8292"/>
 	</skpath>
-	<skpath from="563" to="567" linestyle="wall" splined="1">
+	<skpath from="562" to="566" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1311.9777" Y="-1560.6914"/>
@@ -5336,7 +5306,7 @@
 		<pt X="-1305.1864" Y="-1564.0155"/>
 		<pt X="-1303.2445" Y="-1561.9441"/>
 	</skpath>
-	<skpath from="567" to="568" linestyle="wall" splined="1">
+	<skpath from="566" to="567" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1303.2445" Y="-1561.9441"/>
@@ -5358,7 +5328,7 @@
 		<pt X="-1208.4807" Y="-1575.1489"/>
 		<pt X="-1205.7621" Y="-1574.89"/>
 	</skpath>
-	<skpath from="555" to="569" linestyle="wall" splined="1">
+	<skpath from="554" to="568" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1235.2686" Y="-1580.7015"/>
@@ -5370,20 +5340,20 @@
 		<pt X="-1213.1035" Y="-1580.7015"/>
 		<pt X="-1207.1726" Y="-1580.288"/>
 	</skpath>
-	<skpath from="569" to="556" linestyle="wall" splined="1">
+	<skpath from="568" to="555" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1207.1726" Y="-1580.288"/>
 		<pt X="-1200.746" Y="-1579.9169"/>
 	</skpath>
-	<skpath from="569" to="568" linestyle="pitchbound" splined="1">
+	<skpath from="568" to="567" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1207.1726" Y="-1580.288"/>
 		<pt X="-1205.8916" Y="-1578.5149"/>
 		<pt X="-1205.7621" Y="-1574.89"/>
 	</skpath>
-	<skpath from="555" to="554" linestyle="detail" splined="1">
+	<skpath from="554" to="553" linestyle="detail" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1235.2686" Y="-1580.7015"/>
@@ -5393,13 +5363,13 @@
 		<pt X="-1240.8455" Y="-1577.4792"/>
 		<pt X="-1241.153" Y="-1580.5054"/>
 	</skpath>
-	<skpath from="568" to="570" linestyle="wall" splined="1">
+	<skpath from="567" to="569" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1205.7621" Y="-1574.89"/>
 		<pt X="-1201.49" Y="-1574.6311"/>
 	</skpath>
-	<skpath from="570" to="571" linestyle="wall" splined="1">
+	<skpath from="569" to="570" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1201.49" Y="-1574.6311"/>
@@ -5409,19 +5379,19 @@
 		<pt X="-1201.2312" Y="-1529.7089"/>
 		<pt X="-1200.8428" Y="-1517.7987"/>
 	</skpath>
-	<skpath from="572" to="573" linestyle="wall" splined="1">
+	<skpath from="571" to="572" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1164.6993" Y="-1401.8689"/>
 		<pt X="-1162.905" Y="-1398.024"/>
 	</skpath>
-	<skpath from="573" to="574" linestyle="invisible" splined="1">
+	<skpath from="572" to="573" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1162.905" Y="-1398.024"/>
 		<pt X="-1161.2815" Y="-1390.3341"/>
 	</skpath>
-	<skpath from="574" to="575" linestyle="wall" splined="1">
+	<skpath from="573" to="574" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1161.2815" Y="-1390.3341"/>
@@ -5429,7 +5399,7 @@
 		<pt X="-1154.2753" Y="-1402.0398"/>
 		<pt X="-1157.6075" Y="-1405.6284"/>
 	</skpath>
-	<skpath from="575" to="576" linestyle="wall" splined="1">
+	<skpath from="574" to="575" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1157.6075" Y="-1405.6284"/>
@@ -5443,14 +5413,14 @@
 		<pt X="-1180.6772" Y="-1465.353"/>
 		<pt X="-1180.5063" Y="-1472.7865"/>
 	</skpath>
-	<skpath from="576" to="577" linestyle="wall" splined="1">
+	<skpath from="575" to="576" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1180.5063" Y="-1472.7865"/>
 		<pt X="-1174.8671" Y="-1483.8942"/>
 		<pt X="-1172.7311" Y="-1486.543"/>
 	</skpath>
-	<skpath from="578" to="579" linestyle="wall" splined="1">
+	<skpath from="577" to="578" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1185.7184" Y="-1434.679"/>
@@ -5461,7 +5431,7 @@
 		<pt X="-1221.1031" Y="-1415.9614"/>
 		<pt X="-1223.5757" Y="-1409.4854"/>
 	</skpath>
-	<skpath from="579" to="580" linestyle="wall" splined="1">
+	<skpath from="578" to="579" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1223.5757" Y="-1409.4854"/>
@@ -5470,7 +5440,7 @@
 		<pt X="-1247.8951" Y="-1401.114"/>
 		<pt X="-1251.5388" Y="-1399.6993"/>
 	</skpath>
-	<skpath from="580" to="581" linestyle="pitchbound" splined="1">
+	<skpath from="579" to="580" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="too bold"/>
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
@@ -5480,7 +5450,7 @@
 		<pt X="-1252.2573" Y="-1390.9801"/>
 		<pt X="-1253.647" Y="-1386.5822"/>
 	</skpath>
-	<skpath from="581" to="582" linestyle="wall" splined="1">
+	<skpath from="580" to="581" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1253.647" Y="-1386.5822"/>
@@ -5488,7 +5458,7 @@
 		<pt X="-1242.0378" Y="-1394.8561"/>
 		<pt X="-1237.764" Y="-1396.2778"/>
 	</skpath>
-	<skpath from="582" to="583" linestyle="wall" splined="1">
+	<skpath from="581" to="582" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1237.764" Y="-1396.2778"/>
@@ -5510,13 +5480,13 @@
 		<pt X="-1181.1014" Y="-1398.4846"/>
 		<pt X="-1183.5613" Y="-1390.4585"/>
 	</skpath>
-	<skpath from="583" to="584" linestyle="invisible" splined="1">
+	<skpath from="582" to="583" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1183.5613" Y="-1390.4585"/>
 		<pt X="-1172.4269" Y="-1387.2219"/>
 	</skpath>
-	<skpath from="584" to="585" linestyle="wall" splined="1">
+	<skpath from="583" to="584" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1172.4269" Y="-1387.2219"/>
@@ -5528,7 +5498,7 @@
 		<pt X="-1171.131" Y="-1426.0597"/>
 		<pt X="-1169.8363" Y="-1431.238"/>
 	</skpath>
-	<skpath from="586" to="587" linestyle="wall" splined="1">
+	<skpath from="585" to="586" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1158.5736" Y="-1519.1406"/>
@@ -5539,13 +5509,13 @@
 		<pt X="-1150.2881" Y="-1556.2953"/>
 		<pt X="-1150.1586" Y="-1563.1566"/>
 	</skpath>
-	<skpath from="587" to="588" linestyle="wall" splined="1">
+	<skpath from="586" to="587" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1150.1586" Y="-1563.1566"/>
 		<pt X="-1150.0292" Y="-1568.8528"/>
 	</skpath>
-	<skpath from="588" to="589" linestyle="wall" splined="1">
+	<skpath from="587" to="588" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1150.0292" Y="-1568.8528"/>
@@ -5562,7 +5532,7 @@
 		<pt X="-1126.856" Y="-1597.9811"/>
 		<pt X="-1125.8203" Y="-1600.9586"/>
 	</skpath>
-	<skpath from="589" to="590" linestyle="wall" splined="1">
+	<skpath from="588" to="589" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1125.8203" Y="-1600.9586"/>
@@ -5571,7 +5541,7 @@
 		<pt X="-1127.2444" Y="-1616.1052"/>
 		<pt X="-1126.0792" Y="-1620.6365"/>
 	</skpath>
-	<skpath from="590" to="591" linestyle="wall" splined="1">
+	<skpath from="589" to="590" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1126.0792" Y="-1620.6365"/>
@@ -5580,7 +5550,7 @@
 		<pt X="-1117.0172" Y="-1645.1046"/>
 		<pt X="-1113.1334" Y="-1653.5195"/>
 	</skpath>
-	<skpath from="591" to="561" linestyle="pitchbound" splined="1">
+	<skpath from="590" to="560" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1113.1334" Y="-1653.5195"/>
@@ -5588,7 +5558,7 @@
 		<pt X="-1119.7358" Y="-1645.234"/>
 		<pt X="-1123.6238" Y="-1644.5153"/>
 	</skpath>
-	<skpath from="592" to="593" linestyle="wall" splined="1">
+	<skpath from="591" to="592" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1184.4749" Y="-1477.3302"/>
@@ -5603,7 +5573,7 @@
 		<pt X="-1195.2201" Y="-1571.4467"/>
 		<pt X="-1194.3138" Y="-1573.9064"/>
 	</skpath>
-	<skpath from="593" to="594" linestyle="wall" splined="1">
+	<skpath from="592" to="593" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1194.3138" Y="-1573.9064"/>
@@ -5612,14 +5582,14 @@
 		<pt X="-1164.6676" Y="-1575.9777"/>
 		<pt X="-1157.0295" Y="-1575.4598"/>
 	</skpath>
-	<skpath from="594" to="595" linestyle="wall" splined="1">
+	<skpath from="593" to="594" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1157.0295" Y="-1575.4598"/>
 		<pt X="-1156.3823" Y="-1572.4823"/>
 		<pt X="-1158.1947" Y="-1568.0807"/>
 	</skpath>
-	<skpath from="596" to="592" linestyle="wall" splined="1">
+	<skpath from="595" to="591" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1173.4708" Y="-1492.9946"/>
@@ -5627,14 +5597,14 @@
 		<pt X="-1181.7562" Y="-1481.8612"/>
 		<pt X="-1184.4749" Y="-1477.3302"/>
 	</skpath>
-	<skpath from="595" to="588" linestyle="detail">
+	<skpath from="594" to="587" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1158.1947" Y="-1568.0807"/>
 		<pt X="-1154.714" Y="-1569.7605"/>
 		<pt X="-1150.0292" Y="-1568.8528"/>
 	</skpath>
-	<skpath from="593" to="597" linestyle="connective">
+	<skpath from="592" to="596" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="rock"/>
@@ -5643,20 +5613,20 @@
 		<pt X="-1194.3138" Y="-1573.9064"/>
 		<pt X="-1188.5496" Y="-1569.3334"/>
 	</skpath>
-	<skpath from="572" to="575" linestyle="pitchbound" splined="1">
+	<skpath from="571" to="574" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1164.6993" Y="-1401.8689"/>
 		<pt X="-1161.9644" Y="-1403.3851"/>
 		<pt X="-1157.6075" Y="-1405.6284"/>
 	</skpath>
-	<skpath from="592" to="576" linestyle="invisible" splined="1">
+	<skpath from="591" to="575" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1184.4749" Y="-1477.3302"/>
 		<pt X="-1180.5063" Y="-1472.7865"/>
 	</skpath>
-	<skpath from="598" to="599" linestyle="wall" splined="1">
+	<skpath from="597" to="598" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1117.8021" Y="-1685.8595"/>
@@ -5665,7 +5635,7 @@
 		<pt X="-1106.9276" Y="-1704.3721"/>
 		<pt X="-1105.633" Y="-1707.2201"/>
 	</skpath>
-	<skpath from="599" to="600" linestyle="pitchbound" splined="1">
+	<skpath from="598" to="599" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1105.633" Y="-1707.2201"/>
@@ -5674,7 +5644,7 @@
 		<pt X="-1096.8298" Y="-1705.6666"/>
 		<pt X="-1095.2764" Y="-1704.5015"/>
 	</skpath>
-	<skpath from="600" to="591" linestyle="wall" splined="1">
+	<skpath from="599" to="590" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1095.2764" Y="-1704.5015"/>
@@ -5683,7 +5653,7 @@
 		<pt X="-1108.6107" Y="-1664.4988"/>
 		<pt X="-1113.1334" Y="-1653.5195"/>
 	</skpath>
-	<skpath from="601" to="602" linestyle="detail" splined="1">
+	<skpath from="600" to="601" linestyle="detail" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1133.0897" Y="-1602.4866"/>
@@ -5694,31 +5664,31 @@
 		<pt X="-1138.0092" Y="-1591.2236"/>
 		<pt X="-1139.6921" Y="-1597.1787"/>
 	</skpath>
-	<skpath from="601" to="589" linestyle="invisible" splined="1">
+	<skpath from="600" to="588" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1133.0897" Y="-1602.4866"/>
 		<pt X="-1125.8203" Y="-1600.9586"/>
 	</skpath>
-	<skpath from="398" to="534" linestyle="connective">
+	<skpath from="398" to="533" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1674.251" Y="-1101.7092" Z="-1303.3572"/>
 		<pt X="-1677.0659" Y="-1102.5156"/>
 	</skpath>
-	<skpath from="398" to="535" linestyle="connective">
+	<skpath from="398" to="534" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1674.251" Y="-1101.7092" Z="-1303.3572"/>
 		<pt X="-1671.5737" Y="-1099.1812"/>
 	</skpath>
-	<skpath from="397" to="537" linestyle="connective">
+	<skpath from="397" to="536" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1622.7509" Y="-1308.1093" Z="-1246.3572"/>
 		<pt X="-1622.869" Y="-1304.2943"/>
 	</skpath>
-	<skpath from="399" to="538" linestyle="connective">
+	<skpath from="399" to="537" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1563.6509" Y="-1410.5092" Z="-1210.1572"/>
@@ -5730,7 +5700,7 @@
 		<pt X="-1563.6509" Y="-1410.5092" Z="-1210.1572"/>
 		<pt X="-1592.2848" Y="-1411.9272"/>
 	</skpath>
-	<skpath from="400" to="539" linestyle="connective">
+	<skpath from="400" to="538" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1524.7509" Y="-1517.3093" Z="-1130.5573"/>
@@ -5747,7 +5717,7 @@
 		<pt X="-1434.4508" Y="-1730.1093" Z="-1138.6572"/>
 		<pt X="-1490.028" Y="-1769.1144"/>
 	</skpath>
-	<skpath from="401" to="541" linestyle="connective">
+	<skpath from="401" to="540" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1434.4508" Y="-1730.1093" Z="-1138.6572"/>
@@ -5759,7 +5729,7 @@
 		<pt X="-1406.5509" Y="-1816.0093" Z="-1116.1572"/>
 		<pt X="-1450.2039" Y="-1840.4418"/>
 	</skpath>
-	<skpath from="402" to="542" linestyle="connective">
+	<skpath from="402" to="541" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1406.5509" Y="-1816.0093" Z="-1116.1572"/>
@@ -5771,7 +5741,7 @@
 		<pt X="-1348.1509" Y="-1905.8093" Z="-1032.4572"/>
 		<pt X="-1388.3867" Y="-1937.031"/>
 	</skpath>
-	<skpath from="411" to="543" linestyle="connective">
+	<skpath from="411" to="542" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1279.4508" Y="-1954.0093" Z="-1023.6572"/>
@@ -5785,7 +5755,6 @@
 	</skpath>
 	<skpath from="501" to="506" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="china"/>
-		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1230.2577" Y="-1942.785"/>
 		<pt X="-1236.8977" Y="-1943.7864"/>
@@ -5799,7 +5768,7 @@
 		<pt X="-1145.1509" Y="-1907.7092" Z="-1054.5571"/>
 		<pt X="-1157.4458" Y="-1933.5139"/>
 	</skpath>
-	<skpath from="512" to="603" linestyle="wall" splined="1">
+	<skpath from="512" to="602" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5809,7 +5778,7 @@
 		<pt X="-1160.1593" Y="-1895.792"/>
 		<pt X="-1150.749" Y="-1894.5535"/>
 	</skpath>
-	<skpath from="603" to="513" linestyle="wall" splined="1">
+	<skpath from="602" to="513" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5819,14 +5788,14 @@
 		<pt X="-1128.9678" Y="-1888.0314"/>
 		<pt X="-1125.8337" Y="-1886.2405"/>
 	</skpath>
-	<skpath from="603" to="416" linestyle="connective">
+	<skpath from="602" to="416" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1150.749" Y="-1894.5535"/>
 		<pt X="-1145.1509" Y="-1907.7092" Z="-1054.5571"/>
 	</skpath>
-	<skpath from="514" to="604" linestyle="pitchbound" splined="1">
+	<skpath from="514" to="603" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5834,14 +5803,14 @@
 		<pt X="-1106.9814" Y="-1879.6322"/>
 		<pt X="-1103.843" Y="-1898.2664"/>
 	</skpath>
-	<skpath from="604" to="605" linestyle="pitchbound" splined="1">
+	<skpath from="603" to="604" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1103.843" Y="-1898.2664"/>
 		<pt X="-1104.0392" Y="-1906.1124"/>
 	</skpath>
-	<skpath from="605" to="606" linestyle="pitchbound" splined="1">
+	<skpath from="604" to="605" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5853,7 +5822,7 @@
 		<pt X="-1103.647" Y="-1951.0308"/>
 		<pt X="-1098.5469" Y="-1961.819"/>
 	</skpath>
-	<skpath from="494" to="607" linestyle="wall" splined="1">
+	<skpath from="494" to="606" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5863,7 +5832,7 @@
 		<pt X="-1125.7792" Y="-1999.8407"/>
 		<pt X="-1111.2975" Y="-1997.9325"/>
 	</skpath>
-	<skpath from="607" to="495" linestyle="wall" splined="1">
+	<skpath from="606" to="495" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5872,7 +5841,7 @@
 		<pt X="-1094.5548" Y="-1994.4231"/>
 		<pt X="-1089.039" Y="-1992.5515"/>
 	</skpath>
-	<skpath from="606" to="607" linestyle="pitchbound" splined="1">
+	<skpath from="605" to="606" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -5885,63 +5854,63 @@
 		<pt X="-1111.006" Y="-1994.9513"/>
 		<pt X="-1111.2975" Y="-1997.9325"/>
 	</skpath>
-	<skpath from="425" to="606" linestyle="connective">
+	<skpath from="425" to="605" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1091.9508" Y="-1989.5093" Z="-1070.0573"/>
 		<pt X="-1098.5469" Y="-1961.819"/>
 	</skpath>
-	<skpath from="312" to="562" linestyle="connective">
+	<skpath from="312" to="561" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1326.9508" Y="-1583.6094" Z="-752.1572"/>
 		<pt X="-1342.271" Y="-1582.8292"/>
 	</skpath>
-	<skpath from="312" to="565" linestyle="connective">
+	<skpath from="312" to="564" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1326.9508" Y="-1583.6094" Z="-752.1572"/>
 		<pt X="-1319.4861" Y="-1601.8595"/>
 	</skpath>
-	<skpath from="314" to="567" linestyle="connective">
+	<skpath from="314" to="566" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1300.5508" Y="-1570.1093" Z="-733.6572"/>
 		<pt X="-1303.2445" Y="-1561.9441"/>
 	</skpath>
-	<skpath from="315" to="551" linestyle="connective">
+	<skpath from="315" to="550" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1290.3508" Y="-1578.1093" Z="-726.7572"/>
 		<pt X="-1290.3866" Y="-1580.3092"/>
 	</skpath>
-	<skpath from="316" to="556" linestyle="connective">
+	<skpath from="316" to="555" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1196.5509" Y="-1578.1093" Z="-703.35724"/>
 		<pt X="-1200.746" Y="-1579.9169"/>
 	</skpath>
-	<skpath from="318" to="593" linestyle="connective">
+	<skpath from="318" to="592" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1193.9509" Y="-1576.7092" Z="-682.4572"/>
 		<pt X="-1194.3138" Y="-1573.9064"/>
 	</skpath>
-	<skpath from="319" to="594" linestyle="connective">
+	<skpath from="319" to="593" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1148.1509" Y="-1583.2092" Z="-645.25726"/>
 		<pt X="-1157.0295" Y="-1575.4598"/>
 	</skpath>
-	<skpath from="559" to="608" linestyle="wall" splined="1">
+	<skpath from="558" to="607" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1153.474" Y="-1585.0168"/>
 		<pt X="-1151.5126" Y="-1595.6089"/>
 		<pt X="-1150.1909" Y="-1600.6831"/>
 	</skpath>
-	<skpath from="608" to="560" linestyle="wall" splined="1">
+	<skpath from="607" to="559" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1150.1909" Y="-1600.6831"/>
@@ -5949,31 +5918,31 @@
 		<pt X="-1142.0973" Y="-1614.047"/>
 		<pt X="-1135.4282" Y="-1623.4622"/>
 	</skpath>
-	<skpath from="608" to="320" linestyle="connective">
+	<skpath from="607" to="320" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1150.1909" Y="-1600.6831"/>
 		<pt X="-1147.7509" Y="-1599.1091" Z="-612.9572"/>
 	</skpath>
-	<skpath from="319" to="588" linestyle="connective">
+	<skpath from="319" to="587" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1148.1509" Y="-1583.2092" Z="-645.25726"/>
 		<pt X="-1150.0292" Y="-1568.8528"/>
 	</skpath>
-	<skpath from="322" to="586" linestyle="connective">
+	<skpath from="322" to="585" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1162.4509" Y="-1517.7092" Z="-624.85724"/>
 		<pt X="-1158.5736" Y="-1519.1406"/>
 	</skpath>
-	<skpath from="596" to="329" linestyle="connective">
+	<skpath from="595" to="329" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1173.4708" Y="-1492.9946"/>
 		<pt X="-1174.6509" Y="-1491.4093" Z="-639.05725"/>
 	</skpath>
-	<skpath from="609" to="586" linestyle="wall" splined="1">
+	<skpath from="608" to="585" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1161.9895" Y="-1486.1102"/>
@@ -5984,25 +5953,25 @@
 		<pt X="-1157.5378" Y="-1516.4219"/>
 		<pt X="-1158.5736" Y="-1519.1406"/>
 	</skpath>
-	<skpath from="609" to="329" linestyle="connective">
+	<skpath from="608" to="329" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1161.9895" Y="-1486.1102"/>
 		<pt X="-1174.6509" Y="-1491.4093" Z="-639.05725"/>
 	</skpath>
-	<skpath from="323" to="585" linestyle="connective">
+	<skpath from="323" to="584" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1171.2509" Y="-1433.8092" Z="-612.9572"/>
 		<pt X="-1169.8363" Y="-1431.238"/>
 	</skpath>
-	<skpath from="578" to="323" linestyle="connective">
+	<skpath from="577" to="323" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1185.7184" Y="-1434.679"/>
 		<pt X="-1171.2509" Y="-1433.8092" Z="-612.9572"/>
 	</skpath>
-	<skpath from="571" to="610" linestyle="wall" splined="1">
+	<skpath from="570" to="609" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1200.8428" Y="-1517.7987"/>
@@ -6017,7 +5986,7 @@
 		<pt X="-1176.6339" Y="-1423.941"/>
 		<pt X="-1175.829" Y="-1423.0421"/>
 	</skpath>
-	<skpath from="610" to="572" linestyle="wall" splined="1">
+	<skpath from="609" to="571" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1175.829" Y="-1423.0421"/>
@@ -6026,24 +5995,24 @@
 		<pt X="-1169.1423" Y="-1403.7487"/>
 		<pt X="-1164.6993" Y="-1401.8689"/>
 	</skpath>
-	<skpath from="610" to="327" linestyle="connective">
+	<skpath from="609" to="327" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1175.829" Y="-1423.0421"/>
 		<pt X="-1173.7509" Y="-1413.8092" Z="-678.2572"/>
 	</skpath>
-	<skpath from="328" to="575" linestyle="connective">
+	<skpath from="328" to="574" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1159.4508" Y="-1404.5093" Z="-700.05725"/>
 		<pt X="-1157.6075" Y="-1405.6284"/>
 	</skpath>
-	<skpath from="328" to="573" linestyle="connective">
+	<skpath from="328" to="572" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1159.4508" Y="-1404.5093" Z="-700.05725"/>
 		<pt X="-1162.905" Y="-1398.024"/>
 	</skpath>
-	<skpath from="599" to="611" linestyle="wall" splined="1">
+	<skpath from="598" to="610" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1105.633" Y="-1707.2201"/>
@@ -6058,20 +6027,20 @@
 		<pt X="-1071.3947" Y="-1789.0907"/>
 		<pt X="-1069.7063" Y="-1794.6389"/>
 	</skpath>
-	<skpath from="611" to="612" linestyle="wall" splined="1">
+	<skpath from="610" to="611" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1069.7063" Y="-1794.6389"/>
 		<pt X="-1069.315" Y="-1796.7983"/>
 	</skpath>
-	<skpath from="612" to="613" linestyle="estwall" splined="1">
+	<skpath from="611" to="612" linestyle="estwall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1069.315" Y="-1796.7983"/>
 		<pt X="-1073.225" Y="-1796.1763"/>
 		<pt X="-1081.6671" Y="-1799.1976"/>
 	</skpath>
-	<skpath from="614" to="615" linestyle="estwall" splined="1">
+	<skpath from="613" to="614" linestyle="estwall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1079.9786" Y="-1802.4857"/>
@@ -6079,13 +6048,13 @@
 		<pt X="-1074.0248" Y="-1800.7084"/>
 		<pt X="-1069.937" Y="-1801.7748"/>
 	</skpath>
-	<skpath from="615" to="616" linestyle="wall" splined="1">
+	<skpath from="614" to="615" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1069.937" Y="-1801.7748"/>
 		<pt X="-1068.2485" Y="-1807.3733"/>
 	</skpath>
-	<skpath from="616" to="617" linestyle="wall" splined="1">
+	<skpath from="615" to="616" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1068.2485" Y="-1807.3733"/>
@@ -6093,7 +6062,7 @@
 		<pt X="-1067.772" Y="-1815.9663"/>
 		<pt X="-1067.3721" Y="-1819.6097"/>
 	</skpath>
-	<skpath from="617" to="618" linestyle="wall" splined="1">
+	<skpath from="616" to="617" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1067.3721" Y="-1819.6097"/>
@@ -6101,7 +6070,7 @@
 		<pt X="-1082.0604" Y="-1825.3218"/>
 		<pt X="-1088.0939" Y="-1826.5483"/>
 	</skpath>
-	<skpath from="618" to="619" linestyle="wall" splined="1">
+	<skpath from="617" to="618" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1088.0939" Y="-1826.5483"/>
@@ -6112,7 +6081,7 @@
 		<pt X="-1097.8298" Y="-1841.387"/>
 		<pt X="-1102.17" Y="-1844.0262"/>
 	</skpath>
-	<skpath from="619" to="620" linestyle="wall" splined="1">
+	<skpath from="618" to="619" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1102.17" Y="-1844.0262"/>
@@ -6122,25 +6091,25 @@
 		<pt X="-1118.2917" Y="-1856.9116"/>
 		<pt X="-1120.6023" Y="-1859.4888"/>
 	</skpath>
-	<skpath from="620" to="621" linestyle="wall" splined="1">
+	<skpath from="619" to="620" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1120.6023" Y="-1859.4888"/>
 		<pt X="-1123.4459" Y="-1862.8656"/>
 	</skpath>
-	<skpath from="621" to="622" linestyle="wall" splined="1">
+	<skpath from="620" to="621" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1123.4459" Y="-1862.8656"/>
 		<pt X="-1129.3998" Y="-1868.5529"/>
 	</skpath>
-	<skpath from="622" to="623" linestyle="wall" splined="1">
+	<skpath from="621" to="622" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1129.3998" Y="-1868.5529"/>
 		<pt X="-1134.7317" Y="-1874.418"/>
 	</skpath>
-	<skpath from="623" to="624" linestyle="wall" splined="1">
+	<skpath from="622" to="623" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1134.7317" Y="-1874.418"/>
@@ -6149,7 +6118,7 @@
 		<pt X="-1143.5293" Y="-1882.8601"/>
 		<pt X="-1147.7059" Y="-1882.7712"/>
 	</skpath>
-	<skpath from="624" to="625" linestyle="wall" splined="1">
+	<skpath from="623" to="624" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1147.7059" Y="-1882.7712"/>
@@ -6160,13 +6129,13 @@
 		<pt X="-1156.77" Y="-1868.9972"/>
 		<pt X="-1159.2583" Y="-1865.6204"/>
 	</skpath>
-	<skpath from="625" to="626" linestyle="invisible" splined="1">
+	<skpath from="624" to="625" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1159.2583" Y="-1865.6204"/>
 		<pt X="-1163.7015" Y="-1868.0198"/>
 	</skpath>
-	<skpath from="626" to="627" linestyle="wall" splined="1">
+	<skpath from="625" to="626" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1163.7015" Y="-1868.0198"/>
@@ -6179,7 +6148,7 @@
 		<pt X="-1160.4136" Y="-1893.4349"/>
 		<pt X="-1157.3281" Y="-1895.9285"/>
 	</skpath>
-	<skpath from="627" to="628" linestyle="wall" splined="1">
+	<skpath from="626" to="627" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1157.3281" Y="-1895.9285"/>
@@ -6187,7 +6156,7 @@
 		<pt X="-1165.3633" Y="-1902.4973"/>
 		<pt X="-1168.4131" Y="-1905.1953"/>
 	</skpath>
-	<skpath from="628" to="629" linestyle="wall" splined="1">
+	<skpath from="627" to="628" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1168.4131" Y="-1905.1953"/>
@@ -6201,7 +6170,7 @@
 		<pt X="-1152.2256" Y="-1904.0222"/>
 		<pt X="-1150.8766" Y="-1901.559"/>
 	</skpath>
-	<skpath from="629" to="630" linestyle="wall" splined="1">
+	<skpath from="628" to="629" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1150.8766" Y="-1901.559"/>
@@ -6209,14 +6178,14 @@
 		<pt X="-1146.6538" Y="-1897.8639"/>
 		<pt X="-1146.2432" Y="-1896.515"/>
 	</skpath>
-	<skpath from="630" to="631" linestyle="wall" splined="1">
+	<skpath from="629" to="630" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1146.2432" Y="-1896.515"/>
 		<pt X="-1144.777" Y="-1894.5795"/>
 		<pt X="-1141.3752" Y="-1891.9989"/>
 	</skpath>
-	<skpath from="631" to="632" linestyle="wall" splined="1">
+	<skpath from="630" to="631" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1141.3752" Y="-1891.9989"/>
@@ -6231,31 +6200,31 @@
 		<pt X="-1129.0" Y="-1883.0254"/>
 		<pt X="-1128.2961" Y="-1884.7262"/>
 	</skpath>
-	<skpath from="632" to="633" linestyle="invisible" splined="1">
+	<skpath from="631" to="632" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1128.2961" Y="-1884.7262"/>
 		<pt X="-1126.5952" Y="-1884.6676"/>
 	</skpath>
-	<skpath from="633" to="634" linestyle="wall" splined="1">
+	<skpath from="632" to="633" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1126.5952" Y="-1884.6676"/>
 		<pt X="-1127.0059" Y="-1879.5063"/>
 	</skpath>
-	<skpath from="634" to="635" linestyle="wall" splined="1">
+	<skpath from="633" to="634" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1127.0059" Y="-1879.5063"/>
 		<pt X="-1122.3724" Y="-1886.5444"/>
 	</skpath>
-	<skpath from="635" to="636" linestyle="invisible" splined="1">
+	<skpath from="634" to="635" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1122.3724" Y="-1886.5444"/>
 		<pt X="-1121.9032" Y="-1882.8494"/>
 	</skpath>
-	<skpath from="636" to="637" linestyle="wall" splined="1">
+	<skpath from="635" to="636" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1121.9032" Y="-1882.8494"/>
@@ -6263,7 +6232,7 @@
 		<pt X="-1125.7742" Y="-1876.5739"/>
 		<pt X="-1127.2991" Y="-1874.1692"/>
 	</skpath>
-	<skpath from="637" to="638" linestyle="wall" splined="1">
+	<skpath from="636" to="637" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1127.2991" Y="-1874.1692"/>
@@ -6278,25 +6247,25 @@
 		<pt X="-1098.2084" Y="-1849.7704"/>
 		<pt X="-1094.6895" Y="-1849.4185"/>
 	</skpath>
-	<skpath from="638" to="639" linestyle="wall" splined="1">
+	<skpath from="637" to="638" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1094.6895" Y="-1849.4185"/>
 		<pt X="-1091.6982" Y="-1850.4155"/>
 	</skpath>
-	<skpath from="639" to="640" linestyle="wall" splined="1">
+	<skpath from="638" to="639" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1091.6982" Y="-1850.4155"/>
 		<pt X="-1091.6395" Y="-1847.483"/>
 	</skpath>
-	<skpath from="640" to="641" linestyle="wall" splined="1">
+	<skpath from="639" to="640" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1091.6395" Y="-1847.483"/>
 		<pt X="-1094.4548" Y="-1847.3657"/>
 	</skpath>
-	<skpath from="641" to="642" linestyle="wall" splined="1">
+	<skpath from="640" to="641" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1094.4548" Y="-1847.3657"/>
@@ -6308,20 +6277,20 @@
 		<pt X="-1085.4812" Y="-1834.228"/>
 		<pt X="-1083.6631" Y="-1832.5271"/>
 	</skpath>
-	<skpath from="642" to="643" linestyle="wall" splined="1">
+	<skpath from="641" to="642" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1083.6631" Y="-1832.5271"/>
 		<pt X="-1082.666" Y="-1832.2926"/>
 		<pt X="-1082.9006" Y="-1834.6973"/>
 	</skpath>
-	<skpath from="643" to="644" linestyle="wall" splined="1">
+	<skpath from="642" to="643" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1082.9006" Y="-1834.6973"/>
 		<pt X="-1078.2672" Y="-1831.9993"/>
 	</skpath>
-	<skpath from="644" to="645" linestyle="wall" splined="1">
+	<skpath from="643" to="644" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1078.2672" Y="-1831.9993"/>
@@ -6332,7 +6301,7 @@
 		<pt X="-1067.4756" Y="-1827.6006"/>
 		<pt X="-1065.892" Y="-1828.0698"/>
 	</skpath>
-	<skpath from="645" to="646" linestyle="wall" splined="1">
+	<skpath from="644" to="645" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1065.892" Y="-1828.0698"/>
@@ -6341,7 +6310,7 @@
 		<pt X="-1063.6046" Y="-1823.3191"/>
 		<pt X="-1062.0797" Y="-1823.6124"/>
 	</skpath>
-	<skpath from="646" to="647" linestyle="wall" splined="1">
+	<skpath from="645" to="646" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1062.0797" Y="-1823.6124"/>
@@ -6349,7 +6318,7 @@
 		<pt X="-1057.3877" Y="-1833.9349"/>
 		<pt X="-1053.9272" Y="-1839.624"/>
 	</skpath>
-	<skpath from="647" to="648" linestyle="wall" splined="1">
+	<skpath from="646" to="647" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1053.9272" Y="-1839.624"/>
@@ -6370,13 +6339,13 @@
 		<pt X="-1002.4783" Y="-1933.6512"/>
 		<pt X="-1000.0789" Y="-1937.3835"/>
 	</skpath>
-	<skpath from="649" to="650" linestyle="invisible" splined="1">
+	<skpath from="648" to="649" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-977.2409" Y="-2000.6548"/>
 		<pt X="-971.1092" Y="-1998.9666"/>
 	</skpath>
-	<skpath from="650" to="651" linestyle="wall" splined="1">
+	<skpath from="649" to="650" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-971.1092" Y="-1998.9666"/>
@@ -6386,7 +6355,7 @@
 		<pt X="-989.18823" Y="-1937.9976"/>
 		<pt X="-990.06793" Y="-1934.4785"/>
 	</skpath>
-	<skpath from="652" to="653" linestyle="wall" splined="1">
+	<skpath from="651" to="652" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1038.337" Y="-1834.7532"/>
@@ -6398,7 +6367,7 @@
 		<pt X="-1051.7681" Y="-1814.636"/>
 		<pt X="-1055.4044" Y="-1810.941"/>
 	</skpath>
-	<skpath from="653" to="654" linestyle="wall" splined="1">
+	<skpath from="652" to="653" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1055.4044" Y="-1810.941"/>
@@ -6409,7 +6378,7 @@
 		<pt X="-1061.9733" Y="-1794.0496"/>
 		<pt X="-1063.4395" Y="-1790.9996"/>
 	</skpath>
-	<skpath from="654" to="600" linestyle="wall" splined="1">
+	<skpath from="653" to="599" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1063.4395" Y="-1790.9996"/>
@@ -6434,7 +6403,7 @@
 		<pt X="-1092.7648" Y="-1711.4111"/>
 		<pt X="-1095.2764" Y="-1704.5015"/>
 	</skpath>
-	<skpath from="654" to="611" linestyle="pitchbound" splined="1">
+	<skpath from="653" to="610" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1063.4395" Y="-1790.9996"/>
@@ -6442,13 +6411,13 @@
 		<pt X="-1068.9371" Y="-1789.0175"/>
 		<pt X="-1069.7063" Y="-1794.6389"/>
 	</skpath>
-	<skpath from="614" to="613" linestyle="invisible" splined="1">
+	<skpath from="613" to="612" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1079.9786" Y="-1802.4857"/>
 		<pt X="-1081.6671" Y="-1799.1976"/>
 	</skpath>
-	<skpath from="652" to="647" linestyle="pitchbound" splined="1">
+	<skpath from="651" to="646" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1038.337" Y="-1834.7532"/>
@@ -6459,7 +6428,7 @@
 		<pt X="-1053.711" Y="-1835.7247"/>
 		<pt X="-1053.9272" Y="-1839.624"/>
 	</skpath>
-	<skpath from="655" to="652" linestyle="connective">
+	<skpath from="654" to="651" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">p34</pctext>
 		</pathcodes>
@@ -6468,7 +6437,7 @@
 		<pt X="-1033.5388" Y="-1829.2377"/>
 		<pt X="-1038.337" Y="-1834.7532"/>
 	</skpath>
-	<skpath from="651" to="656" linestyle="wall" splined="1">
+	<skpath from="650" to="655" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-990.06793" Y="-1934.4785"/>
@@ -6484,7 +6453,7 @@
 		<pt X="-998.2202" Y="-1876.5122"/>
 		<pt X="-999.9857" Y="-1874.1488"/>
 	</skpath>
-	<skpath from="656" to="652" linestyle="wall" splined="1">
+	<skpath from="655" to="651" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-999.9857" Y="-1874.1488"/>
@@ -6505,7 +6474,7 @@
 		<pt X="-1033.2931" Y="-1837.9203"/>
 		<pt X="-1038.337" Y="-1834.7532"/>
 	</skpath>
-	<skpath from="657" to="656" linestyle="connective">
+	<skpath from="656" to="655" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">Korea</pctext>
 		</pathcodes>
@@ -6514,7 +6483,7 @@
 		<pt X="-986.98193" Y="-1877.2589"/>
 		<pt X="-999.9857" Y="-1874.1488"/>
 	</skpath>
-	<skpath from="658" to="525" linestyle="connective">
+	<skpath from="657" to="525" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="1.0" nodeposyrel="0.0">China</pctext>
 		</pathcodes>
@@ -6523,13 +6492,13 @@
 		<pt X="-1514.688" Y="-1773.7961"/>
 		<pt X="-1490.028" Y="-1769.1144"/>
 	</skpath>
-	<skpath from="539" to="659" linestyle="wall" splined="1">
+	<skpath from="538" to="658" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1501.0184" Y="-1501.0387"/>
 		<pt X="-1495.8818" Y="-1510.706"/>
 	</skpath>
-	<skpath from="659" to="540" linestyle="wall" splined="1">
+	<skpath from="658" to="539" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1495.8818" Y="-1510.706"/>
@@ -6538,19 +6507,19 @@
 		<pt X="-1427.3135" Y="-1650.2312"/>
 		<pt X="-1415.4257" Y="-1674.0071"/>
 	</skpath>
-	<skpath from="659" to="660" linestyle="detail">
+	<skpath from="658" to="659" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1495.8818" Y="-1510.706"/>
 		<pt X="-1498.0255" Y="-1522.6752"/>
 	</skpath>
-	<skpath from="661" to="659" linestyle="detail">
+	<skpath from="660" to="658" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1503.5459" Y="-1511.4998"/>
 		<pt X="-1495.8818" Y="-1510.706"/>
 	</skpath>
-	<skpath from="526" to="662" linestyle="wall" splined="1">
+	<skpath from="526" to="661" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1498.3495" Y="-1669.8512"/>
@@ -6561,51 +6530,51 @@
 		<pt X="-1521.0824" Y="-1525.1058"/>
 		<pt X="-1522.1642" Y="-1522.1233"/>
 	</skpath>
-	<skpath from="662" to="527" linestyle="wall" splined="1">
+	<skpath from="661" to="527" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1522.1642" Y="-1522.1233"/>
 		<pt X="-1526.7708" Y="-1513.1407"/>
 	</skpath>
-	<skpath from="661" to="662" linestyle="detail">
+	<skpath from="660" to="661" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1503.5459" Y="-1511.4998"/>
 		<pt X="-1508.797" Y="-1511.769"/>
 		<pt X="-1522.1642" Y="-1522.1233"/>
 	</skpath>
-	<skpath from="662" to="663" linestyle="detail">
+	<skpath from="661" to="662" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1522.1642" Y="-1522.1233"/>
 		<pt X="-1517.6833" Y="-1529.4073"/>
 	</skpath>
-	<skpath from="663" to="660" linestyle="detail">
+	<skpath from="662" to="659" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1517.6833" Y="-1529.4073"/>
 		<pt X="-1516.3369" Y="-1531.0231"/>
 		<pt X="-1498.0255" Y="-1522.6752"/>
 	</skpath>
-	<skpath from="660" to="664" linestyle="detail">
+	<skpath from="659" to="663" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1498.0255" Y="-1522.6752"/>
 		<pt X="-1509.0663" Y="-1516.6162"/>
 	</skpath>
-	<skpath from="664" to="661" linestyle="detail">
+	<skpath from="663" to="660" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1509.0663" Y="-1516.6162"/>
 		<pt X="-1503.5459" Y="-1511.4998"/>
 	</skpath>
-	<skpath from="664" to="663" linestyle="detail">
+	<skpath from="663" to="662" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1509.0663" Y="-1516.6162"/>
 		<pt X="-1517.6833" Y="-1529.4073"/>
 	</skpath>
-	<skpath from="665" to="662" linestyle="connective">
+	<skpath from="664" to="661" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="1.0" nodeposyrel="0.0">Rock&space;bridge</pctext>
 		</pathcodes>
@@ -6614,7 +6583,7 @@
 		<pt X="-1534.812" Y="-1538.8336"/>
 		<pt X="-1522.1642" Y="-1522.1233"/>
 	</skpath>
-	<skpath from="666" to="544" linestyle="connective">
+	<skpath from="665" to="543" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0">p40</pctext>
 		</pathcodes>
@@ -6623,7 +6592,7 @@
 		<pt X="-1383.2576" Y="-1626.1362"/>
 		<pt X="-1375.3821" Y="-1632.5834"/>
 	</skpath>
-	<skpath from="667" to="562" linestyle="connective">
+	<skpath from="666" to="561" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="1.0" nodeposyrel="1.0">p6</pctext>
 		</pathcodes>
@@ -6632,7 +6601,7 @@
 		<pt X="-1352.2899" Y="-1575.6453"/>
 		<pt X="-1342.271" Y="-1582.8292"/>
 	</skpath>
-	<skpath from="668" to="563" linestyle="connective">
+	<skpath from="667" to="562" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c2</pctext>
 		</pathcodes>
@@ -6641,7 +6610,7 @@
 		<pt X="-1309.204" Y="-1550.4666"/>
 		<pt X="-1311.9777" Y="-1560.6914"/>
 	</skpath>
-	<skpath from="669" to="569" linestyle="connective">
+	<skpath from="668" to="568" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c1</pctext>
 		</pathcodes>
@@ -6650,7 +6619,7 @@
 		<pt X="-1205.4944" Y="-1587.217"/>
 		<pt X="-1207.1726" Y="-1580.288"/>
 	</skpath>
-	<skpath from="670" to="671" linestyle="estwall" splined="1">
+	<skpath from="669" to="670" linestyle="estwall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1028.1465" Y="-2003.7578"/>
@@ -6658,7 +6627,7 @@
 		<pt X="-1036.9187" Y="-1996.0056"/>
 		<pt X="-1047.1188" Y="-1987.2335"/>
 	</skpath>
-	<skpath from="671" to="672" linestyle="wall" splined="1">
+	<skpath from="670" to="671" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1047.1188" Y="-1987.2335"/>
@@ -6669,7 +6638,7 @@
 		<pt X="-1036.252" Y="-1960.5541"/>
 		<pt X="-1034.5635" Y="-1959.2211"/>
 	</skpath>
-	<skpath from="672" to="673" linestyle="wall" splined="1">
+	<skpath from="671" to="672" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1034.5635" Y="-1959.2211"/>
@@ -6682,7 +6651,7 @@
 		<pt X="-1023.63306" Y="-1931.0511"/>
 		<pt X="-1022.9222" Y="-1927.9409"/>
 	</skpath>
-	<skpath from="673" to="674" linestyle="wall" splined="1">
+	<skpath from="672" to="673" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1022.9222" Y="-1927.9409"/>
@@ -6701,14 +6670,14 @@
 		<pt X="-996.83936" Y="-1976.9995"/>
 		<pt X="-998.35004" Y="-1979.7543"/>
 	</skpath>
-	<skpath from="674" to="675" linestyle="wall" splined="1">
+	<skpath from="673" to="674" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-998.35004" Y="-1979.7543"/>
 		<pt X="-1005.10376" Y="-1979.932"/>
 		<pt X="-1016.0138" Y="-1980.5857"/>
 	</skpath>
-	<skpath from="675" to="676" linestyle="wall" splined="1">
+	<skpath from="674" to="675" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1016.0138" Y="-1980.5857"/>
@@ -6721,19 +6690,19 @@
 		<pt X="-1005.2573" Y="-1998.7593"/>
 		<pt X="-1005.34625" Y="-2003.1136"/>
 	</skpath>
-	<skpath from="676" to="670" linestyle="invisible" splined="1">
+	<skpath from="675" to="669" linestyle="invisible" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1005.34625" Y="-2003.1136"/>
 		<pt X="-1028.1465" Y="-2003.7578"/>
 	</skpath>
-	<skpath from="670" to="677" linestyle="invisible" splined="1">
+	<skpath from="669" to="676" linestyle="invisible" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1028.1465" Y="-2003.7578"/>
 		<pt X="-1018.14264" Y="-1987.3846"/>
 	</skpath>
-	<skpath from="677" to="677" linestyle="pitchbound" splined="1">
+	<skpath from="676" to="676" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1018.14264" Y="-1987.3846"/>
@@ -6748,7 +6717,7 @@
 		<pt X="-1021.7861" Y="-1987.5624"/>
 		<pt X="-1018.14264" Y="-1987.3846"/>
 	</skpath>
-	<skpath from="677" to="678" linestyle="connective">
+	<skpath from="676" to="677" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="hole"/>
@@ -6757,13 +6726,13 @@
 		<pt X="-1018.14264" Y="-1987.3846"/>
 		<pt X="-1022.1415" Y="-1984.6299"/>
 	</skpath>
-	<skpath from="671" to="422" linestyle="connective">
+	<skpath from="670" to="422" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1047.1188" Y="-1987.2335"/>
 		<pt X="-1041.9508" Y="-1975.1093" Z="-1147.2572"/>
 	</skpath>
-	<skpath from="679" to="680" linestyle="wall" splined="1">
+	<skpath from="678" to="679" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-991.62115" Y="-1951.1101"/>
@@ -6778,7 +6747,7 @@
 		<pt X="-1003.35114" Y="-2035.8867"/>
 		<pt X="-1011.971" Y="-2045.2175"/>
 	</skpath>
-	<skpath from="680" to="681" linestyle="wall" splined="1">
+	<skpath from="679" to="680" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1011.971" Y="-2045.2175"/>
@@ -6787,19 +6756,19 @@
 		<pt X="-1010.4604" Y="-2062.9016"/>
 		<pt X="-1009.0385" Y="-2064.7676"/>
 	</skpath>
-	<skpath from="682" to="683" linestyle="wall" splined="1">
+	<skpath from="681" to="682" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-991.1768" Y="-2075.1648"/>
 		<pt X="-997.3084" Y="-2078.8972"/>
 	</skpath>
-	<skpath from="684" to="685" linestyle="invisible" splined="1">
+	<skpath from="683" to="684" linestyle="invisible" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1038.4525" Y="-2126.2617"/>
 		<pt X="-1045.2062" Y="-2121.7297"/>
 	</skpath>
-	<skpath from="685" to="686" linestyle="wall" splined="1">
+	<skpath from="684" to="685" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1045.2062" Y="-2121.7297"/>
@@ -6816,7 +6785,7 @@
 		<pt X="-1017.6583" Y="-2079.8745"/>
 		<pt X="-1020.59094" Y="-2073.743"/>
 	</skpath>
-	<skpath from="686" to="687" linestyle="wall" splined="1">
+	<skpath from="685" to="686" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1020.59094" Y="-2073.743"/>
@@ -6828,7 +6797,7 @@
 		<pt X="-1036.231" Y="-2048.8608"/>
 		<pt X="-1036.0532" Y="-2046.9059"/>
 	</skpath>
-	<skpath from="688" to="689" linestyle="wall" splined="1">
+	<skpath from="687" to="688" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1026.1005" Y="-2029.9329"/>
@@ -6846,19 +6815,19 @@
 		<pt X="-1032.1432" Y="-1973.8594"/>
 		<pt X="-1034.9869" Y="-1968.9718"/>
 	</skpath>
-	<skpath from="689" to="679" linestyle="invisible" splined="1">
+	<skpath from="688" to="678" linestyle="invisible" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1034.9869" Y="-1968.9718"/>
 		<pt X="-991.62115" Y="-1951.1101"/>
 	</skpath>
-	<skpath from="419" to="687" linestyle="connective">
+	<skpath from="419" to="686" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1028.4508" Y="-2040.1093" Z="-1295.1572"/>
 		<pt X="-1036.0532" Y="-2046.9059"/>
 	</skpath>
-	<skpath from="680" to="688" linestyle="pitchbound" splined="1">
+	<skpath from="679" to="687" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1011.971" Y="-2045.2175"/>
@@ -6867,7 +6836,7 @@
 		<pt X="-1016.68085" Y="-2030.7325"/>
 		<pt X="-1026.1005" Y="-2029.9329"/>
 	</skpath>
-	<skpath from="682" to="686" linestyle="pitchbound" splined="1">
+	<skpath from="681" to="685" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-991.1768" Y="-2075.1648"/>
@@ -6887,13 +6856,13 @@
 		<pt X="-1020.8265" Y="-2069.283"/>
 		<pt X="-1020.59094" Y="-2073.743"/>
 	</skpath>
-	<skpath from="684" to="418" linestyle="connective">
+	<skpath from="683" to="418" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1038.4525" Y="-2126.2617"/>
 		<pt X="-1039.4508" Y="-2120.3093" Z="-1590.5573"/>
 	</skpath>
-	<skpath from="690" to="677" linestyle="connective">
+	<skpath from="689" to="676" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c3</pctext>
 		</pathcodes>
@@ -6903,7 +6872,7 @@
 		<pt X="-1041.7382" Y="-2002.995"/>
 		<pt X="-1018.14264" Y="-1987.3846"/>
 	</skpath>
-	<skpath from="691" to="581" linestyle="connective">
+	<skpath from="690" to="580" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c3</pctext>
 		</pathcodes>
@@ -6913,7 +6882,7 @@
 		<pt X="-1251.2744" Y="-1375.0846"/>
 		<pt X="-1253.647" Y="-1386.5822"/>
 	</skpath>
-	<skpath from="692" to="693" linestyle="connective">
+	<skpath from="691" to="692" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">p3</pctext>
 		</pathcodes>
@@ -6922,7 +6891,7 @@
 		<pt X="-1288.0044" Y="-1414.3928"/>
 		<pt X="-1283.5276" Y="-1398.7277"/>
 	</skpath>
-	<skpath from="694" to="695" linestyle="connective">
+	<skpath from="693" to="694" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">p?</pctext>
 		</pathcodes>
@@ -6931,7 +6900,7 @@
 		<pt X="-1277.7922" Y="-1360.4158"/>
 		<pt X="-1281.4719" Y="-1372.249"/>
 	</skpath>
-	<skpath from="581" to="695" linestyle="wall" splined="1">
+	<skpath from="580" to="694" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1253.647" Y="-1386.5822"/>
@@ -6942,20 +6911,20 @@
 		<pt X="-1277.5939" Y="-1371.4281"/>
 		<pt X="-1281.4719" Y="-1372.249"/>
 	</skpath>
-	<skpath from="695" to="696" linestyle="estwall" splined="1">
+	<skpath from="694" to="695" linestyle="estwall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1281.4719" Y="-1372.249"/>
 		<pt X="-1284.3271" Y="-1371.6406"/>
 		<pt X="-1297.9825" Y="-1366.3553"/>
 	</skpath>
-	<skpath from="696" to="697" linestyle="invisible" splined="1">
+	<skpath from="695" to="696" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1297.9825" Y="-1366.3553"/>
 		<pt X="-1299.2129" Y="-1374.5283"/>
 	</skpath>
-	<skpath from="697" to="698" linestyle="estwall" splined="1">
+	<skpath from="696" to="697" linestyle="estwall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1299.2129" Y="-1374.5283"/>
@@ -6963,32 +6932,32 @@
 		<pt X="-1287.0182" Y="-1382.4685"/>
 		<pt X="-1287.8904" Y="-1387.5751"/>
 	</skpath>
-	<skpath from="698" to="699" linestyle="wall" splined="1">
+	<skpath from="697" to="698" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1287.8904" Y="-1387.5751"/>
 		<pt X="-1292.0173" Y="-1389.4315"/>
 		<pt X="-1297.8995" Y="-1389.4655"/>
 	</skpath>
-	<skpath from="700" to="701" linestyle="estwall" splined="1">
+	<skpath from="699" to="700" linestyle="estwall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1371.3517" Y="-1365.1157"/>
 		<pt X="-1363.8005" Y="-1365.9369"/>
 	</skpath>
-	<skpath from="701" to="702" linestyle="invisible" splined="1">
+	<skpath from="700" to="701" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1363.8005" Y="-1365.9369"/>
 		<pt X="-1363.6027" Y="-1354.3193"/>
 	</skpath>
-	<skpath from="702" to="703" linestyle="estwall" splined="1">
+	<skpath from="701" to="702" linestyle="estwall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1363.6027" Y="-1354.3193"/>
 		<pt X="-1375.4382" Y="-1350.2319"/>
 	</skpath>
-	<skpath from="703" to="704" linestyle="wall" splined="1">
+	<skpath from="702" to="703" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1375.4382" Y="-1350.2319"/>
@@ -7014,7 +6983,7 @@
 		<pt X="-1453.0033" Y="-1314.2863"/>
 		<pt X="-1457.6964" Y="-1312.6534"/>
 	</skpath>
-	<skpath from="704" to="705" linestyle="wall" splined="1">
+	<skpath from="703" to="704" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1457.6964" Y="-1312.6534"/>
@@ -7023,13 +6992,13 @@
 		<pt X="-1435.6582" Y="-1305.724"/>
 		<pt X="-1430.7606" Y="-1303.6862"/>
 	</skpath>
-	<skpath from="705" to="706" linestyle="invisible" splined="1">
+	<skpath from="704" to="705" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1430.7606" Y="-1303.6862"/>
 		<pt X="-1431.5775" Y="-1294.7102"/>
 	</skpath>
-	<skpath from="706" to="707" linestyle="wall" splined="1">
+	<skpath from="705" to="706" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1431.5775" Y="-1294.7102"/>
@@ -7041,13 +7010,13 @@
 		<pt X="-1481.1595" Y="-1297.963"/>
 		<pt X="-1485.036" Y="-1296.5345"/>
 	</skpath>
-	<skpath from="707" to="708" linestyle="invisible" splined="1">
+	<skpath from="706" to="707" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1485.036" Y="-1296.5345"/>
 		<pt X="-1483.608" Y="-1301.6348"/>
 	</skpath>
-	<skpath from="708" to="709" linestyle="wall" splined="1">
+	<skpath from="707" to="708" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1483.608" Y="-1301.6348"/>
@@ -7056,7 +7025,7 @@
 		<pt X="-1479.7319" Y="-1307.5508"/>
 		<pt X="-1481.976" Y="-1307.5508"/>
 	</skpath>
-	<skpath from="709" to="710" linestyle="wall" splined="1">
+	<skpath from="708" to="709" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1481.976" Y="-1307.5508"/>
@@ -7065,7 +7034,7 @@
 		<pt X="-1494.4706" Y="-1322.4744"/>
 		<pt X="-1498.3754" Y="-1325.3018"/>
 	</skpath>
-	<skpath from="710" to="711" linestyle="wall" splined="1">
+	<skpath from="709" to="710" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1498.3754" Y="-1325.3018"/>
@@ -7073,7 +7042,7 @@
 		<pt X="-1517.8992" Y="-1334.3225"/>
 		<pt X="-1525.0354" Y="-1335.3997"/>
 	</skpath>
-	<skpath from="711" to="712" linestyle="wall" splined="1">
+	<skpath from="710" to="711" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1525.0354" Y="-1335.3997"/>
@@ -7082,7 +7051,7 @@
 		<pt X="-1549.1365" Y="-1344.1514"/>
 		<pt X="-1552.3679" Y="-1345.9017"/>
 	</skpath>
-	<skpath from="712" to="713" linestyle="wall" splined="1">
+	<skpath from="711" to="712" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1552.3679" Y="-1345.9017"/>
@@ -7096,7 +7065,7 @@
 		<pt X="-1583.3359" Y="-1349.8064"/>
 		<pt X="-1587.7792" Y="-1351.2875"/>
 	</skpath>
-	<skpath from="713" to="714" linestyle="wall" splined="1">
+	<skpath from="712" to="713" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1587.7792" Y="-1351.2875"/>
@@ -7104,7 +7073,7 @@
 		<pt X="-1600.4357" Y="-1353.0378"/>
 		<pt X="-1602.7246" Y="-1351.6914"/>
 	</skpath>
-	<skpath from="714" to="715" linestyle="wall" splined="1">
+	<skpath from="713" to="714" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1602.7246" Y="-1351.6914"/>
@@ -7115,7 +7084,7 @@
 		<pt X="-1589.1255" Y="-1327.5902"/>
 		<pt X="-1587.9137" Y="-1322.2045"/>
 	</skpath>
-	<skpath from="715" to="716" linestyle="wall" splined="1">
+	<skpath from="714" to="715" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1587.9137" Y="-1322.2045"/>
@@ -7124,7 +7093,7 @@
 		<pt X="-1591.4144" Y="-1294.872"/>
 		<pt X="-1591.8184" Y="-1290.4287"/>
 	</skpath>
-	<skpath from="717" to="718" linestyle="wall" splined="1">
+	<skpath from="716" to="717" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1645.2716" Y="-1265.2506"/>
@@ -7147,13 +7116,13 @@
 		<pt X="-1708.6884" Y="-1213.2784"/>
 		<pt X="-1713.4009" Y="-1210.5856"/>
 	</skpath>
-	<skpath from="718" to="719" linestyle="invisible" splined="1">
+	<skpath from="717" to="718" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1713.4009" Y="-1210.5856"/>
 		<pt X="-1718.073" Y="-1220.9783"/>
 	</skpath>
-	<skpath from="719" to="720" linestyle="wall" splined="1">
+	<skpath from="718" to="719" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1718.073" Y="-1220.9783"/>
@@ -7164,7 +7133,7 @@
 		<pt X="-1661.9719" Y="-1253.007"/>
 		<pt X="-1659.3198" Y="-1256.2711"/>
 	</skpath>
-	<skpath from="720" to="721" linestyle="wall" splined="1">
+	<skpath from="719" to="720" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1659.3198" Y="-1256.2711"/>
@@ -7174,7 +7143,7 @@
 		<pt X="-1657.0759" Y="-1277.4874"/>
 		<pt X="-1650.9558" Y="-1278.3035"/>
 	</skpath>
-	<skpath from="721" to="722" linestyle="wall" splined="1">
+	<skpath from="720" to="721" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1650.9558" Y="-1278.3035"/>
@@ -7185,7 +7154,7 @@
 		<pt X="-1626.2712" Y="-1267.0834"/>
 		<pt X="-1621.9872" Y="-1271.3674"/>
 	</skpath>
-	<skpath from="722" to="723" linestyle="wall" splined="1">
+	<skpath from="721" to="722" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1621.9872" Y="-1271.3674"/>
@@ -7202,48 +7171,11 @@
 	<skpath from="724" to="725" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
-		<pt X="-1609.6122" Y="-1359.8287"/>
-		<pt X="-1609.319" Y="-1365.1073"/>
-		<pt X="-1612.4274" Y="-1368.0398"/>
-		<pt X="-1616.7089" Y="-1369.7993"/>
-	</skpath>
-	<skpath from="725" to="726" linestyle="estwall" splined="1">
-		<sketchsubset subname="too bold"/>
-		<importfrom subname="107sketchD"/>
-		<pt X="-1616.7089" Y="-1369.7993"/>
-		<pt X="-1622.8086" Y="-1372.7905"/>
-		<pt X="-1624.1575" Y="-1374.4327"/>
-	</skpath>
-	<skpath from="726" to="727" linestyle="invisible" splined="1">
-		<sketchsubset subname="too bold"/>
-		<importfrom subname="107sketchD"/>
-		<pt X="-1624.1575" Y="-1374.4327"/>
-		<pt X="-1622.3395" Y="-1377.8932"/>
-	</skpath>
-	<skpath from="727" to="728" linestyle="estwall" splined="1">
-		<sketchsubset subname="too bold"/>
-		<importfrom subname="107sketchD"/>
-		<pt X="-1622.3395" Y="-1377.8932"/>
-		<pt X="-1612.7207" Y="-1374.6088"/>
-	</skpath>
-	<skpath from="728" to="729" linestyle="wall" splined="1">
-		<sketchsubset subname="too bold"/>
-		<importfrom subname="107sketchD"/>
-		<pt X="-1612.7207" Y="-1374.6088"/>
-		<pt X="-1607.97" Y="-1373.0251"/>
-		<pt X="-1601.4597" Y="-1370.7378"/>
-		<pt X="-1598.234" Y="-1369.1542"/>
-		<pt X="-1596.4745" Y="-1366.8082"/>
-		<pt X="-1595.4774" Y="-1362.9958"/>
-	</skpath>
-	<skpath from="729" to="730" linestyle="wall" splined="1">
-		<sketchsubset subname="too bold"/>
-		<importfrom subname="107sketchD"/>
 		<pt X="-1595.4774" Y="-1362.9958"/>
 		<pt X="-1591.6652" Y="-1362.1748"/>
 		<pt X="-1586.8558" Y="-1361.0604"/>
 	</skpath>
-	<skpath from="730" to="731" linestyle="wall" splined="1">
+	<skpath from="725" to="726" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1586.8558" Y="-1361.0604"/>
@@ -7260,7 +7192,7 @@
 		<pt X="-1550.6096" Y="-1355.2542"/>
 		<pt X="-1548.5569" Y="-1351.0314"/>
 	</skpath>
-	<skpath from="731" to="732" linestyle="wall" splined="1">
+	<skpath from="726" to="727" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1548.5569" Y="-1351.0314"/>
@@ -7269,7 +7201,7 @@
 		<pt X="-1530.5511" Y="-1345.9873"/>
 		<pt X="-1523.3958" Y="-1344.2864"/>
 	</skpath>
-	<skpath from="732" to="733" linestyle="wall" splined="1">
+	<skpath from="727" to="728" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1523.3958" Y="-1344.2864"/>
@@ -7280,7 +7212,7 @@
 		<pt X="-1496.5331" Y="-1339.1843"/>
 		<pt X="-1493.7178" Y="-1336.7797"/>
 	</skpath>
-	<skpath from="733" to="734" linestyle="wall" splined="1">
+	<skpath from="728" to="729" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1493.7178" Y="-1336.7797"/>
@@ -7290,7 +7222,7 @@
 		<pt X="-1477.9982" Y="-1320.1239"/>
 		<pt X="-1474.3029" Y="-1316.0187"/>
 	</skpath>
-	<skpath from="734" to="735" linestyle="wall" splined="1">
+	<skpath from="729" to="730" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1474.3029" Y="-1316.0187"/>
@@ -7303,21 +7235,21 @@
 		<pt X="-1385.0786" Y="-1371.2917"/>
 		<pt X="-1373.2426" Y="-1378.4302"/>
 	</skpath>
-	<skpath from="735" to="736" linestyle="wall" splined="1">
+	<skpath from="730" to="731" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1373.2426" Y="-1378.4302"/>
 		<pt X="-1362.4126" Y="-1383.9407"/>
 		<pt X="-1358.1274" Y="-1384.5533"/>
 	</skpath>
-	<skpath from="737" to="738" linestyle="wall" splined="1">
+	<skpath from="732" to="733" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1308.9" Y="-1398.4913"/>
 		<pt X="-1302.8088" Y="-1399.2422"/>
 		<pt X="-1295.1093" Y="-1398.4174"/>
 	</skpath>
-	<skpath from="738" to="693" linestyle="wall" splined="1">
+	<skpath from="733" to="692" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1295.1093" Y="-1398.4174"/>
@@ -7325,7 +7257,7 @@
 		<pt X="-1285.5415" Y="-1398.4949"/>
 		<pt X="-1283.5276" Y="-1398.7277"/>
 	</skpath>
-	<skpath from="693" to="580" linestyle="wall" splined="1">
+	<skpath from="692" to="579" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1283.5276" Y="-1398.7277"/>
@@ -7337,7 +7269,7 @@
 		<pt X="-1254.265" Y="-1401.7024"/>
 		<pt X="-1251.5388" Y="-1399.6993"/>
 	</skpath>
-	<skpath from="693" to="698" linestyle="pitchbound" splined="1">
+	<skpath from="692" to="697" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1283.5276" Y="-1398.7277"/>
@@ -7345,7 +7277,7 @@
 		<pt X="-1285.106" Y="-1390.7604"/>
 		<pt X="-1287.8904" Y="-1387.5751"/>
 	</skpath>
-	<skpath from="698" to="695" linestyle="pitchbound" splined="1">
+	<skpath from="697" to="694" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1287.8904" Y="-1387.5751"/>
@@ -7358,44 +7290,44 @@
 		<pt X="-1278.3359" Y="-1373.7688"/>
 		<pt X="-1281.4719" Y="-1372.249"/>
 	</skpath>
-	<skpath from="738" to="699" linestyle="detail" splined="1">
+	<skpath from="733" to="698" linestyle="detail" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1295.1093" Y="-1398.4174"/>
 		<pt X="-1297.8995" Y="-1389.4655"/>
 	</skpath>
-	<skpath from="731" to="712" linestyle="pitchbound" splined="1">
+	<skpath from="726" to="711" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1548.5569" Y="-1351.0314"/>
 		<pt X="-1550.2292" Y="-1348.146"/>
 		<pt X="-1552.3679" Y="-1345.9017"/>
 	</skpath>
-	<skpath from="713" to="730" linestyle="pitchbound" splined="1">
+	<skpath from="712" to="725" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1587.7792" Y="-1351.2875"/>
 		<pt X="-1589.4104" Y="-1356.3593"/>
 		<pt X="-1586.8558" Y="-1361.0604"/>
 	</skpath>
-	<skpath from="301" to="720" linestyle="connective">
+	<skpath from="301" to="719" linestyle="connective">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1658.0508" Y="-1253.7092" Z="-533.1572"/>
 		<pt X="-1659.3198" Y="-1256.2711"/>
 	</skpath>
-	<skpath from="300" to="721" linestyle="connective">
+	<skpath from="300" to="720" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1652.7509" Y="-1278.6093" Z="-543.9572"/>
 		<pt X="-1650.9558" Y="-1278.3035"/>
 	</skpath>
-	<skpath from="299" to="722" linestyle="connective">
+	<skpath from="299" to="721" linestyle="connective">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1622.2509" Y="-1268.7092" Z="-542.8572"/>
 		<pt X="-1621.9872" Y="-1271.3674"/>
 	</skpath>
-	<skpath from="716" to="739" linestyle="wall" splined="1">
+	<skpath from="715" to="734" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1591.8184" Y="-1290.4287"/>
@@ -7409,7 +7341,7 @@
 		<pt X="-1609.7258" Y="-1261.2113"/>
 		<pt X="-1616.0541" Y="-1256.7682"/>
 	</skpath>
-	<skpath from="739" to="717" linestyle="wall" splined="1">
+	<skpath from="734" to="716" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1616.0541" Y="-1256.7682"/>
@@ -7421,41 +7353,41 @@
 		<pt X="-1640.6937" Y="-1260.2688"/>
 		<pt X="-1645.2716" Y="-1265.2506"/>
 	</skpath>
-	<skpath from="739" to="299" linestyle="connective">
+	<skpath from="734" to="299" linestyle="connective">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1616.0541" Y="-1256.7682"/>
 		<pt X="-1622.2509" Y="-1268.7092" Z="-542.8572"/>
 	</skpath>
-	<skpath from="298" to="716" linestyle="connective">
+	<skpath from="298" to="715" linestyle="connective">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1595.7509" Y="-1290.1093" Z="-536.85724"/>
 		<pt X="-1591.8184" Y="-1290.4287"/>
 	</skpath>
-	<skpath from="723" to="297" linestyle="connective">
+	<skpath from="722" to="297" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1595.0585" Y="-1325.0205"/>
 		<pt X="-1595.7509" Y="-1320.7092" Z="-547.9572"/>
 	</skpath>
-	<skpath from="297" to="715" linestyle="connective">
+	<skpath from="297" to="714" linestyle="connective">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1595.7509" Y="-1320.7092" Z="-547.9572"/>
 		<pt X="-1587.9137" Y="-1322.2045"/>
 	</skpath>
-	<skpath from="724" to="296" linestyle="connective">
+	<skpath from="723" to="296" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1609.6122" Y="-1359.8287"/>
 		<pt X="-1610.9509" Y="-1356.6091" Z="-564.4573"/>
 	</skpath>
-	<skpath from="296" to="713" linestyle="connective">
+	<skpath from="296" to="712" linestyle="connective">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1610.9509" Y="-1356.6091" Z="-564.4573"/>
 		<pt X="-1587.7792" Y="-1351.2875"/>
 	</skpath>
-	<skpath from="740" to="589" linestyle="connective">
+	<skpath from="735" to="588" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="1.0">Land&newline;&space;&space;of&newline;Confusion</pctext>
 		</pathcodes>
@@ -7464,7 +7396,7 @@
 		<pt X="-1120.3402" Y="-1577.9977"/>
 		<pt X="-1125.8203" Y="-1600.9586"/>
 	</skpath>
-	<skpath from="741" to="742" linestyle="connective">
+	<skpath from="736" to="737" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
@@ -7481,7 +7413,7 @@
 		<pt X="-1712.7921" Y="-1293.5248"/>
 		<pt X="-1771.2969" Y="-1281.7833"/>
 	</skpath>
-	<skpath from="647" to="743" linestyle="connective">
+	<skpath from="646" to="738" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="hole"/>
@@ -7491,54 +7423,54 @@
 		<pt X="-1053.9272" Y="-1839.624"/>
 		<pt X="-1044.87" Y="-1845.1045"/>
 	</skpath>
-	<skpath from="338" to="599" linestyle="connective">
+	<skpath from="338" to="598" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1094.2509" Y="-1710.8093" Z="-610.05725"/>
 		<pt X="-1105.633" Y="-1707.2201"/>
 	</skpath>
-	<skpath from="338" to="600" linestyle="connective">
+	<skpath from="338" to="599" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1094.2509" Y="-1710.8093" Z="-610.05725"/>
 		<pt X="-1095.2764" Y="-1704.5015"/>
 	</skpath>
-	<skpath from="337" to="612" linestyle="connective">
+	<skpath from="337" to="611" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1073.2509" Y="-1784.2092" Z="-603.35724"/>
 		<pt X="-1069.315" Y="-1796.7983"/>
 	</skpath>
-	<skpath from="336" to="653" linestyle="connective">
+	<skpath from="336" to="652" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1054.3508" Y="-1812.3093" Z="-639.6572"/>
 		<pt X="-1055.4044" Y="-1810.941"/>
 	</skpath>
-	<skpath from="333" to="618" linestyle="connective">
+	<skpath from="333" to="617" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1087.8508" Y="-1827.4092" Z="-644.1572"/>
 		<pt X="-1088.0939" Y="-1826.5483"/>
 	</skpath>
-	<skpath from="333" to="642" linestyle="connective">
+	<skpath from="333" to="641" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1087.8508" Y="-1827.4092" Z="-644.1572"/>
 		<pt X="-1083.6631" Y="-1832.5271"/>
 	</skpath>
-	<skpath from="619" to="641" linestyle="connective">
+	<skpath from="618" to="640" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1102.17" Y="-1844.0262"/>
 		<pt X="-1094.4548" Y="-1847.3657"/>
 	</skpath>
-	<skpath from="330" to="624" linestyle="connective">
+	<skpath from="330" to="623" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1142.3508" Y="-1892.3093" Z="-641.25726"/>
 		<pt X="-1147.7059" Y="-1882.7712"/>
 	</skpath>
-	<skpath from="630" to="624" linestyle="pitchbound" splined="1">
+	<skpath from="629" to="623" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1146.2432" Y="-1896.515"/>
@@ -7547,7 +7479,7 @@
 		<pt X="-1147.5056" Y="-1887.1405"/>
 		<pt X="-1147.7059" Y="-1882.7712"/>
 	</skpath>
-	<skpath from="627" to="629" linestyle="pitchbound" splined="1">
+	<skpath from="626" to="628" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1157.3281" Y="-1895.9285"/>
@@ -7555,13 +7487,13 @@
 		<pt X="-1152.3829" Y="-1899.2566"/>
 		<pt X="-1150.8766" Y="-1901.559"/>
 	</skpath>
-	<skpath from="406" to="744" linestyle="connective">
+	<skpath from="406" to="739" linestyle="connective">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1145.5508" Y="-2081.7092" Z="-964.1572"/>
 		<pt X="-1142.0107" Y="-2081.4683"/>
 	</skpath>
-	<skpath from="745" to="745" linestyle="pitchbound" splined="1">
+	<skpath from="740" to="740" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1475.4681" Y="-1666.5267"/>
@@ -7574,13 +7506,13 @@
 		<pt X="-1476.8962" Y="-1661.2227"/>
 		<pt X="-1475.4681" Y="-1666.5267"/>
 	</skpath>
-	<skpath from="745" to="526" linestyle="invisible" splined="1">
+	<skpath from="740" to="526" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1475.4681" Y="-1666.5267"/>
 		<pt X="-1498.3495" Y="-1669.8512"/>
 	</skpath>
-	<skpath from="746" to="745" linestyle="connective">
+	<skpath from="741" to="740" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">p5?</pctext>
 		</pathcodes>
@@ -7589,7 +7521,7 @@
 		<pt X="-1476.6923" Y="-1673.259"/>
 		<pt X="-1475.4681" Y="-1666.5267"/>
 	</skpath>
-	<skpath from="747" to="748" linestyle="detail">
+	<skpath from="742" to="743" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1449.9708" Y="-1740.8135"/>
@@ -7597,7 +7529,7 @@
 		<pt X="-1432.4673" Y="-1741.352"/>
 		<pt X="-1424.5233" Y="-1738.1206"/>
 	</skpath>
-	<skpath from="748" to="749" linestyle="detail">
+	<skpath from="743" to="744" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1424.5233" Y="-1738.1206"/>
@@ -7607,113 +7539,113 @@
 		<pt X="-1437.3143" Y="-1720.8864"/>
 		<pt X="-1446.4701" Y="-1725.7334"/>
 	</skpath>
-	<skpath from="749" to="747" linestyle="detail">
+	<skpath from="744" to="742" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1446.4701" Y="-1725.7334"/>
 		<pt X="-1452.2598" Y="-1736.5049"/>
 		<pt X="-1449.9708" Y="-1740.8135"/>
 	</skpath>
-	<skpath from="747" to="750" linestyle="detail">
+	<skpath from="742" to="745" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1449.9708" Y="-1740.8135"/>
 		<pt X="-1445.1237" Y="-1731.927"/>
 	</skpath>
-	<skpath from="750" to="749" linestyle="detail">
+	<skpath from="745" to="744" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1445.1237" Y="-1731.927"/>
 		<pt X="-1446.4701" Y="-1725.7334"/>
 	</skpath>
-	<skpath from="750" to="751" linestyle="detail">
+	<skpath from="745" to="746" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1445.1237" Y="-1731.927"/>
 		<pt X="-1436.3718" Y="-1733.9467"/>
 	</skpath>
-	<skpath from="751" to="752" linestyle="detail">
+	<skpath from="746" to="747" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1436.3718" Y="-1733.9467"/>
 		<pt X="-1433.5444" Y="-1739.467"/>
 		<pt X="-1428.9666" Y="-1734.7545"/>
 	</skpath>
-	<skpath from="752" to="748" linestyle="detail">
+	<skpath from="747" to="743" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1428.9666" Y="-1734.7545"/>
 		<pt X="-1424.5233" Y="-1738.1206"/>
 	</skpath>
-	<skpath from="752" to="753" linestyle="detail">
+	<skpath from="747" to="748" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1428.9666" Y="-1734.7545"/>
 		<pt X="-1432.0634" Y="-1726.1373"/>
 	</skpath>
-	<skpath from="753" to="754" linestyle="detail">
+	<skpath from="748" to="749" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1432.0634" Y="-1726.1373"/>
 		<pt X="-1434.9203" Y="-1731.3157"/>
 	</skpath>
-	<skpath from="754" to="751" linestyle="detail">
+	<skpath from="749" to="746" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1434.9203" Y="-1731.3157"/>
 		<pt X="-1436.3718" Y="-1733.9467"/>
 	</skpath>
-	<skpath from="754" to="752" linestyle="detail">
+	<skpath from="749" to="747" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1434.9203" Y="-1731.3157"/>
 		<pt X="-1428.9666" Y="-1734.7545"/>
 	</skpath>
-	<skpath from="753" to="755" linestyle="detail">
+	<skpath from="748" to="750" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1432.0634" Y="-1726.1373"/>
 		<pt X="-1436.3718" Y="-1724.5216"/>
 	</skpath>
-	<skpath from="755" to="751" linestyle="detail">
+	<skpath from="750" to="746" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1436.3718" Y="-1724.5216"/>
 		<pt X="-1438.6608" Y="-1728.9648"/>
 		<pt X="-1436.3718" Y="-1733.9467"/>
 	</skpath>
-	<skpath from="755" to="754" linestyle="detail">
+	<skpath from="750" to="749" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1436.3718" Y="-1724.5216"/>
 		<pt X="-1434.9203" Y="-1731.3157"/>
 	</skpath>
-	<skpath from="754" to="401" linestyle="connective">
+	<skpath from="749" to="401" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1434.9203" Y="-1731.3157"/>
 		<pt X="-1434.4508" Y="-1730.1093" Z="-1138.6572"/>
 	</skpath>
-	<skpath from="541" to="756" linestyle="wall" splined="1">
+	<skpath from="540" to="751" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1405.3209" Y="-1692.4335"/>
 		<pt X="-1392.2443" Y="-1717.3978"/>
 		<pt X="-1387.099" Y="-1737.1278"/>
 	</skpath>
-	<skpath from="756" to="542" linestyle="wall" splined="1">
+	<skpath from="751" to="541" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1387.099" Y="-1737.1278"/>
 		<pt X="-1379.7622" Y="-1772.082"/>
 		<pt X="-1374.1156" Y="-1804.1793"/>
 	</skpath>
-	<skpath from="756" to="748" linestyle="invisible" splined="1">
+	<skpath from="751" to="743" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1387.099" Y="-1737.1278"/>
 		<pt X="-1424.5233" Y="-1738.1206"/>
 	</skpath>
-	<skpath from="757" to="754" linestyle="connective">
+	<skpath from="752" to="749" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">china.4</pctext>
 		</pathcodes>
@@ -7722,104 +7654,104 @@
 		<pt X="-1522.4103" Y="-1718.0978"/>
 		<pt X="-1434.9203" Y="-1731.3157"/>
 	</skpath>
-	<skpath from="758" to="759" linestyle="detail">
+	<skpath from="753" to="754" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1411.7635" Y="-1822.3577"/>
 		<pt X="-1397.9006" Y="-1823.3352"/>
 		<pt X="-1394.7904" Y="-1819.6029"/>
 	</skpath>
-	<skpath from="759" to="760" linestyle="detail">
+	<skpath from="754" to="755" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1394.7904" Y="-1819.6029"/>
 		<pt X="-1391.0581" Y="-1813.2046"/>
 		<pt X="-1395.4125" Y="-1803.2518"/>
 	</skpath>
-	<skpath from="760" to="761" linestyle="detail">
+	<skpath from="755" to="756" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1395.4125" Y="-1803.2518"/>
 		<pt X="-1401.8995" Y="-1814.9819"/>
 	</skpath>
-	<skpath from="761" to="758" linestyle="detail">
+	<skpath from="756" to="753" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1401.8995" Y="-1814.9819"/>
 		<pt X="-1411.7635" Y="-1822.3577"/>
 	</skpath>
-	<skpath from="759" to="761" linestyle="detail">
+	<skpath from="754" to="756" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1394.7904" Y="-1819.6029"/>
 		<pt X="-1401.8995" Y="-1814.9819"/>
 	</skpath>
-	<skpath from="758" to="760" linestyle="detail">
+	<skpath from="753" to="755" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1411.7635" Y="-1822.3577"/>
 		<pt X="-1411.9412" Y="-1811.2496"/>
 		<pt X="-1395.4125" Y="-1803.2518"/>
 	</skpath>
-	<skpath from="760" to="542" linestyle="invisible" splined="1">
+	<skpath from="755" to="541" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1395.4125" Y="-1803.2518"/>
 		<pt X="-1374.1156" Y="-1804.1793"/>
 	</skpath>
-	<skpath from="762" to="763" linestyle="detail">
+	<skpath from="757" to="758" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1315.7555" Y="-2100.3508"/>
 		<pt X="-1307.7993" Y="-2102.3909"/>
 		<pt X="-1302.6992" Y="-2106.471"/>
 	</skpath>
-	<skpath from="763" to="764" linestyle="detail">
+	<skpath from="758" to="759" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1302.6992" Y="-2106.471"/>
 		<pt X="-1287.1948" Y="-2095.0466"/>
 	</skpath>
-	<skpath from="764" to="765" linestyle="detail">
+	<skpath from="759" to="760" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1287.1948" Y="-2095.0466"/>
 		<pt X="-1301.4751" Y="-2095.8628"/>
 		<pt X="-1311.4713" Y="-2089.5386"/>
 	</skpath>
-	<skpath from="765" to="762" linestyle="detail">
+	<skpath from="760" to="757" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1311.4713" Y="-2089.5386"/>
 		<pt X="-1315.7555" Y="-2100.3508"/>
 	</skpath>
-	<skpath from="763" to="766" linestyle="detail">
+	<skpath from="758" to="761" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1302.6992" Y="-2106.471"/>
 		<pt X="-1297.599" Y="-2112.183"/>
 	</skpath>
-	<skpath from="766" to="767" linestyle="detail">
+	<skpath from="761" to="762" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1297.599" Y="-2112.183"/>
 		<pt X="-1283.7267" Y="-2107.899"/>
 		<pt X="-1278.6266" Y="-2103.2068"/>
 	</skpath>
-	<skpath from="767" to="768" linestyle="detail">
+	<skpath from="762" to="763" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1278.6266" Y="-2103.2068"/>
 		<pt X="-1272.5065" Y="-2111.7751"/>
 	</skpath>
-	<skpath from="768" to="766" linestyle="detail">
+	<skpath from="763" to="761" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1272.5065" Y="-2111.7751"/>
 		<pt X="-1284.7467" Y="-2120.3433"/>
 		<pt X="-1297.599" Y="-2112.183"/>
 	</skpath>
-	<skpath from="768" to="769" linestyle="detail">
+	<skpath from="763" to="764" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1272.5065" Y="-2111.7751"/>
@@ -7827,43 +7759,44 @@
 		<pt X="-1250.27" Y="-2104.8389"/>
 		<pt X="-1246.5979" Y="-2092.8027"/>
 	</skpath>
-	<skpath from="769" to="769" linestyle="detail">
+	<skpath from="764" to="764" linestyle="detail">
+		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1246.5979" Y="-2092.8027"/>
 		<pt X="-1246.5979" Y="-2092.8027"/>
 	</skpath>
-	<skpath from="769" to="770" linestyle="detail">
+	<skpath from="764" to="765" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1246.5979" Y="-2092.8027"/>
 		<pt X="-1243.1298" Y="-2088.3145"/>
 	</skpath>
-	<skpath from="770" to="771" linestyle="detail">
+	<skpath from="765" to="766" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1243.1298" Y="-2088.3145"/>
 		<pt X="-1251.494" Y="-2073.0142"/>
 	</skpath>
-	<skpath from="771" to="772" linestyle="detail">
+	<skpath from="766" to="767" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1251.494" Y="-2073.0142"/>
 		<pt X="-1256.0564" Y="-2086.5828"/>
 	</skpath>
-	<skpath from="772" to="770" linestyle="detail">
+	<skpath from="767" to="765" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1256.0564" Y="-2086.5828"/>
 		<pt X="-1243.1298" Y="-2088.3145"/>
 	</skpath>
-	<skpath from="772" to="764" linestyle="detail">
+	<skpath from="767" to="759" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1256.0564" Y="-2086.5828"/>
 		<pt X="-1270.1575" Y="-2086.6042"/>
 		<pt X="-1287.1948" Y="-2095.0466"/>
 	</skpath>
-	<skpath from="771" to="765" linestyle="detail">
+	<skpath from="766" to="760" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1251.494" Y="-2073.0142"/>
@@ -7875,7 +7808,7 @@
 		<pt X="-1302.7411" Y="-2087.8162"/>
 		<pt X="-1311.4713" Y="-2089.5386"/>
 	</skpath>
-	<skpath from="767" to="769" linestyle="detail">
+	<skpath from="762" to="764" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1278.6266" Y="-2103.2068"/>
@@ -7884,32 +7817,32 @@
 		<pt X="-1252.7885" Y="-2097.241"/>
 		<pt X="-1246.5979" Y="-2092.8027"/>
 	</skpath>
-	<skpath from="772" to="405" linestyle="connective">
+	<skpath from="767" to="405" linestyle="connective">
 		<importfrom subname="107sketchD"/>
 		<pt X="-1256.0564" Y="-2086.5828"/>
 		<pt X="-1255.851" Y="-2086.1094" Z="-992.9572"/>
 	</skpath>
-	<skpath from="762" to="522" linestyle="invisible" splined="1">
+	<skpath from="757" to="522" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1315.7555" Y="-2100.3508"/>
 		<pt X="-1320.9232" Y="-2099.003"/>
 	</skpath>
-	<skpath from="773" to="774" linestyle="detail">
+	<skpath from="768" to="769" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1170.1393" Y="-2081.885"/>
 		<pt X="-1164.4271" Y="-2081.273"/>
 		<pt X="-1165.7455" Y="-2041.5981"/>
 	</skpath>
-	<skpath from="521" to="775" linestyle="wall" splined="1">
+	<skpath from="521" to="770" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1168.1641" Y="-2020.5428"/>
 		<pt X="-1168.4613" Y="-2025.2981"/>
 		<pt X="-1163.7062" Y="-2032.7279"/>
 	</skpath>
-	<skpath from="775" to="744" linestyle="wall" splined="1">
+	<skpath from="770" to="739" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1163.7062" Y="-2032.7279"/>
@@ -7920,45 +7853,45 @@
 		<pt X="-1140.5247" Y="-2076.4158"/>
 		<pt X="-1142.0107" Y="-2081.4683"/>
 	</skpath>
-	<skpath from="774" to="775" linestyle="detail">
+	<skpath from="769" to="770" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1165.7455" Y="-2041.5981"/>
 		<pt X="-1166.3676" Y="-2034.4001"/>
 		<pt X="-1163.7062" Y="-2032.7279"/>
 	</skpath>
-	<skpath from="773" to="776" linestyle="detail">
+	<skpath from="768" to="771" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1170.1393" Y="-2081.885"/>
 		<pt X="-1172.9435" Y="-2070.6567"/>
 	</skpath>
-	<skpath from="776" to="777" linestyle="detail">
+	<skpath from="771" to="772" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1172.9435" Y="-2070.6567"/>
 		<pt X="-1175.7872" Y="-2067.991"/>
 	</skpath>
-	<skpath from="777" to="778" linestyle="detail">
+	<skpath from="772" to="773" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1175.7872" Y="-2067.991"/>
 		<pt X="-1199.3962" Y="-2019.958"/>
 		<pt X="-1197.9152" Y="-2015.784"/>
 	</skpath>
-	<skpath from="778" to="779" linestyle="detail">
+	<skpath from="773" to="774" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1197.9152" Y="-2015.784"/>
 		<pt X="-1178.7959" Y="-2036.5192"/>
 	</skpath>
-	<skpath from="779" to="776" linestyle="detail">
+	<skpath from="774" to="771" linestyle="detail">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1178.7959" Y="-2036.5192"/>
 		<pt X="-1172.9435" Y="-2070.6567"/>
 	</skpath>
-	<skpath from="777" to="519" linestyle="pitchbound">
+	<skpath from="772" to="519" linestyle="pitchbound">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1175.7872" Y="-2067.991"/>
@@ -7971,7 +7904,7 @@
 		<pt X="-1231.9799" Y="-2012.2834"/>
 		<pt X="-1241.5717" Y="-1999.4419"/>
 	</skpath>
-	<skpath from="780" to="772" linestyle="connective">
+	<skpath from="775" to="767" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">china.8</pctext>
 		</pathcodes>
@@ -7980,7 +7913,7 @@
 		<pt X="-1341.8363" Y="-2089.546"/>
 		<pt X="-1256.0564" Y="-2086.5828"/>
 	</skpath>
-	<skpath from="781" to="522" linestyle="wall" splined="1">
+	<skpath from="776" to="522" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1258.2577" Y="-2167.476"/>
@@ -7991,7 +7924,7 @@
 		<pt X="-1313.7905" Y="-2116.2405"/>
 		<pt X="-1320.9232" Y="-2099.003"/>
 	</skpath>
-	<skpath from="782" to="781" linestyle="connective">
+	<skpath from="777" to="776" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">wall&space;of&space;mud</pctext>
 		</pathcodes>
@@ -8000,16 +7933,17 @@
 		<pt X="-1252.146" Y="-2182.6958"/>
 		<pt X="-1258.2577" Y="-2167.476"/>
 	</skpath>
-	<skpath from="781" to="783" linestyle="connective">
+	<skpath from="776" to="778" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="bigboulders"/>
 		</pathcodes>
+		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1258.2577" Y="-2167.476"/>
 		<pt X="-1260.9308" Y="-2133.807"/>
 	</skpath>
-	<skpath from="514" to="607" linestyle="pitchbound" splined="1">
+	<skpath from="514" to="606" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -8025,7 +7959,7 @@
 		<pt X="-1109.6503" Y="-1992.1246"/>
 		<pt X="-1111.2975" Y="-1997.9325"/>
 	</skpath>
-	<skpath from="494" to="784" linestyle="connective">
+	<skpath from="494" to="779" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="bigboulders"/>
@@ -8035,7 +7969,7 @@
 		<pt X="-1161.5347" Y="-2013.8276"/>
 		<pt X="-1152.6025" Y="-2000.9958"/>
 	</skpath>
-	<skpath from="607" to="785" linestyle="connective">
+	<skpath from="606" to="780" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="bigboulders"/>
@@ -8045,7 +7979,7 @@
 		<pt X="-1111.2975" Y="-1997.9325"/>
 		<pt X="-1102.7314" Y="-1991.7175"/>
 	</skpath>
-	<skpath from="786" to="786" linestyle="connective">
+	<skpath from="781" to="781" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="2.3620992" sfrotatedeg="-0.0013700894" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="35862.722689599475" sfytrans="-82991.44875283654" sfsketch="surveyscans/2014/2014#00/107-plan-2013.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="10029" sfpixheight="7543">
@@ -8058,18 +7992,18 @@
 		<pt X="-4450.381" Y="958.546"/>
 		<pt X="-4450.304" Y="-2234.8"/>
 	</skpath>
-	<skpath from="786" to="404" linestyle="connective">
+	<skpath from="781" to="404" linestyle="connective">
 		<pt X="-4450.304" Y="-2234.8"/>
 		<pt X="-1281.8508" Y="-2000.8093" Z="-987.75726"/>
 	</skpath>
-	<skpath from="561" to="787" linestyle="wall" splined="1">
+	<skpath from="560" to="782" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1123.6238" Y="-1644.5153"/>
 		<pt X="-1125.2646" Y="-1646.8762"/>
 		<pt X="-1127.3297" Y="-1644.8972"/>
 		<pt X="-1130.0833" Y="-1644.0367"/>
 	</skpath>
-	<skpath from="787" to="788" linestyle="wall" splined="1">
+	<skpath from="782" to="783" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1130.0833" Y="-1644.0367"/>
 		<pt X="-1135.1599" Y="-1643.0043"/>
@@ -8078,7 +8012,7 @@
 		<pt X="-1161.834" Y="-1641.7996"/>
 		<pt X="-1165.4479" Y="-1642.4019"/>
 	</skpath>
-	<skpath from="788" to="789" linestyle="wall" splined="1">
+	<skpath from="783" to="784" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1165.4479" Y="-1642.4019"/>
 		<pt X="-1169.0618" Y="-1644.7251"/>
@@ -8086,7 +8020,7 @@
 		<pt X="-1188.7662" Y="-1659.0947"/>
 		<pt X="-1199.4359" Y="-1666.9249"/>
 	</skpath>
-	<skpath from="789" to="790" linestyle="wall" splined="1">
+	<skpath from="784" to="785" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1199.4359" Y="-1666.9249"/>
 		<pt X="-1202.5334" Y="-1662.7086"/>
@@ -8095,14 +8029,14 @@
 		<pt X="-1210.2776" Y="-1653.932"/>
 		<pt X="-1210.3636" Y="-1651.867"/>
 	</skpath>
-	<skpath from="790" to="791" linestyle="wall" splined="1">
+	<skpath from="785" to="786" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1210.3636" Y="-1651.867"/>
 		<pt X="-1209.7614" Y="-1643.7787"/>
 		<pt X="-1209.159" Y="-1636.6368"/>
 		<pt X="-1208.8148" Y="-1631.3881"/>
 	</skpath>
-	<skpath from="791" to="792" linestyle="wall" splined="1">
+	<skpath from="786" to="787" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1208.8148" Y="-1631.3881"/>
 		<pt X="-1209.4171" Y="-1625.2788"/>
@@ -8112,7 +8046,7 @@
 		<pt X="-1212.4078" Y="-1579.1194"/>
 		<pt X="-1212.5382" Y="-1571.6882"/>
 	</skpath>
-	<skpath from="792" to="793" linestyle="wall" splined="1">
+	<skpath from="787" to="788" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1212.5382" Y="-1571.6882"/>
 		<pt X="-1212.0167" Y="-1559.8243"/>
@@ -8120,7 +8054,7 @@
 		<pt X="-1211.8864" Y="-1537.9219"/>
 		<pt X="-1211.1041" Y="-1524.1024"/>
 	</skpath>
-	<skpath from="794" to="795" linestyle="wall" splined="1">
+	<skpath from="789" to="790" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1222.3162" Y="-1523.7113"/>
 		<pt X="-1222.968" Y="-1532.1855"/>
@@ -8129,7 +8063,7 @@
 		<pt X="-1219.8983" Y="-1566.8368"/>
 		<pt X="-1220.886" Y="-1571.1825"/>
 	</skpath>
-	<skpath from="795" to="796" linestyle="wall" splined="1">
+	<skpath from="790" to="791" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1220.886" Y="-1571.1825"/>
 		<pt X="-1221.8737" Y="-1579.4789"/>
@@ -8138,7 +8072,7 @@
 		<pt X="-1223.849" Y="-1618.1954"/>
 		<pt X="-1224.8367" Y="-1624.9115"/>
 	</skpath>
-	<skpath from="796" to="797" linestyle="wall" splined="1">
+	<skpath from="791" to="792" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1224.8367" Y="-1624.9115"/>
 		<pt X="-1227.4045" Y="-1626.4918"/>
@@ -8147,26 +8081,26 @@
 		<pt X="-1245.1826" Y="-1610.6891"/>
 		<pt X="-1248.9357" Y="-1606.5409"/>
 	</skpath>
-	<skpath from="797" to="798" linestyle="wall" splined="1">
+	<skpath from="792" to="793" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1248.9357" Y="-1606.5409"/>
 		<pt X="-1251.5037" Y="-1599.2322"/>
 		<pt X="-1262.7631" Y="-1584.2197"/>
 		<pt X="-1267.8989" Y="-1575.1332"/>
 	</skpath>
-	<skpath from="798" to="799" linestyle="invisible" splined="1">
+	<skpath from="793" to="794" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1267.8989" Y="-1575.1332"/>
 		<pt X="-1276.1953" Y="-1580.6641"/>
 	</skpath>
-	<skpath from="799" to="800" linestyle="wall" splined="1">
+	<skpath from="794" to="795" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1276.1953" Y="-1580.6641"/>
 		<pt X="-1270.6644" Y="-1593.3063"/>
 		<pt X="-1260.9852" Y="-1607.331"/>
 		<pt X="-1255.6519" Y="-1614.0472"/>
 	</skpath>
-	<skpath from="800" to="801" linestyle="wall" splined="1">
+	<skpath from="795" to="796" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1255.6519" Y="-1614.0472"/>
 		<pt X="-1245.9728" Y="-1628.4672"/>
@@ -8174,7 +8108,7 @@
 		<pt X="-1224.0465" Y="-1644.4673"/>
 		<pt X="-1220.0958" Y="-1646.8378"/>
 	</skpath>
-	<skpath from="801" to="802" linestyle="wall" splined="1">
+	<skpath from="796" to="797" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1220.0958" Y="-1646.8378"/>
 		<pt X="-1218.5156" Y="-1655.7267"/>
@@ -8182,7 +8116,7 @@
 		<pt X="-1210.6143" Y="-1668.7639"/>
 		<pt X="-1211.4044" Y="-1673.8998"/>
 	</skpath>
-	<skpath from="802" to="803" linestyle="wall" splined="1">
+	<skpath from="797" to="798" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1211.4044" Y="-1673.8998"/>
 		<pt X="-1217.3304" Y="-1675.2825"/>
@@ -8193,7 +8127,7 @@
 		<pt X="-1251.8987" Y="-1696.6161"/>
 		<pt X="-1247.553" Y="-1696.8136"/>
 	</skpath>
-	<skpath from="803" to="804" linestyle="wall" splined="1">
+	<skpath from="798" to="799" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1247.553" Y="-1696.8136"/>
 		<pt X="-1236.2936" Y="-1693.8506"/>
@@ -8203,7 +8137,7 @@
 		<pt X="-1202.1204" Y="-1684.5665"/>
 		<pt X="-1193.2313" Y="-1682.1962"/>
 	</skpath>
-	<skpath from="804" to="805" linestyle="wall" splined="1">
+	<skpath from="799" to="800" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1193.2313" Y="-1682.1962"/>
 		<pt X="-1188.4906" Y="-1678.6405"/>
@@ -8212,7 +8146,7 @@
 		<pt X="-1167.157" Y="-1655.3317"/>
 		<pt X="-1162.8113" Y="-1653.3563"/>
 	</skpath>
-	<skpath from="806" to="807" linestyle="wall" splined="1">
+	<skpath from="801" to="802" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1126.6627" Y="-1653.3563"/>
 		<pt X="-1130.4158" Y="-1655.5292"/>
@@ -8220,7 +8154,7 @@
 		<pt X="-1133.9714" Y="-1660.8625"/>
 		<pt X="-1134.9591" Y="-1664.6157"/>
 	</skpath>
-	<skpath from="807" to="808" linestyle="wall" splined="1">
+	<skpath from="802" to="803" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1134.9591" Y="-1664.6157"/>
 		<pt X="-1141.0826" Y="-1666.9861"/>
@@ -8229,7 +8163,7 @@
 		<pt X="-1184.1448" Y="-1688.9122"/>
 		<pt X="-1192.4412" Y="-1693.258"/>
 	</skpath>
-	<skpath from="808" to="809" linestyle="wall" splined="1">
+	<skpath from="803" to="804" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1192.4412" Y="-1693.258"/>
 		<pt X="-1208.0464" Y="-1702.147"/>
@@ -8244,7 +8178,7 @@
 		<pt X="-1241.627" Y="-1714.5916"/>
 		<pt X="-1240.8369" Y="-1718.3447"/>
 	</skpath>
-	<skpath from="809" to="810" linestyle="wall" splined="1">
+	<skpath from="804" to="805" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1240.8369" Y="-1718.3447"/>
 		<pt X="-1243.2073" Y="-1720.9127"/>
@@ -8253,14 +8187,14 @@
 		<pt X="-1252.8864" Y="-1726.2461"/>
 		<pt X="-1261.3802" Y="-1735.7277"/>
 	</skpath>
-	<skpath from="810" to="811" linestyle="wall" splined="1">
+	<skpath from="805" to="806" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1261.3802" Y="-1735.7277"/>
 		<pt X="-1269.7911" Y="-1739.8384"/>
 		<pt X="-1271.4381" Y="-1741.7692"/>
 		<pt X="-1272.1195" Y="-1745.063"/>
 	</skpath>
-	<skpath from="811" to="812" linestyle="wall" splined="1">
+	<skpath from="806" to="807" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1272.1195" Y="-1745.063"/>
 		<pt X="-1273.1986" Y="-1746.71"/>
@@ -8268,30 +8202,30 @@
 		<pt X="-1275.8677" Y="-1745.9148"/>
 		<pt X="-1276.7764" Y="-1746.3691"/>
 	</skpath>
-	<skpath from="812" to="813" linestyle="wall" splined="1">
+	<skpath from="807" to="808" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1276.7764" Y="-1746.3691"/>
 		<pt X="-1278.4232" Y="-1745.9717"/>
 		<pt X="-1279.5023" Y="-1744.6655"/>
 	</skpath>
-	<skpath from="813" to="814" linestyle="wall" splined="1">
+	<skpath from="808" to="809" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1279.5023" Y="-1744.6655"/>
 		<pt X="-1277.6849" Y="-1743.1321"/>
 		<pt X="-1275.9241" Y="-1742.2046"/>
 	</skpath>
-	<skpath from="814" to="815" linestyle="invisible" splined="1">
+	<skpath from="809" to="810" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1275.9241" Y="-1742.2046"/>
 		<pt X="-1277.7019" Y="-1736.6737"/>
 	</skpath>
-	<skpath from="815" to="816" linestyle="wall" splined="1">
+	<skpath from="810" to="811" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1277.7019" Y="-1736.6737"/>
 		<pt X="-1283.2329" Y="-1738.8466"/>
 		<pt X="-1284.8131" Y="-1741.2169"/>
 	</skpath>
-	<skpath from="816" to="817" linestyle="wall" splined="1">
+	<skpath from="811" to="812" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1284.8131" Y="-1741.2169"/>
 		<pt X="-1287.7761" Y="-1744.7726"/>
@@ -8300,7 +8234,7 @@
 		<pt X="-1298.838" Y="-1749.1183"/>
 		<pt X="-1299.8257" Y="-1750.3035"/>
 	</skpath>
-	<skpath from="817" to="818" linestyle="wall" splined="1">
+	<skpath from="812" to="813" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1299.8257" Y="-1750.3035"/>
 		<pt X="-1302.5911" Y="-1751.2911"/>
@@ -8310,7 +8244,7 @@
 		<pt X="-1319.3815" Y="-1746.9454"/>
 		<pt X="-1320.9617" Y="-1746.7479"/>
 	</skpath>
-	<skpath from="818" to="819" linestyle="wall" splined="1">
+	<skpath from="813" to="814" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1320.9617" Y="-1746.7479"/>
 		<pt X="-1333.8014" Y="-1745.9578"/>
@@ -8319,12 +8253,12 @@
 		<pt X="-1383.5797" Y="-1742.0071"/>
 		<pt X="-1389.7032" Y="-1739.0441"/>
 	</skpath>
-	<skpath from="819" to="820" linestyle="invisible" splined="1">
+	<skpath from="814" to="815" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1389.7032" Y="-1739.0441"/>
 		<pt X="-1387.5304" Y="-1761.9579"/>
 	</skpath>
-	<skpath from="820" to="821" linestyle="wall" splined="1">
+	<skpath from="815" to="816" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1387.5304" Y="-1761.9579"/>
 		<pt X="-1377.6537" Y="-1757.2172"/>
@@ -8333,7 +8267,7 @@
 		<pt X="-1324.1222" Y="-1758.995"/>
 		<pt X="-1320.9617" Y="-1758.995"/>
 	</skpath>
-	<skpath from="821" to="822" linestyle="wall" splined="1">
+	<skpath from="816" to="817" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1320.9617" Y="-1758.995"/>
 		<pt X="-1311.0851" Y="-1760.5752"/>
@@ -8342,7 +8276,7 @@
 		<pt X="-1293.8997" Y="-1758.7974"/>
 		<pt X="-1290.5138" Y="-1755.5994"/>
 	</skpath>
-	<skpath from="822" to="823" linestyle="wall" splined="1">
+	<skpath from="817" to="818" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1290.5138" Y="-1755.5994"/>
 		<pt X="-1286.986" Y="-1752.932"/>
@@ -8351,7 +8285,7 @@
 		<pt X="-1282.8558" Y="-1754.4808"/>
 		<pt X="-1281.7372" Y="-1755.0831"/>
 	</skpath>
-	<skpath from="823" to="824" linestyle="wall" splined="1">
+	<skpath from="818" to="819" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1281.7372" Y="-1755.0831"/>
 		<pt X="-1279.6721" Y="-1755.8575"/>
@@ -8361,7 +8295,7 @@
 		<pt X="-1271.8419" Y="-1755.5994"/>
 		<pt X="-1270.8094" Y="-1754.739"/>
 	</skpath>
-	<skpath from="824" to="825" linestyle="wall" splined="1">
+	<skpath from="819" to="820" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1270.8094" Y="-1754.739"/>
 		<pt X="-1270.1211" Y="-1753.7925"/>
@@ -8370,7 +8304,7 @@
 		<pt X="-1261.2584" Y="-1754.5669"/>
 		<pt X="-1258.419" Y="-1756.0297"/>
 	</skpath>
-	<skpath from="825" to="826" linestyle="wall" splined="1">
+	<skpath from="820" to="821" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1258.419" Y="-1756.0297"/>
 		<pt X="-1257.2142" Y="-1758.3529"/>
@@ -8382,19 +8316,19 @@
 		<pt X="-1254.891" Y="-1785.3712"/>
 		<pt X="-1254.7189" Y="-1790.4479"/>
 	</skpath>
-	<skpath from="826" to="827" linestyle="invisible" splined="1">
+	<skpath from="821" to="822" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1254.7189" Y="-1790.4479"/>
 		<pt X="-1251.105" Y="-1790.7059"/>
 	</skpath>
-	<skpath from="827" to="828" linestyle="wall" splined="1">
+	<skpath from="822" to="823" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1251.105" Y="-1790.7059"/>
 		<pt X="-1247.6632" Y="-1787.7804"/>
 		<pt X="-1244.3074" Y="-1785.6293"/>
 		<pt X="-1242.1562" Y="-1782.5316"/>
 	</skpath>
-	<skpath from="828" to="829" linestyle="wall" splined="1">
+	<skpath from="823" to="824" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1242.1562" Y="-1782.5316"/>
 		<pt X="-1240.6074" Y="-1777.7992"/>
@@ -8408,7 +8342,7 @@
 		<pt X="-1244.1354" Y="-1745.0159"/>
 		<pt X="-1242.4144" Y="-1741.66"/>
 	</skpath>
-	<skpath from="829" to="830" linestyle="wall" splined="1">
+	<skpath from="824" to="825" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1242.4144" Y="-1741.66"/>
 		<pt X="-1239.9191" Y="-1737.616"/>
@@ -8418,7 +8352,7 @@
 		<pt X="-1235.7029" Y="-1718.9441"/>
 		<pt X="-1237.2999" Y="-1716.8445"/>
 	</skpath>
-	<skpath from="830" to="831" linestyle="wall" splined="1">
+	<skpath from="825" to="826" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1237.2999" Y="-1716.8445"/>
 		<pt X="-1235.653" Y="-1715.5383"/>
@@ -8433,7 +8367,7 @@
 		<pt X="-1195.0481" Y="-1704.5211"/>
 		<pt X="-1187.8358" Y="-1700.5458"/>
 	</skpath>
-	<skpath from="831" to="832" linestyle="wall" splined="1">
+	<skpath from="826" to="827" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1187.8358" Y="-1700.5458"/>
 		<pt X="-1181.9296" Y="-1697.9335"/>
@@ -8448,7 +8382,7 @@
 		<pt X="-1131.6136" Y="-1670.8446"/>
 		<pt X="-1129.7396" Y="-1668.3458"/>
 	</skpath>
-	<skpath from="832" to="833" linestyle="wall" splined="1">
+	<skpath from="827" to="828" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1129.7396" Y="-1668.3458"/>
 		<pt X="-1129.5125" Y="-1667.778"/>
@@ -8458,7 +8392,7 @@
 		<pt X="-1127.9224" Y="-1657.8397"/>
 		<pt X="-1126.389" Y="-1657.6125"/>
 	</skpath>
-	<skpath from="833" to="598" linestyle="wall" splined="1">
+	<skpath from="828" to="597" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1126.389" Y="-1657.6125"/>
 		<pt X="-1125.5371" Y="-1659.8842"/>
@@ -8467,46 +8401,46 @@
 		<pt X="-1119.4606" Y="-1682.0322"/>
 		<pt X="-1117.8021" Y="-1685.8595"/>
 	</skpath>
-	<skpath from="793" to="794" linestyle="pitchbound" splined="1">
+	<skpath from="788" to="789" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1211.1041" Y="-1524.1024"/>
 		<pt X="-1216.7297" Y="-1523.5656"/>
 		<pt X="-1222.3162" Y="-1523.7113"/>
 	</skpath>
-	<skpath from="805" to="834" linestyle="wall" splined="1">
+	<skpath from="800" to="829" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1162.8113" Y="-1653.3563"/>
 		<pt X="-1153.9222" Y="-1650.3933"/>
 		<pt X="-1137.3295" Y="-1650.3933"/>
 		<pt X="-1133.442" Y="-1650.0426"/>
 	</skpath>
-	<skpath from="834" to="806" linestyle="wall" splined="1">
+	<skpath from="829" to="801" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1133.442" Y="-1650.0426"/>
 		<pt X="-1130.8109" Y="-1650.1958"/>
 		<pt X="-1127.8479" Y="-1651.1835"/>
 		<pt X="-1126.6627" Y="-1653.3563"/>
 	</skpath>
-	<skpath from="833" to="806" linestyle="invisible" splined="1">
+	<skpath from="828" to="801" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1126.389" Y="-1657.6125"/>
 		<pt X="-1126.6627" Y="-1653.3563"/>
 	</skpath>
-	<skpath from="821" to="818" linestyle="pitchbound" splined="1">
+	<skpath from="816" to="813" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1320.9617" Y="-1758.995"/>
 		<pt X="-1321.486" Y="-1754.746"/>
 		<pt X="-1321.572" Y="-1750.2716"/>
 		<pt X="-1320.9617" Y="-1746.7479"/>
 	</skpath>
-	<skpath from="822" to="817" linestyle="pitchbound" splined="1">
+	<skpath from="817" to="812" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1290.5138" Y="-1755.5994"/>
 		<pt X="-1294.3816" Y="-1754.746"/>
 		<pt X="-1297.3071" Y="-1753.5414"/>
 		<pt X="-1299.8257" Y="-1750.3035"/>
 	</skpath>
-	<skpath from="823" to="812" linestyle="pitchbound" splined="1">
+	<skpath from="818" to="807" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1281.7372" Y="-1755.0831"/>
 		<pt X="-1277.861" Y="-1753.025"/>
@@ -8514,20 +8448,20 @@
 		<pt X="-1276.3121" Y="-1749.067"/>
 		<pt X="-1276.7764" Y="-1746.3691"/>
 	</skpath>
-	<skpath from="816" to="813" linestyle="pitchbound" splined="1">
+	<skpath from="811" to="808" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1284.8131" Y="-1741.2169"/>
 		<pt X="-1281.905" Y="-1742.6996"/>
 		<pt X="-1279.5023" Y="-1744.6655"/>
 	</skpath>
-	<skpath from="824" to="811" linestyle="pitchbound" splined="1">
+	<skpath from="819" to="806" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1270.8094" Y="-1754.739"/>
 		<pt X="-1270.633" Y="-1750.4437"/>
 		<pt X="-1271.1494" Y="-1747.4321"/>
 		<pt X="-1272.1195" Y="-1745.063"/>
 	</skpath>
-	<skpath from="825" to="810" linestyle="pitchbound" splined="1">
+	<skpath from="820" to="805" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1258.419" Y="-1756.0297"/>
 		<pt X="-1257.21" Y="-1750.96"/>
@@ -8537,7 +8471,7 @@
 		<pt X="-1260.3076" Y="-1737.8811"/>
 		<pt X="-1261.3802" Y="-1735.7277"/>
 	</skpath>
-	<skpath from="803" to="835" linestyle="connective">
+	<skpath from="798" to="830" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="mud"/>
@@ -8546,7 +8480,7 @@
 		<pt X="-1247.553" Y="-1696.8136"/>
 		<pt X="-1250.7009" Y="-1691.062"/>
 	</skpath>
-	<skpath from="599" to="836" linestyle="connective">
+	<skpath from="598" to="831" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -8555,119 +8489,119 @@
 		<pt X="-1105.633" Y="-1707.2201"/>
 		<pt X="-1105.6036" Y="-1699.9087"/>
 	</skpath>
-	<skpath from="834" to="787" linestyle="detail">
+	<skpath from="829" to="782" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1133.442" Y="-1650.0426"/>
 		<pt X="-1129.6271" Y="-1647.5232"/>
 		<pt X="-1130.0833" Y="-1644.0367"/>
 	</skpath>
-	<skpath from="787" to="834" linestyle="detail">
+	<skpath from="782" to="829" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1130.0833" Y="-1644.0367"/>
 		<pt X="-1136.0443" Y="-1646.5577"/>
 		<pt X="-1133.442" Y="-1650.0426"/>
 	</skpath>
-	<skpath from="787" to="487" linestyle="connective">
+	<skpath from="782" to="487" linestyle="connective">
 		<pt X="-1130.0833" Y="-1644.0367"/>
 		<pt X="-1131.0509" Y="-1643.3093" Z="-633.35724"/>
 	</skpath>
-	<skpath from="475" to="807" linestyle="connective">
+	<skpath from="475" to="802" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1133.0508" Y="-1669.6093" Z="-666.55725"/>
 		<pt X="-1134.9591" Y="-1664.6157"/>
 	</skpath>
-	<skpath from="475" to="832" linestyle="connective">
+	<skpath from="475" to="827" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1133.0508" Y="-1669.6093" Z="-666.55725"/>
 		<pt X="-1129.7396" Y="-1668.3458"/>
 	</skpath>
-	<skpath from="486" to="788" linestyle="connective">
+	<skpath from="486" to="783" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1164.3508" Y="-1648.5093" Z="-644.9572"/>
 		<pt X="-1165.4479" Y="-1642.4019"/>
 	</skpath>
-	<skpath from="805" to="486" linestyle="connective">
+	<skpath from="800" to="486" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1162.8113" Y="-1653.3563"/>
 		<pt X="-1164.3508" Y="-1648.5093" Z="-644.9572"/>
 	</skpath>
-	<skpath from="484" to="804" linestyle="connective">
+	<skpath from="484" to="799" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1198.7509" Y="-1672.6093" Z="-644.2572"/>
 		<pt X="-1193.2313" Y="-1682.1962"/>
 	</skpath>
-	<skpath from="485" to="803" linestyle="connective">
+	<skpath from="485" to="798" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1242.9509" Y="-1691.4093" Z="-640.85724"/>
 		<pt X="-1247.553" Y="-1696.8136"/>
 	</skpath>
-	<skpath from="484" to="789" linestyle="connective">
+	<skpath from="484" to="784" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1198.7509" Y="-1672.6093" Z="-644.2572"/>
 		<pt X="-1199.4359" Y="-1666.9249"/>
 	</skpath>
-	<skpath from="483" to="802" linestyle="connective">
+	<skpath from="483" to="797" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1203.0508" Y="-1667.2094" Z="-636.55725"/>
 		<pt X="-1211.4044" Y="-1673.8998"/>
 	</skpath>
-	<skpath from="482" to="790" linestyle="connective">
+	<skpath from="482" to="785" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1216.7509" Y="-1650.8093" Z="-646.55725"/>
 		<pt X="-1210.3636" Y="-1651.867"/>
 	</skpath>
-	<skpath from="482" to="801" linestyle="connective">
+	<skpath from="482" to="796" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1216.7509" Y="-1650.8093" Z="-646.55725"/>
 		<pt X="-1220.0958" Y="-1646.8378"/>
 	</skpath>
-	<skpath from="479" to="791" linestyle="connective">
+	<skpath from="479" to="786" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1217.8508" Y="-1630.6093" Z="-649.35724"/>
 		<pt X="-1208.8148" Y="-1631.3881"/>
 	</skpath>
-	<skpath from="479" to="796" linestyle="connective">
+	<skpath from="479" to="791" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1217.8508" Y="-1630.6093" Z="-649.35724"/>
 		<pt X="-1224.8367" Y="-1624.9115"/>
 	</skpath>
-	<skpath from="477" to="797" linestyle="connective">
+	<skpath from="477" to="792" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1253.2509" Y="-1612.5093" Z="-649.35724"/>
 		<pt X="-1248.9357" Y="-1606.5409"/>
 	</skpath>
-	<skpath from="800" to="477" linestyle="connective">
+	<skpath from="795" to="477" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1255.6519" Y="-1614.0472"/>
 		<pt X="-1253.2509" Y="-1612.5093" Z="-649.35724"/>
 	</skpath>
-	<skpath from="478" to="798" linestyle="connective">
+	<skpath from="478" to="793" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1269.8508" Y="-1580.0093" Z="-707.8572"/>
 		<pt X="-1267.8989" Y="-1575.1332"/>
 	</skpath>
-	<skpath from="480" to="795" linestyle="connective">
+	<skpath from="480" to="790" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1216.1509" Y="-1582.5093" Z="-639.1572"/>
 		<pt X="-1220.886" Y="-1571.1825"/>
 	</skpath>
-	<skpath from="480" to="792" linestyle="connective">
+	<skpath from="480" to="787" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1216.1509" Y="-1582.5093" Z="-639.1572"/>
 		<pt X="-1212.5382" Y="-1571.6882"/>
 	</skpath>
-	<skpath from="795" to="792" linestyle="pitchbound" splined="1">
+	<skpath from="790" to="787" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1220.886" Y="-1571.1825"/>
 		<pt X="-1217.5446" Y="-1571.1229"/>
 		<pt X="-1212.5382" Y="-1571.6882"/>
 	</skpath>
-	<skpath from="837" to="793" linestyle="connective">
+	<skpath from="832" to="788" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1215.3513" Y="-1535.1537"/>
 		<pt X="-1211.1041" Y="-1524.1024"/>
 	</skpath>
-	<skpath from="838" to="715" linestyle="connective">
+	<skpath from="833" to="714" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="1.0">Too&space;bold&newline;for&space;this&space;spit</pctext>
 		</pathcodes>
@@ -8675,28 +8609,28 @@
 		<pt X="-1567.8942" Y="-1287.8594"/>
 		<pt X="-1587.9137" Y="-1322.2045"/>
 	</skpath>
-	<skpath from="587" to="595" linestyle="detail">
+	<skpath from="586" to="594" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1150.1586" Y="-1563.1566"/>
 		<pt X="-1156.5669" Y="-1563.8451"/>
 		<pt X="-1158.1947" Y="-1568.0807"/>
 	</skpath>
-	<skpath from="595" to="839" linestyle="detail">
+	<skpath from="594" to="834" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1158.1947" Y="-1568.0807"/>
 		<pt X="-1154.0715" Y="-1566.5125"/>
 	</skpath>
-	<skpath from="839" to="588" linestyle="detail">
+	<skpath from="834" to="587" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1154.0715" Y="-1566.5125"/>
 		<pt X="-1150.0292" Y="-1568.8528"/>
 	</skpath>
-	<skpath from="839" to="587" linestyle="detail">
+	<skpath from="834" to="586" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1154.0715" Y="-1566.5125"/>
 		<pt X="-1150.1586" Y="-1563.1566"/>
 	</skpath>
-	<skpath from="736" to="737" linestyle="wall" splined="1">
+	<skpath from="731" to="732" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1358.1274" Y="-1384.5533"/>
 		<pt X="-1348.3053" Y="-1388.7107"/>
@@ -8704,14 +8638,14 @@
 		<pt X="-1321.8398" Y="-1396.7937"/>
 		<pt X="-1308.9" Y="-1398.4913"/>
 	</skpath>
-	<skpath from="700" to="840" linestyle="wall" splined="1">
+	<skpath from="699" to="835" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1371.3517" Y="-1365.1157"/>
 		<pt X="-1378.1605" Y="-1364.5918"/>
 		<pt X="-1379.725" Y="-1365.2437"/>
 		<pt X="-1373.3368" Y="-1369.4156"/>
 	</skpath>
-	<skpath from="840" to="699" linestyle="wall" splined="1">
+	<skpath from="835" to="698" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1373.3368" Y="-1369.4156"/>
 		<pt X="-1364.3411" Y="-1373.1964"/>
@@ -8723,82 +8657,82 @@
 		<pt X="-1302.8055" Y="-1389.3625"/>
 		<pt X="-1297.8995" Y="-1389.4655"/>
 	</skpath>
-	<skpath from="705" to="841" linestyle="estwall" splined="1">
+	<skpath from="704" to="836" linestyle="estwall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1430.7606" Y="-1303.6862"/>
 		<pt X="-1420.638" Y="-1298.2295"/>
 	</skpath>
-	<skpath from="841" to="842" linestyle="invisible" splined="1">
+	<skpath from="836" to="837" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1420.638" Y="-1298.2295"/>
 		<pt X="-1420.896" Y="-1293.325"/>
 	</skpath>
-	<skpath from="842" to="706" linestyle="estwall" splined="1">
+	<skpath from="837" to="705" linestyle="estwall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1420.896" Y="-1293.325"/>
 		<pt X="-1425.3704" Y="-1294.0994"/>
 		<pt X="-1431.5775" Y="-1294.7102"/>
 	</skpath>
-	<skpath from="831" to="473" linestyle="connective">
+	<skpath from="826" to="473" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1187.8358" Y="-1700.5458"/>
 		<pt X="-1190.5508" Y="-1695.7092" Z="-694.7572"/>
 	</skpath>
-	<skpath from="473" to="808" linestyle="connective">
+	<skpath from="473" to="803" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1190.5508" Y="-1695.7092" Z="-694.7572"/>
 		<pt X="-1192.4412" Y="-1693.258"/>
 	</skpath>
-	<skpath from="471" to="830" linestyle="connective">
+	<skpath from="471" to="825" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1240.4509" Y="-1715.1093" Z="-723.1572"/>
 		<pt X="-1237.2999" Y="-1716.8445"/>
 	</skpath>
-	<skpath from="471" to="809" linestyle="connective">
+	<skpath from="471" to="804" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1240.4509" Y="-1715.1093" Z="-723.1572"/>
 		<pt X="-1240.8369" Y="-1718.3447"/>
 	</skpath>
-	<skpath from="468" to="810" linestyle="connective">
+	<skpath from="468" to="805" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1256.4509" Y="-1744.3092" Z="-717.0572"/>
 		<pt X="-1261.3802" Y="-1735.7277"/>
 	</skpath>
-	<skpath from="825" to="468" linestyle="connective">
+	<skpath from="820" to="468" linestyle="connective">
 		<pt X="-1258.419" Y="-1756.0297"/>
 		<pt X="-1256.4509" Y="-1744.3092" Z="-717.0572"/>
 	</skpath>
-	<skpath from="470" to="829" linestyle="connective">
+	<skpath from="470" to="824" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1244.0509" Y="-1744.1091" Z="-712.55725"/>
 		<pt X="-1242.4144" Y="-1741.66"/>
 	</skpath>
-	<skpath from="828" to="469" linestyle="connective">
+	<skpath from="823" to="469" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1242.1562" Y="-1782.5316"/>
 		<pt X="-1243.1509" Y="-1780.8093" Z="-717.6572"/>
 	</skpath>
-	<skpath from="465" to="812" linestyle="connective">
+	<skpath from="465" to="807" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1279.3508" Y="-1749.8093" Z="-786.3572"/>
 		<pt X="-1276.7764" Y="-1746.3691"/>
 	</skpath>
-	<skpath from="464" to="817" linestyle="connective">
+	<skpath from="464" to="812" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1298.9508" Y="-1757.0093" Z="-786.3572"/>
 		<pt X="-1299.8257" Y="-1750.3035"/>
 	</skpath>
-	<skpath from="821" to="462" linestyle="connective">
+	<skpath from="816" to="462" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1320.9617" Y="-1758.995"/>
 		<pt X="-1320.3508" Y="-1754.7094" Z="-818.1572"/>
 	</skpath>
-	<skpath from="462" to="818" linestyle="connective">
+	<skpath from="462" to="813" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1320.3508" Y="-1754.7094" Z="-818.1572"/>
 		<pt X="-1320.9617" Y="-1746.7479"/>
 	</skpath>
-	<skpath from="648" to="649" linestyle="wall" splined="1">
+	<skpath from="647" to="648" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1000.0789" Y="-1937.3835"/>
@@ -8810,7 +8744,7 @@
 		<pt X="-977.9518" Y="-1997.2781"/>
 		<pt X="-977.2409" Y="-2000.6548"/>
 	</skpath>
-	<skpath from="648" to="651" linestyle="pitchbound" splined="1">
+	<skpath from="647" to="650" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1000.0789" Y="-1937.3835"/>
 		<pt X="-995.9888" Y="-1938.6189"/>
@@ -8818,12 +8752,12 @@
 		<pt X="-991.5024" Y="-1936.4042"/>
 		<pt X="-990.06793" Y="-1934.4785"/>
 	</skpath>
-	<skpath from="332" to="628" linestyle="connective">
+	<skpath from="332" to="627" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1162.6509" Y="-1907.6093" Z="-685.25726"/>
 		<pt X="-1168.4131" Y="-1905.1953"/>
 	</skpath>
-	<skpath from="843" to="781" linestyle="wall" splined="1">
+	<skpath from="838" to="776" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1222.9174" Y="-2155.9211"/>
@@ -8831,12 +8765,12 @@
 		<pt X="-1250.1903" Y="-2166.1694"/>
 		<pt X="-1258.2577" Y="-2167.476"/>
 	</skpath>
-	<skpath from="843" to="844" linestyle="wall" splined="1">
+	<skpath from="838" to="839" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1222.9174" Y="-2155.9211"/>
 		<pt X="-1215.0686" Y="-2168.2131"/>
 	</skpath>
-	<skpath from="744" to="845" linestyle="wall" splined="1">
+	<skpath from="739" to="840" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1142.0107" Y="-2081.4683"/>
@@ -8848,23 +8782,23 @@
 		<pt X="-1208.8798" Y="-2151.607"/>
 		<pt X="-1213.5028" Y="-2152.955"/>
 	</skpath>
-	<skpath from="845" to="846" linestyle="wall" splined="1">
+	<skpath from="840" to="841" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1213.5028" Y="-2152.955"/>
 		<pt X="-1207.7599" Y="-2163.67"/>
 	</skpath>
-	<skpath from="846" to="844" linestyle="invisible" splined="1">
+	<skpath from="841" to="839" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1207.7599" Y="-2163.67"/>
 		<pt X="-1215.0686" Y="-2168.2131"/>
 	</skpath>
-	<skpath from="843" to="845" linestyle="pitchbound" splined="1">
+	<skpath from="838" to="840" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1222.9174" Y="-2155.9211"/>
 		<pt X="-1213.5028" Y="-2152.955"/>
 	</skpath>
-	<skpath from="847" to="696" linestyle="connective">
+	<skpath from="842" to="695" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC16a</pctext>
 		</pathcodes>
@@ -8872,7 +8806,7 @@
 		<pt X="-1310.3329" Y="-1350.3322"/>
 		<pt X="-1297.9825" Y="-1366.3553"/>
 	</skpath>
-	<skpath from="848" to="342" linestyle="connective">
+	<skpath from="843" to="342" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">landofcon-&newline;fusion.27</pctext>
 		</pathcodes>
@@ -8881,7 +8815,7 @@
 		<pt X="-1235.7067" Y="-1345.6354"/>
 		<pt X="-1236.9508" Y="-1397.6093" Z="-611.75726"/>
 	</skpath>
-	<skpath from="849" to="702" linestyle="connective">
+	<skpath from="844" to="701" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">RS5c</pctext>
 		</pathcodes>
@@ -8889,7 +8823,7 @@
 		<pt X="-1357.1896" Y="-1341.2897"/>
 		<pt X="-1363.6027" Y="-1354.3193"/>
 	</skpath>
-	<skpath from="850" to="583" linestyle="connective">
+	<skpath from="845" to="582" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC15c</pctext>
 		</pathcodes>
@@ -8897,7 +8831,7 @@
 		<pt X="-1195.2124" Y="-1378.8209"/>
 		<pt X="-1183.5613" Y="-1390.4585"/>
 	</skpath>
-	<skpath from="851" to="574" linestyle="connective">
+	<skpath from="846" to="573" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">LC13c</pctext>
 		</pathcodes>
@@ -8905,11 +8839,11 @@
 		<pt X="-1150.965" Y="-1376.6481"/>
 		<pt X="-1161.2815" Y="-1390.3341"/>
 	</skpath>
-	<skpath from="324" to="579" linestyle="connective">
+	<skpath from="324" to="578" linestyle="connective">
 		<pt X="-1226.0509" Y="-1413.9093" Z="-603.7572"/>
 		<pt X="-1223.5757" Y="-1409.4854"/>
 	</skpath>
-	<skpath from="852" to="579" linestyle="connective">
+	<skpath from="847" to="578" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC14c</pctext>
 		</pathcodes>
@@ -8918,7 +8852,7 @@
 		<pt X="-1217.033" Y="-1414.1392"/>
 		<pt X="-1223.5757" Y="-1409.4854"/>
 	</skpath>
-	<skpath from="577" to="853" linestyle="wall" splined="1">
+	<skpath from="576" to="848" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1172.7311" Y="-1486.543"/>
@@ -8926,7 +8860,7 @@
 		<pt X="-1172.3893" Y="-1459.6283"/>
 		<pt X="-1172.7451" Y="-1450.9177"/>
 	</skpath>
-	<skpath from="853" to="578" linestyle="wall" splined="1">
+	<skpath from="848" to="577" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1172.7451" Y="-1450.9177"/>
@@ -8935,7 +8869,7 @@
 		<pt X="-1182.7279" Y="-1437.6696"/>
 		<pt X="-1185.7184" Y="-1434.679"/>
 	</skpath>
-	<skpath from="853" to="854" linestyle="connective">
+	<skpath from="848" to="849" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -8944,7 +8878,7 @@
 		<pt X="-1171.7927" Y="-1448.3531"/>
 		<pt X="-1170.416" Y="-1454.1182"/>
 	</skpath>
-	<skpath from="585" to="855" linestyle="wall" splined="1">
+	<skpath from="584" to="850" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1169.8363" Y="-1431.238"/>
@@ -8954,20 +8888,20 @@
 		<pt X="-1166.9883" Y="-1464.25"/>
 		<pt X="-1166.3654" Y="-1467.857"/>
 	</skpath>
-	<skpath from="855" to="609" linestyle="wall" splined="1">
+	<skpath from="850" to="608" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1166.3654" Y="-1467.857"/>
 		<pt X="-1164.1403" Y="-1479.6556"/>
 		<pt X="-1161.9895" Y="-1486.1102"/>
 	</skpath>
-	<skpath from="855" to="577" linestyle="invisible" splined="1">
+	<skpath from="850" to="576" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1166.3654" Y="-1467.857"/>
 		<pt X="-1169.1826" Y="-1478.4508"/>
 		<pt X="-1172.7311" Y="-1486.543"/>
 	</skpath>
-	<skpath from="577" to="856" linestyle="connective">
+	<skpath from="576" to="851" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -8976,7 +8910,7 @@
 		<pt X="-1172.7311" Y="-1486.543"/>
 		<pt X="-1168.4943" Y="-1484.8182"/>
 	</skpath>
-	<skpath from="595" to="857" linestyle="wall" splined="1">
+	<skpath from="594" to="852" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1158.1947" Y="-1568.0807"/>
@@ -8988,7 +8922,7 @@
 		<pt X="-1166.7391" Y="-1530.2787"/>
 		<pt X="-1167.1714" Y="-1525.6912"/>
 	</skpath>
-	<skpath from="857" to="596" linestyle="wall" splined="1">
+	<skpath from="852" to="595" linestyle="wall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1167.1714" Y="-1525.6912"/>
@@ -8998,13 +8932,13 @@
 		<pt X="-1173.2119" Y="-1500.7622"/>
 		<pt X="-1173.4708" Y="-1492.9946"/>
 	</skpath>
-	<skpath from="857" to="586" linestyle="invisible" splined="1">
+	<skpath from="852" to="585" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1167.1714" Y="-1525.6912"/>
 		<pt X="-1160.7997" Y="-1524.1514"/>
 		<pt X="-1158.5736" Y="-1519.1406"/>
 	</skpath>
-	<skpath from="587" to="858" linestyle="connective">
+	<skpath from="586" to="853" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -9014,7 +8948,7 @@
 		<pt X="-1156.0824" Y="-1560.84"/>
 		<pt X="-1156.5986" Y="-1554.3004"/>
 	</skpath>
-	<skpath from="587" to="859" linestyle="connective">
+	<skpath from="586" to="854" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="breeze_a"/>
@@ -9025,7 +8959,7 @@
 		<pt X="-1142.5732" Y="-1553.8702"/>
 		<pt X="-1145.4988" Y="-1535.9728"/>
 	</skpath>
-	<skpath from="602" to="860" linestyle="detail" splined="1">
+	<skpath from="601" to="855" linestyle="detail" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1139.6921" Y="-1597.1787"/>
@@ -9035,7 +8969,7 @@
 		<pt X="-1134.9021" Y="-1615.1735"/>
 		<pt X="-1133.8999" Y="-1615.6642"/>
 	</skpath>
-	<skpath from="860" to="601" linestyle="detail" splined="1">
+	<skpath from="855" to="600" linestyle="detail" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1133.8999" Y="-1615.6642"/>
@@ -9045,12 +8979,12 @@
 		<pt X="-1133.8665" Y="-1605.2052"/>
 		<pt X="-1133.0897" Y="-1602.4866"/>
 	</skpath>
-	<skpath from="860" to="560" linestyle="invisible" splined="1">
+	<skpath from="855" to="559" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1133.8999" Y="-1615.6642"/>
 		<pt X="-1135.4282" Y="-1623.4622"/>
 	</skpath>
-	<skpath from="560" to="861" linestyle="connective">
+	<skpath from="559" to="856" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -9058,12 +8992,12 @@
 		<pt X="-1135.4282" Y="-1623.4622"/>
 		<pt X="-1131.2025" Y="-1622.5543"/>
 	</skpath>
-	<skpath from="317" to="571" linestyle="connective">
+	<skpath from="317" to="570" linestyle="connective">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1199.7509" Y="-1521.8092" Z="-665.55725"/>
 		<pt X="-1200.8428" Y="-1517.7987"/>
 	</skpath>
-	<skpath from="793" to="862" linestyle="estwall" splined="1">
+	<skpath from="788" to="857" linestyle="estwall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1211.1041" Y="-1524.1024"/>
 		<pt X="-1211.6256" Y="-1506.3718"/>
@@ -9076,7 +9010,7 @@
 		<pt X="-1226.3577" Y="-1481.7316"/>
 		<pt X="-1227.1031" Y="-1483.2052"/>
 	</skpath>
-	<skpath from="862" to="794" linestyle="estwall" splined="1">
+	<skpath from="857" to="789" linestyle="estwall" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1227.1031" Y="-1483.2052"/>
 		<pt X="-1227.2703" Y="-1486.2946"/>
@@ -9086,7 +9020,7 @@
 		<pt X="-1221.0125" Y="-1515.2372"/>
 		<pt X="-1222.3162" Y="-1523.7113"/>
 	</skpath>
-	<skpath from="863" to="862" linestyle="connective">
+	<skpath from="858" to="857" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC5x</pctext>
 		</pathcodes>
@@ -9094,7 +9028,7 @@
 		<pt X="-1245.1361" Y="-1483.3104"/>
 		<pt X="-1227.1031" Y="-1483.2052"/>
 	</skpath>
-	<skpath from="864" to="794" linestyle="connective">
+	<skpath from="859" to="789" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC4b</pctext>
 		</pathcodes>
@@ -9102,48 +9036,48 @@
 		<pt X="-1247.309" Y="-1536.8419"/>
 		<pt X="-1222.3162" Y="-1523.7113"/>
 	</skpath>
-	<skpath from="865" to="567" linestyle="invisible" splined="1">
+	<skpath from="860" to="566" linestyle="invisible" splined="1">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1302.4587" Y="-1563.8137"/>
 		<pt X="-1303.2445" Y="-1561.9441"/>
 	</skpath>
-	<skpath from="866" to="865" linestyle="detail">
+	<skpath from="861" to="860" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1298.5007" Y="-1568.4601"/>
 		<pt X="-1302.4587" Y="-1563.8137"/>
 	</skpath>
-	<skpath from="866" to="867" linestyle="detail">
+	<skpath from="861" to="862" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1298.5007" Y="-1568.4601"/>
 		<pt X="-1296.7328" Y="-1575.9607"/>
 	</skpath>
-	<skpath from="867" to="868" linestyle="detail">
+	<skpath from="862" to="863" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1296.7328" Y="-1575.9607"/>
 		<pt X="-1302.4675" Y="-1575.7357"/>
 	</skpath>
-	<skpath from="868" to="869" linestyle="detail">
+	<skpath from="863" to="864" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1302.4675" Y="-1575.7357"/>
 		<pt X="-1299.3566" Y="-1572.5498"/>
 	</skpath>
-	<skpath from="869" to="867" linestyle="detail">
+	<skpath from="864" to="862" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1299.3566" Y="-1572.5498"/>
 		<pt X="-1296.7328" Y="-1575.9607"/>
 	</skpath>
-	<skpath from="869" to="866" linestyle="detail">
+	<skpath from="864" to="861" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1299.3566" Y="-1572.5498"/>
 		<pt X="-1298.5007" Y="-1568.4601"/>
 	</skpath>
-	<skpath from="865" to="868" linestyle="detail">
+	<skpath from="860" to="863" linestyle="detail">
 		<sketchsubset subname="land of confusion"/>
 		<pt X="-1302.4587" Y="-1563.8137"/>
 		<pt X="-1305.541" Y="-1566.0281"/>
 		<pt X="-1302.4675" Y="-1575.7357"/>
 	</skpath>
-	<skpath from="870" to="799" linestyle="connective">
+	<skpath from="865" to="794" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC3c</pctext>
 		</pathcodes>
@@ -9151,7 +9085,7 @@
 		<pt X="-1285.0657" Y="-1607.2148"/>
 		<pt X="-1276.1953" Y="-1580.6641"/>
 	</skpath>
-	<skpath from="871" to="541" linestyle="connective">
+	<skpath from="866" to="540" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">LC12c</pctext>
 		</pathcodes>
@@ -9159,7 +9093,7 @@
 		<pt X="-1385.2695" Y="-1679.9762"/>
 		<pt X="-1405.3209" Y="-1692.4335"/>
 	</skpath>
-	<skpath from="872" to="814" linestyle="connective">
+	<skpath from="867" to="809" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC1b</pctext>
 		</pathcodes>
@@ -9167,7 +9101,7 @@
 		<pt X="-1281.7701" Y="-1728.5891"/>
 		<pt X="-1275.9241" Y="-1742.2046"/>
 	</skpath>
-	<skpath from="873" to="823" linestyle="connective">
+	<skpath from="868" to="818" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC2c</pctext>
 		</pathcodes>
@@ -9175,7 +9109,7 @@
 		<pt X="-1289.5524" Y="-1770.7572"/>
 		<pt X="-1281.7372" Y="-1755.0831"/>
 	</skpath>
-	<skpath from="874" to="841" linestyle="connective">
+	<skpath from="869" to="836" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">RS4c</pctext>
 		</pathcodes>
@@ -9183,11 +9117,11 @@
 		<pt X="-1398.8525" Y="-1293.4865"/>
 		<pt X="-1420.638" Y="-1298.2295"/>
 	</skpath>
-	<skpath from="293" to="841" linestyle="connective">
+	<skpath from="293" to="836" linestyle="connective">
 		<pt X="-1429.0509" Y="-1297.8093" Z="-621.75726"/>
 		<pt X="-1420.638" Y="-1298.2295"/>
 	</skpath>
-	<skpath from="875" to="712" linestyle="connective">
+	<skpath from="870" to="711" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">p?</pctext>
 		</pathcodes>
@@ -9195,7 +9129,7 @@
 		<pt X="-1548.1747" Y="-1328.7181"/>
 		<pt X="-1552.3679" Y="-1345.9017"/>
 	</skpath>
-	<skpath from="876" to="731" linestyle="connective">
+	<skpath from="871" to="726" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">RS3b</pctext>
 		</pathcodes>
@@ -9203,23 +9137,23 @@
 		<pt X="-1542.1888" Y="-1368.8234"/>
 		<pt X="-1548.5569" Y="-1351.0314"/>
 	</skpath>
-	<skpath from="733" to="294" linestyle="connective">
+	<skpath from="728" to="294" linestyle="connective">
 		<pt X="-1493.7178" Y="-1336.7797"/>
 		<pt X="-1493.751" Y="-1332.1093" Z="-590.1572"/>
 	</skpath>
-	<skpath from="294" to="710" linestyle="connective">
+	<skpath from="294" to="709" linestyle="connective">
 		<pt X="-1493.751" Y="-1332.1093" Z="-590.1572"/>
 		<pt X="-1498.3754" Y="-1325.3018"/>
 	</skpath>
-	<skpath from="732" to="295" linestyle="connective">
+	<skpath from="727" to="295" linestyle="connective">
 		<pt X="-1523.3958" Y="-1344.2864"/>
 		<pt X="-1523.6509" Y="-1341.2092" Z="-562.9572"/>
 	</skpath>
-	<skpath from="295" to="711" linestyle="connective">
+	<skpath from="295" to="710" linestyle="connective">
 		<pt X="-1523.6509" Y="-1341.2092" Z="-562.9572"/>
 		<pt X="-1525.0354" Y="-1335.3997"/>
 	</skpath>
-	<skpath from="877" to="501" linestyle="connective">
+	<skpath from="872" to="501" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">c3</pctext>
 		</pathcodes>
@@ -9227,7 +9161,7 @@
 		<pt X="-1218.056" Y="-1943.1503"/>
 		<pt X="-1230.2577" Y="-1942.785"/>
 	</skpath>
-	<skpath from="878" to="509" linestyle="connective">
+	<skpath from="873" to="509" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH2c</pctext>
 		</pathcodes>
@@ -9235,7 +9169,7 @@
 		<pt X="-1262.501" Y="-1910.9523"/>
 		<pt X="-1250.3827" Y="-1918.8159"/>
 	</skpath>
-	<skpath from="879" to="628" linestyle="connective">
+	<skpath from="874" to="627" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC6c</pctext>
 		</pathcodes>
@@ -9243,7 +9177,7 @@
 		<pt X="-1197.4336" Y="-1892.5186"/>
 		<pt X="-1168.4131" Y="-1905.1953"/>
 	</skpath>
-	<skpath from="880" to="626" linestyle="connective">
+	<skpath from="875" to="625" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC8x</pctext>
 		</pathcodes>
@@ -9253,7 +9187,7 @@
 		<pt X="-1161.5544" Y="-1869.761"/>
 		<pt X="-1163.7015" Y="-1868.0198"/>
 	</skpath>
-	<skpath from="881" to="625" linestyle="connective">
+	<skpath from="876" to="624" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">LC7c</pctext>
 		</pathcodes>
@@ -9261,7 +9195,7 @@
 		<pt X="-1164.971" Y="-1854.8411"/>
 		<pt X="-1159.2583" Y="-1865.6204"/>
 	</skpath>
-	<skpath from="882" to="636" linestyle="connective">
+	<skpath from="877" to="635" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">LC9c</pctext>
 		</pathcodes>
@@ -9270,7 +9204,7 @@
 		<pt X="-1122.269" Y="-1882.5983"/>
 		<pt X="-1121.9032" Y="-1882.8494"/>
 	</skpath>
-	<skpath from="883" to="614" linestyle="connective">
+	<skpath from="878" to="613" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">LC11c</pctext>
 		</pathcodes>
@@ -9278,11 +9212,11 @@
 		<pt X="-1082.9337" Y="-1807.012"/>
 		<pt X="-1079.9786" Y="-1802.4857"/>
 	</skpath>
-	<skpath from="339" to="649" linestyle="connective">
+	<skpath from="339" to="648" linestyle="connective">
 		<pt X="-972.8509" Y="-1999.4092" Z="-624.1572"/>
 		<pt X="-977.2409" Y="-2000.6548"/>
 	</skpath>
-	<skpath from="884" to="650" linestyle="connective">
+	<skpath from="879" to="649" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">LC10b</pctext>
 		</pathcodes>
@@ -9290,7 +9224,7 @@
 		<pt X="-969.39056" Y="-2004.1813"/>
 		<pt X="-971.1092" Y="-1998.9666"/>
 	</skpath>
-	<skpath from="885" to="745" linestyle="connective">
+	<skpath from="880" to="740" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH7c</pctext>
 		</pathcodes>
@@ -9298,7 +9232,7 @@
 		<pt X="-1522.1533" Y="-1660.543"/>
 		<pt X="-1475.4681" Y="-1666.5267"/>
 	</skpath>
-	<skpath from="886" to="530" linestyle="connective">
+	<skpath from="881" to="530" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH8c</pctext>
 		</pathcodes>
@@ -9306,15 +9240,7 @@
 		<pt X="-1629.1748" Y="-1429.3143"/>
 		<pt X="-1600.9154" Y="-1421.5386"/>
 	</skpath>
-	<skpath from="887" to="726" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">RS3b</pctext>
-		</pathcodes>
-		<sketchsubset subname="too bold"/>
-		<pt X="-1628.622" Y="-1376.4531"/>
-		<pt X="-1624.1575" Y="-1374.4327"/>
-	</skpath>
-	<skpath from="717" to="717" linestyle="detail" splined="1">
+	<skpath from="716" to="716" linestyle="detail" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1645.2716" Y="-1265.2506"/>
 		<pt X="-1641.0084" Y="-1267.9335"/>
@@ -9333,7 +9259,7 @@
 		<pt X="-1646.4603" Y="-1267.9335"/>
 		<pt X="-1645.2716" Y="-1265.2506"/>
 	</skpath>
-	<skpath from="717" to="888" linestyle="connective">
+	<skpath from="716" to="882" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="puddle"/>
@@ -9341,19 +9267,19 @@
 		<pt X="-1645.2716" Y="-1265.2506"/>
 		<pt X="-1644.5294" Y="-1270.0347"/>
 	</skpath>
-	<skpath from="533" to="889" linestyle="wall" splined="1">
+	<skpath from="883" to="884" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1644.4607" Y="-1259.9111"/>
 		<pt X="-1645.4293" Y="-1254.6718"/>
 	</skpath>
-	<skpath from="536" to="889" linestyle="pitchbound" splined="1">
+	<skpath from="535" to="884" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1638.6205" Y="-1252.9625"/>
 		<pt X="-1642.5575" Y="-1253.9719"/>
 		<pt X="-1645.4293" Y="-1254.6718"/>
 	</skpath>
-	<skpath from="532" to="890" linestyle="wall" splined="1">
+	<skpath from="532" to="885" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1622.2957" Y="-1335.2327"/>
@@ -9362,7 +9288,7 @@
 		<pt X="-1634.8492" Y="-1291.6875"/>
 		<pt X="-1638.3977" Y="-1286.3613"/>
 	</skpath>
-	<skpath from="891" to="890" linestyle="connective">
+	<skpath from="886" to="885" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0">CH9b</pctext>
 		</pathcodes>
@@ -9370,7 +9296,7 @@
 		<pt X="-1645.5964" Y="-1287.95"/>
 		<pt X="-1638.3977" Y="-1286.3613"/>
 	</skpath>
-	<skpath from="890" to="533" linestyle="wall" splined="1">
+	<skpath from="885" to="883" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1638.3977" Y="-1286.3613"/>
 		<pt X="-1639.2083" Y="-1281.9528"/>
@@ -9378,7 +9304,7 @@
 		<pt X="-1641.4246" Y="-1272.8268"/>
 		<pt X="-1644.4607" Y="-1259.9111"/>
 	</skpath>
-	<skpath from="534" to="892" linestyle="wall" splined="1">
+	<skpath from="533" to="887" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1677.0659" Y="-1102.5156"/>
 		<pt X="-1675.2281" Y="-1115.1227"/>
@@ -9387,13 +9313,13 @@
 		<pt X="-1660.8082" Y="-1171.2222"/>
 		<pt X="-1657.6477" Y="-1185.247"/>
 	</skpath>
-	<skpath from="892" to="893" linestyle="wall" splined="1">
+	<skpath from="887" to="888" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1657.6477" Y="-1185.247"/>
 		<pt X="-1656.1854" Y="-1199.6921"/>
 		<pt X="-1655.4971" Y="-1203.4781"/>
 	</skpath>
-	<skpath from="893" to="889" linestyle="wall" splined="1">
+	<skpath from="888" to="884" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1655.4971" Y="-1203.4781"/>
 		<pt X="-1653.2599" Y="-1214.836"/>
@@ -9402,7 +9328,7 @@
 		<pt X="-1645.86" Y="-1251.5775"/>
 		<pt X="-1645.4293" Y="-1254.6718"/>
 	</skpath>
-	<skpath from="889" to="894" linestyle="connective">
+	<skpath from="884" to="889" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="mud"/>
@@ -9411,7 +9337,7 @@
 		<pt X="-1645.4293" Y="-1254.6718"/>
 		<pt X="-1643.2787" Y="-1248.652"/>
 	</skpath>
-	<skpath from="895" to="536" linestyle="wall" splined="1">
+	<skpath from="890" to="535" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1649.1721" Y="-1203.2427"/>
@@ -9419,13 +9345,13 @@
 		<pt X="-1640.9742" Y="-1240.4089"/>
 		<pt X="-1638.6205" Y="-1252.9625"/>
 	</skpath>
-	<skpath from="893" to="895" linestyle="pitchbound" splined="1">
+	<skpath from="888" to="890" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1655.4971" Y="-1203.4781"/>
 		<pt X="-1652.7574" Y="-1203.0856"/>
 		<pt X="-1649.1721" Y="-1203.2427"/>
 	</skpath>
-	<skpath from="535" to="896" linestyle="wall" splined="1">
+	<skpath from="534" to="891" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1671.5737" Y="-1099.1812"/>
@@ -9437,7 +9363,7 @@
 		<pt X="-1651.9587" Y="-1180.1909"/>
 		<pt X="-1651.9497" Y="-1184.2422"/>
 	</skpath>
-	<skpath from="896" to="895" linestyle="wall" splined="1">
+	<skpath from="891" to="890" linestyle="wall" splined="1">
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1651.9497" Y="-1184.2422"/>
@@ -9445,13 +9371,13 @@
 		<pt X="-1650.3895" Y="-1197.0598"/>
 		<pt X="-1649.1721" Y="-1203.2427"/>
 	</skpath>
-	<skpath from="896" to="892" linestyle="pitchbound" splined="1">
+	<skpath from="891" to="887" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1651.9497" Y="-1184.2422"/>
 		<pt X="-1654.912" Y="-1184.419"/>
 		<pt X="-1657.6477" Y="-1185.247"/>
 	</skpath>
-	<skpath from="897" to="896" linestyle="connective">
+	<skpath from="892" to="891" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">CH10b</pctext>
 		</pathcodes>
@@ -9459,7 +9385,7 @@
 		<pt X="-1645.9633" Y="-1190.442"/>
 		<pt X="-1651.9497" Y="-1184.2422"/>
 	</skpath>
-	<skpath from="898" to="535" linestyle="connective">
+	<skpath from="893" to="534" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH11a</pctext>
 		</pathcodes>
@@ -9467,7 +9393,7 @@
 		<pt X="-1675.0665" Y="-1090.2988"/>
 		<pt X="-1671.5737" Y="-1099.1812"/>
 	</skpath>
-	<skpath from="899" to="496" linestyle="connective">
+	<skpath from="894" to="496" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH3c</pctext>
 		</pathcodes>
@@ -9475,7 +9401,7 @@
 		<pt X="-1079.4542" Y="-2003.5557"/>
 		<pt X="-1078.5979" Y="-1989.3995"/>
 	</skpath>
-	<skpath from="516" to="900" linestyle="estwall" splined="1">
+	<skpath from="516" to="895" linestyle="estwall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<sketchsubset subname="china"/>
 		<importfrom subname="107sketchD"/>
@@ -9488,7 +9414,7 @@
 		<pt X="-1002.61536" Y="-1984.7028"/>
 		<pt X="-1002.4755" Y="-1986.0363"/>
 	</skpath>
-	<skpath from="900" to="901" linestyle="estwall" splined="1">
+	<skpath from="895" to="896" linestyle="estwall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-1002.4755" Y="-1986.0363"/>
 		<pt X="-1003.4582" Y="-1989.9121"/>
@@ -9497,19 +9423,19 @@
 		<pt X="-994.50946" Y="-2009.5304"/>
 		<pt X="-991.49786" Y="-2013.4025"/>
 	</skpath>
-	<skpath from="901" to="902" linestyle="invisible" splined="1">
+	<skpath from="896" to="897" linestyle="invisible" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-991.49786" Y="-2013.4025"/>
 		<pt X="-993.4769" Y="-2015.8118"/>
 	</skpath>
-	<skpath from="902" to="499" linestyle="estwall" splined="1">
+	<skpath from="897" to="499" linestyle="estwall" splined="1">
 		<sketchsubset subname="china"/>
 		<pt X="-993.4769" Y="-2015.8118"/>
 		<pt X="-996.3164" Y="-2011.8536"/>
 		<pt X="-999.5861" Y="-2006.5188"/>
 		<pt X="-1003.1323" Y="-2002.8342"/>
 	</skpath>
-	<skpath from="903" to="901" linestyle="connective">
+	<skpath from="898" to="896" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">CH4b</pctext>
 		</pathcodes>
@@ -9517,13 +9443,13 @@
 		<pt X="-986.9948" Y="-2020.977"/>
 		<pt X="-991.49786" Y="-2013.4025"/>
 	</skpath>
-	<skpath from="687" to="904" linestyle="wall" splined="1">
+	<skpath from="686" to="899" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1036.0532" Y="-2046.9059"/>
 		<pt X="-1034.0104" Y="-2042.23"/>
 	</skpath>
-	<skpath from="904" to="688" linestyle="wall" splined="1">
+	<skpath from="899" to="687" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1034.0104" Y="-2042.23"/>
@@ -9532,7 +9458,7 @@
 		<pt X="-1028.322" Y="-2034.2872"/>
 		<pt X="-1026.1005" Y="-2029.9329"/>
 	</skpath>
-	<skpath from="904" to="687" linestyle="detail">
+	<skpath from="899" to="686" linestyle="detail">
 		<sketchsubset subname="subchina"/>
 		<pt X="-1034.0104" Y="-2042.23"/>
 		<pt X="-1026.3899" Y="-2042.222"/>
@@ -9541,12 +9467,12 @@
 		<pt X="-1029.5701" Y="-2050.2295"/>
 		<pt X="-1036.0532" Y="-2046.9059"/>
 	</skpath>
-	<skpath from="680" to="905" linestyle="connective">
+	<skpath from="679" to="900" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<pt X="-1011.971" Y="-2045.2175"/>
 		<pt X="-1020.7108" Y="-2046.9355"/>
 	</skpath>
-	<skpath from="905" to="906" linestyle="connective">
+	<skpath from="900" to="901" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -9555,7 +9481,7 @@
 		<pt X="-1020.7108" Y="-2046.9355"/>
 		<pt X="-1018.0985" Y="-2053.2961"/>
 	</skpath>
-	<skpath from="905" to="907" linestyle="connective">
+	<skpath from="900" to="902" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -9565,7 +9491,7 @@
 		<pt X="-1027.696" Y="-2053.0688"/>
 		<pt X="-1022.75525" Y="-2058.4639"/>
 	</skpath>
-	<skpath from="686" to="908" linestyle="connective">
+	<skpath from="685" to="903" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="stream"/>
@@ -9574,7 +9500,7 @@
 		<pt X="-1011.06476" Y="-2077.9678"/>
 		<pt X="-1013.9903" Y="-2088.207"/>
 	</skpath>
-	<skpath from="909" to="684" linestyle="connective">
+	<skpath from="904" to="683" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH6x</pctext>
 		</pathcodes>
@@ -9582,7 +9508,7 @@
 		<pt X="-1052.9794" Y="-2136.729"/>
 		<pt X="-1038.4525" Y="-2126.2617"/>
 	</skpath>
-	<skpath from="681" to="910" linestyle="wall" splined="1">
+	<skpath from="680" to="905" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<pt X="-1009.0385" Y="-2064.7676"/>
 		<pt X="-1005.0192" Y="-2066.6912"/>
@@ -9590,17 +9516,17 @@
 		<pt X="-994.1775" Y="-2068.412"/>
 		<pt X="-990.8217" Y="-2070.9934"/>
 	</skpath>
-	<skpath from="910" to="682" linestyle="invisible" splined="1">
+	<skpath from="905" to="681" linestyle="invisible" splined="1">
 		<sketchsubset subname="subchina"/>
 		<pt X="-990.8217" Y="-2070.9934"/>
 		<pt X="-991.1768" Y="-2075.1648"/>
 	</skpath>
-	<skpath from="417" to="910" linestyle="connective">
+	<skpath from="417" to="905" linestyle="connective">
 		<sketchsubset subname="subchina"/>
 		<pt X="-992.9509" Y="-2072.1091" Z="-1371.5571"/>
 		<pt X="-990.8217" Y="-2070.9934"/>
 	</skpath>
-	<skpath from="683" to="911" linestyle="wall" splined="1">
+	<skpath from="682" to="906" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-997.3084" Y="-2078.8972"/>
@@ -9610,7 +9536,7 @@
 		<pt X="-1015.5255" Y="-2101.7354"/>
 		<pt X="-1018.49457" Y="-2104.6514"/>
 	</skpath>
-	<skpath from="911" to="684" linestyle="wall" splined="1">
+	<skpath from="906" to="683" linestyle="wall" splined="1">
 		<sketchsubset subname="subchina"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1018.49457" Y="-2104.6514"/>
@@ -9620,7 +9546,7 @@
 		<pt X="-1034.6313" Y="-2121.3743"/>
 		<pt X="-1038.4525" Y="-2126.2617"/>
 	</skpath>
-	<skpath from="912" to="911" linestyle="connective">
+	<skpath from="907" to="906" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">CH5a</pctext>
 		</pathcodes>
@@ -9628,14 +9554,7 @@
 		<pt X="-1013.45166" Y="-2108.6814"/>
 		<pt X="-1018.49457" Y="-2104.6514"/>
 	</skpath>
-	<skpath from="724" to="729" linestyle="pitchbound" splined="1">
-		<sketchsubset subname="too bold"/>
-		<pt X="-1609.6122" Y="-1359.8287"/>
-		<pt X="-1606.7637" Y="-1364.8837"/>
-		<pt X="-1604.4198" Y="-1366.0046"/>
-		<pt X="-1595.4774" Y="-1362.9958"/>
-	</skpath>
-	<skpath from="723" to="913" linestyle="wall" splined="1">
+	<skpath from="722" to="908" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1595.0585" Y="-1325.0205"/>
@@ -9644,20 +9563,20 @@
 		<pt X="-1610.971" Y="-1348.4811"/>
 		<pt X="-1611.0292" Y="-1350.4146"/>
 	</skpath>
-	<skpath from="913" to="724" linestyle="wall" splined="1">
+	<skpath from="908" to="723" linestyle="wall" splined="1">
 		<sketchsubset subname="too bold"/>
 		<importfrom subname="107sketchD"/>
 		<pt X="-1611.0292" Y="-1350.4146"/>
 		<pt X="-1610.3746" Y="-1355.3127"/>
 		<pt X="-1609.6122" Y="-1359.8287"/>
 	</skpath>
-	<skpath from="913" to="714" linestyle="invisible" splined="1">
+	<skpath from="908" to="713" linestyle="invisible" splined="1">
 		<sketchsubset subname="too bold"/>
 		<pt X="-1611.0292" Y="-1350.4146"/>
 		<pt X="-1605.337" Y="-1352.757"/>
 		<pt X="-1602.7246" Y="-1351.6914"/>
 	</skpath>
-	<skpath from="714" to="914" linestyle="connective">
+	<skpath from="713" to="909" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -9666,13 +9585,356 @@
 		<pt X="-1602.7246" Y="-1351.6914"/>
 		<pt X="-1603.7065" Y="-1357.1388"/>
 	</skpath>
-	<skpath from="915" to="846" linestyle="connective">
+	<skpath from="910" to="841" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">CH1b</pctext>
 		</pathcodes>
 		<sketchsubset subname="china"/>
 		<pt X="-1206.0719" Y="-2180.8997"/>
 		<pt X="-1207.7599" Y="-2163.67"/>
+	</skpath>
+	<skpath from="723" to="724" linestyle="wall" splined="1">
+		<sketchsubset subname="too bold"/>
+		<pt X="-1609.6122" Y="-1359.8287"/>
+		<pt X="-1608.6244" Y="-1365.7352"/>
+		<pt X="-1607.0236" Y="-1367.6029"/>
+		<pt X="-1603.3773" Y="-1367.6029"/>
+		<pt X="-1599.5532" Y="-1365.9132"/>
+		<pt X="-1597.152" Y="-1364.3124"/>
+		<pt X="-1595.4774" Y="-1362.9958"/>
+	</skpath>
+	<skpath from="911" to="724" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="0.0" nodeposyrel="0.0">was&space;RS2b,&space;but&space;is&space;an&space;&newline;insignificant&space;pocket</pctext>
+		</pathcodes>
+		<sketchsubset subname="too bold"/>
+		<pt X="-1599.7311" Y="-1371.2491"/>
+		<pt X="-1595.4774" Y="-1362.9958"/>
+	</skpath>
+	<skpath from="912" to="913" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1351.5951" Y="-1899.5878"/>
+		<pt X="-1343.3756" Y="-1903.226"/>
+	</skpath>
+	<skpath from="913" to="914" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1343.3756" Y="-1903.226"/>
+		<pt X="-1343.9146" Y="-1910.5022"/>
+		<pt X="-1356.3113" Y="-1916.5658"/>
+	</skpath>
+	<skpath from="914" to="915" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1356.3113" Y="-1916.5658"/>
+		<pt X="-1349.3044" Y="-1904.4386"/>
+	</skpath>
+	<skpath from="915" to="912" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1349.3044" Y="-1904.4386"/>
+		<pt X="-1351.5951" Y="-1899.5878"/>
+	</skpath>
+	<skpath from="914" to="912" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1356.3113" Y="-1916.5658"/>
+		<pt X="-1360.7579" Y="-1912.1193"/>
+		<pt X="-1351.5951" Y="-1899.5878"/>
+	</skpath>
+	<skpath from="913" to="916" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1343.3756" Y="-1903.226"/>
+		<pt X="-1336.6382" Y="-1907.1335"/>
+	</skpath>
+	<skpath from="916" to="917" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1336.6382" Y="-1907.1335"/>
+		<pt X="-1340.6807" Y="-1899.5878"/>
+	</skpath>
+	<skpath from="917" to="913" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1340.6807" Y="-1899.5878"/>
+		<pt X="-1343.3756" Y="-1903.226"/>
+	</skpath>
+	<skpath from="913" to="916" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1343.3756" Y="-1903.226"/>
+		<pt X="-1341.6239" Y="-1893.3894"/>
+		<pt X="-1336.3688" Y="-1897.7013"/>
+		<pt X="-1336.6382" Y="-1907.1335"/>
+	</skpath>
+	<skpath from="541" to="918" linestyle="wall" splined="1">
+		<sketchsubset subname="china"/>
+		<importfrom subname="107sketchD"/>
+		<pt X="-1374.1156" Y="-1804.1793"/>
+		<pt X="-1367.8744" Y="-1820.2279"/>
+		<pt X="-1345.8818" Y="-1846.0841"/>
+		<pt X="-1320.9172" Y="-1884.1251"/>
+		<pt X="-1312.893" Y="-1890.3663"/>
+		<pt X="-1308.9363" Y="-1896.9941"/>
+	</skpath>
+	<skpath from="918" to="542" linestyle="wall" splined="1">
+		<sketchsubset subname="china"/>
+		<importfrom subname="107sketchD"/>
+		<pt X="-1308.9363" Y="-1896.9941"/>
+		<pt X="-1306.3546" Y="-1901.6598"/>
+		<pt X="-1300.1134" Y="-1909.3868"/>
+		<pt X="-1294.7639" Y="-1919.7886"/>
+		<pt X="-1281.5173" Y="-1949.2325"/>
+		<pt X="-1279.1871" Y="-1952.9868"/>
+	</skpath>
+	<skpath from="918" to="916" linestyle="invisible" splined="1">
+		<sketchsubset subname="china"/>
+		<pt X="-1308.9363" Y="-1896.9941"/>
+		<pt X="-1336.6382" Y="-1907.1335"/>
+	</skpath>
+	<skpath from="919" to="920" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1297.2211" Y="-2012.2233"/>
+		<pt X="-1303.1417" Y="-2004.6693"/>
+	</skpath>
+	<skpath from="920" to="921" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1303.1417" Y="-2004.6693"/>
+		<pt X="-1323.3538" Y="-2018.1439"/>
+	</skpath>
+	<skpath from="921" to="922" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1323.3538" Y="-2018.1439"/>
+		<pt X="-1316.8206" Y="-2028.148"/>
+	</skpath>
+	<skpath from="922" to="919" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1316.8206" Y="-2028.148"/>
+		<pt X="-1297.2211" Y="-2012.2233"/>
+	</skpath>
+	<skpath from="922" to="923" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1316.8206" Y="-2028.148"/>
+		<pt X="-1322.1288" Y="-2044.6849"/>
+	</skpath>
+	<skpath from="923" to="924" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1322.1288" Y="-2044.6849"/>
+		<pt X="-1331.5203" Y="-2035.4977"/>
+	</skpath>
+	<skpath from="924" to="921" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1331.5203" Y="-2035.4977"/>
+		<pt X="-1323.3538" Y="-2018.1439"/>
+	</skpath>
+	<skpath from="923" to="919" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1322.1288" Y="-2044.6849"/>
+		<pt X="-1308.45" Y="-2039.3768"/>
+		<pt X="-1294.1587" Y="-2015.0815"/>
+		<pt X="-1297.2211" Y="-2012.2233"/>
+	</skpath>
+	<skpath from="522" to="925" linestyle="wall" splined="1">
+		<sketchsubset subname="china"/>
+		<importfrom subname="107sketchD"/>
+		<pt X="-1320.9232" Y="-2099.003"/>
+		<pt X="-1328.0559" Y="-2079.0908"/>
+		<pt X="-1333.4055" Y="-2059.7732"/>
+		<pt X="-1338.755" Y="-2050.8572"/>
+		<pt X="-1339.3492" Y="-2036.8888"/>
+	</skpath>
+	<skpath from="925" to="523" linestyle="wall" splined="1">
+		<sketchsubset subname="china"/>
+		<importfrom subname="107sketchD"/>
+		<pt X="-1339.3492" Y="-2036.8888"/>
+		<pt X="-1344.4016" Y="-2007.4663"/>
+		<pt X="-1353.3175" Y="-1989.0402"/>
+		<pt X="-1367.2858" Y="-1967.345"/>
+		<pt X="-1380.9568" Y="-1945.9469"/>
+		<pt X="-1388.3867" Y="-1937.031"/>
+	</skpath>
+	<skpath from="925" to="924" linestyle="invisible" splined="1">
+		<sketchsubset subname="china"/>
+		<pt X="-1339.3492" Y="-2036.8888"/>
+		<pt X="-1331.5203" Y="-2035.4977"/>
+	</skpath>
+	<skpath from="926" to="927" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1287.0919" Y="-2008.0055"/>
+		<pt X="-1278.1987" Y="-1994.8003"/>
+	</skpath>
+	<skpath from="927" to="928" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1278.1987" Y="-1994.8003"/>
+		<pt X="-1280.2198" Y="-1989.8147"/>
+	</skpath>
+	<skpath from="928" to="929" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1280.2198" Y="-1989.8147"/>
+		<pt X="-1278.4681" Y="-1987.1198"/>
+		<pt X="-1275.2343" Y="-1991.8358"/>
+	</skpath>
+	<skpath from="929" to="927" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1275.2343" Y="-1991.8358"/>
+		<pt X="-1278.1987" Y="-1994.8003"/>
+	</skpath>
+	<skpath from="926" to="928" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1287.0919" Y="-2008.0055"/>
+		<pt X="-1285.8793" Y="-1996.2825"/>
+		<pt X="-1280.2198" Y="-1989.8147"/>
+	</skpath>
+	<skpath from="929" to="926" linestyle="detail">
+		<sketchsubset subname="china"/>
+		<pt X="-1275.2343" Y="-1991.8358"/>
+		<pt X="-1276.1775" Y="-2000.5944"/>
+		<pt X="-1287.0919" Y="-2008.0055"/>
+	</skpath>
+	<skpath from="926" to="920" linestyle="invisible" splined="1">
+		<sketchsubset subname="china"/>
+		<pt X="-1287.0919" Y="-2008.0055"/>
+		<pt X="-1303.1417" Y="-2004.6693"/>
+	</skpath>
+	<skpath from="838" to="930" linestyle="connective">
+		<sketchsubset subname="china"/>
+		<pt X="-1222.9174" Y="-2155.9211"/>
+		<pt X="-1266.1871" Y="-2146.472"/>
+	</skpath>
+	<skpath from="930" to="931" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<sketchsubset subname="china"/>
+		<pt X="-1266.1871" Y="-2146.472"/>
+		<pt X="-1266.8058" Y="-2137.192"/>
+	</skpath>
+	<skpath from="930" to="932" linestyle="connective">
+		<sketchsubset subname="china"/>
+		<pt X="-1266.1871" Y="-2146.472"/>
+		<pt X="-1232.1604" Y="-2137.1086"/>
+	</skpath>
+	<skpath from="932" to="933" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<sketchsubset subname="china"/>
+		<pt X="-1232.1604" Y="-2137.1086"/>
+		<pt X="-1234.6104" Y="-2130.1672"/>
+	</skpath>
+	<skpath from="932" to="934" linestyle="connective">
+		<sketchsubset subname="china"/>
+		<pt X="-1232.1604" Y="-2137.1086"/>
+		<pt X="-1201.332" Y="-2123.634"/>
+	</skpath>
+	<skpath from="934" to="935" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<sketchsubset subname="china"/>
+		<pt X="-1201.332" Y="-2123.634"/>
+		<pt X="-1203.782" Y="-2116.8967"/>
+	</skpath>
+	<skpath from="934" to="936" linestyle="connective">
+		<sketchsubset subname="china"/>
+		<pt X="-1201.332" Y="-2123.634"/>
+		<pt X="-1181.5283" Y="-2100.5637"/>
+	</skpath>
+	<skpath from="936" to="937" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<sketchsubset subname="china"/>
+		<pt X="-1181.5283" Y="-2100.5637"/>
+		<pt X="-1190.3074" Y="-2100.1555"/>
+	</skpath>
+	<skpath from="659" to="938" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<pt X="-1498.0255" Y="-1522.6752"/>
+		<pt X="-1504.5297" Y="-1535.4259"/>
+		<pt X="-1498.9615" Y="-1544.0874"/>
+	</skpath>
+	<skpath from="538" to="939" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope2"/>
+		</pathcodes>
+		<pt X="-1501.0184" Y="-1501.0387"/>
+		<pt X="-1525.2551" Y="-1487.479"/>
+		<pt X="-1528.9672" Y="-1478.8175"/>
+	</skpath>
+	<skpath from="538" to="940" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="bigboulders"/>
+		</pathcodes>
+		<pt X="-1501.0184" Y="-1501.0387"/>
+		<pt X="-1519.3777" Y="-1501.7084"/>
+	</skpath>
+	<skpath from="727" to="941" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<pt X="-1523.3958" Y="-1344.2864"/>
+		<pt X="-1538.1255" Y="-1343.296"/>
+		<pt X="-1544.7954" Y="-1345.7861"/>
+	</skpath>
+	<skpath from="727" to="942" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<pt X="-1523.3958" Y="-1344.2864"/>
+		<pt X="-1520.6947" Y="-1340.2722"/>
+		<pt X="-1513.7579" Y="-1339.2941"/>
+	</skpath>
+	<skpath from="703" to="943" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<pt X="-1457.6964" Y="-1312.6534"/>
+		<pt X="-1452.2294" Y="-1305.7675"/>
+		<pt X="-1444.6754" Y="-1302.9093"/>
+	</skpath>
+	<skpath from="707" to="944" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<pt X="-1483.608" Y="-1301.6348"/>
+		<pt X="-1480.812" Y="-1300.6635"/>
+		<pt X="-1495.9199" Y="-1301.8884"/>
+		<pt X="-1486.9369" Y="-1300.051"/>
+	</skpath>
+	<skpath from="729" to="945" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<pt X="-1474.3029" Y="-1316.0187"/>
+		<pt X="-1479.7911" Y="-1313.7299"/>
+	</skpath>
+	<skpath from="725" to="946" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<pt X="-1586.8558" Y="-1361.0604"/>
+		<pt X="-1568.818" Y="-1359.5609"/>
+		<pt X="-1563.1014" Y="-1377.323"/>
+		<pt X="-1567.7971" Y="-1369.565"/>
+	</skpath>
+	<skpath from="727" to="947" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="breeze_a"/>
+		</pathcodes>
+		<pt X="-1523.3958" Y="-1344.2864"/>
+		<pt X="-1514.9193" Y="-1338.5323"/>
+		<pt X="-1512.2653" Y="-1351.3945"/>
+		<pt X="-1526.9648" Y="-1354.2528"/>
 	</skpath>
 </sketch>
 </tunnelxml>
