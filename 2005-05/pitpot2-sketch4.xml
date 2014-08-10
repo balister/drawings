@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-10 09:59:15">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-10 17:02:46">
 <sketch splined="0" locoffsetx="5.835" locoffsety="7.6364284" locoffsetz="-34.394287" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -32,7 +32,7 @@
 		<pt X="-154.54398" Y="-68.90155"/>
 		<pt X="-158.35" Y="-88.03572"/>
 	</skpath>
-	<skpath from="3" to="3" linestyle="connective">
+	<skpath from="2" to="2" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="14.833284" sfrotatedeg="-0.18392357" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-3.3088178570169884" sfytrans="-18.61344686683252" sfsketch="surveyscans/2014/2014#22pitpot2/plan2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3501">
@@ -44,19 +44,19 @@
 		<pt X="-92.19582" Y="126.25185"/>
 		<pt X="-91.43818" Y="-109.77019"/>
 	</skpath>
-	<skpath from="4" to="5" linestyle="invisible" splined="1">
+	<skpath from="3" to="4" linestyle="invisible" splined="1">
 		<pt X="2.8331447" Y="76.32864"/>
 		<pt X="3.7211921" Y="75.5146" Z="-150.25714"/>
 	</skpath>
-	<skpath from="6" to="5" linestyle="connective">
+	<skpath from="5" to="4" linestyle="connective">
 		<pt X="9.863521" Y="75.810616"/>
 		<pt X="3.7211921" Y="75.5146" Z="-150.25714"/>
 	</skpath>
-	<skpath from="5" to="7" linestyle="invisible" splined="1">
+	<skpath from="4" to="6" linestyle="invisible" splined="1">
 		<pt X="3.7211921" Y="75.5146" Z="-150.25714"/>
 		<pt X="8.383441" Y="72.33243"/>
 	</skpath>
-	<skpath from="8" to="2" linestyle="centreline">
+	<skpath from="7" to="8" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="pitpot2.11" head="pitpot2.10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -65,11 +65,11 @@
 		<pt X="-8.606723" Y="35.956192" Z="-145.15715"/>
 		<pt X="-1.6500001" Y="7.3642855" Z="-136.25714"/>
 	</skpath>
-	<skpath from="9" to="8" linestyle="connective">
+	<skpath from="9" to="7" linestyle="connective">
 		<pt X="-8.648849" Y="36.85488"/>
 		<pt X="-8.606723" Y="35.956192" Z="-145.15715"/>
 	</skpath>
-	<skpath from="5" to="10" linestyle="centreline">
+	<skpath from="4" to="10" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="pitpot2.13" head="pitpot2.12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -86,7 +86,7 @@
 		<pt X="3.7295396" Y="41.943897" Z="-150.25714"/>
 		<pt X="3.5731843" Y="40.584736"/>
 	</skpath>
-	<skpath from="10" to="8" linestyle="centreline">
+	<skpath from="10" to="7" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="pitpot2.12" head="pitpot2.11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -95,7 +95,7 @@
 		<pt X="3.7295396" Y="41.943897" Z="-150.25714"/>
 		<pt X="-8.606723" Y="35.956192" Z="-145.15715"/>
 	</skpath>
-	<skpath from="2" to="13" linestyle="centreline">
+	<skpath from="8" to="13" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="pitpot2.10" head="pitpot2.9"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -213,16 +213,16 @@
 		<pt X="-6.3854" Y="-8.172897"/>
 		<pt X="-6.6322384" Y="-6.9795604" Z="-124.15714"/>
 	</skpath>
-	<skpath from="2" to="30" linestyle="connective">
+	<skpath from="8" to="30" linestyle="connective">
 		<pt X="-1.6500001" Y="7.3642855" Z="-136.25714"/>
 		<pt X="-7.347451" Y="6.923909"/>
 	</skpath>
-	<skpath from="2" to="31" linestyle="connective">
+	<skpath from="8" to="31" linestyle="connective">
 		<pt X="-1.6500001" Y="7.3642855" Z="-136.25714"/>
 		<pt X="-3.9432695" Y="5.5918384"/>
 		<pt X="-1.5751431" Y="5.0738106"/>
 	</skpath>
-	<skpath from="8" to="32" linestyle="connective">
+	<skpath from="7" to="32" linestyle="connective">
 		<pt X="-8.606723" Y="35.956192" Z="-145.15715"/>
 		<pt X="-2.3151827" Y="28.903084"/>
 	</skpath>
@@ -254,7 +254,7 @@
 		<pt X="3.2351139" Y="36.15547"/>
 		<pt X="3.5731843" Y="40.584736"/>
 	</skpath>
-	<skpath from="12" to="7" linestyle="wall" splined="1">
+	<skpath from="12" to="6" linestyle="wall" splined="1">
 		<pt X="3.5731843" Y="40.584736"/>
 		<pt X="4.691431" Y="47.121735"/>
 		<pt X="5.420188" Y="55.526733"/>
@@ -263,17 +263,17 @@
 		<pt X="8.238049" Y="71.5108"/>
 		<pt X="8.383441" Y="72.33243"/>
 	</skpath>
-	<skpath from="7" to="33" linestyle="wall" splined="1">
+	<skpath from="6" to="33" linestyle="wall" splined="1">
 		<pt X="8.383441" Y="72.33243"/>
 		<pt X="9.258308" Y="72.968315"/>
 		<pt X="10.42432" Y="73.06548"/>
 	</skpath>
-	<skpath from="34" to="6" linestyle="wall" splined="1">
+	<skpath from="34" to="5" linestyle="wall" splined="1">
 		<pt X="11.541747" Y="75.15459"/>
 		<pt X="10.42432" Y="75.54326"/>
 		<pt X="9.863521" Y="75.810616"/>
 	</skpath>
-	<skpath from="6" to="35" linestyle="wall" splined="1">
+	<skpath from="5" to="35" linestyle="wall" splined="1">
 		<pt X="9.863521" Y="75.810616"/>
 		<pt X="9.063973" Y="77.292274"/>
 	</skpath>
@@ -285,12 +285,12 @@
 		<pt X="9.015389" Y="78.89554"/>
 		<pt X="8.918222" Y="82.53933"/>
 	</skpath>
-	<skpath from="38" to="4" linestyle="wall" splined="1">
+	<skpath from="38" to="3" linestyle="wall" splined="1">
 		<pt X="3.0881655" Y="82.92799"/>
 		<pt X="3.0881655" Y="78.45829"/>
 		<pt X="2.8331447" Y="76.32864"/>
 	</skpath>
-	<skpath from="4" to="11" linestyle="wall" splined="1">
+	<skpath from="3" to="11" linestyle="wall" splined="1">
 		<pt X="2.8331447" Y="76.32864"/>
 		<pt X="2.262241" Y="74.765915"/>
 		<pt X="2.6023273" Y="69.130196"/>
@@ -591,7 +591,7 @@
 		<pt X="6.378131" Y="85.898895"/>
 		<pt X="3.0881655" Y="82.92799"/>
 	</skpath>
-	<skpath from="5" to="73" linestyle="connective">
+	<skpath from="4" to="73" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -646,6 +646,10 @@
 		<pt X="5.901571" Y="-31.535269"/>
 		<pt X="0.5370267" Y="-35.445023"/>
 		<pt X="-5.827687" Y="-27.443666"/>
+	</skpath>
+	<skpath from="2" to="10" linestyle="connective">
+		<pt X="-91.43818" Y="-109.77019"/>
+		<pt X="3.7295396" Y="41.943897" Z="-150.25714"/>
 	</skpath>
 </sketch>
 </tunnelxml>
