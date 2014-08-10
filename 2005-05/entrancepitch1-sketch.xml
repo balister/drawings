@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-10 07:37:34">
+<sketch splined="0" locoffsetx="-0.96" locoffsety="0.26" locoffsetz="-8.71" realpaperscale="1.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*file_begin&space;&quot;/home/martin/expo/loser/caves/2005-05/entrancepitch1.svx&quot;&space;&quot;&quot;&newline;;&space;Locn:&tab;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&tab;2005-5&space;&quot;Balcony&space;Hohle&quot;&newline;&newline;*begin&space;entrancepitch1&newline;&newline;*export&tab;7&tab;10&newline;&newline;*title&space;&quot;entrancepitch1&quot;&newline;*date&space;2014.08.01&newline;*team&space;Insts&space;Katey&space;Bender&newline;*team&space;Tape&space;Katey&space;Bender&newline;*team&space;Notes&space;Katey&space;Bender&newline;&newline;;from&tab;to&tab;tape&tab;compass&tab;clino&tab;remarks&newline;7&tab;8&tab;8.45&tab;-&tab;down&newline;9&tab;8&tab;2.06&tab;105&tab;-15&tab;;reversed&newline;9&tab;10&tab;10.55&tab;-&tab;down&newline;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;7&tab;-&tab;-&tab;-&tab;-&newline;8&tab;1.5&tab;1.8&tab;9.5&tab;0.2&tab;;floor&space;of&space;stone&space;bridge&newline;9&tab;-&tab;-&tab;-&tab;-&tab;;rebelay&space;bolt&newline;10&tab;5&tab;7&tab;-&tab;-&tab;;rebelay&space;bolt&newline;&newline;*end&space;entrancepitch1&newline;&newline;*file_end&space;&quot;/home/martin/expo/loser/caves/2005-05/entrancepitch1.svx&quot;&space;&quot;&quot;</pctext>
+		</pathcodes>
+		<pt X="-9.599999" Y="-102.6"/>
+		<pt X="-13.406026" Y="-121.73417"/>
+		<pt X="-24.24466" Y="-137.95534"/>
+		<pt X="-40.465828" Y="-148.79398"/>
+		<pt X="-59.6" Y="-152.6"/>
+		<pt X="-78.73417" Y="-148.79398"/>
+		<pt X="-94.95534" Y="-137.95534"/>
+		<pt X="-105.793976" Y="-121.73417"/>
+		<pt X="-109.6" Y="-102.6"/>
+		<pt X="-105.793976" Y="-83.46583"/>
+		<pt X="-94.95534" Y="-67.24466"/>
+		<pt X="-78.73417" Y="-56.406025"/>
+		<pt X="-59.6" Y="-52.6"/>
+		<pt X="-40.465828" Y="-48.793972"/>
+		<pt X="-24.24466" Y="-37.955338"/>
+		<pt X="-13.406026" Y="-21.73417"/>
+		<pt X="-9.599999" Y="-2.6"/>
+		<pt X="-13.406026" Y="16.53417"/>
+		<pt X="-24.24466" Y="32.75535"/>
+		<pt X="-40.465828" Y="43.59397"/>
+		<pt X="-59.6" Y="47.4"/>
+		<pt X="-78.73417" Y="43.59397"/>
+		<pt X="-94.95534" Y="32.75535"/>
+		<pt X="-105.793976" Y="16.53417"/>
+		<pt X="-109.6" Y="-2.6"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="entrancepitch1.7" head="entrancepitch1.8"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="entrancepitch1"/>
+		<pt X="9.599999" Y="2.6" Z="87.1"/>
+		<pt X="9.599999" Y="2.6" Z="2.6"/>
+	</skpath>
+	<skpath from="4" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="entrancepitch1.9" head="entrancepitch1.8"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="entrancepitch1"/>
+		<pt X="-9.599999" Y="-2.6" Z="7.9"/>
+		<pt X="9.599999" Y="2.6" Z="2.6"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="entrancepitch1.9" head="entrancepitch1.10"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="entrancepitch1"/>
+		<pt X="-9.599999" Y="-2.6" Z="7.9"/>
+		<pt X="-9.599999" Y="-2.6" Z="-97.600006"/>
+	</skpath>
+</sketch>
+</tunnelxml>
