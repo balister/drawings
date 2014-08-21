@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-21 07:19:37">
+<sketch splined="0" locoffsetx="-1.99" locoffsety="-1.81" locoffsetz="-0.604" realpaperscale="1.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*file_begin&space;&quot;C:&backslash;Users&backslash;goatchurch&backslash;caving&backslash;loser&backslash;caves&backslash;2005-05&backslash;hiltiaplenty.svx&quot;&space;&quot;&quot;&newline;*begin&space;hiltiaplenty&newline;&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;Balconhohle&newline;;&space;ref&space;:&space;2014#35&newline;&newline;*export&space;7x&space;4&space;&newline;&newline;*title&space;&quot;Hilti-a-plenty&quot;&newline;*date&space;2014.08.14&newline;*team&space;Notes&space;David&space;W&newline;*team&space;Instruments&space;Martin&space;G&newline;*instrument&space;Comp,&space;Clino,&space;Uni-T&space;disto&newline;&newline;;from&space;&tab;to&space;&tab;tape&space;&tab;compass&space;clino&newline;2&tab;1&tab;8.29&tab;189&tab;-12&newline;3&tab;2&tab;6.16&tab;138&tab;-03&newline;4&tab;3&tab;7.81&tab;172&tab;-10&newline;1&tab;7x&tab;10.10&tab;169&tab;-09&newline;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;7x&tab;-&tab;-&tab;-&tab;-&tab;Noel&apostrophe;s&space;station&space;at&space;start&space;of&space;traverse&newline;1&tab;0.1&tab;1.2&tab;0.5&tab;0.8&tab;left&space;wall&newline;2&tab;0.9&tab;0.1&tab;0.5&tab;0.6&tab;right&space;wall&newline;3&tab;0.7&tab;0.5&tab;0.2&tab;0.8&tab;right&space;wall&space;top&newline;4&tab;0.9&tab;0.2&tab;0.2&tab;0.6&tab;right&space;wall&newline;&newline;&newline;*end&space;hiltiaplenty&newline;&newline;*file_end&space;&quot;C:&backslash;Users&backslash;goatchurch&backslash;caving&backslash;loser&backslash;caves&backslash;2005-05&backslash;hiltiaplenty.svx&quot;&space;&quot;&quot;</pctext>
+		</pathcodes>
+		<pt X="-32.0" Y="-240.0"/>
+		<pt X="-35.806026" Y="-259.13416"/>
+		<pt X="-46.64466" Y="-275.35535"/>
+		<pt X="-62.86583" Y="-286.19397"/>
+		<pt X="-82.0" Y="-290.0"/>
+		<pt X="-101.13417" Y="-286.19397"/>
+		<pt X="-117.35534" Y="-275.35535"/>
+		<pt X="-128.19397" Y="-259.13416"/>
+		<pt X="-132.0" Y="-240.0"/>
+		<pt X="-128.19397" Y="-220.86583"/>
+		<pt X="-117.35534" Y="-204.64465"/>
+		<pt X="-101.13417" Y="-193.80603"/>
+		<pt X="-82.0" Y="-190.0"/>
+		<pt X="-62.86583" Y="-186.19397"/>
+		<pt X="-46.64466" Y="-175.35535"/>
+		<pt X="-35.806026" Y="-159.13417"/>
+		<pt X="-32.0" Y="-140.0"/>
+		<pt X="-35.806026" Y="-120.86583"/>
+		<pt X="-46.64466" Y="-104.64465"/>
+		<pt X="-62.86583" Y="-93.80603"/>
+		<pt X="-82.0" Y="-90.0"/>
+		<pt X="-101.13417" Y="-93.80603"/>
+		<pt X="-117.35534" Y="-104.64465"/>
+		<pt X="-128.19397" Y="-120.86583"/>
+		<pt X="-132.0" Y="-140.0"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="hiltiaplenty.2" head="hiltiaplenty.1"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Hilti-a-plenty"/>
+		<pt X="19.9" Y="-18.099998" Z="6.04"/>
+		<pt X="7.2000003" Y="62.0" Z="-11.160001"/>
+	</skpath>
+	<skpath from="4" to="2" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="hiltiaplenty.3" head="hiltiaplenty.2"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Hilti-a-plenty"/>
+		<pt X="-21.300001" Y="-63.800003" Z="9.24"/>
+		<pt X="19.9" Y="-18.099998" Z="6.04"/>
+	</skpath>
+	<skpath from="5" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="hiltiaplenty.4" head="hiltiaplenty.3"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Hilti-a-plenty"/>
+		<pt X="-32.0" Y="-140.0" Z="22.84"/>
+		<pt X="-21.300001" Y="-63.800003" Z="9.24"/>
+	</skpath>
+	<skpath from="3" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="hiltiaplenty.1" head="hiltiaplenty.7x"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Hilti-a-plenty"/>
+		<pt X="7.2000003" Y="62.0" Z="-11.160001"/>
+		<pt X="26.199999" Y="159.9" Z="-26.960001"/>
+	</skpath>
+	<skpath from="7" to="7" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="4.6863837" sfrotatedeg="0.06272124" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-28.155422391794495" sfytrans="-29.72830193865423" sfsketch="surveyscans/2014/2014#35hiltaplenty/plan1.jpeg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3501">
+			</pcarea>
+		</pathcodes>
+		<pt X="-261.65424" Y="-315.38303"/>
+		<pt X="282.47504" Y="-315.97867"/>
+		<pt X="283.29282" Y="431.0788"/>
+		<pt X="-260.83643" Y="431.67444"/>
+		<pt X="-261.65424" Y="-315.38303"/>
+	</skpath>
+	<skpath from="7" to="4" linestyle="connective">
+		<pt X="-261.65424" Y="-315.38303"/>
+		<pt X="-21.300001" Y="-63.800003" Z="9.24"/>
+	</skpath>
+</sketch>
+</tunnelxml>

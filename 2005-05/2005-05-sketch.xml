@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-15 21:37:10">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-20 15:45:12">
 <sketch splined="0" locoffsetx="37.187283" locoffsety="-13.993642" locoffsetz="-72.5255" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -5318,7 +5318,7 @@
 		<pt X="-494.67123" Y="-401.35175"/>
 		<pt X="-343.28653" Y="-344.0663"/>
 	</skpath>
-	<skpath from="469" to="507" linestyle="connective">
+	<skpath from="469" to="507" linestyle="invisible" splined="1">
 		<importfrom subname="roomwithaview-sketch"/>
 		<pt X="-380.63004" Y="-349.18848"/>
 		<pt X="-381.47333" Y="-353.55627"/>
@@ -11224,7 +11224,7 @@
 	</skpath>
 	<skpath from="1056" to="842" linestyle="connective">
 		<pathcodes>
-			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="-1.0">Chasm&space;passage</pctext>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="0.0">Chasm&newline;passage</pctext>
 		</pathcodes>
 		<importfrom subname="leedsbypass-sketch"/>
 		<pt X="35.393326" Y="253.31273"/>
@@ -11781,6 +11781,14 @@
 		</pathcodes>
 		<pt X="-60.81935" Y="196.98747"/>
 		<pt X="-58.091" Y="180.06215"/>
+	</skpath>
+	<skpath from="232" to="1098" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<pt X="-46.060303" Y="-329.69345"/>
+		<pt X="-24.356997" Y="-276.60434"/>
 	</skpath>
 </sketch>
 </tunnelxml>
