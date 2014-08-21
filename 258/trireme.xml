@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-21 08:24:33">
+<sketch splined="0" locoffsetx="-1.2666667" locoffsety="0.5466667" locoffsetz="-9.41" realpaperscale="1.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*file_begin&space;&quot;C:&backslash;Users&backslash;goatchurch&backslash;caving&backslash;loser&backslash;caves&backslash;258&backslash;trireme.svx&quot;&space;&quot;&quot;&newline;*begin&space;trireme&newline;&newline;;&space;Locn:&space;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&space;(kataster&space;group&space;1623)&newline;;&space;Cave:&space;258&space;&quot;Tunnockschacht&quot;&newline;&newline;;ref.:&space;&space;2014&space;#06&newline;&newline;*export&space;52x&newline;&newline;*title&space;&quot;Trireme&space;Rift&quot;&newline;*date&space;2014.07.30&newline;;original&space;notes&space;do&space;not&space;say&space;who&space;was&space;dog&space;or&space;instruments&space;so&space;just&space;alocated&space;randomly&newline;*team&space;Insts&space;Andrea&space;Futrell&newline;*team&space;Notes&space;Mike&space;Futrell&newline;*team&space;Dog&space;Katey&space;Bender&newline;*team&space;Dog&space;Michael&space;Sargent&newline;&newline;;Instrument:&space;Andreas&space;Suuntos&newline;&newline;;*calibrate&space;tape&space;+0.00&space;&space;&space;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;&newline;;from&space;&space;&space;to&space;&space;tape&space;&space;&space;&space;compass&space;clino&space;&space;&space;remarks&newline;&newline;52x&tab;1&tab;2.14&tab;293&tab;-41&newline;1&tab;2&tab;6.30&tab;000&tab;-90&newline;2&tab;3&tab;8.20&tab;000&tab;-90&newline;3&tab;4&tab;4.50&tab;310&tab;-41&newline;3&tab;5&tab;4.60&tab;130&tab;+46&newline;&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;;stn&space;&space;&space;&space;L&space;&space;&space;R&space;&space;&space;U&space;&space;&space;D&space;&space;&space;Desc&newline;52x&tab;1&tab;0&tab;4&tab;1.5&tab;Old&space;numbered&space;stn&newline;1&tab;0.5&tab;0.5&tab;5&tab;6&tab;knot&space;of&space;Y&space;hang&space;rope&newline;2&tab;0.7&tab;0&tab;10&tab;1.5&tab;wall&newline;3&tab;1&tab;0&tab;18&tab;0&tab;floor&newline;4&tab;0.5&tab;0.5&tab;8&tab;0&tab;choke&newline;5&tab;0.4&tab;0.3&tab;1&tab;0&tab;choke&newline;&newline;*end&space;trireme&newline;*file_end&space;&quot;C:&backslash;Users&backslash;goatchurch&backslash;caving&backslash;loser&backslash;caves&backslash;258&backslash;trireme.svx&quot;&space;&quot;&quot;</pctext>
+		</pathcodes>
+		<pt X="-28.233334" Y="-122.63333"/>
+		<pt X="-32.03936" Y="-141.7675"/>
+		<pt X="-42.877995" Y="-157.98868"/>
+		<pt X="-59.099163" Y="-168.8273"/>
+		<pt X="-78.23334" Y="-172.63333"/>
+		<pt X="-97.36751" Y="-168.8273"/>
+		<pt X="-113.58867" Y="-157.98868"/>
+		<pt X="-124.42731" Y="-141.7675"/>
+		<pt X="-128.23334" Y="-122.63333"/>
+		<pt X="-124.42731" Y="-103.49916"/>
+		<pt X="-113.58867" Y="-87.27799"/>
+		<pt X="-97.36751" Y="-76.43936"/>
+		<pt X="-78.23334" Y="-72.63333"/>
+		<pt X="-59.099163" Y="-68.82731"/>
+		<pt X="-42.877995" Y="-57.98867"/>
+		<pt X="-32.03936" Y="-41.7675"/>
+		<pt X="-28.233334" Y="-22.633333"/>
+		<pt X="-32.03936" Y="-3.4991627"/>
+		<pt X="-42.877995" Y="12.722013"/>
+		<pt X="-59.099163" Y="23.560637"/>
+		<pt X="-78.23334" Y="27.366667"/>
+		<pt X="-97.36751" Y="23.560637"/>
+		<pt X="-113.58867" Y="12.722013"/>
+		<pt X="-124.42731" Y="-3.4991627"/>
+		<pt X="-128.23334" Y="-22.633333"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="trireme.52x" head="trireme.1"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Trireme Rift"/>
+		<pt X="12.666666" Y="5.4666667" Z="94.1"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="80.100006"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="trireme.1" head="trireme.2"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Trireme Rift"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="80.100006"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="17.1"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="trireme.2" head="trireme.3"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Trireme Rift"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="17.1"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="-64.899994"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="trireme.3" head="trireme.4"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Trireme Rift"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="-64.899994"/>
+		<pt X="-28.233334" Y="-22.633333" Z="-94.5"/>
+	</skpath>
+	<skpath from="5" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="trireme.3" head="trireme.5"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Trireme Rift"/>
+		<pt X="-2.2333333" Y="-0.8333334" Z="-64.899994"/>
+		<pt X="22.266666" Y="19.666668" Z="-31.900002"/>
+	</skpath>
+	<skpath from="8" to="8" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="2.6944716" sfrotatedeg="-0.5353785" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-47.32205835350071" sfytrans="-40.95690523921058" sfsketch="surveyscans/2014/2014#06trireme/elev.jpeg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="3501">
+			</pcarea>
+		</pathcodes>
+		<pt X="-460.55392" Y="-404.1024"/>
+		<pt X="485.787" Y="-395.2594"/>
+		<pt X="473.6461" Y="904.011"/>
+		<pt X="-472.6948" Y="895.168"/>
+		<pt X="-460.55392" Y="-404.1024"/>
+	</skpath>
+	<skpath from="8" to="6" linestyle="connective">
+		<pt X="-460.55392" Y="-404.1024"/>
+		<pt X="-28.233334" Y="-22.633333" Z="-94.5"/>
+	</skpath>
+</sketch>
+</tunnelxml>
