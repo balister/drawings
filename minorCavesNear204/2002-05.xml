@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-21 14:41:39">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2014-08-16 21:46:23">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
-			<pctext style="titlestats" nodeposxrel="-1.0" nodeposyrel="-1.0">Surveyed&space;CUCC&space;2014</pctext>
+			<pctext style="titlestats" nodeposxrel="-1.0" nodeposyrel="-1.0">Surveyed&space;CUCC&space;2006</pctext>
 		</pathcodes>
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="860.8942" Y="2917.4507"/>
@@ -12,7 +12,7 @@
 	</skpath>
 	<skpath from="1" to="2" linestyle="connective">
 		<pathcodes>
-			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="-1.0">Length&space;14m&space;Depth&space;2m</pctext>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="-1.0">Length&space;17m&space;Depth&space;8m</pctext>
 		</pathcodes>
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="860.8942" Y="2827.3462"/>
@@ -20,7 +20,7 @@
 	</skpath>
 	<skpath from="2" to="3" linestyle="connective">
 		<pathcodes>
-			<pctext style="titleentpos" nodeposxrel="-1.0" nodeposyrel="-1.0">Entrance&space;84353N&space;36445E&space;1766m&space;Alt</pctext>
+			<pctext style="titleentpos" nodeposxrel="-1.0" nodeposyrel="-1.0">Entrance&space;83897N&space;36717E&space;1861m&space;Alt</pctext>
 		</pathcodes>
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="860.8942" Y="2735.1465"/>
@@ -36,7 +36,7 @@
 	</skpath>
 	<skpath from="4" to="5" linestyle="connective">
 		<pathcodes>
-			<pctext style="titleentname" nodeposxrel="-1.0" nodeposyrel="-1.0">Ferkerhoehle</pctext>
+			<pctext style="titleentname" nodeposxrel="-1.0" nodeposyrel="-1.0">Rhabarberh&ouml;hle</pctext>
 		</pathcodes>
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="858.79877" Y="2519.3147"/>
@@ -44,7 +44,7 @@
 	</skpath>
 	<skpath from="5" to="6" linestyle="connective">
 		<pathcodes>
-			<pctext style="titlenum" nodeposxrel="-1.0" nodeposyrel="-1.0">1623&space;-&space;2014-NEO-01</pctext>
+			<pctext style="titlenum" nodeposxrel="-1.0" nodeposyrel="-1.0">1623&space;-&space;2002-05</pctext>
 		</pathcodes>
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="854.60785" Y="2397.7786"/>
@@ -71,7 +71,7 @@
 	<skpath from="11" to="12" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
-			<pcarea area_signal="frame" sfscaledown="100.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="0.07417748944346615" sfytrans="0.19188188481245763" sfsketch="2014-neo-01-sketch" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			<pcarea area_signal="frame" sfscaledown="100.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="0.12093760296885678" sfytrans="0.16898891606245764" sfsketch="2002-05-sketch0.xml" sfstyle="base250" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
 				<subsetattr name="Your subset here" uppersubset=""/>
 				<subsetattr name="default" uppersubset=""/>
 			</pcarea>
@@ -158,21 +158,21 @@
 		<pt X="2164.3936" Y="815.1156"/>
 		<pt X="2164.3936" Y="3036.98"/>
 	</skpath>
-	<skpath from="21" to="11" linestyle="connective">
-		<pathcodes>
-			<pctext style="titleentpos" nodeposxrel="1.0" nodeposyrel="1.0">Entrance</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A4_page_1"/>
-		<pt X="663.2814" Y="1951.1107"/>
-		<pt X="137.75174" Y="887.30444"/>
-	</skpath>
-	<skpath from="22" to="14" linestyle="connective">
+	<skpath from="21" to="14" linestyle="connective">
 		<pathcodes>
 			<pctext style="titlebigname" nodeposxrel="-1.0" nodeposyrel="-1.0">N&newline;%t1/0.1%%v0/%%h0/%&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
 		</pathcodes>
 		<sketchsubset subname="paper_A4_page_1"/>
 		<pt X="473.68396" Y="1214.2244"/>
 		<pt X="2091.928" Y="2254.0996"/>
+	</skpath>
+	<skpath from="22" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="titleentpos" nodeposxrel="1.0" nodeposyrel="1.0">Entrance</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A4_page_1"/>
+		<pt X="957.0933" Y="1696.427"/>
+		<pt X="137.75174" Y="887.30444"/>
 	</skpath>
 </sketch>
 </tunnelxml>
