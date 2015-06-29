@@ -2768,9 +2768,9 @@ point 2118.0 -1175.0 gradient -orientation 136.5
 
 point 2079.5 -1221.0 gradient -orientation 107.2
 
-point 1939.0 -1226.0 gradient -orientation 107.9
+point 1967.0 -1221.0 gradient -orientation 107.9
 
-point 1920.0 -1329.0 gradient -orientation 93.2
+point 1945.0 -1335.0 gradient -orientation 93.2
 
 point 2079.0 -1422.0 gradient -orientation 56.3
 
@@ -2977,16 +2977,6 @@ line rock-border -close on
   2050.0 -1188.0
   2048.0 -1149.0
   2030.0 -1148.0
-endline
-
-line slope
-  1947.0 -1211.0
-  1997.0 -1246.0
-endline
-
-line slope
-  1925.0 -1315.0
-  1982.0 -1322.0
 endline
 
 line contour
@@ -3938,6 +3928,7 @@ endline
 line contour
   1958.0 -1401.0
   1938.0 -1343.0 1930.0 -1302.0 1931.0 -1291.0
+  smooth off
 endline
 
 line contour
@@ -3946,6 +3937,7 @@ line contour
   1972.0 -1371.0 1960.0 -1335.0 1956.0 -1317.0
   1952.0 -1299.0 1942.0 -1267.0 1953.0 -1260.0
   1964.0 -1253.0 1982.0 -1231.0 1983.0 -1222.0
+  smooth off
 endline
 
 line wall -reverse on
