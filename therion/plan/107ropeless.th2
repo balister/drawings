@@ -10269,17 +10269,19 @@ endline
 line contour
   -559.0 2819.0
   -566.0 2802.0 -619.0 2673.0 -628.0 2651.0
+  smooth off
 endline
 
 line contour
   -521.0 2805.0
   -521.0 2805.0 -628.0 2583.0 -644.0 2545.0
+  smooth off
 endline
 
 line floor-step
-  -488.0 2796.0
-  -490.0 2787.0 -495.0 2760.0 -498.0 2754.0
-  -501.0 2748.0 -541.0 2728.0 -542.0 2723.0
+  -451.0 2771.0
+  -462.0 2755.0 -493.0 2765.0 -501.0 2760.0
+  -506.68 2756.45 -541.0 2728.0 -542.0 2723.0
   -543.0 2718.0 -536.0 2707.0 -538.0 2701.0
   -540.0 2695.0 -579.5 2666.0 -581.5 2660.0
   -582.85 2655.95 -580.5 2649.5 -580.5 2643.5
@@ -10323,6 +10325,7 @@ endline
 line border -id l1654--767-1692 -subtype invisible
   -725.0 1693.0
   -725.0 1693.0 -803.0 1699.0 -825.0 1675.0
+  smooth off
 endline
 
 line border -id l1601--401-2776 -subtype invisible
@@ -10507,6 +10510,47 @@ line rock-border
   -343.0 405.0
 endline
 
+area clay
+  l1683--198-478
+  l1559--389-482
+  l1675--421-331
+endarea
+
+line border -id l1683--198-478 -subtype invisible
+  -202.0 469.0
+  -190.0 491.0
+endline
+
+line rock-border -close on
+  -461.0 504.0
+  -455.0 494.0
+  -437.0 511.0
+  -450.0 518.0
+  -461.0 504.0
+endline
+
+line rock-border -close on
+  -467.0 486.0
+  -469.0 471.0
+  -458.0 473.0
+  -467.0 486.0
+endline
+
+line rock-border -close on
+  -446.0 477.0
+  -441.0 464.0
+  -434.0 468.0
+  -446.0 477.0
+endline
+
+line rock-border -close on
+  -450.0 437.0
+  -443.0 448.0
+  -458.0 465.0
+  -468.0 456.0
+  -450.0 437.0
+endline
+
 line rock-border -close on
   -329.0 439.0
   -343.0 405.0
@@ -10517,12 +10561,13 @@ endline
 
 area sand
   l1603-26-1202
-  l1587-7-1127
-  l1529--70-950
-  l1560--235-627
+  l1674--50-1162
+  l1676--412-516
+  l1675--421-331
   l1559--389-482
+  l1560--235-627
   l1529--70-950
-  l-lasttsa-1504
+  l1587-7-1127
 endarea
 
 line border -id l1603-26-1202 -subtype invisible
@@ -10534,17 +10579,26 @@ endline
 line border -id l1587-7-1127
   99.0 1198.0
   86.0 1200.0 34.0 1200.0 27.0 1185.0
-  20.0 1170.0 8.0 1150.0 7.0 1128.0
-  6.0 1106.0 1.0 1059.0 7.0 1039.0
+  20.0 1170.0 3.0 1128.0 2.0 1106.0
+  1.0 1084.0 1.0 1059.0 7.0 1039.0
   smooth off
 endline
 
 line contour
   97.0 1173.0
-  83.0 1176.0 69.0 1188.0 58.0 1173.0
-  47.0 1158.0 41.0 1156.0 39.0 1142.0
-  37.0 1128.0 37.0 1102.0 37.0 1094.0
-  smooth off
+  83.0 1176.0 57.0 1179.0 46.0 1164.0
+endline
+
+area bedrock
+  l1688-73-1129
+  l1648-66-1157
+  l1674--50-1162
+  l1649--43-1127
+endarea
+
+line border -id l1688-73-1129 -subtype invisible
+  25.0 1045.0
+  87.0 1154.0
 endline
 
 line rock-border -close on
@@ -10565,9 +10619,7 @@ line rock-border -close on
   -44.0 1002.0
 endline
 
-point -91.0 757.0 label -text c25 -scale l
-
-point -2.0 740.0 label -text "lasttsa.2.7"
+point 48.0 955.0 label -text c25 -scale l
 
 point -208.0 1211.0 label -text "THE LAST TSA" -scale xl
 
@@ -10749,10 +10801,7 @@ line pit -id l1559--389-482
 endline
 
 line floor-step -id l1529--70-950 -reverse on
-  87.0 1154.0
-  79.0 1141.0 46.0 1117.0 47.0 1108.0
-  48.0 1099.0 46.0 1080.0 40.0 1071.0
-  34.0 1062.0 10.0 1049.0 7.0 1039.0
+  7.0 1039.0
   4.0 1029.0 -4.0 1008.0 -13.0 1002.0
   -22.0 996.0 -47.0 975.0 -55.0 968.0
   -63.0 961.0 -76.0 945.0 -78.0 937.0
@@ -10764,6 +10813,7 @@ line floor-step -id l1529--70-950 -reverse on
   -141.0 750.0 -133.0 707.0 -134.0 692.0
   -135.03 676.52 -150.0 630.0 -155.0 613.0
   -160.0 596.0 -184.0 519.0 -190.0 491.0
+  smooth off
 endline
 
 line contour
@@ -10771,6 +10821,7 @@ line contour
   -136.0 598.0 -116.0 724.0 -109.0 752.0
   -102.0 780.0 -69.0 871.0 -58.0 888.0
   -47.0 905.0 107.0 1110.0 116.0 1120.0
+  smooth off
 endline
 
 line contour
@@ -10785,26 +10836,31 @@ line contour
   -47.0 670.0
   -39.0 705.0 4.0 813.0 24.0 855.0
   44.0 897.0 150.0 1042.0 161.0 1051.0
+  smooth off
 endline
 
 line contour
   -15.0 681.0
   -13.0 692.0 61.0 866.0 64.0 871.0
+  smooth off
 endline
 
 line contour
   11.0 692.0
   14.0 701.0 39.0 777.0 40.0 789.0
+  smooth off
 endline
 
 line contour
   40.0 700.0
   47.0 714.0 56.0 750.0 55.0 762.0
+  smooth off
 endline
 
 line contour
   62.0 702.0
   66.0 712.0 70.0 756.0 67.0 767.0
+  smooth off
 endline
 
 line slope
@@ -10822,6 +10878,7 @@ line wall -subtype unsurveyed
   72.0 758.0 50.0 750.0 41.0 770.0
   32.0 790.0 61.81 860.03 64.0 871.0
   66.0 881.0 142.0 991.0 170.0 1062.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -10830,6 +10887,7 @@ line wall -subtype unsurveyed
   -28.0 692.0 23.0 701.0 23.0 701.0
   smooth off
   23.0 701.0 59.0 713.0 73.0 715.0
+  smooth off
 endline
 
 line floor-meander
@@ -10841,7 +10899,29 @@ line floor-meander
   smooth off
 endline
 
-line wall -id l-lasttsa-1504 -reverse on
+line wall -subtype blocks
+endline
+
+line wall -reverse on -subtype blocks
+  -464.0 408.0
+  -483.0 455.0
+  -463.0 513.0
+  -405.0 547.0
+endline
+
+line wall -reverse on
+  -441.0 342.0
+  -441.0 342.0 -454.0 391.0 -464.0 408.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  -220.0 486.0
+  -232.0 458.0
+  -232.0 495.0
+endline
+
+line wall -id l1675--421-331 -reverse on
   -190.0 491.0
   -196.0 463.0 -212.0 374.0 -223.0 356.0
   -234.0 338.0 -231.0 321.0 -245.0 310.0
@@ -10851,10 +10931,37 @@ line wall -id l-lasttsa-1504 -reverse on
   -406.0 334.0 -427.0 329.0 -427.0 329.0
   smooth off
   -441.0 342.0
+endline
+
+line wall -clip off -subtype underlying -outline none
+  -405.0 547.0
+  -405.0 547.0 -362.0 562.0 -300.0 529.0
+  smooth off
+endline
+
+line pit -id l1648-66-1157 -reverse on
+  87.0 1154.0
+  61.0 1154.0 -4.0 1181.0 -14.0 1204.0
+  smooth off
+endline
+
+line pit -id l1649--43-1127 -reverse on
+  -80.0 1133.0
+  -33.0 1128.0 21.0 1120.0 25.0 1045.0
+  smooth off
+endline
+
+line wall -id l1676--412-516 -reverse on -clip off -outline none
+  -441.0 342.0
   -441.0 342.0 -442.0 412.0 -436.0 429.0
   -430.0 446.0 -429.0 448.0 -423.0 472.0
-  -417.0 496.0 -410.0 547.0 -400.0 572.0
-  -390.0 597.0 -360.0 676.0 -353.0 687.0
+  -417.0 496.0 -413.0 520.0 -405.0 547.0
+  smooth off
+endline
+
+line wall -id l1674--50-1162 -reverse on
+  -405.0 547.0
+  -397.35 572.81 -360.0 676.0 -353.0 687.0
   -346.0 698.0 -310.0 739.0 -302.0 750.0
   -294.0 761.0 -227.0 870.0 -223.0 878.0
   -219.0 886.0 -226.0 892.0 -220.0 900.0
