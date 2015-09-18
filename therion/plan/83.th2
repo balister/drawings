@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1128 -1697 820 139.5
+##XTHERION## xth_me_area_adjust -1128 -1199.0 713.5 139.5
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../Pictures/olly-jenny-note-scans/15-83.png 0 {}
 ##XTHERION## xth_me_image_insert {-1000 1 1.0} {0 {}} ../Pictures/olly-jenny-note-scans/32-83.png 0 {}
@@ -560,8 +560,8 @@ line rock-edge
   -566.5 -922.0
 endline
 
-line rock-border
-  -624.0 -920.0
+line rock-border -close on
+  -620.5 -918.0
   -628.0 -905.0
   -642.0 -885.0
   -638.0 -876.5
@@ -571,8 +571,8 @@ line rock-border
   -620.5 -918.0
 endline
 
-line rock-border
-  -615.0 -887.0
+line rock-border -close on
+  -613.5 -884.5
   -600.0 -893.0
   -586.0 -871.5
   -606.5 -869.0

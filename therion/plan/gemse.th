@@ -8,6 +8,7 @@ survey 107
   input 107ent3.th2
   input 107ropeless.th2
   input 107china2014.th2
+  input 107oldroute.th2
 #!  endsurvey
 
 ###joins in wonderladnd
@@ -21,7 +22,7 @@ join wonder_end wonderladn2_st
 ##join wonder_mid wonder_start
 
 ###joins in ropeless and before
-join entpassage ent_cleads -count 2
+join entpassage ent_cleads -count 3
 join entpassage ext
 join ext near_ent
 join rhw:0 rhwexts:end
