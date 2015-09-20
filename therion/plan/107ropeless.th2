@@ -1,12 +1,12 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2528 -4668.0 5315.0 3224
+##XTHERION## xth_me_area_adjust -2528 -5137 5315.0 3224.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {3064.0 {}} ../2014_skeches/07lasttsa_notes1.jpeg 0 {}
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {3096.0 {}} ../2014_skeches/07lasttsa_notes2.jpeg 0 {}
 ##XTHERION## xth_me_image_insert {4000 1 1.0} {1500 {}} ../../koreapitch.png 0 {}
 ##XTHERION## xth_me_image_insert {500 1 1.0} {3000 {}} ../../locmain.png 0 {}
 ##XTHERION## xth_me_image_insert {2700 1 1.0} {3000 {}} ../../locunder.png 0 {}
-##XTHERION## xth_me_image_insert {0 1 1.0} {-1500 {}} ../../Pictures/SurveyScansHertford/olly366.bmp.png 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {-1500 {}} ../../../../Pictures/SurveyScansHertford/olly366.bmp.png 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {700 {}} ../../Pictures/SurveyScansHertford/olly372bmp.png 0 {}
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {700 {}} ../../Pictures/SurveyScansHertford/olly364.bmp.png 0 {}
 ##XTHERION## xth_me_image_insert {-2000 1 1.0} {0 {}} ../../Pictures/SurveyScansHertford/olly359.bmp.png 0 {}
@@ -1863,11 +1863,9 @@ scrap china_n1 -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 2726.0 -1331.0 label -text c3 -scale l
 
-point 2895.0 -744.5 label -text KOREA -scale xl
+point 2937.0 -751.5 label -text KOREA -scale xl
 
 point 2622.0 -912.5 label -text c3  -scale l
-
-point 2821.5 -789.5 water-flow -orientation 200.3
 
 point 2724.5 -834.0 gradient -orientation 242.8
 
@@ -4565,6 +4563,7 @@ point 1582.5 -3911.0 station -name china.1
 
 #point 2091.0 -4006.0 station -name china.0
 
+
 endscrap
 
 
@@ -4899,12 +4898,12 @@ endline
 point 1057.0 -3627.5 gradient -orientation 304.2
 
 line pit -close on -reverse on
-  752.5 -3561.0
-  750.5 -3554.5 747.0 -3538.0 763.5 -3539.5
-  780.0 -3541.0 784.5 -3552.5 784.5 -3555.5
-  784.5 -3558.5 781.0 -3565.5 781.0 -3565.5
+  740.0 -3618.0
+  739.44 -3611.22 734.5 -3594.5 751.0 -3596.0
+  767.5 -3597.5 785.0 -3604.0 785.0 -3607.0
+  785.0 -3610.0 778.0 -3617.0 778.0 -3617.0
   smooth off
-  781.0 -3565.5 754.5 -3567.5 752.5 -3561.0
+  778.0 -3617.0 740.5 -3624.0 740.0 -3618.0
 endline
 
 line rock-edge
@@ -5101,13 +5100,6 @@ endline
 point 1145.0 -3550.0 label -text [Rock Bridge]
 
 point 491.0 -3668.0 label -text CHINA -scale xl
-
-line arrow
-  757.5 -3665.0
-  766.5 -3578.5
-endline
-
-point 760.0 -3683.5 label -text "13-CH-7C" -scale l
 
 line wall
   1109.0 -3682.0
@@ -6077,6 +6069,7 @@ point -571.0 13.0 station -name 0801.2
 point -400.5 58.5 station -name 0801.1
 
 endscrap
+
 
 
 scrap china_n_rift -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
@@ -7492,11 +7485,11 @@ line pit -clip off -outline in
 endline
 
 line wall
-  4862.0 1229.0
-  4855.0 1216.0 4846.0 1219.5 4839.0 1212.5
-  4832.0 1205.5 4826.5 1205.0 4820.5 1199.0
-  4814.5 1193.0 4791.0 1188.5 4788.0 1182.5
-  4785.0 1176.5 4774.0 1168.5 4770.0 1163.5
+  4974.0 1382.0
+  4967.0 1369.0 4890.0 1298.0 4883.0 1291.0
+  4876.0 1284.0 4842.0 1240.0 4836.0 1234.0
+  4830.0 1228.0 4812.0 1215.0 4809.0 1209.0
+  4806.0 1203.0 4774.0 1168.5 4770.0 1163.5
   4766.0 1158.5 4735.5 1149.0 4731.5 1139.0
   4727.5 1129.0 4726.0 1098.5 4721.0 1092.5
   4716.0 1086.5 4709.0 1070.0 4706.0 1059.0
@@ -7522,13 +7515,12 @@ endline
 
 line wall -subtype presumed
   5003.5 1428.5
-  4885.0 1264.0
-  4862.0 1229.0
+  4974.0 1382.0
 endline
 
 line wall -subtype presumed
-  4900.5 1211.5
-  4903.5 1222.5 5019.0 1413.0 5025.0 1420.0
+  4997.0 1372.0
+  5000.0 1383.0 5019.0 1413.0 5025.0 1420.0
   smooth off
 endline
 
@@ -7546,15 +7538,20 @@ line wall -id l1135-4684-782
 endline
 
 line wall -reverse on
-  4900.5 1211.5
-  4892.37 1187.26 4904.73 1166.5 4909.0 1144.0
-  4911.05 1133.17 4908.53 1121.74 4911.0 1111.0
-  4913.27 1101.1 4921.03 1092.96 4923.0 1083.0
-  4929.74 1048.91 4888.01 1051.75 4886.0 1049.0
-  4877.08 1036.79 4904.5 1018.13 4897.0 1005.0
-  4893.27 998.47 4880.72 1004.88 4875.0 1000.0
-  4866.0 992.31 4864.46 978.28 4856.0 970.0
-  4847.99 962.16 4836.22 959.36 4827.0 953.0
+  4997.0 1372.0
+  5009.5 1347.5 4982.73 1277.5 4987.0 1255.0
+  4989.05 1244.17 4985.53 1192.74 4988.0 1182.0
+  4990.27 1172.1 4998.0 1143.0 5003.0 1125.0
+  smooth off
+endline
+
+line wall -reverse on
+  5010.0 1104.0
+  4999.0 1077.0 4953.01 1054.75 4951.0 1052.0
+  4942.08 1039.79 4919.5 1027.13 4912.0 1014.0
+  4908.27 1007.47 4891.72 1014.88 4886.0 1010.0
+  4877.0 1002.31 4873.46 984.28 4865.0 976.0
+  4856.99 968.16 4836.22 959.36 4827.0 953.0
   4816.84 946.0 4807.67 937.67 4798.0 930.0
   smooth off
 endline
@@ -7592,8 +7589,8 @@ point 4304.0 1203.0 station -name landofconfusion.18
 point 4719.0 824.0 station -name landofconfusion.22
 
 line pit
-  4900.5 1211.5
-  4899.0 1220.0 4887.5 1237.0 4862.0 1229.0
+  4997.0 1372.0
+  4995.5 1380.5 4999.5 1390.0 4974.0 1382.0
   smooth off
 endline
 
@@ -9431,6 +9428,7 @@ endline
 line contour
   97.0 1173.0
   83.0 1176.0 57.0 1179.0 46.0 1164.0
+  smooth off
 endline
 
 area bedrock
