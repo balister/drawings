@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2928 -3937 3960.0 1428
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -2928 -3937 3957.5 1428
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-2500 1 1.0} {-500 {}} ../../Pictures/olly-jenny-note-scans/cave050.jpg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {1 {}} ../19-107-small.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1900 1 1.0} {-750 {}} ../../Pictures/107originalplan.png 0 {}
@@ -2959,9 +2959,9 @@ line wall
   smooth off
 endline
 
-point -1804.25 -1142.75 label -text p14 -scale l
+point -1800.75 -1140.75 label -text p14 -scale l
 
-point -1840.75 -1140.25 label -text p44 -scale l
+point -1835.75 -1133.75 label -text p44 -scale l
 
 line pit
 endline
@@ -2971,7 +2971,7 @@ line wall -subtype debris
   -1707.75 -1246.25
 endline
 
-line pit
+line wall
   -1819.25 -1143.0
   -1829.5 -1141.5
 endline
@@ -3020,8 +3020,6 @@ line arrow
   322.5 -770.5
   84.0 -816.5
 endline
-
-point 103.5 -716.0 label -text "13-OR-1C" -scale l
 
 point 241.0 -848.0 station -name oldrift.17
 
@@ -3471,6 +3469,7 @@ line wall
   783.5 -1146.0 788.0 -1127.5 793.5 -1123.5
   799.0 -1119.5 815.0 -1108.5 817.0 -1101.5
   819.0 -1094.5 832.5 -1069.0 830.5 -1059.5
+  smooth off
 endline
 
 line wall
