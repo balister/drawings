@@ -1,27 +1,37 @@
 encoding  utf-8
 
 #!CODE
-import all.3d -surveys use
-#survey all
+survey all
+import ../../../loser/all.3d -surveys use
 survey 107
 #!  survey 107
   input 107ent3.th2
+  input 107wonderland.th2
   input 107ropeless.th2
   input 107china2014.th2
   input 107oldroute.th2
+  input 107coldest.th2
 #!  endsurvey
 
-###joins in wonderladnd
-join ropeless_w wonderladn2_st
-##join wonder2_start wonder2_mid
+###joins in Old Route
+join tubular oldroute2 -count 2
+join tubular tubular2
+join uphill uphill_2
+join top100 oldroute3
+join top100 bigrift
+join uphill bigrift_east
+join bigrift_west bigrift_wet
+
+###joins in wonderland
+join ropeless_w wonderland2_st
 join wonder3 wonder_end 
-##join wonderland2 wonder_end
 join wonderland3 wonder_end
 join wonderland2 wonder_end -count 2
-join wonder_end wonderladn2_st
-##join wonder_mid wonder_start
+join wonder_end wonderland2_st
+join direstraits wildwest
+join wonder_end effective
 
-###joins in ropeless and before
+###joins in entrance
 join entpassage ent_cleads -count 3
 join entpassage ext
 join ext near_ent
@@ -29,23 +39,30 @@ join rhw:0 rhwexts:end
 join ext rampy_top
 join rampy_top rampy
 join rampy lower_rampy 
-join ropeless_e ropeless_neend
-join ropeless_e ropeless_w #in 107ropeless.th
-join ropeless_neend ropefree_s
 join into_rless lower_rampy
-join ropeless_w into_rless 
 join top_intooldrift lower_rampy
 join bigrift_side bigrift
 join diamond bigrift
 join into_oldrift top_intooldrift
 join rope_roofw rope_roofe
-join rope_roofw ropeless_sw2
-join ropeless_sw2 ropeless_w
-join ext original_bigrift
-join fudged_up ropeless_w
-join fudged_up ropeless_sw2
+join top_intooldrift pitch2_bottom
+
+###joins in Coldest
+join coldest colstest_1
+join stuarts stuarts_start
+join stuarts stuarts_end
+join dbeep_mid dbeep_east
+join beepless dbeep_east
 
 ###joins in ropefree and beyond
+join rope_roofw ropeless_sw2
+join ropeless_sw2 ropeless_w
+join fudged_up ropeless_w
+join fudged_up ropeless_sw2
+join ropeless_w into_rless 
+join ropeless_e ropeless_neend
+join ropeless_e ropeless_w #in 107ropeless.th
+join ropeless_neend ropefree_s
 join ropefree_s ropefree_e
 join ropefree_n ropefree_s
 join sleepless colstest_1
@@ -57,24 +74,29 @@ join china_n china_m
 join china_m china_s
 join china_n china_n1
 join china_n1 china_n2
-join coldest colstest_1
 join ropefree_n sleepless
-join stuarts stuarts_start
-join stuarts stuarts_end
 join loc_under loc_south
 join loc_main loc_under
 join loc_south scary_trav
 join loc_main loc_side
 join locoxbows loc_main
 join popped_across popped_down
+join SSB2_west SSB2_mid
+join SSB_west SSB2_mid
+join SSB_east SSB_west
 
 endsurvey
+
 survey 83
 input 83.th2
 endsurvey
+
 survey 161
 input 161.th2
+join pissup bundes
 endsurvey
-#endsurvey
+
+join pissup@161 loc_avenwarp@107
+endsurvey
 #!ENDCODE
 
