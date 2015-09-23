@@ -25,7 +25,6 @@ encoding  utf-8
 
 
 
-
 scrap ropeless_e -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 584.25 -408.25 water-flow -orientation 54.4
@@ -4963,6 +4962,7 @@ line pit -reverse on -outline in -clip off
   691.0 -3672.0
   690.44 -3665.22 681.62 -3652.54 698.0 -3655.0
   718.0 -3658.0 727.2 -3672.24 720.0 -3678.0
+  smooth off
 endline
 
 line rock-edge
@@ -6801,9 +6801,9 @@ line pit
   smooth off
 endline
 
-point -337.0 -2402.0 label -text c1 -scale l
+point -328.0 -2331.0 label -text c1 -scale l
 
-point -290.5 -2410.0 label -text c1 -scale l
+point -287.5 -2335.0 label -text c1 -scale l
 
 point -99.5 -2379.5 label -text c8 -scale l
 
@@ -6916,6 +6916,10 @@ line wall -reverse on
   -346.5 -2383.0 -338.5 -2377.0 -338.5 -2377.0
   smooth off
 endline
+
+point -503.0 -2312.0 label -text p5 -scale l
+
+point -609.0 -2311.0 label -text c2 -scale l
 
 point -521.5 -2356.0 station -name 0814.6
 

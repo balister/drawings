@@ -1,20 +1,20 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2928 -3937 3957.5 1428
+##XTHERION## xth_me_area_adjust -2928 -3937 4178 1428
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-2500 1 1.0} {-500 {}} ../../Pictures/olly-jenny-note-scans/cave050.jpg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {1 {}} ../19-107-small.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1900 1 1.0} {-750 {}} ../../Pictures/107originalplan.png 0 {}
 ##XTHERION## xth_me_image_insert {-1000 1 1.0} {0 {}} ../../Pictures/olly-jenny-note-scans/25-107.png 0 {}
-##XTHERION## xth_me_image_insert {-4.0 1 1.0} {64.0 {}} ../../Pictures/SurveyScansHertford/olly364.bmp.png 0 {}
-##XTHERION## xth_me_image_insert {500 1 1.0} {0 {}} ../../Pictures/SurveyScansHertford/olly368.bmp.png 0 {}
-##XTHERION## xth_me_image_insert {-1000 1 1.0} {-300 {}} ../../../../Pictures/SurveyScansHertford/olly369.bmp.png 0 {}
-##XTHERION## xth_me_image_insert {1500 1 1.0} {0 {}} ../../Pictures/SurveyScansHertford/olly370.bmp.png 0 {}
 ##XTHERION## xth_me_image_insert {1500 1 1.0} {1 {}} ../../Pictures/olly-jenny-note-scans/cave052.jpg 0 {}
-##XTHERION## xth_me_image_insert {700 1 1.0} {0 {}} ../../Pictures/expoimages/surveyscans/2012/olly-jenny-note-scans/19-107.png 0 {}
-##XTHERION## xth_me_image_insert {-4 1 1.0} {64 {}} ../../Pictures/SurveyScansHertford/olly364.bmp.png 0 {}
+##XTHERION## xth_me_image_insert {700 1 1.0} {0 {}} ../../../expoimages/surveyscans/2012/olly-jenny-note-scans/19-107.png 0 {}
 ##XTHERION## xth_me_image_insert {700 1 1.0} {30 {}} ../21-107-small.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-2800 1 1.0} {1300 {}} ../2014_skeches/27fudgedup_plan1.jpeg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../19-107-small.jpg 0 {}
+##XTHERION## xth_me_image_insert {-4.0 1 1.0} {64.0 {}} ../../../expoimages/surveyscans/2013/olly-jenny-note-scans/olly364.bmp.png 0 {}
+##XTHERION## xth_me_image_insert {-1000 1 1.0} {-300 {}} ../../../expoimages/surveyscans/2013/olly-jenny-note-scans/olly369.bmp.png 0 {}
+##XTHERION## xth_me_image_insert {-4 1 1.0} {64 {}} ../../../expoimages/surveyscans/2013/olly-jenny-note-scans/olly364.bmp.png 0 {}
+##XTHERION## xth_me_image_insert {1500 1 1.0} {0 {}} ../../../expoimages/surveyscans/2013/olly-jenny-note-scans/olly370.bmp.png 0 {}
+##XTHERION## xth_me_image_insert {500 1 1.0} {0 {}} ../../../expoimages/surveyscans/2013/olly-jenny-note-scans/olly368.bmp.png 0 {}
 
 
 
@@ -605,11 +605,12 @@ point 553.75 -597.25 gradient -orientation 114.1
 
 point 580.25 -625.25 label -text c2 -scale l
 
-point 395.0 -581.0 label -text "107 Entrance" -scale xl
+point 661.0 -667.0 label -text "107 ENTRANCE" -scale xl
 
 line arrow
-  472.0 -585.0
-  512.0 -592.0
+  576.5 -674.5
+  498.0 -598.5
+  521.5 -599.0
 endline
 
 point 672.0 -583.5 label -text "12-EN-5C" -scale l
@@ -3145,12 +3146,13 @@ endline
 point 676.0 -1331.0 label -text p17 -scale l
 
 line arrow -reverse on
-  813.0 -1359.5
+  792.0 -1339.5
+  810.0 -1392.0
   886.5 -1258.5
   896.5 -908.5
 endline
 
-point 931.0 -797.5 label -text "13-OR-4C" -scale l
+point 944.0 -784.0 label -text "13-OR-4C" -scale l
 
 line rock-border -close on
   296.0 -1192.5
@@ -3351,9 +3353,11 @@ line border
   458.0 -1217.0
 endline
 
-line border
-  716.5 -1127.5
-  715.5 -1134.0 705.5 -1170.0 699.0 -1177.0
+line pit
+  697.5 -1101.0
+  703.0 -1109.5 712.5 -1128.0 712.5 -1128.0
+  smooth off
+  711.5 -1134.5 705.5 -1170.0 699.0 -1177.0
   692.5 -1184.0 679.5 -1195.5 669.5 -1198.0
   659.5 -1200.5 655.0 -1201.5 650.0 -1201.5
   645.0 -1201.5 635.0 -1205.0 635.0 -1205.0
@@ -3372,9 +3376,7 @@ line pit
 endline
 
 line border
-  754.0 -1058.0
-  753.0 -1064.5 738.5 -1078.5 735.0 -1089.5
-  731.5 -1100.5 718.0 -1119.0 712.5 -1128.0
+  712.5 -1128.0
   707.0 -1137.0 696.5 -1153.0 686.5 -1160.0
   676.5 -1167.0 660.0 -1170.5 652.0 -1181.5
   644.0 -1192.5 632.0 -1206.5 622.5 -1213.5
@@ -3429,10 +3431,9 @@ line rock-border -close on
 endline
 
 line wall
-  742.0 -1047.0
-  738.0 -1057.0 740.0 -1061.0 732.0 -1069.0
-  724.0 -1077.0 712.0 -1094.0 701.5 -1104.0
-  691.0 -1114.0 677.0 -1131.5 668.5 -1135.5
+  690.0 -1104.5
+  694.5 -1117.0 695.5 -1112.0 686.0 -1123.0
+  676.51 -1133.98 677.0 -1131.5 668.5 -1135.5
   660.0 -1139.5 644.0 -1148.0 630.0 -1153.5
   616.0 -1159.0 606.0 -1159.0 594.5 -1160.5
   583.0 -1162.0 565.5 -1158.0 553.0 -1157.5
@@ -3456,6 +3457,16 @@ line wall
 endline
 
 line wall
+  848.0 -1332.5
+  849.5 -1328.0 854.5 -1307.0 856.0 -1295.5
+  857.5 -1284.0 858.0 -1261.5 854.5 -1252.0
+  851.0 -1242.5 859.5 -1216.5 859.0 -1206.0
+  858.5 -1195.5 863.5 -1114.5 863.0 -1106.5
+  862.5 -1098.5 858.0 -1066.0 848.0 -1054.5
+  smooth off
+endline
+
+line border
   823.0 -1337.5
   824.5 -1329.0 821.0 -1304.0 823.0 -1296.0
   825.0 -1288.0 830.0 -1284.5 825.5 -1279.0
@@ -3467,8 +3478,8 @@ line wall
   767.0 -1198.0 759.5 -1195.0 763.0 -1188.0
   766.5 -1181.0 775.5 -1163.0 779.5 -1154.5
   783.5 -1146.0 788.0 -1127.5 793.5 -1123.5
-  799.0 -1119.5 815.0 -1108.5 817.0 -1101.5
-  819.0 -1094.5 832.5 -1069.0 830.5 -1059.5
+  799.0 -1119.5 814.59 -1105.37 817.0 -1098.5
+  823.5 -1080.0 834.0 -1076.5 826.5 -1070.0
   smooth off
 endline
 
