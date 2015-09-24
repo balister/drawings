@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2015-09-24 01:18:14">
+<sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlebigname" nodeposxrel="-1.0" nodeposyrel="0.0">Balcony&space;hohle</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4364.585" Y="-16619.357"/>
+		<pt X="-4637.7886" Y="-16935.785"/>
+	</skpath>
+	<skpath from="1" to="2" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="1.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="0.0" sfytrans="0.0" sfsketch="" sfstyle="baseA3page" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="framestyle"/>
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4637.7886" Y="-16935.785"/>
+		<pt X="-3753.8052" Y="-16840.422"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="invisible">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1302.2113" Y="-16935.785"/>
+		<pt X="1302.2113" Y="-8535.785"/>
+	</skpath>
+	<skpath from="5" to="1" linestyle="invisible">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4637.7886" Y="-8535.785"/>
+		<pt X="-4637.7886" Y="-16935.785"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="invisible">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1302.2113" Y="-8535.785"/>
+		<pt X="-4637.7886" Y="-8535.785"/>
+	</skpath>
+	<skpath from="1" to="3" linestyle="invisible">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4637.7886" Y="-16935.785"/>
+		<pt X="1302.2113" Y="-16935.785"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4470.2646" Y="-10574.551"/>
+		<pt X="-4470.2646" Y="-8661.427"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4470.2646" Y="-16779.76"/>
+		<pt X="-4470.2646" Y="-10668.598"/>
+	</skpath>
+	<skpath from="6" to="9" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4470.2646" Y="-10574.551"/>
+		<pt X="-4470.2646" Y="-10668.598"/>
+	</skpath>
+	<skpath from="10" to="11" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-10668.598"/>
+		<pt X="1090.3726" Y="-10575.56"/>
+	</skpath>
+	<skpath from="12" to="13" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="250.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-1646.630947566605" sfytrans="21132.761828614806" sfsketch="264/264-balcony2015pos" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="amalgamation" uppersubset="green"/>
+				<subsetattr name="amalgdeep" uppersubset="orange"/>
+				<subsetattr name="amalgdeep2" uppersubset="orange"/>
+				<subsetattr name="balcony entrance" uppersubset="red"/>
+				<subsetattr name="bipedal" uppersubset="green"/>
+				<subsetattr name="cathedral chasm" uppersubset="purple"/>
+				<subsetattr name="dark arts" uppersubset="purple"/>
+				<subsetattr name="far side" uppersubset="blue"/>
+				<subsetattr name="frozennorth" uppersubset="blue"/>
+				<subsetattr name="gosserwager" uppersubset="orange"/>
+				<subsetattr name="gosserwager2" uppersubset="purple"/>
+				<subsetattr name="hiltaplenty" uppersubset="yellow"/>
+				<subsetattr name="hiltaplenty chamber" uppersubset="purple"/>
+				<subsetattr name="lemonsnout" uppersubset="yellow"/>
+				<subsetattr name="liars bakery" uppersubset="blue"/>
+				<subsetattr name="smash crash" uppersubset="orange"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-616.43976" Y="-14821.076"/>
+		<pt X="1090.3726" Y="-16779.76"/>
+	</skpath>
+	<skpath from="14" to="4" linestyle="invisible">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-8658.064"/>
+		<pt X="1199.6572" Y="-8673.503"/>
+		<pt X="1302.2113" Y="-8535.785"/>
+	</skpath>
+	<skpath from="11" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-10575.56"/>
+		<pt X="1090.3726" Y="-8658.064"/>
+	</skpath>
+	<skpath from="14" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-8658.064"/>
+		<pt X="-2708.8083" Y="-8657.23"/>
+		<pt X="-3294.0095" Y="-8658.064"/>
+	</skpath>
+	<skpath from="7" to="15" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4470.2646" Y="-8661.427"/>
+		<pt X="-3294.0095" Y="-8658.064"/>
+	</skpath>
+	<skpath from="14" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="250.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-1647.8822168331149" sfytrans="21132.279885108946" sfsketch="264/264-balcony2015pos" sfstyle="base250nonote" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="amalgamation" uppersubset="green"/>
+				<subsetattr name="amalgdeep" uppersubset="orange"/>
+				<subsetattr name="amalgdeep2" uppersubset="orange"/>
+				<subsetattr name="balcony entrance" uppersubset="red"/>
+				<subsetattr name="bipedal" uppersubset="green"/>
+				<subsetattr name="cathedral chasm" uppersubset="purple"/>
+				<subsetattr name="dark arts" uppersubset="purple"/>
+				<subsetattr name="far side" uppersubset="blue"/>
+				<subsetattr name="frozennorth" uppersubset="blue"/>
+				<subsetattr name="gosserwager" uppersubset="orange"/>
+				<subsetattr name="gosserwager2" uppersubset="purple"/>
+				<subsetattr name="hiltaplenty" uppersubset="yellow"/>
+				<subsetattr name="hiltaplenty chamber" uppersubset="purple"/>
+				<subsetattr name="lemonsnout" uppersubset="yellow"/>
+				<subsetattr name="liars bakery" uppersubset="blue"/>
+				<subsetattr name="smash crash" uppersubset="orange"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-8658.064"/>
+		<pt X="516.80304" Y="-9211.681"/>
+	</skpath>
+	<skpath from="10" to="17" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-10668.598"/>
+		<pt X="1090.3726" Y="-12299.9795"/>
+	</skpath>
+	<skpath from="17" to="13" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-12299.9795"/>
+		<pt X="1090.3726" Y="-16779.76"/>
+	</skpath>
+	<skpath from="17" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-12299.9795"/>
+		<pt X="-627.85724" Y="-12292.547"/>
+	</skpath>
+	<skpath from="19" to="8" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-1869.0918" Y="-16779.76"/>
+		<pt X="-4470.2646" Y="-16779.76"/>
+	</skpath>
+	<skpath from="13" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="1090.3726" Y="-16779.76"/>
+		<pt X="-1869.0918" Y="-16779.76"/>
+	</skpath>
+	<skpath from="19" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-1869.0918" Y="-16779.76"/>
+		<pt X="-1869.0918" Y="-14760.15"/>
+	</skpath>
+	<skpath from="18" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-627.85724" Y="-12292.547"/>
+		<pt X="-1869.0918" Y="-14760.15"/>
+	</skpath>
+	<skpath from="21" to="3" linestyle="connective">
+		<pathcodes>
+			<pctext style="titleentname" nodeposxrel="-1.0" nodeposyrel="1.0">%10/0.25%%v1/%%whiterect%&space;&space;&newline;;%10/%%v1/%%blackrect%&space;&space;&newline;;%10/%%v1/%%whiterect%&newline;;%10/%%v1/%%blackrect%&newline;;%10/%%v1/%%whiterect%&newline;%v0.5/0.2%&space;&space;&space;&space;&newline;%10/0.25%0m&space;&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-4239.8374" Y="-16375.159"/>
+		<pt X="1302.2113" Y="-16935.785"/>
+	</skpath>
+</sketch>
+</tunnelxml>
