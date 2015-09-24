@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1985.0 -5229 2478 141.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -1983.5 -5229 2478 139.5
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-200 1 1.0} {-1600 {}} ../../../expoimages/surveyscans/2015/2015#20-107_Beepless/notes.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1800 1 1.0} {-1500 {}} ../../../expoimages/surveyscans/2015/2015#46-107_HRV/plan.png 0 {}
 ##XTHERION## xth_me_image_insert {-500 1 1.0} {0 {}} ../../../expoimages/surveyscans/2015/2015#19-107_DoubleBeep/notes2.jpg 0 {}
@@ -594,8 +594,6 @@ line pit
   smooth off
 endline
 
-point -639.0 -3066.0 label -text c1 -scale l
-
 point -926.5 -3122.0 label -text p6 -scale l
 
 point -626.0 -2863.0 label -text p7 -scale l
@@ -678,9 +676,9 @@ line pit
   smooth off
 endline
 
-line pit
-  -579.0 -3142.5
-  -587.5 -3132.5 -597.5 -3120.0 -605.5 -3148.5
+line pit -clip off -outline in
+  -587.5 -3147.0
+  -596.0 -3137.0 -608.5 -3127.0 -620.0 -3151.0
   smooth off
 endline
 
@@ -815,11 +813,11 @@ line wall -id l444--1162--3126 -reverse on
   -565.0 -3059.0 -549.0 -3061.5 -550.5 -3068.5
   -552.0 -3075.5 -550.5 -3087.5 -557.0 -3092.5
   -563.5 -3097.5 -572.5 -3102.0 -575.0 -3106.0
-  -577.5 -3110.0 -578.5 -3135.5 -579.0 -3142.5
-  -579.5 -3149.5 -576.0 -3157.0 -578.0 -3163.0
-  -580.0 -3169.0 -581.5 -3177.0 -587.0 -3177.0
-  -592.5 -3177.0 -607.0 -3156.0 -605.5 -3148.5
-  -604.0 -3141.0 -615.0 -3120.0 -615.0 -3120.0
+  -577.5 -3110.0 -587.0 -3140.0 -587.5 -3147.0
+  -588.0 -3154.0 -589.0 -3158.5 -591.0 -3164.5
+  -593.0 -3170.5 -600.5 -3176.0 -606.0 -3176.0
+  -611.5 -3176.0 -621.5 -3158.5 -620.0 -3151.0
+  -618.5 -3143.5 -615.0 -3120.0 -615.0 -3120.0
   smooth off
   -615.0 -3120.0 -624.5 -3124.5 -636.0 -3128.0
   -647.5 -3131.5 -673.5 -3133.5 -683.5 -3136.5
@@ -932,6 +930,10 @@ line wall
   90.5 -4228.5 82.0 -4264.0 77.0 -4279.0
   smooth off
 endline
+
+point 425.0 -3593.0 label -text 15-CO-3B -scale l
+
+point 103.0 -3759.0 label -text Beepless -scale xl
 
 point 84.0 -4280.0 station -name beepless.9
 
@@ -1073,11 +1075,16 @@ endscrap
 
 scrap stuarts -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 1559.0 -2188.0 label -text c1 -scale l
+point 1545.0 -2263.0 label -text c1 -scale l
 
 point 1426.5 -1977.5 label -text "Greased<br>Scotsman" -scale xl
 
-point 1252.5 -1982.5 label -text c1.5 -scale l
+line arrow
+  1227.0 -1941.0
+  1261.0 -1977.0
+endline
+
+point 1210.5 -1917.5 label -text c1.5 -scale l
 
 line wall
   1305.0 -2018.0
@@ -1302,6 +1309,8 @@ point 1187.5 -2244.0 station -name 0810.13
 
 point 1247.0 -2183.0 station -name 0810.12
 
+point 1209.0 -2142.0 label -text c7 -scale l
+
 line pit -clip off
   1223.5 -2202.5
   1215.5 -2162.5
@@ -1339,7 +1348,7 @@ point -1512.25 -1931.75 station -name hrv.22
 
 point -1485.25 -1885.75 station -name hrv.21
 
-point -1056.25 -1959.0 continuation
+point -1001.75 -1960.5 label -text 15-CO-4A -scale l
 
 line wall -close on
   -1126.5 -1989.5
@@ -1354,11 +1363,13 @@ endline
 line pit
   -1589.75 -2180.75
   -1582.5 -2186.0 -1579.5 -2179.75 -1578.25 -2178.25
+  smooth off
 endline
 
 line pit
   -1562.0 -1965.75
   -1558.25 -1969.0 -1558.25 -1970.75 -1558.0 -1974.0
+  smooth off
 endline
 
 line pit
@@ -1373,9 +1384,12 @@ endline
 line pit
   -1578.5 -2170.5
   -1578.5 -2170.5 -1582.5 -2167.0 -1587.5 -2171.5
+  smooth off
 endline
 
-point -1376.5 -2034.5 continuation
+point -1726.0 -1976.0 label -text 15-CO-6B -scale l
+
+point -1376.5 -2034.5 label -text 15-CO-5B -scale l
 
 line wall
   -1366.25 -2048.0
@@ -1559,6 +1573,7 @@ point -1085.0 -1956.0 air-draught -orientation 254.9
 line pit
   -1426.0 -2061.5
   -1426.0 -2061.5 -1427.75 -2057.0 -1434.5 -2054.0
+  smooth off
 endline
 
 point -1340.5 -2172.5 label -text "Heat Recovery<br>Ventilation" -scale xl
@@ -1569,9 +1584,9 @@ line pit
   smooth off
 endline
 
-point -1116.0 -2029.5 label -text p6 -scale l
+point -1116.0 -2019.0 label -text p6 -scale l
 
-point -1691.5 -2017.0 label -text p9 -scale l
+point -1721.0 -1999.5 label -text p9 -scale l
 
 point -1613.0 -1959.5 label -text tt -scale l
 
@@ -1581,7 +1596,7 @@ point -1453.0 -1821.0 label -text p9 -scale l
 
 point -1459.0 -1875.5 label -text p10 -scale l
 
-point -1538.0 -2071.0 label -text c8 -scale l
+point -1537.5 -2067.0 label -text c8 -scale l
 
 point -1435.5 -2045.0 label -text c2 -scale l
 
@@ -1734,6 +1749,7 @@ line wall
   462.5 -1289.5 460.5 -1290.0 457.5 -1298.0
   454.5 -1306.0 454.5 -1327.5 449.5 -1340.5
   444.11 -1354.51 454.18 -1402.4 449.0 -1416.0
+  smooth off
 endline
 
 line wall
@@ -1865,30 +1881,16 @@ endscrap
 scrap dbeep_start -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 line wall
-  1147.0 -1215.0
-  1140.0 -1225.0 1144.0 -1233.0 1138.0 -1239.0
-  1132.0 -1245.0 1089.0 -1257.0 1086.0 -1275.0
+  1161.5 -1225.5
+  1154.5 -1235.5 1136.0 -1238.0 1130.0 -1241.0
+  1122.4 -1244.8 1089.0 -1257.0 1086.0 -1275.0
   1083.0 -1293.0 1078.0 -1329.0 1076.0 -1344.0
   1074.0 -1359.0 1060.0 -1380.0 1057.0 -1393.0
-  1054.0 -1406.0 1056.0 -1413.0 1062.0 -1428.0
-  1068.0 -1443.0 1079.0 -1450.0 1085.0 -1455.0
-  smooth off
 endline
 
 line wall
-  1193.0 -1335.0
-  1172.0 -1335.0 1137.0 -1328.0 1137.0 -1322.0
-  1137.0 -1316.0 1156.0 -1291.0 1156.0 -1280.0
-  1156.0 -1269.0 1156.0 -1260.0 1157.0 -1251.0
-  1158.0 -1242.0 1160.0 -1246.0 1162.0 -1231.0
-  smooth off
-endline
-
-line wall
-  1138.0 -1452.0
-  1140.0 -1443.0 1146.0 -1417.0 1161.0 -1407.0
-  1176.0 -1397.0 1203.0 -1392.0 1217.0 -1392.0
-  smooth off
+  1119.5 -1367.0
+  1122.0 -1363.0 1150.65 -1289.62 1156.0 -1280.0
 endline
 
 point 1134.0 -1289.0 station -name doublebeep.14
@@ -1901,6 +1903,8 @@ endscrap
 
 scrap dbeep_west -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
+point 1015.0 -1372.0 label -text 15-CO-2A -scale l
+
 line wall -subtype presumed
   940.0 -867.0
   950.0 -891.0
@@ -1909,6 +1913,7 @@ endline
 line wall -subtype presumed
   947.0 -859.0
   947.0 -859.0 952.0 -884.0 956.0 -886.0
+  smooth off
 endline
 
 line wall
@@ -1955,6 +1960,13 @@ line border
   949.0 -913.0 988.0 -884.0 998.0 -871.5
   smooth off
 endline
+
+line arrow
+  1123.0 -510.0
+  1082.0 -490.0
+endline
+
+point 1190.0 -540.0 label -text 15-CO-1C -scale l
 
 line pit
   1030.0 -1114.0
@@ -2048,7 +2060,7 @@ point -108.0 -2982.0 label -text tt -scale l
 
 point -186.0 -2847.0 label -text tt -scale l
 
-point -63.5 -3015.5 air-draught -orientation 309.8
+point -139.5 -2999.5 air-draught -orientation 309.8
 
 line wall
   -129.0 -2972.0
