@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2528 -5137 5315.0 3224.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -2528 -5137 5312.0 3224.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {3064.0 {}} ../2014_skeches/07lasttsa_notes1.jpeg 0 {}
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {3096.0 {}} ../2014_skeches/07lasttsa_notes2.jpeg 0 {}
 ##XTHERION## xth_me_image_insert {4000 1 1.0} {1500 {}} ../../koreapitch.png 0 {}
@@ -5547,7 +5547,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -outline in -clip off
   -981.25 -26.0
   -985.25 -15.25 -989.75 -8.0 -1000.25 -0.0
   -1006.82 5.0 -1007.0 1.25 -1010.75 2.75
@@ -5557,13 +5557,13 @@ line wall
   smooth off
 endline
 
-line pit
+line pit -outline in -clip off
   -1075.0 2.0
   -1079.25 -6.0 -1085.25 -10.5 -1078.0 -22.0
   smooth off
 endline
 
-line wall
+line wall -outline in -clip off
   -1078.0 -22.0
   -1068.0 -23.0 -1059.25 -28.75 -1055.25 -30.5
   -1050.1 -32.75 -1041.0 -31.5 -1036.0 -38.5
@@ -5575,7 +5575,7 @@ line wall
   smooth off
 endline
 
-line pit
+line pit -outline in -clip off
   -989.0 -39.5
   -989.0 -39.5 -984.0 -32.75 -981.25 -26.0
   smooth off
