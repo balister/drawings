@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2528 -5137 5312.0 3224.0
+##XTHERION## xth_me_area_adjust -2528 -4041.5 5312.0 3224.0
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {3064.0 {}} ../2014_skeches/07lasttsa_notes1.jpeg 0 {}
 ##XTHERION## xth_me_image_insert {-2200 1 1.0} {3096.0 {}} ../2014_skeches/07lasttsa_notes2.jpeg 0 {}
@@ -3868,7 +3868,7 @@ endline
 
 point 2281.0 -1632.0 air-draught -orientation 120.1
 
-point 1968.5 -1133.0 air-draught -orientation 93.1
+point 1967.0 -1150.0 air-draught -orientation 93.1
 
 point 2444.0 -1200.0 air-draught -orientation 286.2
 
@@ -9799,6 +9799,22 @@ line contour
   smooth off
 endline
 
+point 36.0 733.0 gradient -orientation 285.6
+
+point 63.5 1022.0 gradient -orientation 306.0
+
+point 5.0 938.0 gradient -orientation 306.0
+
+point 21.0 878.0 gradient -orientation 296.4
+
+point -32.0 791.0 gradient -orientation 294.1
+
+point -85.5 797.0 gradient -orientation 294.1
+
+point -110.0 701.5 gradient -orientation 269.7
+
+point -47.0 720.5 gradient -orientation 280.5
+
 line contour
   -86.0 641.0
   -82.0 670.0 -47.0 811.0 -41.0 827.0
@@ -9836,16 +9852,6 @@ line contour
   62.0 702.0
   66.0 712.0 70.0 756.0 67.0 767.0
   smooth off
-endline
-
-line slope
-  26.0 711.0
-  orientation 282.5
-  l-size 217.0
-  29.0 718.0 42.0 762.0 42.0 762.0
-  orientation 301.0
-  smooth off
-  l-size 247.1
 endline
 
 line wall -subtype unsurveyed
