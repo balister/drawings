@@ -1,0 +1,88 @@
+encoding  utf-8
+source gemse_ee.th
+
+layout gemse
+  map-header 100 100 ne
+  symbol-set UIS 
+#debug on
+  legend on
+#  colour map-fg [scrap]
+  colour map-fg [80]
+
+symbol-hide point station
+symbol-hide group cave-centreline
+
+code tex-map
+ \cavename={1623/107 Gemsehöhle}
+ \cavelength{3189\thinspace{}m}
+ \cavedepth{287\thinspace{}m}
+ 
+
+  scale 1  500
+  base-scale 1 200
+  
+  code metapost
+     let l_floorstep = l_ceilingstep_UIS;
+     let l_pit = l_ceilingstep_UIS;
+     let p_clay = p_flowstone_UIS;
+     let l_wall_debris = l_wall_debris_AUT;
+     let l_wall_blocks = l_wall_blocks_AUT;
+ 
+      beginpattern(pattern_water);
+      draw origin--10up withpen pensquare scaled (0.03u); % line thickness
+      patternxstep(.3u);                                 % spacing
+      patterntransform(identity rotated 45);
+  endpattern;
+  
+  def a_water (expr Path) =
+  %Bruce Mutton 2010.06.20 for Therion 5.3.8
+    T:=identity;
+    thclean Path;
+    pickup PenD;
+    thfill Path withpattern pattern_water; 
+  enddef;
+    
+        beginpattern(pattern_mud);
+        pickup PenC;
+        p:=(.0u,.0u) -- (0.25u,.0u);
+        for i=0.0u step 0.9u until 5.4u:
+            for j=0.0u step 0.9u until 5.4u:
+                draw p shifted ((i,j) randomized 0.2u);
+                draw p shifted ((i+.3u,j+.3u) randomized 0.2u);
+            endfor;
+        endfor;
+        patternstep(5.4u,5.4u);
+    endpattern;
+
+    def a_clay (expr p) =
+        T:=identity;
+        thfill p withpattern pattern_mud;
+    enddef;
+  beginpattern(pattern_sand);
+    pickup PenC;
+    p:= origin -- (0.01u,0.01u);
+    for i=0.0u step 0.5u until 2.5u:  %AUT is step 0.2u 
+      for j=0.0u step 0.5u until 2.5u:  %AUT is step 0.2u 
+        draw p rotated uniformdeviate(360) 
+         shifted ((i,j) randomized 0.4u);  %%AUT is 0.09u
+      endfor;
+    endfor;
+    if BaseScale<=2.5:
+        my_step:=2.6u;  %mystep controls tessilation pattern, must synchronise with i, j above, was 2.4u
+    else:
+        my_step:=2.8u;  %was 2.6u
+    fi;
+    patternstep(my_step,my_step);       
+  endpattern;
+
+  def a_sand (expr Path) =
+    T:=identity;
+    thfill Path withpattern pattern_sand ;
+  enddef;
+   endcode
+
+
+
+endlayout
+
+export map -layout gemse -projection extended -output 107-ee.pdf

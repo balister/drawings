@@ -1,0 +1,63 @@
+encoding  utf-8
+
+#!CODE
+import 83107_extend.3d -surveys use
+  
+#survey all
+survey 107
+ centerline
+#    extend start 3 # start extended elevation from station 3
+    extend left ropefree.1 # from station 5 - extend to the right
+      extend left ropefree.2 # from station 5 - extend to the right
+      extend left ropefree.3 # from station 5 - extend to the right
+      extend right ropefree.4 # from station 5 - extend to the right
+      extend left ent.13
+      extend left ent.14
+      extend left ent.15
+      extend right ent.16
+      extend left ent.7
+      extend left ent.8
+      extend right ext.10
+      extend right ext.11
+      extend left ext.12
+      extend right ext.13
+      extend left ext.16
+      extend right ext.15
+      extend left ropeless.47 
+      extend right ropeless.48
+      extend right ropefree.5
+      extend right ropefree.11
+      extend right ropefree.18
+      extend right ropefree.19
+      extend left china.33
+      extend right china.34
+#      extend left   wiggly. 1   
+    
+ 
+   extend left china.19
+    extend left china.27
+ #   extend left china.8
+    
+  endcenterline
+
+  input 107ee_ropeless.th2
+ 
+ join s_ent_ee s_rampytop_ee
+ join s_rampytop_ee s_ropelessw_ee
+ join s_ropelessw_ee s_ropelesse_ee
+join s_ropelesse_ee s_ropefreew_ee
+join s_ropefree_ee s_ropefreew_ee
+join  s_sleepless_ee s_ropefree_ee
+join s_sleepless_ee s_cold_ee
+join s_cold_ee s_cold2_ee
+join s_cold2_ee s_restless_ee
+join s_restless_ee s_bolde_ee
+join s_bolde_ee s_loc_ee
+join s_loc_ee s_below_korea_ee
+join s_loc_ee s_chinan_ee
+join s_chinan_ee s_china_ee
+
+endsurvey
+
+#!ENDCODE
+
