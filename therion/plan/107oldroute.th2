@@ -3,23 +3,23 @@ encoding  utf-8
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {2000 1 1.0} {1000 {}} {../../../expoimages/surveyscans/2015/2015#60-107 Old Route Tubular/notes.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {../../../expoimages/surveyscans/2015/2015#61-107 Tubular/notes.jpg} 0 {}
-##XTHERION## xth_me_image_insert {-1000 1 1.0} {0 {}} {../../../expoimages/surveyscans/2015/2015#66-107 Old Route/notes.jpg} 0 {}
-##XTHERION## xth_me_image_insert {500 1 1.0} {-1600 {}} {../../../expoimages/surveyscans/2015/2015#67-107 Old Route/notes1.jpg} 0 {}
-##XTHERION## xth_me_image_insert {1800 1 1.0} {-1000 {}} {../../../expoimages/surveyscans/2015/2015#67-107 Old Route/notes2.jpg} 0 {}
-##XTHERION## xth_me_image_insert {-1000 1 1.0} {141.0 {}} {../../../expoimages/surveyscans/2015/2015#58-107 Antigravity/notes.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {-4.0 1 1.0} {45.0 {}} {../../../expoimages/surveyscans/2015/2015#63-107 Old Route 3/notes2.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {-1000 1 1.0} {109.0 {}} {../../../expoimages/surveyscans/2015/2015#62-107 Old Route 2/notes.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {1200 1 1.0} {77 {}} {../../../expoimages/surveyscans/2015/2015#64-107 Old Route/notes1.jpg} 0 {}
+##XTHERION## xth_me_image_insert {1800 1 1.0} {-1000 {}} {../../../expoimages/surveyscans/2015/2015#67-107 Old Route/notes2.jpg} 0 {}
+##XTHERION## xth_me_image_insert {500 1 1.0} {-1600 {}} {../../../expoimages/surveyscans/2015/2015#67-107 Old Route/notes1.jpg} 0 {}
+##XTHERION## xth_me_image_insert {-1000 1 1.0} {141.0 {}} {../../../expoimages/surveyscans/2015/2015#58-107 Antigravity/notes.jpg} 0 {}
+##XTHERION## xth_me_image_insert {-1000 1 1.0} {0 {}} {../../../expoimages/surveyscans/2015/2015#66-107 Old Route/notes.jpg} 0 {}
 
 
 
 scrap tubular -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m]
 
-point 492.0 -1817.5 air-draught -orientation 317.1
+point 490.25 -1819.75 air-draught -orientation 317.1
 
 point 664.0 -1903.5 label -text "Tubular Bells" -scale xl
 
-point 443.5 -1771.5 label -text tt -scale l
+point 444.75 -1782.75 label -text tt -scale l
 
 point 512.0 -1854.5 label -text tt -scale l
 
@@ -161,8 +161,8 @@ line wall
   235.5 -1639.0
   239.5 -1641.0 248.63 -1652.74 247.0 -1656.0
   244.5 -1661.0 241.5 -1665.5 243.5 -1676.5
-  245.5 -1687.5 253.0 -1698.5 249.5 -1703.5
-  247.49 -1706.37 216.5 -1676.0 209.0 -1672.5
+  245.5 -1687.5 253.5 -1700.75 250.0 -1705.75
+  247.99 -1708.62 216.5 -1676.0 209.0 -1672.5
   smooth off
 endline
 
@@ -1052,7 +1052,18 @@ endline
 
 point 1901.0 -1001.0 label -text p72 -scale l
 
-point 2124.0 -873.0 label -text p3 -scale l
+area water
+  l501-2078--860
+endarea
+
+line border -id l501-2078--860 -close on
+  2064.25 -892.5
+  2070.0 -892.25 2099.25 -864.5 2082.75 -860.5
+  2066.25 -856.5 2056.75 -859.25 2058.5 -871.75
+  2060.25 -884.25 2058.5 -892.75 2064.25 -892.5
+endline
+
+point 2125.25 -861.5 label -text c3 -scale l
 
 point 1814.0 -954.0 label -text p5 -scale l
 
@@ -1085,9 +1096,9 @@ endline
 
 point 1510.0 -926.0 air-draught -orientation 266.8
 
-point 1654.0 -965.0 gradient -orientation 198.4
+point 1654.0 -965.0 gradient -orientation 169.1
 
-point 2057.0 -927.5 water-flow -orientation 15.7
+point 2052.0 -920.25 water-flow -orientation 15.7
 
 point 1971.0 -906.5 air-draught -orientation 228.7
 
@@ -1176,6 +1187,12 @@ line wall
 endline
 
 line wall
+  1760.0 -935.25
+  subtype invisible
+  1760.75 -927.25 1742.75 -905.0 1733.5 -921.5
+endline
+
+line wall
   1828.5 -1035.0
   1828.5 -1035.0 1838.5 -1019.0 1843.5 -1017.5
   1848.5 -1016.0 1851.5 -1012.5 1855.0 -1013.0
@@ -1206,9 +1223,11 @@ line wall
   1834.0 -987.5 1832.0 -981.5 1826.5 -977.5
   1821.0 -973.5 1805.0 -975.0 1790.5 -977.0
   1776.0 -979.0 1753.5 -977.5 1753.0 -974.0
-  1752.5 -970.5 1758.0 -951.5 1761.5 -943.5
-  1765.0 -935.5 1759.0 -932.0 1755.0 -925.5
-  1751.51 -919.82 1738.5 -916.0 1733.5 -921.5
+  1752.5 -970.5 1756.5 -943.25 1760.0 -935.25
+endline
+
+line wall
+  1733.5 -921.5
   1728.5 -927.0 1729.81 -936.1 1725.5 -943.0
   1720.5 -951.0 1721.0 -957.5 1713.5 -960.5
   1706.0 -963.5 1699.5 -955.5 1694.5 -953.0
@@ -1264,16 +1283,19 @@ scrap p67 -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999
 line pit -clip off
   1856.0 -1053.75
   1848.25 -1051.0 1817.0 -1040.25 1804.0 -1042.75
+  smooth off
 endline
 
 line pit
   1853.5 -1024.5
   1848.75 -1021.5 1827.75 -1016.25 1821.75 -1019.75
+  smooth off
 endline
 
 line wall -reverse on -subtype invisible
   1839.5 -987.5
   1847.25 -989.75 1850.75 -989.5 1853.75 -998.0
+  smooth off
   subtype underlying
 endline
 
@@ -1289,12 +1311,14 @@ endline
 line wall -subtype invisible
   1839.5 -987.5
   1827.5 -997.25 1832.81 -1005.21 1832.0 -1006.5
+  smooth off
 endline
 
 line wall
   1832.0 -1006.5
   1827.0 -1014.5 1825.75 -1014.25 1821.75 -1019.75
   1817.75 -1025.25 1809.0 -1035.75 1804.0 -1042.75
+  smooth off
 endline
 
 point 1855.0 -1070.5 station -name oldroute3.10
@@ -1314,10 +1338,108 @@ endline
 
 line arrow
   -270.0 -781.0
-  -240.0 -739.0
+  -235.5 -740.25
 endline
 
-point -297.0 -787.0 label -text p19 -scale l
+point -275.5 -974.25 gradient -orientation 347.1
+
+line border -close on
+  -280.0 -942.25
+  -282.25 -937.5
+  -279.5 -933.25
+  -275.75 -934.0
+  -279.25 -941.0
+  -280.0 -942.25
+endline
+
+line border -close on
+  -284.25 -932.0
+  -290.75 -927.5
+  -293.5 -933.0
+  -288.75 -933.5
+  -284.25 -932.0
+endline
+
+line border
+  -271.5 -935.0
+  -270.5 -938.25 -270.0 -957.5 -275.25 -957.75
+  -280.5 -958.0 -294.25 -954.75 -296.25 -952.75
+  -298.25 -950.75 -299.0 -951.5 -299.0 -951.5
+  smooth off
+endline
+
+line rock-border -close on
+  -293.25 -919.5
+  -289.0 -922.75
+  -285.0 -918.5
+  -285.0 -918.5 -284.0 -914.0 -286.0 -914.0
+  -288.0 -914.0 -293.25 -919.5 -293.25 -919.5
+  smooth off
+endline
+
+line rock-border -close on
+  -279.0 -921.5
+  -280.0 -921.0 -278.5 -914.0 -278.5 -914.0
+  smooth off
+  -274.5 -913.5
+  -276.75 -919.0
+  -276.75 -919.0 -278.0 -922.0 -279.0 -921.5
+endline
+
+line rock-border -close on
+  -298.5 -914.75
+  -299.5 -914.5 -301.5 -908.25 -301.5 -908.25
+  smooth off
+  -305.75 -910.5
+  -304.25 -918.0
+  -304.25 -918.0 -297.5 -915.0 -298.5 -914.75
+endline
+
+line rock-border -close on
+  -294.0 -894.75
+  -294.25 -889.5
+  -289.25 -890.0
+  -289.25 -890.0 -290.0 -894.5 -291.0 -894.75
+  -292.0 -895.0 -294.0 -894.75 -294.0 -894.75
+  smooth off
+endline
+
+line rock-border -close on
+  -287.25 -903.5
+  -280.75 -900.75
+  -284.0 -893.25
+  -288.25 -896.75
+  -287.25 -903.5
+endline
+
+line rock-border -close on
+  -296.5 -862.0
+  -300.0 -855.0
+  -305.75 -864.5
+  -300.5 -868.25
+  -296.5 -862.0
+endline
+
+line rock-border -close on
+  -279.25 -876.25
+  -285.75 -868.75
+  -294.5 -868.0
+  -293.5 -875.0
+  -287.0 -879.0
+  -279.25 -876.25
+endline
+
+line rock-border -close on
+  -278.5 -877.75
+  -278.75 -886.0
+  -273.25 -887.75
+  -267.0 -885.5
+  -268.0 -880.25
+  -274.5 -876.25
+  -278.5 -877.75
+endline
+
+point -295.5 -789.75 label -text p19 -scale l
 
 line rock-border
   -221.0 -820.5
@@ -1456,11 +1578,11 @@ line rock-border -close on
   -568.0 -2202.5
 endline
 
-point -659.0 -2519.0 label -text c4 -scale l
+point -649.0 -2501.25 label -text c4 -scale l
 
 point -653.0 -2144.0 label -text p7 -scale l
 
-point -612.0 -2292.0 label -text p5 -scale l
+point -608.0 -2292.75 label -text p5 -scale l
 
 line rock-border -close on
   -614.5 -2031.5
@@ -1496,7 +1618,7 @@ line rock-border -close on
   -545.0 -2217.0
 endline
 
-point -676.0 -2426.5 water-flow -orientation 206.1
+point -676.0 -2426.5 water-flow -orientation 210.4
 
 point -522.5 -2255.0 water-flow -orientation 206.1
 
@@ -1527,7 +1649,7 @@ line rock-border -close on
   -631.0 -2425.5
 endline
 
-point -654.25 -2061.5 water-flow -orientation 213.1
+point -659.5 -2058.75 water-flow -orientation 198.7
 
 line wall
   -572.25 -2157.0
@@ -1594,6 +1716,8 @@ line border
   -44.0 -2929.0 -87.0 -2912.0 -91.5 -2908.5
   smooth off
 endline
+
+point -35.75 -2959.0 label -text p7 -scale l
 
 line border
   -30.0 -2892.0
@@ -1824,6 +1948,10 @@ point -224.5 -2502.0 water-flow -orientation 267.5
 line rock-border
 endline
 
+line wall -close off
+  -346.0 -2488.5
+endline
+
 line rock-border -close on
   -158.0 -2475.5
   -145.0 -2470.0
@@ -1888,10 +2016,34 @@ line wall
   smooth off
 endline
 
-line pit -clip off
-  -344.5 -2515.0
-  -345.0 -2507.5 -346.0 -2488.5 -346.0 -2488.5
+line border
+  -281.5 -2474.25
+  -281.5 -2474.25 -295.0 -2454.0 -307.5 -2458.0
+endline
+
+line border
+  -268.5 -2492.0
+  -262.0 -2489.5 -251.5 -2482.0 -251.5 -2482.0
   smooth off
+endline
+
+line pit -reverse on
+  -251.5 -2482.0
+  -251.5 -2482.0 -254.75 -2460.5 -260.0 -2461.75
+endline
+
+line border
+  -260.0 -2461.75
+  -265.25 -2463.0 -275.5 -2474.75 -281.5 -2474.25
+  -282.75 -2474.15 -305.25 -2484.5 -305.25 -2484.5
+  smooth off
+endline
+
+line pit -id l309--305--2495 -clip off -outline  in
+  -311.25 -2502.25
+  -302.25 -2499.0 -304.5 -2489.75 -305.25 -2484.5
+  smooth off
+  -318.0 -2487.5 -320.37 -2491.38 -346.0 -2488.5
 endline
 
 area water
@@ -1906,7 +2058,20 @@ line border -id l221--75--2453 -close on
   -91.5 -2475.5 -84.34 -2486.63 -73.0 -2485.5
 endline
 
-line wall
+line border
+  -155.5 -2457.5
+  -164.75 -2458.0 -184.75 -2451.25 -192.0 -2451.0
+  -199.25 -2450.75 -216.75 -2459.25 -221.0 -2459.0
+  -225.25 -2458.75 -242.0 -2465.25 -254.75 -2468.0
+endline
+
+line border
+  -251.5 -2482.0
+  -247.0 -2482.5 -222.5 -2483.25 -213.75 -2485.5
+  -198.51 -2489.42 -166.5 -2488.75 -161.0 -2487.5
+endline
+
+line wall -id l312--280--2496
   87.5 -2520.0
   73.0 -2516.5 32.0 -2512.0 13.5 -2509.0
   -4.83 -2506.03 -47.0 -2495.0 -60.0 -2494.0
@@ -1917,9 +2082,7 @@ line wall
   -169.5 -2490.5 -176.0 -2494.5 -184.5 -2495.0
   -193.0 -2495.5 -219.0 -2484.0 -233.5 -2485.5
   -248.0 -2487.0 -252.0 -2485.5 -268.5 -2492.0
-  -285.0 -2498.5 -295.0 -2500.0 -311.0 -2505.5
-  -327.0 -2511.0 -340.5 -2508.5 -344.5 -2515.0
-  smooth off
+  -285.0 -2498.5 -295.25 -2496.75 -311.25 -2502.25
 endline
 
 point 85.0 -2435.5 station -name oldroute4.22
@@ -1950,6 +2113,22 @@ line rock-border -close on
   1646.0 -2984.0
   1637.0 -2980.5
   1625.5 -2998.0
+endline
+
+line rock-border -close on
+  1577.5 -3050.25
+  1583.75 -3047.5
+  1583.5 -3041.5
+  1579.0 -3042.0
+  1577.5 -3050.25
+endline
+
+line rock-border -close on
+  1575.0 -3071.25
+  1589.25 -3070.25
+  1582.25 -3058.0
+  1574.0 -3067.75
+  1575.0 -3071.25
 endline
 
 line rock-border -close on
@@ -2101,9 +2280,18 @@ line rock-border -close on -clip off
   1586.0 -3082.5
 endline
 
-point 1540.0 -3225.0 gradient -orientation 122.0
+line rock-border -close on
+  1570.0 -3185.0
+  1570.0 -3185.0 1578.75 -3184.75 1578.75 -3183.5
+  1578.75 -3182.25 1576.75 -3173.25 1576.75 -3173.25
+  smooth off
+  1568.75 -3175.25
+  1570.0 -3185.0
+endline
 
-point 1594.5 -3124.0 gradient -orientation 0.0
+point 1545.5 -3228.25 gradient -orientation 122.0
+
+point 1595.0 -3120.5 gradient -orientation 0.0
 
 point 1509.0 -3204.0 station -name oldroute3.14
 
@@ -2122,6 +2310,22 @@ endscrap
 scrap bigrift_wet -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m]
 
 point 2253.0 -1586.0 water-flow -orientation 245.1
+
+point 1795.75 -1909.25 label -text p44 -scale l
+
+point 1870.0 -1873.0 label -text p14 -scale l
+
+point 1971.75 -1832.75 label -text p5 -scale l
+
+area water
+  l521-2198--1583
+endarea
+
+line border -id l521-2198--1583 -close on
+  2181.0 -1588.5
+  2186.5 -1595.0 2207.0 -1586.0 2194.5 -1577.75
+  2182.0 -1569.5 2175.5 -1582.0 2181.0 -1588.5
+endline
 
 line wall
   2272.0 -1509.0
@@ -2163,7 +2367,7 @@ line pit
   smooth off
 endline
 
-point 2106.5 -1624.0 label -text c2 -scale l
+point 2098.75 -1621.75 label -text c2 -scale l
 
 line rock-border -close on
   2161.5 -1615.0
@@ -2206,11 +2410,11 @@ endscrap
 scrap deviation -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m]
 
 line arrow
-  950.0 -3087.0
+  961.75 -3083.5
   1014.0 -3077.0
 endline
 
-point 932.0 -3087.0 label -text p5 -scale l
+point 941.75 -3085.75 label -text p5 -scale l
 
 point 1033.0 -3254.0 label -text p5 -scale l
 
@@ -2353,7 +2557,7 @@ line arrow
   -665.5 -1776.5
 endline
 
-point -728.5 -1825.5 label -text 15-EN-1C -scale l
+point -733.5 -1825.75 label -text 15-EN-1C -scale l
 
 line pit
   -377.5 -1798.0
@@ -2518,8 +2722,6 @@ line wall
   1043.0 -2332.5 1074.0 -2318.0 1078.0 -2312.0
   1082.0 -2306.0 1085.0 -2293.0 1088.5 -2284.0
   1092.0 -2275.0 1093.5 -2260.5 1101.0 -2251.5
-  1108.5 -2242.5 1094.0 -2253.0 1101.0 -2251.5
-  smooth off
 endline
 
 line pit -reverse on -clip off
@@ -2643,7 +2845,31 @@ endscrap
 
 scrap antigrav -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m]
 
-point -575.0 -542.0 air-draught -orientation 182.0
+point -609.5 -786.0 label -text p6 -scale l
+
+line rock-border -close on
+  -650.25 -697.75
+  -642.5 -699.0
+  -640.75 -705.25
+  -651.5 -717.25
+  -657.0 -715.25
+  -651.5 -699.25
+  -650.25 -697.75
+endline
+
+line border
+  -696.75 -762.0
+  -696.25 -767.25 -691.5 -798.75 -691.5 -802.75
+  -691.5 -806.75 -681.5 -835.5 -689.5 -854.0
+endline
+
+line border
+  -647.0 -764.0
+  -649.5 -771.0 -658.25 -801.5 -658.0 -808.25
+  -657.75 -815.0 -653.25 -834.75 -653.0 -836.5
+endline
+
+point -573.75 -542.75 air-draught -orientation 182.0
 
 line pit
   -521.0 -244.0
@@ -2662,13 +2888,32 @@ endline
 
 line pit -reverse on
   -460.0 -296.0
-  -475.0 -316.0 -509.0 -344.0 -515.0 -343.0
+  -475.0 -316.0 -509.75 -341.5 -518.75 -337.25
   smooth off
 endline
 
+line rock-border -close on
+  -592.0 -420.5
+  -589.75 -420.5 -586.25 -419.75 -586.25 -419.75
+  smooth off
+  -586.25 -419.75 -580.25 -417.75 -581.0 -416.5
+  -581.75 -415.25 -583.5 -407.25 -584.5 -407.75
+  -585.5 -408.25 -590.5 -414.0 -590.5 -414.0
+  smooth off
+  -590.5 -414.0 -594.25 -420.5 -592.0 -420.5
+endline
+
+line rock-border -close on
+  -578.5 -406.0
+  -574.0 -409.25
+  -570.0 -406.0
+  -575.75 -401.25
+  -578.5 -406.0
+endline
+
 line pit
-  -515.0 -343.0
-  -516.32 -337.05 -493.0 -268.0 -521.0 -244.0
+  -518.75 -337.25
+  -523.25 -332.0 -484.5 -274.75 -521.0 -244.0
   smooth off
 endline
 
@@ -2722,7 +2967,7 @@ point -793.0 -382.0 water-flow -orientation 144.2
 
 point -612.0 -533.0 gradient -orientation 182.6
 
-point -625.0 -651.0 gradient -orientation 198.1
+point -625.25 -659.75 gradient -orientation 198.1
 
 point -855.0 -1603.0 gradient -orientation 192.5
 
@@ -2792,7 +3037,7 @@ endline
 
 line rock-border
   -770.0 -773.0
-  -779.0 -783.0
+  -780.5 -785.25
 endline
 
 line rock-border
@@ -2801,7 +3046,7 @@ line rock-border
 endline
 
 line rock-border
-  -765.0 -790.0
+  -763.0 -797.0
   -773.0 -754.0
 endline
 
@@ -3097,7 +3342,7 @@ point -675.5 -779.5 water-flow -orientation 183.6
 
 line pit -clip off
   -637.5 -846.0
-  -647.5 -844.5 -683.0 -845.0 -689.5 -854.0
+  -660.25 -829.25 -679.5 -825.25 -689.5 -854.0
   smooth off
 endline
 

@@ -18,6 +18,7 @@ code tex-map
  \cavename={1623/107 Gemsehöhle}
  \cavelength{3766\thinspace{}m}
  \cavedepth{254\thinspace{}m}
+ \framethickness=0.5mm
  
  # colour map-bg [70 90 70]
   
@@ -79,7 +80,31 @@ code tex-map
         %thclean Path; %makes passage colour more intense under area, not good for sand
         thfill Path withpattern pattern_sand ;
     enddef;
-    
+ # Adapted from Thomas Holder's
+ def s_scalebar (expr l, units, txt) =
+  begingroup
+    interim warningcheck:=0;
+    tmpl:=l / Scale * cm * units / 2;
+    tmpx:=l / Scale * cm * units / 5;
+    tmph:=5bp; % bar height
+  endgroup;
+  pickup PenC;
+  draw (-tmpl,0)--(tmpl,0);
+  p:=(0,0)--(0,-tmph);
+  for i:=-2.5 step 1 until 2.5:
+    draw p shifted (i * tmpx,0);
+  endfor;
+  begingroup
+    interim labeloffset:=3.5bp;
+    for i:=0 step (l/5) until (l-1):
+      tmpx:=tmpl * (i * 2 / l - 1);
+      label.bot(thTEX(decimal (i)),(tmpx,-tmph));
+    endfor;
+    label.bot(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,-tmph));
+    label.top(thTEX("Original Scale 1:" & decimal round(Scale*100)),(0,0));
+  endgroup;
+enddef;
+ 
   endcode
  # def l_survey_cave (expr p) =
  #   draw p withpen PenD withcolor (0.5,0.3,0.3);
