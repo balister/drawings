@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2928 -2564.25 3956.25 1428
+##XTHERION## xth_me_area_adjust -2928 -3937 4178 1428
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-2500 1 1.0} {-500 {}} ../../Pictures/olly-jenny-note-scans/cave050.jpg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {1 {}} ../19-107-small.jpg 0 {}
@@ -2874,7 +2874,12 @@ endline
 
 point -835.5 -120.0 label -text c7 -scale l
 
-point -815.0 -197.0 label -text p10 -scale l
+line arrow
+  -870.0 -174.0
+  -825.25 -182.0
+endline
+
+point -880.5 -173.25 label -text p10 -scale l
 
 line wall -reverse on
   -859.0 -178.5
@@ -2891,7 +2896,7 @@ endline
 
 point -856.0 -139.75 gradient -orientation 334.0
 
-point -841.5 -171.0 gradient -orientation 324.1
+point -841.5 -170.0 gradient -orientation 333.6
 
 line wall -reverse on
   -822.75 -186.0
