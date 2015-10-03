@@ -13,8 +13,8 @@ layout gemse
   legend on
   colour map-fg [altitude]
 #  colour map-fg [scrap]
-  grid bottom
-  grid-coords border
+#  grid bottom
+ # grid-coords border
 
 code tex-map
  \cavename={1623/107 Gemsehöhle}
@@ -26,7 +26,7 @@ code tex-map
   
   code metapost
 #  fonts_setup(7,8,10,14,20); #original
-    fonts_setup(7,10,14,14,20); 
+    fonts_setup(7,10,14,20,26); 
   
      let p_gradient = p_entrance_UIS;
      let p_clay = p_flowstone_UIS;

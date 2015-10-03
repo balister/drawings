@@ -251,7 +251,7 @@ point 1202.0 -1152.0 station -name ropeless.24
 
 point 1289.0 -1250.0 station -name ropeless.23
 
-point 519.0 -1734.0 label -text "12-RL-4C" -scale l
+point 519.0 -1734.0 label -text "12-RL-4C" -scale m
 
 point 1243.0 -1297.0 station -name ropeless.22
 
@@ -465,11 +465,11 @@ point 1218.0 -904.5 station -name ropeless.38
 
 point 1326.5 -1120.5 station -name ropeless.41
 
-point 1137.0 -1078.0 label -text "12-RL-3C" -scale l
+point 1137.0 -1078.0 label -text "12-RL-3C" -scale m
 
-point 1119.0 -1013.0 label -text "12-RL-2C" -scale l
+point 1119.0 -1013.0 label -text "12-RL-2C" -scale m
 
-point 1093.0 -968.0 label -text "12-RL-1C" -scale l
+point 1093.0 -968.0 label -text "12-RL-1C" -scale m
 
 point 1149.5 -927.5 station -name ropeless.27
 
@@ -486,11 +486,11 @@ line wall
   smooth off
 endline
 
-point 1174.0 -883.0 label -text c3 -scale l
+point 1174.0 -883.0 label -text c3 -scale m
 
-point 1269.0 -894.5 label -text c2 -scale l
+point 1269.0 -894.5 label -text c2 -scale m
 
-point 1364.0 -1052.5 label -text c4 -scale l
+point 1364.0 -1052.5 label -text c4 -scale m
 
 line pit
   1311.0 -1051.5
@@ -753,7 +753,7 @@ line wall
   smooth off
 endline
 
-point 1167.5 -723.5 label -text "Sea of Fudge" -scale xl
+point 1167.5 -723.5 label -text "Sea of Fudge" -scale l
 
 line pit
   1187.0 -975.5
@@ -927,7 +927,7 @@ line border
   smooth off
 endline
 
-point 24.0 -134.0 label -text c5 -scale l
+point 24.0 -134.0 label -text c5 -scale m
 
 point 26.0 -177.5 air-draught -orientation 278.9
 
@@ -960,7 +960,7 @@ endscrap
 
 scrap sleepless -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 1679.0 237.0 label -text "13-RF-4B" -scale l
+point 1679.0 237.0 label -text "13-RF-4B" -scale m
 
 line wall -subtype presumed
   1446.5 223.5
@@ -973,13 +973,13 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 1330.0 156.0 label -text "<center>Upper level<br>omitted for<br>clarity" -scale l
+point 1330.0 156.0 label -text "<center>Upper level<br>omitted for<br>clarity" -scale m
 
-point 1416.0 162.0 label -text "13-RF-2C" -scale l
+point 1416.0 162.0 label -text "13-RF-2C" -scale m
 
-point 1178.0 384.0 label -text "13-SL-1C" -scale l
+point 1178.0 384.0 label -text "13-SL-1C" -scale m
 
-point 694.0 409.5 label -text "13-SL-2C" -scale l
+point 694.0 409.5 label -text "13-SL-2C" -scale m
 
 line rock-border -close on
   600.5 370.5
@@ -989,7 +989,7 @@ line rock-border -close on
   600.5 370.5
 endline
 
-point 933.0 109.0 label -text SLEEPLESS -scale xl
+point 933.0 109.0 label -text SLEEPLESS -scale l
 
 point 630.0 365.0 gradient -orientation 262.7
 
@@ -1199,7 +1199,7 @@ area clay
   l145-1131-184
 endarea
 
-point 1152.5 313.5 label -text c3 -scale l
+point 1152.5 313.5 label -text c3 -scale m
 
 line pit
 endline
@@ -1565,9 +1565,9 @@ line border
   smooth off
 endline
 
-point 1667.0 116.5 label -text c5 -scale l
+point 1667.0 116.5 label -text c5 -scale m
 
-point 1643.0 217.5 label -text p? -scale l
+point 1643.0 217.5 label -text p? -scale m
 
 line pit -clip off
   1644.5 164.5
@@ -1616,13 +1616,13 @@ line arrow -reverse on
   2064.0 -112.0
 endline
 
-point 2078.0 -109.0 label -text "13-RF-1X" -scale l
+point 2078.0 -109.0 label -text "13-RF-1X" -scale m
 
-point 1924.0 4.0 label -text "p5" -scale l
+point 1924.0 4.0 label -text "p5" -scale m
 
-point 1934.0 -165.75 label -text p4 -scale l
+point 1934.0 -165.75 label -text p4 -scale m
 
-point 1965.25 -157.0 label -text c2 -scale l
+point 1965.25 -157.0 label -text c2 -scale m
 
 line rock-border -close on
   1993.0 -186.0
@@ -1911,11 +1911,11 @@ endscrap
 
 scrap china_n1 -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 2726.0 -1331.0 label -text c3 -scale l
+point 2726.0 -1331.0 label -text c3 -scale m
 
-point 2937.0 -751.5 label -text KOREA -scale xl
+point 2937.0 -751.5 label -text KOREA -scale l
 
-point 2622.0 -912.5 label -text c3  -scale l
+point 2622.0 -912.5 label -text c3  -scale m
 
 point 2724.5 -834.0 gradient -orientation 242.8
 
@@ -2604,14 +2604,14 @@ line arrow -reverse on
   2527.0 -768.0
 endline
 
-point 2507.0 -719.0 label -text "13-CH-4C" -scale l
+point 2507.0 -719.0 label -text "13-CH-4C" -scale m
 
 line arrow -reverse on
   2624.0 -1011.0
   2600.0 -1002.0
 endline
 
-point 2578.0 -996.0 label -text "13-CH-3C" -scale l
+point 2578.0 -996.0 label -text "13-CH-3C" -scale m
 
 line wall -reverse on
   2578.0 -1157.0
@@ -4305,7 +4305,7 @@ line pit -reverse on
   smooth off
 endline
 
-point 2110.0 -1527.0 label -text p5 -scale l
+point 2110.0 -1527.0 label -text p5 -scale m
 
 line wall -reverse on
   2011.0 -1172.0
@@ -4365,7 +4365,7 @@ endscrap
 
 scrap china_s -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 1308.5 -3895.5 label -text "13-CH-8C" -scale l
+point 1308.5 -3895.5 label -text "13-CH-8C" -scale m
 
 point 1543.0 -3880.5 debris -orientation 253.3
 
@@ -5096,7 +5096,7 @@ line rock-border -close on
   879.0 -3641.0
 endline
 
-point 864.5 -3749.5 label -text "13-CH-12C" -scale l
+point 864.5 -3749.5 label -text "13-CH-12C" -scale m
 
 line pit -close on
   863.0 -3656.0
@@ -5370,14 +5370,14 @@ line arrow
   -966.0 -15.0
 endline
 
-point -655.5 -169.5 label -text "tt" -scale l
+point -655.5 -169.5 label -text "tt" -scale m
 
 line arrow
   -509.0 -50.5
   -539.0 -26.0
 endline
 
-point -504.5 -79.5 label -text "13-RS-5C" -scale l
+point -504.5 -79.5 label -text "13-RS-5C" -scale m
 
 line pit
   -1878.0 -165.0
@@ -5465,9 +5465,9 @@ endline
 line wall
 endline
 
-point -814.0 53.0 label -text "Too bold<br>for this spit"-scale xl -align center
+point -814.0 53.0 label -text "Too bold<br>for this spit"-scale l -align center
 
-point -887.0 -33.5 label -text c3 -scale l
+point -887.0 -33.5 label -text c3 -scale m
 
 point -851.5 -148.0 water-flow -orientation 99.8
 
@@ -5501,15 +5501,15 @@ point -967.0 -41.5 gradient -orientation 294.4
 
 point -1017.75 28.0 water-flow -orientation 207.6
 
-point -1564.0 -315.5 label -text c5 -scale l
+point -1564.0 -315.5 label -text c5 -scale m
 
-point -978.0 -80.0 label -text p65 -scale l
+point -978.0 -80.0 label -text p65 -scale m
 
-point -1311.0 -206.0 label -text c3 -scale l
+point -1311.0 -206.0 label -text c3 -scale m
 
-point -1783.5 -150.0 label -text p3 -scale l
+point -1783.5 -150.0 label -text p3 -scale m
 
-point -1689.0 -381.5 label -text RESTLESS -scale xl
+point -1689.0 -381.5 label -text RESTLESS -scale l
 
 line rock-border -close on
   -1951.0 -229.0
@@ -5519,7 +5519,7 @@ line rock-border -close on
   -1951.0 -229.0
 endline
 
-point -1904.0 -99.5 label -text c2 -scale l
+point -1904.0 -99.5 label -text c2 -scale m
 
 line wall -reverse on
   -1078.0 -22.0
@@ -6454,11 +6454,11 @@ line wall
   smooth off
 endline
 
-point -409.0 -1642.5 label -text "13-CH-6X" -scale l
+point -409.0 -1642.5 label -text "13-CH-6X" -scale m
 
-point -216.0 -1325.0 label -text "IN TOO<br>DEEP" -scale xl
+point -216.0 -1325.0 label -text "IN TOO<br>DEEP" -scale l
 
-point -318.0 -1443.5 label -text "13-CH-5A" -scale l
+point -318.0 -1443.5 label -text "13-CH-5A" -scale m
 
 line wall
   -200.5 -1435.0
@@ -6570,7 +6570,7 @@ line arrow
   -908.0 -1163.0
 endline
 
-point -1004.0 -1135.5 label -text "13-RS-1A" -scale l
+point -1004.0 -1135.5 label -text "13-RS-1A" -scale m
 
 point -781.0 -1134.0 air-draught -orientation 78.5
 
@@ -6580,11 +6580,11 @@ line border
   smooth off
 endline
 
-point -605.0 -1226.5 label -text c1 -scale l
+point -605.0 -1226.5 label -text c1 -scale m
 
-point -599.5 -1156.5 label -text c1.5 -scale l
+point -599.5 -1156.5 label -text c1.5 -scale m
 
-point -966.0 -1176.5 label -text p20? -scale l
+point -966.0 -1176.5 label -text p20? -scale m
 
 line wall -subtype presumed
   -841.5 -1155.5
@@ -6804,9 +6804,9 @@ line rock-border -close on
   -167.5 -2420.5
 endline
 
-point -106.0 -2288.0 label -text "13-SL-4X" -scale l
+point -106.0 -2288.0 label -text "13-SL-4X" -scale m
 
-point 3.5 -2432.5 label -text "13-SL-3X" -scale l
+point 3.5 -2432.5 label -text "13-SL-3X" -scale m
 
 line rock-border -close on
   -167.0 -2403.5
@@ -6876,13 +6876,13 @@ line pit
   smooth off
 endline
 
-point -328.0 -2331.0 label -text c1 -scale l
+point -328.0 -2331.0 label -text c1 -scale m
 
-point -287.5 -2335.0 label -text c1 -scale l
+point -287.5 -2335.0 label -text c1 -scale m
 
-point -99.5 -2379.5 label -text c8 -scale l
+point -99.5 -2379.5 label -text c8 -scale m
 
-point -83.0 -2458.0 label -text c5 -scale l
+point -83.0 -2458.0 label -text c5 -scale m
 
 line wall
   -607.5 -2347.5
@@ -6992,9 +6992,9 @@ line wall -reverse on
   smooth off
 endline
 
-point -503.0 -2312.0 label -text p5 -scale l
+point -503.0 -2312.0 label -text p5 -scale m
 
-point -609.0 -2311.0 label -text c2 -scale l
+point -609.0 -2311.0 label -text c2 -scale m
 
 point -521.5 -2356.0 station -name 0814.6
 
@@ -7103,7 +7103,7 @@ line arrow
   -1328.5 -1992.5
 endline
 
-point -1321.5 -1936.5 label -text "13-LC-1B" -scale l
+point -1321.5 -1936.5 label -text "13-LC-1B" -scale m
 
 line border -id l1533--1428--1920 -subtype invisible
   -1418.5 -1917.5
@@ -7115,7 +7115,7 @@ line border -id l1532--1397--2123
   -1396.0 -2121.0
 endline
 
-point -1241.5 -2109.5 label -text "13-LC-2C" -scale l
+point -1241.5 -2109.5 label -text "13-LC-2C" -scale m
 
 line pit -id l1037--1400--2027
   -1391.0 -2001.0
@@ -7790,16 +7790,16 @@ endline
 
 point 4209.0 1275.0 station -name landofconfusion.000
 
-point 4292.5 1091.0 label -text "p20" -scale l
+point 4292.5 1091.0 label -text "p20" -scale m
 
-point 4511.0 807.0 label -text "13-LC-11C" -scale l
+point 4511.0 807.0 label -text "13-LC-11C" -scale m
 
 line arrow
   5080.0 1436.0
   5030.0 1434.0
 endline
 
-point 5181.5 1430.5 label -text "13-LC-10B" -scale l
+point 5181.5 1430.5 label -text "13-LC-10B" -scale m
 
 point 4561.0 894.0 station -name landofconfusion.19
 
@@ -7821,7 +7821,7 @@ line pit
   smooth off
 endline
 
-point 4834.0 905.0 label -text p38 -scale l
+point 4834.0 905.0 label -text p38 -scale m
 
 point 5018.0 1421.5 station -name landofconfusion.0000
 
@@ -7901,7 +7901,7 @@ line arrow
   1826.5 1851.0
 endline
 
-point 1871.5 1961.0 label -text c1 -scale l
+point 1871.5 1961.0 label -text c1 -scale m
 
 line wall
   2199.5 2156.5
@@ -8190,11 +8190,11 @@ line rock-border -close on
   1460.0 1806.0
 endline
 
-point 984.0 2052.0 label -text p40 -scale l
+point 984.0 2052.0 label -text p40 -scale m
 
-point 1383.5 1884.0 label -text c2 -scale l
+point 1383.5 1884.0 label -text c2 -scale m
 
-point 1130.0 1820.0 label -text p6 -scale l
+point 1130.0 1820.0 label -text p6 -scale m
 
 line rock-border -close on
   2194.0 2017.0
@@ -8290,7 +8290,7 @@ point 2216.0 2152.0 station -name landofconfusion.25
 
 point 2165.0 1907.0 station -name landofconfusion.26
 
-point 1112.0 2302.0 label -text "13-LC-12C" -scale l
+point 1112.0 2302.0 label -text "13-LC-12C" -scale m
 
 point 2110.0 1937.0 station -name landofconfusion.8
 
@@ -8348,7 +8348,7 @@ endline
 
 point 2500.0 2873.0 gradient -orientation 17.1
 
-point 2547.0 2836.5 label -text p3 -scale l
+point 2547.0 2836.5 label -text p3 -scale m
 
 line pit
   2478.0 2868.0
@@ -8401,7 +8401,7 @@ line pit -clip off -outline in
   smooth off
 endline
 
-point 2587.5 2930.5 label -text p4 -scale l
+point 2587.5 2930.5 label -text p4 -scale m
 
 line wall
   2360.0 2442.0
@@ -8435,11 +8435,11 @@ line arrow
   3006.0 1907.0
 endline
 
-point 2981.5 1875.0 label -text "13-LC-3C" -scale l
+point 2981.5 1875.0 label -text "13-LC-3C" -scale m
 
-point 3019.5 1843.5 label -text "13-LC-5X" -scale l
+point 3019.5 1843.5 label -text "13-LC-5X" -scale m
 
-point 3022.0 1880.0 label -text "13-LC-4B" -scale l
+point 3022.0 1880.0 label -text "13-LC-4B" -scale m
 
 line wall
   3080.75 1955.25
@@ -8622,7 +8622,7 @@ line arrow
   3210.0 2370.0
 endline
 
-point 3308.0 2281.0 label -text "13-LC-13C" -scale l
+point 3308.0 2281.0 label -text "13-LC-13C" -scale m
 
 point 3228.0 2421.0 station -name landofconfusion.16
 
@@ -8686,11 +8686,11 @@ line pit
   smooth off
 endline
 
-point 1540.0 835.0 label -text p? -scale l
+point 1540.0 835.0 label -text p? -scale m
 
-point 1455.0 1030.0 label -text p3 -scale l
+point 1455.0 1030.0 label -text p3 -scale m
 
-point 1631.0 911.0 label -text c3 -scale l
+point 1631.0 911.0 label -text c3 -scale m
 
 line pit
   1608.0 931.0
@@ -8835,21 +8835,21 @@ line arrow
   1374.0 847.0
 endline
 
-point 1329.5 790.0 label -text "13-LC-16A" -scale l
+point 1329.5 790.0 label -text "13-LC-16A" -scale m
 
 line arrow
   1678.0 1166.0
   1775.0 1071.0
 endline
 
-point 1666.0 1188.5 label -text "13-LC-14C" -scale l
+point 1666.0 1188.5 label -text "13-LC-14C" -scale m
 
 line arrow
   1879.0 904.0
   1956.0 933.0
 endline
 
-point 1843.0 867.5 label -text "13-LC-15C" -scale l
+point 1843.0 867.5 label -text "13-LC-15C" -scale m
 
 line wall
   1992.0 936.0
@@ -8925,7 +8925,7 @@ line border
   smooth off
 endline
 
-point -308.5 -386.5 label -text tt -scale l
+point -308.5 -386.5 label -text tt -scale m
 
 line rock-border -close on
   -249.0 -400.75
@@ -9091,7 +9091,7 @@ point 3054.0 760.0 station -name china.8
 
 point 3614.0 1558.0 station -name 161connection.8
 
-point 3718.0 1657.0 label -text p20 -scale l
+point 3718.0 1657.0 label -text p20 -scale m
 
 line wall
   3614.0 1438.0
@@ -9477,7 +9477,7 @@ endscrap
 
 scrap last_tsa_nn -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point -1845.0 1777.0 label -text p12 -scale l
+point -1845.0 1777.0 label -text p12 -scale m
 
 line rock-border -close on
   -1860.0 1527.0
@@ -9487,7 +9487,7 @@ line rock-border -close on
   -1860.0 1527.0
 endline
 
-point -1890.0 1552.0 label -text c7 -scale l
+point -1890.0 1552.0 label -text c7 -scale m
 
 line pit
   -1877.0 1542.0
@@ -9690,11 +9690,11 @@ line rock-border -close on
   -44.0 1002.0
 endline
 
-point 48.0 955.0 label -text c25 -scale l
+point 48.0 955.0 label -text c25 -scale m
 
 point -208.0 1211.0 label -text "THE LAST TSA" -scale xl
 
-point -167.0 451.0 label -text p5 -scale l
+point -167.0 451.0 label -text p5 -scale m
 
 line rock-border -close on
   -268.0 617.0
@@ -10066,7 +10066,7 @@ endscrap
 
 scrap fudged_up -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point -1586.0 1493.0 label -text c2 -scale l
+point -1586.0 1493.0 label -text c2 -scale m
 
 point -900.0 1291.0 gradient -orientation 300.4
 
@@ -10077,7 +10077,7 @@ line arrow
   -964.0 1448.0
 endline
 
-point -372.0 2080.0 label -text "Fudged Up" -scale xl
+point -372.0 2080.0 label -text "Fudged Up" -scale l
 
 line rock-border -clip off
   -630.0 1370.0

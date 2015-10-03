@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1185.25 -3921 3436 1128
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -1189.0 -3921 3436 1128
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2000 1 1.0} {1000 {}} {../../../expoimages/surveyscans/2015/2015#60-107 Old Route Tubular/notes.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {../../../expoimages/surveyscans/2015/2015#61-107 Tubular/notes.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {-4.0 1 1.0} {45.0 {}} {../../../expoimages/surveyscans/2015/2015#63-107 Old Route 3/notes2.jpg} 0 {}
@@ -17,11 +17,11 @@ scrap tubular -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.60519999
 
 point 490.25 -1819.75 air-draught -orientation 317.1
 
-point 664.0 -1903.5 label -text "Tubular Bells" -scale xl
+point 664.0 -1903.5 label -text "Tubular Bells" -scale l
 
-point 444.75 -1782.75 label -text tt -scale l
+point 444.75 -1782.75 label -text tt -scale m
 
-point 512.0 -1854.5 label -text tt -scale l
+point 512.0 -1854.5 label -text tt -scale m
 
 line wall
   269.0 -1675.0
@@ -215,7 +215,7 @@ line wall -id l369-2247-171
   smooth off
 endline
 
-point 2299.0 410.0 label -text tt -scale l
+point 2299.0 410.0 label -text tt -scale m
 
 area clay
   l372-2293-384
@@ -281,7 +281,7 @@ line pit -clip off
   2224.0 -1022.0
 endline
 
-point 2168.0 -1005.0 label -text p72 -scale l
+point 2168.0 -1005.0 label -text p72 -scale m
 
 line rock-border -close on
   2456.0 -1020.0
@@ -353,7 +353,7 @@ line pit -reverse on
   2537.0 -884.0
 endline
 
-point 2379.0 -673.0 label -text p10 -scale l
+point 2379.0 -673.0 label -text p10 -scale m
 
 line rock-border -close on
   2283.0 -977.0
@@ -1048,7 +1048,7 @@ line pit
   smooth off
 endline
 
-point 1901.0 -1001.0 label -text p72 -scale l
+point 1901.0 -1001.0 label -text p72 -scale m
 
 area water
   l501-2078--860
@@ -1061,9 +1061,9 @@ line border -id l501-2078--860 -close on
   2060.25 -884.25 2058.5 -892.75 2064.25 -892.5
 endline
 
-point 2125.25 -861.5 label -text c3 -scale l
+point 2125.25 -861.5 label -text c3 -scale m
 
-point 1814.0 -954.0 label -text p5 -scale l
+point 1814.0 -954.0 label -text p5 -scale m
 
 line pit -close off -clip off -outline in
   1852.5 -1001.0
@@ -1439,7 +1439,7 @@ line rock-border -close on
   -278.5 -877.75
 endline
 
-point -295.5 -789.75 label -text p19 -scale l
+point -295.5 -789.75 label -text p19 -scale m
 
 line rock-border
   -221.0 -820.5
@@ -1523,6 +1523,8 @@ line wall
   smooth off
 endline
 
+point -334.0 -2349.0 label -text "OLD ROUTE" -scale xl
+
 line wall
   -700.0 -2531.0
   -677.0 -2520.0 -662.5 -2474.5 -661.5 -2466.5
@@ -1578,11 +1580,11 @@ line rock-border -close on
   -568.0 -2202.5
 endline
 
-point -649.0 -2501.25 label -text c4 -scale l
+point -649.0 -2501.25 label -text c4 -scale m
 
-point -653.0 -2144.0 label -text p7 -scale l
+point -653.0 -2144.0 label -text p7 -scale m
 
-point -608.0 -2292.75 label -text p5 -scale l
+point -608.0 -2292.75 label -text p5 -scale m
 
 line rock-border -close on
   -614.5 -2031.5
@@ -1717,7 +1719,7 @@ line border
   smooth off
 endline
 
-point -35.75 -2959.0 label -text p7 -scale l
+point -35.75 -2959.0 label -text p7 -scale m
 
 line border
   -30.0 -2892.0
@@ -1882,7 +1884,7 @@ line rock-border -close on
   -72.5 -2915.0
 endline
 
-point -187.0 -2993.0 label -text "BIG RIFT" -scale xl
+point -187.0 -2993.0 label -text "BIG RIFT" -scale l
 
 line pit -clip off -outline in
   -438.5 -2937.0
@@ -1890,7 +1892,7 @@ line pit -clip off -outline in
   smooth off
 endline
 
-point -469.5 -2887.0 label -text p11 -scale l
+point -469.5 -2887.0 label -text p11 -scale m
 
 line wall
   -438.5 -2937.0
@@ -2317,11 +2319,11 @@ scrap bigrift_wet -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.6051
 
 point 2253.0 -1586.0 water-flow -orientation 245.1
 
-point 1795.75 -1909.25 label -text p44 -scale l
+point 1795.75 -1909.25 label -text p44 -scale m
 
-point 1870.0 -1873.0 label -text p14 -scale l
+point 1870.0 -1873.0 label -text p14 -scale m
 
-point 1971.75 -1832.75 label -text p5 -scale l
+point 1971.75 -1832.75 label -text p5 -scale m
 
 area water
   l521-2198--1583
@@ -2373,7 +2375,7 @@ line pit
   smooth off
 endline
 
-point 2098.75 -1621.75 label -text c2 -scale l
+point 2098.75 -1621.75 label -text c2 -scale m
 
 line rock-border -close on
   2161.5 -1615.0
@@ -2420,9 +2422,9 @@ line arrow
   1014.0 -3077.0
 endline
 
-point 941.75 -3085.75 label -text p5 -scale l
+point 941.75 -3085.75 label -text p5 -scale m
 
-point 1033.0 -3254.0 label -text p5 -scale l
+point 1033.0 -3254.0 label -text p5 -scale m
 
 line pit
   1040.0 -3115.0
@@ -2563,7 +2565,7 @@ line arrow
   -665.5 -1776.5
 endline
 
-point -733.5 -1825.75 label -text 15-EN-1C -scale l
+point -733.5 -1825.75 label -text 15-EN-1C -scale m
 
 line pit
   -377.5 -1798.0
@@ -2736,9 +2738,9 @@ line pit -reverse on -clip off
   1101.0 -2251.5
 endline
 
-point 1143.0 -2309.0 label -text c4 -scale l
+point 1143.0 -2309.0 label -text c4 -scale m
 
-point 1084.0 -2241.0 label -text c3 -scale l
+point 1084.0 -2241.0 label -text c3 -scale m
 
 line pit
   1083.0 -2302.5
@@ -2852,7 +2854,7 @@ endscrap
 
 scrap antigrav -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m]
 
-point -609.5 -786.0 label -text p6 -scale l
+point -609.5 -786.0 label -text p6 -scale m
 
 line rock-border -close on
   -650.25 -697.75
@@ -3097,7 +3099,7 @@ line rock-border -close on
   -848.0 -1570.0
 endline
 
-point -1056.0 -1520.0 label -text Antigravity -scale xl
+point -1056.0 -1520.0 label -text Antigravity -scale l
 
 line wall -subtype presumed
   -813.0 -1569.0

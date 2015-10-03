@@ -20,7 +20,7 @@ encoding  utf-8
 
 scrap entpassage -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 247.25 -412.5 label -text c2 -scale l
+point 247.25 -412.5 label -text c2 -scale m
 
 point 361.5 -349.0 gradient -orientation 276
 
@@ -84,7 +84,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 500.25 -178.25 label -text p5 -scale l
+point 500.25 -178.25 label -text p5 -scale m
 
 line border -reverse on
   298.75 -381.25
@@ -585,7 +585,7 @@ scrap ent_start -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 553.75 -597.25 gradient -orientation 114.1
 
-point 580.25 -625.25 label -text c2 -scale l
+point 580.25 -625.25 label -text c2 -scale m
 
 point 661.0 -667.0 label -text "107 ENTRANCE" -scale xl
 
@@ -595,7 +595,7 @@ line arrow
   521.5 -599.0
 endline
 
-point 672.0 -583.5 label -text "12-EN-5C" -scale l
+point 672.0 -583.5 label -text "12-EN-5C" -scale m
 
 line pit -clip off -outline in
   595.5 -568.0
@@ -629,7 +629,7 @@ point 601.0 -575.0 station -name ent.17
 
 point 588.5 -608.5 station -name ent.20
 
-point 652.0 -548.5 label -text p17 -scale l
+point 652.0 -548.5 label -text p17 -scale m
 
 point 570.5 -604.0 station -name ent.21
 
@@ -667,13 +667,13 @@ line pit
   smooth off
 endline
 
-point 1081.5 -127.5 label -text c3 -scale l
+point 1081.5 -127.5 label -text c3 -scale m
 
-point 1063.25 -155.0 label -text c1 -scale l
+point 1063.25 -155.0 label -text c1 -scale m
 
-point 1169.25 -140.75 label -text c1 -scale l
+point 1169.25 -140.75 label -text c1 -scale m
 
-point 1218.25 -82.25 label -text c2 -scale l
+point 1218.25 -82.25 label -text c2 -scale m
 
 line pit -close on
   1225.75 -99.5
@@ -873,7 +873,7 @@ point 1150.0 -147.0 station -name ext.4
 
 point 1166.5 -111.0 station -name ext.3
 
-point 1304.75 -75.25 label -text "12-EN-1X" -scale l
+point 1304.75 -75.25 label -text "12-EN-1X" -scale m
 
 point 1234.0 -93.5 station -name ext.2
 
@@ -922,9 +922,9 @@ line wall
   smooth off
 endline
 
-point 855.75 -704.0 label -text c3 -scale l
+point 855.75 -704.0 label -text c3 -scale m
 
-point 907.75 -739.5 label -text p10 -scale l
+point 907.75 -739.5 label -text p10 -scale m
 
 line wall
   889.0 -723.0
@@ -1071,7 +1071,7 @@ line wall
   smooth off
 endline
 
-point 866.0 -858.5 label -text p5 -scale l
+point 866.0 -858.5 label -text p5 -scale m
 
 line wall
   854.5 -863.75
@@ -1114,7 +1114,7 @@ scrap ropefree_e -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 2206.5 -1982.5 gradient -orientation 54.5
 
-point 2261.5 -1904.0 label -text c9 -scale l
+point 2261.5 -1904.0 label -text c9 -scale m
 
 point 2354.0 -1876.5 air-draught -orientation 237.3
 
@@ -1629,7 +1629,7 @@ scrap ropefree_n -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 1744.5 -1590.5 air-draught -orientation 60.2
 
-point 2023.0 -1587.0 label -text "13-RF-3X" -scale l
+point 2023.0 -1587.0 label -text "13-RF-3X" -scale m
 
 point 1881.5 -1673.5 gradient -orientation 287.1
 
@@ -1881,9 +1881,9 @@ line pit
   1722.0 -1903.0
 endline
 
-point 1592.0 -1825.5 label -text "Pushing the Envelope" -scale xl
+point 1592.0 -1825.5 label -text "Pushing the Envelope" -scale l
 
-point 1614.5 -1545.0 label -text ROPEFREE -scale xl
+point 1614.5 -1545.0 label -text ROPEFREE -scale l
 
 line rock-border -close on
   1938.5 -1689.5
@@ -2494,7 +2494,7 @@ point 2120.0 -627.25 air-draught -orientation 162.3
 
 point 1966.5 -308.5 water-flow
 
-point 2689.0 -198.0 label -text "<center>BOULDER<br>SHAFT" -scale xl
+point 2689.0 -198.0 label -text "<center>BOULDER<br>SHAFT" -scale l
 
 line wall
   2063.0 -720.0
@@ -2850,13 +2850,13 @@ point -513.5 -321.0 air-draught -orientation 205.5
 
 point -686.75 -565.0 station -name ropeless.47
 
-point -595.0 -433.5 label -text p5 -scale l
+point -595.0 -433.5 label -text p5 -scale m
 
 point -639.5 -455.0 station -name ropeless.46
 
 point -590.0 -387.0 station -name ropeless.45
 
-point -604.0 -504.0 label -text "12-RL-5C" -scale l
+point -604.0 -504.0 label -text "12-RL-5C" -scale m
 
 point -548.0 -364.5 station -name ropeless.44
 
@@ -2872,14 +2872,14 @@ line pit -clip off
   smooth off
 endline
 
-point -835.5 -120.0 label -text c7 -scale l
+point -835.5 -120.0 label -text c7 -scale m
 
 line arrow
   -870.0 -174.0
   -825.25 -182.0
 endline
 
-point -880.5 -173.25 label -text p10 -scale l
+point -880.5 -173.25 label -text p10 -scale m
 
 line wall -reverse on
   -859.0 -178.5
@@ -2996,7 +2996,7 @@ scrap top_intooldrift -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 272.0 -878.0 station -name oldrift.18
 
-point 539.5 -789.5 label -text "13-OR-2C" -scale l
+point 539.5 -789.5 label -text "13-OR-2C" -scale m
 
 line arrow -reverse on
   332.75 -765.5
@@ -3018,9 +3018,9 @@ endline
 line pit -clip off
 endline
 
-point 440.25 -765.25 label -text p9 -scale l
+point 440.25 -765.25 label -text p9 -scale m
 
-point 212.5 -869.5 label -text p6 -scale l
+point 212.5 -869.5 label -text p6 -scale m
 
 line pit -clip off -outline in
   276.75 -738.0
@@ -3080,7 +3080,7 @@ line rock-border -close on
   281.5 -1176.0
 endline
 
-point 676.0 -1331.0 label -text p17 -scale l
+point 676.0 -1331.0 label -text p17 -scale m
 
 line arrow -reverse on
   792.0 -1339.5
@@ -3089,7 +3089,7 @@ line arrow -reverse on
   896.5 -908.5
 endline
 
-point 944.0 -784.0 label -text "13-OR-4C" -scale l
+point 944.0 -784.0 label -text "13-OR-4C" -scale m
 
 line rock-border -close on
   296.0 -1192.5
@@ -3576,9 +3576,9 @@ line pit
   smooth off
 endline
 
-point 3111.0 -1688.0 label -text c3 -scale l
+point 3111.0 -1688.0 label -text c3 -scale m
 
-point 2957.75 -1568.75 label -text c2 -scale l
+point 2957.75 -1568.75 label -text c2 -scale m
 
 line wall
   2896.0 -1481.0

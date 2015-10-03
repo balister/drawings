@@ -41,17 +41,17 @@ line pit -close on
   323.0 -557.0 281.0 -573.0 324.0 -576.0
 endline
 
-point 390.0 -519.0 label -text c4 -scale l
+point 390.0 -519.0 label -text c4 -scale m
 
-point 902.0 -381.0 label -text c2 -scale l
+point 902.0 -381.0 label -text c2 -scale m
 
-point 862.0 -265.0 label -text c2 -scale l
+point 862.0 -265.0 label -text c2 -scale m
 
 point 987.0 -161.0 air-draught -orientation 284.4
 
 point 566.0 -387.0 air-draught -orientation 235.8
 
-point 530.0 -739.0 label -text "Tibet" -scale xl
+point 563.0 -740.0 label -text "TIBET" -scale l
 
 area sand
   l11-749--632
@@ -84,7 +84,7 @@ endline
 
 point 549.0 -179.0 label -text "BLOWN OUT" -scale xl
 
-point 1324.0 -239.0 label -text "To HOLEY COW" -scale xl
+point 1324.0 -239.0 label -text "To HOLEY COW" -scale l
 
 line wall
   827.0 -108.0

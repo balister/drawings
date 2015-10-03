@@ -147,7 +147,7 @@ line pit -id l8-1212--2210
   smooth off
 endline
 
-point 2384.0 -2380.0 label -text "Alcove Pop" -scale xl
+point 2384.0 -2380.0 label -text "Alcove Pop" -scale l
 
 area clay
   l27-1916--1460
@@ -487,14 +487,14 @@ line arrow
   668.0 -4340.0
 endline
 
-point -1020.0 -3440.0 label -text "p50" -scale l
+point -1020.0 -3440.0 label -text "p50" -scale m
 
 line arrow
   3072.0 -2620.0
   2300.0 -2692.0
 endline
 
-point 3184.0 -2580.0 label -text "14-LC-1C" -scale l
+point 3184.0 -2580.0 label -text "14-LC-1C" -scale m
 
 point 1708.0 -2824.0 water-flow -orientation 197.1
 
@@ -783,7 +783,7 @@ line rock-border -close on
   149.0 -1377.0
 endline
 
-point 186.0 -804.0 label -text "POPPED<br>ACROSS" -scale xl
+point 186.0 -804.0 label -text "POPPED<br>ACROSS" -scale l
 
 line pit
   293.0 -1083.0
@@ -823,7 +823,7 @@ line border -id l112-594--385
   smooth off
 endline
 
-point 723.0 -129.0 label -text "c2" -scale l
+point 723.0 -129.0 label -text "c2" -scale m
 
 point 245.0 -1320.0 air-draught -orientation 199.4
 
@@ -982,7 +982,7 @@ point 2517.5 -114.5 sand
 
 point 2532.5 -56.5 sand
 
-point 2434.0 131.0 label -text tt -scale l
+point 2434.0 131.0 label -text tt -scale m
 
 line rock-border -close on -clip off
   2575.5 -53.5
@@ -1360,9 +1360,9 @@ line wall
   smooth off
 endline
 
-point 2666.5 -1771.5 label -text c2 -scale l
+point 2666.5 -1771.5 label -text c2 -scale m
 
-point 2654.5 -1527.5 label -text c3 -scale l
+point 2654.5 -1527.5 label -text c3 -scale m
 
 line wall
   2724.0 -1853.0
@@ -1477,7 +1477,7 @@ line border -id l231--204-179 -subtype invisible
   -215.0 172.0
 endline
 
-point -657.5 609.5 label -text "SMOOTH<br>SANDY<br>BOTTOM" -scale xl
+point -657.5 609.5 label -text "<center>SMOOTH<br>SANDY<br>BOTTOM" -scale l
 
 line border -id l230--556-787 -subtype invisible
   -527.5 751.0
@@ -1661,7 +1661,7 @@ point 3787.0 -15.5 sand
 
 point 3873.0 -32.5 sand
 
-point 3813.5 27.0 label -text tt -scale l
+point 3813.5 27.0 label -text tt -scale m
 
 line wall
   3905.5 209.5

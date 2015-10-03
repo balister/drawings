@@ -219,7 +219,7 @@ line wall
   smooth off
 endline
 
-point 390.5 -2039.5 label -text "13-WL-2B" -scale l
+point 390.5 -2039.5 label -text "13-WL-2B" -scale m
 
 line wall
   270.0 -2019.0
@@ -302,7 +302,7 @@ line border
   smooth off
 endline
 
-point 602.5 -2108.0 label -text c2 -scale l
+point 602.5 -2108.0 label -text c2 -scale m
 
 line wall
   671.0 -2203.5
@@ -408,7 +408,7 @@ line pit
   smooth off
 endline
 
-point 595.0 -1998.5 label -text c3 -scale l
+point 595.0 -1998.5 label -text c3 -scale m
 
 line wall
   568.5 -2036.0
@@ -449,7 +449,7 @@ line border -id l486-1814--2502
   smooth off
 endline
 
-point 1641.0 -2413.0 label -text "13-WL-3A" -scale l
+point 1641.0 -2413.0 label -text "13-WL-3A" -scale m
 
 line wall -id l220-1824--2536
   1724.5 -2304.5
@@ -646,7 +646,7 @@ line border
   smooth off
 endline
 
-point 1933.5 -2277.5 label -text "The Rabbit hole" -scale xl
+point 1933.5 -2277.5 label -text "The Rabbit hole" -scale l
 
 point 1775.5 -2140.0 water-flow -orientation 76.0
 
@@ -992,7 +992,7 @@ point -793.0 -2219.0 station -name wonderland.10
 
 point -1022.0 -2079.0 station -name wonderland.9
 
-point -2075.5 -1625.0 label -text "13-WL-5D" -scale l
+point -2075.5 -1625.0 label -text "13-WL-5D" -scale m
 
 point -1373.0 -2289.0 station -name wonderland.8
 
@@ -1043,7 +1043,7 @@ line rock-border -close on
   -346.5 -250.0
 endline
 
-point -569.5 371.5 label -text tt -scale l
+point -569.5 371.5 label -text tt -scale m
 
 line wall -subtype presumed
   -544.0 394.0
@@ -1055,7 +1055,7 @@ line wall -subtype presumed
   -525.0 357.5 -526.0 387.0 -527.5 395.0
 endline
 
-point -531.0 440.0 label -text 15-WL-04C -scale l
+point -531.0 440.0 label -text 15-WL-04C -scale m
 
 line rock-border -close on
   -367.0 -199.0
@@ -1111,7 +1111,7 @@ point -584.0 -177.5 water-flow -orientation 284.9
 
 point -571.0 150.0 air-draught -orientation 341.9
 
-point -275.0 95.0 label -text "Still an<br>Effective Team" -scale xl
+point -275.0 95.0 label -text "Still an<br>Effective Team" -scale l
 
 line wall
   -521.5 348.0
@@ -1272,13 +1272,13 @@ line wall
   smooth off
 endline
 
-point -306.0 -1050.0 label -text "Dire<br>Straits" -scale xl
+point -306.0 -1050.0 label -text "Dire<br>Straits" -scale l
 
-point -633.5 -883.5 label -text 15-WL-03C -scale l
+point -633.5 -883.5 label -text 15-WL-03C -scale m
 
-point -471.0 -891.0 label -text c3 -scale l
+point -471.0 -891.0 label -text c3 -scale m
 
-point -466.0 -1040.0 label -text c1 -scale l
+point -466.0 -1040.0 label -text c1 -scale m
 
 line pit
   -379.0 -899.0
@@ -1406,18 +1406,18 @@ scrap wildwest -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0
 line wall
 endline
 
-point 1935.5 -3395.5 label -text p5 -scale l
+point 1935.5 -3395.5 label -text p5 -scale m
 
 line pit
   2031.0 -3377.0
   2053.0 -3407.0
 endline
 
-point 2049.0 -3432.0 label -text c2 -scale l
+point 2049.0 -3432.0 label -text c2 -scale m
 
-point 2078.0 -3459.0 label -text p7 -scale l
+point 2078.0 -3459.0 label -text p7 -scale m
 
-point 2346.0 -3133.0 label -text c4 -scale l
+point 2346.0 -3133.0 label -text c4 -scale m
 
 line pit -reverse on -clip off
   1933.0 -3348.0
@@ -1690,16 +1690,16 @@ line arrow
   2376.0 -3240.5
 endline
 
-point 2389.0 -3292.5 label -text 15-WL-02X -scale l
+point 2389.0 -3292.5 label -text 15-WL-02X -scale m
 
-point 1719.0 -3678.5 label -text 15-WL-01D -scale l
+point 1719.0 -3678.5 label -text 15-WL-01D -scale m
 
 line wall
   1752.0 -3666.0
   1733.0 -3650.0
 endline
 
-point 1682.5 -3504.5 label -text "Wild West" -scale xl
+point 1682.5 -3504.5 label -text "Wild West" -scale l
 
 point 1805.0 -3410.0 clay
 
