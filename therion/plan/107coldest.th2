@@ -883,6 +883,20 @@ point -1133.0 -3114.0 station -name 0728.4
 
 point -1279.0 -3135.0 station -name 0728.3
 
+line arrow
+  -844.5 -3179.0
+  -851.0 -3004.0
+endline
+
+point -843.5 -3201.0 label -text 15-CO-7B
+
+line arrow -reverse on
+  -818.0 -2870.5
+  -505.0 -2797.0
+endline
+
+point -469.0 -2793.0 label -text 13-CO-1A
+
 point -1362.0 -2999.0 station -name 0728.2
 
 point -1651.0 -3080.5 station -name 0728.1
