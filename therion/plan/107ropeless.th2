@@ -4010,6 +4010,13 @@ line contour
   smooth off
 endline
 
+line arrow -reverse on
+  1839.0 -1303.5
+  1839.5 -1347.0
+endline
+
+point 1843.0 -1398.0 label -text 14-CH-3X -scale m
+
 line wall -reverse on
   2988.0 -1859.0
   2968.0 -1851.0 2952.0 -1832.0 2937.0 -1825.0

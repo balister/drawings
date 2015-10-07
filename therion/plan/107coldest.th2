@@ -1360,6 +1360,8 @@ point -1512.25 -1931.75 station -name hrv.22
 
 point -1485.25 -1885.75 station -name hrv.21
 
+point -1115.5 -2036.5 label -text 15-CO-8A -scale m
+
 point -1022.75 -1962.0 label -text 15-CO-4A -scale m
 
 line wall -close on
@@ -1596,7 +1598,7 @@ line pit
   smooth off
 endline
 
-point -1116.0 -2019.0 label -text p6 -scale m
+point -1116.0 -2013.0 label -text p6 -scale m
 
 point -1721.0 -1999.5 label -text p9 -scale m
 
