@@ -9,8 +9,10 @@ layout gemse
 #  colour map-fg [scrap]
   colour map-fg [80]
 
-symbol-hide point station
-symbol-hide group cave-centreline
+symbol-show point station
+symbol-show group cave-centreline
+symbol-show point station-name
+debug station-names
 
 code tex-map
  \cavename={1623/107 Gemsehöhle}
@@ -85,4 +87,4 @@ code tex-map
 
 endlayout
 
-export map -layout gemse -projection extended -output 107-ee.pdf
+export map -layout gemse -projection extended -output 107-ee-107_3delerignore.pdf
