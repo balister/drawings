@@ -17,10 +17,11 @@ survey 107
   extend ignore ropeless.27 ropeless.26
   extend ignore ropeless.27 ropeless.38
   extend ignore china.29 china.27
-    extend left ropefree.1 # from station 5 - extend to the right
-      extend left ropefree.2 # from station 5 - extend to the right
-      extend left ropefree.3 # from station 5 - extend to the right
-      extend right ropefree.4 # from station 5 - extend to the right
+  extend ignore smoothbottom2.28 smoothbottom2.27
+  extend left ropefree.1 # from station 5 - extend to the right
+  extend left ropefree.2 # from station 5 - extend to the right
+  extend left ropefree.3 # from station 5 - extend to the right
+  extend right ropefree.4 # from station 5 - extend to the right
  #     extend left ent.13
  #     extend left ent.14
       extend left ent.15
@@ -45,6 +46,11 @@ survey 107
       extend left china.4
       extend right china.6
 #      extend left   wiggly. 1   
+   extend left notwindow.1
+   extend right notwindow.2
+    extend right hrv.2
+    extend left hrv.21
+    extend right smoothbottom.1
     
  
 ##   extend left china.19
@@ -54,6 +60,8 @@ survey 107
   endcenterline
 
   input 107ee_ropeless.th2
+input 107ee_china_new.th2
+#used for post-2013 elevation, no longer used
 # input 107ee_china.th2
  
  join s_ent_ee s_rampytop_ee
@@ -65,6 +73,9 @@ join  s_sleepless_ee s_ropefree_ee
 join s_sleepless_ee s_cold_ee
 join s_cold_ee s_cold2_ee
 join s_cold2_ee s_restless_ee
+join nipped_down popped_across
+
+#used for post-2013 elevation, no longer used
 ##join s_restless_ee s_bolde_ee
 ##join s_bolde_ee s_loc_ee
 ##join s_loc_ee s_below_korea_ee
@@ -72,5 +83,4 @@ join s_cold2_ee s_restless_ee
 ##join s_chinan_ee s_china_ee
 
 endsurvey
-
 
