@@ -22,8 +22,9 @@ code tex-map
 
   scale 1  500
   base-scale 1 200
-  
+ 
   code metapost
+     fonts_setup(7,10,14,20,26); 
      let l_floorstep = l_ceilingstep_UIS;
      let l_pit = l_ceilingstep_UIS;
      let p_clay = p_flowstone_UIS;

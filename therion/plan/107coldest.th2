@@ -2,8 +2,8 @@ encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1983.5 -5229 2478 139.5
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-200 1 1.0} {-1600 {}} ../../../expoimages/surveyscans/2015/2015#20-107_Beepless/notes.jpg 0 {}
-##XTHERION## xth_me_image_insert {-1800 1 1.0} {-1500 {}} ../../../expoimages/surveyscans/2015/2015#46-107_HRV/plan.png 0 {}
 ##XTHERION## xth_me_image_insert {-500 1 1.0} {0 {}} ../../../expoimages/surveyscans/2015/2015#19-107_DoubleBeep/notes2.jpg 0 {}
+##XTHERION## xth_me_image_insert {-1800 1 1.0} {-1500 {}} ../../../expoimages/surveyscans/2015/2015#46-107_HRV/plan.png 0 {}
 
 
 
@@ -1358,6 +1358,13 @@ point -1510.0 -1946.5 station -name hrv.23
 
 point -1512.25 -1931.75 station -name hrv.22
 
+line arrow
+  -1558.5 -1831.5
+  -1497.5 -1838.0
+endline
+
+point -1596.5 -1832.0 label -text "15-CO-9C"
+
 point -1485.25 -1885.75 station -name hrv.21
 
 point -1115.5 -2036.5 label -text 15-CO-8A -scale m
@@ -1578,7 +1585,7 @@ line wall -close on
   -1592.0 -2007.5
 endline
 
-point -1564.0 -1848.5 air-draught -orientation 61.8
+point -1571.5 -1851.5 air-draught -orientation 61.8
 
 point -1497.0 -1996.0 air-draught -orientation 309.1
 
@@ -1606,7 +1613,7 @@ point -1613.0 -1959.5 label -text tt -scale m
 
 point -1487.0 -2032.5 label -text p1 -scale m
 
-point -1453.0 -1821.0 label -text p9 -scale m
+point -1455.5 -1833.5 label -text p9 -scale m
 
 point -1459.0 -1875.5 label -text p10 -scale m
 
@@ -1821,7 +1828,7 @@ line rock-border -close on
   473.0 -1247.0
 endline
 
-point 517.0 -1264.0 air-draught -orientation 182.4
+point 545.5 -1007.5 air-draught -orientation 190.8
 
 line pit
   468.0 -1397.0

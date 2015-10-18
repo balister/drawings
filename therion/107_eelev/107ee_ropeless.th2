@@ -14,9 +14,9 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {-250 1 1.0} {1900 {}} ../../../sshot_kor_chi.png 0 {}
 ##XTHERION## xth_me_image_insert {800 1 1.0} {2000 {}} ../../../sshot_below_kor.png 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {2032 {}} {../../../expoimages/surveyscans/2015/2015#46-107 Heat Recovery Ventilation/elev.png} 0 {}
-##XTHERION## xth_me_image_insert {1000 1 1.0} {0 {}} ../../../../Pictures//SurveyScansHertford/olly364.bmp.png 0 {}
 ##XTHERION## xth_me_image_insert {-1500 1 1.0} {500 {}} ../../../../Pictures//SurveyScansHertford/olly366_rot.png 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../../Pictures//SurveyScansHertford/olly362_rot.png 0 {}
+##XTHERION## xth_me_image_insert {1000 1 1.0} {0 {}} ../../../../Pictures//SurveyScansHertford/olly364.bmp.png 0 {}
 
 
 
@@ -83,8 +83,8 @@ line wall
   901.0 -3064.0 899.0 -3056.0 878.0 -3059.0
   857.0 -3062.0 821.0 -3071.0 810.0 -3071.0
   799.0 -3071.0 782.0 -3065.0 770.0 -3066.0
-  758.0 -3067.0 701.0 -3097.0 670.0 -3100.0
-  639.0 -3103.0 595.0 -3097.0 575.0 -3098.0
+  758.0 -3067.0 702.0 -3098.5 671.0 -3101.5
+  640.0 -3104.5 595.0 -3097.0 575.0 -3098.0
   555.0 -3099.0 500.0 -3092.0 483.0 -3092.0
   466.0 -3092.0 444.0 -3069.0 444.0 -3069.0
   smooth off
@@ -123,7 +123,7 @@ endline
 
 point 993.0 -2979.0 label -text "10. Coldest Place in Earth" -scale xl
 
-point 746.0 -3364.0 label -text "COLDEST PLACE IN EARTH" -scale xl
+point 791.0 -2800.0 label -text "COLDEST PLACE IN EARTH" -scale xl
 
 line border -id l235-1252--3341
   1282.0 -3340.0
@@ -187,8 +187,8 @@ line wall
   616.0 -3176.0 612.0 -3167.0 622.0 -3165.0
   632.0 -3163.0 646.0 -3161.0 664.0 -3154.0
   682.0 -3147.0 691.0 -3149.0 718.0 -3137.0
-  745.0 -3125.0 757.0 -3113.0 775.0 -3113.0
-  793.0 -3113.0 797.0 -3114.0 818.0 -3114.0
+  745.0 -3125.0 761.0 -3114.5 779.0 -3114.5
+  797.0 -3114.5 797.0 -3114.0 818.0 -3114.0
   839.0 -3114.0 835.0 -3116.0 859.0 -3114.0
   883.0 -3112.0 916.0 -3110.0 919.0 -3116.0
   922.0 -3122.0 931.0 -3132.0 936.0 -3139.0
@@ -539,11 +539,15 @@ line wall -subtype debris
   smooth off
 endline
 
-line wall
+line wall -subtype clay
   988.0 593.0
-  1004.0 593.0 1023.0 594.0 1046.0 591.0
-  1069.0 588.0 1103.0 590.0 1115.0 587.0
-  1127.0 584.0 1145.0 584.0 1165.0 585.0
+  1004.0 593.0 1016.0 597.0 1039.0 594.0
+  1062.0 591.0 1097.52 596.59 1109.0 592.0
+  1129.0 584.0 1145.0 584.0 1165.0 585.0
+endline
+
+line wall -subtype debris
+  1165.0 585.0
   1185.0 586.0 1204.0 590.0 1212.0 587.0
   1220.0 584.0 1244.0 580.0 1244.0 580.0
   smooth off
@@ -1890,13 +1894,30 @@ endscrap
 
 scrap s_restless_ee -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
 
-line wall
+line rock-edge
+  2617.0 -478.0
+  2604.0 -477.5
+  2591.0 -468.5
 endline
 
-line wall -subtype presumed
-  2945.0 -618.5
-  2944.0 -630.0 2945.27 -742.88 2946.0 -756.0
-  smooth off
+line rock-edge
+  2599.5 -485.0
+  2604.0 -477.5
+  2598.0 -463.0
+endline
+
+line rock-edge
+  2604.5 -444.5
+  2589.0 -434.0
+  2575.0 -438.0
+endline
+
+line rock-edge
+  2589.0 -434.0
+  2593.5 -413.0
+endline
+
+line wall
 endline
 
 line pit
@@ -1978,19 +1999,13 @@ endline
 point 1906.0 -511.0 label -text "13. Rift Pitch" -scale xl
 
 line arrow
-  2670.0 -797.0
+  2604.0 -773.5
   2768.0 -586.0
 endline
 
-point 2654.0 -828.0 label -text "14. Too Bold For This Spit" -scale xl
+point 2590.0 -820.0 label -text "14. Too Bold For This Spit" -scale xl
 
 point 2902.0 -678.0 water-flow -orientation 176.3
-
-line wall -subtype presumed
-  2789.0 -615.0
-  2795.0 -653.0
-  2796.0 -763.0
-endline
 
 line wall -subtype debris
   2473.0 -567.0
@@ -2000,7 +2015,7 @@ line wall -subtype debris
   2660.0 -551.0 2680.0 -567.0 2693.0 -568.0
   2706.0 -569.0 2716.0 -589.0 2724.0 -590.0
   2732.0 -591.0 2760.0 -601.0 2766.0 -603.0
-  2772.0 -605.0 2789.0 -615.0 2789.0 -615.0
+  2772.0 -605.0 2826.0 -610.0 2826.0 -610.0
   smooth off
 endline
 
@@ -2161,20 +2176,11 @@ line rock-border -close on
   2754.0 -537.0
 endline
 
-line wall
-  2945.0 -618.5
-  2947.0 -610.5 2946.0 -608.5 2950.5 -602.5
-  2955.0 -596.5 2956.5 -587.5 2962.0 -587.0
-  2967.5 -586.5 2976.0 -586.0 2979.0 -586.0
-  smooth off
-endline
-
 line wall -subtype presumed
-  2949.0 -373.0
-  2948.0 -383.0 2944.5 -387.0 2944.5 -394.5
-  2944.5 -402.0 2940.0 -412.5 2947.0 -421.0
-  2954.0 -429.5 2947.5 -433.5 2961.0 -436.0
-  2974.5 -438.5 2980.0 -433.0 2980.0 -433.0
+  2946.0 -333.5
+  2945.0 -343.5 2943.0 -376.5 2943.0 -384.0
+  2943.0 -391.5 2938.0 -406.0 2944.5 -418.0
+  2949.75 -427.69 2948.5 -431.0 2961.0 -436.0
   smooth off
 endline
 
@@ -2295,8 +2301,6 @@ point 2671.0 -528.0 station -name 0801.8
 
 point 2765.0 -568.0 station -name 0801.7
 
-point 2979.0 -565.0 station -name 0801.6
-
 endscrap
 
 
@@ -2304,6 +2308,8 @@ endscrap
 scrap hrv -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
 
 point 162.0 1500.5 station -name hrv.2
+
+point 126.0 1510.0 air-draught -orientation 273.2
 
 point 63.5 1498.5 station -name hrv.1
 
@@ -2333,6 +2339,8 @@ line wall
   745.0 1586.5 742.0 1550.0 743.0 1543.5
   smooth off
 endline
+
+point 242.5 1425.5 label -text tt -scale m
 
 line wall
   101.5 1430.0
@@ -2471,8 +2479,6 @@ point 539.0 1575.0 air-draught -orientation 258.5
 
 point 731.0 1634.5 air-draught -orientation 237.9
 
-point 372.5 1458.5 station -name hrv.4
-
 point 172.0 1636.0 station -name notwindow.1
 
 point 159.0 1633.5 station -name hrv.22
@@ -2510,6 +2516,58 @@ point 307.5 1504.5 station -name hrv.8
 point 251.5 1498.0 station -name hrv.7
 
 point 239.0 1495.0 station -name hrv.6
+
+endscrap
+
+
+
+scrap hrv_2 -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+line wall -reverse on -subtype presumed -outline in
+  405.0 1380.0
+  410.5 1378.0 435.5 1375.5 431.5 1388.5
+endline
+
+line wall -subtype presumed
+  376.0 1375.5
+  377.0 1320.5 374.47 1303.73 415.0 1297.5
+endline
+
+line wall -reverse on -subtype presumed
+  472.0 1384.0
+  484.0 1377.0
+endline
+
+line wall -reverse on
+  218.5 1524.0
+  232.5 1521.5 452.55 1469.05 461.0 1461.0
+  470.78 1451.68 466.35 1401.3 467.0 1393.5
+  467.5 1387.5 468.05 1388.94 472.0 1384.0
+endline
+
+line wall -reverse on
+  376.0 1375.5
+  376.5 1381.5 377.08 1388.23 374.5 1389.0
+  369.5 1390.5 346.0 1400.0 343.0 1401.5
+  340.0 1403.0 338.13 1412.63 334.5 1412.5
+  321.0 1412.0 245.0 1442.0 228.0 1440.5
+endline
+
+line wall -reverse on -outline in
+  431.5 1388.5
+  424.0 1388.5 393.5 1395.5 405.0 1380.0
+endline
+
+line pit -clip off
+  373.5 1430.5
+  351.0 1430.5 301.5 1445.5 289.5 1449.0
+  277.5 1452.5 247.0 1461.0 232.0 1464.0
+  217.0 1467.0 161.0 1474.0 154.0 1472.5
+endline
+
+point 219.0 1489.0 station -name hrv.3
+
+point 372.5 1458.5 station -name hrv.4
 
 endscrap
 

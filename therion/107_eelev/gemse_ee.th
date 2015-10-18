@@ -6,6 +6,7 @@ import ../../../loser/caves/107/107.3d -surveys use
 #survey all
 survey 107
  centerline
+
   extend ignore ext.10 oldrift.19
   extend ignore ropelessconn.1 0805.5
   extend ignore unnamed.9 0805.2
@@ -17,6 +18,7 @@ survey 107
   extend ignore ropeless.27 ropeless.26
   extend ignore ropeless.27 ropeless.38
   extend ignore china.29 china.27
+  extend ignore china.6 china.14
   extend ignore smoothbottom2.28 smoothbottom2.27
   extend left ropefree.1 # from station 5 - extend to the right
   extend left ropefree.2 # from station 5 - extend to the right
@@ -50,8 +52,14 @@ survey 107
    extend right notwindow.2
     extend right hrv.2
     extend left hrv.21
-    extend right smoothbottom.1
-    
+    extend left smoothbottom.china4
+    extend left smoothbottom.1
+    extend right smoothbottom.2
+    extend vertical poppedacross.9 poppedacross.8
+    extend vertical 0801.7 0801.6
+    extend vertical 0801.6 0801.5
+    extend vertical 0801.5 poppedacross.11 
+    extend right poppedacross.0 
  
 ##   extend left china.19
 ##    extend left china.27
@@ -61,19 +69,26 @@ survey 107
 
   input 107ee_ropeless.th2
 input 107ee_china_new.th2
+input 107ee_oldroute.th2
 #used for post-2013 elevation, no longer used
 # input 107ee_china.th2
  
- join s_ent_ee s_rampytop_ee
- join s_rampytop_ee s_ropelessw_ee
- join s_ropelessw_ee s_ropelesse_ee
+join s_ent_ee s_rampytop_ee
+join s_rampytop_ee s_ropelessw_ee
+join s_ropelessw_ee s_ropelesse_ee
 join s_ropelesse_ee s_ropefreew_ee
 join s_ropefree_ee s_ropefreew_ee
 join  s_sleepless_ee s_ropefree_ee
 join s_sleepless_ee s_cold_ee
 join s_cold_ee s_cold2_ee
 join s_cold2_ee s_restless_ee
-join nipped_down popped_across
+join s_restless_ee popped_across
+join popped_across nipped_down
+join nipped_down s_china_ee
+join s_china_ee tibet
+join s_china_ee SSB
+
+join bottom big_rift
 
 #used for post-2013 elevation, no longer used
 ##join s_restless_ee s_bolde_ee
