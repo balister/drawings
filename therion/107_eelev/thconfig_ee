@@ -3,11 +3,12 @@ source gemse_ee.th
 
 layout gemse
   map-header 100 100 ne
-  symbol-set UIS 
+#  symbol-set UIS 
 #debug on
   legend on
 #  colour map-fg [scrap]
-  colour map-fg [80]
+  colour map-fg [90]
+ # colour map-fg [altitude]
 
 symbol-show point station
 symbol-show group cave-centreline
@@ -25,12 +26,17 @@ code tex-map
  
   code metapost
      fonts_setup(7,10,14,20,26); 
-     let l_floorstep = l_ceilingstep_UIS;
-     let l_pit = l_ceilingstep_UIS;
+#     let l_floorstep = l_ceilingstep_UIS;
+ #    let l_pit = l_ceilingstep_UIS;
      let p_clay = p_flowstone_UIS;
      let l_wall_debris = l_wall_debris_AUT;
      let l_wall_blocks = l_wall_blocks_AUT;
- 
+     
+   def l_survey_cave (expr p) =
+    pickup PenC;
+    draw p withcolor 1.5red;
+  enddef;
+  
       beginpattern(pattern_water);
       draw origin--10up withpen pensquare scaled (0.03u); % line thickness
       patternxstep(.3u);                                 % spacing
@@ -42,6 +48,7 @@ code tex-map
     T:=identity;
     thclean Path;
     pickup PenD;
+    thfill Path withcolor (0.1, 0.2, 0.8);
     thfill Path withpattern pattern_water; 
   enddef;
     
@@ -59,8 +66,10 @@ code tex-map
 
     def a_clay (expr p) =
         T:=identity;
+        thfill p withcolor (0.8,0.5,0.3);
         thfill p withpattern pattern_mud;
     enddef;
+    
   beginpattern(pattern_sand);
     pickup PenC;
     p:= origin -- (0.01u,0.01u);
@@ -82,6 +91,24 @@ code tex-map
     T:=identity;
     thfill Path withpattern pattern_sand ;
   enddef;
+  
+ def  l_wall_clay (expr P) = 
+   T:=identity;
+  cas := 0;
+  dlzka := arclength P;
+  mojkrok:=adjust_step(dlzka, .9u);
+  pickup PenC;
+  p := (-.2u,0)--(.2u,0);
+  forever:
+ #   t := arctime (cas + mojkrok/2) of P;
+    t := arctime cas of P;
+    thdraw p shifted (point t of P + .35u * unitvector(thdir(P,t) rotated -90));
+    cas := cas + mojkrok;
+    exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
+  endfor;
+  pickup PenA;  
+  thdraw P;
+ enddef; 
    endcode
 
 

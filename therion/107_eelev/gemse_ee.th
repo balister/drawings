@@ -11,9 +11,19 @@ survey 107
   extend ignore ropelessconn.1 0805.5
   extend ignore unnamed.9 0805.2
   extend ignore oldrift.12 oldroute2.2
-  extend ignore ropeless.16 0805.3
+ # extend ignore ropeless.16 0805.3
+ extend ignore  ropelessconn.1 0805.5
+ extend ignore  0805.5 0805.6
+ extend ignore  oldriftconn.1 oldriftconn.2
+ extend ignore oldroute2.3 oldroute2.2
   extend ignore oldrift.splay oldroute4.16
-  extend ignore oldrift.17 oldrift.18
+  extend ignore oldrift.17 oldrift.18 #dont think we want this, but removing it makes hte pdf crash
+ extend ignore oldroute2.17 oldrift.17
+ #exted oldroute3.20 oldroute3.9
+ extend vertical oldroute3.19 oldroute3.20
+ #extend ignore oldrift.17 oldroute2.17
+#extend ignore oldroute2.17 oldroute2.18 #oldroute2.18 ==oldrift.17
+#extend ignore oldrift.16 oldrift.17
   extend ignore ropeless.12 0805.13
   extend ignore ropeless.27 ropeless.26
   extend ignore ropeless.27 ropeless.38
@@ -24,6 +34,10 @@ survey 107
   extend left ropefree.2 # from station 5 - extend to the right
   extend left ropefree.3 # from station 5 - extend to the right
   extend right ropefree.4 # from station 5 - extend to the right
+  extend left oldroute2.16
+  extend right oldroute3.18
+  extend left oldroute3.13
+  extend left oldroute3.23
  #     extend left ent.13
  #     extend left ent.14
       extend left ent.15
@@ -73,22 +87,22 @@ input 107ee_oldroute.th2
 #used for post-2013 elevation, no longer used
 # input 107ee_china.th2
  
-join s_ent_ee s_rampytop_ee
-join s_rampytop_ee s_ropelessw_ee
-join s_ropelessw_ee s_ropelesse_ee
-join s_ropelesse_ee s_ropefreew_ee
-join s_ropefree_ee s_ropefreew_ee
-join  s_sleepless_ee s_ropefree_ee
-join s_sleepless_ee s_cold_ee
-join s_cold_ee s_cold2_ee
-join s_cold2_ee s_restless_ee
-join s_restless_ee popped_across
-join popped_across nipped_down
-join nipped_down s_china_ee
-join s_china_ee tibet
-join s_china_ee SSB
+#join s_ent_ee s_rampytop_ee
+#join s_rampytop_ee s_ropelessw_ee
+#join s_ropelessw_ee s_ropelesse_ee
+#join s_ropelesse_ee s_ropefreew_ee
+#join s_ropefree_ee s_ropefreew_ee
+#join  s_sleepless_ee s_ropefree_ee
+#join s_sleepless_ee s_cold_ee
+#join s_cold_ee s_cold2_ee
+#join s_cold2_ee s_restless_ee
+#join s_restless_ee popped_across
+#join popped_across nipped_down
+#join nipped_down s_china_ee
+#join s_china_ee tibet
+#join s_china_ee SSB
 
-join bottom big_rift
+#join bottom big_rift
 
 #used for post-2013 elevation, no longer used
 ##join s_restless_ee s_bolde_ee
