@@ -88,16 +88,20 @@ join SSB_north SSB_south
 
 endsurvey
 
-survey 83
-input 83.th2
-endsurvey
+map 107eelev -title "107 centreline" -projection plan
+  107 #centreline survey
+endmap
 
-survey 161
-input 161.th2
-join pissup bundes
-endsurvey
 
-join pissup@161 loc_avenwarp@107
-endsurvey
+map main_eelev2 -title "107 Extended Elevation" 
+  tubular@107oldroute
+  tubular2
+  uphill_2
+endmap
+
+map all.map 
+  107eelev
+  main_eelev2
+endmap
 #!ENDCODE
-
+endsurvey
