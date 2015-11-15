@@ -111,6 +111,7 @@ endline
 line wall -subtype debris
   941.0 -1055.0
   998.0 -1033.0 986.66 -1020.04 1036.0 -984.0
+  smooth off
 endline
 
 line wall
@@ -534,6 +535,7 @@ line wall
   2850.0 -1493.0 2886.0 -1481.0 2896.0 -1477.0
   2906.0 -1473.0 2915.0 -1474.0 2922.0 -1465.0
   2929.0 -1456.0 2952.0 -1420.0 2957.0 -1396.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -644,6 +646,7 @@ endline
 line wall -subtype debris
   1005.0 -1324.0
   1005.0 -1324.0 1064.0 -1323.0 1075.0 -1335.0
+  smooth off
 endline
 
 line wall -reverse on -subtype sand
@@ -671,6 +674,7 @@ line wall
   1094.63 -1228.08 1060.0 -1154.0 1026.0 -1136.0
   980.94 -1112.14 870.0 -1077.0 845.0 -1065.0
   799.08 -1042.96 715.0 -931.0 700.0 -914.0
+  smooth off
 endline
 
 point 729.0 -1106.0 station -name smoothbottom2.26
@@ -779,6 +783,7 @@ line wall
   1550.0 1614.0 1560.0 1604.0 1555.0 1600.0
   1550.0 1596.0 1535.0 1597.0 1526.0 1588.0
   1517.0 1579.0 1479.0 1545.0 1461.0 1540.0
+  smooth off
 endline
 
 point 1581.0 1308.0 station -name nippeddown.2
@@ -916,7 +921,17 @@ line rock-border -close on
   -440.0 594.0
 endline
 
-line rock-border -close on
+line pit
+  -194.0 549.0
+  -209.0 545.0 -277.0 530.0 -300.0 535.0
+endline
+
+line pit
+  -77.0 585.0
+  -93.0 581.0 -139.0 579.0 -152.0 578.0
+endline
+
+line wall -close on -reverse on -outline in
   -264.0 833.0
   -287.0 824.0 -369.0 800.0 -374.0 786.0
   -379.0 772.0 -385.0 692.0 -368.0 672.0
