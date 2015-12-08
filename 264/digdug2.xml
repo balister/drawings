@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2015-12-08 10:04:35">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2015-12-08 11:22:42">
 <sketch splined="0" locoffsetx="411188.16" locoffsety="5281816.5" locoffsetz="1656.297" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -2205,11 +2205,6 @@
 		<pt X="6221.7163" Y="-15328.009"/>
 		<pt X="6217.8306" Y="-15336.176"/>
 	</skpath>
-	<skpath from="207" to="208" linestyle="invisible" splined="1">
-		<importfrom subname="digdugsouth"/>
-		<pt X="6217.8306" Y="-15336.176"/>
-		<pt X="6239.845" Y="-15343.935"/>
-	</skpath>
 	<skpath from="208" to="209" linestyle="wall" splined="1">
 		<importfrom subname="digdugsouth"/>
 		<pt X="6239.845" Y="-15343.935"/>
@@ -2672,6 +2667,1898 @@
 		</pathcodes>
 		<pt X="6040.5723" Y="-15264.922"/>
 		<pt X="6075.2344" Y="-15222.39"/>
+	</skpath>
+	<skpath from="208" to="207" linestyle="detail">
+		<pt X="6239.845" Y="-15343.935"/>
+		<pt X="6238.3643" Y="-15339.642"/>
+		<pt X="6235.496" Y="-15334.767"/>
+		<pt X="6232.1978" Y="-15333.332"/>
+		<pt X="6229.9033" Y="-15334.767"/>
+		<pt X="6227.1787" Y="-15332.615"/>
+		<pt X="6224.024" Y="-15333.763"/>
+		<pt X="6217.8306" Y="-15336.176"/>
+	</skpath>
+	<skpath from="207" to="208" linestyle="detail">
+		<pt X="6217.8306" Y="-15336.176"/>
+		<pt X="6222.7334" Y="-15341.649"/>
+		<pt X="6222.877" Y="-15345.808"/>
+		<pt X="6230.1904" Y="-15347.959"/>
+		<pt X="6232.3413" Y="-15345.665"/>
+		<pt X="6235.9263" Y="-15345.808"/>
+		<pt X="6239.845" Y="-15343.935"/>
+	</skpath>
+	<skpath from="243" to="243" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.160324" sfrotatedeg="-3.663498" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="411802.5715018283" sfytrans="-5283408.813456518" sfsketch="surveyscans/2015/2015#09-264_Dig_Dug/plan2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="3307" sfpixheight="2338">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6144.215" Y="-15924.135"/>
+		<pt X="7188.4883" Y="-15857.272"/>
+		<pt X="7139.7764" Y="-15118.512"/>
+		<pt X="6095.469" Y="-15186.553"/>
+		<pt X="6144.215" Y="-15924.135"/>
+	</skpath>
+	<skpath from="243" to="38" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6144.215" Y="-15924.135"/>
+		<pt X="6208.131" Y="-15494.589" Z="1923.9305"/>
+	</skpath>
+	<skpath from="244" to="29" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="5597.001" Y="-15951.494"/>
+		<pt X="6225.0312" Y="-15453.488" Z="1926.0304"/>
+	</skpath>
+	<skpath from="244" to="244" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.1428854" sfrotatedeg="-3.0705135" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="411747.85009335564" sfytrans="-5283411.549409434" sfsketch="surveyscans/2015/2015#09-264_Dig_Dug/plan2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="3307" sfpixheight="2338">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="5597.001" Y="-15951.494"/>
+		<pt X="6647.708" Y="-15895.132"/>
+		<pt X="6605.767" Y="-15150.916"/>
+		<pt X="5554.8223" Y="-15209.512"/>
+		<pt X="5597.001" Y="-15951.494"/>
+	</skpath>
+	<skpath from="245" to="245" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.137666" sfrotatedeg="-1.9132934" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="411796.567014623" sfytrans="-5283416.951208189" sfsketch="surveyscans/2015/2015#29-264/plan1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1653" sfpixheight="2338">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6084.17" Y="-16005.512"/>
+		<pt X="6610.701" Y="-15987.923"/>
+		<pt X="6578.3623" Y="-15240.452"/>
+		<pt X="6051.492" Y="-15261.734"/>
+		<pt X="6084.17" Y="-16005.512"/>
+	</skpath>
+	<skpath from="245" to="69" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6084.17" Y="-16005.512"/>
+		<pt X="6228.131" Y="-15771.289" Z="1988.9305"/>
+	</skpath>
+	<skpath from="246" to="247" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6478.8345" Y="-15604.734"/>
+		<pt X="6459.5483" Y="-15610.916"/>
+		<pt X="6449.642" Y="-15614.409"/>
+		<pt X="6441.074" Y="-15613.074"/>
+	</skpath>
+	<skpath from="247" to="248" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6441.074" Y="-15613.074"/>
+		<pt X="6429.748" Y="-15607.443"/>
+		<pt X="6423.7944" Y="-15603.68"/>
+	</skpath>
+	<skpath from="248" to="249" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6423.7944" Y="-15603.68"/>
+		<pt X="6412.1973" Y="-15602.855"/>
+		<pt X="6383.9805" Y="-15606.616"/>
+		<pt X="6368.126" Y="-15607.423"/>
+		<pt X="6354.1523" Y="-15609.304"/>
+	</skpath>
+	<skpath from="249" to="250" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6354.1523" Y="-15609.304"/>
+		<pt X="6318.681" Y="-15607.691"/>
+		<pt X="6300.1294" Y="-15606.35"/>
+		<pt X="6296.6274" Y="-15603.384"/>
+	</skpath>
+	<skpath from="250" to="251" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6296.6274" Y="-15603.384"/>
+		<pt X="6296.403" Y="-15596.653"/>
+		<pt X="6294.819" Y="-15594.233"/>
+	</skpath>
+	<skpath from="251" to="252" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6294.819" Y="-15594.233"/>
+		<pt X="6285.726" Y="-15591.836"/>
+		<pt X="6264.4985" Y="-15589.687"/>
+	</skpath>
+	<skpath from="252" to="253" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6264.4985" Y="-15589.687"/>
+		<pt X="6256.4326" Y="-15592.911"/>
+		<pt X="6245.3906" Y="-15598.552"/>
+		<pt X="6239.462" Y="-15601.772"/>
+		<pt X="6230.8403" Y="-15606.067"/>
+		<pt X="6226.2725" Y="-15609.814"/>
+	</skpath>
+	<skpath from="254" to="255" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6226.778" Y="-15679.172"/>
+		<pt X="6233.7646" Y="-15695.295"/>
+		<pt X="6240.483" Y="-15711.687"/>
+		<pt X="6242.9023" Y="-15726.733"/>
+		<pt X="6243.71" Y="-15735.331"/>
+		<pt X="6243.9966" Y="-15749.015"/>
+		<pt X="6242.399" Y="-15755.18"/>
+	</skpath>
+	<skpath from="255" to="256" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6242.399" Y="-15755.18"/>
+		<pt X="6253.998" Y="-15755.407"/>
+		<pt X="6262.6206" Y="-15757.268"/>
+		<pt X="6268.004" Y="-15762.905"/>
+		<pt X="6270.961" Y="-15768.82"/>
+	</skpath>
+	<skpath from="256" to="257" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6270.961" Y="-15768.82"/>
+		<pt X="6268.8003" Y="-15781.206"/>
+		<pt X="6263.693" Y="-15796.004"/>
+		<pt X="6262.349" Y="-15808.378"/>
+		<pt X="6260.199" Y="-15816.986"/>
+		<pt X="6260.2095" Y="-15827.223"/>
+		<pt X="6260.257" Y="-15834.287"/>
+		<pt X="6259.118" Y="-15846.402"/>
+	</skpath>
+	<skpath from="257" to="258" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6259.118" Y="-15846.402"/>
+		<pt X="6268.6265" Y="-15864.097"/>
+	</skpath>
+	<skpath from="259" to="260" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6230.3154" Y="-15844.967"/>
+		<pt X="6219.251" Y="-15853.796"/>
+		<pt X="6201.772" Y="-15861.503"/>
+		<pt X="6184.0107" Y="-15862.185"/>
+		<pt X="6174.857" Y="-15860.233"/>
+	</skpath>
+	<skpath from="260" to="261" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6174.857" Y="-15860.233"/>
+		<pt X="6163.826" Y="-15860.656"/>
+		<pt X="6153.8647" Y="-15858.935"/>
+	</skpath>
+	<skpath from="261" to="262" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6153.8647" Y="-15858.935"/>
+		<pt X="6146.871" Y="-15841.459"/>
+		<pt X="6144.7446" Y="-15825.131"/>
+		<pt X="6147.2046" Y="-15811.543"/>
+		<pt X="6152.086" Y="-15799.851"/>
+		<pt X="6162.8774" Y="-15792.725"/>
+		<pt X="6174.9995" Y="-15785.555"/>
+		<pt X="6191.136" Y="-15780.208"/>
+		<pt X="6198.9307" Y="-15778.06"/>
+	</skpath>
+	<skpath from="262" to="263" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6198.9307" Y="-15778.06"/>
+		<pt X="6200.81" Y="-15770.804"/>
+		<pt X="6204.826" Y="-15765.163"/>
+		<pt X="6212.293" Y="-15765.169"/>
+	</skpath>
+	<skpath from="263" to="264" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6212.293" Y="-15765.169"/>
+		<pt X="6220.054" Y="-15765.705"/>
+	</skpath>
+	<skpath from="264" to="265" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6220.054" Y="-15765.705"/>
+		<pt X="6221.6724" Y="-15756.025"/>
+		<pt X="6221.6724" Y="-15731.303"/>
+		<pt X="6213.88" Y="-15709.807"/>
+	</skpath>
+	<skpath from="265" to="266" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6213.88" Y="-15709.807"/>
+		<pt X="6208.506" Y="-15718.675"/>
+		<pt X="6203.4" Y="-15722.706"/>
+		<pt X="6195.606" Y="-15726.467"/>
+		<pt X="6186.2" Y="-15727.536"/>
+		<pt X="6181.6333" Y="-15724.576"/>
+	</skpath>
+	<skpath from="266" to="267" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6181.6333" Y="-15724.576"/>
+		<pt X="6175.719" Y="-15728.333"/>
+	</skpath>
+	<skpath from="267" to="268" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6175.719" Y="-15728.333"/>
+		<pt X="6171.424" Y="-15722.149"/>
+	</skpath>
+	<skpath from="268" to="269" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6171.424" Y="-15722.149"/>
+		<pt X="6176.535" Y="-15716.241"/>
+		<pt X="6176.27" Y="-15713.016"/>
+	</skpath>
+	<skpath from="269" to="270" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6176.27" Y="-15713.016"/>
+		<pt X="6175.481" Y="-15703.067"/>
+		<pt X="6170.389" Y="-15694.193"/>
+		<pt X="6165.565" Y="-15684.244"/>
+		<pt X="6156.9717" Y="-15673.486"/>
+		<pt X="6149.98" Y="-15664.346"/>
+		<pt X="6148.6313" Y="-15659.51"/>
+	</skpath>
+	<skpath from="270" to="271" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6148.6313" Y="-15659.51"/>
+		<pt X="6137.3193" Y="-15652.803"/>
+		<pt X="6131.39" Y="-15642.611"/>
+		<pt X="6129.5015" Y="-15628.113"/>
+		<pt X="6132.7256" Y="-15618.709"/>
+		<pt X="6135.6816" Y="-15612.528"/>
+	</skpath>
+	<skpath from="272" to="273" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6158.0503" Y="-15663.008"/>
+		<pt X="6165.306" Y="-15673.496"/>
+		<pt X="6173.6245" Y="-15686.137"/>
+	</skpath>
+	<skpath from="273" to="274" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6173.6245" Y="-15686.137"/>
+		<pt X="6177.4175" Y="-15669.482"/>
+		<pt X="6175.812" Y="-15661.15"/>
+	</skpath>
+	<skpath from="274" to="275" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6175.812" Y="-15661.15"/>
+		<pt X="6180.3857" Y="-15657.933"/>
+		<pt X="6183.865" Y="-15651.752"/>
+	</skpath>
+	<skpath from="275" to="276" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6183.865" Y="-15651.752"/>
+		<pt X="6185.9355" Y="-15636.92"/>
+		<pt X="6185.9336" Y="-15627.763"/>
+		<pt X="6181.365" Y="-15617.557"/>
+		<pt X="6175.723" Y="-15606.018"/>
+	</skpath>
+	<skpath from="276" to="277" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6175.723" Y="-15606.018"/>
+		<pt X="6183.2456" Y="-15607.079"/>
+		<pt X="6191.0376" Y="-15613.79"/>
+	</skpath>
+	<skpath from="270" to="272" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6148.6313" Y="-15659.51"/>
+		<pt X="6158.0503" Y="-15663.008"/>
+	</skpath>
+	<skpath from="272" to="274" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6158.0503" Y="-15663.008"/>
+		<pt X="6166.3906" Y="-15664.36"/>
+		<pt X="6175.812" Y="-15661.15"/>
+	</skpath>
+	<skpath from="274" to="278" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6175.812" Y="-15661.15"/>
+		<pt X="6171.2236" Y="-15672.158"/>
+	</skpath>
+	<skpath from="275" to="279" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6183.865" Y="-15651.752"/>
+		<pt X="6185.49" Y="-15665.465"/>
+		<pt X="6190.8438" Y="-15677.295"/>
+		<pt X="6200.998" Y="-15687.506"/>
+	</skpath>
+	<skpath from="280" to="277" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6191.5146" Y="-15636.584"/>
+		<pt X="6189.407" Y="-15621.913"/>
+		<pt X="6191.0376" Y="-15613.79"/>
+	</skpath>
+	<skpath from="279" to="281" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6200.998" Y="-15687.506"/>
+		<pt X="6197.1133" Y="-15667.364"/>
+	</skpath>
+	<skpath from="246" to="282" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6478.8345" Y="-15604.734"/>
+		<pt X="6475.0605" Y="-15593.962"/>
+	</skpath>
+	<skpath from="282" to="283" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6475.0605" Y="-15593.962"/>
+		<pt X="6458.794" Y="-15598.3955"/>
+		<pt X="6444.462" Y="-15599.807"/>
+	</skpath>
+	<skpath from="283" to="284" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6444.462" Y="-15599.807"/>
+		<pt X="6436.067" Y="-15592.885"/>
+		<pt X="6427.3433" Y="-15589.168"/>
+	</skpath>
+	<skpath from="284" to="285" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6427.3433" Y="-15589.168"/>
+		<pt X="6415.8286" Y="-15589.172"/>
+		<pt X="6393.127" Y="-15592.01"/>
+		<pt X="6377.1655" Y="-15591.655"/>
+		<pt X="6362.6226" Y="-15588.285"/>
+		<pt X="6355.175" Y="-15584.739"/>
+		<pt X="6345.246" Y="-15581.547"/>
+	</skpath>
+	<skpath from="285" to="286" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6345.246" Y="-15581.547"/>
+		<pt X="6342.4097" Y="-15583.498"/>
+		<pt X="6336.73" Y="-15593.074"/>
+		<pt X="6327.684" Y="-15598.218"/>
+		<pt X="6321.6562" Y="-15597.864"/>
+		<pt X="6310.1704" Y="-15596.811"/>
+	</skpath>
+	<skpath from="286" to="287" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6310.1704" Y="-15596.811"/>
+		<pt X="6313.7534" Y="-15593.265"/>
+		<pt X="6314.6694" Y="-15588.645"/>
+	</skpath>
+	<skpath from="287" to="288" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6314.6694" Y="-15588.645"/>
+		<pt X="6311.825" Y="-15586.511"/>
+		<pt X="6295.504" Y="-15585.093"/>
+		<pt X="6280.073" Y="-15582.077"/>
+		<pt X="6262.515" Y="-15581.19"/>
+	</skpath>
+	<skpath from="288" to="289" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6262.515" Y="-15581.19"/>
+		<pt X="6256.1294" Y="-15583.852"/>
+		<pt X="6239.617" Y="-15594.128"/>
+		<pt X="6233.3945" Y="-15599.088"/>
+	</skpath>
+	<skpath from="65" to="280" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6193.4316" Y="-15640.089" Z="1951.0304"/>
+		<pt X="6191.5146" Y="-15636.584"/>
+	</skpath>
+	<skpath from="280" to="33" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6191.5146" Y="-15636.584"/>
+		<pt X="6191.131" Y="-15633.289" Z="1984.2305"/>
+	</skpath>
+	<skpath from="290" to="291" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6222.4985" Y="-15621.78"/>
+		<pt X="6225.3003" Y="-15639.126"/>
+		<pt X="6228.224" Y="-15650.137"/>
+	</skpath>
+	<skpath from="291" to="290" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6228.224" Y="-15650.137"/>
+		<pt X="6229.866" Y="-15636.433"/>
+		<pt X="6230.3374" Y="-15630.574"/>
+		<pt X="6227.296" Y="-15626.002"/>
+		<pt X="6222.4985" Y="-15621.78"/>
+	</skpath>
+	<skpath from="290" to="292" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6222.4985" Y="-15621.78"/>
+		<pt X="6224.619" Y="-15613.818"/>
+	</skpath>
+	<skpath from="292" to="290" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6224.619" Y="-15613.818"/>
+		<pt X="6212.548" Y="-15615.45"/>
+		<pt X="6213.599" Y="-15621.305"/>
+		<pt X="6219.805" Y="-15622.48"/>
+		<pt X="6222.4985" Y="-15621.78"/>
+	</skpath>
+	<skpath from="247" to="63" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6441.074" Y="-15613.074"/>
+		<pt X="6442.0312" Y="-15605.689" Z="2023.5304"/>
+	</skpath>
+	<skpath from="63" to="283" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6442.0312" Y="-15605.689" Z="2023.5304"/>
+		<pt X="6444.462" Y="-15599.807"/>
+	</skpath>
+	<skpath from="248" to="62" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6423.7944" Y="-15603.68"/>
+		<pt X="6427.5312" Y="-15592.389" Z="2014.4305"/>
+	</skpath>
+	<skpath from="62" to="284" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6427.5312" Y="-15592.389" Z="2014.4305"/>
+		<pt X="6427.3433" Y="-15589.168"/>
+	</skpath>
+	<skpath from="246" to="64" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6478.8345" Y="-15604.734"/>
+		<pt X="6475.4316" Y="-15599.589" Z="2037.3304"/>
+	</skpath>
+	<skpath from="249" to="61" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6354.1523" Y="-15609.304"/>
+		<pt X="6355.3315" Y="-15601.689" Z="1993.5304"/>
+	</skpath>
+	<skpath from="61" to="285" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6355.3315" Y="-15601.689" Z="1993.5304"/>
+		<pt X="6345.246" Y="-15581.547"/>
+	</skpath>
+	<skpath from="250" to="60" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6296.6274" Y="-15603.384"/>
+		<pt X="6302.2314" Y="-15601.089" Z="1979.3304"/>
+	</skpath>
+	<skpath from="60" to="286" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6302.2314" Y="-15601.089" Z="1979.3304"/>
+		<pt X="6310.1704" Y="-15596.811"/>
+	</skpath>
+	<skpath from="59" to="287" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6311.431" Y="-15589.989" Z="1977.0305"/>
+		<pt X="6314.6694" Y="-15588.645"/>
+	</skpath>
+	<skpath from="251" to="59" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6294.819" Y="-15594.233"/>
+		<pt X="6311.431" Y="-15589.989" Z="1977.0305"/>
+	</skpath>
+	<skpath from="252" to="58" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6264.4985" Y="-15589.687"/>
+		<pt X="6263.731" Y="-15583.589" Z="1964.1304"/>
+	</skpath>
+	<skpath from="58" to="288" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6263.731" Y="-15583.589" Z="1964.1304"/>
+		<pt X="6262.515" Y="-15581.19"/>
+	</skpath>
+	<skpath from="253" to="293" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6226.2725" Y="-15609.814"/>
+		<pt X="6227.6104" Y="-15615.993"/>
+		<pt X="6234.8564" Y="-15625.945"/>
+		<pt X="6238.609" Y="-15637.512"/>
+		<pt X="6239.6797" Y="-15646.653"/>
+		<pt X="6236.99" Y="-15656.33"/>
+	</skpath>
+	<skpath from="293" to="254" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6236.99" Y="-15656.33"/>
+		<pt X="6234.5713" Y="-15661.974"/>
+		<pt X="6228.659" Y="-15670.035"/>
+		<pt X="6228.39" Y="-15672.454"/>
+		<pt X="6226.778" Y="-15679.172"/>
+	</skpath>
+	<skpath from="293" to="291" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6236.99" Y="-15656.33"/>
+		<pt X="6228.224" Y="-15650.137"/>
+	</skpath>
+	<skpath from="254" to="66" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6226.778" Y="-15679.172"/>
+		<pt X="6225.831" Y="-15675.689" Z="1968.6305"/>
+	</skpath>
+	<skpath from="266" to="67" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6181.6333" Y="-15724.576"/>
+		<pt X="6194.0312" Y="-15725.289" Z="1984.3304"/>
+	</skpath>
+	<skpath from="69" to="264" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6228.131" Y="-15771.289" Z="1988.9305"/>
+		<pt X="6220.054" Y="-15765.705"/>
+	</skpath>
+	<skpath from="294" to="295" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6212.1523" Y="-15567.492"/>
+		<pt X="6218.354" Y="-15566.417"/>
+		<pt X="6222.9453" Y="-15561.271"/>
+		<pt X="6227.6997" Y="-15552.052"/>
+		<pt X="6228.5527" Y="-15543.012"/>
+		<pt X="6228.36" Y="-15538.569"/>
+	</skpath>
+	<skpath from="295" to="296" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6228.36" Y="-15538.569"/>
+		<pt X="6224.4565" Y="-15526.827"/>
+		<pt X="6219.491" Y="-15518.118"/>
+		<pt X="6215.058" Y="-15508.346"/>
+		<pt X="6209.737" Y="-15501.234"/>
+		<pt X="6208.674" Y="-15496.617"/>
+		<pt X="6210.808" Y="-15492.713"/>
+	</skpath>
+	<skpath from="296" to="297" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6210.808" Y="-15492.713"/>
+		<pt X="6218.453" Y="-15488.277"/>
+		<pt X="6235.8745" Y="-15477.989"/>
+		<pt X="6249.2104" Y="-15468.944"/>
+	</skpath>
+	<skpath from="297" to="298" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6249.2104" Y="-15468.944"/>
+		<pt X="6253.999" Y="-15457.243"/>
+		<pt X="6256.118" Y="-15450.158"/>
+		<pt X="6255.401" Y="-15448.392"/>
+	</skpath>
+	<skpath from="298" to="299" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6255.401" Y="-15448.392"/>
+		<pt X="6253.2627" Y="-15446.802"/>
+		<pt X="6247.748" Y="-15446.995"/>
+		<pt X="6241.7065" Y="-15451.268"/>
+		<pt X="6233.172" Y="-15453.417"/>
+		<pt X="6221.7974" Y="-15454.683"/>
+	</skpath>
+	<skpath from="299" to="300" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6221.7974" Y="-15454.683"/>
+		<pt X="6226.449" Y="-15438.715"/>
+	</skpath>
+	<skpath from="300" to="301" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6226.449" Y="-15438.715"/>
+		<pt X="6228.9385" Y="-15445.804"/>
+		<pt X="6233.208" Y="-15447.389"/>
+		<pt X="6238.539" Y="-15443.117"/>
+		<pt X="6255.076" Y="-15439.173"/>
+		<pt X="6263.2607" Y="-15442.168"/>
+		<pt X="6265.9287" Y="-15444.114"/>
+		<pt X="6266.462" Y="-15447.662"/>
+	</skpath>
+	<skpath from="301" to="302" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6266.462" Y="-15447.662"/>
+		<pt X="6265.9277" Y="-15455.291"/>
+		<pt X="6263.4443" Y="-15464.513"/>
+		<pt X="6257.947" Y="-15473.381"/>
+		<pt X="6254.929" Y="-15476.041"/>
+	</skpath>
+	<skpath from="302" to="303" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6254.929" Y="-15476.041"/>
+		<pt X="6244.6147" Y="-15483.492"/>
+		<pt X="6231.28" Y="-15492.361"/>
+		<pt X="6220.7925" Y="-15496.622"/>
+		<pt X="6219.19" Y="-15498.58"/>
+	</skpath>
+	<skpath from="303" to="304" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6219.19" Y="-15498.58"/>
+		<pt X="6221.313" Y="-15505.872"/>
+		<pt X="6226.4565" Y="-15513.871"/>
+		<pt X="6235.4995" Y="-15532.351"/>
+		<pt X="6239.2246" Y="-15540.7"/>
+		<pt X="6238.71" Y="-15545.836"/>
+	</skpath>
+	<skpath from="289" to="305" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6233.3945" Y="-15599.088"/>
+		<pt X="6229.555" Y="-15597.431"/>
+		<pt X="6230.656" Y="-15585.541"/>
+		<pt X="6230.4688" Y="-15573.486"/>
+		<pt X="6232.9243" Y="-15564.623"/>
+		<pt X="6235.2007" Y="-15555.76"/>
+	</skpath>
+	<skpath from="305" to="304" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6235.2007" Y="-15555.76"/>
+		<pt X="6238.71" Y="-15545.836"/>
+	</skpath>
+	<skpath from="38" to="296" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6208.131" Y="-15494.589" Z="1923.9305"/>
+		<pt X="6210.808" Y="-15492.713"/>
+	</skpath>
+	<skpath from="38" to="303" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6208.131" Y="-15494.589" Z="1923.9305"/>
+		<pt X="6219.19" Y="-15498.58"/>
+	</skpath>
+	<skpath from="304" to="39" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6238.71" Y="-15545.836"/>
+		<pt X="6238.131" Y="-15539.289" Z="1948.4304"/>
+	</skpath>
+	<skpath from="39" to="295" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6238.131" Y="-15539.289" Z="1948.4304"/>
+		<pt X="6228.36" Y="-15538.569"/>
+	</skpath>
+	<skpath from="40" to="294" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6220.5312" Y="-15565.889" Z="1936.7305"/>
+		<pt X="6212.1523" Y="-15567.492"/>
+	</skpath>
+	<skpath from="40" to="305" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6220.5312" Y="-15565.889" Z="1936.7305"/>
+		<pt X="6235.2007" Y="-15555.76"/>
+	</skpath>
+	<skpath from="37" to="297" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6255.1313" Y="-15473.389" Z="1930.2305"/>
+		<pt X="6249.2104" Y="-15468.944"/>
+	</skpath>
+	<skpath from="302" to="37" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6254.929" Y="-15476.041"/>
+		<pt X="6255.1313" Y="-15473.389" Z="1930.2305"/>
+	</skpath>
+	<skpath from="36" to="298" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6264.5312" Y="-15445.289" Z="1927.1304"/>
+		<pt X="6255.401" Y="-15448.392"/>
+	</skpath>
+	<skpath from="301" to="36" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6266.462" Y="-15447.662"/>
+		<pt X="6264.5312" Y="-15445.289" Z="1927.1304"/>
+	</skpath>
+	<skpath from="29" to="300" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6225.0312" Y="-15453.488" Z="1926.0304"/>
+		<pt X="6226.449" Y="-15438.715"/>
+	</skpath>
+	<skpath from="299" to="29" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6221.7974" Y="-15454.683"/>
+		<pt X="6225.0312" Y="-15453.488" Z="1926.0304"/>
+	</skpath>
+	<skpath from="306" to="307" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6187.1494" Y="-15512.359"/>
+		<pt X="6196.5522" Y="-15522.029"/>
+		<pt X="6202.463" Y="-15527.938"/>
+		<pt X="6200.5835" Y="-15538.948"/>
+		<pt X="6198.5635" Y="-15546.405"/>
+	</skpath>
+	<skpath from="271" to="308" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6135.6816" Y="-15612.528"/>
+		<pt X="6130.9863" Y="-15603.991"/>
+		<pt X="6137.9727" Y="-15594.586"/>
+	</skpath>
+	<skpath from="308" to="309" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6137.9727" Y="-15594.586"/>
+		<pt X="6141.1978" Y="-15580.882"/>
+		<pt X="6148.184" Y="-15563.952"/>
+		<pt X="6160.814" Y="-15525.793"/>
+		<pt X="6162.6953" Y="-15514.506"/>
+		<pt X="6170.2197" Y="-15509.133"/>
+		<pt X="6180.969" Y="-15512.087"/>
+	</skpath>
+	<skpath from="310" to="308" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6182.964" Y="-15529.842"/>
+		<pt X="6179.47" Y="-15535.489"/>
+		<pt X="6172.4844" Y="-15551.347"/>
+		<pt X="6160.6606" Y="-15579.296"/>
+		<pt X="6153.405" Y="-15592.731"/>
+		<pt X="6144.537" Y="-15596.494"/>
+		<pt X="6137.9727" Y="-15594.586"/>
+	</skpath>
+	<skpath from="311" to="294" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6207.647" Y="-15618.458"/>
+		<pt X="6211.023" Y="-15605.867"/>
+		<pt X="6212.817" Y="-15595.061"/>
+		<pt X="6213.3867" Y="-15585.321"/>
+		<pt X="6214.495" Y="-15577.53"/>
+		<pt X="6212.1523" Y="-15567.492"/>
+	</skpath>
+	<skpath from="312" to="310" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6192.0376" Y="-15551.792"/>
+		<pt X="6188.1343" Y="-15539.207"/>
+		<pt X="6186.0063" Y="-15532.474"/>
+		<pt X="6182.964" Y="-15529.842"/>
+	</skpath>
+	<skpath from="294" to="312" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6212.1523" Y="-15567.492"/>
+		<pt X="6207.418" Y="-15567.894"/>
+		<pt X="6203.066" Y="-15567.381"/>
+		<pt X="6198.1685" Y="-15563.175"/>
+		<pt X="6194.6235" Y="-15559.129"/>
+		<pt X="6193.3433" Y="-15556.017"/>
+		<pt X="6192.0376" Y="-15551.792"/>
+	</skpath>
+	<skpath from="312" to="307" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6192.0376" Y="-15551.792"/>
+		<pt X="6195.1255" Y="-15550.515"/>
+		<pt X="6198.5635" Y="-15546.405"/>
+	</skpath>
+	<skpath from="297" to="313" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6249.2104" Y="-15468.944"/>
+		<pt X="6237.487" Y="-15465.667"/>
+	</skpath>
+	<skpath from="314" to="315" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6189.762" Y="-15493.683"/>
+		<pt X="6182.833" Y="-15503.96"/>
+	</skpath>
+	<skpath from="316" to="317" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6179.4644" Y="-15502.892"/>
+		<pt X="6178.0703" Y="-15485.867"/>
+		<pt X="6177.0205" Y="-15475.404"/>
+		<pt X="6176.499" Y="-15467.779"/>
+	</skpath>
+	<skpath from="317" to="318" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6176.499" Y="-15467.779"/>
+		<pt X="6173.675" Y="-15458.023"/>
+		<pt X="6171.5566" Y="-15450.929"/>
+		<pt X="6168.3774" Y="-15443.124"/>
+		<pt X="6166.787" Y="-15439.576"/>
+	</skpath>
+	<skpath from="318" to="319" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6166.787" Y="-15439.576"/>
+		<pt X="6154.726" Y="-15444.71"/>
+		<pt X="6145.1387" Y="-15451.443"/>
+		<pt X="6133.3965" Y="-15462.263"/>
+		<pt X="6130.5366" Y="-15472.729"/>
+	</skpath>
+	<skpath from="319" to="317" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6130.5366" Y="-15472.729"/>
+		<pt X="6132.5034" Y="-15479.986"/>
+		<pt X="6136.5845" Y="-15479.986"/>
+		<pt X="6141.3784" Y="-15476.264"/>
+		<pt X="6141.7373" Y="-15472.1875"/>
+		<pt X="6147.4224" Y="-15464.743"/>
+		<pt X="6155.058" Y="-15458.363"/>
+		<pt X="6159.847" Y="-15457.302"/>
+		<pt X="6165.8726" Y="-15458.192"/>
+		<pt X="6171.7163" Y="-15463.518"/>
+		<pt X="6176.499" Y="-15467.779"/>
+	</skpath>
+	<skpath from="318" to="320" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6166.787" Y="-15439.576"/>
+		<pt X="6174.229" Y="-15438.871"/>
+		<pt X="6178.6562" Y="-15438.872"/>
+	</skpath>
+	<skpath from="320" to="321" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6178.6562" Y="-15438.872"/>
+		<pt X="6175.834" Y="-15428.942"/>
+		<pt X="6170.5293" Y="-15415.817"/>
+		<pt X="6168.053" Y="-15406.063"/>
+		<pt X="6163.2573" Y="-15390.986"/>
+	</skpath>
+	<skpath from="321" to="322" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6163.2573" Y="-15390.986"/>
+		<pt X="6153.3105" Y="-15391.161"/>
+		<pt X="6146.9204" Y="-15391.694"/>
+	</skpath>
+	<skpath from="323" to="324" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6183.437" Y="-15438.162"/>
+		<pt X="6178.1426" Y="-15421.318"/>
+		<pt X="6173.3667" Y="-15408.193"/>
+		<pt X="6170.18" Y="-15396.133"/>
+		<pt X="6170.175" Y="-15389.925"/>
+	</skpath>
+	<skpath from="324" to="325" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6170.175" Y="-15389.925"/>
+		<pt X="6182.9346" Y="-15390.463"/>
+		<pt X="6195.679" Y="-15392.685"/>
+	</skpath>
+	<skpath from="325" to="326" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6195.679" Y="-15392.685"/>
+		<pt X="6194.0786" Y="-15401.552"/>
+		<pt X="6194.07" Y="-15413.789"/>
+		<pt X="6196.7188" Y="-15423.363"/>
+		<pt X="6202.5537" Y="-15432.76"/>
+		<pt X="6208.745" Y="-15440.029"/>
+	</skpath>
+	<skpath from="326" to="327" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6208.745" Y="-15440.029"/>
+		<pt X="6208.038" Y="-15446.235"/>
+	</skpath>
+	<skpath from="327" to="323" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6208.038" Y="-15446.235"/>
+		<pt X="6198.129" Y="-15441.27"/>
+		<pt X="6189.81" Y="-15438.786"/>
+		<pt X="6183.437" Y="-15438.162"/>
+	</skpath>
+	<skpath from="328" to="325" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6200.301" Y="-15368.908"/>
+		<pt X="6197.8076" Y="-15383.637"/>
+		<pt X="6195.679" Y="-15392.685"/>
+	</skpath>
+	<skpath from="329" to="328" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6202.625" Y="-15358.269"/>
+		<pt X="6200.301" Y="-15368.908"/>
+	</skpath>
+	<skpath from="329" to="330" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6202.625" Y="-15358.269"/>
+		<pt X="6192.8867" Y="-15360.401"/>
+		<pt X="6172.7256" Y="-15364.728"/>
+		<pt X="6154.1045" Y="-15369.053"/>
+		<pt X="6144.291" Y="-15372.378"/>
+	</skpath>
+	<skpath from="324" to="331" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6170.175" Y="-15389.925"/>
+		<pt X="6178.3745" Y="-15400.9375"/>
+	</skpath>
+	<skpath from="320" to="323" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6178.6562" Y="-15438.872"/>
+		<pt X="6183.437" Y="-15438.162"/>
+	</skpath>
+	<skpath from="30" to="318" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6171.5312" Y="-15440.189" Z="1953.6305"/>
+		<pt X="6166.787" Y="-15439.576"/>
+	</skpath>
+	<skpath from="321" to="324" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6163.2573" Y="-15390.986"/>
+		<pt X="6170.175" Y="-15389.925"/>
+	</skpath>
+	<skpath from="322" to="330" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6146.9204" Y="-15391.694"/>
+		<pt X="6139.295" Y="-15389.105"/>
+		<pt X="6136.089" Y="-15374.801"/>
+		<pt X="6141.123" Y="-15373.49"/>
+		<pt X="6144.291" Y="-15372.378"/>
+	</skpath>
+	<skpath from="322" to="28" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6146.9204" Y="-15391.694"/>
+		<pt X="6145.631" Y="-15380.789" Z="2101.3303"/>
+	</skpath>
+	<skpath from="28" to="330" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6145.631" Y="-15380.789" Z="2101.3303"/>
+		<pt X="6144.291" Y="-15372.378"/>
+	</skpath>
+	<skpath from="299" to="332" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6221.7974" Y="-15454.683"/>
+		<pt X="6215.372" Y="-15456.71"/>
+		<pt X="6208.927" Y="-15461.816"/>
+		<pt X="6201.1455" Y="-15468.537"/>
+		<pt X="6199.629" Y="-15470.104"/>
+	</skpath>
+	<skpath from="332" to="333" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6199.629" Y="-15470.104"/>
+		<pt X="6194.7114" Y="-15477.144"/>
+		<pt X="6193.0796" Y="-15494.878"/>
+	</skpath>
+	<skpath from="332" to="317" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6199.629" Y="-15470.104"/>
+		<pt X="6176.499" Y="-15467.779"/>
+	</skpath>
+	<skpath from="306" to="333" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6187.1494" Y="-15512.359"/>
+		<pt X="6189.893" Y="-15504.94"/>
+		<pt X="6193.0796" Y="-15494.878"/>
+	</skpath>
+	<skpath from="32" to="309" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6184.8315" Y="-15513.389" Z="1975.6305"/>
+		<pt X="6180.969" Y="-15512.087"/>
+	</skpath>
+	<skpath from="32" to="306" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6184.8315" Y="-15513.389" Z="1975.6305"/>
+		<pt X="6187.1494" Y="-15512.359"/>
+	</skpath>
+	<skpath from="334" to="335" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6196.0083" Y="-15468.127"/>
+		<pt X="6185.5493" Y="-15466.191"/>
+	</skpath>
+	<skpath from="335" to="336" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6185.5493" Y="-15466.191"/>
+		<pt X="6197.305" Y="-15453.767"/>
+	</skpath>
+	<skpath from="336" to="334" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6197.305" Y="-15453.767"/>
+		<pt X="6196.0083" Y="-15468.127"/>
+	</skpath>
+	<skpath from="332" to="334" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6199.629" Y="-15470.104"/>
+		<pt X="6196.0083" Y="-15468.127"/>
+	</skpath>
+	<skpath from="333" to="314" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6193.0796" Y="-15494.878"/>
+		<pt X="6189.762" Y="-15493.683"/>
+	</skpath>
+	<skpath from="309" to="306" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6180.969" Y="-15512.087"/>
+		<pt X="6187.1494" Y="-15512.359"/>
+	</skpath>
+	<skpath from="309" to="316" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6180.969" Y="-15512.087"/>
+		<pt X="6179.4644" Y="-15502.892"/>
+	</skpath>
+	<skpath from="315" to="337" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6182.833" Y="-15503.96"/>
+		<pt X="6182.5107" Y="-15493.914"/>
+	</skpath>
+	<skpath from="337" to="314" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6182.5107" Y="-15493.914"/>
+		<pt X="6181.813" Y="-15472.219"/>
+		<pt X="6192.0947" Y="-15472.23"/>
+		<pt X="6189.762" Y="-15493.683"/>
+	</skpath>
+	<skpath from="337" to="314" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6182.5107" Y="-15493.914"/>
+		<pt X="6189.762" Y="-15493.683"/>
+	</skpath>
+	<skpath from="308" to="338" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6137.9727" Y="-15594.586"/>
+		<pt X="6145.039" Y="-15582.248"/>
+	</skpath>
+	<skpath from="338" to="339" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6145.039" Y="-15582.248"/>
+		<pt X="6150.292" Y="-15584.936"/>
+	</skpath>
+	<skpath from="338" to="340" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6145.039" Y="-15582.248"/>
+		<pt X="6149.3145" Y="-15567.832"/>
+	</skpath>
+	<skpath from="340" to="341" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6149.3145" Y="-15567.832"/>
+		<pt X="6155.911" Y="-15573.086"/>
+	</skpath>
+	<skpath from="340" to="342" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6149.3145" Y="-15567.832"/>
+		<pt X="6158.3545" Y="-15545.842"/>
+	</skpath>
+	<skpath from="342" to="343" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6158.3545" Y="-15545.842"/>
+		<pt X="6162.9966" Y="-15552.562"/>
+	</skpath>
+	<skpath from="342" to="344" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6158.3545" Y="-15545.842"/>
+		<pt X="6167.7603" Y="-15520.188"/>
+	</skpath>
+	<skpath from="344" to="345" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6167.7603" Y="-15520.188"/>
+		<pt X="6171.303" Y="-15533.261"/>
+	</skpath>
+	<skpath from="344" to="346" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6167.7603" Y="-15520.188"/>
+		<pt X="6181.5645" Y="-15518.235"/>
+	</skpath>
+	<skpath from="346" to="347" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6181.5645" Y="-15518.235"/>
+		<pt X="6179.488" Y="-15526.908"/>
+	</skpath>
+	<skpath from="346" to="348" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6181.5645" Y="-15518.235"/>
+		<pt X="6190.2373" Y="-15522.629"/>
+		<pt X="6193.414" Y="-15529.71"/>
+	</skpath>
+	<skpath from="273" to="279" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6173.6245" Y="-15686.137"/>
+		<pt X="6185.387" Y="-15686.731"/>
+		<pt X="6200.998" Y="-15687.506"/>
+	</skpath>
+	<skpath from="273" to="349" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6173.6245" Y="-15686.137"/>
+		<pt X="6177.087" Y="-15683.154"/>
+	</skpath>
+	<skpath from="350" to="268" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">?c</pctext>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6165.432" Y="-15730.532"/>
+		<pt X="6171.424" Y="-15722.149"/>
+	</skpath>
+	<skpath from="266" to="269" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6181.6333" Y="-15724.576"/>
+		<pt X="6178.9863" Y="-15719.255"/>
+		<pt X="6176.27" Y="-15713.016"/>
+	</skpath>
+	<skpath from="269" to="269" linestyle="invisible">
+		<importfrom subname="digdug"/>
+		<pt X="6176.27" Y="-15713.016"/>
+		<pt X="6185.1587" Y="-15692.654"/>
+		<pt X="6194.028" Y="-15690.975"/>
+		<pt X="6205.5903" Y="-15700.967"/>
+		<pt X="6207.282" Y="-15709.755"/>
+		<pt X="6200.671" Y="-15717.979"/>
+		<pt X="6187.6147" Y="-15718.696"/>
+		<pt X="6176.27" Y="-15713.016"/>
+	</skpath>
+	<skpath from="269" to="351" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6176.27" Y="-15713.016"/>
+		<pt X="6185.0464" Y="-15710.873"/>
+	</skpath>
+	<skpath from="65" to="280" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6193.4316" Y="-15640.089" Z="1951.0304"/>
+		<pt X="6191.5146" Y="-15636.584"/>
+	</skpath>
+	<skpath from="291" to="352" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="rock"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6228.224" Y="-15650.137"/>
+		<pt X="6227.289" Y="-15639.573"/>
+	</skpath>
+	<skpath from="292" to="253" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6224.619" Y="-15613.818"/>
+		<pt X="6226.2725" Y="-15609.814"/>
+	</skpath>
+	<skpath from="279" to="353" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6200.998" Y="-15687.506"/>
+		<pt X="6204.4834" Y="-15676.756"/>
+		<pt X="6202.863" Y="-15657.673"/>
+	</skpath>
+	<skpath from="353" to="280" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6202.863" Y="-15657.673"/>
+		<pt X="6196.9507" Y="-15645.849"/>
+		<pt X="6191.5146" Y="-15636.584"/>
+	</skpath>
+	<skpath from="353" to="291" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6202.863" Y="-15657.673"/>
+		<pt X="6212.708" Y="-15649.484"/>
+		<pt X="6228.224" Y="-15650.137"/>
+	</skpath>
+	<skpath from="265" to="279" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6213.88" Y="-15709.807"/>
+		<pt X="6212.229" Y="-15697.49"/>
+		<pt X="6200.998" Y="-15687.506"/>
+	</skpath>
+	<skpath from="354" to="355" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6244.974" Y="-15774.438"/>
+		<pt X="6229.752" Y="-15772.627"/>
+		<pt X="6227.8975" Y="-15773.185"/>
+	</skpath>
+	<skpath from="355" to="356" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6227.8975" Y="-15773.185"/>
+		<pt X="6223.821" Y="-15778.374"/>
+		<pt X="6222.393" Y="-15790.204"/>
+		<pt X="6225.3877" Y="-15803.504"/>
+		<pt X="6229.079" Y="-15809.958"/>
+		<pt X="6227.9604" Y="-15814.954"/>
+		<pt X="6229.59" Y="-15822.347"/>
+		<pt X="6231.982" Y="-15822.521"/>
+	</skpath>
+	<skpath from="356" to="354" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6231.982" Y="-15822.521"/>
+		<pt X="6236.845" Y="-15812.343"/>
+		<pt X="6240.1953" Y="-15796.076"/>
+		<pt X="6242.0376" Y="-15788.31"/>
+		<pt X="6245.17" Y="-15779.616"/>
+		<pt X="6245.711" Y="-15776.052"/>
+		<pt X="6244.974" Y="-15774.438"/>
+	</skpath>
+	<skpath from="355" to="69" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6227.8975" Y="-15773.185"/>
+		<pt X="6228.131" Y="-15771.289" Z="1988.9305"/>
+	</skpath>
+	<skpath from="355" to="264" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6227.8975" Y="-15773.185"/>
+		<pt X="6220.054" Y="-15765.705"/>
+	</skpath>
+	<skpath from="354" to="255" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6244.974" Y="-15774.438"/>
+		<pt X="6242.399" Y="-15755.18"/>
+	</skpath>
+	<skpath from="256" to="70" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6270.961" Y="-15768.82"/>
+		<pt X="6261.431" Y="-15755.489" Z="2005.3306"/>
+	</skpath>
+	<skpath from="262" to="74" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6198.9307" Y="-15778.06"/>
+		<pt X="6203.131" Y="-15776.789" Z="1930.0305"/>
+	</skpath>
+	<skpath from="357" to="358" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6230.428" Y="-15841.103"/>
+		<pt X="6233.8257" Y="-15838.518"/>
+	</skpath>
+	<skpath from="358" to="359" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6233.8257" Y="-15838.518"/>
+		<pt X="6227.528" Y="-15827.562"/>
+	</skpath>
+	<skpath from="359" to="357" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6227.528" Y="-15827.562"/>
+		<pt X="6216.4473" Y="-15834.714"/>
+		<pt X="6228.639" Y="-15837.717"/>
+		<pt X="6230.428" Y="-15841.103"/>
+	</skpath>
+	<skpath from="360" to="361" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6215.257" Y="-15819.901"/>
+		<pt X="6222.51" Y="-15819.268"/>
+	</skpath>
+	<skpath from="361" to="362" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6222.51" Y="-15819.268"/>
+		<pt X="6219.37" Y="-15808.773"/>
+	</skpath>
+	<skpath from="362" to="360" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6219.37" Y="-15808.773"/>
+		<pt X="6214.206" Y="-15810.304"/>
+		<pt X="6210.496" Y="-15808.934"/>
+		<pt X="6204.2124" Y="-15812.315"/>
+		<pt X="6205.5825" Y="-15816.99"/>
+		<pt X="6201.8706" Y="-15820.609"/>
+		<pt X="6209.82" Y="-15833.585"/>
+		<pt X="6215.257" Y="-15819.901"/>
+	</skpath>
+	<skpath from="260" to="363" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6174.857" Y="-15860.233"/>
+		<pt X="6166.375" Y="-15842.29"/>
+		<pt X="6166.431" Y="-15823.878"/>
+		<pt X="6178.568" Y="-15804.149"/>
+		<pt X="6193.4497" Y="-15790.462"/>
+		<pt X="6195.389" Y="-15787.6045"/>
+	</skpath>
+	<skpath from="363" to="262" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6195.389" Y="-15787.6045"/>
+		<pt X="6197.285" Y="-15783.095"/>
+		<pt X="6198.9307" Y="-15778.06"/>
+	</skpath>
+	<skpath from="363" to="362" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6195.389" Y="-15787.6045"/>
+		<pt X="6203.222" Y="-15795.003"/>
+		<pt X="6213.4927" Y="-15802.56"/>
+		<pt X="6219.37" Y="-15808.773"/>
+	</skpath>
+	<skpath from="359" to="361" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6227.528" Y="-15827.562"/>
+		<pt X="6222.51" Y="-15819.268"/>
+	</skpath>
+	<skpath from="259" to="357" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6230.3154" Y="-15844.967"/>
+		<pt X="6230.428" Y="-15841.103"/>
+	</skpath>
+	<skpath from="259" to="364" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6230.3154" Y="-15844.967"/>
+		<pt X="6210.0684" Y="-15845.151"/>
+	</skpath>
+	<skpath from="73" to="360" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6214.6313" Y="-15821.789" Z="1993.9305"/>
+		<pt X="6215.257" Y="-15819.901"/>
+	</skpath>
+	<skpath from="72" to="357" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6223.0312" Y="-15837.389" Z="2015.8306"/>
+		<pt X="6230.428" Y="-15841.103"/>
+	</skpath>
+	<skpath from="71" to="356" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6242.2314" Y="-15840.988" Z="2009.9304"/>
+		<pt X="6231.982" Y="-15822.521"/>
+	</skpath>
+	<skpath from="71" to="257" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6242.2314" Y="-15840.988" Z="2009.9304"/>
+		<pt X="6259.118" Y="-15846.402"/>
+	</skpath>
+	<skpath from="71" to="259" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6242.2314" Y="-15840.988" Z="2009.9304"/>
+		<pt X="6230.3154" Y="-15844.967"/>
+	</skpath>
+	<skpath from="259" to="365" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6230.3154" Y="-15844.967"/>
+		<pt X="6239.2314" Y="-15856.259"/>
+		<pt X="6247.138" Y="-15868.038"/>
+	</skpath>
+	<skpath from="365" to="366" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6247.138" Y="-15868.038"/>
+		<pt X="6247.9595" Y="-15887.353"/>
+		<pt X="6249.341" Y="-15899.56"/>
+	</skpath>
+	<skpath from="258" to="367" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6268.6265" Y="-15864.097"/>
+		<pt X="6269.7783" Y="-15873.507"/>
+		<pt X="6272.952" Y="-15882.5"/>
+		<pt X="6276.883" Y="-15891.842"/>
+	</skpath>
+	<skpath from="367" to="368" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6276.883" Y="-15891.842"/>
+		<pt X="6278.5054" Y="-15901.105"/>
+		<pt X="6278.53" Y="-15910.15"/>
+		<pt X="6278.7534" Y="-15918.744"/>
+		<pt X="6282.9067" Y="-15925.767"/>
+		<pt X="6282.1323" Y="-15933.394"/>
+		<pt X="6281.73" Y="-15945.731"/>
+		<pt X="6283.388" Y="-15953.766"/>
+	</skpath>
+	<skpath from="368" to="369" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6283.388" Y="-15953.766"/>
+		<pt X="6290.361" Y="-15959.203"/>
+		<pt X="6295.3477" Y="-15966.017"/>
+		<pt X="6296.8687" Y="-15973.497"/>
+		<pt X="6292.432" Y="-15979.26"/>
+		<pt X="6287.937" Y="-15980.334"/>
+	</skpath>
+	<skpath from="369" to="370" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6287.937" Y="-15980.334"/>
+		<pt X="6287.34" Y="-15987.117"/>
+		<pt X="6289.287" Y="-15995.045"/>
+		<pt X="6293.222" Y="-16002.831"/>
+		<pt X="6300.494" Y="-16010.841"/>
+		<pt X="6306.2246" Y="-16016.596"/>
+		<pt X="6308.625" Y="-16022.526"/>
+		<pt X="6308.9937" Y="-16027.709"/>
+	</skpath>
+	<skpath from="371" to="372" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6302.1514" Y="-16063.424"/>
+		<pt X="6297.8926" Y="-16068.793"/>
+		<pt X="6291.2275" Y="-16073.053"/>
+		<pt X="6286.9697" Y="-16079.531"/>
+		<pt X="6281.7866" Y="-16086.75"/>
+		<pt X="6276.7896" Y="-16091.933"/>
+		<pt X="6270.53" Y="-16092.43"/>
+	</skpath>
+	<skpath from="372" to="373" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6270.53" Y="-16092.43"/>
+		<pt X="6266.9824" Y="-16091.946"/>
+		<pt X="6262.0645" Y="-16088.72"/>
+		<pt X="6258.921" Y="-16083.963"/>
+		<pt X="6263.113" Y="-16078.48"/>
+		<pt X="6269.8853" Y="-16076.144"/>
+	</skpath>
+	<skpath from="373" to="374" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6269.8853" Y="-16076.144"/>
+		<pt X="6274.7227" Y="-16068.968"/>
+		<pt X="6278.512" Y="-16063.969"/>
+		<pt X="6289.155" Y="-16054.375"/>
+		<pt X="6291.8965" Y="-16045.989"/>
+		<pt X="6293.2715" Y="-16037.118"/>
+		<pt X="6294.007" Y="-16032.68"/>
+		<pt X="6293.57" Y="-16026.547"/>
+	</skpath>
+	<skpath from="374" to="375" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6293.57" Y="-16026.547"/>
+		<pt X="6289.463" Y="-16014.441"/>
+		<pt X="6283.9766" Y="-16007.563"/>
+	</skpath>
+	<skpath from="375" to="376" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6283.9766" Y="-16007.563"/>
+		<pt X="6272.4937" Y="-15995.022"/>
+		<pt X="6267.793" Y="-15988.244"/>
+	</skpath>
+	<skpath from="376" to="377" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6267.793" Y="-15988.244"/>
+		<pt X="6264.261" Y="-15981.036"/>
+		<pt X="6266.261" Y="-15976.022"/>
+	</skpath>
+	<skpath from="378" to="366" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6251.328" Y="-15907.924"/>
+		<pt X="6249.341" Y="-15899.56"/>
+	</skpath>
+	<skpath from="372" to="373" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6270.53" Y="-16092.43"/>
+		<pt X="6271.604" Y="-16083.849"/>
+		<pt X="6269.8853" Y="-16076.144"/>
+	</skpath>
+	<skpath from="372" to="379" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6270.53" Y="-16092.43"/>
+		<pt X="6265.6187" Y="-16086.902"/>
+	</skpath>
+	<skpath from="372" to="78" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6270.53" Y="-16092.43"/>
+		<pt X="6274.8315" Y="-16085.189" Z="2082.0305"/>
+	</skpath>
+	<skpath from="78" to="373" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6274.8315" Y="-16085.189" Z="2082.0305"/>
+		<pt X="6269.8853" Y="-16076.144"/>
+	</skpath>
+	<skpath from="77" to="370" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6307.9316" Y="-16021.99" Z="2078.2305"/>
+		<pt X="6308.9937" Y="-16027.709"/>
+	</skpath>
+	<skpath from="374" to="81" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6293.57" Y="-16026.547"/>
+		<pt X="6297.9316" Y="-16016.089" Z="2013.7305"/>
+	</skpath>
+	<skpath from="76" to="376" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6268.2314" Y="-15993.488" Z="2048.9304"/>
+		<pt X="6267.793" Y="-15988.244"/>
+	</skpath>
+	<skpath from="80" to="376" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6268.331" Y="-15992.389" Z="2028.3306"/>
+		<pt X="6267.793" Y="-15988.244"/>
+	</skpath>
+	<skpath from="79" to="377" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6267.5312" Y="-15982.689" Z="2039.1304"/>
+		<pt X="6266.261" Y="-15976.022"/>
+	</skpath>
+	<skpath from="75" to="369" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6286.431" Y="-15975.089" Z="2059.7305"/>
+		<pt X="6287.937" Y="-15980.334"/>
+	</skpath>
+	<skpath from="367" to="87" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6276.883" Y="-15891.842"/>
+		<pt X="6271.131" Y="-15887.489" Z="2035.8306"/>
+	</skpath>
+	<skpath from="378" to="380" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6251.328" Y="-15907.924"/>
+		<pt X="6261.628" Y="-15910.07"/>
+	</skpath>
+	<skpath from="380" to="366" linestyle="detail">
+		<importfrom subname="digdug"/>
+		<pt X="6261.628" Y="-15910.07"/>
+		<pt X="6256.499" Y="-15899.933"/>
+		<pt X="6249.341" Y="-15899.56"/>
+	</skpath>
+	<skpath from="380" to="381" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6261.628" Y="-15910.07"/>
+		<pt X="6264.724" Y="-15922.103"/>
+		<pt X="6265.5044" Y="-15927.065"/>
+		<pt X="6264.917" Y="-15932.779"/>
+	</skpath>
+	<skpath from="382" to="377" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6277.6177" Y="-15970.68"/>
+		<pt X="6275.517" Y="-15976.672"/>
+		<pt X="6272.775" Y="-15977.389"/>
+		<pt X="6266.261" Y="-15976.022"/>
+	</skpath>
+	<skpath from="75" to="382" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6286.431" Y="-15975.089" Z="2059.7305"/>
+		<pt X="6277.6177" Y="-15970.68"/>
+	</skpath>
+	<skpath from="381" to="83" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6264.917" Y="-15932.779"/>
+		<pt X="6264.0312" Y="-15932.389" Z="2017.9304"/>
+	</skpath>
+	<skpath from="370" to="383" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6308.9937" Y="-16027.709"/>
+		<pt X="6313.622" Y="-16040.108"/>
+		<pt X="6315.474" Y="-16047.139"/>
+		<pt X="6314.3667" Y="-16055.463"/>
+		<pt X="6305.6685" Y="-16059.536"/>
+	</skpath>
+	<skpath from="383" to="371" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6305.6685" Y="-16059.536"/>
+		<pt X="6302.1514" Y="-16063.424"/>
+	</skpath>
+	<skpath from="383" to="370" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6305.6685" Y="-16059.536"/>
+		<pt X="6308.45" Y="-16045.071"/>
+		<pt X="6308.9937" Y="-16027.709"/>
+	</skpath>
+	<skpath from="384" to="78" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="5766.7197" Y="-16561.395"/>
+		<pt X="6274.8315" Y="-16085.189" Z="2082.0305"/>
+	</skpath>
+	<skpath from="384" to="384" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="2.701663" sfrotatedeg="-19.203827" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="411764.8219950631" sfytrans="-5283472.539522837" sfsketch="surveyscans/2015/2015#31-264/notes1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="1796">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="5766.7197" Y="-16561.395"/>
+		<pt X="6658.061" Y="-16250.931"/>
+		<pt X="6433.6943" Y="-15617.783"/>
+		<pt X="5539.4004" Y="-15932.304"/>
+		<pt X="5766.7197" Y="-16561.395"/>
+	</skpath>
+	<skpath from="385" to="385" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.460233" sfrotatedeg="-2.8272555" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="411774.36495458795" sfytrans="-5283430.562674623" sfsketch="surveyscans/2015/2015#31-264/notes1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2550" sfpixheight="1796">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="5862.1494" Y="-16141.627"/>
+		<pt X="6598.1973" Y="-16105.277"/>
+		<pt X="6571.1445" Y="-15586.89"/>
+		<pt X="5834.4937" Y="-15623.043"/>
+		<pt X="5862.1494" Y="-16141.627"/>
+	</skpath>
+	<skpath from="385" to="86" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="5862.1494" Y="-16141.627"/>
+		<pt X="6258.931" Y="-16020.39" Z="1925.9304"/>
+	</skpath>
+	<skpath from="386" to="387" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6252.3286" Y="-16021.185"/>
+		<pt X="6254.453" Y="-16041.155"/>
+		<pt X="6264.651" Y="-16062.401"/>
+		<pt X="6266.3506" Y="-16078.973"/>
+		<pt X="6272.724" Y="-16087.8955"/>
+		<pt X="6282.0723" Y="-16087.8955"/>
+		<pt X="6287.5957" Y="-16080.247"/>
+		<pt X="6282.497" Y="-16068.774"/>
+		<pt X="6270.5996" Y="-16055.603"/>
+		<pt X="6267.2" Y="-16040.306"/>
+		<pt X="6262.951" Y="-16021.61"/>
+	</skpath>
+	<skpath from="387" to="388" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6262.951" Y="-16021.61"/>
+		<pt X="6261.395" Y="-16007.091"/>
+		<pt X="6260.84" Y="-15994.504"/>
+		<pt X="6262.3203" Y="-15982.658"/>
+		<pt X="6262.5054" Y="-15974.515"/>
+		<pt X="6260.284" Y="-15972.479"/>
+		<pt X="6260.099" Y="-15970.442"/>
+	</skpath>
+	<skpath from="388" to="389" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6260.099" Y="-15970.442"/>
+		<pt X="6262.69" Y="-15957.856"/>
+		<pt X="6263.0586" Y="-15949.897"/>
+		<pt X="6266.5693" Y="-15942.309"/>
+		<pt X="6266.742" Y="-15933.06"/>
+	</skpath>
+	<skpath from="390" to="391" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6264.537" Y="-15924.397"/>
+		<pt X="6260.4644" Y="-15926.21"/>
+	</skpath>
+	<skpath from="391" to="392" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6260.4644" Y="-15926.21"/>
+		<pt X="6257.1333" Y="-15926.946"/>
+		<pt X="6253.062" Y="-15926.946"/>
+	</skpath>
+	<skpath from="392" to="393" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6253.062" Y="-15926.946"/>
+		<pt X="6250.1016" Y="-15928.981"/>
+		<pt X="6251.398" Y="-15936.201"/>
+	</skpath>
+	<skpath from="393" to="394" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6251.398" Y="-15936.201"/>
+		<pt X="6251.3984" Y="-15942.494"/>
+		<pt X="6250.659" Y="-15951.378"/>
+		<pt X="6250.4746" Y="-15958.782"/>
+		<pt X="6249.1787" Y="-15969.332"/>
+	</skpath>
+	<skpath from="394" to="395" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6249.1787" Y="-15969.332"/>
+		<pt X="6249.9194" Y="-15976.551"/>
+		<pt X="6251.215" Y="-15988.767"/>
+	</skpath>
+	<skpath from="395" to="386" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6251.215" Y="-15988.767"/>
+		<pt X="6252.696" Y="-15999.687"/>
+		<pt X="6252.881" Y="-16008.941"/>
+		<pt X="6252.3286" Y="-16021.185"/>
+	</skpath>
+	<skpath from="386" to="86" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6252.3286" Y="-16021.185"/>
+		<pt X="6258.931" Y="-16020.39" Z="1925.9304"/>
+	</skpath>
+	<skpath from="387" to="86" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6262.951" Y="-16021.61"/>
+		<pt X="6258.931" Y="-16020.39" Z="1925.9304"/>
+	</skpath>
+	<skpath from="85" to="394" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6253.831" Y="-15981.089" Z="1974.7305"/>
+		<pt X="6249.1787" Y="-15969.332"/>
+	</skpath>
+	<skpath from="85" to="388" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6253.831" Y="-15981.089" Z="1974.7305"/>
+		<pt X="6260.099" Y="-15970.442"/>
+	</skpath>
+	<skpath from="389" to="390" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6266.742" Y="-15933.06"/>
+		<pt X="6264.537" Y="-15924.397"/>
+	</skpath>
+	<skpath from="377" to="396" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6266.261" Y="-15976.022"/>
+		<pt X="6263.3066" Y="-15970.235"/>
+		<pt X="6258.959" Y="-15960.538"/>
+		<pt X="6255.6133" Y="-15955.315"/>
+		<pt X="6254.0024" Y="-15944.325"/>
+	</skpath>
+	<skpath from="381" to="397" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6264.917" Y="-15932.779"/>
+		<pt X="6265.9067" Y="-15937.011"/>
+	</skpath>
+	<skpath from="397" to="382" linestyle="detail" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6265.9067" Y="-15937.011"/>
+		<pt X="6267.7676" Y="-15943.773"/>
+		<pt X="6269.085" Y="-15949.502"/>
+		<pt X="6270.5723" Y="-15956.418"/>
+		<pt X="6271.5845" Y="-15964.232"/>
+		<pt X="6276.6987" Y="-15967.362"/>
+		<pt X="6277.6177" Y="-15970.68"/>
+	</skpath>
+	<skpath from="397" to="396" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6265.9067" Y="-15937.011"/>
+		<pt X="6260.1313" Y="-15941.348"/>
+		<pt X="6254.0024" Y="-15944.325"/>
+	</skpath>
+	<skpath from="396" to="398" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6254.0024" Y="-15944.325"/>
+		<pt X="6254.2554" Y="-15938.219"/>
+		<pt X="6254.6514" Y="-15933.84"/>
+	</skpath>
+	<skpath from="398" to="378" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6254.6514" Y="-15933.84"/>
+		<pt X="6255.2764" Y="-15924.701"/>
+		<pt X="6253.8467" Y="-15915.894"/>
+		<pt X="6251.328" Y="-15907.924"/>
+	</skpath>
+	<skpath from="398" to="381" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6254.6514" Y="-15933.84"/>
+		<pt X="6256.5215" Y="-15931.555"/>
+		<pt X="6261.5664" Y="-15931.036"/>
+		<pt X="6264.917" Y="-15932.779"/>
+	</skpath>
+	<skpath from="398" to="399" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="hole"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6254.6514" Y="-15933.84"/>
+		<pt X="6257.1675" Y="-15935.506"/>
+	</skpath>
+	<skpath from="380" to="400" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6261.628" Y="-15910.07"/>
+		<pt X="6258.97" Y="-15912.99"/>
+	</skpath>
+	<skpath from="396" to="401" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6254.0024" Y="-15944.325"/>
+		<pt X="6257.102" Y="-15945.758"/>
+	</skpath>
+	<skpath from="395" to="402" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6251.215" Y="-15988.767"/>
+		<pt X="6246.6807" Y="-15977.997"/>
+		<pt X="6246.8027" Y="-15965.537"/>
+		<pt X="6245.9463" Y="-15946.846"/>
+		<pt X="6245.5786" Y="-15937.439"/>
+		<pt X="6246.066" Y="-15927.545"/>
+	</skpath>
+	<skpath from="402" to="403" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6246.066" Y="-15927.545"/>
+		<pt X="6242.886" Y="-15917.162"/>
+		<pt X="6240.564" Y="-15910.323"/>
+		<pt X="6231.6475" Y="-15893.59"/>
+		<pt X="6226.3984" Y="-15886.99"/>
+		<pt X="6221.6406" Y="-15879.166"/>
+	</skpath>
+	<skpath from="403" to="404" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6221.6406" Y="-15879.166"/>
+		<pt X="6217.1304" Y="-15870.481"/>
+		<pt X="6212.4966" Y="-15862.154"/>
+		<pt X="6209.327" Y="-15854.185"/>
+		<pt X="6205.1816" Y="-15846.453"/>
+		<pt X="6201.6406" Y="-15844.244"/>
+	</skpath>
+	<skpath from="404" to="405" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6201.6406" Y="-15844.244"/>
+		<pt X="6202.2627" Y="-15838.853"/>
+	</skpath>
+	<skpath from="405" to="406" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6202.2627" Y="-15838.853"/>
+		<pt X="6205.196" Y="-15839.708"/>
+		<pt X="6207.03" Y="-15839.34"/>
+		<pt X="6209.1143" Y="-15836.161"/>
+		<pt X="6208.641" Y="-15830.55"/>
+	</skpath>
+	<skpath from="406" to="407" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6208.641" Y="-15830.55"/>
+		<pt X="6212.067" Y="-15829.347"/>
+	</skpath>
+	<skpath from="407" to="408" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6212.067" Y="-15829.347"/>
+		<pt X="6213.7573" Y="-15834.828"/>
+		<pt X="6215.952" Y="-15834.838"/>
+		<pt X="6218.029" Y="-15833.027"/>
+	</skpath>
+	<skpath from="408" to="409" linestyle="estwall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6218.029" Y="-15833.027"/>
+		<pt X="6219.238" Y="-15835.231"/>
+	</skpath>
+	<skpath from="409" to="410" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6219.238" Y="-15835.231"/>
+		<pt X="6217.8916" Y="-15839.124"/>
+		<pt X="6217.767" Y="-15846.463"/>
+		<pt X="6220.942" Y="-15850.643"/>
+		<pt X="6223.502" Y="-15856.051"/>
+		<pt X="6223.858" Y="-15863.647"/>
+		<pt X="6226.411" Y="-15872.825"/>
+		<pt X="6227.507" Y="-15875.881"/>
+	</skpath>
+	<skpath from="410" to="391" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6227.507" Y="-15875.881"/>
+		<pt X="6231.7734" Y="-15882.972"/>
+		<pt X="6239.0913" Y="-15891.288"/>
+		<pt X="6248.611" Y="-15904.233"/>
+		<pt X="6257.661" Y="-15917.908"/>
+		<pt X="6260.4644" Y="-15926.21"/>
+	</skpath>
+	<skpath from="393" to="402" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6251.398" Y="-15936.201"/>
+		<pt X="6248.877" Y="-15934.02"/>
+		<pt X="6246.066" Y="-15927.545"/>
+	</skpath>
+	<skpath from="402" to="411" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6246.066" Y="-15927.545"/>
+		<pt X="6249.485" Y="-15924.246"/>
+	</skpath>
+	<skpath from="403" to="410" linestyle="invisible" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6221.6406" Y="-15879.166"/>
+		<pt X="6227.507" Y="-15875.881"/>
+	</skpath>
+	<skpath from="280" to="311" linestyle="pitchbound" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6191.5146" Y="-15636.584"/>
+		<pt X="6200.876" Y="-15629.609"/>
+		<pt X="6207.647" Y="-15618.458"/>
+	</skpath>
+	<skpath from="34" to="271" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6139.1313" Y="-15613.589" Z="1985.8306"/>
+		<pt X="6135.6816" Y="-15612.528"/>
+	</skpath>
+	<skpath from="68" to="275" linestyle="connective">
+		<importfrom subname="digdug"/>
+		<pt X="6186.231" Y="-15664.09" Z="1976.8304"/>
+		<pt X="6183.865" Y="-15651.752"/>
+	</skpath>
+	<skpath from="412" to="308" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Crushed&newline;Plumbs</pctext>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6246.5757" Y="-15623.897"/>
+		<pt X="6137.9727" Y="-15594.586"/>
+	</skpath>
+	<skpath from="300" to="208" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6226.449" Y="-15438.715"/>
+		<pt X="6224.538" Y="-15423.642"/>
+		<pt X="6223.9805" Y="-15414.213"/>
+		<pt X="6222.3047" Y="-15401.528"/>
+		<pt X="6223.348" Y="-15384.116"/>
+		<pt X="6225.745" Y="-15375.426"/>
+		<pt X="6230.085" Y="-15362.526"/>
+		<pt X="6236.865" Y="-15349.582"/>
+		<pt X="6239.845" Y="-15343.935"/>
+	</skpath>
+	<skpath from="413" to="207" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">Levitation</pctext>
+		</pathcodes>
+		<importfrom subname="digdug"/>
+		<pt X="6244.869" Y="-15347.753"/>
+		<pt X="6217.8306" Y="-15336.176"/>
+	</skpath>
+	<skpath from="207" to="329" linestyle="wall" splined="1">
+		<importfrom subname="digdug"/>
+		<pt X="6217.8306" Y="-15336.176"/>
+		<pt X="6211.025" Y="-15345.192"/>
+		<pt X="6203.6953" Y="-15356.197"/>
+		<pt X="6202.625" Y="-15358.269"/>
 	</skpath>
 </sketch>
 </tunnelxml>
