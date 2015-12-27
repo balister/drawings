@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2015-12-08 11:59:31">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2015-12-08 12:21:37">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -117,6 +117,7 @@
 				<subsetattr name="liars bakery" uppersubset="blue"/>
 				<subsetattr name="noserock" uppersubset="blue"/>
 				<subsetattr name="penguinfella" uppersubset="purple"/>
+				<subsetattr name="pitch59b" uppersubset="purple"/>
 				<subsetattr name="smash crash" uppersubset="orange"/>
 			</pcarea>
 		</pathcodes>
@@ -434,20 +435,13 @@
 				<subsetattr name="liars bakery" uppersubset="blue"/>
 				<subsetattr name="noserock" uppersubset="blue"/>
 				<subsetattr name="penguinfella" uppersubset="purple"/>
+				<subsetattr name="pitch59b" uppersubset="purple"/>
 				<subsetattr name="smash crash" uppersubset="orange"/>
 			</pcarea>
 		</pathcodes>
 		<sketchsubset subname="paper_A1_page_2"/>
 		<pt X="1090.3726" Y="-8658.064"/>
 		<pt X="-564.06805" Y="-10344.771"/>
-	</skpath>
-	<skpath from="23" to="21" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">Balcony-Tunnocks&space;2015post&newline;Elevation&space;West-East</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A1_page_2"/>
-		<pt X="-439.66742" Y="-8955.052"/>
-		<pt X="1090.3726" Y="-8658.064"/>
 	</skpath>
 	<skpath from="21" to="4" linestyle="invisible">
 		<sketchsubset subname="paper_A1_page_2"/>
@@ -460,16 +454,24 @@
 		<pt X="1090.3726" Y="-10575.56"/>
 		<pt X="1090.3726" Y="-8658.064"/>
 	</skpath>
-	<skpath from="21" to="24" linestyle="wall" splined="1">
+	<skpath from="21" to="23" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A1_page_2"/>
 		<pt X="1090.3726" Y="-8658.064"/>
 		<pt X="-2708.8083" Y="-8657.23"/>
 		<pt X="-3294.0095" Y="-8658.064"/>
 	</skpath>
-	<skpath from="9" to="24" linestyle="wall" splined="1">
+	<skpath from="9" to="23" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A1_page_2"/>
 		<pt X="-4470.2646" Y="-8661.427"/>
 		<pt X="-3294.0095" Y="-8658.064"/>
+	</skpath>
+	<skpath from="24" to="21" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">.&space;&space;&space;&space;Balcony-Tunnocks&newline;2015post&space;Elevation&space;West-East</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A1_page_2"/>
+		<pt X="-287.15207" Y="-8759.039"/>
+		<pt X="1090.3726" Y="-8658.064"/>
 	</skpath>
 </sketch>
 </tunnelxml>
