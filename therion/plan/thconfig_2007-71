@@ -1,0 +1,35 @@
+encoding  utf-8
+source 2007-71.th
+
+input thconfig_symbols
+
+layout 2007-71
+  map-header 100 -100 se
+  copy symbols
+symbol-hide group cave-centreline
+
+#debug on
+  legend on
+#  colour map-fg [altitude]
+ #  colour map-fg [scrap]
+  colour map-fg [90]
+ # colour map-bg [70 90 70]
+ 
+code tex-map
+ \cavename={1623/CUCC 2007-71 name}
+ \cavelength{99\thinspace{}m}
+ \cavedepth{15\thinspace{}m}
+ 
+code metapost
+ map-comment "2007-71 Explored and surveyed by CUCC 2007 & 2015 at BCRA Grade 5C<br>97 Explored and surveyed by CUCC 1977 at BCRA Grade 1A"
+# fonts_setup(7,8,10,14,20); #original
+ fonts_setup(7,10,14,20,26); 
+endcode
+ 
+  scale 1 200
+  base-scale 1 100
+ 
+endlayout
+
+export map -layout 2007-71 -projection plan -output 2007-71-plan.pdf
+#export map -projection plan -output 107-plan.pdf \

@@ -1,0 +1,14 @@
+encoding  utf-8
+survey all
+ import ../../../loser/all.3d -surveys use
+
+ survey 2007-71
+  input 2007-71.th2
+##joins 
+  join entrance 2015
+ endsurvey
+ 
+ input 97.th2
+endsurvey
+
+

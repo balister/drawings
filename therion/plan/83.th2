@@ -14,7 +14,7 @@ line pit -reverse on -clip off
   smooth off
 endline
 
-point 317.5 -483.0 label -text "DOWN<br>UNDER" -scale xl
+point 317.5 -483.0 label -text "DOWN<br>UNDER" -scale l
 
 line pit -clip off -outline in
   570.0 -287.5
@@ -421,14 +421,14 @@ line arrow
   -566.0 -1000.0
 endline
 
-point -555.0 -1068.5 label -text "<center>To Old Route<br>and<br>Thunder Road" -scale xl
+point -555.0 -1068.5 label -text "<center>To Old Route<br>and<br>Thunder Road" -scale l
 
 line arrow
   -659.5 -919.0
   -683.0 -930.5
 endline
 
-point -748.5 -956.5 label -text "UNDER<br>A ROCK" -scale xl
+point -748.5 -956.5 label -text "UNDER<br>A ROCK" -scale l
 
 point -323.5 -524.5 gradient -orientation 219.6
 

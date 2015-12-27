@@ -1,19 +1,19 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1985.0 -5229 2478 141.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -1983.5 -5229 2478 139.5
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-200 1 1.0} {-1600 {}} ../../../expoimages/surveyscans/2015/2015#20-107_Beepless/notes.jpg 0 {}
-##XTHERION## xth_me_image_insert {-1800 1 1.0} {-1500 {}} ../../../expoimages/surveyscans/2015/2015#46-107_HRV/plan.png 0 {}
 ##XTHERION## xth_me_image_insert {-500 1 1.0} {0 {}} ../../../expoimages/surveyscans/2015/2015#19-107_DoubleBeep/notes2.jpg 0 {}
+##XTHERION## xth_me_image_insert {-1800 1 1.0} {-1500 {}} ../../../expoimages/surveyscans/2015/2015#46-107_HRV/plan.png 0 {}
 
 
 
 scrap coldest -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point -1742.5 -4523.0 label -text p4 -scale l
+point -1742.5 -4523.0 label -text p4 -scale m
 
-point -1679.5 -4442.0 label -text p5 -scale l
+point -1679.5 -4442.0 label -text p5 -scale m
 
-point -933.5 -4056.5 label -text p? -scale l
+point -933.5 -4056.5 label -text p? -scale m
 
 line rock-border -close on
   -1091.0 -4019.5
@@ -409,20 +409,20 @@ line rock-border -close on
   -1413.0 -4189.0
 endline
 
-point -934.0 -4094.5 label -text "13-CO-3A" -scale l
+point -934.0 -4094.5 label -text "13-CO-3A" -scale m
 
-point -1265.0 -4021.0 label -text "13-CO-4C" -scale l
+point -1265.0 -4021.0 label -text "13-CO-4C" -scale m
 
-point -1259.5 -3989.5 label -text "13-CO-5C" -scale l
+point -1259.5 -3989.5 label -text "13-CO-5C" -scale m
 
 line arrow
   -1429.0 -4244.0
   -1440.5 -4204.5
 endline
 
-point -1431.0 -4254.0 label -text "13-CO-6C" -scale l
+point -1431.0 -4254.0 label -text "13-CO-6C" -scale m
 
-point -1459.5 -4145.0 label -text "13-CO-7C" -scale l
+point -1459.5 -4145.0 label -text "13-CO-7C" -scale m
 
 line pit -id l412--1425--4195 -close on
   -1462.0 -4210.0
@@ -563,11 +563,9 @@ endscrap
 
 scrap colstest_1 -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point -493.0 -2864.5 label -text "13-SL-5B" -scale l
+point -493.0 -2864.5 label -text "13-SL-5B" -scale m
 
-point -808.0 -2843.5 label -text "13-CO-1A" -scale l
-
-point -1361.5 -2946.5 label -text "13-CO-2X" -scale l
+point -1361.5 -2946.5 label -text "13-CO-2X" -scale m
 
 point -1677.5 -3057.0 water-flow -orientation 257.3
 
@@ -594,11 +592,9 @@ line pit
   smooth off
 endline
 
-point -639.0 -3066.0 label -text c1 -scale l
+point -926.5 -3122.0 label -text p6 -scale m
 
-point -926.5 -3122.0 label -text p6 -scale l
-
-point -626.0 -2863.0 label -text p7 -scale l
+point -626.0 -2863.0 label -text p7 -scale m
 
 point -958.5 -3018.5 air-draught -orientation 98.9
 
@@ -678,9 +674,9 @@ line pit
   smooth off
 endline
 
-line pit
-  -579.0 -3142.5
-  -587.5 -3132.5 -597.5 -3120.0 -605.5 -3148.5
+line pit -clip off -outline in
+  -587.5 -3147.0
+  -596.0 -3137.0 -608.5 -3127.0 -620.0 -3151.0
   smooth off
 endline
 
@@ -815,11 +811,11 @@ line wall -id l444--1162--3126 -reverse on
   -565.0 -3059.0 -549.0 -3061.5 -550.5 -3068.5
   -552.0 -3075.5 -550.5 -3087.5 -557.0 -3092.5
   -563.5 -3097.5 -572.5 -3102.0 -575.0 -3106.0
-  -577.5 -3110.0 -578.5 -3135.5 -579.0 -3142.5
-  -579.5 -3149.5 -576.0 -3157.0 -578.0 -3163.0
-  -580.0 -3169.0 -581.5 -3177.0 -587.0 -3177.0
-  -592.5 -3177.0 -607.0 -3156.0 -605.5 -3148.5
-  -604.0 -3141.0 -615.0 -3120.0 -615.0 -3120.0
+  -577.5 -3110.0 -587.0 -3140.0 -587.5 -3147.0
+  -588.0 -3154.0 -589.0 -3158.5 -591.0 -3164.5
+  -593.0 -3170.5 -600.5 -3176.0 -606.0 -3176.0
+  -611.5 -3176.0 -621.5 -3158.5 -620.0 -3151.0
+  -618.5 -3143.5 -615.0 -3120.0 -615.0 -3120.0
   smooth off
   -615.0 -3120.0 -624.5 -3124.5 -636.0 -3128.0
   -647.5 -3131.5 -673.5 -3133.5 -683.5 -3136.5
@@ -887,6 +883,20 @@ point -1133.0 -3114.0 station -name 0728.4
 
 point -1279.0 -3135.0 station -name 0728.3
 
+line arrow
+  -844.5 -3179.0
+  -851.0 -3004.0
+endline
+
+point -843.5 -3201.0 label -text 15-CO-7B
+
+line arrow -reverse on
+  -818.0 -2870.5
+  -505.0 -2797.0
+endline
+
+point -469.0 -2793.0 label -text 13-CO-1A
+
 point -1362.0 -2999.0 station -name 0728.2
 
 point -1651.0 -3080.5 station -name 0728.1
@@ -932,6 +942,10 @@ line wall
   90.5 -4228.5 82.0 -4264.0 77.0 -4279.0
   smooth off
 endline
+
+point 425.0 -3593.0 label -text 15-CO-3B -scale m
+
+point 140.0 -3762.0 label -text Beepless -scale l
 
 point 84.0 -4280.0 station -name beepless.9
 
@@ -1073,11 +1087,16 @@ endscrap
 
 scrap stuarts -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 1559.0 -2188.0 label -text c1 -scale l
+point 1545.0 -2263.0 label -text c1 -scale m
 
-point 1426.5 -1977.5 label -text "Greased<br>Scotsman" -scale xl
+point 1420.0 -1994.0 label -text "<centre>Greased<br>Scotsman" -scale l
 
-point 1252.5 -1982.5 label -text c1.5 -scale l
+line arrow
+  1227.0 -1941.0
+  1261.0 -1977.0
+endline
+
+point 1210.5 -1917.5 label -text c1.5 -scale m
 
 line wall
   1305.0 -2018.0
@@ -1266,9 +1285,9 @@ line pit
   smooth off
 endline
 
-point 1392.0 -1816.0 label -text c4 -scale l
+point 1392.0 -1816.0 label -text c4 -scale m
 
-point 1429.5 -1832.0 label -text c3 -scale l
+point 1429.5 -1832.0 label -text c3 -scale m
 
 line wall
   1374.0 -1864.0
@@ -1301,6 +1320,8 @@ scrap stuarts_start -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 point 1187.5 -2244.0 station -name 0810.13
 
 point 1247.0 -2183.0 station -name 0810.12
+
+point 1209.0 -2142.0 label -text c7 -scale m
 
 line pit -clip off
   1223.5 -2202.5
@@ -1337,9 +1358,18 @@ point -1510.0 -1946.5 station -name hrv.23
 
 point -1512.25 -1931.75 station -name hrv.22
 
+line arrow
+  -1558.5 -1831.5
+  -1497.5 -1838.0
+endline
+
+point -1596.5 -1832.0 label -text "15-CO-9C"
+
 point -1485.25 -1885.75 station -name hrv.21
 
-point -1056.25 -1959.0 continuation
+point -1115.5 -2036.5 label -text 15-CO-8A -scale m
+
+point -1022.75 -1962.0 label -text 15-CO-4A -scale m
 
 line wall -close on
   -1126.5 -1989.5
@@ -1354,11 +1384,13 @@ endline
 line pit
   -1589.75 -2180.75
   -1582.5 -2186.0 -1579.5 -2179.75 -1578.25 -2178.25
+  smooth off
 endline
 
 line pit
   -1562.0 -1965.75
   -1558.25 -1969.0 -1558.25 -1970.75 -1558.0 -1974.0
+  smooth off
 endline
 
 line pit
@@ -1373,9 +1405,12 @@ endline
 line pit
   -1578.5 -2170.5
   -1578.5 -2170.5 -1582.5 -2167.0 -1587.5 -2171.5
+  smooth off
 endline
 
-point -1376.5 -2034.5 continuation
+point -1726.0 -1976.0 label -text 15-CO-6B -scale m
+
+point -1376.5 -2034.5 label -text 15-CO-5B -scale m
 
 line wall
   -1366.25 -2048.0
@@ -1550,7 +1585,7 @@ line wall -close on
   -1592.0 -2007.5
 endline
 
-point -1564.0 -1848.5 air-draught -orientation 61.8
+point -1571.5 -1851.5 air-draught -orientation 61.8
 
 point -1497.0 -1996.0 air-draught -orientation 309.1
 
@@ -1559,9 +1594,10 @@ point -1085.0 -1956.0 air-draught -orientation 254.9
 line pit
   -1426.0 -2061.5
   -1426.0 -2061.5 -1427.75 -2057.0 -1434.5 -2054.0
+  smooth off
 endline
 
-point -1340.5 -2172.5 label -text "Heat Recovery<br>Ventilation" -scale xl
+point -1340.5 -2172.5 label -text "<centre>Heat Recovery<br>Ventilation" -scale l
 
 line pit
   -1580.0 -1990.25
@@ -1569,21 +1605,21 @@ line pit
   smooth off
 endline
 
-point -1116.0 -2029.5 label -text p6 -scale l
+point -1116.0 -2013.0 label -text p6 -scale m
 
-point -1691.5 -2017.0 label -text p9 -scale l
+point -1721.0 -1999.5 label -text p9 -scale m
 
-point -1613.0 -1959.5 label -text tt -scale l
+point -1613.0 -1959.5 label -text tt -scale m
 
-point -1487.0 -2032.5 label -text p1 -scale l
+point -1487.0 -2032.5 label -text p1 -scale m
 
-point -1453.0 -1821.0 label -text p9 -scale l
+point -1455.5 -1833.5 label -text p9 -scale m
 
-point -1459.0 -1875.5 label -text p10 -scale l
+point -1459.0 -1875.5 label -text p10 -scale m
 
-point -1538.0 -2071.0 label -text c8 -scale l
+point -1537.5 -2067.0 label -text c8 -scale m
 
-point -1435.5 -2045.0 label -text c2 -scale l
+point -1435.5 -2045.0 label -text c2 -scale m
 
 line wall
   -1066.0 -1973.5
@@ -1734,6 +1770,7 @@ line wall
   462.5 -1289.5 460.5 -1290.0 457.5 -1298.0
   454.5 -1306.0 454.5 -1327.5 449.5 -1340.5
   444.11 -1354.51 454.18 -1402.4 449.0 -1416.0
+  smooth off
 endline
 
 line wall
@@ -1791,7 +1828,7 @@ line rock-border -close on
   473.0 -1247.0
 endline
 
-point 517.0 -1264.0 air-draught -orientation 182.4
+point 545.5 -1007.5 air-draught -orientation 190.8
 
 line pit
   468.0 -1397.0
@@ -1809,7 +1846,7 @@ endline
 
 point 653.0 -673.0 air-draught -orientation 206.5
 
-point 406.0 -579.0 label -text "Double<br>Beep" -scale xl
+point 388.0 -579.0 label -text "<center>Double<br>Beep" -scale l
 
 line wall
   477.0 -1422.0
@@ -1865,29 +1902,17 @@ endscrap
 scrap dbeep_start -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 line wall
-  1147.0 -1215.0
-  1140.0 -1225.0 1144.0 -1233.0 1138.0 -1239.0
-  1132.0 -1245.0 1089.0 -1257.0 1086.0 -1275.0
+  1161.5 -1225.5
+  1154.5 -1235.5 1136.0 -1238.0 1130.0 -1241.0
+  1122.4 -1244.8 1089.0 -1257.0 1086.0 -1275.0
   1083.0 -1293.0 1078.0 -1329.0 1076.0 -1344.0
   1074.0 -1359.0 1060.0 -1380.0 1057.0 -1393.0
-  1054.0 -1406.0 1056.0 -1413.0 1062.0 -1428.0
-  1068.0 -1443.0 1079.0 -1450.0 1085.0 -1455.0
   smooth off
 endline
 
 line wall
-  1193.0 -1335.0
-  1172.0 -1335.0 1137.0 -1328.0 1137.0 -1322.0
-  1137.0 -1316.0 1156.0 -1291.0 1156.0 -1280.0
-  1156.0 -1269.0 1156.0 -1260.0 1157.0 -1251.0
-  1158.0 -1242.0 1160.0 -1246.0 1162.0 -1231.0
-  smooth off
-endline
-
-line wall
-  1138.0 -1452.0
-  1140.0 -1443.0 1146.0 -1417.0 1161.0 -1407.0
-  1176.0 -1397.0 1203.0 -1392.0 1217.0 -1392.0
+  1119.5 -1367.0
+  1122.0 -1363.0 1150.65 -1289.62 1156.0 -1280.0
   smooth off
 endline
 
@@ -1901,6 +1926,8 @@ endscrap
 
 scrap dbeep_west -projection plan -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
+point 1015.0 -1372.0 label -text 15-CO-2A -scale m
+
 line wall -subtype presumed
   940.0 -867.0
   950.0 -891.0
@@ -1909,6 +1936,7 @@ endline
 line wall -subtype presumed
   947.0 -859.0
   947.0 -859.0 952.0 -884.0 956.0 -886.0
+  smooth off
 endline
 
 line wall
@@ -1956,6 +1984,13 @@ line border
   smooth off
 endline
 
+line arrow
+  1123.0 -510.0
+  1082.0 -490.0
+endline
+
+point 1190.0 -540.0 label -text 15-CO-1C -scale m
+
 line pit
   1030.0 -1114.0
   1024.0 -1105.0 1024.0 -1061.0 990.0 -1109.0
@@ -1986,7 +2021,7 @@ line pit -reverse on
   smooth off
 endline
 
-point 1099.0 -692.0 label -text c3 -scale l
+point 1099.0 -692.0 label -text c3 -scale m
 
 line wall
   1021.0 -1318.0
@@ -2044,11 +2079,11 @@ line wall
   smooth off
 endline
 
-point -108.0 -2982.0 label -text tt -scale l
+point -108.0 -2982.0 label -text tt -scale m
 
-point -186.0 -2847.0 label -text tt -scale l
+point -186.0 -2847.0 label -text tt -scale m
 
-point -63.5 -3015.5 air-draught -orientation 309.8
+point -139.5 -2999.5 air-draught -orientation 309.8
 
 line wall
   -129.0 -2972.0

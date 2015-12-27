@@ -1,14 +1,13 @@
 encoding  utf-8
-
 #!CODE
 survey all
 import ../../../loser/all.3d -surveys use
 survey 107
 #!  survey 107
-  input 107ent3.th2
+  input 107ent.th2
   input 107wonderland.th2
   input 107ropeless.th2
-  input 107china2014.th2
+  input 107china.th2
   input 107oldroute.th2
   input 107coldest.th2
 #!  endsurvey
@@ -21,6 +20,8 @@ join top100 oldroute3
 join top100 bigrift
 join uphill bigrift_east
 join bigrift_west bigrift_wet
+join pitch2_top entpassage
+join antigrav oldroute3
 
 ###joins in wonderland
 join ropeless_w wonderland2_st
@@ -57,11 +58,11 @@ join beepless dbeep_east
 ###joins in ropefree and beyond
 join rope_roofw ropeless_sw2
 join ropeless_sw2 ropeless_w
-join fudged_up ropeless_w
+join fudged_up ropeless_w_ext
 join fudged_up ropeless_sw2
-join ropeless_w into_rless 
+join ropeless_w_ext into_rless 
 join ropeless_e ropeless_neend
-join ropeless_e ropeless_w #in 107ropeless.th
+join ropeless_e ropeless_w_ext #in 107ropeless.th
 join ropeless_neend ropefree_s
 join ropefree_s ropefree_e
 join ropefree_n ropefree_s
@@ -80,10 +81,10 @@ join loc_main loc_under
 join loc_south scary_trav
 join loc_main loc_side
 join locoxbows loc_main
+join alcove_pop  scary_trav
 join popped_across popped_down
-join SSB2_west SSB2_mid
-join SSB_west SSB2_mid
-join SSB_east SSB_west
+join SSB_north SSB_south
+#join SSB_south SSB_extra -count 2
 
 endsurvey
 

@@ -1,0 +1,675 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -135.5 -3552.0 2674.0 237.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-4.0 1 1.0} {77.0 {}} {../../../expoimages/surveyscans/2015/2015#66-107 Old Route/notes.jpg} 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../../Pictures/107original.png 0 {}
+##XTHERION## xth_me_image_insert {-4.0 1 1.0} {109.0 {}} ../../../loser/caves/107/oldroute3.png 0 {}
+##XTHERION## xth_me_image_insert {-4.0 1 1.0} {45.0 {}} {../../../expoimages/surveyscans/2015/2015#64-107 Old Route/notes1.jpg} 0 {}
+##XTHERION## xth_me_image_insert {500 1 1.0} {-700 {}} ../../../loser/caves/107/oldroute_2_3.png 0 {}
+
+
+
+scrap bottom -projection extended -flip horizontal -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+line wall -subtype presumed
+  176.0 -1358.0
+  176.0 -1358.0 178.13 -1281.25 177.5 -1272.0
+  176.5 -1257.25 68.5 -1255.5 68.5 -1255.5
+  smooth off
+endline
+
+line wall
+  176.5 -1405.0
+  176.0 -1358.0
+endline
+
+line wall -subtype blocks
+  176.0 -1455.0
+  176.5 -1405.0
+endline
+
+point 66.75 -1342.25 water-flow -orientation 175.9
+
+point 154.75 -1465.5 water-flow -orientation 117.2
+
+line wall
+  148.0 -1461.0
+  134.75 -1455.5
+  176.0 -1455.0
+endline
+
+line wall
+  54.0 -1258.0
+  53.5 -1266.5 55.0 -1451.5 55.5 -1455.0
+  56.0 -1458.5 131.5 -1456.5 131.5 -1456.5
+  smooth off
+  148.0 -1464.0
+endline
+
+point 62.0 -1454.0 station -name fake.16b
+
+point 176.0 -1455.0 station -name fake.19
+
+endscrap
+
+
+
+scrap big_rift -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+line pit
+  2153.0 -1784.0
+  2150.0 -1843.0
+endline
+
+line rock-edge
+  1962.0 -1808.0
+  1947.0 -1814.0
+endline
+
+line rock-edge
+  1943.0 -1553.0
+  1934.0 -1537.0
+endline
+
+line rock-edge
+  1948.0 -1537.0
+  1943.0 -1553.0
+  1936.0 -1563.0
+endline
+
+line rock-border -close on
+  1996.0 -1585.0
+  2011.0 -1592.0
+  2009.0 -1614.0
+  1997.0 -1610.0
+  1996.0 -1585.0
+endline
+
+line rock-border -close on
+  1953.0 -1797.0
+  1947.0 -1814.0
+  1957.0 -1825.0
+  1959.0 -1846.0
+  1966.0 -1833.0
+  1962.0 -1808.0
+  1953.0 -1797.0
+endline
+
+line rock-border -close on
+  1888.0 -1758.0
+  1887.0 -1776.0
+  1896.0 -1788.0
+  1903.0 -1770.0
+  1888.0 -1758.0
+endline
+
+line rock-border -close on
+  1948.0 -1537.0
+  1934.0 -1537.0
+  1926.0 -1557.0
+  1940.0 -1568.0
+  1952.0 -1563.0
+  1948.0 -1537.0
+endline
+
+line rock-border -close on
+  1722.0 -1270.0
+  1710.0 -1269.0
+  1708.0 -1247.0
+  1723.0 -1248.0
+  1722.0 -1270.0
+endline
+
+line rock-border -close on
+  1716.0 -1275.0
+  1725.0 -1282.0
+  1731.0 -1261.0
+  1721.0 -1256.0
+  1716.0 -1275.0
+endline
+
+line rock-border -close on
+  1696.0 -1236.0
+  1698.0 -1250.0
+  1714.0 -1253.0
+  1714.0 -1238.0
+  1696.0 -1236.0
+endline
+
+line rock-border -close on
+  1384.0 -1216.0
+  1380.0 -1231.0
+  1393.0 -1236.0
+  1394.0 -1224.0
+  1384.0 -1216.0
+endline
+
+line wall -subtype presumed
+  1409.0 -1323.0
+  1409.0 -1307.0 1391.0 -1263.0 1353.0 -1263.0
+  1332.0 -1263.0 1256.0 -903.0 1252.0 -894.0
+  smooth off
+endline
+
+point 2315.0 -2005.0 water-flow -orientation 137.1
+
+point 1493.0 -1508.0 water-flow -orientation 90.2
+
+line wall
+  2177.0 -2239.0
+  2199.0 -2239.0 2390.0 -2247.0 2405.0 -2250.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  2405.0 -2250.0
+  2491.0 -2255.0
+endline
+
+line wall -subtype presumed
+  1426.0 -1645.0
+  1431.0 -1664.0 1743.0 -2024.0 1759.0 -2051.0
+  1819.69 -2153.41 2064.61 -2120.34 2096.0 -2158.0
+  2111.0 -2176.0 2134.99 -2219.46 2177.0 -2239.0
+  smooth off
+endline
+
+point 1865.0 -1282.5 label -text "BIG RIFT" -scale xl
+
+line wall -id l18-2152--1789
+  1422.0 -877.0
+  1428.0 -893.0 1464.0 -1031.0 1465.0 -1047.0
+  1466.0 -1063.0 1489.5 -1219.0 1492.5 -1224.0
+  1495.5 -1229.0 1549.0 -1222.0 1571.0 -1221.0
+  1593.0 -1220.0 1700.96 -1228.78 1710.0 -1233.0
+  1717.5 -1236.5 1766.6 -1236.16 1769.0 -1241.5
+  1773.5 -1251.5 1772.3 -1256.12 1779.5 -1259.0
+  1784.5 -1261.0 1780.5 -1262.0 1782.5 -1266.5
+  1784.69 -1271.42 1785.5 -1275.5 1788.0 -1284.0
+  1790.12 -1291.2 1798.5 -1295.0 1800.0 -1301.0
+  1801.5 -1307.0 1812.5 -1355.5 1817.5 -1368.5
+  1822.5 -1381.5 1816.0 -1394.0 1821.0 -1404.0
+  1826.0 -1414.0 1896.5 -1413.0 1909.5 -1421.0
+  1922.5 -1429.0 1933.0 -1446.0 1937.0 -1456.0
+  1941.0 -1466.0 1947.0 -1557.0 1952.0 -1563.0
+  1957.0 -1569.0 2032.0 -1573.0 2038.0 -1581.0
+  2044.0 -1589.0 2071.0 -1653.0 2076.0 -1663.0
+  2081.0 -1673.0 2146.0 -1723.0 2146.0 -1735.0
+  2146.0 -1747.0 2137.0 -1779.0 2153.0 -1784.0
+  2169.0 -1789.0 2241.0 -1789.0 2245.0 -1797.0
+  2249.0 -1805.0 2244.0 -1817.0 2249.0 -1824.0
+  2254.0 -1831.0 2275.0 -1849.0 2278.0 -1859.0
+  2281.0 -1869.0 2287.0 -1912.0 2292.0 -1927.0
+  2297.0 -1942.0 2385.78 -2091.88 2402.0 -2101.0
+  2434.0 -2119.0 2487.0 -2118.5 2496.5 -2146.0
+  smooth off
+endline
+
+point 1398.0 -888.0 station -name oldroute4.17
+
+point 1455.0 -1222.0 station -name oldroute4.16
+
+point 1486.0 -1240.0 station -name oldroute4.15
+
+point 1699.0 -1298.0 station -name oldroute4.14
+
+point 1782.0 -1399.0 station -name oldroute4.13
+
+line pit
+  1731.0 -1261.0
+  1740.5 -1310.5
+endline
+
+point 1889.0 -1477.0 station -name oldroute4.12
+
+point 1927.0 -1567.0 station -name oldroute4.11
+
+point 1979.0 -1601.0 station -name oldroute4.10
+
+point 2041.0 -1662.0 station -name oldroute4.9
+
+point 2106.0 -1737.0 station -name oldroute4.8
+
+point 2110.0 -1785.0 station -name oldroute4.7
+
+point 2124.0 -1820.0 station -name oldroute4.6
+
+point 2158.0 -1879.0 station -name oldroute4.5
+
+point 2254.0 -1928.0 station -name oldroute4.4
+
+point 2246.0 -2015.0 station -name oldroute4.3
+
+point 2259.0 -2093.0 station -name oldroute4.2
+
+point 2336.0 -2156.0 station -name oldroute4.1
+
+endscrap
+
+
+
+scrap p67_to_p100 -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+line wall -subtype invisible
+  451.0 -2031.0
+  535.0 -1726.0
+endline
+
+line wall -id bottomline -subtype presumed
+  238.0 -2015.0
+  249.0 -2015.0 294.0 -2001.5 303.0 -2014.5
+  312.0 -2027.5 350.0 -2104.0 361.5 -2110.0
+  374.59 -2116.83 387.0 -2030.0 395.0 -2020.0
+  403.0 -2010.0 404.89 -2007.88 429.5 -2000.5
+  439.5 -1997.5 446.08 -2026.3 451.0 -2031.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  5.0 -2091.0
+  17.0 -2085.0 33.0 -2072.0 53.0 -2064.0
+  73.0 -2056.0 83.0 -2035.0 107.0 -2032.0
+  131.0 -2029.0 165.0 -2026.0 178.0 -2026.0
+  smooth off
+endline
+
+line wall
+  412.0 -1744.0
+  412.0 -1744.0 386.0 -1781.0 377.0 -1785.0
+  368.0 -1789.0 326.0 -1758.0 317.0 -1750.0
+  308.0 -1742.0 271.0 -1733.0 253.0 -1749.0
+  235.0 -1765.0 220.0 -1785.0 198.0 -1786.0
+  176.0 -1787.0 152.0 -1790.0 135.0 -1795.0
+  118.0 -1800.0 78.0 -1815.0 52.0 -1825.0
+  26.0 -1835.0 10.0 -1837.0 0.0 -1843.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  456.5 -1698.5
+  456.5 -1698.5 438.5 -1722.0 429.5 -1728.0
+  420.5 -1734.0 412.0 -1744.0 412.0 -1744.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  499.0 -1721.0
+  490.0 -1715.0 481.0 -1710.0 481.0 -1705.0
+  481.0 -1700.0 478.0 -1694.5 478.0 -1694.5
+  smooth off
+endline
+
+line rock-border -close on
+  86.5 -1949.0
+  78.0 -1934.5
+  58.0 -1943.5
+  58.0 -1943.5 58.5 -1954.5 60.5 -1956.0
+  62.5 -1957.5 75.5 -1959.0 75.5 -1959.0
+  smooth off
+  86.5 -1949.0
+endline
+
+line rock-border -close on
+  216.5 -1948.5
+  219.5 -1943.5
+  217.0 -1934.0
+  211.5 -1940.5
+  216.5 -1948.5
+endline
+
+line rock-border -close on
+  187.0 -1934.0
+  196.0 -1929.0
+  199.5 -1936.5
+  195.5 -1944.5
+  187.0 -1934.0
+endline
+
+line rock-border -close on
+  205.0 -1946.5
+  211.5 -1940.5
+  204.5 -1933.0
+  202.0 -1938.0
+  205.0 -1946.5
+endline
+
+line rock-border -close on
+  224.5 -1923.0
+  214.0 -1928.5
+  217.0 -1934.0
+  225.0 -1930.5
+  224.5 -1923.0
+endline
+
+line rock-border -close on
+  228.0 -1938.5
+  230.5 -1944.0
+  237.0 -1939.0
+  236.0 -1933.5
+  228.0 -1938.5
+endline
+
+line rock-border -close on
+  248.0 -1940.0
+  246.0 -1924.0
+  236.0 -1928.0
+  248.0 -1940.0
+endline
+
+line pit
+  113.0 -1926.0
+  -5.0 -1950.0
+endline
+
+line pit
+  187.0 -1934.0
+  165.0 -1932.0
+endline
+
+line pit
+  448.0 -1894.0
+  448.0 -1894.0 271.0 -1921.0 260.0 -1923.0
+  smooth off
+endline
+
+line pit
+  544.0 -1806.0
+  527.0 -1805.0 501.0 -1804.0 496.0 -1804.0
+  smooth off
+endline
+
+line wall -close on -reverse on
+  535.0 -1726.0
+  535.0 -1726.0
+endline
+
+line wall -id topline
+  535.0 -1726.0
+  527.0 -1726.0 509.0 -1726.0 499.0 -1721.0
+  smooth off
+endline
+
+point 547.0 -1785.0 station -name oldroute3.9
+
+point 528.0 -1778.0 station -name oldroute3.8
+
+point 406.5 -1868.5 station -name oldroute3.7
+
+point 366.0 -1894.0 station -name oldroute3.6
+
+point 269.0 -1868.0 station -name oldroute3.5
+
+point 194.0 -1912.0 station -name oldroute3.4
+
+point 115.0 -1912.0 station -name oldroute3.3
+
+point 73.0 -1891.0 station -name oldroute3.2
+
+point 27.0 -1913.0 station -name oldroute3.1
+
+endscrap
+
+
+
+scrap big_rift_upper -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+line wall
+  1602.5 -634.5
+  1657.0 -696.0 1830.0 -869.0 1837.0 -891.0
+  1844.0 -913.0 1975.0 -889.5 1974.0 -935.5
+  smooth off
+  subtype presumed
+endline
+
+line wall
+  2125.5 -893.5
+  2119.0 -882.0 2101.5 -824.5 2094.5 -820.5
+  2087.5 -816.5 1980.0 -818.0 1979.0 -807.0
+  1978.0 -796.0 1935.0 -629.0 1932.0 -615.0
+  1929.0 -601.0 1881.0 -572.0 1879.0 -561.0
+  1877.0 -550.0 1863.0 -510.0 1863.0 -501.0
+  1863.0 -492.0 1858.0 -474.0 1858.0 -464.0
+  smooth off
+endline
+
+line rock-edge -clip off
+  1692.5 -527.5
+  1679.0 -545.0
+endline
+
+line rock-edge -clip off
+  1869.0 -525.0
+  1771.5 -551.0
+  1692.5 -527.5
+  1684.0 -496.0
+endline
+
+point 1593.5 -523.0 water-flow -orientation 89.5
+
+line rock-border -close on -clip off
+  1879.0 -561.0
+  1879.0 -561.0 1868.5 -569.0 1846.5 -571.0
+  1806.65 -574.62 1679.0 -545.0 1679.0 -545.0
+  smooth off
+  1672.5 -499.0
+  1684.0 -496.0
+  1850.5 -476.5
+  1863.0 -501.0
+  1879.0 -561.0
+endline
+
+point 1830.0 -496.0 station -name oldroute3.10
+
+point 1823.0 -556.0 station -name oldroute4.21
+
+point 1906.0 -618.0 station -name oldroute4.20
+
+point 1943.0 -804.0 station -name oldroute4.19
+
+point 2108.0 -897.0 station -name oldroute4.17
+
+endscrap
+
+
+
+scrap p67 -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+line wall -close on -outline in
+  273.5 -415.0
+  278.0 -414.5 285.0 -412.0 289.5 -417.0
+  294.0 -422.0 307.0 -431.0 309.5 -439.0
+  312.0 -447.0 316.0 -458.5 317.5 -467.0
+  319.0 -475.5 328.0 -491.0 319.0 -498.0
+  310.0 -505.0 291.0 -511.5 288.5 -508.0
+  286.0 -504.5 278.0 -469.0 276.0 -462.0
+  274.0 -455.0 269.0 -415.5 273.5 -415.0
+endline
+
+line wall
+  218.0 -547.0
+  222.0 -547.0 251.5 -538.0 258.0 -536.0
+  264.5 -534.0 281.5 -525.5 284.5 -524.0
+  287.5 -522.5 310.5 -513.0 314.5 -511.5
+  318.5 -510.0 350.5 -497.0 359.0 -496.0
+  367.5 -495.0 381.5 -482.5 388.0 -480.0
+  394.5 -477.5 434.5 -456.5 439.0 -454.0
+  smooth off
+endline
+
+line wall -id topline2
+  259.0 56.0
+  252.5 58.0
+endline
+
+line wall
+  411.5 -315.0
+  404.5 -313.0 397.0 -312.5 385.5 -315.5
+  374.0 -318.5 321.5 -324.5 316.0 -324.5
+  310.5 -324.5 293.5 -291.5 289.0 -286.0
+  284.5 -280.5 255.49 25.9 256.5 33.0
+  smooth off
+endline
+
+line rock-border -close on
+  198.0 -194.0
+  212.0 -188.5
+  213.5 -199.0
+  207.0 -208.0
+  198.5 -197.0
+  198.0 -194.0
+endline
+
+line wall -id bottomline2
+  216.0 -53.5
+  215.5 -79.5 199.0 -180.0 198.0 -194.0
+  196.72 -211.9 189.35 -367.18 185.0 -387.5
+  182.0 -401.5 181.5 -441.5 174.0 -454.0
+  smooth off
+endline
+
+point 247.0 33.0 station -name oldroute3.19
+
+point 273.5 -398.0 station -name oldroute3.18
+
+point 288.5 -406.5 station -name oldroute3.17
+
+point 315.5 -443.0 station -name oldroute3.16
+
+point 331.5 -448.5 station -name oldroute3.15
+
+point 355.0 -484.0 station -name oldroute3.13
+
+point 277.0 -519.5 station -name oldroute3.12
+
+point 254.5 -529.0 station -name oldroute3.11
+
+point 219.5 -534.5 station -name oldroute3.10
+
+endscrap
+
+
+
+scrap p67_top -projection extended -flip horizontal -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+point 156.0 43.0 station -name oldroute3.22
+
+point 187.0 37.5 station -name oldroute3.21
+
+point 218.0 40.0 station -name oldroute3.20
+
+line wall
+  153.5 31.0
+  159.5 31.0 183.0 31.5 186.5 31.0
+  190.0 30.5 218.0 35.0 221.0 34.0
+  smooth off
+endline
+
+line wall
+  219.5 56.0
+  208.0 54.0 164.0 62.0 156.0 62.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap oldroute_p2p3 -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+point 975.5 -991.0 station -name oldroute3.22
+
+point 922.0 -766.5 station -name oldroute8.2
+
+line wall
+  933.0 -775.0
+  940.5 -782.5 946.5 -781.5 951.0 -787.5
+  954.82 -792.59 963.5 -808.0 974.0 -811.0
+  981.14 -813.04 1008.28 -822.06 1017.5 -799.0
+  1023.5 -784.0 1050.0 -786.0 1058.0 -805.5
+  smooth off
+endline
+
+point 944.5 -836.5 water-flow -orientation 178.6
+
+point 1021.0 -918.5 water-flow -orientation 182.2
+
+line pit
+  1044.0 -882.0
+  1036.0 -882.5 1029.5 -882.5 1019.5 -883.0
+  smooth off
+endline
+
+line wall -reverse on
+  1059.0 -816.0
+  1059.5 -828.0 1055.38 -852.02 1052.5 -859.5
+  1050.0 -866.0 1049.79 -873.97 1049.0 -879.5
+  1048.5 -883.0 1044.0 -878.5 1044.0 -882.0
+  1044.0 -907.52 1043.0 -956.5 1043.5 -964.0
+  1044.0 -971.5 1016.5 -969.5 1010.5 -970.5
+  1004.5 -971.5 982.0 -993.5 977.5 -999.5
+  smooth off
+endline
+
+line wall -reverse on
+  978.5 -978.5
+  983.5 -973.5 988.39 -956.37 992.5 -954.5
+  998.0 -952.0 1011.0 -952.0 1013.0 -948.0
+  1015.0 -944.0 1016.5 -916.0 1017.5 -910.5
+  smooth off
+endline
+
+line border
+  1017.5 -910.5
+  1018.5 -905.0 1020.0 -893.5 1019.5 -883.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  972.0 -882.0
+  976.0 -885.5 971.5 -890.0 977.0 -895.0
+  982.5 -900.0 996.0 -902.5 1000.0 -905.0
+  1004.0 -907.5 1017.0 -907.0 1017.5 -910.5
+  smooth off
+endline
+
+line pit
+  1019.5 -883.0
+  1005.5 -884.0 981.49 -882.0 972.0 -882.0
+  smooth off
+endline
+
+line wall -reverse on
+  972.0 -882.0
+  subtype debris
+  965.5 -882.0 948.0 -878.5 943.0 -876.0
+  smooth off
+endline
+
+line wall -reverse on
+  943.0 -876.0
+  939.51 -874.25 937.16 -795.89 938.5 -788.5
+  939.5 -783.0 926.5 -782.5 923.5 -775.5
+  smooth off
+endline
+
+point 990.0 -971.0 station -name oldroute2.5
+
+point 1003.0 -960.5 station -name oldroute2.6
+
+point 1028.5 -873.0 station -name oldroute2.16
+
+point 1012.5 -966.0 station -name oldroute2.15
+
+point 942.5 -787.0 station -name oldroute.4
+
+point 942.5 -866.0 station -name oldroute.3
+
+point 908.0 -855.0 label -text "<centre>OLD<br>ROUTE" -scale xl
+
+point 970.5 -873.0 station -name oldroute.2
+
+point 1009.0 -862.5 station -name oldroute.1
+
+endscrap
+
+

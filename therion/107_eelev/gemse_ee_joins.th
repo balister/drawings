@@ -1,0 +1,32 @@
+encoding  utf-8
+#Main Route 
+join s_ent_ee s_rampytop_ee
+join s_rampytop_ee s_ropelessw_ee
+join s_ropelessw_ee s_ropelesse_ee
+join s_ropelesse_ee s_ropefreew_ee
+join s_ropefree_ee s_ropefreew_ee
+join  s_sleepless_ee s_ropefree_ee
+join s_sleepless_ee s_cold_ee
+join s_cold_ee s_cold2_ee
+join s_cold2_ee s_restless_ee
+join s_restless_ee popped_across
+join popped_across nipped_down
+join nipped_down s_china_ee
+join s_china_ee tibet
+
+#Side bits
+join s_cold_ee hrv
+join s_china_ee SSB
+
+#Old Route
+join s_ent_ee oldroute_p2p3
+join oldroute_p2p3 p67_top
+join oldroute_p2p3 s_ropelessw_ee
+#join p67_to_p100 p67
+join topline:0 topline2:1 
+join bottomline:end bottomline2:0
+join p67 p67_top 
+#join p67_top p67_to_p100
+join big_rift big_rift_upper
+join bottom big_rift
+

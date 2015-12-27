@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2928 -2565.5 3957.5 1428
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -2928 -2564.25 3956.25 1428
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-2500 1 1.0} {-500 {}} ../../Pictures/olly-jenny-note-scans/cave050.jpg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {1 {}} ../19-107-small.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1900 1 1.0} {-750 {}} ../../Pictures/107originalplan.png 0 {}
@@ -20,7 +20,7 @@ encoding  utf-8
 
 scrap entpassage -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 247.25 -412.5 label -text c2 -scale l
+point 247.25 -412.5 label -text c2 -scale m
 
 point 361.5 -349.0 gradient -orientation 276
 
@@ -46,18 +46,11 @@ line border -close on
   403.5 -290.5 409.25 -288.25 413.75 -290.25
 endline
 
-point 499.0 -206.0 air-draught -orientation 207.0
+point 487.25 -238.75 air-draught -orientation 207.0
 
 line wall -id l11-442--212 -reverse on
-  413.5 -236.5
-  410.0 -239.0 405.06 -246.08 407.5 -246.5
-  413.25 -247.5 414.5 -245.0 414.5 -245.0
-  smooth off
-  419.5 -238.0
-  419.5 -238.0 422.0 -241.0 421.5 -244.5
-  421.0 -248.0 425.0 -255.0 425.0 -255.0
-  smooth off
-  425.0 -255.0 429.0 -252.5 429.0 -248.0
+  419.5 -258.5
+  419.5 -258.5 429.0 -252.5 429.0 -248.0
   429.0 -243.5 427.0 -240.5 429.5 -235.5
   432.0 -230.5 438.5 -218.0 440.5 -214.0
   442.5 -210.0 445.5 -207.25 446.5 -203.25
@@ -77,16 +70,7 @@ line wall -reverse on
   372.5 -322.5 382.0 -314.5 385.0 -308.5
   388.0 -302.5 396.0 -291.5 398.5 -287.5
   401.0 -283.5 403.0 -279.0 403.5 -276.5
-  404.0 -274.0 410.5 -266.5 410.5 -266.5
-  smooth off
-  416.5 -263.5
-  416.0 -259.0
-  416.0 -259.0 412.5 -260.5 410.0 -260.5
-  407.5 -260.5 405.25 -256.0 402.25 -255.0
-  399.25 -254.0 397.75 -255.0 394.75 -253.0
-  392.09 -251.22 390.0 -248.0 390.0 -248.0
-  smooth off
-  390.0 -248.0 390.5 -241.5 392.0 -240.0
+  404.0 -274.0 408.5 -270.25 408.5 -270.25
   smooth off
 endline
 
@@ -100,7 +84,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 501.5 -183.0 label -text p5 -scale l
+point 500.25 -178.25 label -text p5 -scale m
 
 line border -reverse on
   298.75 -381.25
@@ -180,15 +164,9 @@ line pit -id l23-457--199 -reverse on
   smooth off
 endline
 
-line pit
-  392.0 -240.0
-  396.5 -240.75 409.5 -236.5 413.5 -236.5
-  smooth off
-endline
-
-line pit
-  416.5 -263.5
-  419.75 -260.5 421.5 -256.0 425.0 -255.0
+line pit -clip off
+  408.5 -270.25
+  411.75 -267.25 416.0 -259.5 419.5 -258.5
   smooth off
 endline
 
@@ -546,28 +524,34 @@ scrap near_ent -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 line pit -reverse on -clip off
   552.0 -239.0
-  546.5 -232.5 545.5 -228.5 542.0 -223.5
+  550.75 -236.5 551.25 -235.5 547.75 -230.5
   smooth off
 endline
 
+line pit -clip off
+  591.0 -254.5
+  583.75 -260.0
+endline
+
 line wall
-  588.0 -253.5
-  580.5 -254.0 575.0 -254.5 573.0 -256.0
-  565.11 -261.92 553.0 -295.0 550.5 -294.5
+  583.75 -260.0
+  579.0 -252.25 577.75 -252.75 573.0 -256.0
+  564.85 -261.57 553.0 -295.0 550.5 -294.5
   548.0 -294.0 543.0 -296.5 544.0 -292.0
   545.0 -287.5 542.5 -270.5 543.0 -266.5
-  543.5 -262.5 540.0 -243.0 540.0 -243.0
-  smooth off
-  540.0 -243.0 542.0 -227.11 542.0 -223.5
+  543.5 -262.5 539.47 -247.0 540.0 -243.0
+  540.47 -239.42 544.75 -233.25 547.75 -230.5
   smooth off
 endline
 
 line wall
-  588.5 -219.0
-  587.0 -223.0 580.5 -230.5 580.5 -230.5
+  580.25 -228.75
+  578.75 -232.75 576.0 -237.25 576.0 -237.25
   smooth off
-  577.0 -241.5
-  586.5 -241.5
+  573.0 -246.25
+  573.0 -246.25 577.8 -246.88 583.75 -243.75
+  590.3 -240.3 591.0 -254.5 591.0 -254.5
+  smooth off
 endline
 
 line wall
@@ -578,13 +562,11 @@ line wall
   556.0 -275.5 559.0 -259.5 559.5 -257.5
   560.0 -255.5 558.5 -253.0 561.5 -250.0
   564.5 -247.0 566.0 -246.5 567.5 -242.5
-  569.0 -238.5 578.0 -222.0 579.5 -219.5
+  569.0 -238.5 573.0 -230.0 574.5 -227.5
   smooth off
 endline
 
-point 565.5 -272.0 air-draught -orientation 31.4
-
-point 536.0 -259.5 air-draught -orientation 173.2
+point 538.25 -277.0 air-draught -orientation 187.2
 
 point 549.0 -257.5 station -name ent.6
 
@@ -603,7 +585,7 @@ scrap ent_start -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 553.75 -597.25 gradient -orientation 114.1
 
-point 580.25 -625.25 label -text c2 -scale l
+point 580.25 -625.25 label -text c2 -scale m
 
 point 661.0 -667.0 label -text "107 ENTRANCE" -scale xl
 
@@ -613,7 +595,7 @@ line arrow
   521.5 -599.0
 endline
 
-point 672.0 -583.5 label -text "12-EN-5C" -scale l
+point 672.0 -583.5 label -text "12-EN-5C" -scale m
 
 line pit -clip off -outline in
   595.5 -568.0
@@ -647,7 +629,7 @@ point 601.0 -575.0 station -name ent.17
 
 point 588.5 -608.5 station -name ent.20
 
-point 652.0 -548.5 label -text p17 -scale l
+point 652.0 -548.5 label -text p17 -scale m
 
 point 570.5 -604.0 station -name ent.21
 
@@ -685,13 +667,13 @@ line pit
   smooth off
 endline
 
-point 1070.5 -130.0 label -text c3 -scale l
+point 1081.5 -127.5 label -text c3 -scale m
 
-point 1063.25 -155.0 label -text c1 -scale l
+point 1063.25 -155.0 label -text c1 -scale m
 
-point 1173.5 -143.0 label -text c1 -scale l
+point 1169.25 -140.75 label -text c1 -scale m
 
-point 1225.75 -109.0 label -text c2 -scale l
+point 1218.25 -82.25 label -text c2 -scale m
 
 line pit -close on
   1225.75 -99.5
@@ -721,27 +703,20 @@ endline
 
 point 1076.75 -141.0 station -name ext.6
 
-line wall
-  1001.0 -203.5
-  998.5 -209.0
+line wall -reverse on
+  1020.0 -196.5
+  1025.0 -196.5 1026.25 -196.0 1027.5 -196.5
+  smooth off
 endline
 
 line pit -clip off
-  1001.0 -203.5
-  1003.0 -200.25 1002.0 -201.25 1006.0 -199.25
-  smooth off
+  1024.5 -209.0
+  1020.0 -196.5
 endline
 
-line wall -reverse on -subtype presumed
-  1006.0 -199.25
-  1010.0 -197.25 1022.5 -194.75 1027.5 -196.5
-  smooth off
-endline
-
-line wall -reverse on -subtype presumed
+line wall -reverse on
   1036.5 -209.5
-  1035.0 -217.0 1033.5 -227.5 1030.0 -228.5
-  1026.5 -229.5 1007.5 -228.5 1006.5 -227.0
+  1034.25 -211.5 1027.5 -210.25 1024.5 -209.0
   smooth off
 endline
 
@@ -855,12 +830,6 @@ line wall -reverse on
   smooth off
 endline
 
-line pit -reverse on
-  1006.5 -227.0
-  1002.0 -222.0 995.86 -215.16 998.5 -209.0
-  smooth off
-endline
-
 line wall -subtype invisible
   1118.5 -139.0
   1102.75 -140.5
@@ -904,7 +873,7 @@ point 1150.0 -147.0 station -name ext.4
 
 point 1166.5 -111.0 station -name ext.3
 
-point 1304.75 -75.25 label -text "12-EN-1X" -scale l
+point 1304.75 -75.25 label -text "12-EN-1X" -scale m
 
 point 1234.0 -93.5 station -name ext.2
 
@@ -914,7 +883,7 @@ endscrap
 
 scrap rampy -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
-point 851.5 -699.5 water-flow -orientation 324.5
+point 839.5 -707.25 water-flow -orientation 324.5
 
 point 869.5 -735.0 gradient -orientation 258.3
 
@@ -953,29 +922,9 @@ line wall
   smooth off
 endline
 
-line pit
-  882.0 -763.75
-  885.25 -764.5 884.25 -770.75 888.25 -771.25
-  892.25 -771.75 888.0 -758.0 890.5 -754.0
-  893.0 -750.0 895.25 -740.5 891.25 -737.5
-  887.25 -734.5 882.5 -738.5 884.0 -734.0
-  885.5 -729.5 889.0 -723.0 889.0 -723.0
-  smooth off
-endline
+point 855.75 -704.0 label -text c3 -scale m
 
-line wall -subtype invisible
-  882.0 -763.75
-  885.25 -764.5 884.25 -770.75 888.25 -771.25
-  892.25 -771.75 888.0 -758.0 890.5 -754.0
-  893.0 -750.0 895.25 -740.5 891.25 -737.5
-  887.25 -734.5 882.5 -738.5 884.0 -734.0
-  885.5 -729.5 889.0 -723.0 889.0 -723.0
-  smooth off
-endline
-
-point 844.5 -687.0 label -text c3 -scale l
-
-point 860.5 -758.5 label -text p10 -scale l
+point 907.75 -739.5 label -text p10 -scale m
 
 line wall
   889.0 -723.0
@@ -1002,18 +951,18 @@ line wall
   830.5 -642.5 830.5 -656.5 829.5 -660.0
   828.5 -663.5 819.5 -667.0 820.0 -672.0
   820.5 -677.0 823.5 -690.5 821.0 -698.5
-  818.5 -706.5 814.5 -710.0 812.0 -716.5
-  809.5 -723.0 804.5 -742.0 802.5 -746.0
+  818.5 -706.5 815.25 -711.75 812.75 -718.25
+  810.25 -724.75 807.5 -742.0 805.5 -746.0
   smooth off
 endline
 
 line wall
-  811.0 -760.5
-  814.5 -755.5 815.0 -752.0 817.0 -749.0
-  819.0 -746.0 820.0 -741.0 820.5 -737.5
-  821.0 -734.0 821.0 -732.5 822.5 -730.0
-  824.0 -727.5 827.0 -727.5 827.5 -722.5
-  828.0 -717.5 825.0 -706.5 828.0 -706.5
+  811.75 -756.75
+  815.25 -751.75 814.0 -750.75 816.0 -747.75
+  818.0 -744.75 819.25 -741.25 819.75 -737.75
+  820.25 -734.25 820.5 -731.75 822.0 -729.25
+  823.5 -726.75 826.0 -727.0 826.5 -722.0
+  827.0 -717.0 825.0 -706.5 828.0 -706.5
   831.0 -706.5 837.5 -710.5 838.0 -714.0
   838.5 -717.5 842.5 -721.0 839.0 -727.0
   835.5 -733.0 834.0 -738.5 833.5 -742.5
@@ -1031,12 +980,22 @@ point 877.0 -724.0 station -name ext.15
 point 858.5 -745.0 station -name ext.14
 
 line pit -clip off
-  811.0 -760.5
-  808.0 -756.0 802.5 -746.0 802.5 -746.0
+  811.75 -756.75
+  808.75 -752.25 805.5 -746.0 805.5 -746.0
   smooth off
 endline
 
 point 901.0 -670.0 station -name ext.16
+
+line wall -subtype invisible
+  882.0 -763.75
+  885.25 -764.5 884.25 -770.75 888.25 -771.25
+  892.25 -771.75 888.0 -758.0 890.5 -754.0
+  893.0 -750.0 896.0 -740.75 892.0 -737.75
+  888.0 -734.75 883.21 -736.38 884.0 -734.0
+  885.5 -729.5 889.0 -723.0 889.0 -723.0
+  smooth off
+endline
 
 endscrap
 
@@ -1046,9 +1005,9 @@ scrap rampy_top -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 905.75 -803.5 water-flow -orientation 273.8
 
-point 907.5 -786.75 air-draught -orientation 185.5
+point 907.5 -786.75 air-draught -orientation 189.5
 
-line pit -close on
+line rock-border -close on
   864.0 -836.25
   865.5 -834.25
   867.75 -836.0
@@ -1088,9 +1047,9 @@ line rock-border -close on
   890.0 -811.5
 endline
 
-point 869.75 -833.25 gradient -orientation 231.1
+point 874.0 -830.25 gradient -orientation 231.1
 
-point 852.0 -852.25 gradient -orientation 213.5
+point 851.5 -855.75 gradient -orientation 213.5
 
 line pit -clip off
   854.5 -863.75
@@ -1112,7 +1071,7 @@ line wall
   smooth off
 endline
 
-point 866.0 -858.5 label -text p5 -scale l
+point 866.0 -858.5 label -text p5 -scale m
 
 line wall
   854.5 -863.75
@@ -1133,17 +1092,7 @@ line rock-border -close on
   893.0 -798.5
 endline
 
-line wall -reverse on -subtype invisible
-  882.0 -763.75
-  885.25 -764.5 884.25 -770.75 888.25 -771.25
-  892.25 -771.75 888.0 -758.0 890.5 -754.0
-  893.0 -750.0 895.25 -740.5 891.25 -737.5
-  887.25 -734.5 882.5 -738.5 884.0 -734.0
-  885.5 -729.5 889.0 -723.0 889.0 -723.0
-  smooth off
-endline
-
-line pit
+line pit -clip off -outline in
   882.0 -763.75
   885.25 -764.5 884.25 -770.75 888.25 -771.25
   892.25 -771.75 888.0 -758.0 890.5 -754.0
@@ -1165,7 +1114,7 @@ scrap ropefree_e -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 2206.5 -1982.5 gradient -orientation 54.5
 
-point 2261.5 -1904.0 label -text c9 -scale l
+point 2261.5 -1904.0 label -text c9 -scale m
 
 point 2354.0 -1876.5 air-draught -orientation 237.3
 
@@ -1525,8 +1474,8 @@ line pit -reverse on -clip off
 endline
 
 line pit -clip off
-  3484.5 -2048.5
-  3487.0 -2065.5 3476.0 -2076.0 3475.0 -2082.5
+  3482.75 -2053.0
+  3482.5 -2062.5 3474.75 -2075.0 3475.0 -2086.5
   smooth off
 endline
 
@@ -1537,9 +1486,15 @@ line pit -clip off
   3279.0 -2418.0
 endline
 
+line pit -reverse on -clip off
+  3505.75 -2091.0
+  3494.5 -2079.5 3484.25 -2059.75 3482.75 -2053.0
+  smooth off
+endline
+
 line wall
-  3484.5 -2048.5
-  3482.0 -2051.5 3443.0 -2058.0 3443.0 -2058.0
+  3482.75 -2053.0
+  3480.25 -2056.0 3443.0 -2058.0 3443.0 -2058.0
   smooth off
   3428.5 -2060.0
   3428.5 -2060.0 3411.86 -2054.58 3405.0 -2058.5
@@ -1632,7 +1587,8 @@ line wall
   3441.5 -2236.0 3441.5 -2223.0 3445.0 -2215.0
   3448.5 -2207.0 3449.0 -2195.5 3451.0 -2191.0
   3453.0 -2186.5 3466.0 -2155.5 3465.0 -2153.5
-  3464.0 -2151.5 3494.0 -2103.5 3494.0 -2103.5
+  3464.0 -2151.5 3483.0 -2116.25 3486.5 -2113.5
+  3490.0 -2110.75 3498.75 -2093.75 3505.75 -2091.0
   smooth off
 endline
 
@@ -1673,7 +1629,7 @@ scrap ropefree_n -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 1744.5 -1590.5 air-draught -orientation 60.2
 
-point 2023.0 -1587.0 label -text "13-RF-3X" -scale l
+point 2023.0 -1587.0 label -text "13-RF-3X" -scale m
 
 point 1881.5 -1673.5 gradient -orientation 287.1
 
@@ -1710,8 +1666,8 @@ endline
 
 line wall
   1765.5 -1576.5
-  1770.0 -1571.0 1771.24 -1575.18 1770.0 -1566.5
-  1769.0 -1559.5 1764.5 -1552.0 1763.0 -1548.0
+  1769.75 -1574.0 1771.25 -1579.5 1770.0 -1566.5
+  1769.32 -1559.45 1764.5 -1552.0 1763.0 -1548.0
   1761.5 -1544.0 1757.0 -1534.5 1752.0 -1530.5
   1747.0 -1526.5 1736.5 -1523.0 1733.5 -1517.0
   1730.5 -1511.0 1720.0 -1493.0 1720.0 -1488.0
@@ -1739,9 +1695,9 @@ line wall -reverse on
   1816.5 -1614.5 1816.0 -1615.0 1812.0 -1614.5
   1808.0 -1614.0 1797.0 -1611.0 1792.0 -1608.0
   1787.0 -1605.0 1779.0 -1602.0 1776.0 -1599.0
-  1773.0 -1596.0 1766.0 -1584.0 1766.0 -1584.0
+  1773.0 -1596.0 1768.5 -1582.5 1768.5 -1582.5
   smooth off
-  1759.0 -1588.5
+  1765.0 -1583.75
 endline
 
 line rock-border -close on
@@ -1925,9 +1881,9 @@ line pit
   1722.0 -1903.0
 endline
 
-point 1592.0 -1825.5 label -text "Pushing the Envelope" -scale xl
+point 1592.0 -1825.5 label -text "Pushing the Envelope" -scale l
 
-point 1614.5 -1545.0 label -text ROPEFREE -scale xl
+point 1614.5 -1545.0 label -text ROPEFREE -scale l
 
 line rock-border -close on
   1938.5 -1689.5
@@ -1980,7 +1936,8 @@ line pit
   smooth off
 endline
 
-line rock-border
+line rock-border -close on
+  1740.0 -1895.0
   1738.0 -1887.0
   1746.0 -1884.0
   1750.0 -1895.0
@@ -2451,8 +2408,9 @@ line rock-border -close on
   2090.5 -648.5
 endline
 
-line rock-border
-  2089.0 -659.0
+line rock-border -close on
+  2089.0 -653.0
+  2088.25 -659.5
   2091.5 -657.0
   2089.0 -653.0
 endline
@@ -2530,13 +2488,13 @@ endline
 
 point 2431.0 -385.5 water-flow -orientation 24.8
 
-point 2521.0 -384.5 air-draught -orientation 15.9
+point 2507.5 -382.25 air-draught -orientation 28.2
 
-point 2138.5 -647.5 air-draught -orientation 191.7
+point 2120.0 -627.25 air-draught -orientation 162.3
 
 point 1966.5 -308.5 water-flow
 
-point 2689.0 -198.0 label -text "<center>BOULDER<br>SHAFT" -scale xl
+point 2689.0 -198.0 label -text "<center>BOULDER<br>SHAFT" -scale l
 
 line wall
   2063.0 -720.0
@@ -2655,16 +2613,9 @@ line wall
   smooth off
 endline
 
-line pit
-  1969.0 -439.5
-  1971.0 -446.5 1984.5 -494.0 2005.0 -499.5
-  smooth off
-endline
-
 line wall
-  1971.0 -499.0
-  1979.0 -494.0 2000.0 -499.5 2005.0 -499.5
-  2010.0 -499.5 2043.0 -510.5 2045.5 -519.0
+  1983.75 -488.25
+  1988.75 -487.75 2043.0 -510.5 2045.5 -519.0
   2048.0 -527.5 2046.0 -533.5 2049.0 -543.5
   2052.0 -553.5 2057.0 -557.0 2056.5 -562.0
   2056.0 -567.0 2053.5 -577.5 2054.5 -583.0
@@ -2678,8 +2629,7 @@ line wall
   1980.5 -343.5 1990.0 -346.0 1990.0 -346.0
   smooth off
   1990.0 -346.0 1969.88 -400.26 1969.0 -403.5
-  1967.5 -409.0 1970.0 -434.5 1969.0 -439.5
-  1968.0 -444.5 1963.5 -447.0 1957.5 -449.0
+  1967.5 -409.0 1964.75 -428.0 1963.75 -433.0
   smooth off
 endline
 
@@ -2754,8 +2704,6 @@ point -545.5 -350.0 clay
 
 point -532.0 -322.5 clay
 
-point -662.5 -584.5 gradient -orientation 347.4
-
 point -651.0 -553.5 gradient -orientation 330.8
 
 point -647.5 -526.0 gradient -orientation 330.8
@@ -2799,6 +2747,20 @@ line pit
   smooth off
 endline
 
+line wall
+  -651.0 -606.5
+  -649.25 -610.25 -645.25 -615.75 -646.5 -618.0
+  -647.75 -620.25 -650.25 -629.25 -648.0 -629.0
+  smooth off
+endline
+
+line wall
+  -693.5 -622.5
+  -692.25 -625.5 -681.75 -643.75 -679.25 -648.25
+  -676.75 -652.75 -678.5 -652.25 -675.5 -657.5
+  smooth off
+endline
+
 line wall -reverse on
   -693.5 -622.5
   -693.5 -622.5 -697.0 -610.0 -694.0 -606.5
@@ -2806,14 +2768,42 @@ line wall -reverse on
   -679.0 -590.0 -677.5 -585.0 -674.5 -580.5
   -671.5 -576.0 -670.5 -570.5 -672.0 -568.0
   -673.5 -565.5 -675.5 -568.0 -678.5 -568.0
-  -681.5 -568.0 -681.0 -569.0 -687.5 -569.5
-  -694.0 -570.0 -697.0 -569.0 -701.0 -570.5
+  -681.5 -568.0 -687.75 -567.25 -691.5 -570.75
+  smooth off
+endline
+
+line pit -reverse on
+  -675.5 -657.5
+  -673.5 -653.75 -667.75 -648.25 -669.25 -643.25
+  -670.75 -638.25 -672.5 -628.5 -673.75 -624.5
+  -675.0 -620.5 -676.75 -618.75 -675.5 -614.0
+  -674.25 -609.25 -672.5 -596.25 -671.5 -591.5
+  -670.5 -586.75 -667.5 -579.0 -667.5 -574.75
+  -667.5 -570.5 -667.25 -557.5 -669.75 -558.5
+  smooth off
+endline
+
+line pit
+endline
+
+line wall -subtype invisible
+  -675.5 -657.5
+  -659.0 -671.0 -623.0 -668.0 -648.0 -629.0
+  smooth off
+endline
+
+line pit
+  -648.0 -629.0
+  -653.25 -628.0 -658.25 -630.25 -661.25 -625.25
+  -664.25 -620.25 -669.0 -618.25 -668.5 -612.5
+  -668.0 -606.75 -668.0 -590.75 -666.0 -587.75
+  -664.0 -584.75 -664.5 -556.25 -668.5 -554.5
   smooth off
 endline
 
 line wall
-  -509.0 -257.5
-  -510.5 -261.5 -514.5 -270.5 -517.5 -281.0
+  -507.5 -264.25
+  -509.0 -268.25 -514.5 -270.5 -517.5 -281.0
   -520.5 -291.5 -528.0 -304.5 -533.0 -312.0
   -538.0 -319.5 -545.5 -337.5 -549.5 -343.5
   -553.5 -349.5 -554.5 -361.0 -560.0 -365.0
@@ -2826,9 +2816,8 @@ line wall
   -670.0 -486.5 -670.5 -491.0 -674.5 -499.0
   -678.5 -507.0 -682.0 -514.0 -684.0 -520.5
   -686.0 -527.0 -685.5 -529.5 -689.0 -534.0
-  -692.5 -538.5 -695.5 -539.5 -697.5 -544.5
-  -699.5 -549.5 -696.5 -553.0 -700.5 -553.0
-  -704.5 -553.0 -708.5 -552.5 -709.5 -550.0
+  -692.5 -538.5 -693.25 -539.75 -695.25 -544.75
+  -697.25 -549.75 -700.25 -554.75 -703.75 -558.75
   smooth off
 endline
 
@@ -2851,23 +2840,23 @@ line wall
   -548.5 -370.0 -540.0 -352.5 -536.5 -345.5
   -533.0 -338.5 -529.5 -327.5 -525.0 -320.0
   -520.5 -312.5 -517.0 -300.5 -513.0 -292.5
-  -509.0 -284.5 -510.5 -281.5 -503.5 -275.0
+  -511.34 -289.18 -503.25 -275.0 -496.25 -268.5
   smooth off
 endline
 
 point -677.0 -615.5 station -name ropeless.48
 
-point -517.5 -344.0 air-draught -orientation 205.5
+point -513.5 -321.0 air-draught -orientation 205.5
 
 point -686.75 -565.0 station -name ropeless.47
 
-point -595.0 -433.5 label -text p5 -scale l
+point -595.0 -433.5 label -text p5 -scale m
 
 point -639.5 -455.0 station -name ropeless.46
 
 point -590.0 -387.0 station -name ropeless.45
 
-point -604.0 -504.0 label -text "12-RL-5C" -scale l
+point -604.0 -504.0 label -text "12-RL-5C" -scale m
 
 point -548.0 -364.5 station -name ropeless.44
 
@@ -2883,43 +2872,43 @@ line pit -clip off
   smooth off
 endline
 
-point -835.5 -120.0 label -text c7 -scale l
+point -835.5 -120.0 label -text c7 -scale m
 
-point -815.0 -197.0 label -text p10 -scale l
+line arrow
+  -870.0 -174.0
+  -825.25 -182.0
+endline
+
+point -880.5 -173.25 label -text p10 -scale m
 
 line wall -reverse on
   -859.0 -178.5
   -856.09 -174.43 -861.5 -163.5 -864.5 -158.5
-  -867.5 -153.5 -874.0 -147.5 -879.0 -139.5
-  -884.0 -131.5 -893.5 -117.0 -893.5 -117.0
   smooth off
 endline
 
-line pit
+line pit -clip off -outline in
   -864.5 -158.5
   -855.5 -160.0 -855.0 -163.0 -847.5 -157.5
   -840.0 -152.0 -838.0 -142.0 -845.0 -128.0
   smooth off
 endline
 
-point -859.0 -141.5 gradient -orientation 324.1
+point -856.0 -139.75 gradient -orientation 334.0
 
-point -841.5 -171.0 gradient -orientation 324.1
+point -841.5 -170.0 gradient -orientation 333.6
 
 line wall -reverse on
-  -824.5 -194.5
-  -833.0 -197.5
-  -841.0 -198.0 -847.0 -191.0 -851.5 -189.0
+  -822.75 -186.0
+  -822.75 -186.0 -828.25 -193.5 -833.5 -195.5
+  -841.0 -198.36 -847.0 -191.0 -851.5 -189.0
   smooth off
 endline
 
 line wall -reverse on
-  -862.5 -91.5
-  -859.5 -96.5 -853.5 -105.5 -854.0 -110.0
-  -854.5 -114.5 -856.5 -115.5 -854.0 -118.5
-  -851.5 -121.5 -847.0 -123.0 -845.0 -128.0
+  -845.0 -128.0
   -843.0 -133.0 -835.5 -139.0 -834.0 -146.5
-  -832.5 -154.0 -825.5 -172.0 -825.0 -174.0
+  -832.5 -154.0 -825.0 -177.0 -824.5 -179.0
   smooth off
 endline
 
@@ -2958,13 +2947,6 @@ line wall
   -1810.25 -1150.75 -1813.75 -1148.0 -1815.5 -1147.0
   -1817.25 -1146.0 -1818.75 -1147.5 -1818.75 -1145.0
   smooth off
-endline
-
-point -1800.75 -1140.75 label -text p14 -scale l
-
-point -1835.75 -1133.75 label -text p44 -scale l
-
-line pit
 endline
 
 line wall -subtype debris
@@ -3014,11 +2996,11 @@ scrap top_intooldrift -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 272.0 -878.0 station -name oldrift.18
 
-point 539.5 -789.5 label -text "13-OR-2C" -scale l
+point 539.5 -789.5 label -text "13-OR-2C" -scale m
 
 line arrow -reverse on
-  336.0 -766.0
-  443.0 -814.5
+  332.75 -765.5
+  443.0 -812.0
 endline
 
 point 241.0 -848.0 station -name oldrift.17
@@ -3036,14 +3018,21 @@ endline
 line pit -clip off
 endline
 
-point 429.5 -770.5 label -text p9 -scale l
+point 440.25 -765.25 label -text p9 -scale m
 
-point 212.5 -869.5 label -text p6 -scale l
+point 212.5 -869.5 label -text p6 -scale m
 
-line pit
-  168.5 -799.0
-  178.5 -819.0 228.5 -822.0 260.5 -798.0
-  273.37 -788.35 272.5 -758.5 278.5 -742.5
+line pit -clip off -outline in
+  276.75 -738.0
+  269.25 -739.25 201.25 -723.0 192.5 -731.25
+  182.73 -740.46 168.0 -755.5 168.5 -799.0
+  smooth off
+endline
+
+line pit -clip off -outline in
+  170.5 -809.25
+  187.25 -812.5 220.75 -812.75 252.75 -788.75
+  265.62 -779.1 284.75 -770.5 290.75 -754.5
   smooth off
 endline
 
@@ -3091,7 +3080,7 @@ line rock-border -close on
   281.5 -1176.0
 endline
 
-point 676.0 -1331.0 label -text p17 -scale l
+point 676.0 -1331.0 label -text p17 -scale m
 
 line arrow -reverse on
   792.0 -1339.5
@@ -3100,7 +3089,7 @@ line arrow -reverse on
   896.5 -908.5
 endline
 
-point 944.0 -784.0 label -text "13-OR-4C" -scale l
+point 944.0 -784.0 label -text "13-OR-4C" -scale m
 
 line rock-border -close on
   296.0 -1192.5
@@ -3587,9 +3576,9 @@ line pit
   smooth off
 endline
 
-point 3111.0 -1688.0 label -text c3 -scale l
+point 3111.0 -1688.0 label -text c3 -scale m
 
-point 2953.0 -1573.0 label -text c2 -scale l
+point 2957.75 -1568.75 label -text c2 -scale m
 
 line wall
   2896.0 -1481.0

@@ -1,0 +1,94 @@
+encoding  utf-8
+
+#import 83107_extend.3d -surveys use
+import ../../../loser/caves/107/107.3d -surveys use
+  
+#survey all
+survey 107
+ centerline
+
+  extend ignore ext.10 oldrift.19
+  extend ignore ropelessconn.1 0805.5
+  extend ignore unnamed.9 0805.2
+  extend ignore oldrift.12 oldroute2.2
+ # extend ignore ropeless.16 0805.3
+ extend ignore  ropelessconn.1 0805.5
+ extend ignore  0805.5 0805.6
+ extend ignore  oldriftconn.1 oldriftconn.2
+ extend ignore oldroute2.3 oldroute2.2
+  extend ignore oldrift.splay oldroute4.16
+  extend ignore oldrift.17 oldrift.18 #dont think we want this, but removing it makes hte pdf crash
+ extend ignore oldroute2.17 oldrift.17
+ #extend oldroute3.20 oldroute3.9
+ extend ignore antigrav.11 oldroute3.7
+ extend ignore oldroute5.1 oldroute5.2
+ extend vertical oldroute3.19 oldroute3.18
+ #extend ignore oldrift.17 oldroute2.17
+#extend ignore oldroute2.17 oldroute2.18 #oldroute2.18 ==oldrift.17
+#extend ignore oldrift.16 oldrift.17
+  extend ignore ropeless.12 0805.13
+  extend ignore ropeless.27 ropeless.26
+  extend ignore ropeless.27 ropeless.38
+  extend ignore china.29 china.27
+  extend ignore china.6 china.14
+  extend ignore smoothbottom2.28 smoothbottom2.27
+  extend left ropefree.1 # from station 5 - extend to the right
+  extend left ropefree.2 # from station 5 - extend to the right
+  extend left ropefree.3 # from station 5 - extend to the right
+  extend right ropefree.4 # from station 5 - extend to the right
+  extend left oldroute2.16
+  extend right oldroute3.13
+  extend right oldroute3.18
+  extend left oldroute3.12
+  extend left oldroute3.23
+  extend right oldroute8.1
+  extend right oldroute8.2
+#  extend left oldroute.3
+  extend right oldroute.4
+      extend left ent.15
+      extend right ent.16
+      extend left ent.7
+      extend left ent.8
+      extend left ext.16
+      extend right ext.15
+      extend left ext.10
+      extend right ext.12
+      extend left ropeless.47 
+      extend right ropeless.48
+      extend right ropefree.5
+      extend right ropefree.11
+      extend right ropefree.18
+      extend right ropefree.19
+      extend right china.34
+      extend left china.5
+      extend left china.4
+      extend right china.6
+#      extend left   wiggly. 1   
+    extend vertical  notwindow.2 notwindow.1
+    extend left notwindow.1
+    extend right hrv.2
+    extend left hrv.21
+    extend left smoothbottom.china4
+    extend left smoothbottom.1
+    extend right smoothbottom.2
+    extend left smoothbottom2.23
+    extend right smoothbottom2.24
+    extend left smoothbottom2.25
+    extend vertical poppedacross.9 poppedacross.8
+    extend vertical 0801.7 0801.6
+    extend vertical 0801.6 0801.5
+    extend vertical 0801.5 poppedacross.11 
+    extend right poppedacross.0 
+
+  endcenterline
+
+input 107ee_ropeless.th2
+input 107ee_china_new.th2
+input 107ee_oldroute.th2
+###used for post-2013 elevation, no longer used
+# input 107ee_china.th2
+ 
+input gemse_ee_joins.th
+
+endsurvey
+
