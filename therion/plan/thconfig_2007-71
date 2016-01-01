@@ -4,9 +4,10 @@ source 2007-71.th
 input thconfig_symbols
 
 layout 2007-71
-  map-header 100 -100 se
+  map-header 85 -90 se
   copy symbols
 symbol-hide group cave-centreline
+symbol-hide group surface-centreline
 
 #debug on
   legend on
@@ -16,7 +17,7 @@ symbol-hide group cave-centreline
  # colour map-bg [70 90 70]
  
 code tex-map
- \cavename={1623/CUCC 2007-71 name}
+ \cavename={1623/CUCC 2007-71 Portal Höhle}
  \cavelength{99\thinspace{}m}
  \cavedepth{15\thinspace{}m}
  
@@ -29,7 +30,11 @@ endcode
   scale 1 200
   base-scale 1 100
  
+ 
 endlayout
+
+select plan_2007-71.map@2007-71.all
+select plan_97.map@all
 
 export map -layout 2007-71 -projection plan -output 2007-71-plan.pdf
 #export map -projection plan -output 107-plan.pdf \

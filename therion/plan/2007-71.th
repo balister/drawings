@@ -4,11 +4,22 @@ survey all
 
  survey 2007-71
   input 2007-71.th2
+  
+  map plan_2007-71.map -projection plan
+    entrance
+    skylight
+    2015
+    2015_down
+  endmap
+  
 ##joins 
   join entrance 2015
  endsurvey
  
  input 97.th2
+  map plan_97.map -projection plan
+    p97_surface
+  endmap
+ 
 endsurvey
-
 
