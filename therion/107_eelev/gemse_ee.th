@@ -79,16 +79,76 @@ survey 107
     extend vertical 0801.6 0801.5
     extend vertical 0801.5 poppedacross.11 
     extend right poppedacross.0 
+    ##wonderland
+    extend ignore wonderland.8 wonderland2.21
+    extend vertical wildwest.11 wildwest.12
+    extend vertical direstraits.3 direstraits.00
 
   endcenterline
-
+##MAIN ROUTE SCRAPS
 input 107ee_ropeless.th2
 input 107ee_china_new.th2
 input 107ee_oldroute.th2
 ###used for post-2013 elevation, no longer used
 # input 107ee_china.th2
+
+##SIDE ROUTES
+input 107ee_wonderland.th2
  
 input gemse_ee_joins.th
 
+map oldroute_eelev.map -title "107 Extended Elevation"  -projection extended
+  oldroute_p2p3
+  p67_top
+  p67
+  big_rift_upper
+  p67_to_p100
+  big_rift
+  bottom
+endmap
+
+map main_eelev.map  -projection extended
+  s_cold_ee
+  s_cold2_ee
+  s_sleepless_ee
+  s_ropelesse_ee
+  s_ropefree_ee
+  s_ropefreew_ee
+  s_ent_ee
+  s_rampytop_ee
+  s_ropelessw_ee 
+  s_restless_ee
+  hrv
+  hrv_2
+endmap
+
+map china_eelev.map  -projection extended
+  s_china_ee
+  SSB
+  SSB_side
+  nipped_down
+  popped_across
+  tibet
+endmap
+
+map wonderland_eelev.map  -projection extended
+  wonderland
+  effective
+  ropel_to_wonder
+  wildwest
+endmap
+
 endsurvey
+
+map centerline.map -projection extended
+  107
+endmap
+
+map all_elev.map -projection extended
+ oldroute_eelev.map@107
+ main_eelev.map@107
+ china_eelev.map@107
+ wonderland_eelev.map@107 [0 50 m] none
+# centerline.map
+endmap
 

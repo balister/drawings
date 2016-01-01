@@ -1,0 +1,546 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -993 1721 2028
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {../../../../Pictures/Screenshot from 2015-12-30 10-31-27.png} 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {200 {}} ../../../../Pictures/Screenshot_effective.png 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {1000 {}} ../../../../Pictures/Screenshot_ropeless.png 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {1900 {}} ../../../../Pictures/Screenshot_wildwest.png 0 {}
+
+
+
+scrap wonderland -projection extended -scale [-128 -1664 2176 -1664 0.0 0.0 58.5216 0.0 m]
+
+point 1298.0 -789.0 station -name wonderland.2
+
+line wall
+  436.0 -546.0
+  440.5 -544.5 458.0 -537.0 461.5 -539.0
+  465.0 -541.0 492.0 -563.5 495.0 -564.0
+  498.0 -564.5 508.5 -553.5 513.5 -554.0
+  518.5 -554.5 541.0 -584.5 546.0 -584.5
+  551.0 -584.5 565.0 -585.0 576.5 -586.5
+  588.0 -588.0 654.0 -624.5 665.0 -628.0
+  676.0 -631.5 734.5 -647.0 743.0 -648.5
+  751.5 -650.0 764.5 -652.0 768.5 -654.0
+  772.5 -656.0 777.0 -651.5 781.0 -651.0
+  smooth off
+endline
+
+point 828.0 -600.5 label -text "WONDERLAND" -scale xl
+
+line rock-border
+  451.0 -651.5
+  462.0 -652.0
+endline
+
+line rock-border
+  439.0 -646.5
+  451.0 -651.5
+  450.0 -638.5
+endline
+
+line rock-border -close on
+  439.0 -646.5
+  450.0 -638.5
+  462.0 -652.0
+  461.0 -685.0
+  440.5 -684.5
+  439.0 -646.5
+endline
+
+line wall
+  782.5 -673.0
+  778.0 -674.0 774.5 -673.0 770.5 -673.0
+  766.5 -673.0 753.0 -675.0 744.5 -674.0
+  736.0 -673.0 672.5 -670.0 665.0 -668.0
+  657.5 -666.0 615.0 -659.0 609.5 -659.0
+  604.0 -659.0 581.5 -651.5 576.0 -655.0
+  570.5 -658.5 555.5 -724.0 549.0 -724.0
+  542.5 -724.0 519.5 -705.5 516.5 -705.5
+  513.5 -705.5 501.5 -713.5 496.0 -713.0
+  490.5 -712.5 467.0 -685.5 461.0 -685.0
+  455.0 -684.5 445.5 -688.5 438.0 -689.0
+  smooth off
+endline
+
+point 548.0 -641.5 station -name wonderland2.6
+
+point 514.5 -636.0 station -name wonderland2.5
+
+point 494.0 -646.5 station -name wonderland2.4
+
+point 461.0 -635.0 station -name wonderland2.3
+
+point 433.5 -614.0 station -name wonderland2.2
+
+point 769.5 -666.5 station -name wonderland2.10
+
+point 741.0 -661.5 station -name wonderland2.9
+
+line pit
+  576.0 -655.0
+  513.0 -657.0
+endline
+
+point 464.0 -589.0 water-flow -orientation 180.6
+
+line arrow
+  579.0 -698.0
+  534.0 -646.0
+endline
+
+point 629.0 -713.0 label -text "The Rabbit Hole" -scale l
+
+line wall
+endline
+
+point 665.0 -647.0 station -name wonderland2.8
+
+point 574.5 -636.5 station -name wonderland2.7
+
+line wall -reverse on
+  1297.5 -806.25
+  1295.5 -806.25 1289.21 -816.28 1287.5 -818.5
+  1285.0 -821.75 1287.5 -822.5 1288.75 -823.0
+  smooth off
+endline
+
+line wall
+  1245.5 -784.5
+  1251.5 -784.5 1263.0 -790.0 1269.0 -790.5
+  1275.0 -791.0 1292.0 -792.0 1297.0 -792.5
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  963.5 -617.0
+  984.5 -617.0
+endline
+
+line wall -subtype presumed
+  963.5 -617.0
+  959.5 -639.0
+endline
+
+line wall -reverse on
+  781.0 -651.0
+  785.0 -651.5 843.0 -665.5 848.0 -666.5
+  853.0 -667.5 953.5 -666.5 957.5 -667.5
+  961.5 -668.5 959.0 -651.0 959.5 -639.0
+  smooth off
+endline
+
+line wall
+  1001.5 -688.0
+  1007.36 -696.47 1098.0 -734.5 1104.0 -738.5
+  1110.0 -742.5 1129.0 -747.0 1139.0 -749.5
+  1149.0 -752.0 1190.5 -765.5 1196.0 -768.5
+  smooth off
+endline
+
+line wall
+  1281.25 -827.0
+  1279.5 -826.5 1280.0 -822.5 1276.5 -821.5
+  1273.0 -820.5 1253.0 -818.5 1244.5 -817.5
+  1236.0 -816.5 1202.0 -814.5 1196.0 -813.0
+  1190.0 -811.5 1143.0 -800.0 1137.5 -798.5
+  1132.0 -797.0 1107.0 -789.0 1103.0 -787.5
+  1099.0 -786.0 1005.5 -712.5 997.5 -710.0
+  989.5 -707.5 961.0 -705.0 955.5 -703.5
+  950.0 -702.0 857.5 -695.5 849.5 -694.0
+  841.5 -692.5 789.0 -673.0 782.5 -673.0
+  smooth off
+endline
+
+point 780.0 -663.0 station -name wonderland.10
+
+point 848.5 -675.5 station -name wonderland.9
+
+point 954.5 -699.5 station -name wonderland.8
+
+point 996.5 -693.5 station -name wonderland.7
+
+point 1104.0 -755.5 station -name wonderland.6
+
+point 1138.0 -757.0 station -name wonderland.5
+
+point 1195.0 -783.5 station -name wonderland.4
+
+point 1242.5 -796.0 station -name wonderland.3
+
+point 1272.0 -794.5 station -name wonderland.1
+
+point 1292.5 -817.0 station -name wonderland.0
+
+endscrap
+
+
+
+scrap effective -projection extended -scale [-128 -1664 2176 -1664 0.0 0.0 58.5216 0.0 m] -sketch ../../../../Pictures/Screenshot_effective.png 0 -665
+
+line wall
+  1471.0 -245.0
+  1462.0 -244.0 1354.0 -237.0 1340.0 -234.0
+  1326.0 -231.0 1186.0 -194.0 1172.0 -194.0
+  1158.0 -194.0 1032.0 -224.0 1024.0 -226.0
+  1016.0 -228.0 991.0 -233.0 977.0 -236.0
+  963.0 -239.0 883.0 -242.0 872.0 -245.0
+  861.0 -248.0 780.0 -260.0 774.0 -258.0
+  768.0 -256.0 721.0 -222.0 705.0 -225.0
+  689.0 -228.0 630.0 -205.0 618.0 -201.0
+  606.0 -197.0 464.0 -180.0 447.0 -178.0
+  430.0 -176.0 315.0 -109.0 306.0 -108.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  576.0 -293.0
+  550.0 -290.0 247.29 -270.14 245.5 -260.0
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  622.0 -319.0
+  235.0 -279.0
+endline
+
+line wall
+  305.0 -174.0
+  321.0 -179.0 424.0 -223.0 438.0 -230.0
+  452.0 -237.0 567.0 -291.0 576.0 -293.0
+  smooth off
+endline
+
+point 1134.0 -119.0 label -text "Still an Effective Team" -scale l
+
+line wall
+  622.0 -319.0
+  631.0 -321.0 697.0 -318.0 707.0 -319.0
+  717.0 -320.0 752.0 -321.0 767.0 -321.0
+  782.0 -321.0 857.0 -308.0 867.0 -310.0
+  877.0 -312.0 968.0 -329.0 976.0 -331.0
+  984.0 -333.0 1003.0 -331.0 1021.0 -331.0
+  1039.0 -331.0 1156.0 -355.0 1169.0 -356.0
+  1182.0 -357.0 1330.0 -339.0 1340.0 -340.0
+  1350.0 -341.0 1454.0 -341.0 1460.0 -342.0
+  smooth off
+endline
+
+point 189.0 -125.0 station -name wonderland.1
+
+point 232.0 -113.0 station -name effective.11
+
+point 302.0 -126.0 station -name effective.10
+
+point 445.0 -189.0 station -name effective.9
+
+point 622.0 -269.0 station -name effective.8
+
+point 704.0 -299.0 station -name effective.7
+
+point 769.0 -286.0 station -name effective.6
+
+point 870.0 -268.0 station -name effective.5
+
+point 976.0 -255.0 station -name effective.4
+
+point 1022.0 -247.0 station -name effective.3
+
+point 1171.0 -239.0 station -name effective.2
+
+point 1339.0 -266.0 station -name effective.1
+
+point 1465.0 -296.0 station -name effective.0
+
+endscrap
+
+
+
+scrap ropel_to_wonder -projection extended -scale [-128 -1664 2176 -1664 0.0 0.0 58.5216 0.0 m] -sketch ../../../../Pictures/Screenshot_ropeless.png 0 135
+
+point 477.0 481.5 station -name ropeless.27
+
+point 575.5 600.5 label -text "Leeads to connection<br>with old Route"
+
+line arrow -reverse on
+  515.0 536.5
+  548.5 573.0
+endline
+
+line wall -close on -reverse on
+  493.5 530.0
+  488.0 527.5 483.5 473.0 488.0 469.0
+  492.5 465.0 504.5 467.5 511.5 467.5
+  518.5 467.5 522.5 520.5 517.5 521.5
+  512.5 522.5 499.0 532.5 493.5 530.0
+endline
+
+line pit
+  1412.0 389.5
+  1405.0 390.0 1254.5 401.0 1242.0 401.5
+  1229.5 402.0 1213.0 405.5 1199.5 405.5
+  1186.0 405.5 1155.5 407.0 1140.0 407.0
+  1124.5 407.0 1046.0 404.0 1039.5 404.5
+  1033.0 405.0 1025.5 405.0 1025.5 405.0
+  smooth off
+endline
+
+point 1067.5 394.0 water-flow -orientation 125.7
+
+point 293.0 638.5 water-flow -orientation 180
+
+line wall
+  1410.0 508.0
+  1393.0 508.0 1286.0 516.0 1273.0 516.0
+  1260.0 516.0 1230.0 523.0 1216.0 525.0
+  1202.0 527.0 1165.0 534.0 1152.0 535.0
+  1139.0 536.0 1003.0 524.0 994.0 522.0
+  985.0 520.0 881.0 511.0 872.0 511.0
+  863.0 511.0 793.0 508.5 780.0 505.5
+  767.0 502.5 693.0 485.0 680.0 483.0
+  667.0 481.0 649.0 480.0 633.0 483.0
+  617.0 486.0 482.0 537.0 472.0 537.0
+  462.0 537.0 433.0 546.0 425.0 546.0
+  417.0 546.0 349.0 656.0 338.0 665.0
+  327.0 674.0 258.0 711.0 249.0 711.0
+  240.0 711.0 222.0 712.0 217.0 714.0
+  212.0 716.0 51.0 854.0 44.0 856.0
+  smooth off
+endline
+
+line map-connection
+  44.0 637.0
+  44.0 -77.0
+endline
+
+area water
+  l121-294-585
+  l54-291-577
+endarea
+
+line border -id l121-294-585
+  255.0 586.0
+  337.0 586.0
+endline
+
+point 660.5 425.0 label -text "Sea of Fudge"
+
+area clay
+  l119-669-464
+  l54-291-577
+endarea
+
+line border -id l119-669-464
+  710.0 465.0
+  603.5 465.0
+endline
+
+line wall -id l54-291-577
+  43.0 677.0
+  50.0 677.0 204.0 663.0 215.0 661.0
+  226.0 659.0 243.0 658.0 249.0 653.0
+  255.0 648.0 249.72 621.75 253.0 601.0
+  259.65 558.95 332.5 586.5 337.0 586.0
+  341.21 585.53 342.88 573.64 343.5 561.5
+  344.5 542.0 382.39 554.71 422.0 525.0
+  430.0 519.0 466.0 494.5 473.0 471.5
+  474.65 466.07 619.61 467.3 631.0 463.5
+  644.5 459.0 681.5 460.0 692.0 463.5
+  703.72 467.41 777.56 468.26 782.5 467.5
+  789.0 466.5 861.0 475.0 874.0 475.0
+  887.0 475.0 983.0 434.0 996.0 430.0
+  1009.0 426.0 1142.0 321.0 1151.0 319.0
+  1160.0 317.0 1195.0 354.0 1211.0 349.0
+  1227.0 344.0 1255.0 338.0 1269.0 333.0
+  1283.0 328.0 1400.0 272.0 1411.0 270.0
+  smooth off
+endline
+
+point 44.0 722.0 station -name ropeless.42
+
+point 217.0 690.5 station -name ropeless.41
+
+point 247.5 681.0 station -name ropeless.40
+
+point 339.5 600.5 station -name ropeless.39
+
+point 423.0 539.0 station -name ropeless.38
+
+point 633.0 472.0 station -name ropeless.28
+
+point 678.0 472.0 station -name ropeless.29
+
+point 782.0 471.0 station -name ropeless.37
+
+point 875.0 490.0 station -name ropeless.36
+
+point 996.0 468.0 station -name ropeless.35
+
+point 1148.0 425.0 station -name ropeless.32
+
+point 1411.5 397.0 station -name wonderland2.2
+
+point 1219.5 437.5 station -name wonderland2.1
+
+endscrap
+
+
+
+scrap wildwest -projection extended -scale [-128 -1664 2176 -1664 0.0 0.0 58.5216 0.0 m] -sketch ../../../../Pictures/Screenshot_wildwest.png 0 1035
+
+point 1055.5 1578.0 station -name direstraits.8
+
+point 1109.5 1586.5 station -name direstraits.7
+
+point 1169.5 1592.0 station -name direstraits.6
+
+point 1192.0 1584.0 station -name direstraits.5
+
+point 1277.5 1621.0 station -name direstraits.4
+
+point 1299.0 1607.5 station -name direstraits.3
+
+point 1385.5 1647.5 station -name direstraits.2
+
+point 1432.5 1653.5 station -name direstraits.1
+
+point 142.0 1186.0 station -name wildwest.19
+
+point 235.0 1226.0 station -name wildwest.18
+
+point 278.0 1237.0 station -name wildwest.17
+
+point 392.0 1237.0 station -name wildwest.16
+
+point 442.0 1260.0 station -name wildwest.15
+
+point 603.0 1296.0 station -name wildwest.14
+
+point 735.0 1409.0 station -name wildwest.13
+
+point 1189.5 1525.5 label -text Diretraits -scale l
+
+point 155.5 1286.0 label -text Wildwest -scale l
+
+line wall -subtype presumed
+  140.5 1236.0
+  136.5 1236.0 129.0 1236.5 127.0 1239.5
+  125.0 1242.5 117.5 1251.0 117.0 1253.0
+  116.5 1255.0 110.5 1267.5 110.0 1272.5
+  smooth off
+endline
+
+line wall
+  909.5 1580.5
+  910.0 1570.5 913.0 1523.0 907.0 1522.0
+  901.0 1521.0 740.0 1481.5 734.0 1481.5
+  728.0 1481.5 605.0 1334.5 598.0 1330.5
+  591.0 1326.5 453.5 1274.5 443.0 1274.5
+  432.5 1274.5 401.5 1267.5 389.0 1267.0
+  376.5 1266.5 283.0 1252.0 278.0 1252.0
+  273.0 1252.0 240.0 1243.5 233.0 1243.5
+  226.0 1243.5 172.0 1237.0 140.5 1236.0
+  smooth off
+endline
+
+line wall
+  1394.0 1710.0
+  1393.5 1704.5 1391.0 1648.0 1385.5 1647.5
+  1380.0 1647.0 1306.0 1613.5 1300.0 1613.5
+  1294.0 1613.5 1285.0 1621.5 1277.5 1621.0
+  1270.0 1620.5 1195.5 1594.5 1190.5 1595.5
+  1185.5 1596.5 1180.5 1636.5 1170.0 1635.0
+  1159.5 1633.5 1118.0 1588.0 1109.5 1586.5
+  1101.0 1585.0 1062.0 1578.5 1055.5 1578.0
+  1049.0 1577.5 1040.0 1588.0 1034.5 1586.0
+  1029.0 1584.0 1025.0 1592.0 1023.0 1597.5
+  1021.0 1603.0 1016.0 1628.0 1016.0 1637.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  1393.0 1784.0
+  1394.0 1710.0
+endline
+
+line wall -subtype presumed
+  1448.0 1682.0
+  1447.12 1689.49 1440.0 1777.0 1432.0 1790.0
+  smooth off
+endline
+
+line wall
+  1303.0 1583.5
+  1304.5 1586.0 1301.0 1590.5 1304.5 1592.5
+  1308.0 1594.5 1379.5 1639.5 1384.0 1639.5
+  1388.5 1639.5 1426.0 1638.0 1430.5 1637.5
+  1451.17 1635.2 1446.0 1667.0 1448.0 1682.0
+  smooth off
+endline
+
+point 56.0 1124.0 station -name wonderland.8
+
+line rock-border -close on
+  630.0 1294.0
+  633.0 1305.0
+  642.0 1297.0
+  637.0 1293.0
+  630.0 1294.0
+endline
+
+line rock-border -close on
+  646.0 1313.0
+  642.0 1297.0
+  647.0 1288.0
+  660.0 1299.0
+  646.0 1313.0
+endline
+
+line rock-border -close on
+  651.0 1281.0
+  662.0 1280.0
+  659.0 1266.0
+  646.0 1268.0
+  651.0 1281.0
+endline
+
+line rock-border -close on
+  624.0 1271.0
+  628.0 1288.0
+  647.0 1288.0
+  646.0 1268.0
+  624.0 1271.0
+endline
+
+line wall
+  139.5 1143.5
+  139.81 1148.1 140.48 1180.62 160.0 1192.0
+  170.29 1198.0 231.5 1209.5 235.5 1209.5
+  239.5 1209.5 271.5 1216.5 276.0 1216.5
+  280.5 1216.5 384.5 1227.0 390.5 1227.0
+  396.5 1227.0 436.5 1246.5 442.0 1246.5
+  447.5 1246.5 569.0 1267.0 602.0 1271.0
+  635.0 1275.0 663.0 1260.0 710.0 1264.0
+  742.96 1266.81 724.0 1395.5 734.0 1399.5
+  744.0 1403.5 897.5 1469.5 906.5 1470.0
+  915.5 1470.5 985.5 1470.5 992.5 1470.5
+  999.5 1470.5 1030.0 1569.0 1037.0 1569.5
+  1044.0 1570.0 1052.5 1571.5 1056.0 1572.0
+  1059.5 1572.5 1103.0 1579.5 1109.5 1579.0
+  1116.0 1578.5 1164.0 1586.0 1167.5 1586.0
+  1171.0 1586.0 1184.5 1577.0 1190.0 1576.0
+  1195.5 1575.0 1272.0 1612.0 1277.0 1612.0
+  1282.0 1612.0 1291.5 1595.0 1294.0 1593.5
+  1296.5 1592.0 1295.5 1588.5 1295.0 1583.5
+  smooth off
+endline
+
+point 993.5 1478.0 station -name wildwest.11
+
+point 906.0 1478.0 station -name wildwest.10
+
+point 1037.0 1576.0 station -name wildwest.9
+
+endscrap
+
+
