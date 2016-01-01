@@ -1,0 +1,38 @@
+encoding  utf-8
+source 2007-71_ee.th
+
+  input thconfig_ee_symbols
+  
+layout 2007-71elev
+  map-header 40 40 ne  
+  copy symbols
+#debug on
+  legend on
+#  colour map-fg [scrap]
+  colour map-fg [90]
+ # colour map-fg [altitude]
+
+symbol-show point station
+symbol-hide group cave-centreline
+symbol-hide group surface-centreline
+symbol-show point station
+symbol-show point station-name
+#debug station-names
+symbol-show line map-connection
+
+code tex-map
+ \cavename={1623/CUCC 2007-71 Portal Höhle}
+ \cavelength{99\thinspace{}m}
+ #\cavedepth{15\thinspace{}m}
+  scale 1  200
+  base-scale 1 100
+ 
+  code metapost
+  map-comment "Extended Elevation"
+     fonts_setup(7,10,14,20,26); 
+    
+    endcode
+    endlayout
+
+select ext_all.map@2007-71.all
+export map -proj extended -layout 2007-71elev -o 2007-71-ee.pdf

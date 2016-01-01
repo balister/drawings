@@ -1,0 +1,40 @@
+encoding  utf-8
+survey all
+ import ../../../loser/caves/2007-71/2007-71.3d -surveys use
+
+ survey 2007-71
+  input 2007-71_ee.th2
+  map ext_main.map -projection extended
+    main
+    lower
+  endmap
+  
+   map ext_side.map -projection extended
+    side
+  endmap 
+    
+ map ext_all.map -projection extended
+   ext_main.map
+   break
+ #  preview below ext_side.map [0 10 m] above
+   ext_side.map [0 10 m] none
+ #  ext_side.map [000 010 m] none
+   endmap
+  
+##joins 
+join lower main
+  centerline
+  extend ignore 1.3 1.10
+  extend ignore 2.17 2.18
+ #   extend left 1.6
+    extend right 1.5
+ #   extend right 1.7
+    extend left 2.17
+    extend vertical 2.17 2.19
+    extend left 1.8
+    extend left 1.9
+  endcenterline
+ endsurvey
+ 
+endsurvey
+
