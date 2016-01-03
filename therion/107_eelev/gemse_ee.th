@@ -11,19 +11,22 @@ survey 107
   extend ignore ropelessconn.1 0805.5
   extend ignore unnamed.9 0805.2
   extend ignore oldrift.12 oldroute2.2
+  extend ignore oldrift.12 oldrift.13
+  extend ignore oldroute2.7 oldroute2.4
+ extend right oldrift.2
+ #extend ignore oldrift.splay oldroute5.1
  # extend ignore ropeless.16 0805.3
  extend ignore  ropelessconn.1 0805.5
  extend ignore  0805.5 0805.6
  extend ignore  oldriftconn.1 oldriftconn.2
- extend ignore oldroute2.3 oldroute2.2
+# extend ignore oldroute2.3 oldroute2.2
   extend ignore oldrift.splay oldroute4.16
-  extend ignore oldrift.17 oldrift.18 #dont think we want this, but removing it makes hte pdf crash
+  extend ignore oldrift.17 oldrift.18 #dont think we want this, but removing it makes the pdf crash
  extend ignore oldroute2.17 oldrift.17
  #extend oldroute3.20 oldroute3.9
  extend ignore antigrav.11 oldroute3.7
  extend ignore oldroute5.1 oldroute5.2
  extend vertical oldroute3.19 oldroute3.18
- #extend ignore oldrift.17 oldroute2.17
 #extend ignore oldroute2.17 oldroute2.18 #oldroute2.18 ==oldrift.17
 #extend ignore oldrift.16 oldrift.17
   extend ignore ropeless.12 0805.13
@@ -94,6 +97,7 @@ input 107ee_oldroute.th2
 
 ##SIDE ROUTES
 input 107ee_wonderland.th2
+input 107ee_oldroute_extras.th2
  
 input gemse_ee_joins.th
 
@@ -105,6 +109,12 @@ map oldroute_eelev.map -title "107 Extended Elevation"  -projection extended
   p67_to_p100
   big_rift
   bottom
+  bigrift_upstream
+endmap
+
+map rockofages_eelev.map  -projection extended
+  rock_east
+  rock_west
 endmap
 
 map main_eelev.map  -projection extended
@@ -149,6 +159,7 @@ map all_elev.map -projection extended
  main_eelev.map@107
  china_eelev.map@107
  wonderland_eelev.map@107 [0 50 m] none
-# centerline.map
+ rockofages_eelev.map@107 [-50 10 m] none
+# centerline.map 
 endmap
 
