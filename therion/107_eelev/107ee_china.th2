@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1678.0 -3558.0 4274.0 2128
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -1628 -3134.0 4280.0 2128
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {1000 {}} ../Pictures/SurveyScansHertford/olly372_rot.png 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../Pictures/SurveyScansHertford/olly362_rot.png 0 {}
 ##XTHERION## xth_me_image_insert {2300 1 1.0} {1000 {}} ../Pictures/olly-jenny-note-scans/landofconfusion_extend.png 0 {}
@@ -20,26 +20,6 @@ encoding  utf-8
 
 
 scrap s_chinan_ee -projection extended -flip horizontal -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
-
-line rock-edge
-  683.0 1366.0
-  707.0 1369.0
-endline
-
-line rock-edge
-  646.0 1375.0
-  683.0 1366.0
-  680.0 1394.0
-endline
-
-line rock-border -close on
-  680.0 1394.0
-  646.0 1375.0
-  677.0 1339.0
-  703.0 1342.0
-  707.0 1369.0
-  680.0 1394.0
-endline
 
 line wall
   686.0 1721.0
@@ -109,8 +89,6 @@ point 365.5 1368.5 station -name china.15
 
 point 436.5 1419.0 station -name china.14
 
-point 680.0 1394.0 station -name china.6
-
 endscrap
 
 
@@ -124,6 +102,8 @@ line rock-border -close on
   1103.0 1720.0
   1093.0 1741.0
 endline
+
+point 1364.0 1700.0 label -text "<center>IN TOO<br>DEEP" -scale xl
 
 line wall -subtype debris
   960.0 1790.0
@@ -176,7 +156,7 @@ line arrow
   1045.0 1756.0
 endline
 
-point 919.0 1652.0 label -text "17. Below Korea" -scale l
+point 919.0 1652.0 label -text "17. In Too Deep" -scale l
 
 line wall
   1288.0 1555.0
@@ -220,7 +200,23 @@ point 1389.0 1091.0 station -name china.00
 endscrap
 
 
+
 scrap s_loc_ee -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
+
+point 3788.0 734.0 label -text "To Bundestasse" -scale l
+
+line arrow
+  3796.0 672.0
+  3796.0 566.0
+endline
+
+line ceiling-step -close on -reverse on
+  3794.0 612.0
+  3779.68 610.32 3760.0 590.0 3764.0 556.0
+  3768.0 522.0 3786.0 518.0 3802.0 520.0
+  3818.0 522.0 3828.0 544.0 3824.0 564.0
+  3819.76 585.2 3828.0 616.0 3794.0 612.0
+endline
 
 line wall -subtype presumed
   4102.0 574.0
@@ -228,6 +224,45 @@ line wall -subtype presumed
   4041.0 610.0 4030.0 750.0 4022.0 772.0
   4014.0 794.0 3997.0 866.0 3988.0 875.0
   3979.0 884.0 3943.0 908.0 3943.0 908.0
+  smooth off
+endline
+
+point 3114.0 -478.0 label -text "To China" -scale l
+
+line rock-border -close on
+  3598.0 -462.0
+  3596.0 -476.0
+  3610.0 -480.0
+  3598.0 -462.0
+endline
+
+line wall -subtype debris
+  3230.0 -502.0
+  3248.0 -508.0 3274.0 -492.0 3288.0 -496.0
+  3302.0 -500.0 3354.38 -498.36 3374.0 -494.0
+  3392.0 -490.0 3376.11 -460.36 3392.0 -448.0
+  3410.0 -434.0 3470.0 -418.0 3470.0 -418.0
+  smooth off
+  3470.0 -418.0 3470.0 -448.0 3482.0 -462.0
+  3494.0 -476.0 3576.0 -484.0 3598.0 -490.0
+  smooth off
+endline
+
+line wall
+  3598.0 -490.0
+  3620.0 -496.0 3630.0 -494.0 3630.0 -494.0
+  smooth off
+  3630.0 -494.0 3617.4 -516.28 3638.0 -524.0
+  3654.0 -530.0 3697.0 -529.0 3697.0 -529.0
+  smooth off
+endline
+
+line wall
+  3677.0 -298.0
+  3668.0 -314.0 3572.0 -310.0 3510.0 -302.0
+  3448.0 -294.0 3372.0 -314.0 3350.0 -326.0
+  3328.0 -338.0 3318.0 -440.0 3296.0 -450.0
+  3274.0 -460.0 3248.0 -464.0 3230.0 -462.0
   smooth off
 endline
 
@@ -246,11 +281,11 @@ endline
 
 point 3480.0 377.0 label -text "16. Korea" -scale l
 
-point 2858.0 401.0 label -text "LAND OF CONFUSION" -scale xl
+point 2860.0 361.0 label -text "LAND OF CONFUSION" -scale xl
 
 point 3669.0 353.0 station -name china.34
 
-point 3612.0 451.0 station -name landofconfusion.22
+point 3612.0 451.0 station -name china.35
 
 line rock-border -close on
   3950.0 -567.0
@@ -289,7 +324,7 @@ endline
 
 line wall
   3680.0 333.0
-  3684.0 325.0 3672.0 -292.0 3677.0 -298.0
+  3684.0 325.0 3692.0 -262.0 3677.0 -298.0
   smooth off
 endline
 
@@ -441,6 +476,8 @@ point 3369.0 517.0 station -name landofconfusion.24
 
 endscrap
 
+
+
 scrap s_bolde_ee -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
 
 line wall
@@ -462,6 +499,13 @@ endline
 line arrow
   3871.0 -1508.0
   3941.0 -1451.0
+endline
+
+line map-connection
+  3500.0 -1354.0
+  3438.0 -1358.0
+  4002.0 -2990.0
+  3948.0 -2996.0
 endline
 
 point 3837.0 -1519.0 label -text "15. Down and Up" -scale l
@@ -498,21 +542,12 @@ line wall
   smooth off
 endline
 
-point 3515.0 -1380.0 station -name 0801.6
-
-point 3567.0 -1426.0 station -name 0801.5
-
-point 3612.0 -1431.0 station -name 0801.3
+point 3612.0 -1431.0 station -name poppedacross.11
 
 point 3822.0 -1431.0 station -name 0801.2
 
 point 3943.0 -1436.0 station -name 0801.1
 
 endscrap
-
-
-
-
-
 
 

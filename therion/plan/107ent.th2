@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2928 -2564.25 3956.25 1428
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -2928 -2568.0 3960.0 1428
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-2500 1 1.0} {-500 {}} ../../Pictures/olly-jenny-note-scans/cave050.jpg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {1 {}} ../19-107-small.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1900 1 1.0} {-750 {}} ../../Pictures/107originalplan.png 0 {}
@@ -1216,9 +1216,11 @@ scrap diamond -scale [-81.0 -42.0 216.0 -42.0 0.0 0.0 7.5438 0.0 m]
 
 point 3468.5 -2201.5 water-flow -orientation 28.6
 
+point 3513.0 -2271.0 label -text "<center>Diamond<br>Passage" -scale l
+
 point 3305.5 -2114.0 air-draught -orientation 36.5
 
-point 3390.5 -2297.5 air-draught -orientation 62.4
+point 3382.5 -2307.5 air-draught -orientation 54.6
 
 line rock-border -close on
   3430.5 -2217.0
@@ -2643,6 +2645,8 @@ line wall
 endline
 
 point 2053.5 -440.0 station -name oldrift.12
+
+point 2226.25 -543.75 label -text "<center>Rock of Ages<br>Rift" -scale l
 
 point 2045.5 -519.0 station -name oldrift.11
 

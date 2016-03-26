@@ -3,7 +3,7 @@ source gemse_ee.th
  input thconfig_ee_symbols
 
 layout gemse
-  map-header 100 100 ne  
+  map-header 50 0 se  
   copy symbols
 #debug on
   legend on
@@ -13,8 +13,8 @@ layout gemse
 
 symbol-show point station
 symbol-hide group cave-centreline
-#symbol-show point station-name
-#debug station-names
+symbol-show point station-name
+debug station-names
 
 code tex-map
  \cavename={1623/107 Gemsehöhle}
