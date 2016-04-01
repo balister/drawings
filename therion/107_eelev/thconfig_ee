@@ -3,13 +3,14 @@ source gemse_ee.th
  input thconfig_ee_symbols
 
 layout gemse
-  map-header 50 0 se  
+  map-header 15 0 sw  
   copy symbols
 #debug on
   legend on
 #  colour map-fg [scrap]
   colour map-fg [90]
  # colour map-fg [altitude]
+ #  map-image 30 0 sw ../plan/107-plan-col-year.pdf
 
 symbol-show point station
 symbol-hide group cave-centreline
@@ -19,7 +20,7 @@ debug station-names
 code tex-map
  \cavename={1623/107 Gemsehöhle}
  \cavelength{3766\thinspace{}m}
- \cavedepth{287\thinspace{}m}
+ \cavedepth{254\thinspace{}m}
  
   scale 1  500
   base-scale 1 200
