@@ -1,0 +1,36 @@
+encoding  utf-8
+source 76_ee.th
+ input thconfig_ee_symbols
+
+layout 76
+  map-header 70 0 sw  
+  copy symbols
+#debug on
+  legend on
+#  colour map-fg [scrap]
+  colour map-fg [90]
+ # colour map-fg [altitude]
+
+symbol-show point station
+symbol-show group cave-centreline
+symbol-show point station-name
+debug station-names
+
+code tex-map
+ \cavename={1623/76 Eislufthöhle}
+ \cavelength{10\thinspace{}m}
+ \cavedepth{10\thinspace{}m}
+ 
+  scale 1  500
+  base-scale 1 200
+ 
+  code metapost
+    map-comment "Extended Elevation"
+    fonts_setup(7,10,14,20,26); 
+  endcode
+
+endlayout
+
+select all_elev.map
+
+export map -layout 76 -projection extended -output 76-ee.pdf
