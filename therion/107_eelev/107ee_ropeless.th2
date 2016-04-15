@@ -1589,6 +1589,8 @@ point -1413.5 807.5 station -name ent.22
 
 point -1365.5 789.0 station -name ent.21
 
+point -1536.0 832.0 label -text "107 ENTRANCE" -scale xl
+
 point -1346.0 734.0 station -name ent.20
 
 line arrow
@@ -2665,6 +2667,8 @@ scrap hrv -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999
 point 162.0 1500.5 station -name hrv.2
 
 point 126.0 1510.0 air-draught -orientation 273.2
+
+point 437.0 1631.0 label -text "<center>Heat Recovery<br>Ventilation System" -scale l
 
 point 63.5 1498.5 station -name hrv.1
 

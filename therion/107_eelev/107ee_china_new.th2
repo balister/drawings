@@ -859,15 +859,15 @@ point -616.0 911.0 station -name poppedacross.8
 line wall -subtype presumed
 endline
 
-line wall -subtype underlying
-  -384.0 1138.0
-  -384.0 1138.0 -462.0 1116.0 -480.0 1124.0
+line wall
+  -410.0 1134.0
+  -410.0 1134.0 -462.0 1116.0 -480.0 1124.0
   smooth off
 endline
 
-line wall -subtype underlying
+line wall -subtype debris
   -473.0 939.0
-  -458.0 950.0 -412.0 948.0 -378.0 958.0
+  -458.0 950.0 -434.0 956.0 -400.0 971.0
   smooth off
 endline
 
@@ -924,11 +924,13 @@ endline
 line pit
   -194.0 549.0
   -209.0 545.0 -277.0 530.0 -300.0 535.0
+  smooth off
 endline
 
 line pit
   -77.0 585.0
   -93.0 581.0 -139.0 579.0 -152.0 578.0
+  smooth off
 endline
 
 line wall -close on -reverse on -outline in
@@ -979,8 +981,6 @@ line wall -subtype presumed
   -644.0 484.0
   -686.0 -92.0
 endline
-
-point -318.0 1066.0 label -text "<center>To Land of<br>Confusion"
 
 line wall
 endline
@@ -1140,6 +1140,20 @@ line wall
 endline
 
 point 2948.0 704.0 station -name 161connection.8
+
+point 2153.0 365.0 label -text "To In Too Deep" -scale l
+
+line arrow -reverse on
+  2149.0 471.0
+  2154.0 403.0
+endline
+
+line wall -close on
+  2128.0 465.0
+  2132.0 472.0 2141.0 485.0 2151.0 481.0
+  2161.0 477.0 2175.0 459.0 2166.0 455.0
+  2157.0 451.0 2124.0 458.0 2128.0 465.0
+endline
 
 point 2460.0 550.0 station -name china.8
 

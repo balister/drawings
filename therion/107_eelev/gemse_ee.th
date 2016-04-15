@@ -7,33 +7,38 @@ import ../../../loser/caves/107/107.3d -surveys use
 survey 107
  centerline
 
-  extend ignore ext.10 oldrift.19
-  extend ignore ropelessconn.1 0805.5
+#superfluous  extend ignore ext.10 oldrift.19
+#superfluous extend ignore ropelessconn.1 0805.5
   extend ignore unnamed.9 0805.2
-  extend ignore oldrift.12 oldroute2.2
-  extend ignore oldrift.12 oldrift.13
+#  extend ignore oldrift.12 oldroute2.2 #breaks Rock of Ages
+ #superfluous extend ignore oldrift.12 oldrift.13
   extend ignore oldroute2.7 oldroute2.4
  extend right oldrift.2
  #extend ignore oldrift.splay oldroute5.1
  # extend ignore ropeless.16 0805.3
- extend ignore  ropelessconn.1 0805.5
- extend ignore  0805.5 0805.6
- extend ignore  oldriftconn.1 oldriftconn.2
+#superfluous extend ignore  0805.5 0805.6
+ extend ignore  oldriftconn.2 oldriftconn.3
+ extend vertical oldriftconn.1 oldriftconn.2
+ extend vertical oldrift.12 unnamed.2
+ extend left unnamed.2
 # extend ignore oldroute2.3 oldroute2.2
-  extend ignore oldrift.splay oldroute4.16
+ extend ignore oldroute4.16 oldrift.splay
   extend ignore oldrift.17 oldrift.18 #dont think we want this, but removing it makes the pdf crash
  extend ignore oldroute2.17 oldrift.17
  #extend oldroute3.20 oldroute3.9
  extend ignore antigrav.11 oldroute3.7
- extend ignore oldroute5.1 oldroute5.2
+ extend ignore oldroute5.1 oldroute5.2 #oldrift.1 == oldroute5.1
  extend vertical oldroute3.19 oldroute3.18
 #extend ignore oldroute2.17 oldroute2.18 #oldroute2.18 ==oldrift.17
 #extend ignore oldrift.16 oldrift.17
-  extend ignore ropeless.12 0805.13
-  extend ignore ropeless.27 ropeless.26
-  extend ignore ropeless.27 ropeless.38
+ #superfluous extend ignore ropeless.12 0805.13
+ #superfluous extend ignore ropeless.27 ropeless.26
+ #superfluous extend ignore ropeless.27 ropeless.38
+  extend ignore china.13 china.7
+#  extend ignore china.12 china.27
   extend ignore china.29 china.27
   extend ignore china.6 china.14
+  extend ignore china.8 china.9
   extend ignore smoothbottom2.28 smoothbottom2.27
   extend left ropefree.1 # from station 5 - extend to the right
   extend left ropefree.2 # from station 5 - extend to the right
@@ -48,6 +53,8 @@ survey 107
   extend right oldroute8.2
 #  extend left oldroute.3
   extend right oldroute.4
+ # extend left oldroute5.1
+ # extend left oldrift.1
       extend left ent.15
       extend right ent.16
       extend left ent.7
@@ -63,6 +70,10 @@ survey 107
       extend right ropefree.18
       extend right ropefree.19
       extend right china.34
+      extend left china.29 china.33
+      extend left china.19 
+      extend left china.27 china.19
+      extend left china.29 china.27
       extend left china.5
       extend left china.4
       extend right china.6
@@ -90,10 +101,9 @@ survey 107
   endcenterline
 ##MAIN ROUTE SCRAPS
 input 107ee_ropeless.th2
-input 107ee_china_new.th2
+input 107ee_china_new.th2 #2014-on route
 input 107ee_oldroute.th2
-###used for post-2013 elevation, no longer used
-# input 107ee_china.th2
+input 107ee_china.th2 #2013 route
 
 ##SIDE ROUTES
 input 107ee_wonderland.th2
@@ -115,6 +125,8 @@ endmap
 map rockofages_eelev.map  -projection extended
   rock_east
   rock_west
+  diamond
+  oldrift_roa
 endmap
 
 map main_eelev.map  -projection extended
@@ -141,6 +153,13 @@ map china_eelev.map  -projection extended
   tibet
 endmap
 
+map china_old_eelev.map  -projection extended
+  s_bolde_ee
+  s_loc_ee
+  s_below_korea_ee
+#  s_chinan_ee #doesn't work with combination of "extend ignore" needed for everythign else to work
+endmap
+
 map wonderland_eelev.map  -projection extended
   wonderland
   effective
@@ -155,11 +174,12 @@ map centerline.map -projection extended
 endmap
 
 map all_elev.map -projection extended
- oldroute_eelev.map@107
  main_eelev.map@107
  china_eelev.map@107
+ china_old_eelev.map@107 [-10 100 m] none
  wonderland_eelev.map@107 [0 50 m] none
- rockofages_eelev.map@107 [-50 10 m] none
+ rockofages_eelev.map@107 [-65 0 m] none
+ oldroute_eelev.map@107
 # centerline.map 
 endmap
 

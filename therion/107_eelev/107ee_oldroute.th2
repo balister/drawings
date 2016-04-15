@@ -135,6 +135,10 @@ endscrap
 
 scrap big_rift -projection extended -scale [-128 -3637 2678 -3637 0.0 0.0 71.27239999999999 0.0 m]
 
+point 1432.0 -1001.0 water-flow -orientation 164.8
+
+point 2045.0 -1634.0 water-flow -orientation 160.1
+
 line pit
   2153.0 -1784.0
   2150.0 -1843.0
@@ -235,6 +239,8 @@ point 2315.0 -2005.0 water-flow -orientation 137.1
 point 1313.0 -1474.0 label -text "<center>p100 enters here<br>from Boulder Shaft" -scale l
 
 point 1493.0 -1508.0 water-flow -orientation 90.2
+
+point 2368.0 -2089.0 water-flow -orientation 137.5
 
 line wall
   2177.0 -2239.0
@@ -356,7 +362,7 @@ line wall -subtype presumed
   smooth off
 endline
 
-point -262.5 -1954.75 label -text "<center>To Boulder Shaft<br>and p100" -scale l
+point -121.5 -1957.75 label -text "<center>To<br>Boulder Shaft<br>and p100" -scale l
 
 line wall
   412.0 -1744.0
@@ -574,6 +580,7 @@ line wall
   218.0 -547.0
   222.0 -547.0 251.5 -538.0 258.0 -536.0
   264.5 -534.0 281.5 -525.5 284.5 -524.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -581,6 +588,7 @@ line wall -subtype debris
   287.5 -522.5 310.5 -513.0 314.5 -511.5
   318.5 -510.0 350.5 -497.0 359.0 -496.0
   367.5 -495.0 364.0 -482.0 377.0 -477.0
+  smooth off
 endline
 
 line wall -id topline2
@@ -692,12 +700,7 @@ line arrow -reverse on
   1064.5 -870.5
 endline
 
-point 922.5 -928.75 label -text "<center>To<br>Rock of Ages<br>and<br>Tubular Bells" -scale l
-
-line arrow
-  954.25 -937.25
-  970.75 -952.75
-endline
+point 922.5 -928.75 label -text "<center>To<br>Tubular Bells" -scale l
 
 line arrow
   954.25 -937.25
@@ -722,20 +725,20 @@ endline
 
 line pit
   1009.75 -959.5
-  1006.25 -959.5 994.25 -959.5 991.0 -959.0
+  1006.25 -959.5 995.0 -965.5 991.75 -965.0
   smooth off
 endline
 
 line wall -reverse on
   978.5 -978.5
-  979.75 -977.25 982.95 -974.72 985.75 -971.75
-  994.0 -963.0 980.25 -959.5 976.0 -958.5
+  979.75 -977.25 984.47 -975.59 985.75 -971.75
+  986.25 -970.25 979.5 -973.5 971.75 -972.5
   smooth off
 endline
 
 line wall -reverse on
-  976.75 -948.0
-  984.0 -948.0 1005.75 -953.0 1009.75 -951.0
+  974.75 -961.75
+  982.25 -962.0 1005.75 -954.0 1011.0 -951.75
   smooth off
 endline
 
@@ -831,22 +834,26 @@ scrap bigrift_upstream -projection extended -flip horizontal -scale [-128 -3637 
 line wall
   608.0 -838.0
   582.0 -833.0 487.8 -815.4 471.0 -807.0
+  smooth off
 endline
 
 line wall
   399.0 -803.0
   393.0 -812.0 354.0 -875.0 351.0 -880.0
+  smooth off
 endline
 
 line wall -subtype presumed
   351.0 -880.0
   340.0 -888.0 335.0 -909.0 303.0 -902.0
   271.0 -895.0 212.0 -869.0 198.0 -862.0
+  smooth off
 endline
 
 line wall -subtype presumed
   190.0 -962.0
   200.0 -972.0 227.0 -1007.0 231.0 -1019.0
+  smooth off
 endline
 
 point 426.0 -927.0 water-flow -orientation 181.0
@@ -889,6 +896,7 @@ endline
 line wall
   544.0 -1292.0
   549.0 -1297.0 562.0 -1300.0 579.0 -1301.0
+  smooth off
 endline
 
 line wall -subtype debris

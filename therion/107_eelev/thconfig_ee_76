@@ -1,26 +1,25 @@
 encoding  utf-8
-source gemse_ee.th
+source 76_ee.th
  input thconfig_ee_symbols
 
-layout gemse
-  map-header 15 0 sw  
+layout 76
+  map-header 70 0 sw  
   copy symbols
 #debug on
   legend on
 #  colour map-fg [scrap]
   colour map-fg [90]
  # colour map-fg [altitude]
- #  map-image 30 0 sw ../plan/107-plan-col-year.pdf
 
 symbol-show point station
-symbol-hide group cave-centreline
+symbol-show group cave-centreline
 symbol-show point station-name
 debug station-names
 
 code tex-map
- \cavename={1623/107 Gemsehöhle}
- \cavelength{3766\thinspace{}m}
- \cavedepth{254\thinspace{}m}
+ \cavename={1623/76 Eislufthöhle}
+ \cavelength{10\thinspace{}m}
+ \cavedepth{10\thinspace{}m}
  
   scale 1  500
   base-scale 1 200
@@ -34,4 +33,4 @@ endlayout
 
 select all_elev.map
 
-export map -layout gemse -projection extended -output 107-ee.pdf
+export map -layout 76 -projection extended -output 76-ee.pdf

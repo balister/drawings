@@ -1,0 +1,106 @@
+encoding  utf-8
+
+import ../../../loser/caves/76/76.3d -surveys use
+  
+survey 76
+ centerline
+
+#superfluous  extend ignore ext.10 oldrift.19
+#extend left 99pt2.12
+extend right entrance.1
+extend left entrance.5 entrance.4
+extend left entrance.4
+extend left bent.2 bent.1
+extend vertical entrance.7 entrance.5
+# extend ignore bitter.2 bitter.3
+ extend ignore stranger.1 stranger.1a
+ extend ignore stranger.2 stranger.1
+# extend ignore stranger.1 rift.1
+  extend left bitter.7
+  extend right brave.35
+  extend left keg.15
+  extend left tap2.2
+  extend left waste.6
+  
+ #BNW
+#  extend ignore loopy.1 loopy.34
+extend ignore  brave7.1 brave7.2
+extend left brave2.9 brave2.10
+extend left brave4.8
+ 
+  endcenterline
+##MAIN ROUTE SCRAPS
+input 76ee_plugged.th2
+input 76ee_hotgk.th2
+input 76ee_BNW.th2
+
+##SIDE ROUTES
+
+#input 76_ee_joins.th
+#join  below_hotgk_c below_hotgk_a
+
+map plugged.map -projection extended
+ bent
+ bitter
+ saved
+ follow
+ taproom
+ tap_rift
+endmap
+
+map tap_extra.map -projection extended
+ space
+ razor
+ waste_bottom
+ waste_top
+endmap
+
+map plugged_extra.map -projection extended
+ strange_top
+ strangeways
+endmap
+
+map hotgk.map -projection extended
+ hotgk_pitch
+ below_hotgk_a
+ below_hotgk_b
+ below_hotgk_c
+ below_hotgk_step
+endmap
+
+map bnw.map -projection extended
+ bnw_main_a
+endmap
+
+map bnw_extras.map -projection extended
+ bnw_side
+endmap
+
+map bnw_extras2.map -projection extended
+ bnw_south
+  pancake
+endmap
+
+map fttp.map -projection extended
+ below_bstar
+endmap
+
+
+endsurvey
+
+map centerline.map -projection extended
+  76
+endmap
+
+map all_elev.map -projection extended
+ plugged.map@76
+ plugged_extra.map@76
+ #tap_extra.map@76
+ hotgk.map@76
+ bnw.map@76
+ fttp.map@76
+ bnw_extras.map@76 [0 30 m] none
+ bnw_extras2.map@76
+ centerline.map 
+endmap
+

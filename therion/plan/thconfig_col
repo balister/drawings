@@ -1,0 +1,48 @@
+encoding  utf-8
+source gemse_col.th
+
+input thconfig_symbols
+
+layout gemse
+# copy symbols
+  map-header 5 95 nw
+  symbol-hide group all
+  symbol-show line wall
+# debug on
+  colour map-fg [map]
+
+  code tex-map
+    \legendtextsize={\size[10]}
+    \legendtextheadersize={\size[10]}
+    
+    \framethickness=0.5mm
+    \def\maplayout{
+ #       \legendbox{0}{100}{NW}{
+  #      \comment{1623/107 Gemsehöhle}
+  #      \size[16]\the\comment
+  #      }
+        \legendbox{0}{100}{NW}{\formattedlegend}
+        \legendbox{27}{95}{NW}{\scalebar}
+ #       \legendbox{60}{98}{NW}{\northarrow}
+    }  
+    \def\colorlegendbox#1#2#3{%
+      \setbox\xxx=\hbox to 24bp{\PL{q #1 #2 #3 rg 0 0 24 16 re f Q}\hfil}%
+      \ht\xxx=18bp\dp\xxx=0bp
+      \immediate\pdfxform\xxx
+} 
+  endcode
+
+  scale 1 1800
+  base-scale 1 500
+
+endlayout
+
+text  en "title color-legend-map" "Exploration Year"
+ 
+select 2015.map@all 
+select 2014.map@all
+select 2013.map@all
+select 2012.map@all
+select 1978.map@all
+
+export map -layout gemse -projection plan -output 107-plan-col-year.pdf
