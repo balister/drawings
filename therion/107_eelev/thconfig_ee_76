@@ -3,17 +3,17 @@ source 76_ee.th
  input thconfig_ee_symbols
 
 layout 76
-  map-header 70 0 sw  
+  map-header 0 0 sw  
   copy symbols
 #debug on
   legend on
-#  colour map-fg [scrap]
+ # colour map-fg [scrap]
   colour map-fg [90]
  # colour map-fg [altitude]
 
-symbol-show point station
-symbol-show group cave-centreline
-symbol-show point station-name
+#symbol-show point station
+#symbol-show group cave-centreline
+#symbol-show point station-name
 debug station-names
 
 code tex-map

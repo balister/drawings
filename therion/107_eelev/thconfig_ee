@@ -11,6 +11,9 @@ layout gemse
   colour map-fg [90]
  # colour map-fg [altitude]
  #  map-image 30 0 sw ../plan/107-plan-col-year.pdf
+   map-image 8 98 nw ../../../rigging/107_1_entrance.png
+   map-image 19 100 nw ../../../rigging/107_2_pendule.png
+   map-image 24 95 nw ../../../rigging/107_3_ramp.png
 
 symbol-show point station
 symbol-hide group cave-centreline
