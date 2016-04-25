@@ -14,6 +14,9 @@ survey 76
 # extend ignore bitter.2 bitter.3
   extend ignore stranger.1 stranger.1a
   extend ignore stranger.2 stranger.1
+ extend ignore  strange.8 strange.5
+ extend left stranger.1 stranger.2
+ extend left stranger.2
 # extend ignore stranger.1 rift.1
    extend left bitter.7
    extend left bitter.9
@@ -46,19 +49,27 @@ survey 76
 #input 76_ee_joins.th
  join ent bent
  join ent bitter
- join strange_top strangeways
  join bitter saved
+ join saved strange_top
+ join strange_top strange_mid
  join saved testtubes
+ join saved_top:end strangeways_top:end
+ join saved_bot:0 strangeways_bot:0
  join saved follow
  join follow keg
  join follow taproom
  join taproom tap_rift
+ join tap_rift spent
+ join spent hotgk_pitch
  join waste_top waste_bottom
  join  hotgk_pitch below_hotgk_b
  join below_hotgk_c below_hotgk_b
  join hotgk_c_top:0 hotgk_a_top:end
  join hotgk_c_bot:end hotgk_a_bot:0
  join  fiesta below_hotgk_a
+ 
+ join testtubes bnw_start
+ join bnw_start bnw_main_a
 
 map plugged.map -projection extended
  ent
@@ -80,10 +91,12 @@ endmap
 
 map plugged_extra.map -projection extended
  strange_top
+ strange_mid
  strangeways
 endmap
 
 map hotgk.map -projection extended
+ spent
  hotgk_pitch
  below_hotgk_a
  below_hotgk_b
@@ -94,7 +107,9 @@ endmap
 
 map bnw.map -projection extended
  testtubes
+ bnw_start
  bnw_main_a
+ 
 endmap
 
 map bnw_extras.map -projection extended
@@ -122,9 +137,9 @@ map all_elev.map -projection extended
 # tap_extra.map@76
  hotgk.map@76
  bnw.map@76
- fttp.map@76
- bnw_extras.map@76 [0 30 m] none
- bnw_extras2.map@76
-  centerline.map 
+# fttp.map@76
+ #bnw_extras.map@76 [0 30 m] none
+ #bnw_extras2.map@76
+ # centerline.map 
 endmap
 
