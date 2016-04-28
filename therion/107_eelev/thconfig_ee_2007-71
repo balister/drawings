@@ -21,51 +21,33 @@ symbol-show point station-name
 symbol-show line map-connection
 
 code tex-map
- \cavename={1623/CUCC 2007-71 Portal Höhle}
+ \cavename={1623/2007-71 Korokoro Höhle}
  \cavelength{99\thinspace{}m}
- #\cavedepth{15\thinspace{}m}
+ \cavedepth{15\thinspace{}m}
   scale 1  200
   base-scale 1 100
   
-    \def\maplayout{
-    \legendbox{0}{10}{NW}{    %location of legend
-      \legendwidth 13 cm
-      \legendtextsize={\size[12]}
-      \hsize=\legendwidth
-      \input th_legend
-      }
-      \legendbox{0}{100}{NW}{\northarrow}
-      \legendbox{0}{20}{NW}{\scalebar}
-      \legendbox{10}{20}{NW}{\comment}
-  }
+  #  \def\maplayout{
+ #   \legendbox{0}{10}{NW}{    %location of legend
+  #    \legendwidth 13 cm
+  #    \legendtextsize={\size[12]}
+  #    \hsize=\legendwidth
+  #    \input th_legend
+ #     }
+ #     \legendbox{0}{100}{NW}{\northarrow}
+ #     \legendbox{0}{20}{NW}{\scalebar}
+  #    \legendbox{10}{20}{NW}{\comment}
+#  }
  
  
   code metapost
   map-comment "Extended Elevation"
      fonts_setup(7,10,14,20,26); 
      
-    def draw_legend_box =
-        %make the objects in the legend boxes bigger
-        currentpicture := currentpicture scaled 0.5; %ratio between scale and basescale
-        clip currentpicture to unitsquare scaled 1.5u;
-        drawoptions();
-        pickup PenB;
-        draw unitsquare scaled 1.5u ;
-    enddef;
- 
-    %clear the background of the larger legend boxes   
-    %def clean_legend_box =
-    %    unfill unitsquare scaled 1.5u;
-   % enddef;
-   
-    %change the value of inscale to fill the legend boxes
-    def inscale =
-        %xscaled legend_scale yscaled (0.618*legend_scale)
-        xscaled legend_scale yscaled legend_scale
-    enddef;
+
     
   endcode
     endlayout
 
 select ext_all.map@2007-71.all
-export map -proj extended -layout 2007-71elev -o 2007-71-ee.pdf
+export map -proj extended -layout 2007-71elev -o 2007-71-elv.pdf
