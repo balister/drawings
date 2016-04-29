@@ -86,11 +86,13 @@ line wall
   612.0 -843.5
   607.0 -842.0 590.0 -837.5 593.5 -836.0
   597.0 -834.5 657.5 -819.0 666.0 -818.0
+  smooth off
 endline
 
 line wall -subtype debris
   666.0 -818.0
   674.5 -817.0 721.5 -802.5 729.5 -801.5
+  smooth off
 endline
 
 line wall
@@ -99,19 +101,43 @@ line wall
   smooth off
 endline
 
-line pit
-  332.5 -882.0
-  350.0 -882.0 382.5 -890.5 384.5 -890.5
-  388.5 -890.5 412.5 -896.5 415.0 -895.5
+line wall -close on
+  347.0 -883.0
+  348.5 -877.5 346.41 -869.98 356.0 -864.5
+  359.5 -862.5 370.98 -862.01 374.0 -865.5
+  380.5 -873.0 381.5 -881.0 380.0 -883.0
+  smooth off
+  347.0 -883.0
 endline
 
-line via-ferrata
+point 364.0 -953.0 label -text "<center>Nexus<br>Pitch" -scale l
+
+line arrow -reverse on
+  383.5 -813.5
+  364.0 -871.5
+endline
+
+line pit
+  430.5 -893.5
+  415.0 -894.5 392.0 -892.0 392.0 -892.0
+  smooth off
+endline
+
+line pit -reverse on
+  332.5 -882.0
+  332.5 -882.0 336.0 -882.5 347.0 -883.0
+  smooth off
+  380.0 -883.0
+  380.0 -883.0 394.0 -885.0 396.5 -884.0
+endline
+
+line wall
   330.0 -851.0
   323.5 -851.5 299.5 -851.5 299.5 -851.5
   smooth off
 endline
 
-point 361.5 -782.0 label -text "Hidden Promise<br>Sea of Holes<br>Branch Line" -scale l
+point 382.5 -777.5 label -text "<center>Hidden Promise<br>Sea of Holes<br>Branch Line" -scale l
 
 point 254.0 -865.0 label -text "Batman" -scale l
 
@@ -119,11 +145,13 @@ line wall
   299.5 -883.0
   312.5 -883.0 330.5 -879.0 332.5 -882.0
   334.5 -885.0 336.0 -923.5 335.5 -926.5
+  smooth off
 endline
 
 line wall
   392.5 -928.0
   392.5 -923.5 393.5 -902.5 395.0 -900.5
+  smooth off
 endline
 
 line wall
@@ -190,40 +218,60 @@ scrap bnw_start -projection extended -flip horizontal -scale [-128 -2395 1510 -2
 line wall -subtype presumed
   499.5 -1358.5
   498.0 -1366.5 497.36 -1376.6 494.0 -1378.0
+  smooth off
 endline
 
 line wall -subtype presumed
   527.5 -1423.0
-  524.5 -1416.0 518.5 -1379.5 514.5 -1360.0
+  524.5 -1416.0 520.5 -1378.5 516.5 -1359.0
+  smooth off
 endline
 
 line wall
   468.5 -1466.0
   477.0 -1463.0 494.0 -1461.5 494.0 -1461.5
   smooth off
-  496.0 -1514.0
+  494.0 -1461.5 491.5 -1500.5 486.5 -1515.5
+  smooth off
 endline
 
 line wall
   494.0 -1378.0
   488.14 -1383.86 477.5 -1413.0 468.0 -1416.5
+  smooth off
 endline
 
-point 428.5 -1358.0 label -text "Straight on to<br>Overhand tactics<br>and<br>The Boiling Tubes" -scale l
+point 595.0 -1365.0 label -text "Traverse over pitch to:<br>Overhand tactics<br>The Boiling Tubes" -scale l
 
-point 509.0 -1536.0 label -text "A star pitch<br>leading to<br> Forward to the Past<br>and Rift Pitch" -scale l
+line pit
+  543.5 -1465.5
+  536.0 -1466.5 517.5 -1468.0 517.5 -1468.0
+  smooth off
+endline
+
+line pit
+  517.5 -1460.5
+  508.0 -1460.5 494.0 -1461.5 494.0 -1461.5
+  smooth off
+endline
+
+point 504.0 -1560.5 label -text "<center>to:<br>Forward to the Past<br>Rift Pitch" -scale l
+
+point 550.5 -1494.5 label -text "A star" -scale l
 
 line wall
   668.0 -1430.0
   650.0 -1431.0 609.5 -1434.5 604.5 -1434.5
   599.5 -1434.5 602.89 -1429.33 597.0 -1428.0
   581.5 -1424.5 529.5 -1425.5 527.5 -1423.0
+  smooth off
 endline
 
 line wall
-  527.0 -1513.0
-  528.5 -1507.0 528.0 -1475.5 532.5 -1474.5
+  529.0 -1513.5
+  528.0 -1507.5 528.0 -1475.5 532.5 -1474.5
   537.0 -1473.5 644.0 -1468.0 661.0 -1467.5
+  smooth off
 endline
 
 point 669.0 -1438.5 station -name brave.10
@@ -530,6 +578,7 @@ line wall
   178.0 -1338.0
   184.5 -1338.0 239.5 -1325.5 243.5 -1325.5
   247.5 -1325.5 258.0 -1324.5 262.5 -1324.0
+  smooth off
 endline
 
 point 798.0 -1267.0 clay
@@ -539,6 +588,7 @@ point 773.0 -1257.0 clay
 line wall -subtype debris
   262.5 -1324.0
   267.0 -1323.5 305.5 -1303.5 325.0 -1301.5
+  smooth off
 endline
 
 line wall
@@ -551,21 +601,29 @@ line wall
   745.0 -1233.5 768.5 -1246.5 774.0 -1250.0
   779.5 -1253.5 795.5 -1261.0 801.5 -1261.0
   807.5 -1261.0 823.5 -1240.5 832.0 -1241.5
+  smooth off
 endline
 
 line wall -subtype debris
   832.0 -1241.5
   840.5 -1242.5 844.25 -1240.24 853.0 -1243.0
+  smooth off
 endline
 
 line wall
   853.0 -1243.0
   862.8 -1244.78 900.5 -1265.5 904.5 -1267.0
+  smooth off
 endline
 
 point 691.5 -1302.5 label -text "<center>The Testtubes" -scale xl
 
 point 860.5 -1137.0 label -text "<center>Pneumatic Rift<br>Connection to 99" -scale l
+
+line arrow
+  858.5 -1174.0
+  853.5 -1229.0
+endline
 
 line wall -close on -reverse on
   855.0 -1222.0
@@ -576,6 +634,7 @@ endline
 line wall -subtype debris
   904.5 -1267.0
   908.5 -1268.5 914.5 -1274.0 942.0 -1280.5
+  smooth off
 endline
 
 line wall
@@ -590,6 +649,7 @@ line wall
   1428.63 -1356.61 1429.0 -1422.0 1429.0 -1422.0
   smooth off
   1429.0 -1422.0 1439.99 -1422.5 1450.5 -1422.5
+  smooth off
 endline
 
 line wall

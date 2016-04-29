@@ -152,12 +152,45 @@ endscrap
 
 scrap ent -projection extended -flip horizontal -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m]
 
+line rock-edge -clip off
+  645.0 488.5
+  650.5 482.5
+endline
+
+line rock-edge -clip off
+  640.0 493.0
+  645.0 488.5
+  650.0 491.5
+endline
+
+line rock-edge -clip off
+  617.5 508.0
+  618.0 501.0
+  611.5 499.0
+endline
+
+line rock-border -close on -clip off
+  611.5 499.0
+  617.5 508.0
+  625.5 503.0
+  625.0 497.0
+  611.5 499.0
+endline
+
+line rock-border -close on -clip off
+  632.0 486.5
+  640.0 493.0
+  650.0 491.5
+  650.5 482.5
+  632.0 486.5
+endline
+
 line rock-border -close on -reverse on -clip off
   625.0 497.0
   627.0 515.0
   646.0 512.0
   644.0 500.0
-  638.0 495.0
+  640.0 493.0
   625.0 497.0
 endline
 
@@ -165,7 +198,7 @@ point 721.0 492.0 snow
 
 line border -clip off
   783.0 471.0
-  731.0 552.0 678.0 505.0 658.0 487.0
+  731.0 552.0 680.5 508.0 651.5 478.5
   smooth off
 endline
 
@@ -210,8 +243,12 @@ endline
 
 line wall -reverse on -clip off -outline none
   578.0 544.0
-  583.0 580.0 578.5 593.5 576.5 596.5
-  574.5 599.5 183.5 650.0 158.5 648.0
+  576.0 578.5 579.0 577.5 577.0 580.5
+  575.0 583.5 559.84 581.97 553.5 601.0
+  550.5 610.0 401.0 604.5 401.0 604.5
+  smooth off
+  395.0 648.0
+  395.0 648.0 183.5 650.0 158.5 648.0
   smooth off
 endline
 
@@ -227,7 +264,7 @@ endline
 
 line wall -reverse on -outline none -clip off
   783.0 471.0
-  613.0 481.0 615.0 507.0 605.0 504.0
+  590.5 470.0 615.0 507.0 605.0 504.0
   smooth off
 endline
 
@@ -1516,7 +1553,7 @@ line wall -reverse on
   smooth off
 endline
 
-point -839.0 237.0 label -text "<center>Follow<br>Through<br>Shaft" -scale l
+point -839.0 237.0 label -text "<center>Follow<br>Through<br>Shaft" -scale xl
 
 line rock-border -close on
   -1142.0 309.0
@@ -1623,6 +1660,21 @@ line wall
   -1431.5 -1966.5 -1442.0 -1976.0 -1445.5 -1976.0
   smooth off
 endline
+
+line wall -close on -reverse on -clip off -outline none
+  -1271.5 -1956.0
+  -1280.81 -1954.14 -1282.5 -1976.5 -1273.0 -1976.5
+  -1263.5 -1976.5 -1264.0 -1957.5 -1271.5 -1956.0
+endline
+
+line arrow
+  -1309.5 -1928.0
+  -1273.0 -1964.5
+endline
+
+point -1323.5 -1907.5 label -text "<center>Razor<br>Advance" -scale l
+
+point -1355.0 -2053.0 label -text "<center>Razor<br>Prance" -scale l
 
 line pit
   -1242.0 -2007.5
@@ -1818,6 +1870,7 @@ point -1216.5 -964.5 label -text "<center>Forward to<br>the past" -scale l
 line wall
   -1181.0 -907.5
   -1181.0 -907.5 -1172.7 -950.02 -1171.5 -956.0
+  smooth off
 endline
 
 line wall -close on
@@ -2045,7 +2098,7 @@ line pit
   -1215.5 -730.0
 endline
 
-point -1134.5 -727.0 label -text "<center>The Ledge<br>below<br>the Ledge" -scale l
+point -1134.5 -727.0 label -text "<center>The Ledge<br>Below<br>The Ledge" -scale l
 
 point -1366.0 -726.5 station -name strange.18
 
@@ -2059,7 +2112,7 @@ point -1294.0 -643.0 station -name strange.23
 
 point -1277.0 -637.5 station -name brave.34
 
-point -1158.5 -652.5 label -text "The Ledge" -scale l
+point -1168.0 -659.0 label -text "The Ledge" -scale l
 
 point -1082.0 -1122.0 label -text "<center>Saved<br>Shaft" -scale xl
 
