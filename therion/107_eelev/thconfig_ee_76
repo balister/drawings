@@ -3,7 +3,7 @@ source 76_ee.th
  input thconfig_ee_symbols
 
 layout 76
-  map-header 0 0 sw  
+#  map-header 100 100 ne  
   copy symbols
 #debug on
   legend on
@@ -11,23 +11,52 @@ layout 76
   colour map-fg [90]
  # colour map-fg [altitude]
 
-#symbol-show point station
-#symbol-show group cave-centreline
+symbol-hide point station
+symbol-hide group cave-centreline
 #symbol-show point station-name
-#debug station-names
+debug station-names
 
 code tex-map
  \cavename={1623/76 Eislufthöhle}
- \cavelength{10\thinspace{}m}
- \cavedepth{10\thinspace{}m}
+ \framethickness=0.5mm
+
+    \def\maplayout{
+        \legendbox{30}{97}{NW}{\scalebar}
+        \legendbox{60}{97}{NW}{\northarrow}
+        \legendbox{30}{104.5}{NW}{\hsize=15cm\size[26]\the\cavename}
+        \legendbox{50.5}{104}{NW}{
+        \comment{Extended elevation}
+        \hsize=10cm
+        \size[16]\the\comment
+        }        
+        \legendbox{30}{102.2}{NW}{
+        \hsize=15cm
+        \comment{Surveyed length: 2457 m}
+        \size[16]\the\comment
+        }
+        \legendbox{30}{101}{NW}{
+         \hsize=15cm
+        \comment{Surveyed depth: 297 m}
+        \size[16]\the\comment
+        }             
+        \legendbox{107}{102}{NE}{
+        \hsize=13cm
+        \input th_legend
+        }
+    }  
+ 
+ endcode
  
   scale 1  500
   base-scale 1 200
  
   code metapost
-    map-comment "Extended Elevation"
+ #   map-comment "Extended Elevation"
     fonts_setup(7,10,14,20,26); 
   endcode
+
+
+
 
 endlayout
 

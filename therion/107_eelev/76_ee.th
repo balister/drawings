@@ -30,6 +30,7 @@ survey 76
    extend left tap.2 tap.1
    extend left tap.16 tap.17
    extend left tap.17
+   extend left hotgkpitch.9
   
  #BNW
 #  extend ignore loopy.1 loopy.34
@@ -62,10 +63,15 @@ survey 76
  join tap_rift spent
  join spent hotgk_pitch
  join waste_top waste_bottom
- join  hotgk_pitch below_hotgk_b
- join below_hotgk_c below_hotgk_b
- join hotgk_c_top:0 hotgk_a_top:end
- join hotgk_c_bot:end hotgk_a_bot:0
+ #join  hotgk_pitch below_hotgk_b
+ join pitch_floor:0 below_floor:0
+ join pitch_roof:end below_roof:end
+ #join below_hotgk_c below_hotgk_b #changed to avoid invisible line
+join boulder_floor:0 hotgk_c_bot:end
+join hotgk_c_top:0 below_roof:0
+  join below_hotgk_a below_hotgk_c
+ #join hotgk_c_top:0 hotgk_a_top:end
+ #join hotgk_c_bot:end hotgk_a_bot:0
  join  fiesta below_hotgk_a
  
  join testtubes bnw_start
@@ -140,6 +146,6 @@ map all_elev.map -projection extended
 # fttp.map@76
  #bnw_extras.map@76 [0 30 m] none
  #bnw_extras2.map@76
- # centerline.map 
+ #centerline.map 
 endmap
 
