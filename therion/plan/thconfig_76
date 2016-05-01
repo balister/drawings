@@ -1,0 +1,44 @@
+encoding  utf-8
+#select 107.all
+source 76.th
+
+input thconfig_symbols
+
+layout gemse
+  map-header 100 -15 se
+  copy symbols
+ # map-image 0 100 nw 107-plan-col-year.pdf #generated from thconfig_col
+#  map-image 0 100 nw ../EXPO/grey_map3.pdf
+#   map-image 0 100 nw ../grey_map3.pdf 
+#  map-image 35 0 sw ../EXPO/plateau_map.pdf 
+ # symbol-set UIS 
+#debug on
+  legend on
+  colour map-fg [altitude]
+ # colour map-fg [scrap]
+# colour map-bg [70 90 70]
+#  grid bottom
+ # grid-coords border
+
+code tex-map
+ \cavename={1623/107 Eislufthöhle}
+ \cavelength{2457\thinspace{}m}
+ \cavedepth{297\thinspace{}m}
+ \framethickness=0.5mm
+
+code metapost
+ map-comment "Explored and surveyed by CUCC 1977-79, 2004-07<br>BCRA Grade 5C"
+# fonts_setup(7,8,10,14,20); #original
+ fonts_setup(7,10,14,20,26); 
+endcode
+  
+  scale 1 500
+  base-scale 1 200
+#  statistics explo on
+endlayout
+
+select all_plan.map@all 
+
+export map -layout gemse -projection plan -output 76-plan.pdf
+#export map -projection plan -output 76-plan.pdf \
+ # -layout-map-header 0 0 s

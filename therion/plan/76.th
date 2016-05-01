@@ -1,0 +1,27 @@
+encoding  utf-8
+#!CODE
+survey all
+import ../../../loser/all.3d -surveys use
+
+survey 76
+ input 76fiesta.th2
+ map below_hotgk.map -projection plan
+   below_hotgk
+   fiesta_upper  
+   fiesta_lower
+ endmap
+
+endsurvey
+
+map centerline.map -projection plan
+  76
+endmap
+
+map all_plan.map -projection plan
+ below_hotgk.map@76
+ centerline.map 
+endmap
+
+endsurvey
+#!ENDCODE
+
