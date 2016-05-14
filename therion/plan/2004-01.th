@@ -1,0 +1,14 @@
+encoding  utf-8
+
+#!CODE
+import ../plan/all.3d -surveys use
+#survey all
+survey 2004-01
+  input 2004-01.th2
+
+
+endsurvey
+
+#endsurvey
+#!ENDCODE
+

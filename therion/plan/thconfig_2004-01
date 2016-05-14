@@ -1,0 +1,34 @@
+encoding  utf-8
+source 2004-01.th
+
+input thconfig_symbols
+
+layout 2004-01
+  map-header 0 -10 nw
+    copy symbols
+#  grid top
+#  grid-coords border
+ # grid-size 5 5 5 m
+
+#debug on
+  legend on
+ # colour map-fg [altitude]
+#  colour map-fg [scrap]
+colour map-fg [90]
+
+code tex-map
+ \cavename={1623/CUCC 2004-01 Marae Höhle}
+ \cavelength{14\thinspace{}m}
+#\legendtextsize={\size[10]}
+\legendtextheadersize={\size[16]}
+\legendwidth=10cm
+ \framethickness=0.5mm
+  
+  scale 1 100
+#  base-scale 1 200
+
+endlayout
+
+export map -layout 2004-01 -projection plan -output 2004-01-plan.pdf
+#export map -layout 2004-01 -projection elevation -output 2004-01-plan.pdf
+ # -layout-map-header 0 0 s

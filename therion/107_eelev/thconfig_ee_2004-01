@@ -1,0 +1,39 @@
+encoding  utf-8
+source 2004-01_ee.th
+  input thconfig_ee_symbols
+
+layout 2004-01
+  map-header 0 -20 nw
+  copy symbols
+
+#debug on
+  legend on
+ # colour map-fg [altitude]
+#  colour map-fg [scrap]
+colour map-fg [90]
+symbol-hide group cave-centreline
+
+#debug station-names
+
+code tex-map
+ \cavename={1623/CUCC 2004-01 Marae Höhle}
+ \cavelength{14\thinspace{}m}
+#\legendtextsize={\size[10]}
+\legendtextheadersize={\size[16]}
+\legendwidth=10cm
+ \framethickness=0.5mm
+
+          
+  endcode
+  
+    code metapost
+    map-comment "Extended Elevation"
+  endcode
+
+
+  scale 1 100
+
+endlayout
+select all_elev.map
+
+export map -layout 2004-01 -proj extended -output 2004-01-ee.pdf

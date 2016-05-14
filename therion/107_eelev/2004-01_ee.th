@@ -1,0 +1,29 @@
+encoding  utf-8
+#survey all
+import ../../../loser/caves/2004-01/2004-01.3d -surveys use
+  
+#survey all
+survey 2004-01
+  input 2004-01_ee.th2
+ centerline
+    extend ignore 4 3
+  #  extend left 1 
+    extend left 2 
+  endcenterline
+
+ map main.map  -projection extended
+   2004-01
+ endmap
+ 
+endsurvey
+map centerline.map -projection extended
+  2004-01
+endmap
+
+map all_elev.map -projection extended
+ main.map@2004-01
+ #centerline.map 
+endmap
+
+#endsurvey
+
