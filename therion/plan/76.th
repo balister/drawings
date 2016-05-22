@@ -5,6 +5,13 @@ import ../../../loser/all.3d -surveys use
 
 survey 76
  input 76fiesta.th2
+ input 76_plugged.th2
+ 
+ map plugged.map -projection plan
+   strange_top
+   strange_mid
+ endmap
+ 
  map below_hotgk.map -projection plan
    hotgk_top
     break
@@ -22,6 +29,7 @@ map centerline.map -projection plan
 endmap
 
 map all_plan.map -projection plan
+ plugged.map@76
  below_hotgk.map@76
  centerline.map 
 endmap
