@@ -1,0 +1,36 @@
+encoding  iso8859-1
+
+survey all
+
+import  ../../../loser/all.3d -surveys use
+survey 1987-02
+input 1987-02.th2
+
+map 1987-02.map -projection plan
+  1987-02_ent
+  1987-02_entpitch
+  break
+  1987-02_big
+  1987-02_backunder
+  break
+  1987-02_lead
+ # break
+ # bogen
+ 
+endmap
+
+
+join 1987-02_big 1987-02_backunder
+join bigl:0 leadr:end
+join bigr:end leadl:0
+join altpitchl:0 altlandl:end
+
+endsurvey 
+
+map all_plan.map -projection plan
+ 1987-02.map@1987-02
+
+endmap
+
+endsurvey 
+
