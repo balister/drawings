@@ -4,8 +4,22 @@ survey all
 import ../../../loser/all.3d -surveys use
 
 survey 76
+ input 76_bnw.th2
  input 76fiesta.th2
  input 76_plugged.th2
+ 
+  map bnw.map -projection plan
+  boil_ext_n
+  boil_ext_w1
+  boil_ext_w2
+  bnw_ext
+  choss
+  break
+  holes_top
+  break
+  holes_bott
+ endmap
+ 
  
  map plugged.map -projection plan
    strange_top
@@ -29,6 +43,7 @@ map centerline.map -projection plan
 endmap
 
 map all_plan.map -projection plan
+ bnw.map@76
  plugged.map@76
  below_hotgk.map@76
  centerline.map 
