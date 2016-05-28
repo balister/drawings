@@ -61,9 +61,12 @@ survey 76
  join follow taproom
  join taproom tap_rift
  join tap_rift spent
- join spent hotgk_pitch
+ join hotgk_pitch spent
+ ## join pitch_a:end spent_a:0
+ ##join pitch_roof:0  spent_floor:end
  join waste_top waste_bottom
- #join  hotgk_pitch below_hotgk_b
+ join pitch_roof:end balcony_roof:0
+ #join  hotgk_pitch below_hotgk_b #replaced by following joins
  join pitch_floor:0 below_floor:0
  join pitch_roof:end below_roof:end
  #join below_hotgk_c below_hotgk_b #changed to avoid invisible line
@@ -107,6 +110,7 @@ map hotgk.map -projection extended
  below_hotgk_a
  below_hotgk_b
  below_hotgk_c
+ balcony
 # below_hotgk_step
  fiesta
 endmap

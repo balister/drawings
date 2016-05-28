@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1828 -2350 2052.0 205
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -1828 -2350 2044.5 205
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-600 1 1.0} {45 {}} ../../../expoimages/surveyscans/2006/2006#34/notes.jpg 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expoimages/surveyscans/2006/2006#32/notes3.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1700 1 1.0} {77 {}} ../../../../Pictures/Screenshot_fiesta.png 0 {}
@@ -329,7 +329,7 @@ scrap hotgk_pitch -projection extended -scale [-128 -2395 1510 -2395 0.0 0.0 41.
 line wall -subtype invisible
 endline
 
-line wall -subtype presumed
+line wall -id pitch_a -subtype presumed
   -396.0 -593.5
   -404.0 -603.5 -457.5 -796.0 -472.5 -804.5
   -487.5 -813.0 -525.0 -809.0 -545.0 -803.0
@@ -364,9 +364,9 @@ line border
 endline
 
 line wall -id pitch_roof
-  -686.0 -1098.0
-  -676.0 -1109.0 -449.0 -1114.5 -448.0 -1124.0
-  -447.0 -1133.5 -424.0 -1267.0 -422.0 -1278.0
+  -666.0 -1120.0
+  -652.0 -1121.5 -449.0 -1124.0 -448.0 -1133.5
+  -447.0 -1143.0 -424.0 -1267.0 -422.0 -1278.0
   -420.0 -1289.0 -384.0 -1566.0 -384.0 -1578.0
   smooth off
 endline
@@ -439,11 +439,6 @@ endline
 
 point -366.0 -1372.0 water-flow -orientation 173.2
 
-line rock-edge
-  -373.0 -1753.0
-  -391.0 -1752.0
-endline
-
 line rock-border -close on
   -433.0 -1098.0
   -442.0 -1107.0
@@ -489,38 +484,19 @@ line rock-border -close off -clip off
   -443.0 -1000.0
 endline
 
-point -544.0 -1678.0 label -text "The Balcony" -scale l
-
 point -368.0 -1142.0 station -name hotgkpitch.5
 
 point -427.0 -999.0 station -name hotgkpitch.3
 
-line wall -subtype underlying
-  -523.0 -1915.0
-  -491.0 -1912.0 -443.0 -1885.0 -431.0 -1882.0
-  -419.0 -1879.0 -400.0 -1873.0 -394.0 -1870.0
-  -388.0 -1867.0 -368.0 -1842.0 -359.0 -1837.0
-  -350.0 -1832.0 -337.0 -1833.0 -333.0 -1834.0
-  -329.0 -1835.0 -318.0 -1819.0 -307.0 -1817.0
-  -296.0 -1815.0 -278.0 -1815.0 -278.0 -1815.0
-  smooth off
-  -278.0 -1815.0 -284.0 -1806.0 -260.0 -1800.0
-  -236.0 -1794.0 -222.0 -1788.0 -210.0 -1786.0
-endline
-
-line border
-  -210.0 -1786.0
-  -276.0 -1766.0 -358.33 -1608.68 -384.0 -1578.0
-endline
-
 line border
   -102.0 -1558.0
   -100.0 -1600.0 -96.0 -1710.0 -140.0 -1752.0
+  smooth off
 endline
 
-line pit -reverse on
+line pit -reverse on -clip off
   -210.0 -1786.0
-  -198.0 -1784.0 -145.0 -1744.0 -140.0 -1752.0
+  -198.0 -1784.0 -149.0 -1757.0 -140.0 -1752.0
   smooth off
 endline
 
@@ -534,20 +510,6 @@ point -23.0 -1932.0 station -name hotgkpitch.9
 
 point -345.0 -1517.0 water-flow -orientation 173.2
 
-point -413.0 -1852.0 water-flow -orientation 235.7
-
-point -359.0 -1666.0 water-flow -orientation 184.2
-
-line rock-border -close on
-  -359.0 -1731.0
-  -337.0 -1762.0
-  -352.0 -1794.0
-  -367.0 -1791.0
-  -391.0 -1752.0
-  -372.0 -1733.0
-  -359.0 -1731.0
-endline
-
 line rock-border -close on -clip off
   -151.0 -1905.0
   -101.0 -1885.0
@@ -555,21 +517,6 @@ line rock-border -close on -clip off
   -100.0 -1925.0
   -151.0 -1925.0
   -151.0 -1905.0
-endline
-
-line rock-border -close on
-  -327.0 -1808.0
-  -299.0 -1801.0
-  -295.0 -1776.0
-  -312.0 -1753.0
-  -330.0 -1770.0
-  -327.0 -1808.0
-endline
-
-line rock-edge
-  -352.0 -1794.0
-  -373.0 -1753.0
-  -372.0 -1733.0
 endline
 
 line rock-edge -clip off
@@ -589,18 +536,37 @@ line rock-edge -clip off
   -150.0 -1914.0
 endline
 
-line rock-edge
-  -320.0 -1775.0
-  -330.0 -1770.0
-endline
+endscrap
 
-line rock-edge
-  -312.0 -1753.0
-  -320.0 -1775.0
-  -318.0 -1806.0
-endline
+
+
+scrap balcony -projection extended -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#34/notes.jpg -600 -2214
+
+point -368.0 -1142.0 station -name hotgkpitch.5
+
+point -23.0 -1932.0 station -name hotgkpitch.9
 
 line wall -subtype underlying
+  -523.0 -1915.0
+  -491.0 -1912.0 -443.0 -1885.0 -431.0 -1882.0
+  -419.0 -1879.0 -400.0 -1873.0 -394.0 -1870.0
+  -388.0 -1867.0 -368.0 -1842.0 -359.0 -1837.0
+  -350.0 -1832.0 -337.0 -1833.0 -333.0 -1834.0
+  -329.0 -1835.0 -318.0 -1819.0 -307.0 -1817.0
+  -296.0 -1815.0 -281.0 -1813.0 -281.0 -1813.0
+  smooth off
+  -281.0 -1813.0 -271.68 -1802.92 -260.0 -1800.0
+  -236.0 -1794.0 -222.0 -1788.0 -210.0 -1786.0
+  smooth off
+endline
+
+line wall
+  -210.0 -1786.0
+  -276.0 -1766.0 -358.33 -1608.68 -384.0 -1578.0
+  smooth off
+endline
+
+line wall -id balcony_roof -subtype underlying
   -384.0 -1578.0
   -384.0 -1590.0 -386.0 -1732.0 -391.0 -1752.0
   smooth off
@@ -612,6 +578,53 @@ line wall -subtype underlying
   -482.0 -1851.0 -471.0 -1867.0 -531.0 -1881.0
   smooth off
 endline
+
+point -413.0 -1852.0 water-flow -orientation 235.7
+
+point -359.0 -1666.0 water-flow -orientation 184.2
+
+line rock-border -close on
+  -359.0 -1731.0
+  -337.0 -1762.0
+  -352.0 -1794.0
+  -367.0 -1791.0
+  -391.0 -1752.0
+  -372.0 -1733.0
+  -359.0 -1731.0
+endline
+
+line rock-border -close on
+  -327.0 -1808.0
+  -299.0 -1801.0
+  -295.0 -1776.0
+  -312.0 -1753.0
+  -330.0 -1770.0
+  -327.0 -1808.0
+endline
+
+line rock-edge
+  -352.0 -1794.0
+  -373.0 -1753.0
+  -372.0 -1733.0
+endline
+
+line rock-edge
+  -312.0 -1753.0
+  -320.0 -1775.0
+  -318.0 -1806.0
+endline
+
+line rock-edge
+  -320.0 -1775.0
+  -330.0 -1770.0
+endline
+
+line rock-edge
+  -373.0 -1753.0
+  -391.0 -1752.0
+endline
+
+point -544.0 -1678.0 label -text "The Balcony" -scale l
 
 endscrap
 
@@ -1209,7 +1222,7 @@ line pit
   smooth off
 endline
 
-line wall
+line wall -id spent_floor
   -1535.0 -698.0
   -1531.0 -708.0 -1513.0 -811.0 -1495.0 -818.0
   -1488.45 -820.55 -1489.0 -917.5 -1485.0 -923.5
@@ -1217,7 +1230,8 @@ line wall
   -1472.0 -945.5 -1457.0 -1017.0 -1456.5 -1025.5
   -1456.0 -1034.0 -1457.0 -1190.5 -1454.5 -1199.0
   -1452.0 -1207.5 -1439.01 -1208.46 -1435.5 -1219.0
-  -1431.5 -1231.0 -1418.0 -1334.0 -1385.0 -1332.0
+  -1431.5 -1231.0 -1425.67 -1328.61 -1385.0 -1332.0
+  -1379.0 -1332.5 -1376.0 -1333.0 -1371.5 -1334.0
   smooth off
 endline
 
@@ -1239,9 +1253,9 @@ line pit
   smooth off
 endline
 
-line wall -subtype presumed
-  -1324.0 -1170.0
-  -1359.0 -1161.0 -1384.0 -1136.5 -1383.5 -1131.5
+line wall -id spent_a -subtype presumed
+  -1325.0 -1175.0
+  -1360.0 -1166.0 -1384.0 -1136.5 -1383.5 -1131.5
   -1383.0 -1126.5 -1386.0 -911.0 -1386.0 -905.5
   smooth off
 endline
