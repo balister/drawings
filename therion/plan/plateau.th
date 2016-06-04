@@ -1,0 +1,52 @@
+encoding  utf-8
+
+survey all
+import ../../../loser/all.3d -surveys use
+survey 107
+  input 107ent.th2
+  input 107wonderland.th2
+  input 107ropeless.th2
+  input 107china.th2
+  input 107oldroute.th2
+  input 107coldest.th2
+
+input gemse_joins.th
+
+endsurvey
+
+survey 83
+input 83.th2
+endsurvey
+
+survey 161
+input 161.th2
+join pissup bundes
+endsurvey
+
+join pissup@161 loc_avenwarp@107
+
+survey 76
+ input 76_bnw.th2
+ input 76fiesta.th2
+ input 76_plugged.th2
+endsurvey
+
+survey 2004-01
+  input 2004-01.th2
+endsurvey
+
+#survey 1987-02
+# input 1987-02.th2
+# join 1987-02_big 1987-02_backunder
+# join bigl:0 leadr:end
+# join bigr:end leadl:0
+# join altpitchl:0 altlandl:end
+#endsurvey 
+
+map centerline.map -projection plan
+  76
+endmap
+
+endsurvey
+#!ENDCODE
+

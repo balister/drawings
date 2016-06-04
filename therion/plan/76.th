@@ -20,7 +20,6 @@ survey 76
   holes_bott
  endmap
  
- 
  map plugged.map -projection plan
    strange_top
    strange_mid
@@ -38,6 +37,15 @@ survey 76
 
 endsurvey
 
+survey 2007-72
+  input batter.th2
+  
+  map 2007-72.map -projection plan
+    batter
+  endmap
+  
+endsurvey
+
 map centerline.map -projection plan
   76
 endmap
@@ -46,6 +54,7 @@ map all_plan.map -projection plan
  bnw.map@76
  plugged.map@76
  below_hotgk.map@76
+ 2007-72.map@2007-72
  centerline.map 
 endmap
 

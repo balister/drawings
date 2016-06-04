@@ -172,6 +172,8 @@ endline
 
 point 339.0 -512.0 station -name boil2.4
 
+point 454.0 -602.0 label -text "The<br>Boiling <br>Tubes" -scale l
+
 point 345.0 -608.0 station -name boil2.3
 
 point 345.0 -701.0 station -name boil2.2
@@ -325,6 +327,8 @@ point 1238.0 -376.0 station -name holes.5
 
 point 1313.0 -296.0 station -name holes.3
 
+point 1384.0 -328.0 label -text "<center>Sea<br>of<br>Holes" -scale l
+
 point 1331.0 -264.0 station -name holes.2
 
 point 1381.0 -171.0 station -name holes.1
@@ -345,6 +349,7 @@ endline
 line wall -subtype presumed
   1479.5 -134.5
   1484.0 -136.0 1494.0 -143.5 1507.0 -137.5
+  smooth off
 endline
 
 point 1511.5 -80.0 air-draught -orientation 205.4
@@ -371,6 +376,7 @@ line pit -close off
   1531.5 -131.5
   1537.0 -122.0 1525.5 -115.0 1518.0 -128.0
   1510.5 -141.0 1524.5 -140.5 1531.5 -131.5
+  smooth off
 endline
 
 line pit -close on
@@ -418,6 +424,7 @@ line wall
   smooth off
   1554.0 -66.5 1560.0 -56.0 1562.5 -52.0
   1565.0 -48.0 1567.5 -24.0 1571.0 -19.5
+  smooth off
 endline
 
 point 1473.5 -270.5 station -name holes.0a
@@ -512,6 +519,7 @@ line wall
   smooth off
   217.5 -1352.5
   217.5 -1352.5 223.5 -1356.0 226.5 -1356.0
+  smooth off
 endline
 
 line wall
@@ -522,6 +530,7 @@ line wall
   118.5 -1340.0 131.5 -1335.5 136.0 -1338.0
   140.5 -1340.5 159.5 -1346.5 164.0 -1350.0
   168.5 -1353.5 174.0 -1353.5 177.0 -1357.5
+  smooth off
 endline
 
 point 237.5 -1361.5 station -name choss.5

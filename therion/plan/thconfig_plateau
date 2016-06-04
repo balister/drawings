@@ -1,0 +1,31 @@
+encoding  utf-8
+#select 107.all
+source plateau.th
+
+input thconfig_symbols
+
+layout gemse
+  map-header 100 0 se
+  copy symbols
+#debug on
+  legend on
+  colour map-fg [altitude]
+
+code tex-map
+ \cavename={1623/107 Gemsehöhle}
+ \cavelength{3766\thinspace{}m}
+ \cavedepth{254\thinspace{}m}
+ \framethickness=0.5mm
+
+code metapost
+ map-comment "Explored and surveyed by CUCC 1978, 2012-2015<br>BCRA Grade 5C"
+# fonts_setup(7,8,10,14,20); #original
+ fonts_setup(7,10,14,20,26); 
+endcode
+  
+  scale 1 500
+  base-scale 1 200
+#  statistics explo on
+endlayout
+
+export map -layout gemse -projection plan -output plateau-plan.pdf

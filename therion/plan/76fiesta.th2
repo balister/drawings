@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -928 -2388 2834 205
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expoimages/surveyscans/2006/2006#35/notes.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-4.0 1 1.0} {45.0 {}} ../../../expoimages/surveyscans/2006/2006#32/notes3.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-800 1 1.0} {77 {}} ../../../expoimages/surveyscans/2006/2006#34/notes.jpg 0 {}
@@ -47,7 +47,11 @@ line pit
   smooth off
 endline
 
-point 2421.5 -1388.5 label -text p8 -scale l
+point 1524.0 -584.0 label -text "<centre>Fiesta Run" -scale l
+
+point 2414.0 -1425.0 label -text "<centre>Gents<br>Pitch" -scale l
+
+point 2432.5 -1376.5 label -text p8 -scale m
 
 line rock-border -close on
   2330.5 -1331.0
@@ -541,6 +545,8 @@ line rock-border -close on
   2279.5 -1894.0
 endline
 
+point 2157.0 -1819.0 label -text "p16" -scale m
+
 line wall
   2376.0 -1883.5
   2372.0 -1881.0 2364.0 -1865.5 2352.0 -1866.5
@@ -695,6 +701,12 @@ endscrap
 scrap below_hotgk -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#32/notes3.jpg -4.0 -2177.0
 
 point 1327.0 -1294.0 station -name hotgk.20
+
+point 1122.0 -1361.0 label -text "<center>Hall of the<br>Greene King" -scale l
+
+point 684.0 -1765.0 label -text "<center>1979<br>Route" -scale l
+
+point 297.0 -1145.0 label -text "<center>1978<br>Route" -scale l
 
 line pit
   663.5 -1158.0
@@ -1379,11 +1391,11 @@ line wall
   smooth off
 endline
 
-point 387.0 -878.5 label -text p6 -scale l
+point 387.0 -878.5 label -text p6 -scale m
 
-point 276.5 -937.0 label -text p5.5 -scale l
+point 276.5 -937.0 label -text p5.5 -scale m
 
-point 442.5 -1034.0 label -text p4 -scale l
+point 442.5 -1034.0 label -text p4 -scale m
 
 line arrow
   320.5 -941.5
@@ -1395,13 +1407,13 @@ line arrow
   333.5 -969.5
 endline
 
-point 281.5 -987.0 label -text p6 -scale l
+point 281.5 -987.0 label -text p6 -scale m
 
-point 563.5 -1218.0 label -text p2 -scale l
+point 563.5 -1218.0 label -text p2 -scale m
 
-point 544.5 -1193.0 label -text p1.5 -scale l
+point 544.5 -1193.0 label -text p1.5 -scale m
 
-point 381.0 -1060.0 label -text p4.5 -scale l
+point 381.0 -1060.0 label -text p4.5 -scale m
 
 line wall -id l227-426--1013
   225.5 -1131.0
@@ -1720,6 +1732,7 @@ scrap hotgk_top -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199
 line border
   -323.5 -1324.0
   -319.5 -1332.0 -305.0 -1343.5 -295.5 -1328.5
+  smooth off
 endline
 
 line rock-edge
@@ -1791,6 +1804,7 @@ line floor-meander
   -146.0 -1261.5 -195.0 -1211.5 -203.0 -1204.5
   -211.0 -1197.5 -253.5 -1158.5 -263.5 -1162.0
   -273.5 -1165.5 -280.0 -1185.0 -284.0 -1193.5
+  smooth off
 endline
 
 line wall
@@ -1808,6 +1822,7 @@ line wall
   -313.5 -1235.5 -338.0 -1256.0 -340.5 -1265.5
   -343.0 -1275.0 -347.5 -1306.0 -349.0 -1313.0
   -350.5 -1320.0 -337.5 -1379.0 -337.0 -1387.5
+  smooth off
 endline
 
 line wall
@@ -1830,6 +1845,7 @@ line wall
   -103.0 -1349.5 -84.5 -1383.0 -83.0 -1391.0
   -81.5 -1399.0 -73.5 -1424.0 -75.0 -1427.5
   -76.5 -1431.0 -80.0 -1440.5 -83.0 -1444.0
+  smooth off
 endline
 
 point -110.5 -1281.0 station -name hotgkpitch.3
@@ -1849,6 +1865,7 @@ scrap hotgk -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.6051999999
 line pit
   217.5 -1367.0
   217.5 -1371.5 198.0 -1415.0 192.0 -1419.5
+  smooth off
 endline
 
 line wall
@@ -1860,6 +1877,7 @@ line wall
   128.5 -1335.0 148.5 -1371.0 148.5 -1376.0
   148.5 -1381.0 162.0 -1386.0 165.5 -1391.0
   169.0 -1396.0 221.0 -1445.0 217.0 -1479.5
+  smooth off
 endline
 
 line rock-edge
@@ -1897,6 +1915,7 @@ line wall
   122.0 -1266.5 121.0 -1284.5 107.0 -1285.0
   93.0 -1285.5 83.5 -1282.5 69.5 -1280.0
   55.5 -1277.5 19.0 -1262.5 8.5 -1262.5
+  smooth off
 endline
 
 point 392.0 -1604.5 station -name hotgkpitch.9
