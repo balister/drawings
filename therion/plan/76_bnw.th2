@@ -1,13 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -178 -2324 1740 205
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expoimages/surveyscans/2007/2007#unknown/1623-76-bnwext.jpeg 0 {}
-##XTHERION## xth_me_image_insert {-50 1 1.0} {45 {}} ../../../expoimages/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg 0 {}
-##XTHERION## xth_me_image_insert {700 1 1.0} {77 {}} ../../../expoimages/surveyscans/2007/2007#33/1623-76-seaofholes.jpeg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expofiles/surveyscans/2007/2007#unknown/1623-76-bnwext.jpeg 0 {}
+##XTHERION## xth_me_image_insert {-50 1 1.0} {45 {}} ../../../expofiles/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg 0 {}
+##XTHERION## xth_me_image_insert {700 1 1.0} {77 {}} ../../../expofiles/surveyscans/2007/2007#33/1623-76-seaofholes.jpeg 0 {}
 
 
 
-scrap bnw_ext -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expoimages/surveyscans/2007/2007#unknown/1623-76-bnwext.jpeg 0 -2196
+scrap bnw_ext -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expofiles/surveyscans/2007/2007#unknown/1623-76-bnwext.jpeg 0 -2196
 
 line wall -subtype presumed
   714.0 -2040.0
@@ -139,7 +139,7 @@ endscrap
 
 
 
-scrap boil_ext_n -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expoimages/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg -50 -1468
+scrap boil_ext_n -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expofiles/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg -50 -1468
 
 line wall -subtype presumed
   320.0 -474.0
@@ -184,7 +184,7 @@ endscrap
 
 
 
-scrap boil_ext_w1 -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expoimages/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg -50 -1468
+scrap boil_ext_w1 -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expofiles/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg -50 -1468
 
 area debris
   l36-768--696
@@ -246,7 +246,7 @@ endscrap
 
 
 
-scrap holes_top -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expoimages/surveyscans/2007/2007#33/1623-76-seaofholes.jpeg 700 -1368
+scrap holes_top -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expofiles/surveyscans/2007/2007#33/1623-76-seaofholes.jpeg 700 -1368
 
 line wall
   1310.0 -175.0
@@ -337,7 +337,7 @@ endscrap
 
 
 
-scrap holes_bott -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expoimages/surveyscans/2007/2007#33/1623-76-seaofholes.jpeg 700 -1368
+scrap holes_bott -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expofiles/surveyscans/2007/2007#33/1623-76-seaofholes.jpeg 700 -1368
 
 line wall -subtype presumed
   1514.0 -121.5
@@ -475,7 +475,7 @@ endscrap
 
 
 
-scrap choss -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expoimages/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg -50 -1468
+scrap choss -projection plan -scale [0.0 -341.0 0.0 -462.0 0.0 0.0 0.00 -25 m] -sketch ../../../expofiles/surveyscans/2007/2007#unknown/1623-76-boilext.jpeg -50 -1468
 
 point 199.0 -1343.0 gradient -orientation 102.6
 

@@ -1,13 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -928 -2388 2834 205
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expoimages/surveyscans/2006/2006#35/notes.jpg 0 {}
-##XTHERION## xth_me_image_insert {-4.0 1 1.0} {45.0 {}} ../../../expoimages/surveyscans/2006/2006#32/notes3.jpg 0 {}
-##XTHERION## xth_me_image_insert {-800 1 1.0} {77 {}} ../../../expoimages/surveyscans/2006/2006#34/notes.jpg 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expofiles/surveyscans/2006/2006#35/notes.jpg 0 {}
+##XTHERION## xth_me_image_insert {-4.0 1 1.0} {45.0 {}} ../../../expofiles/surveyscans/2006/2006#32/notes3.jpg 0 {}
+##XTHERION## xth_me_image_insert {-800 1 1.0} {77 {}} ../../../expofiles/surveyscans/2006/2006#34/notes.jpg 0 {}
 
 
 
-scrap fiesta_lower -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#35/notes.jpg 0 -2260
+scrap fiesta_lower -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expofiles/surveyscans/2006/2006#35/notes.jpg 0 -2260
 
 line rock-border -close on
   2577.5 -1531.0
@@ -535,7 +535,7 @@ endscrap
 
 
 
-scrap fiesta_upper -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#35/notes.jpg 0 -2260
+scrap fiesta_upper -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expofiles/surveyscans/2006/2006#35/notes.jpg 0 -2260
 
 line rock-border -close on
   2279.5 -1894.0
@@ -698,7 +698,7 @@ endscrap
 
 
 
-scrap below_hotgk -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#32/notes3.jpg -4.0 -2177.0
+scrap below_hotgk -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expofiles/surveyscans/2006/2006#32/notes3.jpg -4.0 -2177.0
 
 point 1327.0 -1294.0 station -name hotgk.20
 
@@ -1727,7 +1727,7 @@ endscrap
 
 
 
-scrap hotgk_top -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#34/notes.jpg -800 -2182
+scrap hotgk_top -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expofiles/surveyscans/2006/2006#34/notes.jpg -800 -2182
 
 line border
   -323.5 -1324.0
@@ -1860,7 +1860,7 @@ endscrap
 
 
 
-scrap hotgk -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expoimages/surveyscans/2006/2006#34/notes.jpg -800 -2182
+scrap hotgk -projection plan -scale [-128 -2395 1510 -2395 0.0 0.0 41.605199999999996 0.0 m] -sketch ../../../expofiles/surveyscans/2006/2006#34/notes.jpg -800 -2182
 
 line pit
   217.5 -1367.0
