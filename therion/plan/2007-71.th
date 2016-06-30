@@ -24,8 +24,11 @@ survey all
  endsurvey
  
  input 97.th2
+ input 97_entrance-1p.th2
   map plan_97.map -projection plan
-    p97_surface
+ #   p97_surface
+    97_entrance-1p
+    97_inside
   endmap
  
 endsurvey
