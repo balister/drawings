@@ -4,14 +4,14 @@ source 2007-71.th
 input thconfig_symbols
 
 layout 2007-71
-  map-header 85 -90 se
+  map-header 85 -5 ne
   copy symbols
 symbol-hide group cave-centreline
 symbol-hide group surface-centreline
 
 #debug on
   legend on
-#  colour map-fg [altitude]
+  colour map-fg [altitude]
  #  colour map-fg [scrap]
   colour map-fg [90]
  # colour map-bg [70 90 70]

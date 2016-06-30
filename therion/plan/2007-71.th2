@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -2319.25 2677.0 170.75
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -132.0 -2134.0 2575.0 170.75
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-1.0 1 1.0} {42.75 {}} ../../../expofiles/surveyscans/2015/2015#68/notes.png 0 {}
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../expofiles/surveyscans/2007/2007#03/notes1.jpg 0 {}
 
@@ -135,7 +135,7 @@ endline
 
 point 970.5 -1222.75 label -text "p?"
 
-point 956.75 -1213.5 label -text "c1"
+point 966.75 -1211.5 label -text "c1"
 
 line pit
   963.75 -1228.75
@@ -264,15 +264,6 @@ line rock-border -close on
   961.5 -1249.75
 endline
 
-point 932.5 -1160.0 label -text "07-02C"
-
-line arrow
-  986.75 -1237.25
-  974.0 -1238.0
-endline
-
-point 994.75 -1230.5 label -text "07-01B"
-
 line arrow
   1018.0 -1354.0
   1013.0 -1338.0
@@ -325,8 +316,7 @@ line rock-border -close on
 endline
 
 line wall
-  932.5 -1184.25
-  934.75 -1191.0 940.5 -1214.25 938.25 -1215.0
+  938.25 -1215.0
   936.45 -1215.6 935.06 -1204.29 926.0 -1197.5
   920.0 -1193.0 915.0 -1189.0 907.5 -1187.5
   900.0 -1186.0 889.5 -1186.5 882.5 -1185.5
@@ -344,11 +334,9 @@ line wall
 endline
 
 line wall
-  972.25 -1235.5
-  971.0 -1233.25 973.25 -1232.75 967.0 -1230.0
+  967.0 -1230.0
   961.37 -1227.52 961.75 -1222.5 956.75 -1221.25
   955.0 -1220.81 952.25 -1224.75 951.0 -1221.25
-  949.24 -1216.33 940.0 -1185.25 939.0 -1182.0
   smooth off
 endline
 
@@ -422,8 +410,6 @@ line wall
   955.75 -1240.25 960.25 -1236.25 956.25 -1235.25
   952.25 -1234.25 952.02 -1235.45 952.75 -1233.25
   953.25 -1231.75 956.5 -1230.25 959.25 -1232.5
-  962.05 -1234.79 964.25 -1237.25 966.0 -1239.0
-  smooth off
 endline
 
 point 995.0 -1284.5 air-draught -orientation 135.4
@@ -686,7 +672,7 @@ line rock-border -close on -clip off
   1586.0 -1779.0
 endline
 
-point 2123.0 -1681.0 label -text "15-01B"
+point 2111.0 -1686.0 label -text "tt"
 
 point 2194.0 -1036.0 snow
 
@@ -938,8 +924,6 @@ point 2017.0 -1921.0 gradient -orientation 171.6
 point 1972.0 -1850.0 gradient -orientation 130.5
 
 point 2018.0 -1824.0 gradient -orientation 183.0
-
-point 1960.0 -1991.0 label -text "15-02B"
 
 line pit
   2060.0 -1959.0

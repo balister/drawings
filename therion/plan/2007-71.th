@@ -8,14 +8,19 @@ survey all
   
   map plan_2007-71.map -projection plan
     entrance
+     2007-71_ngauruhoe.-2p  
     skylight
     2015
     2015_down
+  main
+    2016_middle
     2007-71_ngauruhoe.-1p
+
   endmap
   
 ##joins 
   join entrance 2015
+  join entrance 2007-71_ngauruhoe.-2p
  endsurvey
  
  input 97.th2
