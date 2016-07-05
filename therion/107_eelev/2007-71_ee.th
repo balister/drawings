@@ -3,10 +3,14 @@ survey all
  import ../../../loser/caves/2007-71/2007-71.3d -surveys use
 
  survey 2007-71
-  input 2007-71_ee.th2
+  input 2007-71_ee.th2 
+  input 2007-71ee_2016.th2
+  
   map ext_main.map -projection extended
     main
+    ngarahoe_top
     lower
+    ngarahoe
   endmap
   
    map ext_side.map -projection extended
@@ -23,6 +27,7 @@ survey all
   
 ##joins 
 join lower main
+join ngarahoe_top ngarahoe -count 2
   centerline
   extend ignore 1.3 1.10
   extend ignore 2.17 2.18
@@ -33,6 +38,8 @@ join lower main
     extend vertical 2.17 2.19
     extend left 1.8
     extend left 1.9
+#    extend right ngauruhoe.11
+    extend left ngauruhoe.4
   endcenterline
  endsurvey
  
