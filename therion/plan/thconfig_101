@@ -1,0 +1,37 @@
+encoding  utf-8
+source 101.th
+
+input thconfig_symbols
+
+layout 101
+  map-header 0 -10 nw
+    copy symbols
+
+#debug on
+  legend on
+ # colour map-fg [altitude]
+#  colour map-fg [scrap]
+colour map-fg [90]
+
+code tex-map
+ \cavename={1623/101}
+ \cavelength{33\thinspace{}m (surveyed)}
+  \cavedepth{12\thinspace{}m (surveyed)}
+#\legendtextsize={\size[10]}
+#\legendtextheadersize={\size[16]}
+#\legendwidth=10cm
+ \framethickness=0.5mm
+ 
+  code metapost
+    map-comment "Explored CUCC 1977<br>Surveyed CUCC 2016 at BCRA Grade 5"
+# fonts_setup(7,8,10,14,20); #original
+ #fonts_setup(7,10,14,20,26); 
+endcode
+
+  scale 1 100
+#  base-scale 1 200
+
+endlayout
+
+export map -layout 101 -projection plan -output 101-plan.pdf
+ # -layout-map-header 0 0 s

@@ -58,12 +58,15 @@ survey 76
  join saved_bot:0 strangeways_bot:0
  join saved follow
  join follow keg
- join follow taproom
- join taproom tap_rift
+ #join follow taproom #replaced by following joins
+ join tap_roof:1 follow_roof:0
+ join tap_floor:0 follow_floor:0
+ join taproom:end tap_rift:0
  join tap_rift spent
  join hotgk_pitch spent
  ## join pitch_a:end spent_a:0
  ##join pitch_roof:0  spent_floor:end
+ join space waste_top
  join waste_top waste_bottom
  join pitch_roof:end balcony_roof:0
  #join  hotgk_pitch below_hotgk_b #replaced by following joins
@@ -93,7 +96,7 @@ endmap
 
 map tap_extra.map -projection extended
  space
- razor
+# razor
  waste_bottom
  waste_top
 endmap
@@ -142,9 +145,10 @@ map centerline.map -projection extended
 endmap
 
 map all_elev.map -projection extended
- plugged.map@76
+ tap_extra.map@76
+  plugged.map@76
  plugged_extra.map@76
-# tap_extra.map@76
+
  hotgk.map@76
  bnw.map@76
 # fttp.map@76

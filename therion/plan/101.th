@@ -1,0 +1,13 @@
+encoding  utf-8
+
+import ../../../loser/all.3d -surveys use
+#survey all
+survey 101
+  input 101_ent.th2
+
+  join entrance below_pitch
+
+endsurvey
+
+#endsurvey
+

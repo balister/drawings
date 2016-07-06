@@ -1,0 +1,23 @@
+encoding  utf-8
+encoding utf-8
+survey all
+import ../../../loser/caves/101/101.3d -surveys use
+  
+#survey all
+survey 101
+  input 101_ee_ent.th2
+
+ map ent -projection extended
+  entrance
+  skylight
+ endmap
+
+ centerline
+   extend left 12
+   extend right 13 12
+   extend right 5
+ endcenterline
+ 
+endsurvey
+endsurvey
+
