@@ -1,0 +1,49 @@
+encoding  utf-8
+survey all
+import ../../../loser/caves/171/171.3d -surveys use
+  
+#survey all
+survey 171
+  input 171ee.th2
+  join upper main_upper
+ # join main lower
+  join main_roof:0 lower_roof:end
+  join main_floor:end lower_floor:0
+
+ centerline
+ #   extend ignore 4 3
+    extend right main.17 
+    extend left main.14 main.15
+    extend left main.15 main.16
+    extend left main.16 main.17
+    extend left main.12 main.13
+extend ignore main.4 main.23
+extend vertical main.2 171_lower.14
+extend left 171_upper.3
+  endcenterline
+
+ map mainmap.map  -projection extended
+   upper
+   main_upper
+   main
+   lower
+ endmap  
+ map sidemap.map  -projection extended   
+   lower_side
+ endmap
+ 
+endsurvey
+map centerline.map -projection extended
+  171
+endmap
+
+map all_elev.map -projection extended
+ mainmap.map@171
+ break
+ sidemap.map@171 [0 -8 m] none
+ centerline.map 
+endmap
+
+endsurvey
+#endsurvey
+
