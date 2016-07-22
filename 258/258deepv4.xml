@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2016-07-22 16:01:56">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2016-07-22 17:43:48">
 <sketch splined="0" locoffsetx="-166.51442" locoffsety="123.469696" locoffsetz="-77.028" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -22418,16 +22418,6 @@
 		<pt X="-2881.4692" Y="1514.0497"/>
 		<pt X="-2876.7559" Y="1509.397" Z="-1994.6201"/>
 	</skpath>
-	<skpath from="326" to="1928" linestyle="wall" splined="1">
-		<importfrom subname="dontstopmenow-sketch"/>
-		<pt X="-2876.7559" Y="1509.397" Z="-1994.6201"/>
-		<pt X="-2872.9333" Y="1499.9324"/>
-		<pt X="-2863.1753" Y="1483.9406"/>
-		<pt X="-2853.9788" Y="1469.83"/>
-		<pt X="-2841.212" Y="1454.2136"/>
-		<pt X="-2835.5835" Y="1443.678"/>
-		<pt X="-2834.0847" Y="1439.163"/>
-	</skpath>
 	<skpath from="1929" to="1930" linestyle="wall" splined="1">
 		<importfrom subname="dontstopmenow-sketch"/>
 		<pt X="-2806.2515" Y="1443.671"/>
@@ -22869,11 +22859,6 @@
 		<pt X="-2813.4138" Y="1453.5797"/>
 		<pt X="-2809.579" Y="1443.3982"/>
 	</skpath>
-	<skpath from="1928" to="1960" linestyle="invisible" splined="1">
-		<importfrom subname="dontstopmenow-sketch"/>
-		<pt X="-2834.0847" Y="1439.163"/>
-		<pt X="-2826.2117" Y="1440.0502"/>
-	</skpath>
 	<skpath from="1960" to="1961" linestyle="invisible" splined="1">
 		<importfrom subname="dontstopmenow-sketch"/>
 		<pt X="-2826.2117" Y="1440.0502"/>
@@ -23054,6 +23039,294 @@
 	<skpath from="306" to="1315" linestyle="invisible" splined="1">
 		<pt X="-1497.0558" Y="1521.897" Z="-1394.3201"/>
 		<pt X="-1492.0814" Y="1567.113"/>
+	</skpath>
+	<skpath from="1978" to="333" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2811.2185" Y="1421.5359"/>
+		<pt X="-2813.0105" Y="1412.1548"/>
+		<pt X="-2812.694" Y="1406.5684"/>
+		<pt X="-2811.8508" Y="1400.1385"/>
+		<pt X="-2811.324" Y="1395.3954"/>
+		<pt X="-2810.5862" Y="1387.9116"/>
+		<pt X="-2812.5889" Y="1384.1171"/>
+		<pt X="-2811.9563" Y="1379.7954"/>
+		<pt X="-2810.5862" Y="1376.2117"/>
+		<pt X="-2810.9023" Y="1373.5765"/>
+		<pt X="-2810.3752" Y="1370.6251"/>
+		<pt X="-2809.1104" Y="1367.7792"/>
+		<pt X="-2807.5293" Y="1361.1387"/>
+		<pt X="-2808.3726" Y="1352.6008"/>
+		<pt X="-2812.4558" Y="1347.997" Z="-1928.62"/>
+	</skpath>
+	<skpath from="333" to="1979" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2812.4558" Y="1347.997" Z="-1928.62"/>
+		<pt X="-2814.486" Y="1345.3279"/>
+		<pt X="-2816.805" Y="1344.4846"/>
+		<pt X="-2823.7617" Y="1341.5332"/>
+		<pt X="-2828.7158" Y="1339.8468"/>
+		<pt X="-2832.2996" Y="1336.3684"/>
+		<pt X="-2834.6187" Y="1332.4684"/>
+		<pt X="-2837.57" Y="1328.99"/>
+		<pt X="-2837.7808" Y="1327.6198"/>
+	</skpath>
+	<skpath from="1981" to="1982" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2853.17" Y="1352.39"/>
+		<pt X="-2848.4268" Y="1352.2845"/>
+		<pt X="-2841.3645" Y="1352.7062"/>
+		<pt X="-2834.8293" Y="1356.0792"/>
+		<pt X="-2828.7158" Y="1359.4521"/>
+		<pt X="-2826.45" Y="1361.7085"/>
+	</skpath>
+	<skpath from="1982" to="1980" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2826.45" Y="1361.7085"/>
+		<pt X="-2823.8672" Y="1366.0927"/>
+		<pt X="-2819.2292" Y="1376.9495"/>
+		<pt X="-2820.4941" Y="1380.0062"/>
+		<pt X="-2822.1807" Y="1385.0657"/>
+		<pt X="-2824.7104" Y="1388.3333"/>
+		<pt X="-2824.4995" Y="1392.0225"/>
+		<pt X="-2823.024" Y="1397.1873"/>
+	</skpath>
+	<skpath from="1982" to="333" linestyle="connective">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2826.45" Y="1361.7085"/>
+		<pt X="-2812.4558" Y="1347.997" Z="-1928.62"/>
+	</skpath>
+	<skpath from="1983" to="1984" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2861.181" Y="1316.6575"/>
+		<pt X="-2864.8699" Y="1318.7656"/>
+		<pt X="-2867.8213" Y="1322.0332"/>
+		<pt X="-2869.6133" Y="1324.8792"/>
+		<pt X="-2869.7188" Y="1330.2548"/>
+		<pt X="-2869.4023" Y="1332.2574"/>
+		<pt X="-2869.4175" Y="1332.7722"/>
+	</skpath>
+	<skpath from="1984" to="334" linestyle="connective">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2869.4175" Y="1332.7722"/>
+		<pt X="-2867.356" Y="1332.8969" Z="-1917.52"/>
+	</skpath>
+	<skpath from="334" to="1979" linestyle="connective">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2867.356" Y="1332.8969" Z="-1917.52"/>
+		<pt X="-2837.7808" Y="1327.6198"/>
+	</skpath>
+	<skpath from="1983" to="1985" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2861.181" Y="1316.6575"/>
+		<pt X="-2858.7563" Y="1314.8656"/>
+		<pt X="-2855.0674" Y="1311.1765"/>
+		<pt X="-2851.0618" Y="1308.4359"/>
+		<pt X="-2848.3213" Y="1307.5927"/>
+		<pt X="-2844.4214" Y="1304.8522"/>
+		<pt X="-2841.0483" Y="1301.9008"/>
+		<pt X="-2839.5728" Y="1299.4764"/>
+		<pt X="-2833.986" Y="1297.5792"/>
+		<pt X="-2828.6106" Y="1298.0009"/>
+		<pt X="-2820.8105" Y="1297.0521"/>
+		<pt X="-2814.5916" Y="1294.9441"/>
+		<pt X="-2812.0618" Y="1291.6765"/>
+		<pt X="-2806.897" Y="1289.463"/>
+		<pt X="-2802.6807" Y="1286.3009"/>
+		<pt X="-2798.6753" Y="1284.1927"/>
+		<pt X="-2792.8782" Y="1279.6603"/>
+	</skpath>
+	<skpath from="1979" to="1986" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2837.7808" Y="1327.6198"/>
+		<pt X="-2833.0376" Y="1324.9846"/>
+		<pt X="-2827.6619" Y="1321.9279"/>
+		<pt X="-2820.916" Y="1318.8711"/>
+		<pt X="-2814.3809" Y="1314.2333"/>
+		<pt X="-2805.316" Y="1310.7549"/>
+		<pt X="-2797.8323" Y="1307.8036"/>
+		<pt X="-2785.9214" Y="1301.0576"/>
+		<pt X="-2781.705" Y="1296.3143"/>
+	</skpath>
+	<skpath from="1985" to="335" linestyle="connective">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2792.8782" Y="1279.6603"/>
+		<pt X="-2787.056" Y="1297.497" Z="-1843.9199"/>
+	</skpath>
+	<skpath from="335" to="1986" linestyle="connective">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2787.056" Y="1297.497" Z="-1843.9199"/>
+		<pt X="-2781.705" Y="1296.3143"/>
+	</skpath>
+	<skpath from="1983" to="1987" linestyle="pitchbound" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2861.181" Y="1316.6575"/>
+		<pt X="-2856.7537" Y="1315.8143"/>
+		<pt X="-2850.6401" Y="1317.2899"/>
+		<pt X="-2846.7402" Y="1319.0819"/>
+		<pt X="-2844.173" Y="1320.4897"/>
+	</skpath>
+	<skpath from="1987" to="1988" linestyle="pitchbound" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2844.173" Y="1320.4897"/>
+		<pt X="-2840.8376" Y="1323.2981"/>
+		<pt X="-2840.1562" Y="1324.3285"/>
+	</skpath>
+	<skpath from="1988" to="1979" linestyle="pitchbound" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2840.1562" Y="1324.3285"/>
+		<pt X="-2838.9402" Y="1326.671"/>
+		<pt X="-2837.7808" Y="1327.6198"/>
+	</skpath>
+	<skpath from="1987" to="1989" linestyle="detail" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2844.173" Y="1320.4897"/>
+		<pt X="-2840.416" Y="1317.7115"/>
+		<pt X="-2835.989" Y="1314.8657"/>
+		<pt X="-2830.0862" Y="1310.5441"/>
+		<pt X="-2825.0269" Y="1305.6954"/>
+		<pt X="-2819.124" Y="1301.4792"/>
+		<pt X="-2813.3267" Y="1299.2657"/>
+		<pt X="-2805.316" Y="1296.6306"/>
+		<pt X="-2798.6753" Y="1292.9414"/>
+	</skpath>
+	<skpath from="1988" to="1990" linestyle="detail" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2840.1562" Y="1324.3285"/>
+		<pt X="-2838.097" Y="1323.2981"/>
+		<pt X="-2836.1997" Y="1321.8224"/>
+		<pt X="-2831.351" Y="1318.1332"/>
+		<pt X="-2827.2402" Y="1315.498"/>
+		<pt X="-2821.1267" Y="1311.1765"/>
+		<pt X="-2816.278" Y="1306.2224"/>
+		<pt X="-2813.2214" Y="1303.6927"/>
+		<pt X="-2806.4753" Y="1302.1117"/>
+		<pt X="-2799.5186" Y="1299.2657"/>
+		<pt X="-2794.5647" Y="1296.4198"/>
+	</skpath>
+	<skpath from="1989" to="1990" linestyle="invisible" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2798.6753" Y="1292.9414"/>
+		<pt X="-2794.5647" Y="1296.4198"/>
+	</skpath>
+	<skpath from="1989" to="1991" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="mud"/>
+		</pathcodes>
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2798.6753" Y="1292.9414"/>
+		<pt X="-2801.6267" Y="1299.0549"/>
+	</skpath>
+	<skpath from="1985" to="1992" linestyle="estwall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2792.8782" Y="1279.6603"/>
+		<pt X="-2758.5532" Y="1256.653"/>
+	</skpath>
+	<skpath from="1986" to="1993" linestyle="estwall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2781.705" Y="1296.3143"/>
+		<pt X="-2749.9292" Y="1281.2476"/>
+	</skpath>
+	<skpath from="1992" to="1993" linestyle="invisible" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2758.5532" Y="1256.653"/>
+		<pt X="-2749.9292" Y="1281.2476"/>
+	</skpath>
+	<skpath from="1994" to="1983" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">c6</pctext>
+		</pathcodes>
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2863.866" Y="1306.4701"/>
+		<pt X="-2861.181" Y="1316.6575"/>
+	</skpath>
+	<skpath from="1992" to="1995" linestyle="connective">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2758.5532" Y="1256.653"/>
+		<pt X="-2764.689" Y="1273.0918"/>
+	</skpath>
+	<skpath from="1996" to="1995" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">?B</pctext>
+		</pathcodes>
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2744.5662" Y="1265.9052"/>
+		<pt X="-2764.689" Y="1273.0918"/>
+	</skpath>
+	<skpath from="1984" to="1981" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2869.4175" Y="1332.7722"/>
+		<pt X="-2868.762" Y="1334.5662"/>
+		<pt X="-2869.3943" Y="1337.096"/>
+		<pt X="-2869.4998" Y="1342.1554"/>
+		<pt X="-2868.1296" Y="1345.6338"/>
+		<pt X="-2865.916" Y="1349.85"/>
+		<pt X="-2864.6511" Y="1351.431"/>
+		<pt X="-2856.2188" Y="1352.3798"/>
+		<pt X="-2853.17" Y="1352.39"/>
+	</skpath>
+	<skpath from="1979" to="1997" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2837.7808" Y="1327.6198"/>
+		<pt X="-2840.197" Y="1334.1447"/>
+	</skpath>
+	<skpath from="1978" to="1929" linestyle="wall" splined="1">
+		<pt X="-2811.2185" Y="1421.5359"/>
+		<pt X="-2806.8992" Y="1428.1028"/>
+		<pt X="-2806.0115" Y="1432.5409"/>
+		<pt X="-2805.8848" Y="1439.1346"/>
+		<pt X="-2806.2515" Y="1443.671"/>
+	</skpath>
+	<skpath from="1980" to="1998" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2823.024" Y="1397.1873"/>
+		<pt X="-2822.1807" Y="1407.9386"/>
+		<pt X="-2823.551" Y="1416.2656"/>
+	</skpath>
+	<skpath from="1998" to="1999" linestyle="wall" splined="1">
+		<importfrom subname="papawpassage-sketch"/>
+		<pt X="-2823.551" Y="1416.2656"/>
+		<pt X="-2822.2861" Y="1425.5413"/>
+		<pt X="-2822.4036" Y="1429.2245"/>
+	</skpath>
+	<skpath from="326" to="2000" linestyle="wall" splined="1">
+		<importfrom subname="dontstopmenow-sketch"/>
+		<pt X="-2876.7559" Y="1509.397" Z="-1994.6201"/>
+		<pt X="-2872.9333" Y="1499.9324"/>
+		<pt X="-2863.1753" Y="1483.9406"/>
+		<pt X="-2853.9788" Y="1469.83"/>
+		<pt X="-2845.1782" Y="1459.583"/>
+	</skpath>
+	<skpath from="2000" to="1928" linestyle="wall" splined="1">
+		<importfrom subname="dontstopmenow-sketch"/>
+		<pt X="-2845.1782" Y="1459.583"/>
+		<pt X="-2841.212" Y="1454.2136"/>
+		<pt X="-2835.5835" Y="1443.678"/>
+		<pt X="-2834.0847" Y="1439.163"/>
+	</skpath>
+	<skpath from="2000" to="327" linestyle="connective">
+		<pt X="-2845.1782" Y="1459.583"/>
+		<pt X="-2814.1558" Y="1467.8969" Z="-1977.02"/>
+	</skpath>
+	<skpath from="1999" to="2001" linestyle="wall" splined="1">
+		<pt X="-2822.4036" Y="1429.2245"/>
+		<pt X="-2823.5103" Y="1431.5265"/>
+		<pt X="-2824.905" Y="1434.8234"/>
+		<pt X="-2826.538" Y="1435.7715"/>
+	</skpath>
+	<skpath from="2001" to="1928" linestyle="wall" splined="1">
+		<pt X="-2826.538" Y="1435.7715"/>
+		<pt X="-2830.3577" Y="1436.5986"/>
+		<pt X="-2834.0847" Y="1439.163"/>
+	</skpath>
+	<skpath from="2001" to="1960" linestyle="detail" splined="1">
+		<pt X="-2826.538" Y="1435.7715"/>
+		<pt X="-2826.3774" Y="1437.2512"/>
+		<pt X="-2826.2117" Y="1440.0502"/>
 	</skpath>
 </sketch>
 </tunnelxml>
