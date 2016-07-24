@@ -5,6 +5,15 @@ import ../../../loser/all.3d -surveys use
 survey 2016-jb-01
   input 16jb01.th2
 
+ map plan_16jb01.map -projection plan
+ ent
+  dirty_snow
+   dirty_snow2
+  choss
+hopeless
+  endmap
+
+
  join dirty_snow choss
 
 endsurvey
