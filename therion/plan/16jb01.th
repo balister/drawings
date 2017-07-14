@@ -6,15 +6,23 @@ survey 2016-jb-01
   input 16jb01.th2
 
  map plan_16jb01.map -projection plan
- ent
-  dirty_snow
+   ent_upper
+   ent_lower
+   choss
+   dirty_snow
    dirty_snow2
-  choss
+   solidrocks_upper
+   solidrocks_lower
+   nervous_upper
+   nervous_lower
 hopeless
+
   endmap
 
 
  join dirty_snow choss
+ 
+ join nervous_lower nervous_upper
 
 endsurvey
 

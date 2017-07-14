@@ -1,0 +1,46 @@
+encoding  utf-8
+survey all
+import ../../../loser/caves/2016-jb-01/2016-jb-01.3d -surveys use
+  
+#survey all
+survey 2016-jb-01
+  input 16-jb-01_ee.th2
+ # join upper main_upper
+  join nervous solidrocks
+#  join main_roof:0 lower_roof:end
+#  join main_floor:end lower_floor:0
+
+ centerline
+ #   extend ignore 4 3
+    extend left solidrock.24 
+    extend right nervousbreakdown.6
+    extend right hopeless.13
+ endcenterline
+ 
+ map mainmap.map  -projection extended
+   solidrock_upper
+   solidrock_lower
+   hopeless
+   dirtysnow
+   solidrocks
+   nervous
+ #endmap  
+ #map sidemap.map  -projection extended   
+ #  lower_side
+ endmap
+ 
+endsurvey
+map centerline.map -projection extended
+  2016-jb-01
+endmap
+
+map all_elev.map -projection extended
+ mainmap.map@2016-jb-01
+# break
+# sidemap.map@2016-jb-01 [0 -8 m] none
+ #centerline.map 
+endmap
+
+endsurvey
+#endsurvey
+
