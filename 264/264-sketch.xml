@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2016-09-01 Aspet" tunnelproject="cuccaustria" tunneluser="aspet16" tunneldate="2017-07-14 21:50:21">
+<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2017-07-14 21:02:43">
 <sketch splined="0" locoffsetx="-35.306595" locoffsety="19.40713" locoffsetz="-100.13496" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -89995,7 +89995,7 @@
 		<pt X="2044.6957" Y="837.4135"/>
 		<pt X="2053.486" Y="856.6423"/>
 	</skpath>
-	<skpath from="7055" to="7054" linestyle="connective">
+	<skpath from="7054" to="7055" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="1.0" nodeposyrel="-1.0">p25</pctext>
 		</pathcodes>
@@ -90122,6 +90122,403 @@
 		<importfrom subname="keepsongiving-sketch"/>
 		<pt X="1902.168" Y="979.36273"/>
 		<pt X="1942.021" Y="997.88715"/>
+	</skpath>
+	<skpath from="7066" to="7066" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.1551719" sfrotatedeg="0.13453838" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="102.71006847625935" sfytrans="-31.729296885456094" sfsketch="expofiles/surveyscans/2016/2016#40/plan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2338" sfpixheight="1653">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1380.1666" Y="-123.22168"/>
+		<pt X="2121.1702" Y="-124.96166"/>
+		<pt X="2122.4004" Y="398.9386"/>
+		<pt X="1381.3969" Y="400.6786"/>
+		<pt X="1380.1666" Y="-123.22168"/>
+	</skpath>
+	<skpath from="1393" to="7067" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1788.1659" Y="190.57129" Z="-78.5504"/>
+		<pt X="1800.1644" Y="180.45753"/>
+	</skpath>
+	<skpath from="1393" to="7068" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1788.1659" Y="190.57129" Z="-78.5504"/>
+		<pt X="1777.335" Y="191.92067"/>
+	</skpath>
+	<skpath from="1396" to="7069" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1840.6659" Y="196.0713" Z="-50.5504"/>
+		<pt X="1828.1985" Y="210.13174"/>
+	</skpath>
+	<skpath from="1396" to="7070" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1840.6659" Y="196.0713" Z="-50.5504"/>
+		<pt X="1842.1967" Y="194.74226"/>
+	</skpath>
+	<skpath from="1397" to="7071" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1866.7659" Y="237.8713" Z="-19.7504"/>
+		<pt X="1866.705" Y="239.86996"/>
+	</skpath>
+	<skpath from="1397" to="7072" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1866.7659" Y="237.8713" Z="-19.7504"/>
+		<pt X="1864.1066" Y="210.41681"/>
+	</skpath>
+	<skpath from="1398" to="7073" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1930.6659" Y="217.0713" Z="23.949602"/>
+		<pt X="1936.4764" Y="224.50098"/>
+	</skpath>
+	<skpath from="1398" to="7074" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1930.6659" Y="217.0713" Z="23.949602"/>
+		<pt X="1913.9281" Y="192.32436"/>
+	</skpath>
+	<skpath from="1399" to="7075" linestyle="connective">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1935.366" Y="128.7713" Z="44.349598"/>
+		<pt X="1957.1882" Y="147.86116"/>
+	</skpath>
+	<skpath from="7067" to="7070" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1800.1644" Y="180.45753"/>
+		<pt X="1808.5585" Y="181.6687"/>
+		<pt X="1820.0133" Y="181.66927"/>
+		<pt X="1827.5571" Y="185.0223"/>
+		<pt X="1833.984" Y="190.33112"/>
+		<pt X="1840.9608" Y="192.2822"/>
+		<pt X="1842.1967" Y="194.74226"/>
+	</skpath>
+	<skpath from="7070" to="7072" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1842.1967" Y="194.74226"/>
+		<pt X="1847.4479" Y="197.78712"/>
+		<pt X="1850.8755" Y="200.82285"/>
+		<pt X="1858.2297" Y="204.0834"/>
+		<pt X="1864.1066" Y="210.41681"/>
+	</skpath>
+	<skpath from="7072" to="7074" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1864.1066" Y="210.41681"/>
+		<pt X="1873.1191" Y="213.21655"/>
+		<pt X="1879.3824" Y="214.08064"/>
+		<pt X="1891.0967" Y="207.10515"/>
+		<pt X="1895.8241" Y="204.86778"/>
+		<pt X="1901.3826" Y="202.91019"/>
+		<pt X="1913.9281" Y="192.32436"/>
+	</skpath>
+	<skpath from="7074" to="1399" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1913.9281" Y="192.32436"/>
+		<pt X="1919.3593" Y="189.01971"/>
+		<pt X="1924.6188" Y="182.31808"/>
+		<pt X="1922.8754" Y="172.87492"/>
+		<pt X="1919.5007" Y="169.8378"/>
+		<pt X="1921.3347" Y="152.58502"/>
+		<pt X="1921.5354" Y="141.4603"/>
+		<pt X="1935.366" Y="128.7713" Z="44.349598"/>
+	</skpath>
+	<skpath from="1399" to="7075" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1935.366" Y="128.7713" Z="44.349598"/>
+		<pt X="1940.0908" Y="117.980446"/>
+		<pt X="1946.5957" Y="113.4803"/>
+		<pt X="1954.2637" Y="120.1719"/>
+		<pt X="1956.4697" Y="132.79771"/>
+		<pt X="1955.6796" Y="140.80827"/>
+		<pt X="1957.1882" Y="147.86116"/>
+	</skpath>
+	<skpath from="7068" to="7069" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1777.335" Y="191.92067"/>
+		<pt X="1791.4554" Y="194.91069"/>
+		<pt X="1798.9999" Y="198.54373"/>
+		<pt X="1810.1769" Y="199.38332"/>
+		<pt X="1814.9307" Y="204.42183"/>
+		<pt X="1823.8972" Y="206.13301"/>
+		<pt X="1828.1985" Y="210.13174"/>
+	</skpath>
+	<skpath from="7069" to="7071" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1828.1985" Y="210.13174"/>
+		<pt X="1834.9751" Y="219.7094"/>
+		<pt X="1846.5331" Y="234.43475"/>
+		<pt X="1855.0446" Y="239.36017"/>
+		<pt X="1866.705" Y="239.86996"/>
+	</skpath>
+	<skpath from="1399" to="7076" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1935.366" Y="128.7713" Z="44.349598"/>
+		<pt X="1941.3191" Y="141.99753"/>
+		<pt X="1939.1919" Y="157.3061"/>
+	</skpath>
+	<skpath from="7072" to="7077" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1864.1066" Y="210.41681"/>
+		<pt X="1860.2124" Y="219.89478"/>
+		<pt X="1845.4594" Y="211.6905"/>
+	</skpath>
+	<skpath from="7069" to="7078" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1828.1985" Y="210.13174"/>
+		<pt X="1829.1869" Y="199.13991"/>
+		<pt X="1819.6746" Y="193.52206"/>
+	</skpath>
+	<skpath from="7071" to="7079" linestyle="detail" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1866.705" Y="239.86996"/>
+		<pt X="1880.3379" Y="237.15146"/>
+		<pt X="1889.5256" Y="237.30127"/>
+		<pt X="1894.6725" Y="237.6504"/>
+		<pt X="1901.0947" Y="236.33627"/>
+		<pt X="1908.9796" Y="233.91074"/>
+		<pt X="1917.4175" Y="231.85046"/>
+	</skpath>
+	<skpath from="7079" to="7073" linestyle="pitchbound" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1917.4175" Y="231.85046"/>
+		<pt X="1921.4224" Y="225.75426"/>
+		<pt X="1924.5267" Y="222.60912"/>
+		<pt X="1930.7701" Y="221.65979"/>
+		<pt X="1933.535" Y="222.56683"/>
+		<pt X="1936.4764" Y="224.50098"/>
+	</skpath>
+	<skpath from="7079" to="7080" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1917.4175" Y="231.85046"/>
+		<pt X="1913.5795" Y="235.18147"/>
+		<pt X="1911.3944" Y="238.3212"/>
+	</skpath>
+	<skpath from="7080" to="7081" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1911.3944" Y="238.3212"/>
+		<pt X="1894.1873" Y="247.04228"/>
+		<pt X="1884.2611" Y="245.7918"/>
+	</skpath>
+	<skpath from="7073" to="7082" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1936.4764" Y="224.50098"/>
+		<pt X="1931.0072" Y="229.75356"/>
+		<pt X="1927.1769" Y="234.92712"/>
+	</skpath>
+	<skpath from="7082" to="7083" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1927.1769" Y="234.92712"/>
+		<pt X="1932.6963" Y="234.71126"/>
+		<pt X="1935.9825" Y="230.64558"/>
+		<pt X="1942.763" Y="226.19531"/>
+		<pt X="1950.4781" Y="223.94762"/>
+		<pt X="1958.9042" Y="217.83153"/>
+		<pt X="1964.5988" Y="216.14496"/>
+	</skpath>
+	<skpath from="7084" to="7085" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1870.7479" Y="217.31915"/>
+		<pt X="1883.8002" Y="219.50334"/>
+		<pt X="1897.9053" Y="210.97507"/>
+		<pt X="1898.5571" Y="217.48492"/>
+	</skpath>
+	<skpath from="7085" to="7086" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1898.5571" Y="217.48492"/>
+		<pt X="1887.9762" Y="226.39934"/>
+		<pt X="1870.7269" Y="224.55255"/>
+	</skpath>
+	<skpath from="7086" to="7084" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1870.7269" Y="224.55255"/>
+		<pt X="1870.7479" Y="217.31915"/>
+	</skpath>
+	<skpath from="7086" to="7087" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1870.7269" Y="224.55255"/>
+		<pt X="1869.8942" Y="228.82663"/>
+	</skpath>
+	<skpath from="7087" to="7088" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1869.8942" Y="228.82663"/>
+		<pt X="1868.6077" Y="221.0514"/>
+	</skpath>
+	<skpath from="7088" to="7084" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1868.6077" Y="221.0514"/>
+		<pt X="1870.7479" Y="217.31915"/>
+	</skpath>
+	<skpath from="7087" to="7085" linestyle="detail">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1869.8942" Y="228.82663"/>
+		<pt X="1888.3737" Y="229.73499"/>
+		<pt X="1898.7911" Y="221.94089"/>
+		<pt X="1898.5571" Y="217.48492"/>
+	</skpath>
+	<skpath from="7089" to="7090" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1916.4222" Y="232.48097"/>
+		<pt X="1912.489" Y="223.27422"/>
+		<pt X="1901.4407" Y="227.95708"/>
+	</skpath>
+	<skpath from="7068" to="7067" linestyle="invisible" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1777.335" Y="191.92067"/>
+		<pt X="1800.1644" Y="180.45753"/>
+	</skpath>
+	<skpath from="7091" to="7081" linestyle="invisible" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1893.2301" Y="263.06992"/>
+		<pt X="1884.2611" Y="245.7918"/>
+	</skpath>
+	<skpath from="7092" to="7083" linestyle="invisible" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1968.4972" Y="221.09068"/>
+		<pt X="1964.5988" Y="216.14496"/>
+	</skpath>
+	<skpath from="7082" to="7093" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="breeze_a"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1927.1769" Y="234.92712"/>
+		<pt X="1926.4445" Y="240.1086"/>
+		<pt X="1916.4141" Y="240.16193"/>
+	</skpath>
+	<skpath from="7084" to="7072" linestyle="invisible" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1870.7479" Y="217.31915"/>
+		<pt X="1864.1066" Y="210.41681"/>
+	</skpath>
+	<skpath from="7094" to="7095" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="0.0" nodeposyrel="0.0">QM?C</pctext>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1920.6404" Y="258.1168"/>
+		<pt X="1920.2733" Y="258.48828"/>
+		<pt X="1919.0405" Y="238.00346"/>
+		<pt X="1922.5887" Y="244.62796"/>
+	</skpath>
+	<skpath from="7096" to="7091" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1904.5459" Y="249.07672"/>
+		<pt X="1900.1077" Y="251.61162"/>
+		<pt X="1896.266" Y="253.28714"/>
+		<pt X="1893.2301" Y="263.06992"/>
+	</skpath>
+	<skpath from="7096" to="7097" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1904.5459" Y="249.07672"/>
+		<pt X="1903.9808" Y="245.36418"/>
+		<pt X="1894.9202" Y="250.17752"/>
+	</skpath>
+	<skpath from="7092" to="7098" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1968.4972" Y="221.09068"/>
+		<pt X="1963.3717" Y="225.16396"/>
+		<pt X="1956.0273" Y="227.77737"/>
+		<pt X="1952.1884" Y="231.6599"/>
+		<pt X="1948.1478" Y="233.01903"/>
+	</skpath>
+	<skpath from="7098" to="7096" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1948.1478" Y="233.01903"/>
+		<pt X="1943.0007" Y="234.10031"/>
+		<pt X="1936.218" Y="238.18294"/>
+		<pt X="1930.3665" Y="243.54942"/>
+		<pt X="1922.8342" Y="244.87872"/>
+		<pt X="1915.4775" Y="244.36508"/>
+		<pt X="1911.0696" Y="244.5699"/>
+		<pt X="1905.2249" Y="248.64305"/>
+		<pt X="1904.5459" Y="249.07672"/>
+	</skpath>
+	<skpath from="7098" to="7099" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1948.1478" Y="233.01903"/>
+		<pt X="1947.2756" Y="227.45125"/>
+		<pt X="1937.8351" Y="233.34747"/>
+	</skpath>
+	<skpath from="7100" to="7073" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1976.196" Y="185.11697"/>
+		<pt X="1972.3573" Y="193.79494"/>
+		<pt X="1965.7394" Y="206.09746"/>
+		<pt X="1959.0952" Y="213.93999"/>
+		<pt X="1949.3712" Y="219.56659"/>
+		<pt X="1936.4764" Y="224.50098"/>
+	</skpath>
+	<skpath from="7100" to="7101" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1976.196" Y="185.11697"/>
+		<pt X="1964.7357" Y="175.2157"/>
+		<pt X="1953.3639" Y="188.33537"/>
+	</skpath>
+	<skpath from="7075" to="7102" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1957.1882" Y="147.86116"/>
+		<pt X="1962.5831" Y="146.02937"/>
+		<pt X="1970.3271" Y="134.85362"/>
+		<pt X="1980.0297" Y="124.219215"/>
+		<pt X="1995.1119" Y="124.11311"/>
+		<pt X="2007.091" Y="120.13275"/>
+		<pt X="2017.4784" Y="128.95616"/>
+		<pt X="2014.1654" Y="135.09444"/>
+		<pt X="2002.867" Y="147.72615"/>
+	</skpath>
+	<skpath from="7102" to="7100" linestyle="wall" splined="1">
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="2002.867" Y="147.72615"/>
+		<pt X="2000.8549" Y="150.19684"/>
+		<pt X="1991.4454" Y="163.88712"/>
+		<pt X="1979.2506" Y="179.54616"/>
+		<pt X="1976.196" Y="185.11697"/>
+	</skpath>
+	<skpath from="7102" to="7103" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="2002.867" Y="147.72615"/>
+		<pt X="1991.1464" Y="137.9518"/>
+		<pt X="1982.4438" Y="152.54156"/>
+	</skpath>
+	<skpath from="7104" to="7075" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">choke</pctext>
+		</pathcodes>
+		<importfrom subname="watertorture-sketch"/>
+		<pt X="1967.3613" Y="117.821625"/>
+		<pt X="1973.9056" Y="145.16855"/>
+		<pt X="1957.1882" Y="147.86116"/>
 	</skpath>
 </sketch>
 </tunnelxml>
