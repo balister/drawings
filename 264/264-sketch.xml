@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2017-07-14 15:16:30">
+<tunnelxml tunnelversion="version2016-09-01 Aspet" tunnelproject="cuccaustria" tunneluser="aspet16" tunneldate="2017-07-14 21:50:21">
 <sketch splined="0" locoffsetx="-35.306595" locoffsety="19.40713" locoffsetz="-100.13496" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -88163,15 +88163,6 @@
 		<pt X="1853.4396" Y="1030.0571"/>
 		<pt X="1855.336" Y="1037.9392"/>
 	</skpath>
-	<skpath from="6912" to="6921" linestyle="wall" splined="1">
-		<importfrom subname="keepsongiving-sketch"/>
-		<pt X="1855.336" Y="1037.9392"/>
-		<pt X="1860.822" Y="1041.7142"/>
-		<pt X="1867.1722" Y="1042.004"/>
-		<pt X="1878.1683" Y="1040.0858"/>
-		<pt X="1881.8379" Y="1038.6207"/>
-		<pt X="1895.022" Y="1039.1211"/>
-	</skpath>
 	<skpath from="6921" to="6922" linestyle="wall" splined="1">
 		<importfrom subname="keepsongiving-sketch"/>
 		<pt X="1895.022" Y="1039.1211"/>
@@ -88395,15 +88386,6 @@
 		<pt X="2025.2289" Y="859.73"/>
 		<pt X="2029.0481" Y="852.2092"/>
 		<pt X="2029.8721" Y="847.556"/>
-	</skpath>
-	<skpath from="6922" to="6921" linestyle="pitchbound" splined="1">
-		<importfrom subname="keepsongiving-sketch"/>
-		<pt X="1878.2078" Y="1075.3752"/>
-		<pt X="1876.7102" Y="1070.4092"/>
-		<pt X="1880.4502" Y="1060.8896"/>
-		<pt X="1882.2662" Y="1051.8546"/>
-		<pt X="1886.022" Y="1044.1101"/>
-		<pt X="1895.022" Y="1039.1211"/>
 	</skpath>
 	<skpath from="6900" to="6937" linestyle="detail">
 		<importfrom subname="keepsongiving-sketch"/>
@@ -89047,23 +89029,7 @@
 		<pt X="1842.5729" Y="1010.7103"/>
 		<pt X="1862.6696" Y="1004.0229"/>
 	</skpath>
-	<skpath from="6979" to="6943" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">?A</pctext>
-		</pathcodes>
-		<importfrom subname="keepsongiving-sketch"/>
-		<pt X="1980.2057" Y="992.177"/>
-		<pt X="1959.4423" Y="984.01404"/>
-	</skpath>
-	<skpath from="6980" to="6945" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">?A</pctext>
-		</pathcodes>
-		<importfrom subname="keepsongiving-sketch"/>
-		<pt X="1962.311" Y="1002.376"/>
-		<pt X="1942.021" Y="997.88715"/>
-	</skpath>
-	<skpath from="6913" to="6981" linestyle="connective">
+	<skpath from="6913" to="6979" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="mud"/>
@@ -89072,7 +89038,7 @@
 		<pt X="1873.9595" Y="1118.3649"/>
 		<pt X="1843.3398" Y="1029.437"/>
 	</skpath>
-	<skpath from="6925" to="6982" linestyle="connective">
+	<skpath from="6925" to="6980" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="mud"/>
@@ -89081,7 +89047,7 @@
 		<pt X="1712.1934" Y="836.23535"/>
 		<pt X="1791.0869" Y="786.3503"/>
 	</skpath>
-	<skpath from="6983" to="6929" linestyle="connective">
+	<skpath from="6981" to="6929" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">P15</pctext>
 		</pathcodes>
@@ -89089,7 +89055,7 @@
 		<pt X="1782.6251" Y="750.4033"/>
 		<pt X="1745.7699" Y="758.1813"/>
 	</skpath>
-	<skpath from="6921" to="6984" linestyle="connective">
+	<skpath from="6921" to="6982" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="breeze_a"/>
@@ -89105,12 +89071,1057 @@
 		<pt X="1706.3705" Y="832.1726"/>
 		<pt X="1701.5526" Y="825.8355"/>
 	</skpath>
-	<skpath from="6985" to="1412" linestyle="connective">
+	<skpath from="6983" to="1412" linestyle="connective">
 		<pathcodes>
 			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="1.0">choke</pctext>
 		</pathcodes>
 		<pt X="1925.4319" Y="1192.9397"/>
 		<pt X="1911.266" Y="1180.8713" Z="-515.3504"/>
+	</skpath>
+	<skpath from="6984" to="6984" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="2.2834716" sfrotatedeg="0.027194686" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="70.65305032969536" sfytrans="39.8366384673507" sfsketch="surveyscans/2016/2016#46/plan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1059.5964" Y="592.4377"/>
+		<pt X="2171.4998" Y="591.9099"/>
+		<pt X="2172.2285" Y="2127.729"/>
+		<pt X="1060.3254" Y="2128.2566"/>
+		<pt X="1059.5964" Y="592.4377"/>
+	</skpath>
+	<skpath from="1425" to="6985" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1687.866" Y="1190.6713" Z="-823.75037"/>
+		<pt X="1700.1764" Y="1169.9061"/>
+	</skpath>
+	<skpath from="1425" to="6986" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1687.866" Y="1190.6713" Z="-823.75037"/>
+		<pt X="1691.7402" Y="1235.2848"/>
+	</skpath>
+	<skpath from="6987" to="1426" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1352.1846" Y="1189.9421"/>
+		<pt X="1365.366" Y="1191.9713" Z="-1261.4504"/>
+	</skpath>
+	<skpath from="6988" to="6989" linestyle="pitchbound" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1661.239" Y="1026.4539"/>
+		<pt X="1639.0188" Y="1161.4657"/>
+		<pt X="1624.2574" Y="1253.2001"/>
+		<pt X="1604.2255" Y="1310.128"/>
+		<pt X="1582.0828" Y="1368.1134"/>
+	</skpath>
+	<skpath from="1424" to="6990" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1730.4661" Y="1187.6713" Z="-823.1504"/>
+		<pt X="1730.1992" Y="1168.3925"/>
+	</skpath>
+	<skpath from="1424" to="6991" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1730.4661" Y="1187.6713" Z="-823.1504"/>
+		<pt X="1742.805" Y="1206.8097"/>
+	</skpath>
+	<skpath from="1423" to="6992" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1800.166" Y="1180.4713" Z="-830.0504"/>
+		<pt X="1790.8273" Y="1216.9246"/>
+	</skpath>
+	<skpath from="6992" to="6993" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1790.8273" Y="1216.9246"/>
+		<pt X="1805.0245" Y="1225.3066"/>
+	</skpath>
+	<skpath from="1423" to="6994" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1800.166" Y="1180.4713" Z="-830.0504"/>
+		<pt X="1802.8387" Y="1157.2114"/>
+	</skpath>
+	<skpath from="6995" to="1422" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1811.0507" Y="1183.1696"/>
+		<pt X="1807.9661" Y="1216.7714" Z="-837.9504"/>
+	</skpath>
+	<skpath from="1422" to="6993" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1807.9661" Y="1216.7714" Z="-837.9504"/>
+		<pt X="1805.0245" Y="1225.3066"/>
+	</skpath>
+	<skpath from="1421" to="6996" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1859.7659" Y="1183.1713" Z="-835.25037"/>
+		<pt X="1865.5521" Y="1191.8182"/>
+	</skpath>
+	<skpath from="1421" to="6997" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1859.7659" Y="1183.1713" Z="-835.25037"/>
+		<pt X="1871.7615" Y="1187.618"/>
+	</skpath>
+	<skpath from="1421" to="6998" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1859.7659" Y="1183.1713" Z="-835.25037"/>
+		<pt X="1846.5583" Y="1174.3728"/>
+	</skpath>
+	<skpath from="1420" to="6999" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1855.4661" Y="1126.9713" Z="-784.95044"/>
+		<pt X="1862.5546" Y="1127.0967"/>
+	</skpath>
+	<skpath from="7000" to="1420" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1847.7584" Y="1125.6536"/>
+		<pt X="1855.4661" Y="1126.9713" Z="-784.95044"/>
+	</skpath>
+	<skpath from="1419" to="7001" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1864.8658" Y="1108.6713" Z="-775.3504"/>
+		<pt X="1861.7607" Y="1107.759"/>
+	</skpath>
+	<skpath from="1419" to="7002" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1864.8658" Y="1108.6713" Z="-775.3504"/>
+		<pt X="1866.7561" Y="1110.9601"/>
+	</skpath>
+	<skpath from="1418" to="7003" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1872.466" Y="1110.2712" Z="-780.0504"/>
+		<pt X="1880.2961" Y="1104.9231"/>
+	</skpath>
+	<skpath from="7004" to="1427" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1981.9772" Y="891.51086"/>
+		<pt X="1992.0659" Y="887.4713" Z="-689.1504"/>
+	</skpath>
+	<skpath from="1427" to="7005" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1992.0659" Y="887.4713" Z="-689.1504"/>
+		<pt X="1997.5691" Y="882.16296"/>
+	</skpath>
+	<skpath from="7006" to="1431" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1913.7678" Y="840.5259"/>
+		<pt X="1913.766" Y="836.8713" Z="-657.25037"/>
+	</skpath>
+	<skpath from="1430" to="7007" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1925.166" Y="823.3713" Z="-667.9504"/>
+		<pt X="1926.1462" Y="829.44305"/>
+	</skpath>
+	<skpath from="7008" to="1430" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1926.1067" Y="821.3065"/>
+		<pt X="1925.166" Y="823.3713" Z="-667.9504"/>
+	</skpath>
+	<skpath from="1429" to="7009" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1947.3658" Y="856.17126" Z="-686.3504"/>
+		<pt X="1949.9491" Y="853.94"/>
+	</skpath>
+	<skpath from="1429" to="7010" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1947.3658" Y="856.17126" Z="-686.3504"/>
+		<pt X="1938.1029" Y="854.9347"/>
+	</skpath>
+	<skpath from="1428" to="7011" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1941.0659" Y="873.3713" Z="-672.9504"/>
+		<pt X="1959.2668" Y="861.474"/>
+	</skpath>
+	<skpath from="7012" to="1428" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1941.498" Y="874.9657"/>
+		<pt X="1941.0659" Y="873.3713" Z="-672.9504"/>
+	</skpath>
+	<skpath from="1410" to="7013" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1852.3658" Y="1086.4713" Z="-520.4504"/>
+		<pt X="1846.4921" Y="1078.3672"/>
+	</skpath>
+	<skpath from="7014" to="1417" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1882.1044" Y="1089.0975"/>
+		<pt X="1878.1659" Y="1083.8713" Z="-757.25037"/>
+	</skpath>
+	<skpath from="7015" to="1417" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1875.6868" Y="1083.408"/>
+		<pt X="1878.1659" Y="1083.8713" Z="-757.25037"/>
+	</skpath>
+	<skpath from="7016" to="1414" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1904.9077" Y="1057.2161"/>
+		<pt X="1897.0659" Y="1054.4713" Z="-754.95044"/>
+	</skpath>
+	<skpath from="7010" to="7007" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1938.1029" Y="854.9347"/>
+		<pt X="1939.3956" Y="851.1026"/>
+		<pt X="1938.1559" Y="846.5784"/>
+		<pt X="1929.0002" Y="830.6912"/>
+		<pt X="1926.1462" Y="829.44305"/>
+	</skpath>
+	<skpath from="7007" to="7006" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1926.1462" Y="829.44305"/>
+		<pt X="1922.7157" Y="832.0255"/>
+		<pt X="1919.2123" Y="837.8004"/>
+		<pt X="1916.4829" Y="839.64545"/>
+		<pt X="1913.7678" Y="840.5259"/>
+	</skpath>
+	<skpath from="7008" to="7006" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1926.1067" Y="821.3065"/>
+		<pt X="1921.5032" Y="824.3941"/>
+		<pt X="1916.2042" Y="827.4701"/>
+		<pt X="1914.2249" Y="831.9021"/>
+		<pt X="1912.3926" Y="838.95624"/>
+		<pt X="1913.7678" Y="840.5259"/>
+	</skpath>
+	<skpath from="7008" to="7009" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1926.1067" Y="821.3065"/>
+		<pt X="1930.1195" Y="821.5335"/>
+		<pt X="1934.7946" Y="825.5183"/>
+		<pt X="1937.0599" Y="832.90497"/>
+		<pt X="1940.9489" Y="841.73816"/>
+		<pt X="1945.6241" Y="847.32587"/>
+		<pt X="1949.9491" Y="853.94"/>
+	</skpath>
+	<skpath from="7009" to="7011" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1949.9491" Y="853.94"/>
+		<pt X="1953.5428" Y="858.08014"/>
+		<pt X="1959.2668" Y="861.474"/>
+	</skpath>
+	<skpath from="7011" to="7005" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1959.2668" Y="861.474"/>
+		<pt X="1971.9958" Y="867.7544"/>
+		<pt X="1990.9011" Y="874.0318"/>
+		<pt X="1995.564" Y="876.72406"/>
+		<pt X="1997.5691" Y="882.16296"/>
+	</skpath>
+	<skpath from="1432" to="7017" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2070.866" Y="885.9713" Z="-740.9504"/>
+		<pt X="2080.8845" Y="889.44495"/>
+	</skpath>
+	<skpath from="1433" to="7018" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2073.366" Y="872.3713" Z="-754.2504"/>
+		<pt X="2076.0671" Y="871.12256"/>
+	</skpath>
+	<skpath from="7018" to="7017" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2076.0671" Y="871.12256"/>
+		<pt X="2078.7542" Y="878.0294"/>
+		<pt X="2081.6685" Y="883.2514"/>
+		<pt X="2080.8845" Y="889.44495"/>
+	</skpath>
+	<skpath from="1414" to="7019" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1897.0659" Y="1054.4713" Z="-754.95044"/>
+		<pt X="1871.9857" Y="1022.7911"/>
+	</skpath>
+	<skpath from="1415" to="7020" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2013.366" Y="955.47125" Z="-747.3504"/>
+		<pt X="2021.4471" Y="898.5673"/>
+	</skpath>
+	<skpath from="1415" to="7021" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2013.366" Y="955.47125" Z="-747.3504"/>
+		<pt X="2031.6927" Y="968.4063"/>
+	</skpath>
+	<skpath from="1405" to="7022" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1983.6659" Y="907.87134" Z="-561.5504"/>
+		<pt X="1985.8508" Y="911.23285"/>
+	</skpath>
+	<skpath from="7023" to="1405" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1971.258" Y="901.5927"/>
+		<pt X="1983.6659" Y="907.87134" Z="-561.5504"/>
+	</skpath>
+	<skpath from="1440" to="7024" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1939.466" Y="972.1713" Z="-467.2504"/>
+		<pt X="1931.0212" Y="965.7544"/>
+	</skpath>
+	<skpath from="1416" to="7025" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1890.0659" Y="1081.4713" Z="-756.0504"/>
+		<pt X="1884.8722" Y="1077.195"/>
+	</skpath>
+	<skpath from="7026" to="1416" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1889.9055" Y="1085.1903"/>
+		<pt X="1890.0659" Y="1081.4713" Z="-756.0504"/>
+	</skpath>
+	<skpath from="7027" to="1439" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1874.9496" Y="1046.4039"/>
+		<pt X="1870.766" Y="1035.1713" Z="-517.2504"/>
+	</skpath>
+	<skpath from="7028" to="1435" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2049.6223" Y="900.2566"/>
+		<pt X="2044.466" Y="897.97125" Z="-806.6504"/>
+	</skpath>
+	<skpath from="1434" to="7029" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2054.066" Y="862.67126" Z="-783.4504"/>
+		<pt X="2053.486" Y="856.6423"/>
+	</skpath>
+	<skpath from="7021" to="7030" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2031.6927" Y="968.4063"/>
+		<pt X="2027.9419" Y="973.32074"/>
+		<pt X="2016.9294" Y="976.56195"/>
+		<pt X="2000.847" Y="978.411"/>
+		<pt X="1993.5593" Y="990.8192"/>
+		<pt X="1989.4442" Y="994.49835"/>
+		<pt X="1976.6122" Y="999.10986"/>
+		<pt X="1969.7489" Y="1003.71326"/>
+		<pt X="1961.5112" Y="1008.7785"/>
+		<pt X="1953.7067" Y="1007.87537"/>
+	</skpath>
+	<skpath from="7030" to="7016" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1953.7067" Y="1007.87537"/>
+		<pt X="1949.1438" Y="1013.8515"/>
+		<pt X="1940.941" Y="1026.722"/>
+		<pt X="1931.3353" Y="1033.6267"/>
+		<pt X="1918.0634" Y="1041.4562"/>
+		<pt X="1912.1206" Y="1046.0607"/>
+		<pt X="1904.9077" Y="1057.2161"/>
+	</skpath>
+	<skpath from="7016" to="7026" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1904.9077" Y="1057.2161"/>
+		<pt X="1899.4055" Y="1069.2739"/>
+		<pt X="1889.9055" Y="1085.1903"/>
+	</skpath>
+	<skpath from="7026" to="7014" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1889.9055" Y="1085.1903"/>
+		<pt X="1882.1044" Y="1089.0975"/>
+	</skpath>
+	<skpath from="7014" to="7003" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1882.1044" Y="1089.0975"/>
+		<pt X="1877.4166" Y="1103.3748"/>
+		<pt X="1880.2961" Y="1104.9231"/>
+	</skpath>
+	<skpath from="7003" to="1418" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1880.2961" Y="1104.9231"/>
+		<pt X="1887.5137" Y="1110.0532"/>
+		<pt X="1884.4584" Y="1116.6898"/>
+		<pt X="1881.4094" Y="1121.513"/>
+		<pt X="1880.1849" Y="1124.8333"/>
+		<pt X="1875.3262" Y="1126.926"/>
+		<pt X="1870.7981" Y="1119.9443"/>
+		<pt X="1872.466" Y="1110.2712" Z="-780.0504"/>
+	</skpath>
+	<skpath from="1418" to="7002" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1872.466" Y="1110.2712" Z="-780.0504"/>
+		<pt X="1872.0599" Y="1106.9502"/>
+		<pt X="1868.1805" Y="1108.8368"/>
+		<pt X="1866.7561" Y="1110.9601"/>
+	</skpath>
+	<skpath from="7002" to="6999" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1866.7561" Y="1110.9601"/>
+		<pt X="1863.9542" Y="1117.6155"/>
+		<pt X="1865.4664" Y="1122.1523"/>
+		<pt X="1862.5546" Y="1127.0967"/>
+	</skpath>
+	<skpath from="6997" to="7031" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1871.7615" Y="1187.618"/>
+		<pt X="1872.442" Y="1189.8247"/>
+		<pt X="1875.171" Y="1189.5239"/>
+		<pt X="1877.8964" Y="1192.5616"/>
+		<pt X="1878.1945" Y="1196.8105"/>
+		<pt X="1881.8296" Y="1199.2418"/>
+		<pt X="1887.8926" Y="1199.2477"/>
+	</skpath>
+	<skpath from="7032" to="6996" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1876.3566" Y="1207.7319"/>
+		<pt X="1869.387" Y="1204.9933"/>
+		<pt X="1866.9695" Y="1199.5293"/>
+		<pt X="1868.1892" Y="1194.9795"/>
+		<pt X="1865.5521" Y="1191.8182"/>
+	</skpath>
+	<skpath from="6996" to="6993" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1865.5521" Y="1191.8182"/>
+		<pt X="1860.9061" Y="1194.0565"/>
+		<pt X="1857.8606" Y="1198.2944"/>
+		<pt X="1857.5479" Y="1201.9319"/>
+		<pt X="1852.3796" Y="1206.4688"/>
+		<pt X="1849.646" Y="1207.979"/>
+		<pt X="1846.8978" Y="1215.5532"/>
+		<pt X="1845.0736" Y="1217.3685"/>
+		<pt X="1842.3469" Y="1216.15"/>
+		<pt X="1836.5786" Y="1218.5636"/>
+		<pt X="1832.6279" Y="1221.8903"/>
+		<pt X="1826.8552" Y="1226.4249"/>
+		<pt X="1820.1874" Y="1224.8942"/>
+		<pt X="1810.4863" Y="1224.8717"/>
+		<pt X="1805.0245" Y="1225.3066"/>
+	</skpath>
+	<skpath from="6993" to="7033" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1805.0245" Y="1225.3066"/>
+		<pt X="1800.1824" Y="1226.3738"/>
+		<pt X="1797.1469" Y="1230.0066"/>
+		<pt X="1797.4474" Y="1232.7317"/>
+		<pt X="1798.6564" Y="1236.6682"/>
+		<pt X="1798.6549" Y="1238.1823"/>
+		<pt X="1795.0123" Y="1243.0273"/>
+	</skpath>
+	<skpath from="7034" to="6992" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1783.5027" Y="1236.3718"/>
+		<pt X="1788.6582" Y="1234.8558"/>
+		<pt X="1788.6605" Y="1232.1313"/>
+		<pt X="1784.7219" Y="1229.4093"/>
+		<pt X="1791.0942" Y="1222.1425"/>
+		<pt X="1792.0067" Y="1217.9061"/>
+		<pt X="1790.8273" Y="1216.9246"/>
+	</skpath>
+	<skpath from="6991" to="6986" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1742.805" Y="1206.8097"/>
+		<pt X="1737.7397" Y="1210.7228"/>
+		<pt X="1732.2827" Y="1210.4197"/>
+		<pt X="1724.4003" Y="1217.0891"/>
+		<pt X="1716.5178" Y="1220.727"/>
+		<pt X="1708.029" Y="1222.2429"/>
+		<pt X="1701.9656" Y="1228.6093"/>
+		<pt X="1695.599" Y="1234.066"/>
+		<pt X="1691.7402" Y="1235.2848"/>
+	</skpath>
+	<skpath from="6986" to="6989" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1691.7402" Y="1235.2848"/>
+		<pt X="1685.0726" Y="1245.387"/>
+		<pt X="1684.0181" Y="1250.6576"/>
+		<pt X="1677.691" Y="1258.0361"/>
+		<pt X="1669.2552" Y="1264.3605"/>
+		<pt X="1669.2551" Y="1270.6852"/>
+		<pt X="1653.4384" Y="1284.3887"/>
+		<pt X="1643.9482" Y="1307.5802"/>
+		<pt X="1623.9149" Y="1328.6647"/>
+		<pt X="1619.6975" Y="1340.2614"/>
+		<pt X="1604.9369" Y="1356.0757"/>
+		<pt X="1582.0828" Y="1368.1134"/>
+	</skpath>
+	<skpath from="6989" to="6987" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1582.0828" Y="1368.1134"/>
+		<pt X="1571.1986" Y="1375.0555"/>
+		<pt X="1557.4921" Y="1387.7098"/>
+		<pt X="1544.8398" Y="1405.6366"/>
+		<pt X="1534.2966" Y="1429.8907"/>
+		<pt X="1523.7534" Y="1455.2004"/>
+		<pt X="1517.4276" Y="1474.1831"/>
+		<pt X="1511.1018" Y="1494.2207"/>
+		<pt X="1513.2113" Y="1519.5315"/>
+		<pt X="1514.2662" Y="1534.2965"/>
+		<pt X="1510.049" Y="1549.0615"/>
+		<pt X="1499.5052" Y="1564.8816"/>
+		<pt X="1469.9813" Y="1595.4678"/>
+		<pt X="1435.1838" Y="1623.9447"/>
+		<pt X="1371.9122" Y="1654.5322"/>
+		<pt X="1319.1843" Y="1678.7903"/>
+		<pt X="1280.1654" Y="1695.6648"/>
+		<pt X="1262.2375" Y="1698.8292"/>
+		<pt X="1249.5824" Y="1696.7206"/>
+		<pt X="1237.9802" Y="1680.9034"/>
+		<pt X="1227.4331" Y="1667.1953"/>
+		<pt X="1223.215" Y="1669.3044"/>
+		<pt X="1216.8837" Y="1636.6152"/>
+		<pt X="1191.5709" Y="1596.5444"/>
+		<pt X="1182.0776" Y="1565.964"/>
+		<pt X="1171.5287" Y="1513.2388"/>
+		<pt X="1175.7443" Y="1466.8403"/>
+		<pt X="1187.343" Y="1449.9681"/>
+		<pt X="1213.7047" Y="1426.7689"/>
+		<pt X="1257.9937" Y="1420.442"/>
+		<pt X="1280.1381" Y="1401.4607"/>
+		<pt X="1303.3368" Y="1358.2255"/>
+		<pt X="1338.1354" Y="1308.6631"/>
+		<pt X="1385.5886" Y="1260.1552"/>
+		<pt X="1391.9158" Y="1235.9012"/>
+		<pt X="1360.2802" Y="1202.1566"/>
+		<pt X="1352.1846" Y="1189.9421"/>
+	</skpath>
+	<skpath from="6987" to="6988" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1352.1846" Y="1189.9421"/>
+		<pt X="1360.2802" Y="1159.9758"/>
+		<pt X="1384.5342" Y="1134.6672"/>
+		<pt X="1410.8972" Y="1111.4678"/>
+		<pt X="1434.0972" Y="1076.6686"/>
+		<pt X="1422.4985" Y="1033.433"/>
+		<pt X="1418.2823" Y="996.52435"/>
+		<pt X="1449.9225" Y="958.5606"/>
+		<pt X="1472.0723" Y="935.3601"/>
+		<pt X="1519.5385" Y="906.88513"/>
+		<pt X="1544.8688" Y="852.04456"/>
+		<pt X="1555.4185" Y="853.0981"/>
+		<pt X="1584.9619" Y="872.075"/>
+		<pt X="1601.8479" Y="892.1061"/>
+		<pt X="1617.6814" Y="920.57043"/>
+		<pt X="1631.3997" Y="966.9583"/>
+		<pt X="1644.0468" Y="997.537"/>
+		<pt X="1661.239" Y="1026.4539"/>
+	</skpath>
+	<skpath from="6988" to="6985" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1661.239" Y="1026.4539"/>
+		<pt X="1674.5743" Y="1063.9891"/>
+		<pt X="1678.769" Y="1094.5808"/>
+		<pt X="1687.197" Y="1108.2942"/>
+		<pt X="1687.1927" Y="1116.7327"/>
+		<pt X="1695.6228" Y="1132.5543"/>
+		<pt X="1696.6752" Y="1140.9918"/>
+		<pt X="1695.619" Y="1150.4838"/>
+		<pt X="1696.6724" Y="1163.139"/>
+		<pt X="1700.1764" Y="1169.9061"/>
+	</skpath>
+	<skpath from="6985" to="6990" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1700.1764" Y="1169.9061"/>
+		<pt X="1701.1433" Y="1173.3892"/>
+		<pt X="1704.6233" Y="1172.6932"/>
+		<pt X="1707.4072" Y="1169.2133"/>
+		<pt X="1709.4952" Y="1162.9493"/>
+		<pt X="1717.847" Y="1161.5574"/>
+		<pt X="1724.8069" Y="1166.4293"/>
+		<pt X="1729.6788" Y="1167.1254"/>
+		<pt X="1730.1992" Y="1168.3925"/>
+	</skpath>
+	<skpath from="6994" to="6995" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1802.8387" Y="1157.2114"/>
+		<pt X="1809.7256" Y="1162.2675"/>
+		<pt X="1811.0507" Y="1183.1696"/>
+	</skpath>
+	<skpath from="6995" to="6998" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1811.0507" Y="1183.1696"/>
+		<pt X="1818.1526" Y="1164.9861"/>
+		<pt X="1828.6224" Y="1163.5898"/>
+		<pt X="1840.4473" Y="1174.7487"/>
+		<pt X="1846.0134" Y="1175.4547"/>
+		<pt X="1846.5583" Y="1174.3728"/>
+	</skpath>
+	<skpath from="6998" to="7000" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1846.5583" Y="1174.3728"/>
+		<pt X="1850.8806" Y="1165.7003"/>
+		<pt X="1840.44" Y="1142.6843"/>
+		<pt X="1847.7584" Y="1125.6536"/>
+	</skpath>
+	<skpath from="7035" to="1440" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1951.0953" Y="980.5441"/>
+		<pt X="1939.466" Y="972.1713" Z="-467.2504"/>
+	</skpath>
+	<skpath from="1415" to="7036" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2013.366" Y="955.47125" Z="-747.3504"/>
+		<pt X="1972.6353" Y="950.194"/>
+	</skpath>
+	<skpath from="7004" to="7012" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1981.9772" Y="891.51086"/>
+		<pt X="1976.4911" Y="886.40814"/>
+		<pt X="1967.9235" Y="886.82904"/>
+		<pt X="1959.0905" Y="884.4547"/>
+		<pt X="1948.9905" Y="879.1111"/>
+		<pt X="1941.498" Y="874.9657"/>
+	</skpath>
+	<skpath from="7037" to="7009" linestyle="detail" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1994.6716" Y="891.18225"/>
+		<pt X="1989.7584" Y="885.1126"/>
+		<pt X="1978.0253" Y="878.41095"/>
+		<pt X="1956.268" Y="872.4174"/>
+		<pt X="1950.3523" Y="871.47784"/>
+		<pt X="1950.2659" Y="866.2612"/>
+		<pt X="1952.5986" Y="860.34357"/>
+		<pt X="1949.9491" Y="853.94"/>
+	</skpath>
+	<skpath from="7009" to="7038" linestyle="detail" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1949.9491" Y="853.94"/>
+		<pt X="1948.9603" Y="865.381"/>
+	</skpath>
+	<skpath from="7038" to="7039" linestyle="detail" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1948.9603" Y="865.381"/>
+		<pt X="1939.216" Y="860.253"/>
+	</skpath>
+	<skpath from="7039" to="7009" linestyle="detail" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1939.216" Y="860.253"/>
+		<pt X="1949.9491" Y="853.94"/>
+	</skpath>
+	<skpath from="7039" to="7040" linestyle="detail">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1939.216" Y="860.253"/>
+		<pt X="1941.0808" Y="865.7524"/>
+		<pt X="1947.6921" Y="868.0369"/>
+	</skpath>
+	<skpath from="7040" to="7038" linestyle="detail">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1947.6921" Y="868.0369"/>
+		<pt X="1948.9603" Y="865.381"/>
+	</skpath>
+	<skpath from="7022" to="7035" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1985.8508" Y="911.23285"/>
+		<pt X="1976.341" Y="920.99084"/>
+		<pt X="1971.4048" Y="930.7844"/>
+		<pt X="1971.2802" Y="941.44855"/>
+		<pt X="1961.9786" Y="951.45966"/>
+		<pt X="1959.4585" Y="962.77576"/>
+		<pt X="1953.0344" Y="977.13855"/>
+		<pt X="1951.0953" Y="980.5441"/>
+	</skpath>
+	<skpath from="7023" to="7024" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1971.258" Y="901.5927"/>
+		<pt X="1960.6063" Y="909.8486"/>
+		<pt X="1960.9893" Y="915.7842"/>
+		<pt X="1961.0646" Y="924.3577"/>
+		<pt X="1951.2725" Y="939.52606"/>
+		<pt X="1931.0212" Y="965.7544"/>
+	</skpath>
+	<skpath from="7000" to="7001" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1847.7584" Y="1125.6536"/>
+		<pt X="1850.5939" Y="1121.2614"/>
+		<pt X="1859.5518" Y="1114.5269"/>
+		<pt X="1861.7607" Y="1107.759"/>
+	</skpath>
+	<skpath from="7001" to="7015" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1861.7607" Y="1107.759"/>
+		<pt X="1865.6195" Y="1094.613"/>
+		<pt X="1870.6826" Y="1087.5258"/>
+		<pt X="1875.6868" Y="1083.408"/>
+	</skpath>
+	<skpath from="7015" to="7025" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1875.6868" Y="1083.408"/>
+		<pt X="1884.8722" Y="1077.195"/>
+	</skpath>
+	<skpath from="7025" to="7019" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1884.8722" Y="1077.195"/>
+		<pt X="1890.3535" Y="1070.9073"/>
+		<pt X="1894.4971" Y="1061.6061"/>
+		<pt X="1894.3704" Y="1054.8741"/>
+		<pt X="1880.7236" Y="1063.2067"/>
+		<pt X="1872.8906" Y="1065.8282"/>
+		<pt X="1861.4175" Y="1060.4556"/>
+		<pt X="1862.6166" Y="1046.7875"/>
+		<pt X="1867.9531" Y="1038.003"/>
+		<pt X="1871.9857" Y="1022.7911"/>
+	</skpath>
+	<skpath from="7041" to="7035" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1888.789" Y="1023.04047"/>
+		<pt X="1889.1515" Y="1020.0569"/>
+		<pt X="1899.0546" Y="1010.74664"/>
+		<pt X="1904.354" Y="1009.73676"/>
+		<pt X="1914.933" Y="1003.40686"/>
+		<pt X="1917.5475" Y="995.4426"/>
+		<pt X="1946.3607" Y="986.39014"/>
+		<pt X="1951.0953" Y="980.5441"/>
+	</skpath>
+	<skpath from="7022" to="7023" linestyle="pitchbound" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1985.8508" Y="911.23285"/>
+		<pt X="1977.2725" Y="907.37256"/>
+		<pt X="1971.258" Y="901.5927"/>
+	</skpath>
+	<skpath from="7034" to="7033" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1783.5027" Y="1236.3718"/>
+		<pt X="1795.0123" Y="1243.0273"/>
+	</skpath>
+	<skpath from="7031" to="7032" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1887.8926" Y="1199.2477"/>
+		<pt X="1876.3566" Y="1207.7319"/>
+	</skpath>
+	<skpath from="7036" to="7042" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1972.6353" Y="950.194"/>
+		<pt X="1972.3219" Y="956.46545"/>
+		<pt X="1969.384" Y="964.75885"/>
+		<pt X="1970.4025" Y="971.04785"/>
+		<pt X="1957.534" Y="985.6565"/>
+		<pt X="1954.0251" Y="988.18085"/>
+	</skpath>
+	<skpath from="7042" to="7019" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1954.0251" Y="988.18085"/>
+		<pt X="1936.373" Y="995.9788"/>
+		<pt X="1921.1696" Y="999.32245"/>
+		<pt X="1903.7028" Y="999.6483"/>
+		<pt X="1893.8593" Y="1002.5914"/>
+		<pt X="1887.3197" Y="1008.83795"/>
+		<pt X="1881.4269" Y="1010.0979"/>
+		<pt X="1874.55" Y="1015.96204"/>
+		<pt X="1871.9857" Y="1022.7911"/>
+	</skpath>
+	<skpath from="7042" to="7030" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1954.0251" Y="988.18085"/>
+		<pt X="1953.7067" Y="1007.87537"/>
+	</skpath>
+	<skpath from="7028" to="7029" linestyle="pitchbound" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2049.6223" Y="900.2566"/>
+		<pt X="2043.4415" Y="900.61847"/>
+		<pt X="2038.1202" Y="884.2509"/>
+		<pt X="2040.541" Y="862.7695"/>
+		<pt X="2053.486" Y="856.6423"/>
+	</skpath>
+	<skpath from="7029" to="7028" linestyle="pitchbound" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2053.486" Y="856.6423"/>
+		<pt X="2063.4402" Y="857.7044"/>
+		<pt X="2069.9504" Y="865.6125"/>
+		<pt X="2069.8635" Y="874.2787"/>
+		<pt X="2066.611" Y="890.7539"/>
+		<pt X="2056.6477" Y="898.1775"/>
+		<pt X="2049.6223" Y="900.2566"/>
+	</skpath>
+	<skpath from="7017" to="7043" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2080.8845" Y="889.44495"/>
+		<pt X="2079.7637" Y="897.22546"/>
+		<pt X="2068.46" Y="904.44116"/>
+		<pt X="2061.2153" Y="906.7412"/>
+		<pt X="2056.2068" Y="908.1339"/>
+		<pt X="2054.5015" Y="910.95166"/>
+	</skpath>
+	<skpath from="7043" to="7021" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2054.5015" Y="910.95166"/>
+		<pt X="2053.99" Y="915.9202"/>
+		<pt X="2053.5989" Y="922.7831"/>
+		<pt X="2048.163" Y="928.753"/>
+		<pt X="2045.4459" Y="931.9663"/>
+		<pt X="2040.474" Y="938.8481"/>
+		<pt X="2042.8242" Y="944.3287"/>
+		<pt X="2040.5807" Y="948.91656"/>
+		<pt X="2037.9398" Y="959.9424"/>
+		<pt X="2037.5096" Y="963.16376"/>
+		<pt X="2031.6927" Y="968.4063"/>
+	</skpath>
+	<skpath from="7020" to="7044" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2021.4471" Y="898.5673"/>
+		<pt X="2026.745" Y="899.6433"/>
+		<pt X="2031.8887" Y="899.1995"/>
+	</skpath>
+	<skpath from="7044" to="7018" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2031.8887" Y="899.1995"/>
+		<pt X="2033.6377" Y="897.6894"/>
+		<pt X="2033.5776" Y="891.5994"/>
+		<pt X="2024.6693" Y="873.2474"/>
+		<pt X="2022.2168" Y="867.4651"/>
+		<pt X="2023.7535" Y="852.32764"/>
+		<pt X="2030.5186" Y="845.69073"/>
+		<pt X="2032.1361" Y="838.0835"/>
+		<pt X="2043.1643" Y="844.19867"/>
+		<pt X="2058.391" Y="853.72437"/>
+		<pt X="2071.5945" Y="855.0805"/>
+		<pt X="2076.2944" Y="865.2008"/>
+		<pt X="2076.0671" Y="871.12256"/>
+	</skpath>
+	<skpath from="7044" to="7043" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2031.8887" Y="899.1995"/>
+		<pt X="2041.8071" Y="903.3141"/>
+		<pt X="2054.5015" Y="910.95166"/>
+	</skpath>
+	<skpath from="7005" to="7045" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1997.5691" Y="882.16296"/>
+		<pt X="1999.7861" Y="887.303"/>
+		<pt X="2001.7028" Y="890.28436"/>
+	</skpath>
+	<skpath from="7045" to="7020" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2001.7028" Y="890.28436"/>
+		<pt X="2004.6626" Y="892.7215"/>
+		<pt X="2010.6799" Y="894.3109"/>
+		<pt X="2015.71" Y="897.34625"/>
+		<pt X="2021.4471" Y="898.5673"/>
+	</skpath>
+	<skpath from="7045" to="7037" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2001.7028" Y="890.28436"/>
+		<pt X="1994.6716" Y="891.18225"/>
+	</skpath>
+	<skpath from="7036" to="7046" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1972.6353" Y="950.194"/>
+		<pt X="1974.9337" Y="938.9187"/>
+		<pt X="1976.4308" Y="926.2044"/>
+		<pt X="1973.3949" Y="918.9735"/>
+		<pt X="1971.7697" Y="911.3611"/>
+		<pt X="1979.9258" Y="901.6608"/>
+		<pt X="1981.2107" Y="898.15735"/>
+	</skpath>
+	<skpath from="7046" to="7004" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1981.2107" Y="898.15735"/>
+		<pt X="1981.9772" Y="891.51086"/>
+	</skpath>
+	<skpath from="7046" to="7037" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1981.2107" Y="898.15735"/>
+		<pt X="1994.6716" Y="891.18225"/>
+	</skpath>
+	<skpath from="7010" to="7012" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1938.1029" Y="854.9347"/>
+		<pt X="1934.5406" Y="857.31946"/>
+		<pt X="1937.572" Y="862.433"/>
+		<pt X="1936.3088" Y="870.47235"/>
+		<pt X="1941.498" Y="874.9657"/>
+	</skpath>
+	<skpath from="6992" to="7047" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1790.8273" Y="1216.9246"/>
+		<pt X="1786.5486" Y="1218.8195"/>
+		<pt X="1785.9406" Y="1220.9397"/>
+		<pt X="1780.1809" Y="1220.0465"/>
+		<pt X="1777.1515" Y="1216.4286"/>
+		<pt X="1773.8186" Y="1209.7878"/>
+		<pt X="1764.1163" Y="1202.8359"/>
+		<pt X="1754.4143" Y="1200.1112"/>
+		<pt X="1750.3523" Y="1200.9242"/>
+	</skpath>
+	<skpath from="7047" to="6991" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1750.3523" Y="1200.9242"/>
+		<pt X="1748.0476" Y="1202.2339"/>
+		<pt X="1742.805" Y="1206.8097"/>
+	</skpath>
+	<skpath from="7048" to="6994" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1750.22" Y="1178.5253"/>
+		<pt X="1763.0867" Y="1171.9972"/>
+		<pt X="1768.6545" Y="1173.3893"/>
+		<pt X="1783.2714" Y="1168.5212"/>
+		<pt X="1796.4987" Y="1158.0972"/>
+		<pt X="1802.8387" Y="1157.2114"/>
+	</skpath>
+	<skpath from="7048" to="7047" linestyle="invisible" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1750.22" Y="1178.5253"/>
+		<pt X="1750.3523" Y="1200.9242"/>
+	</skpath>
+	<skpath from="6990" to="7048" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1730.1992" Y="1168.3925"/>
+		<pt X="1742.379" Y="1170.028"/>
+		<pt X="1748.4209" Y="1178.3289"/>
+		<pt X="1750.22" Y="1178.5253"/>
+	</skpath>
+	<skpath from="6986" to="7049" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1691.7402" Y="1235.2848"/>
+		<pt X="1671.5088" Y="1167.5845"/>
+	</skpath>
+	<skpath from="6993" to="7050" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="mud"/>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1805.0245" Y="1225.3066"/>
+		<pt X="1861.6848" Y="1159.8956"/>
+	</skpath>
+	<skpath from="7045" to="7051" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2001.7028" Y="890.28436"/>
+		<pt X="2003.7051" Y="948.55194"/>
+	</skpath>
+	<skpath from="7052" to="7029" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">?B</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2080.5835" Y="835.6661"/>
+		<pt X="2053.486" Y="856.6423"/>
+	</skpath>
+	<skpath from="1434" to="7029" linestyle="connective">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2054.066" Y="862.67126" Z="-783.4504"/>
+		<pt X="2053.486" Y="856.6423"/>
+	</skpath>
+	<skpath from="7053" to="7029" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="-1.0">p25</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="2044.6957" Y="837.4135"/>
+		<pt X="2053.486" Y="856.6423"/>
+	</skpath>
+	<skpath from="7055" to="7054" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="-1.0">p25</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1849.4006" Y="1025.7662"/>
+		<pt X="1866.5764" Y="1063.524"/>
+	</skpath>
+	<skpath from="7056" to="6997" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1868.4884" Y="1150.1115"/>
+		<pt X="1868.202" Y="1155.1943"/>
+		<pt X="1867.8998" Y="1158.8402"/>
+		<pt X="1871.843" Y="1166.7406"/>
+		<pt X="1869.1151" Y="1173.7262"/>
+		<pt X="1870.0238" Y="1181.3209"/>
+		<pt X="1871.7615" Y="1187.618"/>
+	</skpath>
+	<skpath from="6999" to="7057" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1862.5546" Y="1127.0967"/>
+		<pt X="1863.9526" Y="1135.4497"/>
+		<pt X="1867.589" Y="1142.1284"/>
+	</skpath>
+	<skpath from="7057" to="7056" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1867.589" Y="1142.1284"/>
+		<pt X="1870.384" Y="1141.7172"/>
+		<pt X="1873.0172" Y="1145.6115"/>
+		<pt X="1871.5157" Y="1148.625"/>
+		<pt X="1868.4884" Y="1150.1115"/>
+	</skpath>
+	<skpath from="7056" to="7057" linestyle="pitchbound" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1868.4884" Y="1150.1115"/>
+		<pt X="1866.2535" Y="1151.138"/>
+		<pt X="1862.7437" Y="1149.1287"/>
+		<pt X="1862.2418" Y="1145.6106"/>
+		<pt X="1867.589" Y="1142.1284"/>
+	</skpath>
+	<skpath from="7058" to="7056" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">?C</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1880.0299" Y="1144.9948"/>
+		<pt X="1872.1437" Y="1152.6456"/>
+		<pt X="1868.4884" Y="1150.1115"/>
+	</skpath>
+	<skpath from="7059" to="7032" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">?C</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1888.5455" Y="1207.1771"/>
+		<pt X="1876.3566" Y="1207.7319"/>
+	</skpath>
+	<skpath from="7060" to="7034" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="1.0">?C</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1781.7732" Y="1246.6923"/>
+		<pt X="1783.5027" Y="1236.3718"/>
+	</skpath>
+	<skpath from="7061" to="6989" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">?A</pctext>
+		</pathcodes>
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1557.3334" Y="1213.2664"/>
+		<pt X="1582.0828" Y="1368.1134"/>
+	</skpath>
+	<skpath from="7024" to="7062" linestyle="wall" splined="1">
+		<importfrom subname="hiltigalatica"/>
+		<pt X="1931.0212" Y="965.7544"/>
+		<pt X="1923.1028" Y="978.1844"/>
+		<pt X="1914.8319" Y="981.8553"/>
+		<pt X="1902.8972" Y="981.8886"/>
+		<pt X="1892.6661" Y="991.86487"/>
+		<pt X="1878.4216" Y="995.5534"/>
+		<pt X="1874.1556" Y="1006.1774"/>
+		<pt X="1869.5703" Y="1013.86633"/>
+	</skpath>
+	<skpath from="7062" to="7063" linestyle="wall" splined="1">
+		<pt X="1869.5703" Y="1013.86633"/>
+		<pt X="1867.3799" Y="1020.56085"/>
+		<pt X="1863.1498" Y="1030.901"/>
+	</skpath>
+	<skpath from="6912" to="7063" linestyle="wall" splined="1">
+		<pt X="1855.336" Y="1037.9392"/>
+		<pt X="1858.4497" Y="1040.5361"/>
+		<pt X="1861.7399" Y="1035.1311"/>
+		<pt X="1863.1498" Y="1030.901"/>
+	</skpath>
+	<skpath from="1439" to="7063" linestyle="connective">
+		<pt X="1870.766" Y="1035.1713" Z="-517.2504"/>
+		<pt X="1863.1498" Y="1030.901"/>
+	</skpath>
+	<skpath from="6921" to="7041" linestyle="wall" splined="1">
+		<pt X="1895.022" Y="1039.1211"/>
+		<pt X="1888.5303" Y="1033.2511"/>
+		<pt X="1888.789" Y="1023.04047"/>
+	</skpath>
+	<skpath from="6922" to="7041" linestyle="pitchbound" splined="1">
+		<pt X="1878.2078" Y="1075.3752"/>
+		<pt X="1870.4349" Y="1069.4417"/>
+		<pt X="1863.6199" Y="1059.8065"/>
+		<pt X="1866.2048" Y="1045.0012"/>
+		<pt X="1879.6001" Y="1030.431"/>
+		<pt X="1888.789" Y="1023.04047"/>
+	</skpath>
+	<skpath from="7064" to="6943" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="-1.0">?A</pctext>
+		</pathcodes>
+		<importfrom subname="keepsongiving-sketch"/>
+		<pt X="1927.0784" Y="967.1426"/>
+		<pt X="1959.4423" Y="984.01404"/>
+	</skpath>
+	<skpath from="7065" to="6945" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="-1.0">?A</pctext>
+		</pathcodes>
+		<importfrom subname="keepsongiving-sketch"/>
+		<pt X="1902.168" Y="979.36273"/>
+		<pt X="1942.021" Y="997.88715"/>
 	</skpath>
 </sketch>
 </tunnelxml>
