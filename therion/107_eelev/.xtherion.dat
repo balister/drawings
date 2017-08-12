@@ -1,0 +1,17 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 198.25m (surface 0.00m, duplicated 0.00m)\nvertical range: 16.15m (from 171_upper.11@171.all at 6.05m to 171_lower.9@171.all at -10.10m)\nnorth-south range: 91.36m (from 171_upper.10@171.all at 71.54m to 171_lower.5@171.all at -19.82m)\neast-west range: 45.17m (from 171_lower.13@171.all at 17.91m to main.17@171.all at -27.26m)\nnumber of shots: 50\nnumber of stations: 54"
+xth_cp_data_tree_insert 10 1 1 all all "" "" "length: 198.25m (surface 0.00m, duplicated 0.00m)\nvertical range: 16.15m (from 171_upper.11@171.all at 6.05m to 171_lower.9@171.all at -10.10m)\nnorth-south range: 91.36m (from 171_upper.10@171.all at 71.54m to 171_lower.5@171.all at -19.82m)\neast-west range: 45.17m (from 171_lower.13@171.all at 17.91m to main.17@171.all at -27.26m)\nnumber of shots: 50\nnumber of stations: 54"
+xth_cp_data_tree_insert 13 10 2 171 171.all "" "" "length: 198.25m (surface 0.00m, duplicated 0.00m)\nvertical range: 16.15m (from 171_upper.11@171.all at 6.05m to 171_lower.9@171.all at -10.10m)\nnorth-south range: 91.36m (from 171_upper.10@171.all at 71.54m to 171_lower.5@171.all at -19.82m)\neast-west range: 45.17m (from 171_lower.13@171.all at 17.91m to main.17@171.all at -27.26m)\nnumber of shots: 50\nnumber of stations: 52"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 138X1 p2 1 all_elev.map all_elev.map@all "" ""
+xth_cp_map_tree_insert map 1 134X1 138X1 2 mainmap.map mainmap.map@171.all "" ""
+xth_cp_map_tree_insert map 1 135X1 138X1 2 sidemap.map sidemap.map@171.all "" ""
+xth_cp_map_tree_insert map 0 137X1 138X1 2 centerline.map centerline.map@all "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 198 5
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1468575822
+

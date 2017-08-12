@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 149033.66m (surface 44217.22m, duplicated 517.13m)\nvertical range: 1182.59m (from 2011-01.bullet1.1@ at 1984.84m to 115.115rest.orgasm.1@ at 802.25m)\nnorth-south range: 6119.65m (from lou-toti.lt-clemens.d@ at 5285147.65m to p18@ at 5279028.00m)\neast-west range: 4172.83m (from la34.3@ at 413177.00m to 18.33@ at 409004.17m)\nnumber of shots: 24194\nnumber of stations: 26246"
+xth_cp_data_tree_insert 11 1 1 2016-jb-01 2016-jb-01 "" "" "length: 295.77m (surface 0.00m, duplicated 0.00m)\nvertical range: 105.45m (from solidrock.24@2016-jb-01 at 1705.00m to nervousbreakdown.0@2016-jb-01 at 1599.55m)\nnorth-south range: 105.86m (from nervousbreakdown.0@2016-jb-01 at 5281668.54m to solidrock.22@2016-jb-01 at 5281562.68m)\neast-west range: 25.36m (from solidrock.23@2016-jb-01 at 410647.33m to hopeless.5@2016-jb-01 at 410621.97m)\nnumber of shots: 71\nnumber of stations: 75"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 262X1 p1 1 plan_16jb01.map plan_16jb01.map@2016-jb-01 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 149034 5
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1469390514
+
