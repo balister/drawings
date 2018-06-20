@@ -1,0 +1,13 @@
+encoding  utf-8
+survey gutenmorgenhohle
+
+
+#input gmh2.10/gmh2.10.th
+#input gmh2.14/gmh2.14.th
+input gmh2.61/gmh2.61.th
+input gutenmorgenhohle1/gutenmorgenhohle1.th
+
+#this is NOT the correct equate, just testing as missing paper data 20180603
+equate 1.14@gmh261 1.47@gutenmorgenhohle1
+
+endsurvey
