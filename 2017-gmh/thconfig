@@ -1,0 +1,6 @@
+encoding  utf-8
+source gutenmorgenhohle.th
+
+export model -o gutenmorgenhohleth.3d
+
+export map -projection plan -o gutenmorgenhohle.pdf
