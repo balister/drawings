@@ -1,11 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 2466.4251968483995 1685.8740157477
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {545.65472441 1 1.0} {1082.533228346 1.4} PocketTopo/gmh2.10_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {545.65472441 1 1.0} {1082.533228346 1.4} ../../../expofiles/surveyscans/2017/2017#55/gmh2.10_p.xvi 0 {}
 
 
 
 scrap gmh2.10SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 262.53472440999985 1160.723228346 station -name 5
 
 point 545.65472441 1082.533228346 station -name 4
 
@@ -13,9 +15,9 @@ point 1065.86472441 963.303228346 station -name 3
 
 point 1049.62472441 778.683228346 station -name 2
 
-point 1375.2747244099999 748.503228346 station -name 1
+point 1375.2747244099999 748.503228346 station -name 0
 
-point 1502.20472441 664.173228346 station -name 0
+point 1502.20472441 664.173228346 station -name 1
 
 line wall
 endline
@@ -25,6 +27,7 @@ line wall
   1158.91 651.95 1192.0 636.0 1196.0 652.0
   1200.0 668.0 1150.0 710.0 1178.0 730.0
   1206.0 750.0 1352.0 766.0 1392.0 712.0
+  smooth off
 endline
 
 line wall
@@ -35,6 +38,7 @@ line wall
   849.19 811.19 996.0 746.0 1049.62472441 778.683228346
   1057.56 783.52 1032.0 650.0 1048.0 602.0
   1061.62 561.13 1094.93 661.78 1156.0 560.0
+  smooth off
 endline
 
 line wall

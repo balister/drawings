@@ -1,11 +1,15 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -56.33 -89.41 338.01 536.45
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {254.329123606 1 1.0} {422.656676622 1.1} PocketTopo/gmh2.14_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {254.329123606 1 1.0} {422.656676622 1.1} ../../../expofiles/surveyscans/2017/2017#56/gmh2.14_p.xvi 0 {}
 
 
 
 scrap gmh2.14SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 129.84912360599998 263.046676622 station -name 9
+
+point 254.329123606 422.656676622 station -name 14
 
 line wall
   254.329123606 422.656676622
@@ -22,6 +26,7 @@ line wall
   123.0 21.0 179.0 54.0 226.0 250.0
   237.33 297.26 247.0 299.0 257.0 281.0
   267.0 263.0 322.0 312.0 306.0 339.0
+  smooth off
 endline
 
 
