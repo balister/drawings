@@ -4,9 +4,6 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {1000 1 1.0} {0 {}} ../../../expofiles/surveyscans/2017/2017#55/IMG_20170819_015442463_enhanced.jpg 0 {}
 ##XTHERION## xth_me_image_insert {-1300 1 1.0} {0 {}} ../../../expofiles/surveyscans/2017/2017#55/IMG_20170819_015455520.jpg 0 {}
 
-line wall
-endline
-
 
 
 scrap gmh2-SP1 -projection plan -scale [-128 -4288 2468 -4288 0.0 0.0 65.9384 0.0 m]
@@ -62,27 +59,27 @@ line wall
   2710.0 -3644.0 2792.0 -3512.0 2840.0 -3462.0
 endline
 
-point 1762.0 -1922.0 station -id -name 9
+point 1762.0 -1922.0 station -name 9
 
-point 2020.0 -2060.0 station -id -name 8
+point 2020.0 -2060.0 station -name 8a
 
-point 2668.0 -2164.0 station -id -name 7
+point 2668.0 -2164.0 station -name 8
 
-point 2752.0 -1936.0 station -id -name 0
+point 2752.0 -1936.0 station -name 7
 
-point 2920.0 -2226.0 station -id -name 6
+point 2920.0 -2226.0 station -name 6
 
-point 3054.0 -2456.0 station -id -name 5
+point 3054.0 -2456.0 station -name 5
 
-point 2664.0 -2942.0 station -id -name 4
+point 2664.0 -2942.0 station -name 4
 
-point 2638.0 -3142.0 station -id -name 3
+point 2638.0 -3142.0 station -name 3
 
-point 2698.0 -3246.0 station -id -name 2
+point 2698.0 -3246.0 station -name 2
 
-point 2738.0 -3422.0 station -id -name 1
+point 2738.0 -3422.0 station -name 1
 
-point 2610.0 -3582.0 station -id -name 47
+point 2610.0 -3582.0 station -name 47
 
 endscrap
 
@@ -134,17 +131,17 @@ line wall
   -36.87 -1532.56 -282.0 -1654.0 -294.0 -1572.0
 endline
 
-point -846.0 -2162.0 station -id -name 14
+point -846.0 -2162.0 station -name 14
 
-point -498.0 -2314.0 station -id -name 13
+point -498.0 -2314.0 station -name 13
 
-point -384.0 -2068.0 station -id -name 12
+point -384.0 -2068.0 station -name 12
 
-point -390.0 -1638.0 station -id -name 20
+point -390.0 -1638.0 station -name 20
 
-point -260.0 -1810.0 station -id -name 10
+point -260.0 -1810.0 station -name 10
 
-point 622.0 -1478.0 station -id -name 9
+point 622.0 -1478.0 station -name 9
 
 endscrap
 
