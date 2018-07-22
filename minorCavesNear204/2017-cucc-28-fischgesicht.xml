@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2014-08-01 Austria" tunnelproject="cuccaustria" tunneluser="austria14" tunneldate="2018-07-22 09:36:23">
+<tunnelxml tunnelversion="version2016-07-03" tunnelproject="projectname" tunneluser="username" tunneldate="2018-07-22 10:47:48">
 <sketch splined="0" locoffsetx="411205.7" locoffsety="5281892.5" locoffsetz="1648.8936" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -52,7 +52,7 @@
 			<cl_stations tail="2017_cucc_24.gsh4.4" head="2017_cucc_24.gsh4.3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3104.9268" Y="-7899.132" Z="20.864649"/>
 		<pt X="-3107.7268" Y="-7915.732" Z="20.864649"/>
 	</skpath>
@@ -259,7 +259,7 @@
 			<cl_stations tail="2017_cucc_24.gsh4.7" head="2017_cucc_24.gsh4.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3091.8267" Y="-7853.032" Z="63.264652"/>
 		<pt X="-3062.8267" Y="-7879.5317" Z="51.96465"/>
 	</skpath>
@@ -268,7 +268,7 @@
 			<cl_stations tail="2017_cucc_24.gsh4.2" head="2017_cucc_24.gsh4.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3190.1267" Y="-7927.232" Z="3.2646494"/>
 		<pt X="-3241.7266" Y="-7879.932" Z="-26.53535"/>
 	</skpath>
@@ -308,7 +308,7 @@
 		<pt X="-3108.4268" Y="-7428.6323" Z="-189.23535"/>
 		<pt X="-3092.3267" Y="-7411.7324" Z="-131.63535"/>
 	</skpath>
-	<skpath from="63" to="7" linestyle="centreline">
+	<skpath from="62" to="7" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.11" head="2017_cucc_24.dentb.3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -335,7 +335,7 @@
 		<pt X="-2966.2268" Y="-7505.432" Z="178.46465"/>
 		<pt X="-2977.4268" Y="-7434.732" Z="182.26465"/>
 	</skpath>
-	<skpath from="64" to="65" linestyle="centreline">
+	<skpath from="63" to="64" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.41" head="2017_cucc_24.riftpiece.42"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -344,7 +344,7 @@
 		<pt X="-2990.4268" Y="-7690.432" Z="-538.6354"/>
 		<pt X="-3067.3267" Y="-7717.632" Z="-566.6354"/>
 	</skpath>
-	<skpath from="16" to="66" linestyle="centreline">
+	<skpath from="16" to="65" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.12" head="2017_cucc_24.dentrance.11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -353,7 +353,7 @@
 		<pt X="-3369.3267" Y="-8459.132" Z="161.76465"/>
 		<pt X="-3403.9268" Y="-8447.433" Z="157.26465"/>
 	</skpath>
-	<skpath from="67" to="36" linestyle="centreline">
+	<skpath from="66" to="36" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.4" head="2017_cucc_24.couldashouldawoulda.3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -362,7 +362,7 @@
 		<pt X="-3203.5266" Y="-7740.032" Z="-446.83536"/>
 		<pt X="-3141.9265" Y="-7713.232" Z="-414.13538"/>
 	</skpath>
-	<skpath from="68" to="69" linestyle="centreline">
+	<skpath from="67" to="68" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.3" head="2017_cucc_24.dentrance.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -371,7 +371,7 @@
 		<pt X="-3547.3267" Y="-8632.132" Z="238.16466"/>
 		<pt X="-3552.7268" Y="-8652.832" Z="239.56465"/>
 	</skpath>
-	<skpath from="70" to="71" linestyle="centreline">
+	<skpath from="69" to="70" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.4" head="2017_cucc_28.icytube.5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -380,7 +380,7 @@
 		<pt X="-3090.5269" Y="-7430.032" Z="-534.23535"/>
 		<pt X="-3088.0269" Y="-7416.832" Z="-533.53534"/>
 	</skpath>
-	<skpath from="72" to="73" linestyle="centreline">
+	<skpath from="71" to="72" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.14" head="2017_cucc_24.couldashouldawoulda.13"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -389,7 +389,7 @@
 		<pt X="-3325.6265" Y="-8054.732" Z="99.364655"/>
 		<pt X="-3347.5266" Y="-7963.6323" Z="-1.1353503"/>
 	</skpath>
-	<skpath from="74" to="75" linestyle="centreline">
+	<skpath from="73" to="74" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.12" head="2017_cucc_28.12monkeys.13"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -398,7 +398,7 @@
 		<pt X="-2807.7268" Y="-7550.032" Z="80.06465"/>
 		<pt X="-2922.0266" Y="-7583.7324" Z="-61.93535"/>
 	</skpath>
-	<skpath from="76" to="67" linestyle="centreline">
+	<skpath from="75" to="66" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.5" head="2017_cucc_24.couldashouldawoulda.4"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -407,7 +407,7 @@
 		<pt X="-3302.2266" Y="-7805.232" Z="-467.73535"/>
 		<pt X="-3203.5266" Y="-7740.032" Z="-446.83536"/>
 	</skpath>
-	<skpath from="27" to="77" linestyle="centreline">
+	<skpath from="27" to="76" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.15" head="2017_cucc_24.dentrance.16"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -416,7 +416,7 @@
 		<pt X="-3454.9268" Y="-8322.032" Z="117.26465"/>
 		<pt X="-3534.9268" Y="-8196.332" Z="93.66464"/>
 	</skpath>
-	<skpath from="78" to="79" linestyle="centreline">
+	<skpath from="77" to="78" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.6" head="2017_cucc_24.dentrance.5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -425,7 +425,7 @@
 		<pt X="-3610.5269" Y="-8514.732" Z="182.06465"/>
 		<pt X="-3613.0269" Y="-8556.132" Z="209.06465"/>
 	</skpath>
-	<skpath from="80" to="81" linestyle="centreline">
+	<skpath from="79" to="80" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.9" head="2017_cucc_24.couldashouldawoulda.8"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -434,7 +434,7 @@
 		<pt X="-3245.6265" Y="-7850.132" Z="-49.135353"/>
 		<pt X="-3274.6267" Y="-7859.2324" Z="-221.63535"/>
 	</skpath>
-	<skpath from="74" to="82" linestyle="centreline">
+	<skpath from="73" to="81" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.12" head="2017_cucc_28.12monkeys.14"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -443,7 +443,7 @@
 		<pt X="-2807.7268" Y="-7550.032" Z="80.06465"/>
 		<pt X="-2818.3267" Y="-7469.4326" Z="50.46465"/>
 	</skpath>
-	<skpath from="83" to="84" linestyle="centreline">
+	<skpath from="82" to="83" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c9" head="2017_cucc_28.canyon.c10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -452,7 +452,7 @@
 		<pt X="-3075.4268" Y="-7160.132" Z="-427.63535"/>
 		<pt X="-3088.1265" Y="-7170.832" Z="-672.43536"/>
 	</skpath>
-	<skpath from="85" to="86" linestyle="centreline">
+	<skpath from="84" to="85" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.1" head="2017_cucc_28.icytube.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -461,16 +461,16 @@
 		<pt X="-3101.3267" Y="-7471.832" Z="-553.43536"/>
 		<pt X="-3075.9268" Y="-7452.232" Z="-596.03534"/>
 	</skpath>
-	<skpath from="54" to="87" linestyle="centreline">
+	<skpath from="54" to="86" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.gsh4.6" head="2017_cucc_24.gsh4.5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3062.8267" Y="-7879.5317" Z="51.96465"/>
 		<pt X="-3070.6265" Y="-7889.632" Z="63.464653"/>
 	</skpath>
-	<skpath from="88" to="89" linestyle="centreline">
+	<skpath from="87" to="88" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.25" head="2017_cucc_24.dentrance.26"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -479,7 +479,7 @@
 		<pt X="-3839.0269" Y="-8494.132" Z="64.26465"/>
 		<pt X="-3884.5266" Y="-8357.832" Z="46.66465"/>
 	</skpath>
-	<skpath from="90" to="91" linestyle="centreline">
+	<skpath from="89" to="90" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c6" head="2017_cucc_28.canyon.c7"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -488,7 +488,7 @@
 		<pt X="-3023.5266" Y="-7270.6323" Z="-395.03537"/>
 		<pt X="-3051.3267" Y="-7209.132" Z="-407.23535"/>
 	</skpath>
-	<skpath from="71" to="92" linestyle="centreline">
+	<skpath from="70" to="91" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.5" head="2017_cucc_28.icytube.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -497,7 +497,7 @@
 		<pt X="-3088.0269" Y="-7416.832" Z="-533.53534"/>
 		<pt X="-3098.6267" Y="-7410.532" Z="-533.1353"/>
 	</skpath>
-	<skpath from="89" to="0" linestyle="centreline">
+	<skpath from="88" to="0" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.26" head="2017_cucc_24.dentrance.27"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -506,7 +506,7 @@
 		<pt X="-3884.5266" Y="-8357.832" Z="46.66465"/>
 		<pt X="-3920.1267" Y="-8307.932" Z="39.06465"/>
 	</skpath>
-	<skpath from="21" to="93" linestyle="centreline">
+	<skpath from="21" to="92" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.1" head="2017_cucc_24.dentb.20x"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -515,7 +515,7 @@
 		<pt X="-3167.0266" Y="-8480.832" Z="230.26465"/>
 		<pt X="-3244.7266" Y="-8477.433" Z="210.16464"/>
 	</skpath>
-	<skpath from="9" to="94" linestyle="centreline">
+	<skpath from="9" to="93" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.x" head="2017_cucc_28.fishface1.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -524,7 +524,7 @@
 		<pt X="-2977.4268" Y="-7434.732" Z="182.26465"/>
 		<pt X="-2930.8267" Y="-7435.132" Z="192.16464"/>
 	</skpath>
-	<skpath from="26" to="93" linestyle="centreline">
+	<skpath from="26" to="92" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.14" head="2017_cucc_24.dentb.20x"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -533,7 +533,7 @@
 		<pt X="-3329.0269" Y="-8441.632" Z="180.46465"/>
 		<pt X="-3244.7266" Y="-8477.433" Z="210.16464"/>
 	</skpath>
-	<skpath from="95" to="23" linestyle="centreline">
+	<skpath from="94" to="23" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.13" head="2017_cucc_28.fishface1.14"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -542,7 +542,7 @@
 		<pt X="-3066.2268" Y="-7458.432" Z="-84.33534"/>
 		<pt X="-3030.3267" Y="-7462.532" Z="-59.035347"/>
 	</skpath>
-	<skpath from="5" to="96" linestyle="centreline">
+	<skpath from="5" to="95" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.32" head="2017_cucc_24.dentrance.21"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -551,7 +551,7 @@
 		<pt X="-3653.9268" Y="-8591.032" Z="164.56465"/>
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 	</skpath>
-	<skpath from="97" to="98" linestyle="centreline">
+	<skpath from="96" to="97" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.entranceseries.a6" head="2017_cucc_28.entranceseries.a5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -560,7 +560,7 @@
 		<pt X="-2924.3267" Y="-7554.132" Z="378.26465"/>
 		<pt X="-2941.3267" Y="-7606.832" Z="414.96463"/>
 	</skpath>
-	<skpath from="99" to="76" linestyle="centreline">
+	<skpath from="98" to="75" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.6" head="2017_cucc_24.couldashouldawoulda.5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -569,7 +569,7 @@
 		<pt X="-3249.2266" Y="-7849.732" Z="-479.93533"/>
 		<pt X="-3302.2266" Y="-7805.232" Z="-467.73535"/>
 	</skpath>
-	<skpath from="19" to="100" linestyle="centreline">
+	<skpath from="19" to="99" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.18" head="2017_cucc_28.12monkeys.19"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -578,7 +578,7 @@
 		<pt X="-2654.8267" Y="-7365.232" Z="-53.135353"/>
 		<pt X="-2642.8267" Y="-7345.032" Z="-57.33535"/>
 	</skpath>
-	<skpath from="66" to="34" linestyle="centreline">
+	<skpath from="65" to="34" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.11" head="2017_cucc_24.dentrance.10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -587,16 +587,16 @@
 		<pt X="-3403.9268" Y="-8447.433" Z="157.26465"/>
 		<pt X="-3452.8267" Y="-8457.433" Z="160.76465"/>
 	</skpath>
-	<skpath from="53" to="101" linestyle="centreline">
+	<skpath from="53" to="100" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.gsh4.7" head="2017_cucc_24.gsh4.9"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3091.8267" Y="-7853.032" Z="63.264652"/>
 		<pt X="-3049.7266" Y="-7811.632" Z="82.36465"/>
 	</skpath>
-	<skpath from="61" to="102" linestyle="centreline">
+	<skpath from="61" to="101" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.9" head="2017_cucc_28.icytube.10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -605,7 +605,7 @@
 		<pt X="-3092.3267" Y="-7411.7324" Z="-131.63535"/>
 		<pt X="-3051.9265" Y="-7415.6323" Z="-112.73535"/>
 	</skpath>
-	<skpath from="64" to="103" linestyle="centreline">
+	<skpath from="63" to="102" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.41" head="2017_cucc_24.riftpiece.40"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -614,7 +614,7 @@
 		<pt X="-2990.4268" Y="-7690.432" Z="-538.6354"/>
 		<pt X="-2976.9265" Y="-7667.532" Z="-521.3353"/>
 	</skpath>
-	<skpath from="102" to="22" linestyle="centreline">
+	<skpath from="101" to="22" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.10" head="2017_cucc_28.icytube.11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -623,7 +623,7 @@
 		<pt X="-3051.9265" Y="-7415.6323" Z="-112.73535"/>
 		<pt X="-3052.1267" Y="-7430.832" Z="-73.03535"/>
 	</skpath>
-	<skpath from="104" to="105" linestyle="centreline">
+	<skpath from="103" to="104" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.9" head="2017_cucc_24.dentb.10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -632,7 +632,7 @@
 		<pt X="-3054.0269" Y="-8779.632" Z="300.66464"/>
 		<pt X="-3103.2266" Y="-8812.132" Z="289.16467"/>
 	</skpath>
-	<skpath from="106" to="107" linestyle="centreline">
+	<skpath from="105" to="106" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.44" head="2017_cucc_24.riftpiece.43"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -641,7 +641,7 @@
 		<pt X="-3004.0269" Y="-7692.832" Z="-396.73535"/>
 		<pt X="-3014.6267" Y="-7682.332" Z="-490.63535"/>
 	</skpath>
-	<skpath from="35" to="108" linestyle="centreline">
+	<skpath from="35" to="107" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.9" head="2017_cucc_24.dentrance.8"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -650,7 +650,7 @@
 		<pt X="-3475.2268" Y="-8477.232" Z="163.96466"/>
 		<pt X="-3521.2268" Y="-8484.032" Z="172.16464"/>
 	</skpath>
-	<skpath from="109" to="110" linestyle="centreline">
+	<skpath from="108" to="109" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.entranceseries.a4" head="2017_cucc_28.entranceseries.a3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -659,7 +659,7 @@
 		<pt X="-2910.1267" Y="-7711.632" Z="429.96463"/>
 		<pt X="-2899.3267" Y="-7800.132" Z="440.46466"/>
 	</skpath>
-	<skpath from="108" to="111" linestyle="centreline">
+	<skpath from="107" to="110" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.8" head="2017_cucc_24.dentrance.7"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -677,7 +677,7 @@
 		<pt X="-3329.0269" Y="-8441.632" Z="180.46465"/>
 		<pt X="-3369.3267" Y="-8459.132" Z="161.76465"/>
 	</skpath>
-	<skpath from="112" to="113" linestyle="centreline">
+	<skpath from="111" to="112" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.windytube.b1" head="2017_cucc_28.windytube.bsplay1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -686,7 +686,7 @@
 		<pt X="-2628.3267" Y="-7353.432" Z="263.26465"/>
 		<pt X="-2499.9265" Y="-7312.832" Z="227.66464"/>
 	</skpath>
-	<skpath from="39" to="114" linestyle="centreline">
+	<skpath from="39" to="113" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.19x" head="2017_cucc_24.couldashouldawoulda.15"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -695,7 +695,7 @@
 		<pt X="-3388.4268" Y="-8140.732" Z="105.264656"/>
 		<pt X="-3355.7266" Y="-8131.032" Z="96.46465"/>
 	</skpath>
-	<skpath from="83" to="115" linestyle="centreline">
+	<skpath from="82" to="114" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c9" head="2017_cucc_28.canyon.c11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -704,7 +704,7 @@
 		<pt X="-3075.4268" Y="-7160.132" Z="-427.63535"/>
 		<pt X="-3080.5269" Y="-7161.4316" Z="-765.73535"/>
 	</skpath>
-	<skpath from="116" to="2" linestyle="centreline">
+	<skpath from="115" to="2" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.7" head="2017_cucc_28.12monkeys.8"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -713,7 +713,7 @@
 		<pt X="-2765.2268" Y="-7540.832" Z="41.864647"/>
 		<pt X="-2836.3267" Y="-7591.532" Z="21.76465"/>
 	</skpath>
-	<skpath from="117" to="118" linestyle="centreline">
+	<skpath from="116" to="117" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.8" head="2017_cucc_28.fishface1.7"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -722,7 +722,7 @@
 		<pt X="-2521.5266" Y="-7317.532" Z="-39.83535"/>
 		<pt X="-2528.8267" Y="-7315.232" Z="-47.73535"/>
 	</skpath>
-	<skpath from="82" to="30" linestyle="centreline">
+	<skpath from="81" to="30" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.14" head="2017_cucc_28.12monkeys.15"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -731,7 +731,7 @@
 		<pt X="-2818.3267" Y="-7469.4326" Z="50.46465"/>
 		<pt X="-2781.1267" Y="-7445.732" Z="42.66465"/>
 	</skpath>
-	<skpath from="119" to="44" linestyle="centreline">
+	<skpath from="118" to="44" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c13" head="2017_cucc_28.canyon.c14"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -740,7 +740,7 @@
 		<pt X="-3010.2268" Y="-7129.2324" Z="-745.1354"/>
 		<pt X="-2984.0269" Y="-7251.632" Z="-667.23535"/>
 	</skpath>
-	<skpath from="120" to="68" linestyle="centreline">
+	<skpath from="119" to="67" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.4" head="2017_cucc_24.dentrance.3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -749,7 +749,7 @@
 		<pt X="-3594.1265" Y="-8587.632" Z="219.56465"/>
 		<pt X="-3547.3267" Y="-8632.132" Z="238.16466"/>
 	</skpath>
-	<skpath from="78" to="96" linestyle="centreline">
+	<skpath from="77" to="95" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.6" head="2017_cucc_24.dentrance.21"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -758,7 +758,7 @@
 		<pt X="-3610.5269" Y="-8514.732" Z="182.06465"/>
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 	</skpath>
-	<skpath from="111" to="78" linestyle="centreline">
+	<skpath from="110" to="77" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.7" head="2017_cucc_24.dentrance.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -767,7 +767,7 @@
 		<pt X="-3572.1267" Y="-8508.332" Z="207.36465"/>
 		<pt X="-3610.5269" Y="-8514.732" Z="182.06465"/>
 	</skpath>
-	<skpath from="58" to="116" linestyle="centreline">
+	<skpath from="58" to="115" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.5" head="2017_cucc_28.12monkeys.7"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -781,11 +781,11 @@
 			<cl_stations tail="2017_cucc_24.gsh4.3" head="2017_cucc_24.gsh4.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3107.7268" Y="-7915.732" Z="20.864649"/>
 		<pt X="-3190.1267" Y="-7927.232" Z="3.2646494"/>
 	</skpath>
-	<skpath from="119" to="40" linestyle="centreline">
+	<skpath from="118" to="40" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c13" head="2017_cucc_28.canyon.c15"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -794,7 +794,7 @@
 		<pt X="-3010.2268" Y="-7129.2324" Z="-745.1354"/>
 		<pt X="-2997.1267" Y="-7184.5317" Z="-725.73535"/>
 	</skpath>
-	<skpath from="63" to="122" linestyle="centreline">
+	<skpath from="62" to="120" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.11" head="2017_cucc_24.dentb.12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -803,7 +803,7 @@
 		<pt X="-3071.1267" Y="-8536.432" Z="308.56464"/>
 		<pt X="-3019.1265" Y="-8502.032" Z="327.66464"/>
 	</skpath>
-	<skpath from="115" to="119" linestyle="centreline">
+	<skpath from="114" to="118" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c11" head="2017_cucc_28.canyon.c13"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -812,16 +812,16 @@
 		<pt X="-3080.5269" Y="-7161.4316" Z="-765.73535"/>
 		<pt X="-3010.2268" Y="-7129.2324" Z="-745.1354"/>
 	</skpath>
-	<skpath from="56" to="80" linestyle="centreline">
+	<skpath from="56" to="79" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.gsh4.1" head="2017_cucc_24.couldashouldawoulda.9"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3241.7266" Y="-7879.932" Z="-26.53535"/>
 		<pt X="-3245.6265" Y="-7850.132" Z="-49.135353"/>
 	</skpath>
-	<skpath from="85" to="70" linestyle="centreline">
+	<skpath from="84" to="69" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.1" head="2017_cucc_28.icytube.4"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -830,7 +830,7 @@
 		<pt X="-3101.3267" Y="-7471.832" Z="-553.43536"/>
 		<pt X="-3090.5269" Y="-7430.032" Z="-534.23535"/>
 	</skpath>
-	<skpath from="104" to="123" linestyle="centreline">
+	<skpath from="103" to="121" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.9" head="2017_cucc_24.dentb.8"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -839,7 +839,7 @@
 		<pt X="-3054.0269" Y="-8779.632" Z="300.66464"/>
 		<pt X="-3080.2268" Y="-8727.032" Z="283.76465"/>
 	</skpath>
-	<skpath from="110" to="124" linestyle="centreline">
+	<skpath from="109" to="122" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.entranceseries.a3" head="2017_cucc_28.entranceseries.a2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -848,7 +848,7 @@
 		<pt X="-2899.3267" Y="-7800.132" Z="440.46466"/>
 		<pt X="-2861.7266" Y="-7845.232" Z="451.86465"/>
 	</skpath>
-	<skpath from="49" to="125" linestyle="centreline">
+	<skpath from="49" to="123" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface2.3" head="2017_cucc_28.fishface2.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -857,7 +857,7 @@
 		<pt X="-3014.6267" Y="-7443.032" Z="162.26465"/>
 		<pt X="-3047.8267" Y="-7461.032" Z="154.86464"/>
 	</skpath>
-	<skpath from="42" to="126" linestyle="centreline">
+	<skpath from="42" to="124" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.3" head="2017_cucc_28.fishface1.10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -866,7 +866,7 @@
 		<pt X="-3078.5266" Y="-7464.632" Z="141.76465"/>
 		<pt X="-3104.4265" Y="-7486.7324" Z="99.76465"/>
 	</skpath>
-	<skpath from="8" to="62" linestyle="centreline">
+	<skpath from="8" to="125" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.b6" head="2017_cucc_28.fishface1.b5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -884,7 +884,7 @@
 		<pt X="-2947.4268" Y="-7500.132" Z="296.66467"/>
 		<pt X="-2966.2268" Y="-7505.432" Z="178.46465"/>
 	</skpath>
-	<skpath from="127" to="4" linestyle="centreline">
+	<skpath from="126" to="4" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.30" head="2017_cucc_24.dentrance.31"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -893,7 +893,7 @@
 		<pt X="-3696.1267" Y="-8586.232" Z="119.16465"/>
 		<pt X="-3660.4268" Y="-8602.032" Z="138.96466"/>
 	</skpath>
-	<skpath from="73" to="128" linestyle="centreline">
+	<skpath from="72" to="127" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.13" head="2017_cucc_24.couldashouldawoulda.12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -902,7 +902,7 @@
 		<pt X="-3347.5266" Y="-7963.6323" Z="-1.1353503"/>
 		<pt X="-3334.5266" Y="-7961.9326" Z="-1.1353503"/>
 	</skpath>
-	<skpath from="96" to="129" linestyle="centreline">
+	<skpath from="95" to="128" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.21" head="2017_cucc_24.dentrance.22"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -911,7 +911,7 @@
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 		<pt X="-3616.8267" Y="-8644.632" Z="168.36465"/>
 	</skpath>
-	<skpath from="41" to="130" linestyle="centreline">
+	<skpath from="41" to="129" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c16" head="2017_cucc_28.canyon.c16splay"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -920,7 +920,7 @@
 		<pt X="-2959.0269" Y="-7228.9316" Z="-731.73535"/>
 		<pt X="-2957.1267" Y="-7224.732" Z="-879.1354"/>
 	</skpath>
-	<skpath from="131" to="132" linestyle="centreline">
+	<skpath from="130" to="131" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.11" head="2017_cucc_24.couldashouldawoulda.10"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -929,7 +929,7 @@
 		<pt X="-3311.4268" Y="-7915.6323" Z="22.96465"/>
 		<pt X="-3283.8267" Y="-7878.332" Z="25.46465"/>
 	</skpath>
-	<skpath from="133" to="134" linestyle="centreline">
+	<skpath from="132" to="133" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.38" head="2017_cucc_24.riftpiece.37"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -938,7 +938,7 @@
 		<pt X="-2919.0269" Y="-7735.232" Z="-611.23535"/>
 		<pt X="-2897.2266" Y="-7709.732" Z="-608.3353"/>
 	</skpath>
-	<skpath from="96" to="135" linestyle="centreline">
+	<skpath from="95" to="134" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.21" head="2017_cucc_24.dentrance.23"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -947,7 +947,7 @@
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 		<pt X="-3715.5269" Y="-8526.132" Z="151.06465"/>
 	</skpath>
-	<skpath from="122" to="136" linestyle="centreline">
+	<skpath from="120" to="135" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.12" head="2017_cucc_24.dentb.13"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -956,7 +956,7 @@
 		<pt X="-3019.1265" Y="-8502.032" Z="327.66464"/>
 		<pt X="-2975.0266" Y="-8533.532" Z="324.76465"/>
 	</skpath>
-	<skpath from="137" to="138" linestyle="centreline">
+	<skpath from="136" to="137" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.tag" head="2017_cucc_24.dentrance.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -965,7 +965,7 @@
 		<pt X="-3514.3267" Y="-8671.232" Z="263.46463"/>
 		<pt X="-3511.5269" Y="-8669.832" Z="254.96466"/>
 	</skpath>
-	<skpath from="139" to="32" linestyle="centreline">
+	<skpath from="138" to="32" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.36" head="2017_cucc_24.riftpiece.35"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -974,7 +974,7 @@
 		<pt X="-2932.3267" Y="-7681.7324" Z="-621.23535"/>
 		<pt X="-2921.9265" Y="-7664.732" Z="-640.4353"/>
 	</skpath>
-	<skpath from="100" to="140" linestyle="centreline">
+	<skpath from="99" to="139" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.19" head="2017_cucc_28.12monkeys.20"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -983,7 +983,7 @@
 		<pt X="-2642.8267" Y="-7345.032" Z="-57.33535"/>
 		<pt X="-2600.0266" Y="-7335.532" Z="-90.33535"/>
 	</skpath>
-	<skpath from="141" to="112" linestyle="centreline">
+	<skpath from="140" to="111" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.windytube.b2" head="2017_cucc_28.windytube.b1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -992,7 +992,7 @@
 		<pt X="-2689.4265" Y="-7376.832" Z="249.26465"/>
 		<pt X="-2628.3267" Y="-7353.432" Z="263.26465"/>
 	</skpath>
-	<skpath from="142" to="143" linestyle="centreline">
+	<skpath from="141" to="142" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface2.11" head="2017_cucc_28.fishface2.12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1001,7 +1001,7 @@
 		<pt X="-2943.5266" Y="-7509.2324" Z="176.06464"/>
 		<pt X="-2962.0266" Y="-7553.8325" Z="158.46465"/>
 	</skpath>
-	<skpath from="48" to="144" linestyle="centreline">
+	<skpath from="48" to="143" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface2.3a" head="2017_cucc_28.fishface2.3b"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1010,7 +1010,7 @@
 		<pt X="-3025.2268" Y="-7433.9316" Z="167.06465"/>
 		<pt X="-3065.0266" Y="-7429.332" Z="43.86465"/>
 	</skpath>
-	<skpath from="103" to="145" linestyle="centreline">
+	<skpath from="102" to="144" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.40" head="2017_cucc_24.riftpiece.39"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1028,7 +1028,7 @@
 		<pt X="-3062.2266" Y="-8589.933" Z="281.56467"/>
 		<pt X="-3092.7268" Y="-8498.732" Z="246.56465"/>
 	</skpath>
-	<skpath from="79" to="120" linestyle="centreline">
+	<skpath from="78" to="119" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.5" head="2017_cucc_24.dentrance.4"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1037,7 +1037,7 @@
 		<pt X="-3613.0269" Y="-8556.132" Z="209.06465"/>
 		<pt X="-3594.1265" Y="-8587.632" Z="219.56465"/>
 	</skpath>
-	<skpath from="135" to="146" linestyle="centreline">
+	<skpath from="134" to="145" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.23" head="2017_cucc_24.dentrance.24"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1046,7 +1046,7 @@
 		<pt X="-3715.5269" Y="-8526.132" Z="151.06465"/>
 		<pt X="-3759.0269" Y="-8530.633" Z="98.06465"/>
 	</skpath>
-	<skpath from="33" to="147" linestyle="centreline">
+	<skpath from="33" to="146" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.34" head="2017_cucc_24.riftpiece.33"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1055,7 +1055,7 @@
 		<pt X="-2929.8267" Y="-7643.7324" Z="-642.43536"/>
 		<pt X="-2975.7266" Y="-7678.9316" Z="-678.6353"/>
 	</skpath>
-	<skpath from="148" to="149" linestyle="centreline">
+	<skpath from="147" to="148" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c4" head="2017_cucc_28.canyon.c5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1064,7 +1064,7 @@
 		<pt X="-3040.7266" Y="-7322.532" Z="-384.63535"/>
 		<pt X="-3012.9268" Y="-7305.332" Z="-380.63535"/>
 	</skpath>
-	<skpath from="8" to="150" linestyle="centreline">
+	<skpath from="8" to="149" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.b6" head="2017_cucc_28.fishface1.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1073,7 +1073,7 @@
 		<pt X="-2966.2268" Y="-7505.432" Z="178.46465"/>
 		<pt X="-2938.5266" Y="-7577.732" Z="154.86464"/>
 	</skpath>
-	<skpath from="145" to="134" linestyle="centreline">
+	<skpath from="144" to="133" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.39" head="2017_cucc_24.riftpiece.37"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1082,7 +1082,7 @@
 		<pt X="-2942.7268" Y="-7659.932" Z="-530.6353"/>
 		<pt X="-2897.2266" Y="-7709.732" Z="-608.3353"/>
 	</skpath>
-	<skpath from="124" to="151" linestyle="centreline">
+	<skpath from="122" to="150" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.entranceseries.a2" head="2017_cucc_28.blower.tag"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1091,7 +1091,7 @@
 		<pt X="-2861.7266" Y="-7845.232" Z="451.86465"/>
 		<pt X="-2886.5269" Y="-7910.6323" Z="461.86465"/>
 	</skpath>
-	<skpath from="37" to="152" linestyle="centreline">
+	<skpath from="37" to="151" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.2" head="2017_cucc_24.couldashouldawoulda.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1100,7 +1100,7 @@
 		<pt X="-3147.0266" Y="-7697.932" Z="-410.33536"/>
 		<pt X="-3043.5266" Y="-7678.7324" Z="-401.13538"/>
 	</skpath>
-	<skpath from="23" to="153" linestyle="centreline">
+	<skpath from="23" to="152" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.14" head="2017_cucc_28.fishface1.15"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1118,16 +1118,16 @@
 		<pt X="-2763.7268" Y="-7482.0317" Z="136.66464"/>
 		<pt X="-2775.2268" Y="-7509.632" Z="116.564644"/>
 	</skpath>
-	<skpath from="87" to="10" linestyle="centreline">
+	<skpath from="86" to="10" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.gsh4.5" head="2017_cucc_24.gsh4.4"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3070.6265" Y="-7889.632" Z="63.464653"/>
 		<pt X="-3104.9268" Y="-7899.132" Z="20.864649"/>
 	</skpath>
-	<skpath from="114" to="72" linestyle="centreline">
+	<skpath from="113" to="71" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.15" head="2017_cucc_24.couldashouldawoulda.14"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1136,7 +1136,7 @@
 		<pt X="-3355.7266" Y="-8131.032" Z="96.46465"/>
 		<pt X="-3325.6265" Y="-8054.732" Z="99.364655"/>
 	</skpath>
-	<skpath from="154" to="155" linestyle="centreline">
+	<skpath from="153" to="154" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.5" head="2017_cucc_28.fishface1.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1145,7 +1145,7 @@
 		<pt X="-2557.4265" Y="-7322.732" Z="-73.43535"/>
 		<pt X="-2548.8267" Y="-7326.532" Z="-52.23535"/>
 	</skpath>
-	<skpath from="156" to="83" linestyle="centreline">
+	<skpath from="155" to="82" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c8" head="2017_cucc_28.canyon.c9"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1154,7 +1154,7 @@
 		<pt X="-3046.1267" Y="-7192.232" Z="-402.83536"/>
 		<pt X="-3075.4268" Y="-7160.132" Z="-427.63535"/>
 	</skpath>
-	<skpath from="117" to="157" linestyle="centreline">
+	<skpath from="116" to="156" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.8" head="2017_cucc_28.fishface1.9"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1163,7 +1163,7 @@
 		<pt X="-2521.5266" Y="-7317.532" Z="-39.83535"/>
 		<pt X="-2502.2268" Y="-7304.2324" Z="-3.7353504"/>
 	</skpath>
-	<skpath from="118" to="155" linestyle="centreline">
+	<skpath from="117" to="154" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.7" head="2017_cucc_28.fishface1.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1172,7 +1172,7 @@
 		<pt X="-2528.8267" Y="-7315.232" Z="-47.73535"/>
 		<pt X="-2548.8267" Y="-7326.532" Z="-52.23535"/>
 	</skpath>
-	<skpath from="158" to="127" linestyle="centreline">
+	<skpath from="157" to="126" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.29" head="2017_cucc_24.dentrance.30"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1181,7 +1181,7 @@
 		<pt X="-3710.5269" Y="-8551.132" Z="89.26465"/>
 		<pt X="-3696.1267" Y="-8586.232" Z="119.16465"/>
 	</skpath>
-	<skpath from="8" to="62" linestyle="centreline">
+	<skpath from="8" to="125" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.b6" head="2017_cucc_28.fishface1.b5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1190,7 +1190,7 @@
 		<pt X="-2966.2268" Y="-7505.432" Z="178.46465"/>
 		<pt X="-2911.9265" Y="-7457.432" Z="163.86465"/>
 	</skpath>
-	<skpath from="69" to="138" linestyle="centreline">
+	<skpath from="68" to="137" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.2" head="2017_cucc_24.dentrance.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1199,7 +1199,7 @@
 		<pt X="-3552.7268" Y="-8652.832" Z="239.56465"/>
 		<pt X="-3511.5269" Y="-8669.832" Z="254.96466"/>
 	</skpath>
-	<skpath from="159" to="50" linestyle="centreline">
+	<skpath from="158" to="50" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.2" head="2017_cucc_28.12monkeys.3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1208,7 +1208,7 @@
 		<pt X="-2787.4268" Y="-7470.232" Z="178.16466"/>
 		<pt X="-2763.7268" Y="-7482.0317" Z="136.66464"/>
 	</skpath>
-	<skpath from="140" to="160" linestyle="centreline">
+	<skpath from="139" to="159" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.20" head="2017_cucc_28.12monkeys.21"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1217,7 +1217,7 @@
 		<pt X="-2600.0266" Y="-7335.532" Z="-90.33535"/>
 		<pt X="-2578.6267" Y="-7326.2324" Z="-94.83535"/>
 	</skpath>
-	<skpath from="12" to="97" linestyle="centreline">
+	<skpath from="12" to="96" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.entranceseries.a7" head="2017_cucc_28.entranceseries.a6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1226,7 +1226,7 @@
 		<pt X="-2962.1267" Y="-7552.532" Z="352.86465"/>
 		<pt X="-2924.3267" Y="-7554.132" Z="378.26465"/>
 	</skpath>
-	<skpath from="128" to="131" linestyle="centreline">
+	<skpath from="127" to="130" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.12" head="2017_cucc_24.couldashouldawoulda.11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1235,7 +1235,7 @@
 		<pt X="-3334.5266" Y="-7961.9326" Z="-1.1353503"/>
 		<pt X="-3311.4268" Y="-7915.6323" Z="22.96465"/>
 	</skpath>
-	<skpath from="123" to="46" linestyle="centreline">
+	<skpath from="121" to="46" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentb.8" head="2017_cucc_24.dentb.7"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1244,7 +1244,7 @@
 		<pt X="-3080.2268" Y="-8727.032" Z="283.76465"/>
 		<pt X="-3066.6265" Y="-8674.433" Z="276.16464"/>
 	</skpath>
-	<skpath from="161" to="95" linestyle="centreline">
+	<skpath from="160" to="94" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.12" head="2017_cucc_28.fishface1.13"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1253,7 +1253,7 @@
 		<pt X="-3091.5269" Y="-7498.1323" Z="-85.13535"/>
 		<pt X="-3066.2268" Y="-7458.432" Z="-84.33534"/>
 	</skpath>
-	<skpath from="134" to="139" linestyle="centreline">
+	<skpath from="133" to="138" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.37" head="2017_cucc_24.riftpiece.36"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1262,7 +1262,7 @@
 		<pt X="-2897.2266" Y="-7709.732" Z="-608.3353"/>
 		<pt X="-2932.3267" Y="-7681.7324" Z="-621.23535"/>
 	</skpath>
-	<skpath from="9" to="125" linestyle="centreline">
+	<skpath from="9" to="123" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.x" head="2017_cucc_28.fishface2.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1271,7 +1271,7 @@
 		<pt X="-2977.4268" Y="-7434.732" Z="182.26465"/>
 		<pt X="-3047.8267" Y="-7461.032" Z="154.86464"/>
 	</skpath>
-	<skpath from="146" to="158" linestyle="centreline">
+	<skpath from="145" to="157" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.24" head="2017_cucc_24.dentrance.29"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1280,7 +1280,7 @@
 		<pt X="-3759.0269" Y="-8530.633" Z="98.06465"/>
 		<pt X="-3710.5269" Y="-8551.132" Z="89.26465"/>
 	</skpath>
-	<skpath from="86" to="162" linestyle="centreline">
+	<skpath from="85" to="161" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.icytube.2" head="2017_cucc_28.icytube.3"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1298,7 +1298,7 @@
 		<pt X="-3110.0266" Y="-8608.732" Z="294.36465"/>
 		<pt X="-3062.2266" Y="-8589.933" Z="281.56467"/>
 	</skpath>
-	<skpath from="126" to="163" linestyle="centreline">
+	<skpath from="124" to="162" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.10" head="2017_cucc_28.fishface1.11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1307,7 +1307,7 @@
 		<pt X="-3104.4265" Y="-7486.7324" Z="99.76465"/>
 		<pt X="-3116.9265" Y="-7476.4316" Z="86.864655"/>
 	</skpath>
-	<skpath from="107" to="64" linestyle="centreline">
+	<skpath from="106" to="63" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.43" head="2017_cucc_24.riftpiece.41"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1316,7 +1316,7 @@
 		<pt X="-3014.6267" Y="-7682.332" Z="-490.63535"/>
 		<pt X="-2990.4268" Y="-7690.432" Z="-538.6354"/>
 	</skpath>
-	<skpath from="29" to="74" linestyle="centreline">
+	<skpath from="29" to="73" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.11" head="2017_cucc_28.12monkeys.12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1325,7 +1325,7 @@
 		<pt X="-2796.0266" Y="-7532.332" Z="93.26465"/>
 		<pt X="-2807.7268" Y="-7550.032" Z="80.06465"/>
 	</skpath>
-	<skpath from="115" to="164" linestyle="centreline">
+	<skpath from="114" to="163" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c11" head="2017_cucc_28.canyon.c12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1334,7 +1334,7 @@
 		<pt X="-3080.5269" Y="-7161.4316" Z="-765.73535"/>
 		<pt X="-3151.8267" Y="-7199.932" Z="-766.1353"/>
 	</skpath>
-	<skpath from="99" to="165" linestyle="centreline">
+	<skpath from="98" to="164" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.6" head="2017_cucc_24.couldashouldawoulda.7"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1343,7 +1343,7 @@
 		<pt X="-3249.2266" Y="-7849.732" Z="-479.93533"/>
 		<pt X="-3325.4268" Y="-7906.1323" Z="-500.13535"/>
 	</skpath>
-	<skpath from="146" to="88" linestyle="centreline">
+	<skpath from="145" to="87" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.24" head="2017_cucc_24.dentrance.25"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1352,7 +1352,7 @@
 		<pt X="-3759.0269" Y="-8530.633" Z="98.06465"/>
 		<pt X="-3839.0269" Y="-8494.132" Z="64.26465"/>
 	</skpath>
-	<skpath from="77" to="52" linestyle="centreline">
+	<skpath from="76" to="52" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.dentrance.16" head="2017_cucc_24.dentrance.17"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1361,7 +1361,7 @@
 		<pt X="-3534.9268" Y="-8196.332" Z="93.66464"/>
 		<pt X="-3489.6267" Y="-8172.832" Z="88.26465"/>
 	</skpath>
-	<skpath from="121" to="159" linestyle="centreline">
+	<skpath from="165" to="158" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.1" head="2017_cucc_28.12monkeys.2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1379,7 +1379,7 @@
 		<pt X="-2751.7266" Y="-7407.532" Z="11.36465"/>
 		<pt X="-2718.2266" Y="-7402.532" Z="-1.6353505"/>
 	</skpath>
-	<skpath from="106" to="166" linestyle="centreline">
+	<skpath from="105" to="166" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.riftpiece.44" head="2017_cucc_24.riftpiece.45"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1388,7 +1388,7 @@
 		<pt X="-3004.0269" Y="-7692.832" Z="-396.73535"/>
 		<pt X="-2863.9268" Y="-7616.832" Z="-399.53534"/>
 	</skpath>
-	<skpath from="57" to="148" linestyle="centreline">
+	<skpath from="57" to="147" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c3" head="2017_cucc_28.canyon.c4"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1397,7 +1397,7 @@
 		<pt X="-3044.2266" Y="-7345.532" Z="-370.73535"/>
 		<pt X="-3040.7266" Y="-7322.532" Z="-384.63535"/>
 	</skpath>
-	<skpath from="24" to="85" linestyle="centreline">
+	<skpath from="24" to="84" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.7" head="2017_cucc_28.icytube.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1406,7 +1406,7 @@
 		<pt X="-3109.3267" Y="-7450.332" Z="-291.53537"/>
 		<pt X="-3101.3267" Y="-7471.832" Z="-553.43536"/>
 	</skpath>
-	<skpath from="160" to="154" linestyle="centreline">
+	<skpath from="159" to="153" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.21" head="2017_cucc_28.fishface1.5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1415,7 +1415,7 @@
 		<pt X="-2578.6267" Y="-7326.2324" Z="-94.83535"/>
 		<pt X="-2557.4265" Y="-7322.732" Z="-73.43535"/>
 	</skpath>
-	<skpath from="149" to="90" linestyle="centreline">
+	<skpath from="148" to="89" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c5" head="2017_cucc_28.canyon.c6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1429,11 +1429,11 @@
 			<cl_stations tail="2017_cucc_24.gsh4.7" head="2017_cucc_24.gsh4.8"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
-		<sketchsubset subname="GSH 4"/>
+		<sketchsubset subname="GSOH 4"/>
 		<pt X="-3091.8267" Y="-7853.032" Z="63.264652"/>
 		<pt X="-3085.2268" Y="-7817.432" Z="140.76465"/>
 	</skpath>
-	<skpath from="132" to="80" linestyle="centreline">
+	<skpath from="131" to="79" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.10" head="2017_cucc_24.couldashouldawoulda.9"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1442,7 +1442,7 @@
 		<pt X="-3283.8267" Y="-7878.332" Z="25.46465"/>
 		<pt X="-3245.6265" Y="-7850.132" Z="-49.135353"/>
 	</skpath>
-	<skpath from="8" to="142" linestyle="centreline">
+	<skpath from="8" to="141" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.b6" head="2017_cucc_28.fishface2.11"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1451,7 +1451,7 @@
 		<pt X="-2966.2268" Y="-7505.432" Z="178.46465"/>
 		<pt X="-2943.5266" Y="-7509.2324" Z="176.06464"/>
 	</skpath>
-	<skpath from="91" to="156" linestyle="centreline">
+	<skpath from="90" to="155" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.canyon.c7" head="2017_cucc_28.canyon.c8"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1460,7 +1460,7 @@
 		<pt X="-3051.3267" Y="-7209.132" Z="-407.23535"/>
 		<pt X="-3046.1267" Y="-7192.232" Z="-402.83536"/>
 	</skpath>
-	<skpath from="81" to="99" linestyle="centreline">
+	<skpath from="80" to="98" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.8" head="2017_cucc_24.couldashouldawoulda.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1469,7 +1469,7 @@
 		<pt X="-3274.6267" Y="-7859.2324" Z="-221.63535"/>
 		<pt X="-3249.2266" Y="-7849.732" Z="-479.93533"/>
 	</skpath>
-	<skpath from="163" to="161" linestyle="centreline">
+	<skpath from="162" to="160" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.11" head="2017_cucc_28.fishface1.12"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1478,7 +1478,7 @@
 		<pt X="-3116.9265" Y="-7476.4316" Z="86.864655"/>
 		<pt X="-3091.5269" Y="-7498.1323" Z="-85.13535"/>
 	</skpath>
-	<skpath from="98" to="109" linestyle="centreline">
+	<skpath from="97" to="108" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.entranceseries.a5" head="2017_cucc_28.entranceseries.a4"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1487,7 +1487,7 @@
 		<pt X="-2941.3267" Y="-7606.832" Z="414.96463"/>
 		<pt X="-2910.1267" Y="-7711.632" Z="429.96463"/>
 	</skpath>
-	<skpath from="152" to="106" linestyle="centreline">
+	<skpath from="151" to="105" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_24.couldashouldawoulda.1" head="2017_cucc_24.riftpiece.44"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -1538,51 +1538,51 @@
 		<pt X="-3920.1267" Y="-8307.932" Z="39.06465"/>
 		<pt X="-3906.2866" Y="-8294.927"/>
 	</skpath>
-	<skpath from="89" to="173" linestyle="connective">
+	<skpath from="88" to="173" linestyle="connective">
 		<pt X="-3884.5266" Y="-8357.832" Z="46.66465"/>
 		<pt X="-3901.8604" Y="-8367.111"/>
 	</skpath>
-	<skpath from="89" to="174" linestyle="connective">
+	<skpath from="88" to="174" linestyle="connective">
 		<pt X="-3884.5266" Y="-8357.832" Z="46.66465"/>
 		<pt X="-3872.5776" Y="-8351.449"/>
 	</skpath>
-	<skpath from="88" to="175" linestyle="connective">
+	<skpath from="87" to="175" linestyle="connective">
 		<pt X="-3839.0269" Y="-8494.132" Z="64.26465"/>
 		<pt X="-3836.4634" Y="-8496.873"/>
 	</skpath>
-	<skpath from="88" to="176" linestyle="connective">
+	<skpath from="87" to="176" linestyle="connective">
 		<pt X="-3839.0269" Y="-8494.132" Z="64.26465"/>
 		<pt X="-3817.2598" Y="-8473.25"/>
 	</skpath>
-	<skpath from="146" to="177" linestyle="connective">
+	<skpath from="145" to="177" linestyle="connective">
 		<pt X="-3759.0269" Y="-8530.633" Z="98.06465"/>
 		<pt X="-3760.2583" Y="-8540.157"/>
 	</skpath>
-	<skpath from="146" to="178" linestyle="connective">
+	<skpath from="145" to="178" linestyle="connective">
 		<pt X="-3759.0269" Y="-8530.633" Z="98.06465"/>
 		<pt X="-3755.686" Y="-8509.219"/>
 	</skpath>
-	<skpath from="135" to="179" linestyle="connective">
+	<skpath from="134" to="179" linestyle="connective">
 		<pt X="-3715.5269" Y="-8526.132" Z="151.06465"/>
 		<pt X="-3709.5059" Y="-8510.285"/>
 	</skpath>
-	<skpath from="135" to="180" linestyle="connective">
+	<skpath from="134" to="180" linestyle="connective">
 		<pt X="-3715.5269" Y="-8526.132" Z="151.06465"/>
 		<pt X="-3739.9878" Y="-8556.923"/>
 	</skpath>
-	<skpath from="158" to="181" linestyle="connective">
+	<skpath from="157" to="181" linestyle="connective">
 		<pt X="-3710.5269" Y="-8551.132" Z="89.26465"/>
 		<pt X="-3730.8433" Y="-8564.238"/>
 	</skpath>
-	<skpath from="158" to="182" linestyle="connective">
+	<skpath from="157" to="182" linestyle="connective">
 		<pt X="-3710.5269" Y="-8551.132" Z="89.26465"/>
 		<pt X="-3693.0457" Y="-8540.92"/>
 	</skpath>
-	<skpath from="127" to="183" linestyle="connective">
+	<skpath from="126" to="183" linestyle="connective">
 		<pt X="-3696.1267" Y="-8586.232" Z="119.16465"/>
 		<pt X="-3705.3909" Y="-8594.263"/>
 	</skpath>
-	<skpath from="127" to="184" linestyle="connective">
+	<skpath from="126" to="184" linestyle="connective">
 		<pt X="-3696.1267" Y="-8586.232" Z="119.16465"/>
 		<pt X="-3675.2136" Y="-8565.763"/>
 	</skpath>
@@ -1602,39 +1602,39 @@
 		<pt X="-3653.9268" Y="-8591.032" Z="164.56465"/>
 		<pt X="-3645.4937" Y="-8603.713"/>
 	</skpath>
-	<skpath from="129" to="189" linestyle="connective">
+	<skpath from="128" to="189" linestyle="connective">
 		<pt X="-3616.8267" Y="-8644.632" Z="168.36465"/>
 		<pt X="-3610.8965" Y="-8655.837"/>
 	</skpath>
-	<skpath from="79" to="190" linestyle="connective">
+	<skpath from="78" to="190" linestyle="connective">
 		<pt X="-3613.0269" Y="-8556.132" Z="209.06465"/>
 		<pt X="-3615.6213" Y="-8555.551"/>
 	</skpath>
-	<skpath from="79" to="191" linestyle="connective">
+	<skpath from="78" to="191" linestyle="connective">
 		<pt X="-3613.0269" Y="-8556.132" Z="209.06465"/>
 		<pt X="-3601.1423" Y="-8552.351"/>
 	</skpath>
-	<skpath from="96" to="192" linestyle="connective">
+	<skpath from="95" to="192" linestyle="connective">
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 		<pt X="-3682.377" Y="-8495.196"/>
 	</skpath>
-	<skpath from="96" to="193" linestyle="connective">
+	<skpath from="95" to="193" linestyle="connective">
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 		<pt X="-3682.834" Y="-8538.938"/>
 	</skpath>
-	<skpath from="96" to="194" linestyle="connective">
+	<skpath from="95" to="194" linestyle="connective">
 		<pt X="-3683.9268" Y="-8497.032" Z="148.46465"/>
 		<pt X="-3647.3225" Y="-8529.946"/>
 	</skpath>
-	<skpath from="78" to="195" linestyle="connective">
+	<skpath from="77" to="195" linestyle="connective">
 		<pt X="-3610.5269" Y="-8514.732" Z="182.06465"/>
 		<pt X="-3625.6804" Y="-8535.585"/>
 	</skpath>
-	<skpath from="78" to="196" linestyle="connective">
+	<skpath from="77" to="196" linestyle="connective">
 		<pt X="-3610.5269" Y="-8514.732" Z="182.06465"/>
 		<pt X="-3609.9822" Y="-8503.427"/>
 	</skpath>
-	<skpath from="78" to="197" linestyle="connective">
+	<skpath from="77" to="197" linestyle="connective">
 		<pt X="-3610.5269" Y="-8514.732" Z="182.06465"/>
 		<pt X="-3597.637" Y="-8531.165"/>
 	</skpath>
@@ -2110,11 +2110,11 @@
 		<pt X="-3489.6267" Y="-8172.832" Z="88.26465"/>
 		<pt X="-3485.4905" Y="-8180.206"/>
 	</skpath>
-	<skpath from="77" to="235" linestyle="connective">
+	<skpath from="76" to="235" linestyle="connective">
 		<pt X="-3534.9268" Y="-8196.332" Z="93.66464"/>
 		<pt X="-3535.4326" Y="-8200.414"/>
 	</skpath>
-	<skpath from="77" to="236" linestyle="connective">
+	<skpath from="76" to="236" linestyle="connective">
 		<pt X="-3534.9268" Y="-8196.332" Z="93.66464"/>
 		<pt X="-3503.6775" Y="-8200.125"/>
 	</skpath>
@@ -2138,11 +2138,11 @@
 		<pt X="-3329.0269" Y="-8441.632" Z="180.46465"/>
 		<pt X="-3328.447" Y="-8455.321"/>
 	</skpath>
-	<skpath from="93" to="242" linestyle="connective">
+	<skpath from="92" to="242" linestyle="connective">
 		<pt X="-3244.7266" Y="-8477.433" Z="210.16464"/>
 		<pt X="-3236.6458" Y="-8457.053"/>
 	</skpath>
-	<skpath from="93" to="243" linestyle="connective">
+	<skpath from="92" to="243" linestyle="connective">
 		<pt X="-3244.7266" Y="-8477.433" Z="210.16464"/>
 		<pt X="-3241.842" Y="-8480.725"/>
 	</skpath>
@@ -2162,11 +2162,11 @@
 		<pt X="-3341.1267" Y="-8494.532" Z="130.06465"/>
 		<pt X="-3341.149" Y="-8504.975"/>
 	</skpath>
-	<skpath from="66" to="248" linestyle="connective">
+	<skpath from="65" to="248" linestyle="connective">
 		<pt X="-3403.9268" Y="-8447.433" Z="157.26465"/>
 		<pt X="-3403.5044" Y="-8455.898"/>
 	</skpath>
-	<skpath from="66" to="249" linestyle="connective">
+	<skpath from="65" to="249" linestyle="connective">
 		<pt X="-3403.9268" Y="-8447.433" Z="157.26465"/>
 		<pt X="-3403.2158" Y="-8443.485"/>
 	</skpath>
@@ -2190,11 +2190,11 @@
 		<pt X="-3661.317" Y="-7963.666"/>
 		<pt X="-3607.689" Y="-8785.062"/>
 	</skpath>
-	<skpath from="108" to="253" linestyle="connective">
+	<skpath from="107" to="253" linestyle="connective">
 		<pt X="-3521.2268" Y="-8484.032" Z="172.16464"/>
 		<pt X="-3523.0808" Y="-8475.756"/>
 	</skpath>
-	<skpath from="108" to="254" linestyle="connective">
+	<skpath from="107" to="254" linestyle="connective">
 		<pt X="-3521.2268" Y="-8484.032" Z="172.16464"/>
 		<pt X="-3517.397" Y="-8491.702"/>
 	</skpath>
@@ -2206,7 +2206,7 @@
 		<pt X="-3475.2268" Y="-8477.232" Z="163.96466"/>
 		<pt X="-3479.6624" Y="-8480.02"/>
 	</skpath>
-	<skpath from="111" to="257" linestyle="connective">
+	<skpath from="110" to="257" linestyle="connective">
 		<pt X="-3572.1267" Y="-8508.332" Z="207.36465"/>
 		<pt X="-3573.762" Y="-8496.913"/>
 	</skpath>
@@ -2222,7 +2222,7 @@
 		<pt X="-3580.551" Y="-8497.702"/>
 		<pt X="-3573.762" Y="-8496.913"/>
 	</skpath>
-	<skpath from="111" to="258" linestyle="connective">
+	<skpath from="110" to="258" linestyle="connective">
 		<pt X="-3572.1267" Y="-8508.332" Z="207.36465"/>
 		<pt X="-3565.552" Y="-8521.385"/>
 	</skpath>
@@ -2800,27 +2800,27 @@
 		<pt X="-3523.0808" Y="-8475.756"/>
 		<pt X="-3512.1216" Y="-8479.09"/>
 	</skpath>
-	<skpath from="68" to="298" linestyle="connective">
+	<skpath from="67" to="298" linestyle="connective">
 		<pt X="-3547.3267" Y="-8632.132" Z="238.16466"/>
 		<pt X="-3539.6724" Y="-8630.181"/>
 	</skpath>
-	<skpath from="68" to="299" linestyle="connective">
+	<skpath from="67" to="299" linestyle="connective">
 		<pt X="-3547.3267" Y="-8632.132" Z="238.16466"/>
 		<pt X="-3551.5593" Y="-8632.628"/>
 	</skpath>
-	<skpath from="69" to="300" linestyle="connective">
+	<skpath from="68" to="300" linestyle="connective">
 		<pt X="-3552.7268" Y="-8652.832" Z="239.56465"/>
 		<pt X="-3551.7341" Y="-8656.752"/>
 	</skpath>
-	<skpath from="69" to="301" linestyle="connective">
+	<skpath from="68" to="301" linestyle="connective">
 		<pt X="-3552.7268" Y="-8652.832" Z="239.56465"/>
 		<pt X="-3540.5464" Y="-8646.4375"/>
 	</skpath>
-	<skpath from="138" to="302" linestyle="connective">
+	<skpath from="137" to="302" linestyle="connective">
 		<pt X="-3511.5269" Y="-8669.832" Z="254.96466"/>
 		<pt X="-3504.1863" Y="-8688.042"/>
 	</skpath>
-	<skpath from="138" to="303" linestyle="connective">
+	<skpath from="137" to="303" linestyle="connective">
 		<pt X="-3511.5269" Y="-8669.832" Z="254.96466"/>
 		<pt X="-3526.387" Y="-8673.184"/>
 	</skpath>
@@ -2834,7 +2834,7 @@
 		<pt X="-3502.4382" Y="-8669.338"/>
 		<pt X="-3508.5564" Y="-8668.639"/>
 	</skpath>
-	<skpath from="138" to="304" linestyle="connective">
+	<skpath from="137" to="304" linestyle="connective">
 		<pt X="-3511.5269" Y="-8669.832" Z="254.96466"/>
 		<pt X="-3508.5564" Y="-8668.639"/>
 	</skpath>
@@ -3015,11 +3015,11 @@
 		<pt X="-3518.1455" Y="-7497.505"/>
 		<pt X="-3464.9487" Y="-8234.539"/>
 	</skpath>
-	<skpath from="67" to="319" linestyle="connective">
+	<skpath from="66" to="319" linestyle="connective">
 		<pt X="-3203.5266" Y="-7740.032" Z="-446.83536"/>
 		<pt X="-3205.6584" Y="-7736.9"/>
 	</skpath>
-	<skpath from="67" to="320" linestyle="connective">
+	<skpath from="66" to="320" linestyle="connective">
 		<pt X="-3203.5266" Y="-7740.032" Z="-446.83536"/>
 		<pt X="-3199.1484" Y="-7746.014"/>
 	</skpath>
@@ -3039,19 +3039,19 @@
 		<pt X="-3147.0266" Y="-7697.932" Z="-410.33536"/>
 		<pt X="-3145.9512" Y="-7695.421"/>
 	</skpath>
-	<skpath from="76" to="325" linestyle="connective">
+	<skpath from="75" to="325" linestyle="connective">
 		<pt X="-3302.2266" Y="-7805.232" Z="-467.73535"/>
 		<pt X="-3277.27" Y="-7806.2793"/>
 	</skpath>
-	<skpath from="76" to="326" linestyle="connective">
+	<skpath from="75" to="326" linestyle="connective">
 		<pt X="-3302.2266" Y="-7805.232" Z="-467.73535"/>
 		<pt X="-3301.6365" Y="-7809.6274"/>
 	</skpath>
-	<skpath from="152" to="327" linestyle="connective">
+	<skpath from="151" to="327" linestyle="connective">
 		<pt X="-3043.5266" Y="-7678.7324" Z="-401.13538"/>
 		<pt X="-3046.8113" Y="-7677.7505"/>
 	</skpath>
-	<skpath from="152" to="328" linestyle="connective">
+	<skpath from="151" to="328" linestyle="connective">
 		<pt X="-3043.5266" Y="-7678.7324" Z="-401.13538"/>
 		<pt X="-3037.325" Y="-7709.557"/>
 	</skpath>
@@ -3286,42 +3286,42 @@
 		<pt X="-3059.2646" Y="-6976.22"/>
 		<pt X="-2993.3188" Y="-7805.5806"/>
 	</skpath>
-	<skpath from="113" to="348" linestyle="connective">
+	<skpath from="112" to="348" linestyle="connective">
 		<pt X="-2499.9265" Y="-7312.832" Z="227.66464"/>
 		<pt X="-2501.6926" Y="-7316.593"/>
 	</skpath>
-	<skpath from="112" to="349" linestyle="connective">
+	<skpath from="111" to="349" linestyle="connective">
 		<pt X="-2628.3267" Y="-7353.432" Z="263.26465"/>
 		<pt X="-2635.1272" Y="-7339.222"/>
 	</skpath>
-	<skpath from="112" to="350" linestyle="connective">
+	<skpath from="111" to="350" linestyle="connective">
 		<pt X="-2628.3267" Y="-7353.432" Z="263.26465"/>
 		<pt X="-2621.6667" Y="-7371.995"/>
 	</skpath>
-	<skpath from="141" to="351" linestyle="connective">
+	<skpath from="140" to="351" linestyle="connective">
 		<pt X="-2689.4265" Y="-7376.832" Z="249.26465"/>
 		<pt X="-2687.4084" Y="-7383.1147"/>
 	</skpath>
-	<skpath from="141" to="353" linestyle="connective">
+	<skpath from="140" to="352" linestyle="connective">
 		<pt X="-2689.4265" Y="-7376.832" Z="249.26465"/>
 		<pt X="-2694.8215" Y="-7363.802"/>
 	</skpath>
-	<skpath from="62" to="354" linestyle="connective">
+	<skpath from="125" to="353" linestyle="connective">
 		<pt X="-2911.9265" Y="-7457.432" Z="163.86465"/>
 		<pt X="-2904.7275" Y="-7470.7056"/>
 	</skpath>
-	<skpath from="354" to="355" linestyle="wall" splined="1">
+	<skpath from="353" to="354" linestyle="wall" splined="1">
 		<pt X="-2904.7275" Y="-7470.7056"/>
 		<pt X="-2893.4128" Y="-7477.5337"/>
 		<pt X="-2884.8293" Y="-7482.4106"/>
 		<pt X="-2878.3916" Y="-7482.9956"/>
 		<pt X="-2875.4656" Y="-7480.85"/>
 	</skpath>
-	<skpath from="355" to="352" linestyle="wall" splined="1">
+	<skpath from="354" to="355" linestyle="wall" splined="1">
 		<pt X="-2875.4656" Y="-7480.85"/>
 		<pt X="-2869.223" Y="-7481.6304"/>
 	</skpath>
-	<skpath from="352" to="356" linestyle="wall" splined="1">
+	<skpath from="355" to="356" linestyle="wall" splined="1">
 		<pt X="-2869.223" Y="-7481.6304"/>
 		<pt X="-2864.736" Y="-7490.604"/>
 		<pt X="-2860.8345" Y="-7487.6777"/>
@@ -3339,7 +3339,7 @@
 		<pt X="-2808.1628" Y="-7470.1206"/>
 		<pt X="-2799.1892" Y="-7482.9956"/>
 	</skpath>
-	<skpath from="358" to="352" linestyle="connective">
+	<skpath from="358" to="355" linestyle="connective">
 		<pt X="-2869.418" Y="-7479.094" Z="166.86464"/>
 		<pt X="-2869.223" Y="-7481.6304"/>
 	</skpath>
@@ -3347,7 +3347,7 @@
 		<pt X="-2869.418" Y="-7479.094" Z="166.86464"/>
 		<pt X="-2869.808" Y="-7463.488"/>
 	</skpath>
-	<skpath from="358" to="121" linestyle="centreline">
+	<skpath from="358" to="165" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.4x" head="2017_cucc_28.12monkeys.1"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -3356,7 +3356,7 @@
 		<pt X="-2869.418" Y="-7479.094" Z="166.86464"/>
 		<pt X="-2812.4268" Y="-7475.832" Z="174.46465"/>
 	</skpath>
-	<skpath from="62" to="358" linestyle="centreline">
+	<skpath from="125" to="358" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.fishface1.b5" head="2017_cucc_28.12monkeys.4x"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -3378,7 +3378,7 @@
 		<pt X="-2779.8765" Y="-7453.3438" Z="187.56467"/>
 		<pt X="-2776.56" Y="-7452.9536"/>
 	</skpath>
-	<skpath from="159" to="360" linestyle="centreline">
+	<skpath from="158" to="360" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.2" head="2017_cucc_28.12monkeys.3x"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -3387,7 +3387,7 @@
 		<pt X="-2787.4268" Y="-7470.232" Z="178.16466"/>
 		<pt X="-2779.8765" Y="-7453.3438" Z="187.56467"/>
 	</skpath>
-	<skpath from="360" to="141" linestyle="centreline">
+	<skpath from="360" to="140" linestyle="centreline">
 		<pathcodes>
 			<cl_stations tail="2017_cucc_28.12monkeys.3x" head="2017_cucc_28.windytube.b2"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
@@ -3439,7 +3439,7 @@
 		<pt X="-2703.21" Y="-7396.9653"/>
 		<pt X="-2687.4084" Y="-7383.1147"/>
 	</skpath>
-	<skpath from="364" to="353" linestyle="wall" splined="1">
+	<skpath from="364" to="352" linestyle="wall" splined="1">
 		<pt X="-2789.2402" Y="-7434.811"/>
 		<pt X="-2780.0715" Y="-7423.6914"/>
 		<pt X="-2763.2947" Y="-7408.2803"/>
@@ -3506,7 +3506,7 @@
 		<pt X="-2591.8196" Y="-7347.025"/>
 		<pt X="-2587.3325" Y="-7346.635"/>
 	</skpath>
-	<skpath from="353" to="368" linestyle="wall" splined="1">
+	<skpath from="352" to="368" linestyle="wall" splined="1">
 		<pt X="-2694.8215" Y="-7363.802"/>
 		<pt X="-2675.7039" Y="-7354.828"/>
 		<pt X="-2664.18" Y="-7347.432"/>
@@ -3555,7 +3555,7 @@
 		<pt X="-2587.9624" Y="-7336.91"/>
 		<pt X="-2587.9624" Y="-7336.91"/>
 	</skpath>
-	<skpath from="359" to="62" linestyle="pitchbound" splined="1">
+	<skpath from="359" to="125" linestyle="pitchbound" splined="1">
 		<pt X="-2869.808" Y="-7463.488"/>
 		<pt X="-2874.7021" Y="-7463.1494"/>
 		<pt X="-2887.1182" Y="-7459.839"/>
@@ -3579,7 +3579,7 @@
 		<pt X="-2897.7046" Y="-7435.201"/>
 		<pt X="-2901.8645" Y="-7446.0737"/>
 	</skpath>
-	<skpath from="374" to="62" linestyle="wall" splined="1">
+	<skpath from="374" to="125" linestyle="wall" splined="1">
 		<pt X="-2901.8645" Y="-7446.0737"/>
 		<pt X="-2904.5322" Y="-7451.978"/>
 		<pt X="-2908.4338" Y="-7455.099"/>
@@ -3599,14 +3599,14 @@
 		<pt X="-2895.6711" Y="-7450.734"/>
 		<pt X="-2899.258" Y="-7446.0435"/>
 	</skpath>
-	<skpath from="352" to="356" linestyle="invisible" splined="1">
+	<skpath from="355" to="356" linestyle="invisible" splined="1">
 		<pt X="-2869.223" Y="-7481.6304"/>
 		<pt X="-2850.4282" Y="-7466.7417"/>
 		<pt X="-2819.2446" Y="-7458.4873"/>
 		<pt X="-2806.71" Y="-7466.1304"/>
 		<pt X="-2808.1628" Y="-7470.1206"/>
 	</skpath>
-	<skpath from="352" to="376" linestyle="connective">
+	<skpath from="355" to="376" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="sand"/>
@@ -3614,7 +3614,7 @@
 		<pt X="-2869.223" Y="-7481.6304"/>
 		<pt X="-2848.8997" Y="-7479.2764"/>
 	</skpath>
-	<skpath from="355" to="354" linestyle="pitchbound" splined="1">
+	<skpath from="354" to="353" linestyle="pitchbound" splined="1">
 		<pt X="-2875.4656" Y="-7480.85"/>
 		<pt X="-2884.856" Y="-7475.7627"/>
 		<pt X="-2891.8286" Y="-7466.73"/>
@@ -3622,7 +3622,7 @@
 		<pt X="-2898.5645" Y="-7464.801"/>
 		<pt X="-2904.7275" Y="-7470.7056"/>
 	</skpath>
-	<skpath from="354" to="62" linestyle="invisible" splined="1">
+	<skpath from="353" to="125" linestyle="invisible" splined="1">
 		<pt X="-2904.7275" Y="-7470.7056"/>
 		<pt X="-2910.4673" Y="-7466.6724"/>
 		<pt X="-2913.7578" Y="-7458.145"/>
@@ -3652,7 +3652,7 @@
 		<pt X="-2777.9573" Y="-7389.0947"/>
 		<pt X="-2760.4763" Y="-7424.2466"/>
 	</skpath>
-	<skpath from="353" to="379" linestyle="invisible" splined="1">
+	<skpath from="352" to="379" linestyle="invisible" splined="1">
 		<pt X="-2694.8215" Y="-7363.802"/>
 		<pt X="-2695.7551" Y="-7370.962"/>
 	</skpath>
@@ -3700,6 +3700,204 @@
 	<skpath from="384" to="385" linestyle="detail">
 		<pt X="-4405.4956" Y="-8638.093"/>
 		<pt X="-4417.8345" Y="-8601.075"/>
+	</skpath>
+	<skpath from="386" to="386" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="4.2193203" sfrotatedeg="-4.59741" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410906.42414438596" sfytrans="-5282672.885239983" sfsketch="surveyscans/2017/2017#36/plan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2992.7585" Y="-7804.8525"/>
+		<pt X="-2392.939" Y="-7756.619"/>
+		<pt X="-2458.7292" Y="-6928.4326"/>
+		<pt X="-3058.5442" Y="-6976.466"/>
+		<pt X="-2992.7585" Y="-7804.8525"/>
+	</skpath>
+	<skpath from="111" to="386" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2628.3267" Y="-7353.432" Z="263.26465"/>
+		<pt X="-2992.7585" Y="-7804.8525"/>
+	</skpath>
+	<skpath from="387" to="387" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="4.1640887" sfrotatedeg="-12.054912" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410920.19497307966" sfytrans="-5282652.3921342455" sfsketch="surveyscans/2017/2017#50/notes2.jpeg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1106" sfpixheight="2412">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2853.632" Y="-7597.871"/>
+		<pt X="-2595.5618" Y="-7548.7617"/>
+		<pt X="-2719.4846" Y="-6998.467"/>
+		<pt X="-2977.2063" Y="-7046.31"/>
+		<pt X="-2853.632" Y="-7597.871"/>
+	</skpath>
+	<skpath from="387" to="158" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2853.632" Y="-7597.871"/>
+		<pt X="-2787.4268" Y="-7470.232" Z="178.16466"/>
+	</skpath>
+	<skpath from="388" to="388" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="11.8411" sfrotatedeg="-4.392915" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410887.9480036804" sfytrans="-5282649.29047424" sfsketch="surveyscans/2017/2017#48/plan1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3177.52" Y="-7568.905"/>
+		<pt X="-2963.7273" Y="-7552.481"/>
+		<pt X="-2986.413" Y="-7257.1826"/>
+		<pt X="-3200.2058" Y="-7273.6064"/>
+		<pt X="-3177.52" Y="-7568.905"/>
+	</skpath>
+	<skpath from="388" to="84" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3177.52" Y="-7568.905"/>
+		<pt X="-3101.3267" Y="-7471.832" Z="-553.43536"/>
+	</skpath>
+	<skpath from="389" to="389" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="7.42945" sfrotatedeg="-5.2962217" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410885.35998387594" sfytrans="-5282642.915290913" sfsketch="surveyscans/2017/2017#53/plan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3203.4001" Y="-7505.153"/>
+		<pt X="-2863.111" Y="-7473.608"/>
+		<pt X="-2906.7375" Y="-7003.538"/>
+		<pt X="-3247.0315" Y="-7035.1235"/>
+		<pt X="-3203.4001" Y="-7505.153"/>
+	</skpath>
+	<skpath from="389" to="155" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3203.4001" Y="-7505.153"/>
+		<pt X="-3046.1267" Y="-7192.232" Z="-402.83536"/>
+	</skpath>
+	<skpath from="390" to="390" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="4.7454557" sfrotatedeg="-4.0854115" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410859.1634239674" sfytrans="-5282715.839929851" sfsketch="surveyscans/2017/2017#27/plan-1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3465.3657" Y="-8234.399"/>
+		<pt X="-2931.6873" Y="-8196.281"/>
+		<pt X="-2984.3389" Y="-7459.136"/>
+		<pt X="-3518.0173" Y="-7497.2544"/>
+		<pt X="-3465.3657" Y="-8234.399"/>
+	</skpath>
+	<skpath from="390" to="75" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3465.3657" Y="-8234.399"/>
+		<pt X="-3302.2266" Y="-7805.232" Z="-467.73535"/>
+	</skpath>
+	<skpath from="391" to="391" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="4.247199" sfrotatedeg="-4.8599386" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410791.628943045" sfytrans="-5282773.523795006" sfsketch="surveyscans/2017/2017#25/plan1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-4140.7104" Y="-8811.238"/>
+		<pt X="-3545.054" Y="-8760.592"/>
+		<pt X="-3615.0115" Y="-7937.8413"/>
+		<pt X="-4210.6675" Y="-7988.4883"/>
+		<pt X="-4140.7104" Y="-8811.238"/>
+	</skpath>
+	<skpath from="391" to="87" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-4140.7104" Y="-8811.238"/>
+		<pt X="-3839.0269" Y="-8494.132" Z="64.26465"/>
+	</skpath>
+	<skpath from="392" to="392" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="4.2500706" sfrotatedeg="-3.8883526" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410845.0548114285" sfytrans="-5282771.0537574375" sfsketch="surveyscans/2017/2017#25/plan2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3606.452" Y="-8786.537"/>
+		<pt X="-3010.4253" Y="-8746.026"/>
+		<pt X="-3066.386" Y="-7922.7593"/>
+		<pt X="-3662.413" Y="-7963.272"/>
+		<pt X="-3606.452" Y="-8786.537"/>
+	</skpath>
+	<skpath from="392" to="16" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3606.452" Y="-8786.537"/>
+		<pt X="-3369.3267" Y="-8459.132" Z="161.76465"/>
+	</skpath>
+	<skpath from="393" to="393" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.343575" sfrotatedeg="78.945114" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410818.3125696666" sfytrans="-5282655.545027927" sfsketch="surveyscans/2017/2017#29/notes1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3873.8743" Y="-7631.45"/>
+		<pt X="-3728.2664" Y="-8376.727"/>
+		<pt X="-2698.858" Y="-8175.602"/>
+		<pt X="-2844.4658" Y="-7430.326"/>
+		<pt X="-3873.8743" Y="-7631.45"/>
+	</skpath>
+	<skpath from="393" to="11" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3873.8743" Y="-7631.45"/>
+		<pt X="-3107.7268" Y="-7915.732" Z="20.864649"/>
+	</skpath>
+	<skpath from="394" to="394" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="3.4490936" sfrotatedeg="89.446" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410819.3446799077" sfytrans="-5282629.487276299" sfsketch="surveyscans/2017/2017#30/notes.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3863.5532" Y="-7370.8726"/>
+		<pt X="-3856.4355" Y="-8106.9736"/>
+		<pt X="-2839.694" Y="-8097.142"/>
+		<pt X="-2846.8118" Y="-7361.041"/>
+		<pt X="-3863.5532" Y="-7370.8726"/>
+	</skpath>
+	<skpath from="394" to="133" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-3863.5532" Y="-7370.8726"/>
+		<pt X="-2897.2266" Y="-7709.732" Z="-608.3353"/>
+	</skpath>
+	<skpath from="395" to="395" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="2.4542243" sfrotatedeg="-185.72148" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410970.5569352659" sfytrans="-5282655.770773754" sfsketch="surveyscans/2017/2017#28/notes2.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2351.4307" Y="-7633.7075"/>
+		<pt X="-3380.8196" Y="-7736.844"/>
+		<pt X="-3238.3628" Y="-9158.69"/>
+		<pt X="-2208.974" Y="-9055.554"/>
+		<pt X="-2351.4307" Y="-7633.7075"/>
+	</skpath>
+	<skpath from="395" to="46" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2351.4307" Y="-7633.7075"/>
+		<pt X="-3066.6265" Y="-8674.433" Z="276.16464"/>
+	</skpath>
+	<skpath from="396" to="396" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="2.9791138" sfrotatedeg="-89.26729" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410950.5539001283" sfytrans="-5282821.068960232" sfsketch="surveyscans/2017/2017#26/notes1.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2539" sfpixheight="3507">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2551.461" Y="-9286.689"/>
+		<pt X="-2540.5623" Y="-8434.492"/>
+		<pt X="-3717.6619" Y="-8419.438"/>
+		<pt X="-3728.5605" Y="-9271.636"/>
+		<pt X="-2551.461" Y="-9286.689"/>
+	</skpath>
+	<skpath from="396" to="397" linestyle="connective">
+		<importfrom subname="fishfacecaves"/>
+		<pt X="-2551.461" Y="-9286.689"/>
+		<pt X="-3580.9185" Y="-8920.669"/>
 	</skpath>
 </sketch>
 </tunnelxml>
