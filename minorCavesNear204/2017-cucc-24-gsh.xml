@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2016-09-01 Aspet" tunnelproject="cuccaustria" tunneluser="aspet16" tunneldate="2018-07-23 11:49:12">
+<tunnelxml tunnelversion="version2016-07-03" tunnelproject="projectname" tunneluser="username" tunneldate="2018-08-05 10:26:25">
 <sketch splined="0" locoffsetx="411205.7" locoffsety="5281892.5" locoffsetz="1648.8936" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -3017,15 +3017,15 @@
 		<pt X="-3043.5266" Y="-7678.7324" Z="-401.13538"/>
 		<pt X="-3037.325" Y="-7709.557"/>
 	</skpath>
-	<skpath from="327" to="328" linestyle="invisible" splined="1">
+	<skpath from="325" to="326" linestyle="invisible" splined="1">
 		<pt X="-3272.806" Y="-7839.9463"/>
 		<pt X="-3265.6072" Y="-7837.708"/>
 	</skpath>
-	<skpath from="329" to="330" linestyle="invisible" splined="1">
+	<skpath from="327" to="328" linestyle="invisible" splined="1">
 		<pt X="-3259.8684" Y="-7836.2217"/>
 		<pt X="-3254.0195" Y="-7835.11"/>
 	</skpath>
-	<skpath from="322" to="327" linestyle="wall" splined="1">
+	<skpath from="322" to="325" linestyle="wall" splined="1">
 		<pt X="-3301.6365" Y="-7809.6274"/>
 		<pt X="-3299.2185" Y="-7817.6255"/>
 		<pt X="-3292.5225" Y="-7825.252"/>
@@ -3033,7 +3033,7 @@
 		<pt X="-3276.5261" Y="-7835.482"/>
 		<pt X="-3272.806" Y="-7839.9463"/>
 	</skpath>
-	<skpath from="330" to="321" linestyle="wall" splined="1">
+	<skpath from="328" to="321" linestyle="wall" splined="1">
 		<pt X="-3254.0195" Y="-7835.11"/>
 		<pt X="-3255.8796" Y="-7827.112"/>
 		<pt X="-3263.6917" Y="-7818.9277"/>
@@ -3041,11 +3041,11 @@
 		<pt X="-3275.968" Y="-7810.1855"/>
 		<pt X="-3277.27" Y="-7806.2793"/>
 	</skpath>
-	<skpath from="321" to="331" linestyle="wall" splined="1">
+	<skpath from="321" to="329" linestyle="wall" splined="1">
 		<pt X="-3277.27" Y="-7806.2793"/>
 		<pt X="-3272.6199" Y="-7800.141"/>
 	</skpath>
-	<skpath from="331" to="316" linestyle="wall" splined="1">
+	<skpath from="329" to="316" linestyle="wall" splined="1">
 		<pt X="-3272.6199" Y="-7800.141"/>
 		<pt X="-3260.1577" Y="-7786.749"/>
 		<pt X="-3246.7654" Y="-7775.217"/>
@@ -3078,33 +3078,33 @@
 		<pt X="-3146.3232" Y="-7694.305"/>
 		<pt X="-3145.9512" Y="-7695.421"/>
 	</skpath>
-	<skpath from="320" to="332" linestyle="wall" splined="1">
+	<skpath from="320" to="330" linestyle="wall" splined="1">
 		<pt X="-3145.9512" Y="-7695.421"/>
 		<pt X="-3126.421" Y="-7691.143"/>
 		<pt X="-3090.1501" Y="-7684.2607"/>
 		<pt X="-3080.106" Y="-7684.447"/>
 		<pt X="-3062.4355" Y="-7679.797"/>
 	</skpath>
-	<skpath from="332" to="323" linestyle="wall" splined="1">
+	<skpath from="330" to="323" linestyle="wall" splined="1">
 		<pt X="-3062.4355" Y="-7679.797"/>
 		<pt X="-3049.6013" Y="-7677.9365"/>
 		<pt X="-3046.8113" Y="-7677.7505"/>
 	</skpath>
-	<skpath from="323" to="325" linestyle="wall" splined="1">
+	<skpath from="323" to="331" linestyle="wall" splined="1">
 		<pt X="-3046.8113" Y="-7677.7505"/>
 		<pt X="-3039.185" Y="-7676.821"/>
 	</skpath>
-	<skpath from="326" to="324" linestyle="wall" splined="1">
+	<skpath from="332" to="324" linestyle="wall" splined="1">
 		<pt X="-3026.7227" Y="-7697.095"/>
 		<pt X="-3031.1868" Y="-7702.6753"/>
 		<pt X="-3037.325" Y="-7709.557"/>
 	</skpath>
-	<skpath from="333" to="332" linestyle="pitchbound" splined="1">
+	<skpath from="333" to="330" linestyle="pitchbound" splined="1">
 		<pt X="-3060.7615" Y="-7688.911"/>
 		<pt X="-3061.5054" Y="-7685.005"/>
 		<pt X="-3062.4355" Y="-7679.797"/>
 	</skpath>
-	<skpath from="334" to="332" linestyle="connective">
+	<skpath from="334" to="330" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="1.0">c1</pctext>
 		</pathcodes>
@@ -3187,7 +3187,7 @@
 		<pt X="-3219.2368" Y="-7745.084"/>
 		<pt X="-3205.6584" Y="-7736.9"/>
 	</skpath>
-	<skpath from="341" to="328" linestyle="detail" splined="1">
+	<skpath from="341" to="326" linestyle="detail" splined="1">
 		<pt X="-3302.5037" Y="-7794.6753"/>
 		<pt X="-3299.0325" Y="-7799.5835"/>
 		<pt X="-3297.1724" Y="-7811.302"/>
@@ -3196,7 +3196,7 @@
 		<pt X="-3266.8538" Y="-7833.436"/>
 		<pt X="-3265.6072" Y="-7837.708"/>
 	</skpath>
-	<skpath from="331" to="329" linestyle="detail" splined="1">
+	<skpath from="329" to="327" linestyle="detail" splined="1">
 		<pt X="-3272.6199" Y="-7800.141"/>
 		<pt X="-3278.944" Y="-7800.8853"/>
 		<pt X="-3284.152" Y="-7807.0234"/>
@@ -3205,7 +3205,7 @@
 		<pt X="-3262.0178" Y="-7832.134"/>
 		<pt X="-3259.8684" Y="-7836.2217"/>
 	</skpath>
-	<skpath from="332" to="342" linestyle="connective">
+	<skpath from="330" to="342" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="breeze_a"/>
@@ -4768,7 +4768,7 @@
 		<pt X="-3288.4526" Y="-7888.316"/>
 		<pt X="-3281.6948" Y="-7884.588"/>
 	</skpath>
-	<skpath from="327" to="486" linestyle="wall" splined="1">
+	<skpath from="325" to="486" linestyle="wall" splined="1">
 		<pt X="-3272.806" Y="-7839.9463"/>
 		<pt X="-3274.704" Y="-7847.536"/>
 		<pt X="-3277.7883" Y="-7851.8486"/>
@@ -4851,7 +4851,7 @@
 		<pt X="-3252.7595" Y="-7776.3013"/>
 		<pt X="-3247.167" Y="-7773.272"/>
 	</skpath>
-	<skpath from="331" to="493" linestyle="connective">
+	<skpath from="329" to="493" linestyle="connective">
 		<pt X="-3272.6199" Y="-7800.141"/>
 		<pt X="-3252.7595" Y="-7776.3013"/>
 	</skpath>
@@ -4976,7 +4976,7 @@
 		<pt X="-3268.719" Y="-7800.5205"/>
 		<pt X="-3262.0452" Y="-7798.9624"/>
 	</skpath>
-	<skpath from="513" to="514" linestyle="wall" splined="1">
+	<skpath from="511" to="512" linestyle="wall" splined="1">
 		<pt X="-3087.5352" Y="-7906.389"/>
 		<pt X="-3094.2437" Y="-7905.33"/>
 		<pt X="-3096.715" Y="-7903.2114"/>
@@ -4990,13 +4990,13 @@
 		<pt X="-3057.171" Y="-7880.6147"/>
 		<pt X="-3052.581" Y="-7880.6147"/>
 	</skpath>
-	<skpath from="514" to="515" linestyle="wall" splined="1">
+	<skpath from="512" to="513" linestyle="wall" splined="1">
 		<pt X="-3052.581" Y="-7880.6147"/>
 		<pt X="-3055.0525" Y="-7877.4375"/>
 		<pt X="-3060.3486" Y="-7876.025"/>
 		<pt X="-3063.8794" Y="-7875.319"/>
 	</skpath>
-	<skpath from="515" to="516" linestyle="wall" splined="1">
+	<skpath from="513" to="514" linestyle="wall" splined="1">
 		<pt X="-3063.8794" Y="-7875.319"/>
 		<pt X="-3067.7632" Y="-7870.729"/>
 		<pt X="-3072.7063" Y="-7867.5513"/>
@@ -5006,26 +5006,26 @@
 		<pt X="-3075.8838" Y="-7847.7793"/>
 		<pt X="-3071.294" Y="-7843.8955"/>
 	</skpath>
-	<skpath from="516" to="517" linestyle="wall" splined="1">
+	<skpath from="514" to="515" linestyle="wall" splined="1">
 		<pt X="-3071.294" Y="-7843.8955"/>
 		<pt X="-3068.1162" Y="-7843.1895"/>
 	</skpath>
-	<skpath from="518" to="519" linestyle="wall" splined="1">
+	<skpath from="516" to="517" linestyle="wall" splined="1">
 		<pt X="-3086.476" Y="-7839.3057"/>
 		<pt X="-3088.5945" Y="-7847.4263"/>
 		<pt X="-3080.4739" Y="-7841.071"/>
 	</skpath>
-	<skpath from="509" to="518" linestyle="invisible" splined="1">
+	<skpath from="509" to="516" linestyle="invisible" splined="1">
 		<pt X="-3097.126" Y="-7837.24"/>
 		<pt X="-3092.1929" Y="-7838.5176"/>
 		<pt X="-3086.476" Y="-7839.3057"/>
 	</skpath>
-	<skpath from="519" to="517" linestyle="invisible" splined="1">
+	<skpath from="517" to="515" linestyle="invisible" splined="1">
 		<pt X="-3080.4739" Y="-7841.071"/>
 		<pt X="-3075.7363" Y="-7841.44"/>
 		<pt X="-3068.1162" Y="-7843.1895"/>
 	</skpath>
-	<skpath from="503" to="520" linestyle="estwall" splined="1">
+	<skpath from="503" to="518" linestyle="estwall" splined="1">
 		<pt X="-3097.0735" Y="-7944.543"/>
 		<pt X="-3095.7302" Y="-7949.4062"/>
 		<pt X="-3094.4998" Y="-7955.712"/>
@@ -5037,22 +5037,22 @@
 		<pt X="-3071.7375" Y="-7921.569"/>
 		<pt X="-3071.9841" Y="-7921.3564"/>
 	</skpath>
-	<skpath from="520" to="512" linestyle="estwall" splined="1">
+	<skpath from="518" to="519" linestyle="estwall" splined="1">
 		<pt X="-3071.9841" Y="-7921.3564"/>
 		<pt X="-3076.424" Y="-7922.101"/>
 		<pt X="-3085.4167" Y="-7925.808"/>
 	</skpath>
-	<skpath from="512" to="511" linestyle="pitchbound" splined="1">
+	<skpath from="519" to="520" linestyle="pitchbound" splined="1">
 		<pt X="-3085.4167" Y="-7925.808"/>
 		<pt X="-3089.0256" Y="-7929.53"/>
 		<pt X="-3095.3027" Y="-7937.8125"/>
 	</skpath>
-	<skpath from="511" to="503" linestyle="pitchbound" splined="1">
+	<skpath from="520" to="503" linestyle="pitchbound" splined="1">
 		<pt X="-3095.3027" Y="-7937.8125"/>
 		<pt X="-3095.5764" Y="-7939.102"/>
 		<pt X="-3097.0735" Y="-7944.543"/>
 	</skpath>
-	<skpath from="511" to="521" linestyle="wall" splined="1">
+	<skpath from="520" to="521" linestyle="wall" splined="1">
 		<pt X="-3095.3027" Y="-7937.8125"/>
 		<pt X="-3099.8928" Y="-7936.4004"/>
 		<pt X="-3103.7766" Y="-7932.8696"/>
@@ -5062,13 +5062,13 @@
 		<pt X="-3102.3643" Y="-7920.865"/>
 		<pt X="-3101.4827" Y="-7921.2534"/>
 	</skpath>
-	<skpath from="521" to="511" linestyle="wall" splined="1">
+	<skpath from="521" to="520" linestyle="wall" splined="1">
 		<pt X="-3101.4827" Y="-7921.2534"/>
 		<pt X="-3097.4211" Y="-7925.455"/>
 		<pt X="-3092.4783" Y="-7931.4575"/>
 		<pt X="-3095.3027" Y="-7937.8125"/>
 	</skpath>
-	<skpath from="512" to="522" linestyle="wall" splined="1">
+	<skpath from="519" to="522" linestyle="wall" splined="1">
 		<pt X="-3085.4167" Y="-7925.808"/>
 		<pt X="-3090.3599" Y="-7919.0996"/>
 		<pt X="-3095.656" Y="-7917.3345"/>
@@ -5091,7 +5091,7 @@
 		<pt X="-3094.8567" Y="-7822.7046"/>
 		<pt X="-3092.0605" Y="-7818.976"/>
 	</skpath>
-	<skpath from="518" to="525" linestyle="estwall" splined="1">
+	<skpath from="516" to="525" linestyle="estwall" splined="1">
 		<pt X="-3086.476" Y="-7839.3057"/>
 		<pt X="-3085.3027" Y="-7832.0254"/>
 		<pt X="-3083.4385" Y="-7824.802"/>
@@ -5137,7 +5137,7 @@
 		<pt X="-3250.211" Y="-7838.663"/>
 		<pt X="-3253.4268" Y="-7835.313"/>
 	</skpath>
-	<skpath from="528" to="330" linestyle="wall" splined="1">
+	<skpath from="528" to="328" linestyle="wall" splined="1">
 		<pt X="-3253.4268" Y="-7835.313"/>
 		<pt X="-3254.0195" Y="-7835.11"/>
 	</skpath>
@@ -5346,7 +5346,7 @@
 		<pt X="-3100.843" Y="-7895.986"/>
 		<pt X="-3104.3958" Y="-7903.9033"/>
 	</skpath>
-	<skpath from="523" to="513" linestyle="invisible" splined="1">
+	<skpath from="523" to="511" linestyle="invisible" splined="1">
 		<pt X="-3084.0044" Y="-7909.214"/>
 		<pt X="-3083.993" Y="-7906.441"/>
 		<pt X="-3087.5352" Y="-7906.389"/>
@@ -5398,7 +5398,7 @@
 		<pt X="-3135.0603" Y="-7914.9116"/>
 		<pt X="-3153.8237" Y="-7913.989"/>
 	</skpath>
-	<skpath from="548" to="519" linestyle="connective">
+	<skpath from="548" to="517" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">?x</pctext>
 		</pathcodes>
@@ -5419,14 +5419,14 @@
 		<pt X="-3066.3633" Y="-7907.5684"/>
 		<pt X="-3084.0044" Y="-7909.214"/>
 	</skpath>
-	<skpath from="551" to="511" linestyle="connective">
+	<skpath from="551" to="520" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">P20</pctext>
 		</pathcodes>
 		<pt X="-3078.9468" Y="-7956.7373"/>
 		<pt X="-3095.3027" Y="-7937.8125"/>
 	</skpath>
-	<skpath from="552" to="511" linestyle="connective">
+	<skpath from="552" to="520" linestyle="connective">
 		<pathcodes>
 			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">?b</pctext>
 		</pathcodes>
@@ -5520,7 +5520,7 @@
 		<pt X="-2907.246" Y="-7655.8687"/>
 		<pt X="-2915.7727" Y="-7667.2373"/>
 	</skpath>
-	<skpath from="325" to="562" linestyle="wall" splined="1">
+	<skpath from="331" to="562" linestyle="wall" splined="1">
 		<pt X="-3039.185" Y="-7676.821"/>
 		<pt X="-3027.022" Y="-7678.0317"/>
 		<pt X="-3020.2642" Y="-7680.595"/>
@@ -5553,7 +5553,7 @@
 		<pt X="-2995.3303" Y="-7700.8687"/>
 		<pt X="-2979.712" Y="-7690.6587"/>
 	</skpath>
-	<skpath from="328" to="329" linestyle="invisible" splined="1">
+	<skpath from="326" to="327" linestyle="invisible" splined="1">
 		<pt X="-3265.6072" Y="-7837.708"/>
 		<pt X="-3259.8684" Y="-7836.2217"/>
 	</skpath>
@@ -5579,12 +5579,12 @@
 		<pt X="-3010.2673" Y="-7697.321"/>
 		<pt X="-3014.7454" Y="-7695.007"/>
 	</skpath>
-	<skpath from="563" to="326" linestyle="wall" splined="1">
+	<skpath from="563" to="332" linestyle="wall" splined="1">
 		<pt X="-3014.7454" Y="-7695.007"/>
 		<pt X="-3018.5908" Y="-7695.1895"/>
 		<pt X="-3026.7227" Y="-7697.095"/>
 	</skpath>
-	<skpath from="326" to="325" linestyle="invisible" splined="1">
+	<skpath from="332" to="331" linestyle="invisible" splined="1">
 		<pt X="-3026.7227" Y="-7697.095"/>
 		<pt X="-3026.2039" Y="-7693.464"/>
 		<pt X="-3025.8994" Y="-7688.388"/>
@@ -5647,7 +5647,7 @@
 		<pt X="-3111.7063" Y="-7520.163"/>
 		<pt X="-3086.4414" Y="-7818.4653"/>
 	</skpath>
-	<skpath from="576" to="577" linestyle="wall" splined="1">
+	<skpath from="574" to="575" linestyle="wall" splined="1">
 		<pt X="-3062.9065" Y="-7732.5083"/>
 		<pt X="-3053.5854" Y="-7730.8774"/>
 		<pt X="-3045.8955" Y="-7726.6826"/>
@@ -5655,30 +5655,30 @@
 		<pt X="-3018.165" Y="-7712.4683"/>
 		<pt X="-3010.9412" Y="-7711.3027"/>
 	</skpath>
-	<skpath from="578" to="579" linestyle="wall" splined="1">
+	<skpath from="576" to="577" linestyle="wall" splined="1">
 		<pt X="-2965.967" Y="-7671.222"/>
 		<pt X="-2955.9468" Y="-7672.62"/>
 		<pt X="-2948.0237" Y="-7673.5522"/>
 		<pt X="-2943.1301" Y="-7674.4844"/>
 	</skpath>
-	<skpath from="580" to="575" linestyle="wall" splined="1">
+	<skpath from="578" to="579" linestyle="wall" splined="1">
 		<pt X="-2948.2568" Y="-7655.6094"/>
 		<pt X="-2952.2095" Y="-7656.9185"/>
 	</skpath>
-	<skpath from="580" to="581" linestyle="wall" splined="1">
+	<skpath from="578" to="580" linestyle="wall" splined="1">
 		<pt X="-2948.2568" Y="-7655.6094"/>
 		<pt X="-2943.8293" Y="-7657.0073"/>
 		<pt X="-2939.4019" Y="-7658.6387"/>
 	</skpath>
-	<skpath from="64" to="576" linestyle="connective">
+	<skpath from="64" to="574" linestyle="connective">
 		<pt X="-3067.3267" Y="-7717.632" Z="-566.6354"/>
 		<pt X="-3062.9065" Y="-7732.5083"/>
 	</skpath>
-	<skpath from="64" to="574" linestyle="invisible" splined="1">
+	<skpath from="64" to="581" linestyle="invisible" splined="1">
 		<pt X="-3067.3267" Y="-7717.632" Z="-566.6354"/>
 		<pt X="-3068.965" Y="-7716.6626"/>
 	</skpath>
-	<skpath from="574" to="576" linestyle="estwall" splined="1">
+	<skpath from="581" to="574" linestyle="estwall" splined="1">
 		<pt X="-3068.965" Y="-7716.6626"/>
 		<pt X="-3073.1597" Y="-7722.954"/>
 		<pt X="-3078.5193" Y="-7726.4497"/>
@@ -5686,7 +5686,7 @@
 		<pt X="-3072.4607" Y="-7734.3726"/>
 		<pt X="-3062.9065" Y="-7732.5083"/>
 	</skpath>
-	<skpath from="574" to="582" linestyle="wall" splined="1">
+	<skpath from="581" to="582" linestyle="wall" splined="1">
 		<pt X="-3068.965" Y="-7716.6626"/>
 		<pt X="-3065.4697" Y="-7715.0312"/>
 		<pt X="-3060.3433" Y="-7712.002"/>
@@ -5700,7 +5700,7 @@
 		<pt X="-2998.3577" Y="-7684.272"/>
 		<pt X="-2995.9844" Y="-7681.1455"/>
 	</skpath>
-	<skpath from="582" to="575" linestyle="wall" splined="1">
+	<skpath from="582" to="579" linestyle="wall" splined="1">
 		<pt X="-2995.9844" Y="-7681.1455"/>
 		<pt X="-2995.0955" Y="-7679.378"/>
 		<pt X="-2991.134" Y="-7670.7563"/>
@@ -5730,7 +5730,7 @@
 		<pt X="-2972.9553" Y="-7666.726"/>
 		<pt X="-2978.1848" Y="-7671.4556"/>
 	</skpath>
-	<skpath from="577" to="584" linestyle="wall" splined="1">
+	<skpath from="575" to="584" linestyle="wall" splined="1">
 		<pt X="-3010.9412" Y="-7711.3027"/>
 		<pt X="-3004.4902" Y="-7708.5527"/>
 		<pt X="-2997.108" Y="-7705.477"/>
@@ -5738,7 +5738,7 @@
 		<pt X="-2987.7263" Y="-7701.9395"/>
 		<pt X="-2984.0615" Y="-7698.738"/>
 	</skpath>
-	<skpath from="584" to="578" linestyle="wall" splined="1">
+	<skpath from="584" to="576" linestyle="wall" splined="1">
 		<pt X="-2984.0615" Y="-7698.738"/>
 		<pt X="-2983.5737" Y="-7697.941"/>
 		<pt X="-2982.0356" Y="-7692.0967"/>
@@ -5797,7 +5797,7 @@
 		<pt X="-2976.9265" Y="-7667.532" Z="-521.3353"/>
 		<pt X="-2995.9844" Y="-7681.1455"/>
 	</skpath>
-	<skpath from="102" to="575" linestyle="connective">
+	<skpath from="102" to="579" linestyle="connective">
 		<pt X="-2976.9265" Y="-7667.532" Z="-521.3353"/>
 		<pt X="-2952.2095" Y="-7656.9185"/>
 	</skpath>
@@ -5908,12 +5908,12 @@
 		<pt X="-2932.6145" Y="-7665.537"/>
 		<pt X="-2933.8506" Y="-7657.882"/>
 	</skpath>
-	<skpath from="579" to="604" linestyle="wall" splined="1">
+	<skpath from="577" to="604" linestyle="wall" splined="1">
 		<pt X="-2943.1301" Y="-7674.4844"/>
 		<pt X="-2932.084" Y="-7675.618"/>
 		<pt X="-2931.7744" Y="-7674.8667"/>
 	</skpath>
-	<skpath from="605" to="581" linestyle="wall" splined="1">
+	<skpath from="605" to="580" linestyle="wall" splined="1">
 		<pt X="-2931.4207" Y="-7658.6836"/>
 		<pt X="-2939.4019" Y="-7658.6387"/>
 	</skpath>
@@ -5931,7 +5931,7 @@
 		<pt X="-2986.911" Y="-7679.1064"/>
 		<pt X="-2994.1394" Y="-7674.8"/>
 	</skpath>
-	<skpath from="576" to="606" linestyle="connective">
+	<skpath from="574" to="606" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="hole"/>
@@ -6032,7 +6032,7 @@
 		<pt X="-2911.3098" Y="-7696.495"/>
 		<pt X="-2932.3267" Y="-7681.7324" Z="-621.23535"/>
 	</skpath>
-	<skpath from="618" to="577" linestyle="connective">
+	<skpath from="618" to="575" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">P50</pctext>
 		</pathcodes>
@@ -6124,12 +6124,72 @@
 		<pt X="-2897.0823" Y="-7611.607"/>
 		<pt X="-2907.7124" Y="-7623.0474"/>
 	</skpath>
-	<skpath from="629" to="577" linestyle="connective">
+	<skpath from="629" to="575" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-4.0" nodeposyrel="2.0">drippy&space;pitch</pctext>
 		</pathcodes>
 		<pt X="-3017.127" Y="-7726.0024"/>
 		<pt X="-3010.9412" Y="-7711.3027"/>
+	</skpath>
+	<skpath from="630" to="631" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">;&space;Locn:&tab;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&newline;;&space;Area:&space;Plateau&newline;;&space;Cave:&tab;Gl&uuml;cklich&space;Schmetterlingeh&ouml;hle&space;(GSH,&space;Happy&space;Butterfly).&space;1623/2017_cucc_24&newline;;&space;See&space;gps17.svx&space;for&space;GPS&space;coordinates&newline;&newline;*entrance&space;p2017_cucc_24&newline;*equate&space;p2017_cucc_24&space;&space;&space;&space;&space;2017_cucc_24.dentrance.tag&newline;&newline;*begin&space;2017_cucc_24&newline;&newline;*export&space;dentrance.tag&space;dentrance.gps&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;dentrance&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;dentrance&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;gps&space;tag&space;20&space;19&space;28&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;The&space;Dentrance&quot;&newline;*date&space;2017.07.30&newline;*team&space;Insts&space;Luke&space;Stangroom&newline;*team&space;Notes&space;Becka&space;Lawson&newline;*team&space;Tape&space;Rob&space;Watson&space;&newline;*instrument&space;Becka&space;Lawson&space;Distox2&space;No&space;1&newline;;&space;Calibration:&space;Becka&space;UK&newline;*ref&space;2017#25&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;*flags&space;surface&newline;gps&space;tag&space;8.89&space;131&space;-25&space;&newline;&newline;*flags&space;not&space;surface&newline;tag&space;1&space;0.91&space;111&space;-70&newline;2&space;1&space;4.71&space;063&space;+19&newline;3&space;2&space;2.14&space;341&space;+04&space;&newline;4&space;3&space;6.72&space;042&space;+16&space;&newline;5&space;4&space;3.82&space;026.5&space;16&newline;6&space;5&space;4.95&space;352&space;33&space;&newline;7&space;6&space;4.64&space;275&space;-33&space;&newline;8&space;7&space;6.65&space;291&space;32&space;&newline;9&space;8&space;4.72&space;274&space;10&newline;10&space;9&space;3.01&space;307&space;06&newline;11&space;10&space;5.00&space;277&space;04&newline;12&space;11&space;3.68&space;247&space;-07&newline;12&space;13&space;5.53&space;034&space;-35&space;&newline;14&space;12&space;4.77&space;289&space;-23&space;&newline;14&space;15&space;18.48&space;222&space;-20&newline;15&space;16&space;15.08&space;208&space;-09&newline;16&space;17&space;5.13&space;113&space;-06&space;&newline;17&space;18&space;4.89&space;084&space;+35&space;&newline;18&space;19&space;7.04&space;114&space;-09&newline;14&space;20&space;9.63&space;062.5&space;18&newline;6&space;21&space;8.27&space;252&space;-24&space;&newline;21&space;22&space;16.34&space;020&space;07&space;&newline;21&space;23&space;4.27&space;308&space;03&space;&newline;23&space;24&space;6.91&space;271&space;-51&space;&newline;24&space;25&space;9.42&space;241&space;-21&space;&newline;25&space;26&space;14.47&space;194&space;-07&space;&newline;26&space;27&space;6.18&space;211&space;-07&newline;27&space;28&space;10.34&space;221&space;-07&newline;24&space;29&space;5.34&space;063&space;-10&newline;29&space;30&space;4.77&space;018&space;+38&newline;30&space;31&space;4.35&space;062&space;+26.5&newline;31&space;32&space;2.83&space;145&space;+63&space;&newline;32&space;21&space;10.04&space;193&space;-10&newline;&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;&newline;1&space;0&space;3&space;4.5&space;0.5&space;&newline;2&space;1.2&space;0.3&space;0.1&space;0.2&newline;3&space;0.6&space;0.6&space;0&space;0.4&space;&newline;4&space;0.7&space;0.5&space;0&space;0.6&space;&newline;5&space;1.2&space;0.2&space;0.5&space;5&space;&newline;6&space;-&space;-&space;14&space;1.3&space;&newline;7&space;1.6&space;1&space;8.4&space;1.5&space;&newline;8&space;0.8&space;0.8&space;0.7&space;0.3&newline;9&space;0&space;1.5&space;0.5&space;0.3&newline;10&space;1&space;0.3&space;0.4&space;0.3&space;&newline;11&space;1&space;0.4&space;0.7&space;0.3&space;&newline;12&space;2&space;2&space;1.7&space;0.5&space;&newline;13&space;1&space;1&space;5&space;1&space;&newline;14&space;2&space;1.5&space;0.4&space;1.1&space;&newline;15&space;2&space;1&space;1&space;0.5&space;&newline;16&space;2.5&space;0&space;0.5&space;1&space;&newline;17&space;1&space;0&space;0.5&space;0.3&space;&newline;18&space;0&space;3&space;0.2&space;0.5&space;&newline;19&space;2&space;0&space;4&space;2&space;&newline;20&space;0&space;2.5&space;0.8&space;1&space;&newline;21&space;0&space;7&space;12&space;4&space;&newline;22&space;2&space;4&space;0&space;0.5&space;&newline;23&space;1.5&space;0&space;0.5&space;1.2&space;&newline;24&space;2&space;1&space;0&space;1&space;&newline;25&space;3&space;0&space;1.5&space;1&space;&newline;26&space;1.5&space;2&space;1.5&space;1.5&space;&newline;27&space;2&space;2&space;1.8&space;1&space;&newline;28&space;2&space;2&space;1.4&space;0.6&space;&newline;29&space;2.5&space;2&space;1&space;0.5&space;&newline;30&space;1.3&space;3&space;1&space;1&space;&newline;31&space;1.5&space;1&space;3&space;0.4&newline;32&space;3&space;2&space;0&space;1&space;&newline;&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Snow&space;slope&space;leads&space;to&space;drafting&space;crawling&space;entrance&space;on&space;right.&space;Soon&space;reaches&space;a&space;short&space;pitch&space;or&space;freeclimb&space;down&space;to&space;a&space;loose&space;rift.&space;To&space;right&space;leads&space;to&space;another&space;short&space;pitch.&space;Soon&space;ends&space;at&space;a&space;choke&space;on&space;left.&space;Crawl&space;up&space;through&space;boulders&space;on&space;right&space;leads&space;back&space;up&space;to&space;bypass&space;the&space;pitch.&space;To&space;left&space;from&space;initial&space;pitch&space;leads&space;to&space;a&space;short&space;crawl&space;then&space;a&space;drippy&space;aven.&space;Traverse&space;over&space;loose&space;ledge&space;then&space;down&space;ramp&space;on&space;right&space;and&space;through&space;sandy&space;squeeze&space;to&space;a&space;short&space;pitch&space;down&space;that&space;can&space;get&space;damp&space;with&space;spray&space;in&space;wet&space;conditions.&space;Continue&space;to&space;a&space;traverse&space;then&space;a&space;long&space;(50m?)&space;pitch&space;down&space;to&space;a&space;complex&space;area&space;of&space;pitches&newline;&newline;*end&space;dentrance&newline;&space;;&space;end-included&space;file&space;&quot;dentrance&quot;&newline;&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;dentb&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;dentb&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;20x&space;3&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;The&space;Dentrance&quot;&newline;*date&space;2017.07.31&newline;*team&space;Notes&space;Luke&space;Stangroom&newline;*team&space;Insts&space;Rob&space;Watson&space;&newline;*instrument&space;ULSA&space;Distox2&space;&newline;;&space;Calibration:&space;Austria&space;by&space;Brendan&newline;*ref&space;2017#26&tab;;&space;the&space;notes&newline;*ref&space;2017#28&space;&space;&space;&space;;&space;drawings&space;filed&space;under&space;keinwassermelone&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;1&tab;20x&tab;8.03&tab;263&tab;-14.5&newline;2&tab;1&tab;7.82&tab;252&tab;-12&newline;3&tab;2&tab;10.23&tab;194&tab;-20&newline;4&tab;3&tab;3.69&tab;238&tab;-14.5&newline;4&tab;5&tab;5.88&tab;138&tab;+06&newline;6&tab;3&tab;5.29&tab;107&tab;-14&newline;7&tab;6&tab;8.08&tab;209&tab;+13&newline;8&tab;7&tab;5.49&tab;161&tab;-08&newline;9&tab;8&tab;6.11&tab;202&tab;-16&newline;9&tab;10&tab;6.01&tab;299&tab;-11&newline;11&tab;3&tab;6.06&tab;005&tab;-26.5&newline;11&tab;12&tab;6.52&tab;119&tab;+17&newline;12&tab;13&tab;5.43&tab;050&tab;-03&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;0&tab;2.4&tab;5&tab;1&tab;&newline;2&tab;2.7&tab;0&tab;1.2&tab;1&newline;3&tab;3.4&tab;0&tab;2.7&tab;2&newline;4&tab;0.5&tab;2.5&tab;0.4&tab;0.7&newline;5&tab;2.5&tab;1&tab;0.2&tab;0.1&newline;6&tab;0&tab;5.5&tab;1&tab;1.3&newline;7&tab;3.8&tab;0.7&tab;0.6&tab;0.4&newline;8&tab;0.8&tab;1.6&tab;0.2&tab;0.7&newline;9&tab;2.4&tab;0&tab;0.7&tab;0.1&newline;10&tab;0&tab;2&tab;0.1&tab;0.1&newline;11&tab;2.5&tab;0&tab;0.6&tab;1.5&newline;12&tab;1.5&tab;2&tab;0&tab;0.5&newline;13&tab;1.5&tab;0.5&tab;0.2&tab;0.2S&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Snow&space;slope&space;leads&space;to&space;drafting&space;crawling&space;entrance&space;on&space;right.&space;Soon&space;reaches&space;a&space;short&space;pitch&space;or&space;freeclimb&space;down&space;to&space;a&space;loose&space;rift.&space;To&space;right&space;leads&space;to&space;another&space;short&space;pitch.&space;Soon&space;ends&space;at&space;a&space;choke&space;on&space;left.&space;Crawl&space;up&space;through&space;boulders&space;on&space;right&space;leads&space;back&space;up&space;to&space;bypass&space;the&space;pitch.&space;To&space;left&space;from&space;initial&space;pitch&space;leads&space;to&space;a&space;short&space;crawl&space;then&space;a&space;drippy&space;aven.&space;Traverse&space;over&space;loose&space;ledge&space;then&space;down&space;ramp&space;on&space;right&space;and&space;through&space;sandy&space;squeeze&space;to&space;a&space;short&space;pitch&space;down&space;that&space;can&space;get&space;damp&space;with&space;spray&space;in&space;wet&space;conditions.&space;Continue&space;to&space;a&space;traverse&space;then&space;a&space;long&space;(50m?)&space;pitch&space;down&space;to&space;a&space;complex&space;area&space;of&space;pitches&newline;&newline;*end&space;dentb&newline;&space;;&space;end-included&space;file&space;&quot;dentb&quot;&newline;&newline;*equate&space;dentrance.20&space;dentb.20x&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;couldashouldawoulda&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;couldashouldawoulda&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;19x&space;1&space;9&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;Coulda&space;Shoulda&space;Woulda&quot;&newline;*date&space;2017.08.1&newline;*team&space;Insts&space;Luke&space;Stangroom&newline;*team&space;Notes&space;Rob&space;Watson&space;&newline;*instrument&space;ULSA&space;Distox2&space;&newline;;&space;Calibration:&space;Austria&space;by&space;Brendan&newline;*ref&space;2017#27&tab;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;to&space;from&space;length&space;bearing&space;gradient&space;ignoreall&newline;;&space;****NOTE&space;Rob&space;does&space;from/to&space;back&space;to&space;front&space;to&space;usual&space;on&space;this&space;survey!!!&newline;&newline;1&tab;2&tab;10.56&tab;096&tab;+05&newline;2&tab;3&tab;1.66&tab;194&tab;+13&newline;3&tab;4&tab;7.48&tab;109&tab;+26&newline;4&tab;5&tab;12.01&tab;119&tab;+10&newline;5&tab;6&tab;7.03&tab;225.5&tab;+10&newline;7&tab;6&tab;9.69&tab;302&tab;-12&newline;6&tab;8&tab;25.97&tab;106&tab;-84&newline;8&tab;9&tab;17.52&tab;283&tab;-80&newline;9&tab;10&tab;8.84&tab;122&tab;-57.5&newline;10&tab;11&tab;4.64&tab;139&tab;+03&newline;11&tab;12&tab;5.71&tab;149&tab;+25&newline;12&tab;13&tab;1.31&tab;093&tab;00&newline;13&tab;14&tab;13.74&tab;189&tab;-47&newline;14&tab;15&tab;8.21&tab;154&tab;+02&newline;15&tab;19x&tab;3.52&tab;102&tab;-14.5&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;0&tab;3&tab;20&tab;3&tab;lw&newline;2&tab;0&tab;1.8&tab;20&tab;1.5&tab;lw&newline;3&tab;1.1&tab;0&tab;20&tab;2&tab;rw&newline;4&tab;0.3&tab;0.7&tab;20&tab;0.5&tab;boulder&newline;5&tab;0&tab;2.5&tab;20&tab;1.8&tab;lw&newline;6&tab;2.3&tab;0&tab;-&tab;1.6&tab;rw&newline;7&tab;-&tab;-&tab;-&tab;-&tab;unmarked&newline;8&tab;4&tab;2.7&tab;26&tab;24&tab;&newline;9&tab;3.4&tab;3&tab;5&tab;-&tab;&newline;10&tab;1.7&tab;1.3&tab;2&tab;2&newline;11&tab;0.5&tab;0&tab;6.5&tab;2.5&newline;12&tab;0.7&tab;0&tab;8&tab;2&newline;13&tab;0&tab;1.5&tab;8&tab;1.7&newline;14&tab;4&tab;1&tab;0.1&tab;1.8&newline;15&tab;1.7&tab;0&tab;2.8&tab;1.7&tab;rw&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Snow&space;slope&space;leads&space;to&space;drafting&space;crawling&space;entrance&space;on&space;right.&space;Soon&space;reaches&space;a&space;short&space;pitch&space;or&space;freeclimb&space;down&space;to&space;a&space;loose&space;rift.&space;To&space;right&space;leads&space;to&space;another&space;short&space;pitch.&space;Soon&space;ends&space;at&space;a&space;choke&space;on&space;left.&space;Crawl&space;up&space;through&space;boulders&space;on&space;right&space;leads&space;back&space;up&space;to&space;bypass&space;the&space;pitch.&space;To&space;left&space;from&space;initial&space;pitch&space;leads&space;to&space;a&space;short&space;crawl&space;then&space;a&space;drippy&space;aven.&space;Traverse&space;over&space;loose&space;ledge&space;then&space;down&space;ramp&space;on&space;right&space;and&space;through&space;sandy&space;squeeze&space;to&space;a&space;short&space;pitch&space;down&space;that&space;can&space;get&space;damp&space;with&space;spray&space;in&space;wet&space;conditions.&space;Continue&space;to&space;a&space;traverse&space;then&space;a&space;long&space;(50m?)&space;pitch&space;down&space;to&space;a&space;complex&space;area&space;of&space;pitches&newline;&newline;*end&space;couldashouldawoulda&newline;&space;;&space;end-included&space;file&space;&quot;couldashouldawoulda&quot;&newline;&newline;*equate&space;dentrance.19&space;couldashouldawoulda.19x&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;gsh4&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;gsh4&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;9x&newline;&newline;;&space;Cave:&space;GSH&newline;;&space;Area&space;in&space;cave/QM:&space;Horizontal&space;leads&space;at&space;the&space;top&space;of&space;the&space;second&space;pitch&newline;*title&space;&quot;GSH&space;4&quot;&newline;*date&space;2017.08.02&newline;*team&space;Insts&space;Becka&space;Lawson&newline;*team&space;Notes&space;Luke&space;Stangroom&newline;*team&space;Pics&space;Luke&space;Stangroom&newline;*instrument&space;Becka&apostrophe;s&space;Distox2&space;&newline;;&space;Calibration:&space;UK&space;by&space;Becka&newline;*ref&space;2017#29&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;1&tab;9x&tab;3.76&tab;183&tab;-37&newline;2&tab;1&tab;7.61&tab;223&tab;-23&newline;3&tab;2&tab;8.50&tab;273.5&tab;-12&newline;4&tab;3&tab;1.68&tab;346&tab;00&newline;5&tab;4&tab;5.55&tab;281&tab;-50&newline;6&tab;5&tab;1.71&tab;318&tab;+42&newline;7&tab;6&tab;4.09&tab;043&tab;-16&newline;7&tab;8&tab;8.55&tab;165&tab;+65&newline;7&tab;9&tab;6.20&tab;130&tab;+18&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;0.3&tab;2.1&tab;0.5&tab;50&newline;2&tab;0&tab;1.8&tab;1.5&tab;2&newline;3&tab;1.7&tab;1.3&tab;0&tab;1.7&newline;4&tab;2&tab;0.4&tab;3.8&tab;1.4&newline;5&tab;1&tab;2&tab;1&tab;2&newline;6&tab;1.2&tab;2&tab;0.6&tab;0&newline;7&tab;1.7&tab;1.4&tab;2&tab;9&tab;&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Swing&space;in&space;to&space;short&space;passage&space;from&space;window&space;off&space;pitch&newline;&newline;*end&space;gsh4&newline;&space;;&space;end-included&space;file&space;&quot;gsh4&quot;&newline;&newline;*equate&space;couldashouldawoulda.9&space;gsh4.9x&space;&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;riftpiece&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&newline;*begin&space;riftpiece&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1x&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;Rift&space;Piece&quot;&newline;*date&space;2017.08.02&newline;*team&space;Insts&space;Becka&space;Lawson&newline;*team&space;Notes&space;Luke&space;Stangroom&space;&newline;*instrument&space;Becka&apostrophe;s&space;Distox2&space;&newline;;&space;Calibration:&space;UK&space;by&space;Becka&newline;*ref&space;2017#30&tab;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;34&tab;33&tab;6.83&tab;303&tab;-32&newline;35&tab;34&tab;2.25&tab;196&tab;-05&newline;36&tab;35&tab;2.77&tab;144&tab;-44&newline;37&tab;36&tab;4.68&tab;227&tab;-16&newline;38&tab;37&tab;3.37&tab;135&tab;+05&newline;39&tab;37&tab;10.29&tab;038&tab;-49&newline;40&tab;39&tab;3.62&tab;098&tab;-15&tab;&newline;41&tab;40&tab;3.18&tab;145&tab;+33&newline;41&tab;42&tab;8.62&tab;285&tab;-19&newline;43&tab;41&tab;5.43&tab;067&tab;-62&newline;44&tab;43&tab;9.51&tab;221&tab;-81&newline;44&tab;45&tab;15.94&tab;114&tab;-01&tab;splay&newline;1x&tab;44&tab;4.22&tab;066&tab;+06&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;33&tab;2&tab;0&tab;3.4&tab;0.5&newline;34&tab;1.4&tab;1.5&tab;23&tab;0.5&newline;35&tab;0&tab;3.5&tab;20&tab;1.7&newline;36&tab;1.7&tab;0&tab;19&tab;3&newline;37&tab;0.5&tab;1&tab;9&tab;6&newline;38&tab;1&tab;5.4&tab;7.2&tab;10.4&tab;CHECK&space;if&space;LRUDS&space;correct&newline;39&tab;0&tab;1.5&tab;6.5&tab;12&newline;40&tab;1.5&tab;0.5&tab;13&tab;2.5&newline;41&tab;1&tab;1&tab;13&tab;14&newline;42&tab;0&tab;1.5&tab;12&tab;12&newline;43&tab;0&tab;1.5&tab;7.5&tab;19&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Swing&space;in&space;to&space;short&space;passage&space;from&space;window&space;off&space;pitch&newline;&newline;*end&space;riftpiece&newline;&space;;&space;end-included&space;file&space;&quot;riftpiece&quot;&newline;&newline;*equate&space;riftpiece.1x&space;couldashouldawoulda.1&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;gshclimb&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;gshclimb&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1&newline;&newline;;&space;Cave:&space;gsh&newline;;&space;Area&space;in&space;cave/QM:&space;entrance&newline;*title&space;&quot;gshclimb&quot;&newline;*date&space;2018.07.28&newline;*team&space;Insts&space;Luke&newline;*team&space;Notes&space;Max&newline;*team&space;Pics&space;&newline;*team&space;Tape&space;&newline;*instrument&space;DistoX&space;Becka&space;2&newline;;&space;Calibration:&space;Becka&space;calibrated&space;it&newline;*ref&space;2018#25&newline;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&newline;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;1&space;2&space;10.36&space;264&space;50&newline;2&space;3&space;7.17&space;310&space;-15&newline;3&space;4&space;4.5&space;206&space;-08&newline;&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;Pink&space;nail&space;varnish&space;markings&newline;&newline;;2&space;0.8&space;1.7&space;0.2&space;1.6&space;&newline;;3&space;2.8&space;2.3&space;3.6&space;1.9&space;&newline;;4&space;0.5&space;1.6&space;0.5&space;0.8&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;&newline;&newline;2&space;0.8&space;1.7&space;0.2&space;1.6&space;&newline;3&space;2.8&space;2.3&space;3.6&space;1.9&space;&newline;4&space;0.5&space;1.6&space;0.5&space;0.8&newline;&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;*end&space;gshclimb&newline;&space;;&space;end-included&space;file&space;&quot;gshclimb&quot;&newline;&newline;*&space;equate&space;gshclimb.1&space;dentb.3&newline;&newline;*end&space;2017_cucc_24</pctext>
+		</pathcodes>
+		<pt X="50.0" Y="0.0"/>
+		<pt X="46.193974" Y="-19.13417"/>
+		<pt X="35.35534" Y="-35.35534"/>
+		<pt X="19.13417" Y="-46.193974"/>
+		<pt X="3.061617E-15" Y="-50.0"/>
+		<pt X="-19.13417" Y="-46.193974"/>
+		<pt X="-35.35534" Y="-35.35534"/>
+		<pt X="-46.193974" Y="-19.13417"/>
+		<pt X="-50.0" Y="-6.123234E-15"/>
+		<pt X="-46.193974" Y="19.13417"/>
+		<pt X="-35.35534" Y="35.35534"/>
+		<pt X="-19.13417" Y="46.193974"/>
+		<pt X="-9.184851E-15" Y="50.0"/>
+		<pt X="19.13417" Y="53.806026"/>
+		<pt X="35.35534" Y="64.64466"/>
+		<pt X="46.193974" Y="80.86583"/>
+		<pt X="50.0" Y="100.0"/>
+		<pt X="46.193974" Y="119.13417"/>
+		<pt X="35.35534" Y="135.35535"/>
+		<pt X="19.13417" Y="146.19397"/>
+		<pt X="6.123234E-15" Y="150.0"/>
+		<pt X="-19.13417" Y="146.19397"/>
+		<pt X="-35.35534" Y="135.35535"/>
+		<pt X="-46.193974" Y="119.13417"/>
+		<pt X="-50.0" Y="100.0"/>
+	</skpath>
+	<skpath from="632" to="633" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">;&space;Locn:&tab;Totes&space;Gebirge,&space;Austria&space;-&space;Loser/Augst-Eck&space;Plateau&newline;;&space;Area:&space;Plateau&newline;;&space;Cave:&tab;Gl&uuml;cklich&space;Schmetterlingeh&ouml;hle&space;(GSH,&space;Happy&space;Butterfly).&space;1623/2017_cucc_24&newline;;&space;See&space;gps17.svx&space;for&space;GPS&space;coordinates&newline;&newline;*entrance&space;p2017_cucc_24&newline;*equate&space;p2017_cucc_24&space;&space;&space;&space;&space;2017_cucc_24.dentrance.tag&newline;&newline;*begin&space;2017_cucc_24&newline;&newline;*export&space;dentrance.tag&space;dentrance.gps&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;dentrance&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;dentrance&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;gps&space;tag&space;20&space;19&space;28&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;The&space;Dentrance&quot;&newline;*date&space;2017.07.30&newline;*team&space;Insts&space;Luke&space;Stangroom&newline;*team&space;Notes&space;Becka&space;Lawson&newline;*team&space;Tape&space;Rob&space;Watson&space;&newline;*instrument&space;Becka&space;Lawson&space;Distox2&space;No&space;1&newline;;&space;Calibration:&space;Becka&space;UK&newline;*ref&space;2017#25&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;*flags&space;surface&newline;gps&space;tag&space;8.89&space;131&space;-25&space;&newline;&newline;*flags&space;not&space;surface&newline;tag&space;1&space;0.91&space;111&space;-70&newline;2&space;1&space;4.71&space;063&space;+19&newline;3&space;2&space;2.14&space;341&space;+04&space;&newline;4&space;3&space;6.72&space;042&space;+16&space;&newline;5&space;4&space;3.82&space;026.5&space;16&newline;6&space;5&space;4.95&space;352&space;33&space;&newline;7&space;6&space;4.64&space;275&space;-33&space;&newline;8&space;7&space;6.65&space;291&space;32&space;&newline;9&space;8&space;4.72&space;274&space;10&newline;10&space;9&space;3.01&space;307&space;06&newline;11&space;10&space;5.00&space;277&space;04&newline;12&space;11&space;3.68&space;247&space;-07&newline;12&space;13&space;5.53&space;034&space;-35&space;&newline;14&space;12&space;4.77&space;289&space;-23&space;&newline;14&space;15&space;18.48&space;222&space;-20&newline;15&space;16&space;15.08&space;208&space;-09&newline;16&space;17&space;5.13&space;113&space;-06&space;&newline;17&space;18&space;4.89&space;084&space;+35&space;&newline;18&space;19&space;7.04&space;114&space;-09&newline;14&space;20&space;9.63&space;062.5&space;18&newline;6&space;21&space;8.27&space;252&space;-24&space;&newline;21&space;22&space;16.34&space;020&space;07&space;&newline;21&space;23&space;4.27&space;308&space;03&space;&newline;23&space;24&space;6.91&space;271&space;-51&space;&newline;24&space;25&space;9.42&space;241&space;-21&space;&newline;25&space;26&space;14.47&space;194&space;-07&space;&newline;26&space;27&space;6.18&space;211&space;-07&newline;27&space;28&space;10.34&space;221&space;-07&newline;24&space;29&space;5.34&space;063&space;-10&newline;29&space;30&space;4.77&space;018&space;+38&newline;30&space;31&space;4.35&space;062&space;+26.5&newline;31&space;32&space;2.83&space;145&space;+63&space;&newline;32&space;21&space;10.04&space;193&space;-10&newline;&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;&newline;1&space;0&space;3&space;4.5&space;0.5&space;&newline;2&space;1.2&space;0.3&space;0.1&space;0.2&newline;3&space;0.6&space;0.6&space;0&space;0.4&space;&newline;4&space;0.7&space;0.5&space;0&space;0.6&space;&newline;5&space;1.2&space;0.2&space;0.5&space;5&space;&newline;6&space;-&space;-&space;14&space;1.3&space;&newline;7&space;1.6&space;1&space;8.4&space;1.5&space;&newline;8&space;0.8&space;0.8&space;0.7&space;0.3&newline;9&space;0&space;1.5&space;0.5&space;0.3&newline;10&space;1&space;0.3&space;0.4&space;0.3&space;&newline;11&space;1&space;0.4&space;0.7&space;0.3&space;&newline;12&space;2&space;2&space;1.7&space;0.5&space;&newline;13&space;1&space;1&space;5&space;1&space;&newline;14&space;2&space;1.5&space;0.4&space;1.1&space;&newline;15&space;2&space;1&space;1&space;0.5&space;&newline;16&space;2.5&space;0&space;0.5&space;1&space;&newline;17&space;1&space;0&space;0.5&space;0.3&space;&newline;18&space;0&space;3&space;0.2&space;0.5&space;&newline;19&space;2&space;0&space;4&space;2&space;&newline;20&space;0&space;2.5&space;0.8&space;1&space;&newline;21&space;0&space;7&space;12&space;4&space;&newline;22&space;2&space;4&space;0&space;0.5&space;&newline;23&space;1.5&space;0&space;0.5&space;1.2&space;&newline;24&space;2&space;1&space;0&space;1&space;&newline;25&space;3&space;0&space;1.5&space;1&space;&newline;26&space;1.5&space;2&space;1.5&space;1.5&space;&newline;27&space;2&space;2&space;1.8&space;1&space;&newline;28&space;2&space;2&space;1.4&space;0.6&space;&newline;29&space;2.5&space;2&space;1&space;0.5&space;&newline;30&space;1.3&space;3&space;1&space;1&space;&newline;31&space;1.5&space;1&space;3&space;0.4&newline;32&space;3&space;2&space;0&space;1&space;&newline;&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Snow&space;slope&space;leads&space;to&space;drafting&space;crawling&space;entrance&space;on&space;right.&space;Soon&space;reaches&space;a&space;short&space;pitch&space;or&space;freeclimb&space;down&space;to&space;a&space;loose&space;rift.&space;To&space;right&space;leads&space;to&space;another&space;short&space;pitch.&space;Soon&space;ends&space;at&space;a&space;choke&space;on&space;left.&space;Crawl&space;up&space;through&space;boulders&space;on&space;right&space;leads&space;back&space;up&space;to&space;bypass&space;the&space;pitch.&space;To&space;left&space;from&space;initial&space;pitch&space;leads&space;to&space;a&space;short&space;crawl&space;then&space;a&space;drippy&space;aven.&space;Traverse&space;over&space;loose&space;ledge&space;then&space;down&space;ramp&space;on&space;right&space;and&space;through&space;sandy&space;squeeze&space;to&space;a&space;short&space;pitch&space;down&space;that&space;can&space;get&space;damp&space;with&space;spray&space;in&space;wet&space;conditions.&space;Continue&space;to&space;a&space;traverse&space;then&space;a&space;long&space;(50m?)&space;pitch&space;down&space;to&space;a&space;complex&space;area&space;of&space;pitches&newline;&newline;*end&space;dentrance&newline;&space;;&space;end-included&space;file&space;&quot;dentrance&quot;&newline;&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;dentb&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;dentb&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;20x&space;3&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;The&space;Dentrance&quot;&newline;*date&space;2017.07.31&newline;*team&space;Notes&space;Luke&space;Stangroom&newline;*team&space;Insts&space;Rob&space;Watson&space;&newline;*instrument&space;ULSA&space;Distox2&space;&newline;;&space;Calibration:&space;Austria&space;by&space;Brendan&newline;*ref&space;2017#26&tab;;&space;the&space;notes&newline;*ref&space;2017#28&space;&space;&space;&space;;&space;drawings&space;filed&space;under&space;keinwassermelone&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;1&tab;20x&tab;8.03&tab;263&tab;-14.5&newline;2&tab;1&tab;7.82&tab;252&tab;-12&newline;3&tab;2&tab;10.23&tab;194&tab;-20&newline;4&tab;3&tab;3.69&tab;238&tab;-14.5&newline;4&tab;5&tab;5.88&tab;138&tab;+06&newline;6&tab;3&tab;5.29&tab;107&tab;-14&newline;7&tab;6&tab;8.08&tab;209&tab;+13&newline;8&tab;7&tab;5.49&tab;161&tab;-08&newline;9&tab;8&tab;6.11&tab;202&tab;-16&newline;9&tab;10&tab;6.01&tab;299&tab;-11&newline;11&tab;3&tab;6.06&tab;005&tab;-26.5&newline;11&tab;12&tab;6.52&tab;119&tab;+17&newline;12&tab;13&tab;5.43&tab;050&tab;-03&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;0&tab;2.4&tab;5&tab;1&tab;&newline;2&tab;2.7&tab;0&tab;1.2&tab;1&newline;3&tab;3.4&tab;0&tab;2.7&tab;2&newline;4&tab;0.5&tab;2.5&tab;0.4&tab;0.7&newline;5&tab;2.5&tab;1&tab;0.2&tab;0.1&newline;6&tab;0&tab;5.5&tab;1&tab;1.3&newline;7&tab;3.8&tab;0.7&tab;0.6&tab;0.4&newline;8&tab;0.8&tab;1.6&tab;0.2&tab;0.7&newline;9&tab;2.4&tab;0&tab;0.7&tab;0.1&newline;10&tab;0&tab;2&tab;0.1&tab;0.1&newline;11&tab;2.5&tab;0&tab;0.6&tab;1.5&newline;12&tab;1.5&tab;2&tab;0&tab;0.5&newline;13&tab;1.5&tab;0.5&tab;0.2&tab;0.2S&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Snow&space;slope&space;leads&space;to&space;drafting&space;crawling&space;entrance&space;on&space;right.&space;Soon&space;reaches&space;a&space;short&space;pitch&space;or&space;freeclimb&space;down&space;to&space;a&space;loose&space;rift.&space;To&space;right&space;leads&space;to&space;another&space;short&space;pitch.&space;Soon&space;ends&space;at&space;a&space;choke&space;on&space;left.&space;Crawl&space;up&space;through&space;boulders&space;on&space;right&space;leads&space;back&space;up&space;to&space;bypass&space;the&space;pitch.&space;To&space;left&space;from&space;initial&space;pitch&space;leads&space;to&space;a&space;short&space;crawl&space;then&space;a&space;drippy&space;aven.&space;Traverse&space;over&space;loose&space;ledge&space;then&space;down&space;ramp&space;on&space;right&space;and&space;through&space;sandy&space;squeeze&space;to&space;a&space;short&space;pitch&space;down&space;that&space;can&space;get&space;damp&space;with&space;spray&space;in&space;wet&space;conditions.&space;Continue&space;to&space;a&space;traverse&space;then&space;a&space;long&space;(50m?)&space;pitch&space;down&space;to&space;a&space;complex&space;area&space;of&space;pitches&newline;&newline;*end&space;dentb&newline;&space;;&space;end-included&space;file&space;&quot;dentb&quot;&newline;&newline;*equate&space;dentrance.20&space;dentb.20x&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;couldashouldawoulda&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;couldashouldawoulda&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;19x&space;1&space;9&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;Coulda&space;Shoulda&space;Woulda&quot;&newline;*date&space;2017.08.1&newline;*team&space;Insts&space;Luke&space;Stangroom&newline;*team&space;Notes&space;Rob&space;Watson&space;&newline;*instrument&space;ULSA&space;Distox2&space;&newline;;&space;Calibration:&space;Austria&space;by&space;Brendan&newline;*ref&space;2017#27&tab;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;to&space;from&space;length&space;bearing&space;gradient&space;ignoreall&newline;;&space;****NOTE&space;Rob&space;does&space;from/to&space;back&space;to&space;front&space;to&space;usual&space;on&space;this&space;survey!!!&newline;&newline;1&tab;2&tab;10.56&tab;096&tab;+05&newline;2&tab;3&tab;1.66&tab;194&tab;+13&newline;3&tab;4&tab;7.48&tab;109&tab;+26&newline;4&tab;5&tab;12.01&tab;119&tab;+10&newline;5&tab;6&tab;7.03&tab;225.5&tab;+10&newline;7&tab;6&tab;9.69&tab;302&tab;-12&newline;6&tab;8&tab;25.97&tab;106&tab;-84&newline;8&tab;9&tab;17.52&tab;283&tab;-80&newline;9&tab;10&tab;8.84&tab;122&tab;-57.5&newline;10&tab;11&tab;4.64&tab;139&tab;+03&newline;11&tab;12&tab;5.71&tab;149&tab;+25&newline;12&tab;13&tab;1.31&tab;093&tab;00&newline;13&tab;14&tab;13.74&tab;189&tab;-47&newline;14&tab;15&tab;8.21&tab;154&tab;+02&newline;15&tab;19x&tab;3.52&tab;102&tab;-14.5&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;0&tab;3&tab;20&tab;3&tab;lw&newline;2&tab;0&tab;1.8&tab;20&tab;1.5&tab;lw&newline;3&tab;1.1&tab;0&tab;20&tab;2&tab;rw&newline;4&tab;0.3&tab;0.7&tab;20&tab;0.5&tab;boulder&newline;5&tab;0&tab;2.5&tab;20&tab;1.8&tab;lw&newline;6&tab;2.3&tab;0&tab;-&tab;1.6&tab;rw&newline;7&tab;-&tab;-&tab;-&tab;-&tab;unmarked&newline;8&tab;4&tab;2.7&tab;26&tab;24&tab;&newline;9&tab;3.4&tab;3&tab;5&tab;-&tab;&newline;10&tab;1.7&tab;1.3&tab;2&tab;2&newline;11&tab;0.5&tab;0&tab;6.5&tab;2.5&newline;12&tab;0.7&tab;0&tab;8&tab;2&newline;13&tab;0&tab;1.5&tab;8&tab;1.7&newline;14&tab;4&tab;1&tab;0.1&tab;1.8&newline;15&tab;1.7&tab;0&tab;2.8&tab;1.7&tab;rw&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Snow&space;slope&space;leads&space;to&space;drafting&space;crawling&space;entrance&space;on&space;right.&space;Soon&space;reaches&space;a&space;short&space;pitch&space;or&space;freeclimb&space;down&space;to&space;a&space;loose&space;rift.&space;To&space;right&space;leads&space;to&space;another&space;short&space;pitch.&space;Soon&space;ends&space;at&space;a&space;choke&space;on&space;left.&space;Crawl&space;up&space;through&space;boulders&space;on&space;right&space;leads&space;back&space;up&space;to&space;bypass&space;the&space;pitch.&space;To&space;left&space;from&space;initial&space;pitch&space;leads&space;to&space;a&space;short&space;crawl&space;then&space;a&space;drippy&space;aven.&space;Traverse&space;over&space;loose&space;ledge&space;then&space;down&space;ramp&space;on&space;right&space;and&space;through&space;sandy&space;squeeze&space;to&space;a&space;short&space;pitch&space;down&space;that&space;can&space;get&space;damp&space;with&space;spray&space;in&space;wet&space;conditions.&space;Continue&space;to&space;a&space;traverse&space;then&space;a&space;long&space;(50m?)&space;pitch&space;down&space;to&space;a&space;complex&space;area&space;of&space;pitches&newline;&newline;*end&space;couldashouldawoulda&newline;&space;;&space;end-included&space;file&space;&quot;couldashouldawoulda&quot;&newline;&newline;*equate&space;dentrance.19&space;couldashouldawoulda.19x&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;gsh4&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;gsh4&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;9x&newline;&newline;;&space;Cave:&space;GSH&newline;;&space;Area&space;in&space;cave/QM:&space;Horizontal&space;leads&space;at&space;the&space;top&space;of&space;the&space;second&space;pitch&newline;*title&space;&quot;GSH&space;4&quot;&newline;*date&space;2017.08.02&newline;*team&space;Insts&space;Becka&space;Lawson&newline;*team&space;Notes&space;Luke&space;Stangroom&newline;*team&space;Pics&space;Luke&space;Stangroom&newline;*instrument&space;Becka&apostrophe;s&space;Distox2&space;&newline;;&space;Calibration:&space;UK&space;by&space;Becka&newline;*ref&space;2017#29&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;1&tab;9x&tab;3.76&tab;183&tab;-37&newline;2&tab;1&tab;7.61&tab;223&tab;-23&newline;3&tab;2&tab;8.50&tab;273.5&tab;-12&newline;4&tab;3&tab;1.68&tab;346&tab;00&newline;5&tab;4&tab;5.55&tab;281&tab;-50&newline;6&tab;5&tab;1.71&tab;318&tab;+42&newline;7&tab;6&tab;4.09&tab;043&tab;-16&newline;7&tab;8&tab;8.55&tab;165&tab;+65&newline;7&tab;9&tab;6.20&tab;130&tab;+18&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;1&tab;0.3&tab;2.1&tab;0.5&tab;50&newline;2&tab;0&tab;1.8&tab;1.5&tab;2&newline;3&tab;1.7&tab;1.3&tab;0&tab;1.7&newline;4&tab;2&tab;0.4&tab;3.8&tab;1.4&newline;5&tab;1&tab;2&tab;1&tab;2&newline;6&tab;1.2&tab;2&tab;0.6&tab;0&newline;7&tab;1.7&tab;1.4&tab;2&tab;9&tab;&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Swing&space;in&space;to&space;short&space;passage&space;from&space;window&space;off&space;pitch&newline;&newline;*end&space;gsh4&newline;&space;;&space;end-included&space;file&space;&quot;gsh4&quot;&newline;&newline;*equate&space;couldashouldawoulda.9&space;gsh4.9x&space;&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;riftpiece&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&newline;*begin&space;riftpiece&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1x&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;Rift&space;Piece&quot;&newline;*date&space;2017.08.02&newline;*team&space;Insts&space;Becka&space;Lawson&newline;*team&space;Notes&space;Luke&space;Stangroom&space;&newline;*instrument&space;Becka&apostrophe;s&space;Distox2&space;&newline;;&space;Calibration:&space;UK&space;by&space;Becka&newline;*ref&space;2017#30&tab;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;34&tab;33&tab;6.83&tab;303&tab;-32&newline;35&tab;34&tab;2.25&tab;196&tab;-05&newline;36&tab;35&tab;2.77&tab;144&tab;-44&newline;37&tab;36&tab;4.68&tab;227&tab;-16&newline;38&tab;37&tab;3.37&tab;135&tab;+05&newline;39&tab;37&tab;10.29&tab;038&tab;-49&newline;40&tab;39&tab;3.62&tab;098&tab;-15&tab;&newline;41&tab;40&tab;3.18&tab;145&tab;+33&newline;41&tab;42&tab;8.62&tab;285&tab;-19&newline;43&tab;41&tab;5.43&tab;067&tab;-62&newline;44&tab;43&tab;9.51&tab;221&tab;-81&newline;44&tab;45&tab;15.94&tab;114&tab;-01&tab;splay&newline;1x&tab;44&tab;4.22&tab;066&tab;+06&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;33&tab;2&tab;0&tab;3.4&tab;0.5&newline;34&tab;1.4&tab;1.5&tab;23&tab;0.5&newline;35&tab;0&tab;3.5&tab;20&tab;1.7&newline;36&tab;1.7&tab;0&tab;19&tab;3&newline;37&tab;0.5&tab;1&tab;9&tab;6&newline;38&tab;1&tab;5.4&tab;7.2&tab;10.4&tab;CHECK&space;if&space;LRUDS&space;correct&newline;39&tab;0&tab;1.5&tab;6.5&tab;12&newline;40&tab;1.5&tab;0.5&tab;13&tab;2.5&newline;41&tab;1&tab;1&tab;13&tab;14&newline;42&tab;0&tab;1.5&tab;12&tab;12&newline;43&tab;0&tab;1.5&tab;7.5&tab;19&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Swing&space;in&space;to&space;short&space;passage&space;from&space;window&space;off&space;pitch&newline;&newline;*end&space;riftpiece&newline;&space;;&space;end-included&space;file&space;&quot;riftpiece&quot;&newline;&newline;*equate&space;riftpiece.1x&space;couldashouldawoulda.1&newline;&newline;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;&space;;&space;included&space;file&space;&quot;gshclimb&quot;&newline;&space;;;;;;;;;;;;;;;;;;;;;;;;;;;;&newline;*begin&space;gshclimb&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1&newline;&newline;;&space;Cave:&space;gsh&newline;;&space;Area&space;in&space;cave/QM:&space;entrance&newline;*title&space;&quot;gshclimb&quot;&newline;*date&space;2018.07.28&newline;*team&space;Insts&space;Luke&newline;*team&space;Notes&space;Max&newline;*team&space;Pics&space;&newline;*team&space;Tape&space;&newline;*instrument&space;DistoX&space;Becka&space;2&newline;;&space;Calibration:&space;Becka&space;calibrated&space;it&newline;*ref&space;2018#25&newline;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&newline;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;1&space;2&space;10.36&space;264&space;50&newline;2&space;3&space;7.17&space;310&space;-15&newline;3&space;4&space;4.5&space;206&space;-08&newline;&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;Pink&space;nail&space;varnish&space;markings&newline;&newline;;2&space;0.8&space;1.7&space;0.2&space;1.6&space;&newline;;3&space;2.8&space;2.3&space;3.6&space;1.9&space;&newline;;4&space;0.5&space;1.6&space;0.5&space;0.8&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;&newline;&newline;2&space;0.8&space;1.7&space;0.2&space;1.6&space;&newline;3&space;2.8&space;2.3&space;3.6&space;1.9&space;&newline;4&space;0.5&space;1.6&space;0.5&space;0.8&newline;&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;*end&space;gshclimb&newline;&space;;&space;end-included&space;file&space;&quot;gshclimb&quot;&newline;&newline;*&space;equate&space;gshclimb.1&space;dentb.3&newline;&newline;*end&space;2017_cucc_24</pctext>
+		</pathcodes>
+		<pt X="250.0" Y="0.0"/>
+		<pt X="246.19397" Y="-19.13417"/>
+		<pt X="235.35535" Y="-35.35534"/>
+		<pt X="219.13417" Y="-46.193974"/>
+		<pt X="200.0" Y="-50.0"/>
+		<pt X="180.86583" Y="-46.193974"/>
+		<pt X="164.64465" Y="-35.35534"/>
+		<pt X="153.80603" Y="-19.13417"/>
+		<pt X="150.0" Y="-6.123234E-15"/>
+		<pt X="153.80603" Y="19.13417"/>
+		<pt X="164.64465" Y="35.35534"/>
+		<pt X="180.86583" Y="46.193974"/>
+		<pt X="200.0" Y="50.0"/>
+		<pt X="219.13417" Y="53.806026"/>
+		<pt X="235.35535" Y="64.64466"/>
+		<pt X="246.19397" Y="80.86583"/>
+		<pt X="250.0" Y="100.0"/>
+		<pt X="246.19397" Y="119.13417"/>
+		<pt X="235.35535" Y="135.35535"/>
+		<pt X="219.13417" Y="146.19397"/>
+		<pt X="200.0" Y="150.0"/>
+		<pt X="180.86583" Y="146.19397"/>
+		<pt X="164.64465" Y="135.35535"/>
+		<pt X="153.80603" Y="119.13417"/>
+		<pt X="150.0" Y="100.0"/>
 	</skpath>
 </sketch>
 </tunnelxml>
