@@ -1,0 +1,46 @@
+encoding  utf-8
+survey 2004-18 -title "Eiskeller"
+input 2004-18.th2
+centerline
+
+data normal from  to  tape  compass  clino
+1  2  5.70  177.0  +45.2
+2  3  2.24  287.7  +51.3
+3  4  4.45  169.2  +23.6
+4  5  7.47  277.2  +37.4
+6  5  5.91  308.8  -78.3
+6  7  2.65  83.5  +79.2
+8  7  4.95  102.8  -77.8
+8  9  2.33  347.0  +16.9
+9  10  2.46  219.1  +43.6
+9  11  1.70  261.6  +31.7
+
+#1  a  5.37  270  0
+#1  b  0  90  0
+#2  c  2.23  270  0
+#2  d  3.65  90  0
+#3  e  5.35  270  0
+#3  f  5.33  90  0
+#4  g  3.41  270  0
+#4  h  1.88  90  0
+#5  i  0.46  270  0
+#5  j  8.08  90  0
+#6 k 0 270 0
+#6 l 5.89 90 0
+
+data dimensions station up down left right  
+1  6.88  1.01  3.16  0.90  #Nail varnish on back wall of chamber to right of main shaft, near floor
+#2  3.01  4.90  0  1.48  #Nail varnish on left wall
+#3  0.67  3.53  1.80  0  #Nail varnish on right wall
+#4  1.58  1.39  0  3.65  #Right bolt of Y hang of second pitch
+#5  0  0  4.13  0.28  #Small pinnacle approx 3.5m above bottom of first pitch and 1.5m to right of rope line
+#6  0  0  1.75  1.26  #Bottom of fluting on left side of crack that rope naturally feeds through
+#7  0  0  0  0  #Protruding fluted nose on left side of rope crack
+#8  0  0  0  0  #Nail polish on bump below rebelay hanger
+#9  0  0  0  0  #Nail varnish on lip of shaft, below Y hang bolts
+#10  0  0  0  0  #Tag bolt
+#11  0  0  0  0  #Left bolt of Y hang at surface
+
+endcenterline
+endsurvey
+

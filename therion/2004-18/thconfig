@@ -1,0 +1,20 @@
+encoding  utf-8
+encoding  utf-8
+source 2004-18.th
+layout xvi-export
+  scale 1 100
+  grid-size 1 1 1 m
+endlayout
+export map -fmt xvi -layout xvi-export -o irurixo-plan.xvi
+select 2004-18
+export map -fmt xvi -layout xvi-export -proj [elevation 180] -o irurixo-elev.xvi
+export map -o 2004-18.pdf \
+  -layout local
+ export map -o 2004-18-elev.pdf -proj [elevation 180] \
+  -layout local
+
+layout local
+map-comment "Surveyed by Paul Fox and Natalie Uomini"
+legend on
+scale 1 100
+endlayout
