@@ -1,0 +1,21 @@
+encoding  utf-8
+survey 2018-aa-01 -title "Achte auf die Lücke"
+input 2018-aa-01.th2
+centerline
+
+data normal from  to  tape  compass  clino
+1  2  6.42  96  -80 
+2  3  4.22  234  +3 
+3  4  7.04  354  -44  
+4  5  4.29  329  -23 
+
+data dimensions station left right up down
+1 0	0.7	0.5	6
+2 0	1	6	0.5
+3 1	4	2	2
+4 0.5	0.5	1	0
+5 2	3	1	0.5 
+
+endcenterline
+endsurvey
+
