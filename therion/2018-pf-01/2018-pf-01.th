@@ -1,0 +1,23 @@
+encoding  utf-8
+survey 2018-pf-01 -title "2018-PF-01"
+input 2018-pf-01.th2
+centerline
+
+data normal from  to  tape  compass  clino
+1  2  1.43  174.4  +19.6  
+1  w  1.32  278.8  +8.8
+2  3  2.20  256.8  +50.7
+3  4  3.53  187.9  +40.7
+3 3a 0.27 0 +90
+4  tag  0.79  047.4  +52.2
+
+data dimensions station up down left right  
+1 0.1  0.90  0.16  0.30
+w 0.4  0  0.2  0.2
+2 1.91  0.23  0.39  1.07  
+3 1.4  1.04  1.12  0
+4 0.81  1.27  0.12  2.18
+
+endcenterline
+endsurvey
+
