@@ -8,13 +8,15 @@ endlayout
 export map -fmt xvi -layout xvi-export -o irurixo-plan.xvi
 select 2004-18
 export map -fmt xvi -layout xvi-export -proj [elevation 180] -o irurixo-elev.xvi
+export map -fmt xvi -layout xvi-export -proj [elevation 90] -o irurixo-elev2.xvi
 export map -o 2004-18.pdf \
-  -layout local
+  -layout local -layout-map-comment "Surveyed by Paul Fox and Natalie Uomini"
  export map -o 2004-18-elev.pdf -proj [elevation 180] \
-  -layout local
+  -layout local -layout-map-comment "Cross-section looking South. Surveyed by Paul Fox and Natalie Uomini"
+  export map -o 2004-18-elev2.pdf -proj [elevation 90] \
+  -layout local -layout-map-comment "Cross-section looking East. Surveyed by Paul Fox and Natalie Uomini"
 
 layout local
-map-comment "Surveyed by Paul Fox and Natalie Uomini"
 legend on
 scale 1 100
 endlayout
