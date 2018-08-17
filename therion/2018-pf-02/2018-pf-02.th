@@ -1,0 +1,14 @@
+encoding  utf-8
+survey 2018-pf-02 -title "2018-pf-02"
+input 2018-pf-02.th2
+centerline
+
+data normal from  to  tape  compass  clino
+surface	bottom	11.9	0	-90	
+bottom	centre	2.1	0	+90
+back	centre	1.7	055	0
+back	forward	7.3	055	0
+
+endcenterline
+endsurvey
+
