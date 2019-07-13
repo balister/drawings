@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2016-09-01 Aspet" tunnelproject="cuccaustria" tunneluser="aspet16" tunneldate="2018-07-29 16:22:12">
+<tunnelxml tunnelversion="version2016-09-01 Aspet" tunnelproject="cuccaustria" tunneluser="aspet16" tunneldate="2019-07-13 09:35:15">
 <sketch splined="0" locoffsetx="-4.815" locoffsety="-2.8325" locoffsetz="4.36625" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -98,7 +98,7 @@
 	<skpath from="10" to="10" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
-			<pcarea area_signal="frame" sfscaledown="9.8210335" sfrotatedeg="-156.83167" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="16.592433995835204" sfytrans="15.59094524804248" sfsketch="expofiles/surveyscans/2018/2018#23/CatLitterplan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2552" sfpixheight="3508">
+			<pcarea area_signal="frame" sfscaledown="9.8210335" sfrotatedeg="-156.83167" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="16.592433995835204" sfytrans="15.59094524804248" sfsketch="surveyscans/2018/2018#23/plan-catlitter.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2552" sfpixheight="3508">
 			</pcarea>
 		</pathcodes>
 		<pt X="214.07434" Y="127.58445"/>
@@ -476,7 +476,7 @@
 	</skpath>
 	<skpath from="45" to="18" linestyle="connective">
 		<pathcodes>
-			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0">P6</pctext>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="0.0">?p6</pctext>
 		</pathcodes>
 		<pt X="-48.275753" Y="71.905235"/>
 		<pt X="-59.009953" Y="63.162018"/>
@@ -528,6 +528,24 @@
 		</pathcodes>
 		<pt X="70.25928" Y="-62.712803"/>
 		<pt X="94.91775" Y="-34.90645"/>
+	</skpath>
+	<skpath from="52" to="14" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">tt</pctext>
+		</pathcodes>
+		<pt X="24.72025" Y="12.529534"/>
+		<pt X="25.871128" Y="-8.473983"/>
+		<pt X="24.590357" Y="-3.4012651"/>
+	</skpath>
+	<skpath from="17" to="53" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="breeze_a"/>
+		</pathcodes>
+		<pt X="-50.689545" Y="42.162888"/>
+		<pt X="-56.473225" Y="49.018017"/>
+		<pt X="-51.95933" Y="60.380577"/>
+		<pt X="-47.91239" Y="50.730183"/>
 	</skpath>
 </sketch>
 </tunnelxml>
