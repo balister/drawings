@@ -1,0 +1,28 @@
+encoding  utf-8
+survey 2018-dm-07
+
+input radagast_to_grommit/radagast_to_grommit.th
+input entrance_to_radagast/entrance_to_radagast.th
+input grommit_to_sumps/grommit_to_sumps.th
+input the_second_coming/the_second_coming.th
+input wilfully_endangering_lives/wilfully_endangering_lives.th
+input hobnob_hallway/hobnob_hallway.th
+input hobnob_hallway_2/hobnob_hallway_2.th
+input hobnob_hallway_3/hobnob_hallway_3.th
+input 4th_pitch_tube/4th_pitch_tube.th
+input snagged_and_shagged/snagged_and_shagged.th
+
+equate 1@radagast_to_grommit 1@entrance_to_radagast
+equate 11@radagast_to_grommit 8@grommit_to_sumps
+equate 6@grommit_to_sumps 6x@the_second_coming
+equate 48@the_second_coming 48@wilfully_endangering_lives
+equate 17@the_second_coming 24@hobnob_hallway
+equate 7@the_second_coming 25@hobnob_hallway
+equate 6@the_second_coming 4@hobnob_hallway
+equate 15@hobnob_hallway 1@hobnob_hallway_2
+equate 42@hobnob_hallway_2 42@hobnob_hallway_3
+equate 1@4th_pitch_tube 1@entrance_to_radagast
+equate 23x@snagged_and_shagged 23@4th_pitch_tube
+
+endsurvey
+

@@ -1,0 +1,72 @@
+encoding  utf-8
+survey entrance_to_radagast
+
+# stations linked into other surveys (or likely to)
+#export 1 10
+input entrance_to_radagast.th2
+
+centreline
+# Centreline data
+
+title "Entrance to Radagast"
+date 2018.07.12
+#team Insts "Jon Arne Toft"
+#team Notes "Dickon Morris"
+#team Pics "Dickon Morris"
+
+#instrument "Becka's DistoX"
+# Calibration: [Where, readings]
+#ref 2018#03
+# the #number is on the clear pocket containing the original notes
+data normal from to length bearing gradient ignoreall
+1  2  3.66  227  -02
+2  3  5.43  350  +24
+3  4  12.28  278  +65
+4  5  6.73  237  +48
+5  6  5.62  214  +02
+6  7  5.12  238  +34
+7  8  7.70  216  +39
+8  9  5.51  173  +49
+10  9  7.12  021  -39
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#[#1   0.8   0     5.3   1.6  # NP on boulder. pt 23 on foo survey ]
+#[#2   0.3   1.2   6     1.2  # NP '2' LHW ]
+#[#3   1.3   0     3.4   0.2  # Rock on floor - not refindable ]
+
+
+#LRUDs arranged into passage tubes
+#new data command for each 'passage',
+#repeat stations and adjust numbers as needed
+#In notes, L and R were facing into the cave, opposite to direction of survey
+#data passage station left right up down ignoreall
+#1  1  0  3  1  RHW PH (4th)
+#2  0  1.8  12  1  LHW
+#3  4  0  14  1  RHW
+#4  2  0  3  12  RHW PH (3RD)
+#5  0.5  0  0.7  5  RHW PH (2ND)
+#6  0.2  0.8  0  0.7  Roof of crawl entry
+#7  0.5  0  2  2  RHW base of snow plug
+#8  1.5  0  6  1  on snow plug RHW
+#9  0.5  1  5  4  on boulder on edge of entrance shaft
+
+
+
+
+#-----------
+#Question Mark List  #(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  #(leave commented-out)
+#freeform text describing this section of the cave
+
+endcentreline
+endsurvey
+

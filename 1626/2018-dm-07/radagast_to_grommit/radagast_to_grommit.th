@@ -1,0 +1,115 @@
+encoding  utf-8
+survey radagast_to_grommit
+
+input radagast_to_grommit.th2
+input radagast_to_grommit2.th2
+join radagast_to_grommitSP1 radagast_to_grommit2SP1 -smooth on
+
+# stations linked into other surveys (or likely to)
+#export 1 11
+
+centreline
+# Cave: Homecoming hole
+# Area in cave/QM: 
+title "Radagast to Grommit"
+date 2018.07.13
+#team Insts "Todd Rye"
+#team Notes "Dickon Morris"
+#team Pics "Dickon Morris"
+
+#instrument "Becka's DistoX"
+# Calibration: [Where, readings]
+#ref 2018#04
+# the #number is on the clear pocket containing the original notes
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+11  12  5.61  000  +52
+12  13  30.54  059  +88
+13  14  4.36  022  -03
+14  15  1.81  029  -05
+15  16  5.55  014  -34
+16  17  3.32  034  +19
+17  18  9.74  224  +74
+18  19  2.17  073  +26
+19  20  5.98  026  +07
+20  21  3.23  019  +41
+21  22  4.10  048  -17
+22  23  2.58  016  -09
+23  24  5.04  022  +30
+24  25  4.64  024  +60
+25  26  8.98  034  +11
+26  27  8.75  047  +02
+27  28  3.97  001  +04
+28  29  2.91  000  +12
+29  30  4.17  264  +05
+30  30A  14.58  225  -52
+30  31  5.61  062  -80
+31  32  2.90  272  +41
+32  33  3.16  265  -03
+33  34  7.63  246  -11
+34  35  2.31  140  +14
+35  36  3.50  203  +28
+36  37  10.17  243  +32
+37  38  6.98  217  -08
+38  39  30.64  140  +84
+39  1  4.42  282  +42
+endcentreline
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#[#1   0.8   0     5.3   1.6  # NP on boulder. pt 23 on foo survey ]
+#[#2   0.3   1.2   6     1.2  # NP '2' LHW ]
+#[#3   1.3   0     3.4   0.2  # Rock on floor - not refindable ]
+
+
+#LRUDs arranged into passage tubes
+#new data command for each 'passage',
+#repeat stations and adjust numbers as needed
+#In notes, L and R were facing into the cave, opposite to direction of survey
+#data passage station left right up down ignoreall
+#11  2  0  18  55  to right of y hang
+#12  1.5  0  -  20  RHW beside boulder
+#13  2.5  0  6  30  RHW below y hang
+#14  0  0.5  10  10  LHW on traverse
+#15  0.5  0  3  10  RHW traverse
+#16  0  0.5  5  1.5  LHW
+#17  2  2  5  0  Boulder base of pitch
+#18  0  2.5  4  7  LHW below Y hang
+#19  1  0  4  2  RHW
+#20  1  0.5  6  10  RHW
+#21  0  0.5  7  1  LHW
+#22  0.5  0  10  3  RHW
+#23  0  0.7  8  5  LHW
+#24  1  0.7  4  15  Floor of level in meander
+#25  0.5  0.3  3  10  Roof above pitch head
+#26  0  0.6  3  20  LHW
+#27  2  1  8  2  On boulder before meander
+#28  3  3  20  0  On boulder in middle of passage
+#29  5  0  20  0  RHW
+#30  4  0  20  4  Above Y hang
+#31  3  1  25  0  Base of up pitch
+#32  0.3  0.4  4  1  RHW
+#33  0.6  0  0.6  1  RHW
+#34  1.5  0  3  1  RHW
+#35  0  0.6  2  2  LHW
+#36  0  1.7  16  2  LHW
+#37  2  2  20  0  Top of jammed boulder
+#38  1  6  -  2  base of Radagast
+#39  0  5  5  30  top of Radagast beside y hang
+
+
+#-----------
+#Question Mark List  #(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  #(leave commented-out)
+#freeform text describing this section of the cave
+
+endsurvey
+

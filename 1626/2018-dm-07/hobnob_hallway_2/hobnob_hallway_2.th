@@ -1,0 +1,146 @@
+encoding  utf-8
+survey hobnob_hallway_2
+input hobnob_hallway_2.th2
+centreline
+
+
+# stations linked into other surveys (or likely to)
+#export 1 42
+
+# Cave: Homecoming hole 
+# Area in cave/QM:1626 
+title "Hobnob Hallway 2"
+date 2018.07.19
+#team Insts "Adam Aldridge"
+#team Notes "Todd Rye"
+
+
+#instrument "Becka's DistoX 2"
+# Calibration: [Balcon Hoehle, 0.35]
+#ref 2018#13
+# the #number is on the clear pocket containing the original notes
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+1  2  6.83  313  -33
+2  3  5.54  225  -23
+3  4  8.64  240  +3
+4  5  4.71  209  +43
+5  5a  4.62  201  -12
+5  6  4.88  263  -33
+6  7  5.94  220  +41
+7  8  5.87  117  +23
+8  9  5.20  280  +14
+9  10  6.57  122  +14
+9  11  10.43  158  +34
+11  12  3.76  215  +44
+12  12a  14  162  +60
+12  13  5.46  167  -18
+13  14  6.57  119  -45
+14  15  3.68  307  +7
+15  16  1.79  354  -5
+16  17  1.13  279  -22
+17  18  2.20  351  -4
+18  19  0.86  275  +20
+19  20  5.88  027  -10
+20  21  1.89  023  -7
+21  10  1.01  035  +27
+9  22  5.12  196  +46
+22  22a  5.08  303  +15
+22  23  1.70  150  +36
+23  24  7.19  229  +6
+24  25  3.55  266  -2
+25  26  4.51  253  +8
+26  27  4.13  219  +3
+27  28  1.81  343  +26
+28  29  2.47  240  +40
+29  30  4.37  306  -9
+30  31  2.23  232  -6
+31  32  3.65  322  -28
+32  33  4.22  241  -4
+33  34  2.55  309  -27  
+24  35  3.61  210  +14
+35  36  1.00  195  -2
+36  37  9.54  263  +13
+37  28  2.18  349  -38
+5  38  4.51  267  -31
+38  39  7.07  228  -23
+39  40  5.01  312  -31
+40  41  6.78  252  -25
+41  42  5.66  338  -46
+
+endcentreline
+#-----------r
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Pink nail varnish markings
+
+
+
+#LRUDs arranged into passage tubes
+#new data command for each 'passage',
+#repeat stations and adjust numbers as needed
+#In notes, L and R were facing into the cave, opposite to direction of survey
+#data passage station left right up down ignoreall
+#1  2  2.5  2  1.5
+#2  3  0  1.5  1.3
+#3  0  2  2  2
+#4  1.7  1  1  2.7
+#5  1.5  1  0  2
+#6  1  2  2.5  0
+#7  3.5  0  2  1
+#8  1  5  0  2
+#9  3  2  3  2
+#10  2  2  4  0
+#data passage station left right up down ignoreall
+#11  0  2  4  2
+#12  2  1.5  2  3
+#12a  2  2  0  -
+#13  4  0  17  6
+#14  1  2  21  2
+#15  0  1  20  2
+#16  0.5  0  0.5  4
+#17  0  0.5  0.7  2
+#18  0.7  0  2  4
+#19  0  0.5  2  4
+#20  0  1  2  1
+#21  0.5  0.5  2  1.5
+#data passage station left right up down ignoreall
+#22  2  5  1  4
+#22a  2  2  8  0
+#23  0  2  0.5  1
+#24  2  1.5  0.5  0.5
+#25  0.5  0  1  0.5
+#26  0.5  0  0.7  0.5
+#27  0  2  4  1
+#28  3  0  3  2
+#29  0  1  0.3  0.4
+#30  1  0  0.3  0.4
+#31  0  1  0.3  0.4
+#32  1  0  0.3  0.4
+#33  0  1  0.3  0.4
+#34  0  0  0  0
+#data passage station left right up down ignoreall
+#35  0.5  0  0.5  0.5
+#36  0  0.5  1  0.5
+#37  0  2  3  1
+#data passage station left right up down ignoreall
+#38  1  0  2  4
+#39  0  1  1  2
+#40  4  0  2  2
+#41  2  2  0.5  5
+#42  0  2  1  1    
+
+
+#-----------
+#Question Mark List  #(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station description
+#QM1  a  hobnob_hallway_2.42  hobnob-hallway_3.42  junction of keyhole passage
+#QM2  b  hobnob_hallway_2.14  -  upstream meander  
+#------------
+#Cave description  #(leave commented-out)
+#Hobnob Hallway continues down the sandy slope, and a short travers over a rift in the right of the passage lead to the slopes into Phil Lyns Concert Hall. this small chamber climbs up, and another small chamber is reached. here, a narrow rift enters.if followeed in the downstream direction, it reemerges into Phil Lyns Concert Hall. on the right hand wall of the Concert Hall, a small phreatic tube can be climbed into, although pointlessly as it only leads to a dead end, via a short technical climb into more phrease. this crawl is called Dead Bat Dead End. Back in hobnob hallwy, the rift dramatically shallows to a depth of roughly three metres. It can be climbed into, and followed along to a short three metre climb down. the passage widens, and there are boulders on the floor. The passage could be followed, but this would lead to a awkward climb. Suggested route is through a small squeeze in the boulders, folling this small passage down to the Papsi Pessage junction.
+
+endsurvey
+
