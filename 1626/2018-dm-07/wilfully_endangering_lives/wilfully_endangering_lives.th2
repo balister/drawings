@@ -1,0 +1,104 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -144.0 -3636 2680 152.0
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../../../../media/expo/EXPO64/expofiles/surveyscans/2018/2018#11/plan1.jpg 0 {}
+
+
+
+scrap wilfully_endangering_livesSP1 -projection plan -scale [-128 -3636 2680 -3636 0.0 0.0 71.3232 0.0 m]
+
+line pit
+  2072.0 -1592.0
+  2072.0 -1592.0 1984.0 -1660.0 1968.0 -1664.0
+  1952.0 -1668.0 1780.0 -1732.0 1780.0 -1732.0
+  smooth off
+  1780.0 -1732.0 1556.0 -1792.0 1516.0 -1836.0
+  1476.0 -1880.0 1352.0 -1872.0 1352.0 -1872.0
+  smooth off
+endline
+
+line pit
+  1384.0 -1992.0
+  1520.0 -1932.0
+  1744.0 -1844.0
+  1984.0 -1732.0
+endline
+
+line pit -close on
+  1220.0 -2068.0
+  1220.0 -2068.0 1412.0 -1988.0 1412.0 -1940.0
+  1412.0 -1892.0 1368.0 -1860.0 1256.0 -1892.0
+  1144.0 -1924.0 908.0 -2044.0 908.0 -2044.0
+  smooth off
+  908.0 -2044.0 832.0 -2088.0 856.0 -2144.0
+  880.0 -2200.0 976.0 -2152.0 992.0 -2152.0
+  1008.0 -2152.0 1220.0 -2068.0 1220.0 -2068.0
+  smooth off
+endline
+
+line wall
+  2080.0 -1564.0
+  2080.0 -1564.0 1788.0 -1704.0 1672.0 -1724.0
+  1556.0 -1744.0 1160.0 -1928.0 1160.0 -1928.0
+  smooth off
+  716.0 -2116.0
+endline
+
+line wall
+  2472.0 -1512.0
+  2472.0 -1512.0 2288.0 -1548.0 2168.0 -1528.0
+  smooth off
+endline
+
+line wall
+endline
+
+line wall
+  752.0 -2240.0
+  1564.0 -1952.0
+  1564.0 -1952.0 2036.0 -1736.0 2084.0 -1660.0
+  2132.0 -1584.0 2179.97 -1611.54 2312.0 -1604.0
+  2452.0 -1596.0 2480.0 -1600.0 2480.0 -1600.0
+  smooth off
+endline
+
+point 2132.0 -1600.0 station -name 2
+
+point 1556.0 -1824.0 station -name 1
+
+endscrap
+
+
+
+scrap wilfully_endangering_livesSP2 -projection plan -scale [-128 -3636 2680 -3636 0.0 0.0 71.3232 0.0 m]
+
+line wall
+  1376.0 -2012.0
+  1376.0 -2012.0 2072.0 -1676.0 2080.0 -1564.0
+  smooth off
+endline
+
+line wall
+  2336.0 -1308.0
+  2336.0 -1308.0 2008.0 -1496.0 1960.0 -1532.0
+  1912.0 -1568.0 1576.0 -1836.0 1256.0 -1892.0
+  smooth off
+endline
+
+line wall
+  2168.0 -1528.0
+  2392.0 -1392.0
+endline
+
+line wall
+endline
+
+point 2132.0 -1600.0 station -name 2
+
+point 1556.0 -1824.0 station -name 1
+
+point 2408.0 -1320.0 continuation
+
+endscrap
+
+

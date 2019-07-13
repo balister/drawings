@@ -1,0 +1,67 @@
+encoding  utf-8
+survey grommit_to_sumps
+
+input grommit_to_sumps.th2
+
+# stations linked into other surveys (or likely to)
+#export
+# Centreline data
+centreline
+# Cave: Homecoming hole
+# Area in cave/QM: 
+title "Grommit to sumps"
+date 2018.07.14
+#team Insts "Haydon Saunders"
+#team Notes "Jon Arne Toft"
+#team Pics "Jon Arne Toft"
+
+#instrument "Becka's good DistoX"
+# Calibration: [Where, readings]
+#ref 2018#04
+# the #number is on the clear pocket containing the original notes
+data normal from to length bearing gradient ignoreall
+2  1  5.3  286  +13
+3  2  2.0  294  -36
+3  4  8.0  194  +57
+5  4  12.2  32  -57
+6  5  2.7  28  -24
+7  6  44.5  18  -86  Up Grommit
+8  7  9.7  238  -85  Top of Grommit down into rebelay
+endcentreline
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#[#1   0.8   0     5.3   1.6  # NP on boulder. pt 23 on foo survey ]
+#[#2   0.3   1.2   6     1.2  # NP '2' LHW ]
+#[#3   1.3   0     3.4   0.2  # Rock on floor - not refindable ]
+
+
+#LRUDs arranged into passage tubes
+#new data command for each 'passage',
+#repeat stations and adjust numbers as needed
+#L and R are facing OUT of cave, as this is the direction of survey.
+#data passage station left right up down ignoreall
+#1  1  3  15  3
+#2  1  1  12  1  On boulder
+#3  0  2  11  2  RHW facing in
+#4  1  1  37  1
+#5  4  0  21  6  Right-hand bolt of upper pitch.
+#6  4  0  39  4  NP on LHW
+#7  1  1  15  40  Knot of rebelay, not refinable.
+#8  0  2  18  55  Top of Grommit, end point of prev. survey. LRUD copied from previous.
+
+
+#-----------
+#Question Mark List  #(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  #(leave commented-out)
+#freeform text describing this section of the cave
+
+endsurvey
+
