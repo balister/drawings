@@ -1,13 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.66666666666666 -3644.666666666667 2778.0 148.83333333333334
-##XTHERION## xth_me_area_zoom_to 24
+##XTHERION## xth_me_area_adjust -132.16666666666666 -3636 2765.5 141.54166666666666
+##XTHERION## xth_me_area_zoom_to 96
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} ../../../../../../media/expo/EXPO64/expofiles/surveyscans/2018/2018#08/plan1.jpg 0 {}
 
 
 
 scrap the_second_coming1SP1 -projection plan -scale [-128 -3636 2680 -3636 0.0 0.0 71.3232 0.0 m]
 
-point 2095.8333333333335 -2820.8333333333335 label -text C
+point 2157.291666666667 -2771.875 label -align right -text [C Lead; Passage likely to drop into underlying passage]
 
 area pebbles
   l49-1004--2917
@@ -289,6 +289,8 @@ area pebbles
   l40-2088--3038
 endarea
 
+point 2113.541666666667 -2772.916666666667 continuation
+
 line border -id l40-2088--3038 -close on -subtype invisible
   1875.0000000000002 -2862.5
   2095.8333333333335 -2820.8333333333335
@@ -358,6 +360,8 @@ line border -id l32-1079--3479 -close on
   991.6666666666667 -3462.5000000000005
   1045.8333333333335 -3416.666666666667
 endline
+
+point 870.8333333333334 -2962.5000000000005 label -text Grotto
 
 endscrap
 

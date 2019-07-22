@@ -115,19 +115,45 @@ point 1970.0 -2638.0 station -name 20
 
 point 2324.0 -2482.0 station -name 19
 
-point 2060.0 -2742.0 label -text [C Lead; Immature Pitch]
+point 1982.0 -2814.0 label -text [C Lead; Immature Pitch] -align right
 
-point 1042.0 -2992.0 label -text [C Lead; Immature Pitch]
+point 1210.0 -3044.0 label -text [C Lead; Immature Pitch] -align left
 
-point 1326.0 -3286.0 label -text [A Lead; Pitch]
+point 1210.0 -3246.0 label -text [A Lead; Pitch] -align left
 
-point 1268.0 -3236.0 continuation -text [A Lead; Pitch]
+point 1268.0 -3244.0 continuation -text [A Lead; Pitch]
 
 point 2314.0 -2594.0 continuation
 
 point 1302.0 -3040.0 continuation
 
 point 1868.0 -2812.0 continuation
+
+area flowstone
+  l23-1628--3054
+endarea
+
+line border -id l23-1628--3054 -close on -subtype invisible
+  1446.0 -2854.0
+  1484.0 -2874.0
+  1484.0 -2874.0 1518.0 -2892.0 1526.0 -2904.0
+  1534.0 -2916.0 1574.0 -2942.0 1576.0 -2948.0
+  1578.0 -2954.0 1612.0 -2976.0 1614.0 -2986.0
+  1616.0 -2996.0 1614.0 -3018.0 1618.0 -3032.0
+  1622.0 -3046.0 1658.0 -3092.0 1656.0 -3106.0
+  1654.0 -3120.0 1610.0 -3166.0 1596.0 -3180.0
+  1582.0 -3194.0 1560.0 -3220.0 1518.0 -3232.0
+  1476.0 -3244.0 1432.0 -3254.0 1420.0 -3250.0
+  1408.0 -3246.0 1382.0 -3246.0 1366.0 -3220.0
+  1350.0 -3194.0 1344.0 -3166.0 1342.0 -3150.0
+  1340.0 -3134.0 1342.0 -3120.0 1346.0 -3088.0
+  1350.0 -3056.0 1348.0 -3026.0 1346.0 -3006.0
+  1344.0 -2986.0 1340.0 -2980.0 1338.0 -2966.0
+  1336.0 -2952.0 1348.0 -2912.0 1352.0 -2904.0
+  1356.0 -2896.0 1396.0 -2874.0 1406.0 -2870.0
+  1416.0 -2866.0 1446.0 -2854.0 1446.0 -2854.0
+  smooth off
+endline
 
 endscrap
 

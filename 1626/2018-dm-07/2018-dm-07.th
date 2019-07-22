@@ -1,6 +1,8 @@
 encoding  utf-8
 survey 2018-dm-07
 
+
+
 input radagast_to_grommit/radagast_to_grommit.th
 input entrance_to_radagast/entrance_to_radagast.th
 input grommit_to_sumps/grommit_to_sumps.th
@@ -23,6 +25,7 @@ equate 15@hobnob_hallway 1@hobnob_hallway_2
 equate 42@hobnob_hallway_2 42@hobnob_hallway_3
 equate 1@4th_pitch_tube 1@entrance_to_radagast
 equate 23x@snagged_and_shagged 23@4th_pitch_tube
+
 
 endsurvey
 
