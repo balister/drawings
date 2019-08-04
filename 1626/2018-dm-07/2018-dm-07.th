@@ -13,6 +13,7 @@ input hobnob_hallway_2/hobnob_hallway_2.th
 input hobnob_hallway_3/hobnob_hallway_3.th
 input 4th_pitch_tube/4th_pitch_tube.th
 input snagged_and_shagged/snagged_and_shagged.th
+input propane_nightmares/propane_nightmares.th
 
 equate 1@radagast_to_grommit 1@entrance_to_radagast
 equate 11@radagast_to_grommit 8@grommit_to_sumps
@@ -25,6 +26,7 @@ equate 15@hobnob_hallway 1@hobnob_hallway_2
 equate 42@hobnob_hallway_2 42@hobnob_hallway_3
 equate 1@4th_pitch_tube 1@entrance_to_radagast
 equate 23x@snagged_and_shagged 23@4th_pitch_tube
+equate 4x@propane_nightmares 4@the_second_coming
 
 
 endsurvey
