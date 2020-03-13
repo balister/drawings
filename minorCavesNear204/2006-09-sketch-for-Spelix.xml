@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2016-09-01 Aspet" tunnelproject="cuccaustria" tunneluser="aspet16" tunneldate="2020-03-13 10:58:15">
+<sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1.0">
+	<skpath from="0" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="19" head="20"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="-0.9641314" Y="20.9893" Z="-119.16174"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="2" to="1" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="17" head="20"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="-14.462038" Y="-3.8750913" Z="11.697569"/>
+		<pt X="0.0" Y="-0.0" Z="0.0"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="wall" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="-15.988299" Y="14.529334"/>
+		<pt X="-19.944397" Y="11.401257"/>
+		<pt X="-18.84037" Y="8.181177"/>
+		<pt X="-12.952224" Y="6.24913"/>
+	</skpath>
+	<skpath from="4" to="3" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="-12.952224" Y="6.24913"/>
+		<pt X="-15.988299" Y="14.529334"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="wall" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="2.3201532" Y="-0.28303173"/>
+		<pt X="5.908242" Y="2.1090274"/>
+		<pt X="8.66831" Y="9.469209"/>
+		<pt X="12.897725" Y="19.69162"/>
+	</skpath>
+	<skpath from="6" to="3" linestyle="wall" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="12.897725" Y="19.69162"/>
+		<pt X="12.900414" Y="20.509481"/>
+		<pt X="8.576308" Y="30.629732"/>
+		<pt X="6.7362623" Y="33.481804"/>
+		<pt X="-9.54814" Y="33.2978"/>
+		<pt X="-18.104351" Y="26.213623"/>
+		<pt X="-15.988299" Y="14.529334"/>
+	</skpath>
+	<skpath from="7" to="6" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="1.0">p11</pctext>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="17.408525" Y="21.61351"/>
+		<pt X="12.897725" Y="19.69162"/>
+	</skpath>
+	<skpath from="4" to="8" linestyle="wall" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="-12.952224" Y="6.24913"/>
+		<pt X="-9.916149" Y="4.2250795"/>
+		<pt X="-6.553387" Y="1.0209378"/>
+	</skpath>
+	<skpath from="8" to="5" linestyle="wall" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="-6.553387" Y="1.0209378"/>
+		<pt X="-4.1200056" Y="-0.28303173"/>
+		<pt X="2.3201532" Y="-0.28303173"/>
+	</skpath>
+	<skpath from="8" to="6" linestyle="ceilingbound" splined="1">
+		<sketchsubset subname="2006-09"/>
+		<pt X="-6.553387" Y="1.0209378"/>
+		<pt X="-8.35211" Y="7.2611547"/>
+		<pt X="-9.272133" Y="18.209425"/>
+		<pt X="-3.3839877" Y="21.061495"/>
+		<pt X="5.908242" Y="20.601484"/>
+		<pt X="12.897725" Y="19.69162"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="-6.553387" Y="1.0209378"/>
+		<pt X="1.1241238" Y="6.801143"/>
+	</skpath>
+	<skpath from="3" to="10" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="-15.988299" Y="14.529334"/>
+		<pt X="-12.952224" Y="14.345329"/>
+		<pt X="-12.216206" Y="21.2455"/>
+	</skpath>
+	<skpath from="6" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="bigboulder"/>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="12.897725" Y="19.69162"/>
+		<pt X="0.5747632" Y="32.119007"/>
+		<pt X="-9.272133" Y="23.72956"/>
+	</skpath>
+	<skpath from="12" to="8" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="-1.0">2006-09</pctext>
+		</pathcodes>
+		<sketchsubset subname="2006-09"/>
+		<pt X="8.69091" Y="-7.629491"/>
+		<pt X="-5.954398" Y="-8.902996"/>
+		<pt X="-6.553387" Y="1.0209378"/>
+	</skpath>
+	<skpath from="0" to="4" linestyle="connective">
+		<sketchsubset subname="2006-09"/>
+		<pt X="-0.9641314" Y="20.9893" Z="-119.16174"/>
+		<pt X="-12.952224" Y="6.24913"/>
+	</skpath>
+	<skpath from="13" to="5" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="-1.0">Random&space;Shaft&space;&newline;(Zufälligeschacht)</pctext>
+		</pathcodes>
+		<pt X="-14.876215" Y="-38.62347"/>
+		<pt X="2.3201532" Y="-0.28303173"/>
+	</skpath>
+	<skpath from="14" to="3" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="1.0">%10/1.0000%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;;%10/%%blackrect%&newline;;%10/%%whiterect%&newline;%v1.0/1%&newline;%10/%0m&newline;;%10/%10m&space;&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
+		</pathcodes>
+		<pt X="-74.095856" Y="68.08361"/>
+		<pt X="-15.988299" Y="14.529334"/>
+	</skpath>
+	<skpath from="15" to="3" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="2.0" nodeposyrel="-2.0">%t1/0.5%%v0/%%h0/%&space;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<pt X="-70.158165" Y="-34.85461"/>
+		<pt X="-15.988299" Y="14.529334"/>
+	</skpath>
+	<skpath from="16" to="15" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="0.0" nodeposyrel="0.0">N</pctext>
+		</pathcodes>
+		<pt X="-110.067894" Y="-60.249146"/>
+		<pt X="-70.158165" Y="-34.85461"/>
+	</skpath>
+</sketch>
+</tunnelxml>
