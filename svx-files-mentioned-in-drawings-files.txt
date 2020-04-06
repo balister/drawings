@@ -1,4 +1,15 @@
+cd /home/expo/drawings
 grep -ir *file_begin *|sed "s/\&backslash;/\\\\/g" | awk 'BEGIN {FS=";"}; // { for (i = 1; i<=NF; i++) print $1,$i}' | grep svx | awk '// {print $1, $NF}' | sed 's/&quot//g' |sort | uniq
+grep -ir *file_begin *| awk 'BEGIN {FS=";"}; // { for (i = 1; i<=NF; i++) print $1,$i}' | grep svx | awk '// {print $1, $NF}' | sed 's/&quot//g' |sort | uniq
+
+sed -i 's;"C:&backslash;Users&backslash;goatchurch&backslash;caving&backslash;loser&backslash;";"/home/expo/loser/";' */*.xml
+sed -i 's;C:\\REBECCA\\Tunnel\\CUCCAustria\\loser\\;/home/expo/loser/g;' */*.xml
+sed -i 's;/home/martin/expo/loser/;/home/expo/loser/;g' */*.xml
+
+sed -i 's;gps17.svx;/home/expo/loser/fixedpts/gps17.svx;g' */*.xml
+sed -i 's;/Users/georgebreley/Documents/Caving/SurveyData/Austria/loser/;/home/expo/loser/;g' */*.xml
+sed -i 's;/Users/goatchurch/caving/loser/;/home/expo/loser/;g' */*.xml
+sed -i 's;/Users/pjf33/expo/hg/loser/;/home/expo/loser/;g' */*.xml
 
 107/161connection.xml: C:\Users\goatchurch\caving\loser\caves\107\161connection.svx
 107/entcleads.xml: C:\Users\goatchurch\caving\loser\caves\107\entcleads.svx
