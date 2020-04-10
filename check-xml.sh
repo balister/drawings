@@ -1,5 +1,10 @@
 #!/bin/sh
 echo Using hand-edited table of xml links to svx files "chk-xml.txt"
+# TO DO - replace this hand edited set of links with an automated scanner
+# possibly using tunnel code to do the parsing.
+# see readme.txt for the horrible collection of sed and grep oneliners I used.
+# We can recognise /loser/ and throw away the local PC stuff.
+# NB Therion has no references to survex files so we can't do this for therion drawings.
 awk '
 BEGIN {
     lc = "/mnt/d/CUCC-Expo/"

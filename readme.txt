@@ -13,7 +13,9 @@ or more reliably
 git clone ssh://expo@expo.survex.com/home/expo/drawings
 
 -----------------
-finding bad svx regferences
+finding bad svx references inside tunnel files
+look for <pctext> ... </pctext> tag
+see check-xml.sh for what happens next
 cd /home/expo/drawings
 grep -ir *file_begin *|sed "s/\&backslash;/\\\\/g" | awk 'BEGIN {FS=";"}; // { for (i = 1; i<=NF; i++) print $1,$i}' | grep svx | awk '// {print $1, $NF}' | sed 's/&quot//g' |sort | uniq
 grep -ir *file_begin *| awk 'BEGIN {FS=";"}; // { for (i = 1; i<=NF; i++) print $1,$i}' | grep svx | awk '// {print $1, $NF}' | sed 's/&quot//g' |sort | uniq
