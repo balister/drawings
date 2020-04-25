@@ -38,12 +38,12 @@ sort < xml-refs.ok.tmp > xml-refs.ok
 rm xml-refs.ok.tmp
 sort < xml-refs.err.tmp > xml-refs.err
 rm xml-refs.err.tmp
-echo "<html><head></head><body><pre>"  >../expoweb/xml-refs.err.html
+echo "<html><head><meta name="keywords" content="NOEDIT"></head><body><pre>>"  >../expoweb/xml-refs.err.html
 cat xml-refs.err                      >>../expoweb/xml-refs.err.html
-echo "</pre></body></html>"           >>../expoweb/xml-refs.err.html
-echo "<html><head></head><body><pre>"  >../expoweb/xml-refs.ok.html
+echo "</pre><div id="menu"><ul id="links">&nbsp;</ul></div></body></html>"           >>../expoweb/xml-refs.err.html
+echo "<html><head><meta name="keywords" content="NOEDIT"></head><body><pre>"  >../expoweb/xml-refs.ok.html
 cat xml-refs.ok                       >>../expoweb/xml-refs.ok.html
-echo "</pre></body></html>"           >>../expoweb/xml-refs.ok.html
+echo "</pre><div id="menu"><ul id="links">&nbsp;</ul></div></body></html>"           >>../expoweb/xml-refs.ok.html
 
 if test -s xml-refs.err ; then true ; else rm xml-refs.err ; fi
 
