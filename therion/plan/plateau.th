@@ -1,7 +1,8 @@
 encoding  utf-8
 
-survey all
-import ../../../loser/all.3d -surveys use
+survey 1623
+import ../../../loser/1623.3d -surveys use
+
 survey 107
   input 107ent.th2
   input 107wonderland.th2
@@ -26,13 +27,13 @@ endsurvey
 join pissup@161 loc_avenwarp@107
 
 survey 76
- input 76_bnw.th2
- input 76fiesta.th2
- input 76_plugged.th2
+  input 76_bnw.th2
+  input 76fiesta.th2
+  input 76_plugged.th2
 endsurvey
 
-survey 2004-01
-  input 2004-01.th2
+survey 2004-01  #269 now
+  input 269.th2
 endsurvey
 
 #survey 1987-02
