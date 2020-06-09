@@ -1,9 +1,9 @@
 encoding  utf-8
-source 2004-01.th
+source 269.th
 
 input thconfig_symbols
 
-layout 2004-01
+layout smallcave
   map-header 0 -10 nw
     copy symbols
 #  grid top
@@ -17,7 +17,7 @@ layout 2004-01
 colour map-fg [90]
 
 code tex-map
- \cavename={1623/2004-01 Maraehöhle}
+ \cavename={1623/269 Maraehöhle}
  \cavelength{14\thinspace{}m}
   \cavedepth{5\thinspace{}m}
 #\legendtextsize={\size[10]}
@@ -30,6 +30,6 @@ code tex-map
 
 endlayout
 
-export map -layout 2004-01 -projection plan -output 2004-01-plan.pdf
-#export map -layout 2004-01 -projection elevation -output 2004-01-plan.pdf
+export map -layout smallcave -projection plan -output 269-plan.pdf
+#export map -layout smallcave -projection elevation -output 269-elevation.pdf
  # -layout-map-header 0 0 s
