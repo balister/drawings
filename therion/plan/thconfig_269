@@ -25,11 +25,11 @@ code tex-map
 \legendwidth=10cm
  \framethickness=0.5mm
   
-  scale 1 100
+  scale 1 1500
 #  base-scale 1 200
 
 endlayout
 
 export map -layout smallcave -projection plan -output 269-plan.pdf
-#export map -layout smallcave -projection elevation -output 269-elevation.pdf
+export map -layout smallcave -projection elevation -output 269-elevation.pdf
  # -layout-map-header 0 0 s
