@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2022-09-08 17:55:45">
+<sketch splined="0" locoffsetx="10.424545" locoffsety="-12.765454" locoffsetz="15.060909" realpaperscale="1.0">
+	<skpath from="0" to="1" linestyle="connective">
+		<pathcodes>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*file_begin&space;&quot;C:&backslash;REBECCA&backslash;Tunnel&backslash;CUCCAustria&backslash;loser&backslash;caves-1623&backslash;290&backslash;csj.svx&quot;&space;&quot;&quot;&newline;*begin&space;csj&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1&space;11&newline;&newline;;&space;Cave:290&space;FishFace&space;&newline;;&space;Area&space;in&space;cave/QM:&space;&newline;*title&space;&quot;Can&apostrophe;t&space;Stop&space;Japeing&quot;&newline;*date&space;2022.08.08&newline;*team&space;Insts&space;Rob&space;Watson&space;&newline;*team&space;Notes&space;Luke&space;Stangroom&space;&space;&newline;*team&space;Pics&space;&newline;*team&space;Tape&space;&newline;*instrument&space;ULSA&space;Disto&newline;;&space;Calibration:&space;Potatoe&space;Hut&space;&newline;*ref&space;2022#27&newline;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;1&space;2&space;6.53&space;146&space;7&newline;2&space;3&space;3.12&space;181&space;25&space;&newline;3&space;4&space;6.18&space;092&space;50&newline;4&space;5&space;2.72&space;068&space;-01&newline;5&space;6&space;7.02&space;121&space;60&newline;6&space;7&space;6.39&space;173&space;3.5&newline;7&space;8&space;14.94&space;152&space;74&newline;8&space;9&space;4.23&space;188&space;8&newline;9&space;10&space;3.78&space;023&space;74&newline;10&space;11&space;3.5&space;68&space;77&newline;&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;;1&space;0&space;1&space;1&space;5&newline;;2&space;0.8&space;2&space;10&space;3&space;&newline;;3&space;3&space;0&space;6&space;5&newline;;4&space;0.7&space;0&space;2.5&space;1&newline;;5&space;0&space;0.7&space;5&space;1.5&newline;;6&space;0&space;0.5&space;1.2&space;7.5&newline;;7&space;1.5&space;1.5&space;16&space;3&space;&newline;;8&space;0&space;2&space;3&space;2&space;;16&newline;;9&space;7&space;0&space;7&space;30&newline;;10&space;0&space;1&space;7&space;30&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;&newline;1&space;0&space;1&space;1&space;5&newline;2&space;0.8&space;2&space;10&space;3&space;&newline;3&space;3&space;0&space;6&space;5&newline;4&space;0.7&space;0&space;2.5&space;1&newline;5&space;0&space;0.7&space;5&space;1.5&newline;6&space;0&space;0.5&space;1.2&space;7.5&newline;7&space;1.5&space;1.5&space;16&space;3&space;&newline;8&space;0&space;2&space;3&space;2&space;;16&newline;9&space;7&space;0&space;7&space;30&newline;10&space;0&space;1&space;7&space;30&newline;&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;QM1&space;&space;&space;&space;B&space;&space;&space;csj.1&space;&space;&space;&space;-&space;Imature&space;meander&space;top&space;of&space;a&space;stream&space;rift&space;1mx1m&space;&newline;;&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;&space;scuttle&space;across&space;flake&space;to&space;the&space;right&space;into&space;a&space;window&space;on&space;the&space;right&space;of&space;Keanu&space;breeze&space;down&space;2&space;x&space;7m&space;pitches&space;in&space;a&space;rift&space;before&space;entering&space;the&space;top&space;of&space;an&space;immature&space;meander&newline;&newline;*end&space;csj&newline;*file_end&space;&quot;C:&backslash;REBECCA&backslash;Tunnel&backslash;CUCCAustria&backslash;loser&backslash;caves-1623&backslash;290&backslash;csj.svx&quot;&space;&quot;&quot;</pctext>
+		</pathcodes>
+		<pt X="-104.24545" Y="-227.65454"/>
+		<pt X="-108.05148" Y="-246.78871"/>
+		<pt X="-118.890114" Y="-263.0099"/>
+		<pt X="-135.11128" Y="-273.8485"/>
+		<pt X="-154.24545" Y="-277.65454"/>
+		<pt X="-173.37962" Y="-273.8485"/>
+		<pt X="-189.6008" Y="-263.0099"/>
+		<pt X="-200.43942" Y="-246.78871"/>
+		<pt X="-204.24545" Y="-227.65454"/>
+		<pt X="-200.43942" Y="-208.52037"/>
+		<pt X="-189.6008" Y="-192.2992"/>
+		<pt X="-173.37962" Y="-181.46057"/>
+		<pt X="-154.24545" Y="-177.65454"/>
+		<pt X="-135.11128" Y="-173.84851"/>
+		<pt X="-118.890114" Y="-163.00989"/>
+		<pt X="-108.05148" Y="-146.78871"/>
+		<pt X="-104.24545" Y="-127.65454"/>
+		<pt X="-108.05148" Y="-108.52037"/>
+		<pt X="-118.890114" Y="-92.299194"/>
+		<pt X="-135.11128" Y="-81.46057"/>
+		<pt X="-154.24545" Y="-77.65454"/>
+		<pt X="-173.37962" Y="-81.46057"/>
+		<pt X="-189.6008" Y="-92.299194"/>
+		<pt X="-200.43942" Y="-108.52037"/>
+		<pt X="-204.24545" Y="-127.65454"/>
+	</skpath>
+	<skpath from="2" to="3" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.1" head="csj.2"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="-104.24545" Y="-127.65454" Z="-150.6091"/>
+		<pt X="-68.045456" Y="-73.954544" Z="-142.60909"/>
+	</skpath>
+	<skpath from="3" to="4" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.2" head="csj.3"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="-68.045456" Y="-73.954544" Z="-142.60909"/>
+		<pt X="-68.545456" Y="-45.654545" Z="-129.5091"/>
+	</skpath>
+	<skpath from="4" to="5" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.3" head="csj.4"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="-68.545456" Y="-45.654545" Z="-129.5091"/>
+		<pt X="-28.845455" Y="-44.254547" Z="-82.109085"/>
+	</skpath>
+	<skpath from="5" to="6" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.4" head="csj.5"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="-28.845455" Y="-44.254547" Z="-82.109085"/>
+		<pt X="-3.5454545" Y="-54.454544" Z="-82.60909"/>
+	</skpath>
+	<skpath from="6" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.5" head="csj.6"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="-3.5454545" Y="-54.454544" Z="-82.60909"/>
+		<pt X="26.554546" Y="-36.354546" Z="-21.809092"/>
+	</skpath>
+	<skpath from="7" to="8" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.6" head="csj.7"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="26.554546" Y="-36.354546" Z="-21.809092"/>
+		<pt X="34.254547" Y="26.945456" Z="-17.90909"/>
+	</skpath>
+	<skpath from="8" to="9" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.7" head="csj.8"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="34.254547" Y="26.945456" Z="-17.90909"/>
+		<pt X="53.65455" Y="63.245453" Z="125.69091"/>
+	</skpath>
+	<skpath from="9" to="10" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.8" head="csj.9"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="53.65455" Y="63.245453" Z="125.69091"/>
+		<pt X="47.754547" Y="104.74545" Z="131.59091"/>
+	</skpath>
+	<skpath from="10" to="11" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.9" head="csj.10"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="47.754547" Y="104.74545" Z="131.59091"/>
+		<pt X="51.854546" Y="95.145454" Z="167.89091"/>
+	</skpath>
+	<skpath from="11" to="12" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="csj.10" head="csj.11"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Can&apostrophe;t Stop Japeing"/>
+		<pt X="51.854546" Y="95.145454" Z="167.89091"/>
+		<pt X="59.154545" Y="92.24545" Z="201.9909"/>
+	</skpath>
+	<skpath from="13" to="13" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="6.8933086" sfrotatedeg="89.89328" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-21.423316719257734" sfytrans="37.00588880720786" sfsketch="/REBECCA/Tunnel/CUCCAustria/drawings/290-scans/wallet42-2022-keanubreeze-drawnupplan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2975" sfpixheight="4091">
+			</pcarea>
+		</pathcodes>
+		<pt X="-318.4786" Y="242.40434"/>
+		<pt X="-317.67474" Y="-189.17285"/>
+		<pt X="275.79828" Y="-188.06744"/>
+		<pt X="274.99442" Y="243.50977"/>
+		<pt X="-318.4786" Y="242.40434"/>
+	</skpath>
+	<skpath from="9" to="14" linestyle="connective">
+		<pt X="53.65455" Y="63.245453" Z="125.69091"/>
+		<pt X="26.760315" Y="50.781372"/>
+	</skpath>
+	<skpath from="8" to="15" linestyle="connective">
+		<pt X="34.254547" Y="26.945456" Z="-17.90909"/>
+		<pt X="17.908587" Y="28.249699"/>
+	</skpath>
+	<skpath from="8" to="16" linestyle="connective">
+		<pt X="34.254547" Y="26.945456" Z="-17.90909"/>
+		<pt X="46.609646" Y="18.593266"/>
+	</skpath>
+	<skpath from="7" to="17" linestyle="connective">
+		<pt X="26.554546" Y="-36.354546" Z="-21.809092"/>
+		<pt X="20.859163" Y="-29.688894"/>
+	</skpath>
+	<skpath from="6" to="18" linestyle="connective">
+		<pt X="-3.5454545" Y="-54.454544" Z="-82.60909"/>
+		<pt X="-4.08662" Y="-47.392353"/>
+	</skpath>
+	<skpath from="6" to="19" linestyle="connective">
+		<pt X="-3.5454545" Y="-54.454544" Z="-82.60909"/>
+		<pt X="-8.378367" Y="-55.975845"/>
+	</skpath>
+	<skpath from="5" to="20" linestyle="connective">
+		<pt X="-28.845455" Y="-44.254547" Z="-82.109085"/>
+		<pt X="-32.519447" Y="-42.295902"/>
+	</skpath>
+	<skpath from="5" to="21" linestyle="connective">
+		<pt X="-28.845455" Y="-44.254547" Z="-82.109085"/>
+		<pt X="-33.86062" Y="-51.6841"/>
+	</skpath>
+	<skpath from="4" to="22" linestyle="connective">
+		<pt X="-68.545456" Y="-45.654545" Z="-129.5091"/>
+		<pt X="-50.759373" Y="-68.04639"/>
+	</skpath>
+	<skpath from="3" to="23" linestyle="connective">
+		<pt X="-68.045456" Y="-73.954544" Z="-142.60909"/>
+		<pt X="-83.21571" Y="-60.267593"/>
+	</skpath>
+	<skpath from="3" to="24" linestyle="connective">
+		<pt X="-68.045456" Y="-73.954544" Z="-142.60909"/>
+		<pt X="-63.634617" Y="-84.408676"/>
+	</skpath>
+	<skpath from="2" to="25" linestyle="connective">
+		<pt X="-104.24545" Y="-127.65454" Z="-150.6091"/>
+		<pt X="-115.67206" Y="-124.64381"/>
+	</skpath>
+	<skpath from="2" to="26" linestyle="connective">
+		<pt X="-104.24545" Y="-127.65454" Z="-150.6091"/>
+		<pt X="-102.52858" Y="-130.8132"/>
+	</skpath>
+	<skpath from="27" to="25" linestyle="wall" splined="1">
+		<pt X="-107.893265" Y="-142.6155"/>
+		<pt X="-112.18501" Y="-134.56847"/>
+		<pt X="-115.13559" Y="-128.93556"/>
+		<pt X="-115.67206" Y="-124.64381"/>
+	</skpath>
+	<skpath from="25" to="23" linestyle="wall" splined="1">
+		<pt X="-115.67206" Y="-124.64381"/>
+		<pt X="-100.919174" Y="-103.18507"/>
+		<pt X="-90.99451" Y="-77.70282"/>
+		<pt X="-83.21571" Y="-60.267593"/>
+	</skpath>
+	<skpath from="24" to="26" linestyle="wall" splined="1">
+		<pt X="-63.634617" Y="-84.408676"/>
+		<pt X="-73.827515" Y="-96.47922"/>
+		<pt X="-93.14038" Y="-122.76617"/>
+		<pt X="-100.919174" Y="-126.25321"/>
+		<pt X="-102.52858" Y="-128.3991"/>
+		<pt X="-102.52858" Y="-130.8132"/>
+	</skpath>
+	<skpath from="23" to="4" linestyle="wall" splined="1">
+		<pt X="-83.21571" Y="-60.267593"/>
+		<pt X="-79.72867" Y="-53.025272"/>
+		<pt X="-68.545456" Y="-45.654545" Z="-129.5091"/>
+	</skpath>
+	<skpath from="4" to="28" linestyle="wall" splined="1">
+		<pt X="-68.545456" Y="-45.654545" Z="-129.5091"/>
+		<pt X="-60.952274" Y="-40.15003"/>
+		<pt X="-50.222904" Y="-39.61356"/>
+	</skpath>
+	<skpath from="28" to="20" linestyle="wall" splined="1">
+		<pt X="-50.222904" Y="-39.61356"/>
+		<pt X="-38.95707" Y="-40.95473"/>
+		<pt X="-32.519447" Y="-42.295902"/>
+	</skpath>
+	<skpath from="24" to="22" linestyle="wall" splined="1">
+		<pt X="-63.634617" Y="-84.408676"/>
+		<pt X="-61.756977" Y="-75.556946"/>
+		<pt X="-50.759373" Y="-68.04639"/>
+	</skpath>
+	<skpath from="22" to="21" linestyle="wall" splined="1">
+		<pt X="-50.759373" Y="-68.04639"/>
+		<pt X="-44.58999" Y="-62.145233"/>
+		<pt X="-37.6159" Y="-54.09821"/>
+		<pt X="-33.86062" Y="-51.6841"/>
+	</skpath>
+	<skpath from="21" to="19" linestyle="wall" splined="1">
+		<pt X="-33.86062" Y="-51.6841"/>
+		<pt X="-27.422997" Y="-50.8794"/>
+		<pt X="-15.888926" Y="-53.293507"/>
+		<pt X="-8.378367" Y="-55.975845"/>
+	</skpath>
+	<skpath from="20" to="18" linestyle="wall" splined="1">
+		<pt X="-32.519447" Y="-42.295902"/>
+		<pt X="-20.180674" Y="-44.71001"/>
+		<pt X="-9.719539" Y="-48.46529"/>
+		<pt X="-4.08662" Y="-47.392353"/>
+	</skpath>
+	<skpath from="18" to="17" linestyle="wall" splined="1">
+		<pt X="-4.08662" Y="-47.392353"/>
+		<pt X="8.788623" Y="-38.808857"/>
+		<pt X="21.127398" Y="-33.712406"/>
+		<pt X="20.859163" Y="-29.688894"/>
+	</skpath>
+	<skpath from="29" to="7" linestyle="wall" splined="1">
+		<pt X="29.979126" Y="-27.54302"/>
+		<pt X="26.554546" Y="-36.354546" Z="-21.809092"/>
+	</skpath>
+	<skpath from="7" to="19" linestyle="wall" splined="1">
+		<pt X="26.554546" Y="-36.354546" Z="-21.809092"/>
+		<pt X="24.346207" Y="-42.83237"/>
+		<pt X="4.7651095" Y="-53.829975"/>
+		<pt X="-1.4042777" Y="-55.975845"/>
+		<pt X="-8.378367" Y="-55.975845"/>
+	</skpath>
+	<skpath from="15" to="30" linestyle="wall" splined="1">
+		<pt X="17.908587" Y="28.249699"/>
+		<pt X="18.445055" Y="32.80968"/>
+	</skpath>
+	<skpath from="31" to="16" linestyle="wall" splined="1">
+		<pt X="49.828457" Y="28.517933"/>
+		<pt X="46.609646" Y="18.593266"/>
+	</skpath>
+	<skpath from="32" to="27" linestyle="estwall" splined="1">
+		<pt X="-101.99211" Y="-153.07663"/>
+		<pt X="-105.21092" Y="-145.56607"/>
+		<pt X="-107.893265" Y="-142.6155"/>
+	</skpath>
+	<skpath from="33" to="26" linestyle="estwall" splined="1">
+		<pt X="-93.94508" Y="-146.639"/>
+		<pt X="-97.70036" Y="-137.78728"/>
+		<pt X="-102.52858" Y="-130.8132"/>
+	</skpath>
+	<skpath from="32" to="34" linestyle="invisible" splined="1">
+		<pt X="-101.99211" Y="-153.07663"/>
+		<pt X="-98.23683" Y="-150.39429"/>
+	</skpath>
+	<skpath from="34" to="35" linestyle="invisible" splined="1">
+		<pt X="-98.23683" Y="-150.39429"/>
+		<pt X="-96.09096" Y="-149.05312"/>
+	</skpath>
+	<skpath from="35" to="33" linestyle="invisible" splined="1">
+		<pt X="-96.09096" Y="-149.05312"/>
+		<pt X="-93.94508" Y="-146.639"/>
+	</skpath>
+	<skpath from="16" to="15" linestyle="pitchbound" splined="1">
+		<pt X="46.609646" Y="18.593266"/>
+		<pt X="39.63556" Y="21.812077"/>
+		<pt X="35.075577" Y="24.49442"/>
+		<pt X="28.101486" Y="26.640293"/>
+		<pt X="17.908587" Y="28.249699"/>
+	</skpath>
+	<skpath from="29" to="17" linestyle="pitchbound" splined="1">
+		<pt X="29.979126" Y="-27.54302"/>
+		<pt X="25.419144" Y="-27.006552"/>
+		<pt X="20.859163" Y="-29.688894"/>
+	</skpath>
+	<skpath from="29" to="36" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="sand"/>
+		</pathcodes>
+		<pt X="29.979126" Y="-27.54302"/>
+		<pt X="27.565018" Y="-6.352516"/>
+	</skpath>
+	<skpath from="17" to="37" linestyle="wall" splined="1">
+		<pt X="20.859163" Y="-29.688894"/>
+		<pt X="15.226244" Y="-24.055975"/>
+		<pt X="8.788623" Y="-8.49839"/>
+		<pt X="8.252154" Y="-6.084282"/>
+		<pt X="15.226244" Y="2.499213"/>
+		<pt X="18.75973" Y="5.1198173"/>
+	</skpath>
+	<skpath from="37" to="15" linestyle="wall" splined="1">
+		<pt X="18.75973" Y="5.1198173"/>
+		<pt X="20.322695" Y="7.327429"/>
+		<pt X="19.249758" Y="21.812077"/>
+		<pt X="17.908587" Y="28.249699"/>
+	</skpath>
+	<skpath from="16" to="38" linestyle="wall" splined="1">
+		<pt X="46.609646" Y="18.593266"/>
+		<pt X="40.708496" Y="-0.1831293"/>
+		<pt X="39.546093" Y="-3.3684363"/>
+	</skpath>
+	<skpath from="38" to="29" linestyle="wall" splined="1">
+		<pt X="39.546093" Y="-3.3684363"/>
+		<pt X="32.66147" Y="-20.300695"/>
+		<pt X="29.979126" Y="-27.54302"/>
+	</skpath>
+	<skpath from="38" to="37" linestyle="invisible" splined="1">
+		<pt X="39.546093" Y="-3.3684363"/>
+		<pt X="30.515594" Y="-0.71959776"/>
+		<pt X="25.419144" Y="2.499213"/>
+		<pt X="18.75973" Y="5.1198173"/>
+	</skpath>
+	<skpath from="38" to="39" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="bigboulders"/>
+			<pcsymbol rname="boulders"/>
+		</pathcodes>
+		<pt X="39.546093" Y="-3.3684363"/>
+		<pt X="34.53911" Y="9.473303"/>
+	</skpath>
+	<skpath from="30" to="31" linestyle="invisible" splined="1">
+		<pt X="18.445055" Y="32.80968"/>
+		<pt X="24.346207" Y="28.786167"/>
+		<pt X="40.44026" Y="26.103825"/>
+		<pt X="44.73201" Y="26.640293"/>
+		<pt X="49.828457" Y="28.517933"/>
+	</skpath>
+	<skpath from="40" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">Window</pctext>
+		</pathcodes>
+		<pt X="55.997845" Y="15.64269"/>
+		<pt X="46.609646" Y="18.593266"/>
+	</skpath>
+	<skpath from="23" to="28" linestyle="invisible" splined="1">
+		<pt X="-83.21571" Y="-60.267593"/>
+		<pt X="-66.58519" Y="-54.634674"/>
+		<pt X="-55.855824" Y="-48.197056"/>
+		<pt X="-50.222904" Y="-39.61356"/>
+	</skpath>
+	<skpath from="4" to="41" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="flowpara"/>
+		</pathcodes>
+		<pt X="-68.545456" Y="-45.654545" Z="-129.5091"/>
+		<pt X="-66.316956" Y="-49.00176"/>
+		<pt X="-64.70755" Y="-51.6841"/>
+	</skpath>
+	<skpath from="21" to="20" linestyle="pitchbound" splined="1">
+		<pt X="-33.86062" Y="-51.6841"/>
+		<pt X="-34.66532" Y="-47.12412"/>
+		<pt X="-32.519447" Y="-42.295902"/>
+	</skpath>
+	<skpath from="42" to="21" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">p6</pctext>
+		</pathcodes>
+		<pt X="-31.44651" Y="-62.145233"/>
+		<pt X="-33.86062" Y="-51.6841"/>
+	</skpath>
+	<skpath from="43" to="29" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="-1.0">p6</pctext>
+		</pathcodes>
+		<pt X="36.684982" Y="-30.761831"/>
+		<pt X="29.979126" Y="-27.54302"/>
+	</skpath>
+	<skpath from="44" to="34" linestyle="pitchbound" splined="1">
+		<pt X="-76.50986" Y="-72.0699"/>
+		<pt X="-78.923965" Y="-77.434586"/>
+		<pt X="-79.9969" Y="-84.945145"/>
+		<pt X="-92.067444" Y="-99.16156"/>
+		<pt X="-108.1615" Y="-125.98498"/>
+		<pt X="-107.893265" Y="-132.69083"/>
+		<pt X="-104.137985" Y="-142.07903"/>
+		<pt X="-98.23683" Y="-150.39429"/>
+	</skpath>
+	<skpath from="35" to="45" linestyle="pitchbound" splined="1">
+		<pt X="-96.09096" Y="-149.05312"/>
+		<pt X="-101.45564" Y="-140.20139"/>
+		<pt X="-105.21092" Y="-131.88612"/>
+		<pt X="-101.99211" Y="-121.15676"/>
+		<pt X="-86.16629" Y="-99.96626"/>
+		<pt X="-72.48634" Y="-84.408676"/>
+		<pt X="-65.24402" Y="-78.77576"/>
+		<pt X="-64.975784" Y="-73.94754"/>
+		<pt X="-64.975784" Y="-70.19226"/>
+	</skpath>
+	<skpath from="45" to="44" linestyle="pitchbound" splined="1">
+		<pt X="-64.975784" Y="-70.19226"/>
+		<pt X="-59.34287" Y="-67.241684"/>
+		<pt X="-55.58759" Y="-64.02287"/>
+		<pt X="-49.686436" Y="-58.926422"/>
+		<pt X="-43.248817" Y="-54.09821"/>
+		<pt X="-37.6159" Y="-51.415867"/>
+		<pt X="-42.17588" Y="-49.00176"/>
+		<pt X="-50.49114" Y="-51.415867"/>
+		<pt X="-59.34287" Y="-58.389954"/>
+		<pt X="-64.70755" Y="-66.16875"/>
+		<pt X="-70.34047" Y="-72.0699"/>
+		<pt X="-76.50986" Y="-72.0699"/>
+	</skpath>
+	<skpath from="46" to="34" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">?B</pctext>
+		</pathcodes>
+		<pt X="-92.87215" Y="-160.05072"/>
+		<pt X="-98.23683" Y="-150.39429"/>
+	</skpath>
+	<skpath from="23" to="47" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream2"/>
+		</pathcodes>
+		<pt X="-83.21571" Y="-60.267593"/>
+		<pt X="-77.74536" Y="-65.62415"/>
+		<pt X="-85.06084" Y="-76.190956"/>
+	</skpath>
+</sketch>
+</tunnelxml>
