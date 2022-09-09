@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2022-09-09 16:07:51">
+<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2022-09-09 16:11:16">
 <sketch splined="0" locoffsetx="-15.249583" locoffsety="10.450833" locoffsetz="-6.0020833" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -768,12 +768,6 @@
 		<pt X="-15.525022" Y="1.5154159"/>
 		<pt X="-14.328742" Y="7.5142074"/>
 	</skpath>
-	<skpath from="47" to="44" linestyle="wall" splined="1">
-		<pt X="-14.328742" Y="7.5142074"/>
-		<pt X="-14.018434" Y="13.783349"/>
-		<pt X="-18.753426" Y="24.006626"/>
-		<pt X="-21.49309" Y="26.783833"/>
-	</skpath>
 	<skpath from="43" to="46" linestyle="wall" splined="1">
 		<pt X="-7.9055343" Y="30.242483"/>
 		<pt X="-4.0103827" Y="24.975147"/>
@@ -1077,6 +1071,24 @@
 		<pt X="-7.9055343" Y="30.242483"/>
 		<pt X="-15.751355" Y="49.268433"/>
 		<pt X="-15.751355" Y="40.47962"/>
+	</skpath>
+	<skpath from="47" to="106" linestyle="wall" splined="1">
+		<pt X="-14.328742" Y="7.5142074"/>
+		<pt X="-14.018434" Y="13.783349"/>
+		<pt X="-14.357519" Y="15.423458"/>
+	</skpath>
+	<skpath from="106" to="44" linestyle="wall" splined="1">
+		<pt X="-14.357519" Y="15.423458"/>
+		<pt X="-18.753426" Y="24.006626"/>
+		<pt X="-21.49309" Y="26.783833"/>
+	</skpath>
+	<skpath from="106" to="40" linestyle="detail" splined="1">
+		<pt X="-14.357519" Y="15.423458"/>
+		<pt X="-7.254626" Y="10.876274"/>
+		<pt X="-5.922988" Y="3.9517574"/>
+		<pt X="-27.761848" Y="-18.153429"/>
+		<pt X="-40.012917" Y="-30.670824"/>
+		<pt X="-43.727272" Y="-29.542763"/>
 	</skpath>
 </sketch>
 </tunnelxml>
