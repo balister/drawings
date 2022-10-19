@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2022-10-19 23:41:20">
+<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2022-10-19 23:46:56">
 <sketch splined="0" locoffsetx="411063.38" locoffsety="5282010.5" locoffsetz="1594.1239" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -68126,11 +68126,13 @@
 		<pt X="4034.338" Y="-15725.058"/>
 	</skpath>
 	<skpath from="5567" to="5568" linestyle="detail" splined="1">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4110.9883" Y="-15676.733"/>
 		<pt X="4108.3486" Y="-15669.108"/>
 	</skpath>
 	<skpath from="5568" to="5569" linestyle="detail">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4108.3486" Y="-15669.108"/>
 		<pt X="4107.837" Y="-15664.9795"/>
@@ -68139,6 +68141,7 @@
 		<pt X="4122.173" Y="-15664.783"/>
 	</skpath>
 	<skpath from="5569" to="5570" linestyle="detail">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4122.173" Y="-15664.783"/>
 		<pt X="4125.185" Y="-15670.874"/>
@@ -68148,24 +68151,28 @@
 		<pt X="4126.264" Y="-15679.796"/>
 	</skpath>
 	<skpath from="5570" to="5567" linestyle="detail">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4126.264" Y="-15679.796"/>
 		<pt X="4117.659" Y="-15676.676"/>
 		<pt X="4110.9883" Y="-15676.733"/>
 	</skpath>
 	<skpath from="5568" to="5571" linestyle="detail">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4108.3486" Y="-15669.108"/>
 		<pt X="4117.575" Y="-15671.676"/>
 		<pt X="4118.3247" Y="-15671.126"/>
 	</skpath>
 	<skpath from="5571" to="5569" linestyle="detail" splined="1">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4118.3247" Y="-15671.126"/>
 		<pt X="4118.942" Y="-15670.061"/>
 		<pt X="4122.173" Y="-15664.783"/>
 	</skpath>
 	<skpath from="5571" to="5570" linestyle="detail">
+		<sketchsubset subname="medusasmaze"/>
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="4118.3247" Y="-15671.126"/>
 		<pt X="4121.0557" Y="-15673.389"/>
@@ -89878,6 +89885,11 @@
 		<importfrom subname="1623-midtunnbalc"/>
 		<pt X="5856.237" Y="-14470.808"/>
 		<pt X="5796.2046" Y="-14494.707"/>
+	</skpath>
+	<skpath from="5569" to="5530" linestyle="invisible" splined="1">
+		<sketchsubset subname="medusasmaze"/>
+		<pt X="4122.173" Y="-15664.783"/>
+		<pt X="4122.142" Y="-15652.256"/>
 	</skpath>
 </sketch>
 </tunnelxml>
