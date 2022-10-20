@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2019-07-14 13:00:30">
+<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2022-10-20 16:51:39">
 <sketch splined="0" locoffsetx="-3.5757143" locoffsety="3.3614285" locoffsetz="9.617143" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
-			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*file_begin&space;&quot;/home/expo/loser/caves-1623/2017-cucc-24/riftpiece.svx&quot;&space;&quot;&quot;&newline;&newline;*begin&space;riftpiece&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1x&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;Rift&space;Piece&quot;&newline;*date&space;2017.08.02&newline;*team&space;Insts&space;Becka&space;Lawson&newline;*team&space;Notes&space;Luke&space;Stangroom&space;&newline;*instrument&space;Becka&apostrophe;s&space;Distox2&space;&newline;;&space;Calibration:&space;UK&space;by&space;Becka&newline;*ref&space;2017#30&tab;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;34&tab;33&tab;6.83&tab;303&tab;-32&newline;35&tab;34&tab;2.25&tab;196&tab;-05&newline;36&tab;35&tab;2.77&tab;144&tab;-44&newline;37&tab;36&tab;4.68&tab;227&tab;-16&newline;38&tab;37&tab;3.37&tab;135&tab;+05&newline;39&tab;37&tab;10.29&tab;038&tab;-49&newline;40&tab;39&tab;3.62&tab;098&tab;-15&tab;&newline;41&tab;40&tab;3.18&tab;145&tab;+33&newline;41&tab;42&tab;8.62&tab;285&tab;-19&newline;43&tab;41&tab;5.43&tab;067&tab;-62&newline;44&tab;43&tab;9.51&tab;221&tab;-81&newline;44&tab;45&tab;15.94&tab;114&tab;-01&tab;splay&newline;1x&tab;44&tab;4.22&tab;066&tab;+06&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;33&tab;2&tab;0&tab;3.4&tab;0.5&newline;34&tab;1.4&tab;1.5&tab;23&tab;0.5&newline;35&tab;0&tab;3.5&tab;20&tab;1.7&newline;36&tab;1.7&tab;0&tab;19&tab;3&newline;37&tab;0.5&tab;1&tab;9&tab;6&newline;38&tab;1&tab;5.4&tab;7.2&tab;10.4&tab;CHECK&space;if&space;LRUDS&space;correct&newline;39&tab;0&tab;1.5&tab;6.5&tab;12&newline;40&tab;1.5&tab;0.5&tab;13&tab;2.5&newline;41&tab;1&tab;1&tab;13&tab;14&newline;42&tab;0&tab;1.5&tab;12&tab;12&newline;43&tab;0&tab;1.5&tab;7.5&tab;19&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Swing&space;in&space;to&space;short&space;passage&space;from&space;window&space;off&space;pitch&newline;&newline;*end&space;riftpiece&newline;*file_end&space;&quot;/home/expo/loser/caves-1623/2017-cucc-24/riftpiece.svx&quot;&space;&quot;&quot;</pctext>
+			<pctext style="survey" nodeposxrel="-1.0" nodeposyrel="-1.0">*file_begin&space;&quot;/home/expo/loser/caves-1623/2017-cucc-24/riftpiece.svx&quot;&space;&quot;&quot;&newline;&newline;*begin&space;riftpiece&newline;&newline;;&space;stations&space;linked&space;into&space;other&space;surveys&space;(or&space;likely&space;to)&newline;*export&space;1x&newline;&newline;;&space;Cave:&space;GSOH&newline;;&space;Area&space;in&space;cave/QM:&space;Entrance&newline;*title&space;&quot;Rift&space;Piece&quot;&newline;*date&space;2017.08.02&newline;*team&space;Insts&space;Becka&space;Lawson&newline;*team&space;Notes&space;Luke&space;Stangroom&space;&newline;*instrument&space;Becka&apostrophe;s&space;Distox2&space;&newline;;&space;Calibration:&space;UK&space;by&space;Becka&newline;*ref&space;2017#30&tab;;&space;the&space;#number&space;is&space;on&space;the&space;clear&space;pocket&space;containing&space;the&space;original&space;notes&newline;&newline;;&space;if&space;using&space;a&space;tape:&tab;*calibrate&space;tape&space;+0.0&tab;;&space;+ve&space;if&space;tape&space;was&space;too&space;short,&space;-ve&space;if&space;too&space;long&newline;&newline;;&space;Centreline&space;data&newline;*data&space;normal&space;from&space;to&space;length&space;bearing&space;gradient&space;ignoreall&newline;&newline;34&tab;33&tab;6.83&tab;303&tab;-32&newline;35&tab;34&tab;2.25&tab;196&tab;-05&newline;36&tab;35&tab;2.77&tab;144&tab;-44&newline;37&tab;36&tab;4.68&tab;227&tab;-16&newline;38&tab;37&tab;3.37&tab;135&tab;+05&newline;39&tab;37&tab;10.29&tab;038&tab;-49&newline;40&tab;39&tab;3.62&tab;098&tab;-15&tab;&newline;41&tab;40&tab;3.18&tab;145&tab;+33&newline;41&tab;42&tab;8.62&tab;285&tab;-19&newline;43&tab;41&tab;5.43&tab;067&tab;-62&newline;44&tab;43&tab;9.51&tab;221&tab;-81&newline;44&tab;45&tab;15.94&tab;114&tab;-01&tab;splay&newline;1x&tab;44&tab;4.22&tab;066&tab;+06&newline;&newline;;-----------&newline;;recorded&space;station&space;details&space;(leave&space;commented&space;out)&newline;;(NP=Nail&space;Polish,&space;LHW/RHW=Left/Right&space;Hand&space;Wall)&newline;;Station&space;Left&space;Right&space;Up&space;Down&space;Description&newline;;[Red]&space;nail&space;varnish&space;markings&newline;&newline;&newline;;LRUDs&space;arranged&space;into&space;passage&space;tubes&newline;;new&space;*data&space;command&space;for&space;each&space;&apostrophe;passage&apostrophe;,&newline;;repeat&space;stations&space;and&space;adjust&space;numbers&space;as&space;needed&newline;*data&space;passage&space;station&space;left&space;right&space;up&space;down&space;ignoreall&newline;&newline;33&tab;2&tab;0&tab;3.4&tab;0.5&newline;34&tab;1.4&tab;1.5&tab;23&tab;0.5&newline;35&tab;0&tab;3.5&tab;20&tab;1.7&newline;36&tab;1.7&tab;0&tab;19&tab;3&newline;37&tab;0.5&tab;1&tab;9&tab;6&newline;38&tab;1&tab;5.4&tab;7.2&tab;10.4&tab;CHECK&space;if&space;LRUDS&space;correct&newline;39&tab;0&tab;1.5&tab;6.5&tab;12&newline;40&tab;1.5&tab;0.5&tab;13&tab;2.5&newline;41&tab;1&tab;1&tab;13&tab;14&newline;42&tab;0&tab;1.5&tab;12&tab;12&newline;43&tab;0&tab;1.5&tab;7.5&tab;19&newline;&newline;;-----------&newline;;Question&space;Mark&space;List&space;&space;;(leave&space;commented-out)&newline;;&space;The&space;nearest-station&space;is&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;are&space;nearest&space;to&newline;;&space;the&space;QM.&space;The&space;resolution-station&space;is&space;either&space;&apostrophe;-&apostrophe;&space;to&space;indicate&space;that&space;the&space;QM&space;hasn&apostrophe;t&newline;;&space;been&space;checked;&space;or&space;the&space;name&space;of&space;the&space;survey&space;and&space;station&space;which&space;push&space;that&space;QM.&space;If&space;a&newline;;&space;QM&space;doesn&apostrophe;t&space;go&space;anywhere,&space;set&space;the&space;resolution-station&space;to&space;be&space;the&space;same&space;as&space;the&newline;;&space;nearest-station.&space;Include&space;any&space;relevant&space;details&space;of&space;how&space;to&space;find&space;or&space;push&space;the&space;QM&space;in&newline;;&space;the&space;textual&space;description.&newline;;Serial&space;number&space;&space;&space;grade(A/B/C/X)&space;&space;nearest-station&space;&space;resolution-station&space;&space;description&newline;;[&space;QM1&space;&space;&space;&space;A&space;&space;&space;&space;surveyname.3&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;;[&space;QM2&space;&space;&space;&space;B&space;&space;&space;&space;surveyname.5&space;&space;&space;&space;-&space;&space;&space;&space;description&space;of&space;QM&space;]&newline;&newline;;------------&newline;;Cave&space;description&space;&space;;(leave&space;commented-out)&newline;;freeform&space;text&space;describing&space;this&space;section&space;of&space;the&space;cave&newline;&newline;;&space;Swing&space;in&space;to&space;short&space;passage&space;from&space;window&space;off&space;pitch&newline;&newline;*end&space;riftpiece&newline;*file_end&space;&quot;/home/expo/loser/caves-1623/2017-cucc-24/riftpiece.svx&quot;&space;&quot;&quot;</pctext>
 		</pathcodes>
 		<pt X="-107.042854" Y="-158.48572"/>
 		<pt X="-110.84888" Y="-177.61989"/>
@@ -461,7 +461,7 @@
 		<pt X="-52.489826" Y="-15.509264"/>
 		<pt X="-52.489826" Y="-19.385931"/>
 	</skpath>
-	<skpath from="50" to="5" linestyle="pitchbound" splined="1">
+	<skpath from="49" to="5" linestyle="pitchbound" splined="1">
 		<pt X="62.647163" Y="-29.465263"/>
 		<pt X="54.312332" Y="-24.61943"/>
 		<pt X="38.03033" Y="-16.866096"/>
@@ -469,21 +469,21 @@
 		<pt X="25.625" Y="-7.174432"/>
 		<pt X="30.257145" Y="-4.0857143" Z="-74.97143"/>
 	</skpath>
-	<skpath from="5" to="51" linestyle="pitchbound" splined="1">
+	<skpath from="5" to="50" linestyle="pitchbound" splined="1">
 		<pt X="30.257145" Y="-4.0857143" Z="-74.97143"/>
 		<pt X="34.735165" Y="-0.9717655"/>
 		<pt X="46.559" Y="3.0987341"/>
 		<pt X="63.03483" Y="8.9137335"/>
 		<pt X="54.89383" Y="16.085566"/>
 	</skpath>
-	<skpath from="52" to="38" linestyle="pitchbound" splined="1">
+	<skpath from="51" to="38" linestyle="pitchbound" splined="1">
 		<pt X="48.49733" Y="15.310233"/>
 		<pt X="51.792496" Y="12.7904"/>
 		<pt X="45.589832" Y="8.1384"/>
 		<pt X="31.439999" Y="2.517234"/>
 		<pt X="24.462" Y="-0.39026558"/>
 	</skpath>
-	<skpath from="38" to="49" linestyle="pitchbound" splined="1">
+	<skpath from="38" to="52" linestyle="pitchbound" splined="1">
 		<pt X="24.462" Y="-0.39026558"/>
 		<pt X="22.329834" Y="-1.5532655"/>
 		<pt X="19.81" Y="-5.4299316"/>
@@ -492,15 +492,15 @@
 		<pt X="54.506165" Y="-29.659096"/>
 		<pt X="57.80133" Y="-31.59743"/>
 	</skpath>
-	<skpath from="4" to="52" linestyle="connective">
+	<skpath from="4" to="51" linestyle="connective">
 		<pt X="41.957146" Y="12.114285" Z="-94.17143"/>
 		<pt X="48.49733" Y="15.310233"/>
 	</skpath>
-	<skpath from="52" to="51" linestyle="invisible" splined="1">
+	<skpath from="51" to="50" linestyle="invisible" splined="1">
 		<pt X="48.49733" Y="15.310233"/>
 		<pt X="54.89383" Y="16.085566"/>
 	</skpath>
-	<skpath from="51" to="30" linestyle="connective">
+	<skpath from="50" to="30" linestyle="connective">
 		<pt X="54.89383" Y="16.085566"/>
 		<pt X="77.76616" Y="8.7199"/>
 	</skpath>
@@ -577,7 +577,7 @@
 		<pt X="10.118335" Y="21.900566"/>
 		<pt X="21.557142" Y="18.414286" Z="15.6285715"/>
 	</skpath>
-	<skpath from="50" to="59" linestyle="connective">
+	<skpath from="49" to="59" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="dropdown"/>
@@ -585,7 +585,7 @@
 		<pt X="62.647163" Y="-29.465263"/>
 		<pt X="62.647163" Y="-29.465263"/>
 	</skpath>
-	<skpath from="49" to="60" linestyle="connective">
+	<skpath from="52" to="60" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="dropdown"/>
@@ -597,7 +597,7 @@
 		<pt X="62.647163" Y="-29.465263"/>
 		<pt X="57.80133" Y="-31.59743"/>
 	</skpath>
-	<skpath from="50" to="49" linestyle="pitchbound" splined="1">
+	<skpath from="49" to="52" linestyle="pitchbound" splined="1">
 		<pt X="62.647163" Y="-29.465263"/>
 		<pt X="57.80133" Y="-31.59743"/>
 	</skpath>
@@ -613,7 +613,7 @@
 		<pt X="72.53266" Y="-33.729595"/>
 		<pt X="62.647163" Y="-29.465263"/>
 	</skpath>
-	<skpath from="32" to="50" linestyle="pitchbound" splined="1">
+	<skpath from="32" to="49" linestyle="pitchbound" splined="1">
 		<pt X="72.53266" Y="-33.729595"/>
 		<pt X="62.647163" Y="-29.465263"/>
 	</skpath>
@@ -629,7 +629,7 @@
 		<pt X="57.80133" Y="-31.59743"/>
 		<pt X="57.995163" Y="-35.08643"/>
 	</skpath>
-	<skpath from="49" to="33" linestyle="pitchbound" splined="1">
+	<skpath from="52" to="33" linestyle="pitchbound" splined="1">
 		<pt X="57.80133" Y="-31.59743"/>
 		<pt X="57.995163" Y="-35.08643"/>
 	</skpath>
@@ -715,6 +715,18 @@
 		</pathcodes>
 		<pt X="-19.925829" Y="-46.328762"/>
 		<pt X="-19.731997" Y="-24.61943"/>
+	</skpath>
+	<skpath from="69" to="69" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="6.1031256" sfrotatedeg="179.27725" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="9.788122747834839" sfytrans="18.693667519557053" sfsketch="290-scans/wallet30-2017-riftpiece-drawnupplan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1654" sfpixheight="2339">
+			</pcarea>
+		</pathcodes>
+		<pt X="133.63837" Y="220.55096"/>
+		<pt X="-137.34874" Y="217.13246"/>
+		<pt X="-132.51448" Y="-166.0833"/>
+		<pt X="138.47264" Y="-162.6648"/>
+		<pt X="133.63837" Y="220.55096"/>
 	</skpath>
 </sketch>
 </tunnelxml>
