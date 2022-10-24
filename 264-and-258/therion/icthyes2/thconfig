@@ -11,5 +11,6 @@ source "ichthyes2.th"
 export model -fmt survex -o "ichthyes2th.3d"
 
 export map -proj plan -layout local -o "ichthyes2plan.pdf"
+export map -proj plan -layout local -fmt svg -o "ichthyes2plan.svg"
 
 # export map -proj extended -layout local -o "ichthyes2ee.pdf"
