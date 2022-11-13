@@ -1,0 +1,16 @@
+encoding  utf-8
+
+layout local
+  debug off
+  map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "ichthyes3.th"
+
+export model -fmt survex -o "ichthyes3th.3d"
+
+export map -proj plan -layout local -o "ichthyes3plan.pdf"
+export map -proj plan -layout local -fmt svg -o "ichthyes3plan.svg"
+
+# export map -proj extended -layout local -o "ichthyes3ee.pdf"
