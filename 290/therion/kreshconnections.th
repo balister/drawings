@@ -1,0 +1,102 @@
+encoding iso8859-1
+
+
+survey kreshkonnections -title "kreshkonnections" 
+
+# stations linked into other surveys (or likely to)
+#*export 12 HB11
+
+# Cave:Fischgeschicht
+# Area in cave/QM: happy butterfly connection
+# -title ""
+centreline
+date 2022.08.10
+#team Insts Charlotte payne
+#team Notes Rachel Turnbull
+#team Pics Joel
+#team Tape  
+#instrument Wookey disto
+# Calibration: [Where, readings]
+endcentreline
+ref 2022#34
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:
+centreline
+calibrate tape +0.0	# +ve if tape was too short, -ve if too long
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+12	13	5.96	275.4	-84.2
+13	14	21.13	316.1	-86.2
+14	15	9.71	358.4	-84.0
+15	16	7.67	304.5	-15.9
+16	HB11	1.08	240.9	+33.6
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Green nail varnish markings
+data passage station left right up down
+12	1.2	0.8	9.58	16 #at pitch head
+13	3.00	2.59	25.03	21.80	# at reblay RHW
+14	0.00	0.58	-	-#mid pitch
+15	1.84	0.00	24.89	1.17 #on ledge - lower ground 10.98
+16	1.03	1.23	0.93	0 #under bridge
+
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down 
+#[ 1   0.8   0     5.3   1.6 ]
+#[ 2   0.3   1.2   6     1.2 ]
+data passage station left right up down
+#[ 1   1.3   1.5   5.3   1.6 ]
+#[ 3   2.4   0     3.4   0.2 ]
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+# QM1 A crecheconnection.15 - pitch under cresh connection traverse either side of the bridge and flying boulder aprox 25m
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#From bottom of entrance pitch straight ahead in to Captain Crunch.
+#Follow passage along past 12 Monkeys on left with single hilte bolt. Reach loose pitch aprox 10m head on a false floor.
+#Rope leads onto next pitch aprox 5m follow rift along down a 2m free climb reach next pitch aprox 4m. 
+#At bottom of pitch continue in same direction of travel along rift to Flying cottage pitch aprox 15m.
+#At bottom continue along the rift. Reach Kresh Connections traverse around the right hand wall, pitch aprox 50m. Bottom ends at traverse line along left wall which goes over a bridge under a floating boulder.
+#Pitch either side of this leads into the happy butterfly 
+#Turn Left to leave happy butterfly.  
+
+endcentreline
+endsurvey kreshkonnections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+encoding iso8859-1
+survey nicolascage -title "nicolascage" 
+
+# stations linked into other surveys (or likely to)
+#*export 35 21 8 13 
+
+# Cave: 290 Fish Face
+# Area in cave/QM: Nicolas Cage Handline
+# -title "nicolascage"
+centreline
+date 2022.08.03
+#team Insts Luke Stangroom
+#team Notes Jonty 
+#team Pics Joel
+#team Polish Joel
+#instrument ULSA Disto
+# Calibration: Forest above base camp
+endcentreline
+ref 2022#14
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:
+centreline
+calibrate tape +0.0	# +ve if tape was too short, -ve if too long
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+35 1 9.13 336.8 -21.2
+1 2 4.55 27.3 -6.3
+2 3 2.62 298.0 -35.2
+3 4 4.66 67.6 16.6
+3 5 2.19 112.1 -75.2 
+5 6 2.81 259.4 15.8
+6 7 2.97 185.9 -5.7
+7 8 2.85 226.5 -29.9 
+8 9 2.99 102.6 59.2
+9 10 2.99 153.1 38.5
+10 11 1.99 81.2 29.5
+11 1 2.34 1.4 -10.6
+8 12 5.06 291.8 15.5 
+12 13 3.18 278.2 -2.5 
+13 14 6.09 315.3 -6.8 
+14 15 6.54 253.9 25.5
+15 16 6.7 323.2 -40.9
+16 17 3.29 256.5 -15.5 
+17 18 2.74 194.0 76.0 
+18 19 10.85 268.3 4.8
+19 20 2.99 135.7 21.7
+20 21 3.08 239.6 -5.3 
+13 1a 3.67 220.5 -28.1 # 2022#15
+1a 2a 5.26 174.8 44.5  # 2022#15
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#1 0.8 1.9 1.5 1 ; LH Wall
+#2 1.2. 0 0.7 1.1
+#3 0 0.9 2.1 0.6
+#4 0.3 0.5 0.4 1
+#5 0 0.4 4 0 ; Floor in rift
+#6 0.5 0.4 0.2 0.6
+#7 0 0.4 0.9 0.7 
+#9 0.5 0.4 4.7 2.4 
+#10 0.7 0 3.2 4.1
+#11 0.7 0 30 5.5
+#12 0.3 0 2.2 1.4 
+#13 2 1.5 2 1.4
+#14 0.6 0 10 0.2
+#15 0 1 7 2.6
+#16 1.3 0 0.6 0.4
+#17 1 0 2.3 0.3 
+#18 0.7 0.8 0.4 1
+#19 0.7 1.1 3 0
+#20 0 0.6 3.3 1.2 
+#21 0.5 0.5 2.5 1; Pitch head KEANU BREEZE
+#1a 1.2 0 6.6 0
+#2a 0.5 0 1 0
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down 
+1 0.8 1.9 1.5 1 # LH Wall
+2 1.2 0 0.7 1.1
+3 0 0.9 2.1 0.6
+5 0 0.4 4 0 # Floor in rift
+6 0.5 0.4 0.2 0.6
+7 0 0.4 0.9 0.7 
+9 0.5 0.4 4.7 2.4 
+10 0.7 0 3.2 4.1
+11 0.7 0 30 5.5
+data passage station left right up down
+5 0 0.4 4 0 
+4 0.3 0.5 0.4 1
+data passage station left right up down
+8 0 0.5 3 0
+12 0.5 0 2.2 1.4 
+13 2 1.5 2 1.4
+14 0.6 0 10 0.2
+15 0 1 7 2.6
+16 1.3 0 0.6 0.4
+17 1 0 2.3 0.3 
+18 0.7 0.8 0.4 1
+19 0.7 1.1 3 0
+20 0 0.6 3.3 1.2 
+21 0.5 0.5 2.5 1# Pitch head KEANU BREEZE
+data passage station left right up down
+1a 1.2 0 6.6 0
+2a 0.5 0 1 0
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    c    nicloascage.6    -    muddy scroting passage heading downwards ]
+
+
+#------------
+#Cave description  ;(leave commented-out)
+# Traverse the Nicolas cage handline then chimney down the rift and continue along the bottom of the rift, a tight area where you have to crawl along the floor before a 2m climb up you reach the top of Keanu breeze and Can't Stop japeing. The head of the pitch is to the left in a rift to give a nice Y hang. Straight ahead is a loose-looking hole that could be rigged as an alternative to the japery of can't stop japeing  
+
+endcentreline
+endsurvey nicolascage

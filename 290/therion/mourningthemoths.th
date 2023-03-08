@@ -1,0 +1,23 @@
+encoding iso8859-1
+survey mourningthemoths -title "mourningthemoths" 
+
+# stations linked into other surveys (or likely to)
+#*export 23 7 8
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Southmost leads off Kubla Khan
+# -title "mourningthemoths"
+centreline
+date 2022.08.04
+#team Insts Rob Watson		
+#team Notes Amelia Oliver
+#instrument Philip Balister's DistoX2 # 4724
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+ref 2022#06
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+endcentreline

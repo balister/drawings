@@ -1,0 +1,149 @@
+encoding iso8859-1
+# Entrance resurvey of 290 fischgesicht
+
+survey redfishbluefish -title "redfishbluefish" 
+# -title "Red fish blue fish"
+# i.e. some americans do a resurvey with backsights.
+#*export GPS TAG 18
+#TODO get gps for *fix from paul into the 290.svx file
+# GPS 47.69141, 13.81291
+# aka 33T 0410922E 5282685N 1697m
+
+centreline
+date 2022.08.08
+
+#this is the semantically correct version of this;
+#phil sargent please fix your parser to conform with survex standards!
+# - Nope, we only handle single-word roles, e.g. 'sketch'
+# - so these would (still) get flagged as errors and listed on the DataIssues webpage.
+#*team "Eric C Landgraf" sketch "frontsight disto"
+#*team "Paul Walko" point "backsight disto"
+
+#semantically incorrect. let's see if we can break the parser?
+#  - this is how the other ~1,900 survex files in the loser repo do it. So this is fine.
+#  -  frontsight and backsight only of interest to people actually reading this file, not useful for the troggle summary reports.
+
+#team Insts Eric C. Landgraf
+#team Notes Eric C. Landgraf
+#team Pics Eric C. Landgraf
+#team Insts Paul Walko
+#team Point Paul Walko
+
+# frontsight disto balister distox2 4724
+# backsight disto walko distox2 4808
+#TODO fix this with correct *instruments
+
+endcentreline
+ref 2022#28
+
+#stations in pink nail varnish
+
+# foresights and backsights collected for this survey (and no other currently in entire dataset). The *data for backsights isn't imported into Tunnel so Becka has averaged fore and back sights in stations below. Original data retained but commented out below 
+
+centreline
+data normal from to tape compass clino ignoreall
+GPS	TAG	5.735	208.2	-11.85 # surface shot
+flags not surface				
+TAG	0	7.11	151.9	-9.05 # 2017-cucc-28 wall tag at dripline
+0	1	5.955	215.95	-11.4 # reused station in pink varnish
+1	2	8.99	182	-7.25
+2	3	11.055	190.7	-8.4
+3	4	6.66	155.35	-33.8
+4	5	4.565	263.35	-34.15
+5	6	8.15	161.25	-44.1 # 5 is labeled 7; reused station
+6	7	12.665	181.75	-85.1
+7	8	4.745	141.7	-15.2
+8	9	2.925	249.05	-30.95
+9	10	17.285	254.65	-80
+10	11	4.985	310.4	18.05 # 10 is reused station labeld "5". bad backsight 127.9
+11	12	7.28	231.65	-55.45
+12	13	2.69	207.35	-14.05
+13	14	3.16	126.9	-76.85
+14	15	4.39	261.15	-26.4
+15	16	5.335	309.45	-63.75
+16	17	10.84	14.6	-77.9
+17	18	9.655	201.55	-75
+
+# *units tape backtape left right up down meters
+# *units compass clino backcompass backclino degrees
+# *data normal from to tape backtape compass clino backcompass backclino ignoreall
+# *flags surface
+# GPS	TAG	5.74	5.73	208.4	-11.9	28.0	11.8 ; surface shot
+# *flags not surface
+# TAG	0	7.11	7.11	151.7	-8.9	332.1	9.2 ; 2017-cucc-28 wall tag at dripline
+# 0	1	5.97	5.94	215.5	-11	36.4	11.8 ; reused station in pink varnish
+# 1	2	9.00	8.98	181.6	-7.1	2.4	7.4
+# 2	3	11.09	11.02	190.4	-8.4	11.0	8.4
+# 3	4	6.68	6.64	155.3	-33.8	335.4	33.8
+# 4	5	4.57	4.56	263.3	-34.2	83.4	34.1 
+# 5	6	8.13	8.17	160.8	-44.4	341.7	43.8 ; 5 is labeled 7; reused station
+# 6	7	12.67	12.66	181.7	-85.0	1.8	85.2
+# 7	8	4.75	4.74	141.1	-15.2	322.3	15.2
+# 8	9	2.93	2.92	248.7	-31.0	69.4	30.9
+# 9	10	17.29	17.28	254.6	-80.1	74.7	79.9
+# 10	11	4.99	4.98	310.4	18.2	-	-17.9 ; 10 is reused station labeld "5". bad backsight 127.9
+# 11	12	7.30	7.26	231.4	-55.4	51.9	55.5
+# 12	13	2.69	2.69	207.1	-14.2	27.6	13.9
+# 13	14	3.18	3.14	126.1	-77.2	307.7	76.5
+# 14	15	4.39	4.39	260.7	-26.5	81.6	26.3
+# 15	16	5.34	5.33	309.4	-63.9	129.5	63.6
+# 16	17	10.83	10.85	15.2	-77.8	194.0	78.0
+# 17	18	9.68	9.63	202.2	-74.8	20.9	75.2
+
+data passage station left right up down ignoreall
+TAG	1	2.5	0	2 # on the entrace tag at dripline
+0	3.2	2.8	0.7	1 # down snow. lw station reused
+1	1.5	.3	.3	3.1	# rw station reused
+2	.8	0	1.6	2.6	# rw station reused
+3	.6	0	.3	1	# rw station reused
+4	0	3.6	3.4	1.7	# lw station; over pit reused
+5	3.6	0	5	1.6	# rw station; over pit; old station 7
+6	-	-	-	-	# too nsew
+7	1.5	3	20	3	# on bd in floor center
+8	0	2	8	1	# lw station reused
+9	.5	1.9	.2	20	# ceil near deviation
+10	0.8	2	20	1.5	# old station 5 pencil lw
+11	1.3	.3	1	4	# rw
+12	1	.5	2	6	# down ice; on bd to right
+13	1	0	1	4	# rw station
+14	0	1	4	2	# lw station reused
+15	0	.7	5	-	# lw below bolt reused
+16	0	2	10	-	# lw near bolt. down "pit"
+17	0	2	-	-	# reused lw facing pitch
+18	-	-	-	-	# in middle of slab halfway down pitch. old ?2
+
+#QM list
+# SN	grade	nearest-station	end-station	desc
+# QM1	A	redfishbluefish.7	-	"Rift looping back under the entrance is not surveyed. This is 3m*10m borehole that needs surveyed and checked for leads. notes say 'assumed surveyed'. This is wrong"
+# QM2	C	redfishbluefish.6	-	"crawlway opposite top of pitch. could crawl along ledge. probably too shallow to be worth doing. labeled 'small crawlway 10m' in notes"
+# QM3	C	redfishbluefish.11	-	"1mx1m crawlway above pitch"
+# QM4	C	redfishbluefish.12	-	"ice plug in step-across canyon. little chance of continuation"
+# QM5	C	redfishbluefish.18	-	"second entering rift directly across from large block. likely connects to way on"
+
+#Cave Description
+#This is a resurvey of the entrance series of fischgesicht down to the middle
+#of the 3rd pitch. The entrance is a horizontal stoopway running roughly south.
+#The ceiling is level, and the floor is covered in about half a meter of snow.
+#Continuing south, you traverse across a small snow-plugged fissure, staying in
+#the upper component of the passage to a conspicuous downclimb next to a 2m
+#tall block of breakdown. Just after this climb, the traverse starts, with
+#bolts on alternating walls leading you across breakdown blocks over a 20m
+#canyon passage to the top of the first pitch. From the bottom of the first
+#pitch, a large canyon passage heads north under the traverse; this is
+#unsurveyed. A small crawlway blowing air heads to the south-east: this is
+#the "twelve monkeys" region, which continues to Happy Butterfly Cave
+#to the west, there is a 2m-high ledge, which is the top of the old 2nd pitch
+#and the route of the original survey. We continued along the bolts at chest
+#level to a previously snow-plugged hole to the south-west of the room, which
+#is the new second pitch. This pitch is awkward due to 2 deviations at the top
+#and drops you 10m to a tallus slope. To the south, under the ceiling ledge,
+#is a tight parallel passage, but the main route is over the breakdown pile,
+#down the 3m climb, across the step-across chasm with an ice plug (see QM4)
+#and then down a series of short rebelays into the 30m 3rd pitch. Descend
+#to the large breakdown block and spire about 20m from the bottom. The
+#route deeper into the cave should be marked with reflectors from this point.
+
+
+
+endcentreline
+endsurvey redfishbluefish

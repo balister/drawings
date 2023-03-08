@@ -1,0 +1,142 @@
+encoding iso8859-1
+survey perseidshowers -title "perseidshowers" 
+
+# stations linked into other surveys (or likely to)
+
+#*export 11z
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Big pitch at bottom of 70m pitch
+# -title "Perseid Showers"
+centreline
+date 2022.08.22
+#team Notes Becka Lawson
+#team Dog Jono Lester
+#instrument Becka Lawson's DistoX2
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+ref 2022#49
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+# 2	1	15.349	244.63	-83.39		;  {from: 15.359 243.81 -83.25, 15.341 244.62 -83.46, 15.348 245.45 -83.45} ; ignore, this is a repeat of next leg
+
+2	1	15.412	249.73	-83.11		#  {from: 15.408 249.65 -83.13, 15.423 250.10 -83.07, 15.405 249.42 -83.13} 
+
+# 2	3	3.467	299.85	10.27		;  {from: 3.471 299.82 10.21, 3.473 299.91 10.24, 3.457 299.81 10.36} ; ignore, this is a repeat of next leg
+
+2	3	3.447	299.94	10.60		#  {from: 3.479 299.95 10.48, 3.431 299.91 10.70, 3.432 299.96 10.61}
+
+2	..	3.224	124.93	-3.20	
+2	..	4.277	147.97	-0.53	
+2	..	4.240	173.70	1.45	
+2	..	3.009	278.62	0.86	
+2	..	3.720	233.34	1.14	
+2	..	6.227	207.07	1.60	
+2	..	5.078	197.42	-0.24	
+2	..	6.319	203.01	-4.43	
+2	..	19.251	165.79	85.70	
+2	..	15.414	152.13	77.52	
+2	..	27.781	292.79	80.99	
+2	..	21.803	316.08	76.03	
+2	..	7.361	275.56	70.27	
+2	..	12.743	244.30	76.86	
+2	..	13.521	253.52	-42.89	
+2	..	14.599	271.41	-57.99	
+2	..	10.093	154.11	-57.83	
+2	..	15.603	185.71	-74.40	
+2	..	11.051	190.87	-59.86	
+2	..	21.134	203.98	-72.48	
+2	..	13.703	301.14	-79.91	
+2	..	38.064	308.45	-72.26	
+2	..	24.020	299.71	-74.87	
+2	..	24.495	277.35	-75.17	
+2	..	27.035	257.33	-76.68	
+2	..	22.022	264.28	-72.33	
+2	..	33.381	225.70	-70.60	
+2	..	39.459	209.22	-68.57	
+2	..	23.043	261.39	-60.69	
+2	..	12.255	290.40	-44.32	
+2	..	20.103	277.35	-70.76	
+2	..	29.530	237.24	-76.80	
+2	..	36.884	215.93	-78.35	
+
+# all the legs below are attempts at leg 3 to 11x where I couldn't hear a triple beep
+# 79	-	18.424	6.86	81.67	
+# 79	-	18.851	9.53	81.45	
+# 79	-	19.140	7.89	81.50	
+# 79	-	19.618	6.08	81.83	
+# 79	-	18.853	6.85	81.69	
+# 79	-	19.800	7.02	81.64	
+# 79	-	19.829	6.42	81.64	
+# 79	-	19.528	6.70	81.60	
+# 79	-	19.679	7.59	81.71	
+# 79	-	19.811	6.85	81.64	
+# 79	-	19.637	7.34	81.55	
+# 79	-	19.649	7.07	81.51	
+# 79	-	20.538	7.10	81.33	
+
+3	11z	19.489	7.176923077	81.59692308 # average of above 13 legs
+
+3	..	3.327	344.04	-6.12	
+3	..	7.040	161.64	-6.60	
+3	..	6.934	167.52	-7.44	
+3	..	6.956	141.44	0.50	
+3	..	7.653	124.49	2.51	
+3	..	1.888	112.24	8.27	
+3	..	5.330	311.80	-10.94	
+3	..	4.012	333.75	-4.72	
+3	..	3.131	0.35	-0.08	
+3	..	2.927	30.24	4.73	
+3	..	2.602	48.94	5.22	
+3	..	2.791	73.00	6.69	
+3	..	5.921	329.56	-36.38	
+3	..	4.509	352.68	-45.18	
+3	..	4.295	9.35	-48.92	
+3	..	7.705	322.00	-42.15	
+3	..	9.000	316.36	-39.35	
+3	..	6.169	321.04	-27.39	
+3	..	11.031	316.78	-58.38	
+3	..	10.871	335.95	-64.68	
+3	..	4.377	325.52	44.22	
+3	..	4.208	11.26	36.54	
+3	..	4.880	172.19	34.06	
+3	..	9.367	135.29	33.88	
+3	..	2.159	102.94	43.88
+
+# 2	1	15.40	249	-83 as written in notes, ignore
+# 2	3	3.43	300	+11 as written in notes, ignore
+# 3	11z	20.53	007	+81 as written in notes, ignore
+
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Nail varnish markings
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down ignoreall
+
+1	5	15	30	0	unmarked large ledge below last Yhang
+2	0	15	30	15	numbered 0.5m above the last of 3 traverse bolts on 2 drop ledge
+3	3	7	30	16	numbered at big 2 drop ledge
+11z	4	0	20	21	numbered above the 2nd of the Y hang bolts from old Becka and Gwen survey
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#
+
+endcentreline
+endsurvey perseidshowers

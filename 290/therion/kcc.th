@@ -1,0 +1,117 @@
+encoding iso8859-1
+
+
+survey kcc -title "kcc" 
+
+# stations linked into other surveys (or likely to)
+#*export x 15x
+# Cave:Fischgeschicht
+# Area in cave/QM: happy butterfly connection
+# -title "Kresh connection connection"
+centreline
+date 2022.08.14
+#team Insts Rachel Turnbull
+#team Notes Nathan Walker 
+#instrument Ulsa Disto
+# Calibration: [Where, readings]
+endcentreline
+ref 2022#44
+# the #number is on the clear pocket containing the original notes
+
+centreline
+calibrate tape +0.0	# +ve if tape was too short, -ve if too long
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+x	1	1.10	170	-22
+1	2	9.07	038.5	-64
+2	3	3.45	099.1	16
+3	4	2.81	53.8	15
+4	5	3.95	026.3	-7.7
+5	6	0.91	273.8	24
+6	7	4.89	024.1	5.9
+7	8	2.7	45.4	0.5
+8	9	3.99	342.9	10.8
+10	4	7.38	113.2	-34.4
+11	10	1.48	1.3	-27.2
+12	13	9.03	203.7	-45.2
+11	12	0.95	343.9	-5.5
+13	1	8.55	055.6	83.9
+15	15x	9.16	74.4	-65
+15	14	1.52	121.1	26.5
+14	9	1.31	255.5	28.6
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Green nail varnish markings
+data passage station left right up down
+2	0	1.2	3.4	1.6
+3	0.6	0	3.8	2.1
+4	1.7	0	5.7	1.9
+5	0.8	0	3.3	1.6
+6	0	0.7	3.6	1.9
+7	1.5	0	2.2	3.4
+8	0.7	0	4.6	1.4
+9	0	0.7	4.3	1.5
+14	1.7	0	19	1.6
+15	3.5	0	20	9
+		
+data passage station left right up down
+4	1.7	0	5.7	1.9
+10	1	1.2	8	3.4
+11	0	1.5	9	11
+12	1.1	1.1	8.6	4
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down 
+#[ 1   0.8   0     5.3   1.6 ]
+#[ 2   0.3   1.2   6     1.2 ]
+
+#[ 1   1.3   1.5   5.3   1.6 ]
+#[ 3   2.4   0     3.4   0.2 ]
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+# QM1 A crecheconnection.15 - pitch under cresh connection traverse either side of the bridge and flying boulder aprox 25m
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#From the last hang of pitch 3 in Fishface (before the pinnacle) descend to the pinnacle level and swing into passage on the far side of the pitch. 
+#Follow meandering passage for about five meters before coming to a junction. To the left is a small passage heading up that doglegs left and rejoins pitch 3 chamber. 
+#The way on ahead follows small meandering passage for a few meters before opening onto a small drop. An 8 meter pitch leads to Kresh connection and the boundy
+#of fishface and happy butterfly/  
+
+endcentreline
+endsurvey kcc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

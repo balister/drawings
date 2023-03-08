@@ -1,0 +1,80 @@
+encoding iso8859-1
+# survey continuing from science vs fun 15 towards
+# cresh connection
+
+survey flitterwolken -title "flitterwolken" 
+#*export svf15 8 cc9
+
+centreline
+date 2022.08.10
+#team "Eric C Landgraf" sketch
+#team "Gwen Tawy" point
+#team "Tobias Turner" disto
+
+# instrument balister distox2 4724
+
+endcentreline
+ref 2022#30
+
+centreline
+units tape left right up down meters
+units compass clino degrees
+
+# blue nail varnish.
+
+data normal from to tape compass clino ignoreall
+svf15	1	6.46	8.9	+8.5
+1	2	3.03	334.7	-0.1
+svf15	3	6.53	356.3	-34.6
+3	4	7.98	353.9	-87.7
+4	5	3.89	293.5	+4.2
+5	6	5.87	324.1	-0.6
+6	7	3.35	221.6	+15.8
+7	8	4.11	333.4	-22.2
+# 8 is old station in green, 12?
+# this is tie-in to cresh connection
+# break and go to captain crunch
+cc9	9	0.40	20.1	-20.5
+9	10	10.92	94.6	+10.8
+10	11	1.26	127.0	+22.9
+11	12	5.19	140.7	+17.7
+12	13	3.24	016.2	+13.8
+#ends in boulder choke...
+
+data passage station left right up down ignoreall
+svf15	1.5	1.1	8.4	1.3
+1	0.5	0	4.0	1.3
+2	4	0	4	5
+
+data passage station left right up down ignoreall
+svf15	1.5	1.1	8.4	1.3
+3	0	.7	3.2	8
+4	1.3	0	11	1
+5	0	1.6	11	1.6
+6	3.1	0	9.3	1.3
+7	0	2.2	8.6	3
+
+data passage station left right up down ignoreall
+9	1.2	0.4	9.8	1.6
+10	2.3	2.2	3.8	1.0
+11	2.2	2.0	1.9	1.4
+12	2.6	0	7.7	1.1
+
+#Question Mark List
+#sn	grade	near	end	desc
+#QM1	B	flitterwolken.4	-	"rift continues down pitch to south. Pitch was not measured as there is a very talusy slope at the top"
+#QM2	X	flitterwolken.13	-	"Boulder Choke, with lots of air (suspect recirculation), and several ceiling climbs in room. categorising as one lead 'cos there is little potential"
+
+#Cave Description
+#from the bottom of captain crunch at the "Flying Cottage" (4mx4mx4m boulder in
+#the middle of passage), follow the bolts under the giant block on the east wall
+#down a 8m pitch. to the south is QM1. to the north is a P60 which connects to
+#happy butterfly. Most of this is resurvey of the work done by the germans in
+#2019, we believe.
+#Part 2: from the mid level of the first pitch in captain crunch (P5, P+5 at
+#station 9), head east in the rift. There is a 5m climb down to science vs fun
+#and a small room that ends in a boulder choke, moving lots of air. This is
+#suspected to be recirculation (in room below, air moves in opposite direction)
+
+endcentreline
+endsurvey flitterwolken

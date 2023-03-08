@@ -1,0 +1,205 @@
+encoding iso8859-1
+survey perseid -title "perseid" 
+
+# stations linked into other surveys (or likely to)
+
+#*export 8x 9 11z
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Big pitch at bottom of 70m pitch
+# -title "Perseid"
+centreline
+date 2022.08.15
+#team Notes Becka Lawson
+#team Dog Christopher Holt
+#instrument Becka Lawson's DistoX2
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+ref 2022#47
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+flags duplicate
+
+8x	1	3.463	210.67	-8.13		#  {from: 3.462 210.39 -8.18, 3.465 210.86 -8.11, 3.461 210.77 -8.11}
+
+8x	2	8.204	308.28	8.60		#  {from: 8.215 308.25 8.60, 8.201 308.34 8.64, 8.197 308.25 8.57}
+
+8x	3	3.528	141.07	-5.78		#  {from: 3.522 141.04 -5.81, 3.539 141.10 -5.74, 3.522 141.08 -5.79}
+
+3	4	2.330	117.31	3.96		#  {from: 2.325 117.51 3.68, 2.332 117.17 4.12, 2.332 117.25 4.08}
+
+4	5	7.565	142.30	-16.08		#  {from: 7.554 142.29 -16.06, 7.568 142.33 -16.09, 7.574 142.28 -16.08}
+
+5	6	4.253	223.92	-27.85		#  {from: 4.255 223.81 -27.78, 4.249 223.97 -27.88, 4.254 223.98 -27.88}
+
+5	7	3.815	34.33	40.89		#  {from: 3.789 35.09 40.83, 3.820 34.11 40.85, 3.837 33.79 41.01}
+
+5	8	2.400	140.80	6.19		#  {from: 2.400 140.71 6.21, 2.392 140.83 6.20, 2.408 140.85 6.17}
+
+8	9	8.288	167.88	26.15		#  {from: 8.277 167.94 26.12, 8.291 167.86 26.16, 8.296 167.85 26.17}
+
+flags not duplicate
+
+9	10	3.566	180.65	-10.34		#  {from: 3.566 180.75 -10.41, 3.570 180.68 -10.32, 3.561 180.53 -10.29}
+
+10	..	14.704	194.16	-4.38	
+10	..	7.534	240.24	-4.54	
+10	..	8.047	219.47	-4.19	
+10	..	5.690	265.93	-3.94	
+10	..	6.839	296.20	-4.44	
+10	..	8.645	278.43	-4.11	
+10	..	4.453	190.24	-4.62	
+10	..	14.181	191.30	-2.27	
+10	..	52.570	247.71	66.86	
+10	..	23.015	206.53	80.59	
+10	..	27.735	206.32	69.31	
+10	..	17.169	263.02	69.39	
+10	..	108.007	262.51	66.09	
+10	..	18.177	254.32	57.97	
+10	..	18.998	276.82	61.30	
+10	..	25.342	265.10	58.51	
+10	..	16.080	277.72	56.38	
+10	..	16.462	196.26	-60.24	
+10	..	23.007	212.53	-69.76	
+10	..	28.235	242.10	-76.39	
+10	..	25.908	279.11	-72.46	
+10	..	19.721	285.09	-65.90	
+10	..	22.827	287.28	-65.05	
+10	..	22.161	280.28	-60.90	
+10	..	4.029	13.93	41.70	
+10	..	6.074	2.64	63.28	
+10	..	20.645	190.29	43.04	
+10	..	18.154	218.84	58.16	
+
+10	11	1.662	324.88	-13.00		#  {from: 1.663 324.96 -13.11, 1.661 324.81 -12.99, 1.662 324.86 -12.90}
+
+# 11	12	17.979	164.08	-84.03		;  {from: 17.984 164.59 -84.03, 17.982 163.36 -84.09, 17.972 164.28 -83.97} Looks like I redid this leg
+
+11	12	18.005	162.19	-83.84		#  {from: 18.014 162.08 -83.86, 18.005 162.98 -83.88, 17.995 161.53 -83.79}
+
+# 11	12	18.017	162.09	-84.01		;  {from: 18.025 161.83 -84.11, 18.011 162.76 -83.96, 18.014 161.67 -83.96} still taking the same leg
+
+12	13	17.800	186.55	-79.39		#  {from: 17.799 186.56 -79.31, 17.799 186.50 -79.43, 17.801 186.59 -79.43}
+
+13	14	21.41	287	-70 # no triple beep, took measurements from the 6 legs below
+
+# 68	..	21.414	289.37	-70.22	
+# 68	..	21.406	286.86	-70.12	
+# 68	..	21.404	284.54	-70.14	
+# 68	..	22.382	286.80	-70.07	
+# 68	..	21.403	287.25	-70.20	
+# 68	..	21.421	287.51	-70.14	
+
+14	15	14.613	322.42	-69.30		#  {from: 14.623 322.27 -69.24, 14.611 322.50 -69.30, 14.604 322.50 -69.36}
+
+15	16	12.649	5.76	-75.32		#  {from: 12.650 5.91 -75.26, 12.648 5.60 -75.37, 12.648 5.75 -75.32}
+
+16	17	4.760	281.46	-43.70		#  {from: 4.761 281.32 -43.68, 4.753 281.58 -43.81, 4.767 281.48 -43.61}
+
+16	..	2.888	175.82	-1.02	
+16	..	5.993	219.47	-8.68	
+16	..	6.467	255.45	-4.48	
+16	..	6.034	287.30	-2.49	
+16	..	3.561	295.20	-1.16	
+16	..	21.372	238.37	87.51	
+16	..	26.822	158.92	73.71	
+16	..	22.111	212.21	68.01	
+16	..	10.517	235.74	-45.58	
+16	..	3.543	226.04	-56.67	
+
+17	18	9.466	258.35	-67.99		#  {from: 9.467 258.04 -67.89, 9.467 258.28 -68.01, 9.463 258.74 -68.08}
+
+#17	18	9.466	258.38	-67.99		;  {from: 9.467 258.00 -67.94, 9.466 258.16 -68.01, 9.466 258.98 -68.01} kept trying to get the leg
+
+18	..	39.929	216.11	-72.70	
+18	..	27.733	214.76	-61.86	
+
+# these final 2 legs done on 18/8/2022 by Becka (notes) and Gwen (dog)
+
+11z	12z	5.315	34.81	27.64		#  {from: 5.303 34.83 27.66, 5.341 34.87 27.66, 5.300 34.72 27.60}
+
+11z	..	20.563	102.34	78.61	
+11z	..	21.204	83.18	-88.81	
+11z	..	4.747	40.47	10.05	
+11z	..	4.596	66.09	8.37	
+11z	..	2.858	91.73	6.52	
+11z	..	2.620	219.52	-9.11	
+11z	..	5.370	183.44	-7.99	
+11z	..	6.662	157.79	-6.10	
+11z	..	3.124	135.44	-0.71	
+11z	..	12.274	169.05	70.40	
+11z	..	18.410	109.07	75.26	
+11z	..	21.030	128.59	78.63	
+11z	..	12.110	70.29	60.54	
+11z	..	6.911	126.22	60.34	
+11z	..	8.194	189.39	53.36	
+11z	..	8.212	161.38	41.15	
+11z	..	9.419	183.20	-67.34	
+11z	..	20.299	195.40	-83.31	
+11z	..	9.229	149.10	-64.86	
+11z	..	9.310	167.31	-51.43	
+11z	..	13.234	156.38	-42.12	
+11z	..	16.754	157.11	-54.14	
+11z	..	9.744	151.33	-28.68	
+11z	..	31.418	160.99	-69.52	
+11z	..	33.852	166.50	-78.64	
+11z	..	23.762	161.17	-89.71	
+11z	..	35.900	168.81	-81.55	
+11z	..	9.605	246.97	-88.12
+	
+12z	18	18.557	13.17	86.05		#  {from: 18.549 12.73 86.06, 18.556 13.56 86.00, 18.567 13.23 86.09}
+
+12z	..	9.679	196.85	-8.00	
+12z	..	3.217	145.33	0.82	
+
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Nail varnish markings
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down ignoreall
+
+1	0	0.7	0.4	1.2	old station
+2	0.5	1	0.1	1.3	old station
+8x	0	1.5	0.5	1.5	old numbered station
+3	0	2	1	1.2	old station
+4	1.3	0.3	1.6	0	old station on ceiling, up not recorded so assumed as 0
+5	1	1	0.7	0.7	tip boulder at junction
+6	0.4	0.2	1	0.2	unmarked QMC
+7	3	1	4	1	boulder by ramp up to entrance series
+8	0.4	1.5	2	1	LW start of chamber
+9	0.8	0	5	1.6	old station RW
+10	-	-	-	-	splays taken, station 0.7m below and to R of pitch head bolt
+11	0	16	30		40	on wall opposite the pitch head bolts, up and down guessed
+12	0	10	40	30	was 0.5m from first rebelay, up and down guessed
+13	0	10	60	20	was 0.5m from 2nd rebelay
+14	1	10	60	15	numbered at 3rd rebelay
+15	0	10	60	15	R of R bolt of 4th rebelay
+16	0	6	-	-	5th rebelay at ledge
+17	0	7	20	10	~1m above 6th rebelay
+18	12	0	25	20	level with 7th rebelay
+
+11z	4	0	20	21	above the 2nd of the Y hang bolts
+12z	0	4	20	30	above the ledge and below the rebelay between the 2 ledges
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#
+
+endcentreline
+endsurvey perseid

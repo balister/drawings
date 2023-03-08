@@ -1,0 +1,3153 @@
+encoding iso8859-1
+# Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+# Area: Plateau
+# Cave:	Fisch Gesicht Hoehle. (FGH, Fishface) 1623/290
+# See gps17.svx for GPS coordinates
+
+#*entrance p290
+
+#survey dummy -title "Therion is crap"
+#centreline
+#equate p290     tag@blower.290 
+
+#endcentreline
+survey 290 -title "290" 
+
+#*export blower.tag blower.gps redfishbluefish.gps kreshkonnections.hb11
+
+# -title "Fischgesicht Höhle" # Fishface Cave - old name was 2017_cucc_28 or 2017-cucc-28 depending on whether filename or within survex
+
+# Entrance resurvey of 290 fischgesicht
+
+survey redfishbluefish -title "redfishbluefish" 
+# i.e. some americans do a resurvey with backsights.
+#*export GPS TAG 18
+#TODO get gps for *fix from paul into the 290.svx file
+# GPS 47.69141, 13.81291
+# aka 33T 0410922E 5282685N 1697m
+
+centreline
+date 2022.08.08
+
+#this is the semantically correct version of this;
+#phil sargent please fix your parser to conform with survex standards!
+# - Nope, we only handle single-word roles, e.g. 'sketch'
+# - so these would (still) get flagged as errors and listed on the DataIssues webpage.
+#*team "Eric C Landgraf" sketch "frontsight disto"
+#*team "Paul Walko" point "backsight disto"
+
+#semantically incorrect. let's see if we can break the parser?
+#  - this is how the other ~1,900 survex files in the loser repo do it. So this is fine.
+#  -  frontsight and backsight only of interest to people actually reading this file, not useful for the troggle summary reports.
+
+#team Insts Eric C. Landgraf
+#team Notes Eric C. Landgraf
+#team Pics Eric C. Landgraf
+#team Insts Paul Walko
+#team Point Paul Walko
+
+# frontsight disto balister distox2 4724
+# backsight disto walko distox2 4808
+#TODO fix this with correct *instruments
+
+endcentreline
+#ref 2022#28
+
+#stations in pink nail varnish
+
+# foresights and backsights collected for this survey (and no other currently in entire dataset). The *data for backsights isn't imported into Tunnel so Becka has averaged fore and back sights in stations below. Original data retained but commented out below 
+
+centreline
+data normal from to tape compass clino ignoreall
+gps	tag	5.735	208.2	-11.85 # surface shot
+flags not surface				
+tag	0	7.11	151.9	-9.05 # 2017-cucc-28 wall tag at dripline
+0	1	5.955	215.95	-11.4 # reused station in pink varnish
+1	2	8.99	182	-7.25
+2	3	11.055	190.7	-8.4
+3	4	6.66	155.35	-33.8
+4	5	4.565	263.35	-34.15
+5	6	8.15	161.25	-44.1 # 5 is labeled 7; reused station
+6	7	12.665	181.75	-85.1
+7	8	4.745	141.7	-15.2
+8	9	2.925	249.05	-30.95
+9	10	17.285	254.65	-80
+10	11	4.985	310.4	18.05 # 10 is reused station labeld "5". bad backsight 127.9
+11	12	7.28	231.65	-55.45
+12	13	2.69	207.35	-14.05
+13	14	3.16	126.9	-76.85
+14	15	4.39	261.15	-26.4
+15	16	5.335	309.45	-63.75
+16	17	10.84	14.6	-77.9
+17	18	9.655	201.55	-75
+
+# *units tape backtape left right up down meters
+# *units compass clino backcompass backclino degrees
+# *data normal from to tape backtape compass clino backcompass backclino ignoreall
+# *flags surface
+# gps	tag	5.74	5.73	208.4	-11.9	28.0	11.8 ; surface shot
+# *flags not surface
+# tag	0	7.11	7.11	151.7	-8.9	332.1	9.2 ; 2017-cucc-28 wall tag at dripline
+# 0	1	5.97	5.94	215.5	-11	36.4	11.8 ; reused station in pink varnish
+# 1	2	9.00	8.98	181.6	-7.1	2.4	7.4
+# 2	3	11.09	11.02	190.4	-8.4	11.0	8.4
+# 3	4	6.68	6.64	155.3	-33.8	335.4	33.8
+# 4	5	4.57	4.56	263.3	-34.2	83.4	34.1 
+# 5	6	8.13	8.17	160.8	-44.4	341.7	43.8 ; 5 is labeled 7; reused station
+# 6	7	12.67	12.66	181.7	-85.0	1.8	85.2
+# 7	8	4.75	4.74	141.1	-15.2	322.3	15.2
+# 8	9	2.93	2.92	248.7	-31.0	69.4	30.9
+# 9	10	17.29	17.28	254.6	-80.1	74.7	79.9
+# 10	11	4.99	4.98	310.4	18.2	-	-17.9 ; 10 is reused station labeld "5". bad backsight 127.9
+# 11	12	7.30	7.26	231.4	-55.4	51.9	55.5
+# 12	13	2.69	2.69	207.1	-14.2	27.6	13.9
+# 13	14	3.18	3.14	126.1	-77.2	307.7	76.5
+# 14	15	4.39	4.39	260.7	-26.5	81.6	26.3
+# 15	16	5.34	5.33	309.4	-63.9	129.5	63.6
+# 16	17	10.83	10.85	15.2	-77.8	194.0	78.0
+# 17	18	9.68	9.63	202.2	-74.8	20.9	75.2
+
+data dimensions station left right up down ignoreall
+tag	1	2.5	0	2 # on the entrace tag at dripline
+0	3.2	2.8	0.7	1 # down snow. lw station reused
+1	1.5	.3	.3	3.1	# rw station reused
+2	.8	0	1.6	2.6	# rw station reused
+3	.6	0	.3	1	# rw station reused
+4	0	3.6	3.4	1.7	# lw station; over pit reused
+5	3.6	0	5	1.6	# rw station; over pit; old station 7
+6	-	-	-	-	# too nsew
+7	1.5	3	20	3	# on bd in floor center
+8	0	2	8	1	# lw station reused
+9	.5	1.9	.2	20	# ceil near deviation
+10	0.8	2	20	1.5	# old station 5 pencil lw
+11	1.3	.3	1	4	# rw
+12	1	.5	2	6	# down ice; on bd to right
+13	1	0	1	4	# rw station
+14	0	1	4	2	# lw station reused
+15	0	.7	5	-	# lw below bolt reused
+16	0	2	10	-	# lw near bolt. down "pit"
+17	0	2	-	-	# reused lw facing pitch
+18	-	-	-	-	# in middle of slab halfway down pitch. old ?2
+
+#QM list
+# SN	grade	nearest-station	end-station	desc
+# QM1	A	redfishbluefish.7	-	"Rift looping back under the entrance is not surveyed. This is 3m*10m borehole that needs surveyed and checked for leads. notes say 'assumed surveyed'. This is wrong"
+# QM2	C	redfishbluefish.6	-	"crawlway opposite top of pitch. could crawl along ledge. probably too shallow to be worth doing. labeled 'small crawlway 10m' in notes"
+# QM3	C	redfishbluefish.11	-	"1mx1m crawlway above pitch"
+# QM4	C	redfishbluefish.12	-	"ice plug in step-across canyon. little chance of continuation"
+# QM5	C	redfishbluefish.18	-	"second entering rift directly across from large block. likely connects to way on"
+
+#Cave Description
+#This is a resurvey of the entrance series of fischgesicht down to the middle
+#of the 3rd pitch. The entrance is a horizontal stoopway running roughly south.
+#The ceiling is level, and the floor is covered in about half a meter of snow.
+#Continuing south, you traverse across a small snow-plugged fissure, staying in
+#the upper component of the passage to a conspicuous downclimb next to a 2m
+#tall block of breakdown. Just after this climb, the traverse starts, with
+#bolts on alternating walls leading you across breakdown blocks over a 20m
+#canyon passage to the top of the first pitch. From the bottom of the first
+#pitch, a large canyon passage heads north under the traverse; this is
+#unsurveyed. A small crawlway blowing air heads to the south-east: this is
+#the "twelve monkeys" region, which continues to Happy Butterfly Cave
+#to the west, there is a 2m-high ledge, which is the top of the old 2nd pitch
+#and the route of the original survey. We continued along the bolts at chest
+#level to a previously snow-plugged hole to the south-west of the room, which
+#is the new second pitch. This pitch is awkward due to 2 deviations at the top
+#and drops you 10m to a tallus slope. To the south, under the ceiling ledge,
+#is a tight parallel passage, but the main route is over the breakdown pile,
+#down the 3m climb, across the step-across chasm with an ice plug (see QM4)
+#and then down a series of short rebelays into the 30m 3rd pitch. Descend
+#to the large breakdown block and spire about 20m from the bottom. The
+#route deeper into the cave should be marked with reflectors from this point.
+
+
+
+endcentreline
+endsurvey redfishbluefish
+centreline
+equate tag@redfishbluefish tag@blower
+equate 18@redfishbluefish c1@canyon
+
+endcentreline
+survey blower -title "blower" 
+
+# stations linked into other surveys (or likely to)
+#*export gps tag 
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.08.02
+#team Insts Luke Stangroom
+#team Notes Becka Lawson
+#instrument Becka Lawson Distox2 No 1
+# Calibration: Becka UK
+endcentreline
+#ref 2017#29	# notes for this on sheets for 291 (was 2017_cucc_24)
+
+# if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+flags surface
+gps	tag	3.54	206.5	-15
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+gps	-	-	-	-	recorded on Becka's phone
+tag	-	-	-	-	tag placed just above numbered station 1 from Nathan and Mike survey so call them the same station
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+# No QMs
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Entrance is strongly drafting horizontal walking / stooping rift with some snow
+
+endcentreline
+endsurvey blower
+survey entranceseries -title "entranceseries" 									 									
+# stations linked into other surveys (or likely to)
+#*export A1 A7 
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.08.02
+#team Insts Nathan Walker
+#team Notes Mike Butcher
+#instrument Brendans Disto
+# Calibration: Probably Austria
+#*ref 2017# 	Does not have a physical survey wallet, suspect it was done paperless and lost except centerline
+    
+# if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+data normal from to length bearing gradient ignoreall								
+flags duplicate
+A2	A1	7.06	334.8	8.2
+A3	A2	5.98	035.3	11.0
+A4	A3	8.98	002.5	6.7
+A5	A4	11.04	012.1	7.8
+A6	A5	6.64	337.6	33.6
+A7	A6	4.56	83	33.8
+flags not duplicate
+# A7	ASplay1	14.3	182.9	-58 surveyed properly next day
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+A1	1.5	3.5	0	1.2
+A2	3.5	2.7	0.7	0.4
+A3	1.5	0.3	0.4	1.1
+A4	0.8	0.4	1.5	2.7
+A5	0.9	0	0.5	1.2
+A6	0	2.2	3.5	8.8
+A7	3	0	1.9	1.7	
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Entrance is strongly drafting horizontal walking / stooping rift with some snow	
+
+endcentreline
+endsurvey entranceseries
+centreline
+equate A1@entranceseries tag@blower
+
+endcentreline
+survey windytube -title "windytube" 									 									
+# stations linked into other surveys (or likely to)
+#*export A7 B3 B5 B6 B4 B1
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.08.03
+#team Insts Mike Butcher
+#team Notes Alice Shackley
+#instrument CHECC Disto
+# Calibration: Probably Austria
+endcentreline
+#ref 2017#36	# the #number is on the clear pocket containing the original notes
+
+# if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall	
+							
+flags duplicate
+B1	BSplay1	13.93	103.1	-14.8
+B2	B1	6.69	106.4	12.1
+B3	B2	13.18	125	27.9
+#B3	BSplay2	17.57	18.5	-52.6
+B4	B3	9.6	102.2	12.6
+flags not duplicate
+B5	B4	4.76	59.3	3.7
+flags duplicate
+B6	B5	7.31	126	-10.9
+B7	B6	11.98	281.3	-80.6
+A7	B7	7.82	159.8	-45.9
+flags not duplicate
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+B1	1.6	1.8	2	1.4
+B2	1.4	0.6	0.9	2.2
+B3	1.8	0	2.4	0.4
+B4	1.6	0	0.9	0.4
+B5	0	1.6	1	0.5
+B6	1.3	3.9	18.1	4
+B7	3.3	0	6.8	13.1	
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#QM1    A    B6 - see plan drawing there is definitely a QM A written in the survey notes
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Phreatic tube terminating in meander, starts windy but lose draft	
+
+endcentreline
+endsurvey windytube
+centreline
+equate A7@entranceseries A7@windytube
+
+# this survey has been removed as very poor notes and it appears to be a short loop in section of cave that is already drawn up
+#*include fishface2
+#*equate fishface2.B6 windytube.B6
+
+endcentreline
+survey 12monkeys -title "12monkeys" 
+
+# stations linked into other surveys (or likely to)
+#*export 3 8 15 16 17 3x 4x 21 2 14 18
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.06.08
+#team Insts Adam Aldridge
+#team Insts Aidan Marks
+#team Notes Rob Watson
+#instrument CHECC Disto
+# Calibration: Austria, Brendan Hall
+endcentreline
+#ref 2017#50
+
+# if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall	
+# stations linked into other surveys (or likely to)
+							
+4x	1	5.77	088.5	+7.5
+1	2	2.63	98.5	+8
+2	3x	2.34	153	+24
+2	3	4.92	059	-57.5
+3	4	4.67	061	-40
+4	5	4.37	353	-31
+5	6	5.04	103	+04
+5	7	5.36	277	-52
+7	8	8.96	301	-13
+8	-	7.27	249	-13 #splay shot across pitch
+3	10	3.60	333	-34
+10	11	3.86	313	-37
+11	12	2.50	322	-32
+12	-	18.54	282	-50 #splay shot down to pitchhead
+12	14	8.65	183	-20
+14	15	4.47	118	-10
+15	16	5.75	138	-33
+16	17	3.63	094	-21
+17	18	8.98	116	-35
+18	19	2.39	145	-10
+19	20	5.49	098	-37
+20	21	2.38	109	-11
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+1	0.6	1.7	1.2	1.1
+2	1	3.4	1.4	1.2
+3	1.6	0	1	2
+4	0.6	0	4	2
+5	1	0	2.5	1
+6	-	-	-	-
+7	0	2	5	1.5
+8	1.5	0	1	1
+#9	2	3	8	5
+
+#Station Left Right Up Down Description
+data dimensions station left right up down ignoreall
+3	1.6	0	1	2
+10	0.8	0	2	1
+11	0	0.7	0.6	0.4
+12	0	4.8	2	3.3
+14	1.5	1.5	8	2
+15	0	2.5	4.2	5
+16	1	0	8	1
+17	0	0.5	8	6
+18	0.3	2	8	8
+19	0.6	0.2	8	5
+20	0	0.5	5	2
+21	0.5	0.3	6	0.8
+
+#Station Left Right Up Down Description
+data dimensions station left right up down ignoreall
+1	0.6	1.7	1.2	1.1
+4x	1.6	0	0.9	0.4
+
+#Station Left Right Up Down Description
+data dimensions station left right up down ignoreall
+1	0.6	1.7	1.2	1.1
+3x	1.8	0	2.4	0.4
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+
+#Drop down 4m pitch. There are 3 holes, a pitch (p11) to the left into
+#a large canyon, a steep descending rift climb down ahead, and to the
+#right a shallower passage in the same plane. They all end up in the
+#same canyon. Climbing down the middle route gets onto a large boulder
+#wedeged in the top of the canyon, from where one can climb to the
+#bottom of the p11 pitch. The passage to the right descends, then
+#doubles back (short dead-end crawl off to right) to end up at a
+#window looking out into the canyon.
+
+#From where the p11 lands one can climb left into a traverse level in
+#narrower rift. this can be followed 30m (and 14m down) to where it
+#meets a small streamway in the back of the canyon. This ascends very
+#steeply and can be followed for about 10m before becoming too tight.
+#The same point can be reached by traversing higher up.  From near the
+#lowest point you can drop down another level in the right and follow
+#yet another traversable level until it gets too right.
+
+endcentreline
+endsurvey 12monkeys
+centreline
+equate B3@windytube 3x@12monkeys
+equate B4@windytube 4x@12monkeys
+
+# this survey contains two unjoined parts so it was split up
+#*include fishface1
+#*equate fishface1.B5 windytube.B5
+#*equate fishface1.B6 windytube.B6
+#*equate fishface1.21X 12monkeys.21
+#*equate fishface1.X fishface2.1
+
+endcentreline
+survey fishface1-part1 -title "fishface1-part1" 
+
+# stations linked into other surveys (or likely to)
+#*export  B5 B6 X 14
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.08.07
+#team Insts Radost Waszkiewicz
+#team Paint Alice Shackley
+#team Notes Becka Lawson
+#instrument Becka Lawson Distox2 No 1
+# Calibration: Becka UK
+endcentreline
+#ref 2017#38	# notes for this on sheets for 291 (was 2017_cucc_24)
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+B6	1	8.09	016.5	-17
+B6	B5	7.48	128	-12
+B6	X	7.20	184	+02
+X	2	4.76	085	+12
+X	3	11.30	282	-21
+3	4	9.28	299	-54
+3	10	5.41	306	-51
+10	11	2.07	226	-38.5
+11	12	17.52	045	-79
+12	13	4.71	143	+01
+13	14	4.41	079	+35
+14	15	18.33	105	+55
+14	16	8.20	207	-23
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+B6	0.4	4	18	1	old nod stn chamber
+1	2	1	12	2	back wall under pitch
+B5	0	4	12	1	old nod stn
+X	0	8	1	1	old qm adam-aidan stn
+2	5	2	1	0.5	far chamber
+3	0.4	3	13	1.2	nod rp3 lw
+4	2	0	8	10	unmarked
+10	2	0.5	5	18	down pitch near rebelay
+11	0	3	3.7	18	rh of right rebelay bolt
+12	3	2	20	1.5	base pitch nod
+13	1	0	13	3	start of passage
+14	0	3	4	1	lw
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Resurvey main chamber below first pitch then survey down pitch from opposite wall to ice chamber plus finish very tight rift
+
+endcentreline
+endsurvey fishface1-part1
+centreline
+equate B5@fishface1-part1 B5@windytube
+equate B6@fishface1-part1 B6@windytube
+
+endcentreline
+survey fishface1-part2 -title "fishface1-part2" 
+
+# stations linked into other surveys (or likely to)
+#*export 21x
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.08.07
+#team Insts Radost Waszkiewicz
+#team Paint Alice Shackley
+#team Notes Becka Lawson
+#instrument Becka Lawson Distox2 No 1
+# Calibration: Becka UK
+endcentreline
+#ref 2017#38	# notes for this on sheets for 291 (was 2017_cucc_24)
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+21X	5	3.03	095	+45	recorded as old stn 12 in notes but must be 21
+5	6	2.32	062	+66
+7	6	2.34	295	-11
+8	7	1.10	248	-46
+8	9	4.31	120	+57
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+21X	0.4	0.2	8	0.4	old nod stn rob-adam
+5	0.3	0.3	3	2	by stream
+6	0	0.3	1	3	through squeeze
+7	0.5	0	4	2	rw above stream
+8	0.1	0.3	3	2	lw nod
+9	0.2	0.2	1	2	unmarked up srtream rift
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Resurvey main chamber below first pitch then survey down pitch from opposite wall to ice chamber plus finish very tight rift
+
+endcentreline
+endsurvey fishface1-part2
+centreline
+equate 21X@fishface1-part2 21@12monkeys
+
+endcentreline
+survey icytube -title "icytube" 
+									 									
+# stations linked into other surveys (or likely to)
+#*export 14x 7
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave/QM: Entrance
+# -title "Fisch Gesicht Hoehle"
+centreline
+date 2017.08.08
+#team Insts Aidan Marks
+#team Notes Radost Waszkiewicz
+#instrument CHECC Disto
+# Calibration: Probably Austria
+endcentreline
+#ref 2017#48
+
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall	
+							
+1	2	5.33	123	-53
+2	3	1.15	144	+05
+1	4	4.72	161	+24
+4	5	1.35	165	+03
+5	6	1.23	235	+02
+7	1	26.29	016	-85
+flags duplicate
+7	8	10.46	173	+78
+8	9	6.21	132	+68
+9	10	4.48	080	+25
+10	11	4.25	355	+69
+11	14x	4.09	030	+20
+flags not duplicate
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+1	0	3	28	1	pitch bottom, start tube
+2	0.3	0.3	0	0.4	tube ceiling
+3	0.5	0	0.4	0.3	tube RW
+4	1	0	15	1.5	rift entrance
+5	0	0.2	15	1	rift
+6	0	0.2	15	1	rift
+7	0	1	10	27	rebelay
+8	1	1	6	0	icy passage
+9	0.5	1	4	1	icy passage
+10	0.3	0	2	5	end icy passage
+11	0	0.5	1	1	drafting crawl
+14x	-	-	-	-	numbered stn from previous survey 
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    A    surveyname.3    -    description of QM ]
+#[ QM2    B    surveyname.5    -    description of QM ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Continuation from ice block through icy tube down approx 30m pitch	
+
+endcentreline
+endsurvey icytube
+centreline
+equate 14@fishface1-part1 14x@icytube
+
+endcentreline
+survey canyon -title "canyon" 
+									 									
+# stations linked into other surveys (or likely to)
+#*export 7 C14 C16 C10 C1
+
+# Cave: Fisch Gesicht Hoehle
+# Area in cave: Entrance
+# Meander to Canyon: Blitzen Boulevard
+# -title "Blitzen Boulevard"
+centreline
+date 2017.08.13
+#team Insts Alice Shackley
+#team Notes Mike Butcher
+#instrument CHECC Disto
+# Calibration: None
+endcentreline
+#ref 2017#53
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall	
+							
+7	C1	9.70	200.4	-74.9
+C1	C2	7.91	134.4	+06.2
+C2	C3	3.35	128.8	+10.2
+C3	C4	2.72	166.9	-30.9
+C4	C5	3.30	117.2	+07.1
+C5	C6	3.90	192.6	-21.7
+C6	C7	6.86	199.8	-10.3
+C7	C8	1.82	158.7	+14.0
+C8	C9	5.00	217.8	-29.7
+C9	C10	24.54	305.7	-86.1
+C9	C11	33.81	280.7	-89.1
+C11	C12	8.10	293.9	-00.3
+C11	C13	8.00	110.2	+14.9
+C13	C14	14.75	007.6	+31.9
+C13	C15	6.01	008.9	+18.8
+C15	C16	5.88	036.1	-05.8
+C16	C16splay	14.75	151.0	-88.2
+C14	C14splay	14.06	006.1	+06.5
+
+#-----------
+#recorded station details
+
+#LRUDs arranged into passage tubes
+data dimensions station left right up down ignoreall
+7	0	1.5	16.9	23.8	Y-hang. continues from icytube survey station
+C1	1.1	1.4	6.7	0.0
+C2	0.7	0.0	2.7	4.5
+C3	0.0	0.6	2.5	5.8
+C4	0.0	1.0	4.0	5.0
+C5	0.0	2.0	4.0	5.0
+C6	1.0	0.0	4.7	4.4
+C7	0.0	0.5	5.5	27.0
+C8	0.0	0.5	4.5	12.0
+C9	1.0	0.5	5.0	24.8
+C11	1.0	1.0	33	1.5
+C13	2.0	0.0	10	0.0
+C12	0.0	1.5	33	1.5
+C15	0.0	0.4	13.2	13.0
+C16	0.0	0.4	4.0	5.0
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    B    canyon.C10    -  part way down the 35m pitch there is a ledge, possibly phreatic with the stream having cut down through it forming the pitch,the ledge possibly continuing at a higher level
+#QM2    A    canyon.C16splay    blitzen_to_liquidluck.1d  continuation of the meadering rift at depth, 15m pitch undropped
+#QM3    A    canyon.C14splay    -  phreatic tube after a 3m climb up on the left hand side
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+# Continuation icytube from the y-hang swinging across the pitch to the south-west, the other side of the flake. Passage starts as a meandering rift, drops a 33m pitch into a canyon with a stream at the bottom. Passage continues with more rift leading to an undropped 15m pitch and also climbs upwards c3 to phreatic tubes.
+
+endcentreline
+endsurvey canyon
+centreline
+equate 7@icytube 7@canyon
+
+#2018 surveys
+endcentreline
+survey blitzen_to_LiquidLuck -title "blitzen_to_LiquidLuck" 
+
+# stations linked into other surveys (or likely to)
+#*export 14c 13 24
+
+# Cave: Fisch Gesicht
+# Area in cave/QM:
+# -title "Bottom of Blitzen Boulevard"
+centreline
+date 2018.07.13
+#team Insts Mike Butcher
+#team Notes Lydia-Clare Leather
+#team Pics Lydia-Clare Leather
+
+#instrument "Traditional Compass/Clino, Laser tape"
+
+endcentreline
+#ref 2018#05
+# the #number is on the clear pocket containing the original notes
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+14c	1d	5.69	356	+03
+1d	14c	5.68	177	-03
+1d	2	2.79	341	-31
+2	3	6.6	031	-10
+3	4	4.45	070	-48
+4	5	3.57	009	-07
+5	6	2.23	280	-06
+6	7	4.72	-	down
+8	7	2.13	061	-10
+9	8	7.08	050	+73
+9	10	4.41	046	-37
+10	11	6.13	-	down
+12	11	2.03	272	+5
+12	13	7.91	046	-61
+14	8	5.65	152	-3
+14	15	3.6	242	-13
+15	16	3.1	200	-6
+16	17	4.1	298	-1
+17	18	1.8	218	-1
+18	19	2.7	325	-24
+19	20	1.6	310	0
+20	21	2.7	325	-24
+21	22	22.3	-	down
+22	23	5.03	188	-9
+23	24	7.95	235	+5
+22	23u	5.25	027	-3
+23u	24u	4.41	018	+1
+24u	25u	4.13	040	+4
+25u	26u	21.5	-	down
+flags splay
+22	22A	5.5	346	0
+22	22B	6.1	294	0
+22	22C	3.9	203	0
+22	22D	5	106	0
+26u	26a	5.1	220	-9
+26u	26b	3.6	020	+8
+flags not splay
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#1   0.8   0     5.3   1.6  ; NP on boulder. pt 23 on foo survey ]
+#2   0.3   1.2   6     1.2  ; NP '2' LHW ]
+#3   1.3   0     3.4   0.2  ; Rock on floor - not refindable ]
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down 
+14c	2.5	0	3.6	1.5
+1d	0	1	0.5	1.4
+2	0	1	1.7	2.7
+3	1.1	0	0.6	4.5
+4	1.3	2	2.5	0
+5	0	0.6	2	1.5
+6	0	0.7	1.2	4.12
+7	0	1	6.02	0
+8	0	2.15	3	8.15
+9	2	0	7.1	1.2
+10	0	0.6	2.5	6.13
+11	0.2	0.5	6.4	0.6
+12	0.6	0.6	2.5	2
+13	1.5	1.5	2	0
+data dimensions station left right up down
+8	0	2.15	3	8.15
+14	1	0	2	2
+15	0.7	0	2.4	1.8
+16	0	1.1	2.3	1.6
+17	0	0.6	1.7	3
+18	0	0.6	1.7	3
+19	0	1.6	2.5	2
+20	0.8	0	2.2	23.5
+21	0	0.7	1.8	23.6
+22	3.6	2.4	24.2	0
+23	0	1.7	1	1
+24	2	0	0.5	1.5
+23u	0.3	0.9	2.3	1.3
+24u	0.4	0.5	2.5	1.4
+25u	1.8	0	27.5	21.5
+	
+data dimensions station left right up down
+#[ 1   1.3   1.5   5.3   1.6 ]
+#[ 3   2.4   0     3.4   0.2 ]
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1	B	blitzen_to_LiquidLuck.2	-	After a roughly 2 m climb down, the passage spokes off to the left and slims down in size. Not very drafty but possibly links into the BBBBypass later on.
+#QM2	B	blitzen_to_LiquidLuck.4	-	When in Benign bubble baby bypass, facing the formation, to your right ight is an awkward look crawl. Whilst investigate, this crawl leads into a drop, roughly 15 metres and would potientially link into the blitsen boulovard canyon.
+#QM3	B	blitzen_to_LiquidLuck.25u	-	The Urinal is a fairly wet chamber, which is suspected to link into happy butterfly. West of the driping water inlet is a grotty, wet meander that would need crawling through. Dosent look nice... But could lead to a bigger water way.
+#QM4	A	blitzen_to_LiquidLuck.25u	-	East of 25b is an aven that has a water inlet coming back into it. There is a strong possibilty that this is where happy butterfly could connect (nearest station is couldashhouldawouldatobathdodgersbypass.304)	
+
+#------------
+#Cave description  ;(leave commented-out)
+#After traversing Blitzen boulovard for roughly 20m down stream, you come to a phreatic passage on the left had side above a slightly tricky climb. The start of this passage is 14C.Flowwing this passage onwards foe roughly 20m you reach a small chamber know as Benign Bubble Baby Bypass. So called due to the odd look formation suck in the corner. To the left of the formation you reach a pitch of 7m that drops into Piss Pot (so called due to how it was used during the exporlation of the meander). Piss Pot is roughly 15m in depth but ends in a bouldery choke, not worth any more exploration unless you fancy starting a dig. left of the pitch at station 7 is another meandering passage. Following this for roughly 15m you reach a pitch head which drops into Liquid Luck.
+#Liquid Luck is a roughly 25m pitch head that drops onto a leadge, surrounded by canyon. The chamber is large and fairly drippy. Opposite this ledge is a phreatic passage that can be accesed by traverseing along liquide luck. The passage leads in a pitch head and a large chamber called the Urinal (also named due to its usage during exploration. The traverse above must be rigged and the decent is roughly 19m to the bottom, however the cieling extends by roughly 20m above the pitch head and is suspected to connect into happy butterfly, see QMR 3 and 4.
+
+#Back at station 22 (the Liquid Luck Ledge), phreatic developement continues South East of station 22. Traverse along the phreatic passage, into another chamer, stay high and traverse along until you are across to into the contiuation of of the phre attic passage. This is the Begining of Freeattic_Flys 
+
+
+endcentreline
+endsurvey blitzen_to_LiquidLuck
+centreline
+equate C14@canyon 14c@blitzen_to_LiquidLuck
+
+endcentreline
+survey FreeAttic_Flys -title "FreeAttic_Flys" 
+
+# stations linked into other surveys (or likely to)
+#*export 24 1 3TT 4TT
+
+# Cave:Fisch Gesicht
+# Area in cave/QM: 
+# -title "FreeAttic Flys to Toto"
+centreline
+date 2018.07.15
+#team Insts Michael Holliday
+#team Insts Tom Crossley
+#team Notes Lydia-Clare Leather
+#team Pics Lydia-Clare Leather
+
+#instrument "Traditional Compass/Clino, Laser tape"
+
+endcentreline
+#ref 2018#06
+# the #number is on the clear pocket containing the original notes
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1	2	7.7	278	-6
+1	1TT	3.35	200	+2
+1TT	2TT	5.02	-	down
+2TT	3TT	2.90	135	+3
+3TT	4TT	14.1	-	down
+flags splay
+4TT	4A	3.6	253	+5
+4TT	4B	7.5	335	+10
+4TT	4C	6.3	86	0
+4TT	4D	3.5	200	+20
+flags not splay
+2	3	4.5	199	-29
+3	4	5.7	350	+31
+4	5	2.4	051	+11
+5	6	5.6	293	-10
+6	7	4.69	333	+5
+6b	6	5.60	195	-3
+7	8	3.42	044	-10
+8	9	4.9	278	-3
+8	6b	1.55	132	-6
+9	10	7.61	347	-11
+10	11	8.39	300	-10
+11	12	3.04	044	+8
+24	12	2.25	206	-17
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down 
+1	1.1	0	0.4	1.5
+1TT	1.2	0	0.3	5.04
+2TT	0.8	6.6	5.2	0
+3TT	0	0.5	5.5	14.0
+4TT	1.2	0.3	15.4	0
+2	0.9	0	0.3	1.2
+3	0	2.1	0.6	2.0
+4	0	0.9	1.6	1.1
+5	1.4	0	2.3	1.2
+6	0	1.3	1.3	1.4
+6b	0	1.5	1.0	1.5
+7	0	1.1	0.4	0.6
+8	1.6	0	1.7	1.6
+9	0	2	2	0.3
+10	0	2	1.2	1.3
+11	0	1.8	1.5	0.7
+12	1.5	0	1.5	0.7
+
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    A    FreeAttic_Flys.4TT		toto_to_crystalcrumble.1	Bottom of Toto,facing SW is a continuation of a meander, which leads into crystal crumble, Here you can find really impressive stalagites
+
+#------------
+#Cave description  ;(leave commented-out)
+#Having finished the traverse out of liquid luck, you begin following the phreatic passage called Freeattic flys. So called because Lydia Leather is dyslxic and didnt realise it wasnt spelt that way. This passage continues along for 30m, passing intricate coral looking formation and it a continues rifting meandering passage. Eventually you get to a pitch head, that drops into a false floor 5m down. SE of the pitch is the continuation of Freattic flys known as the Odyssey.
+#Dropping the second pitch puts you into Toto chamber, So called because of the boulder in the shape of Africa. Last station surveyed here is directly bellow the pitch head, has now been re visited to survey crystal crumble where stalagtites lie.
+
+endcentreline
+endsurvey FreeAttic_Flys
+
+centreline
+equate 24@blitzen_to_LiquidLuck 24@FreeAttic_Flys
+
+endcentreline
+survey ulysses_to_toto -title "Ulysses_to_Toto" 
+
+# stations linked into other surveys (or likely to)
+#*export 3 20 1 5
+
+# Cave:Fisch Gesicht
+# Area in cave/QM: 
+# -title "Ulysses to Toto"
+centreline
+date 2018.07.21
+#team Insts Anthony Day
+#team Notes Lydia-Clare Leather
+#team pics Lydia-Clare Leather
+#team pics Philip Withnall
+
+#instrument "Disto X"
+
+endcentreline
+#ref 2018#06
+# the #number is on the clear pocket containing the original notes
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1	2	11.654	344.4	-13.2	cross section of ulysses entrance
+1	-	48.85	148.6	+46.0	Leg across Ulysses. Survey station does not exist.
+2	3	6.389	287.9	-32.2
+3	4	5.396	016.3	+04.8	Odius odium splits
+4	5	6.992	068.5	-65.7	Pitch
+5	6	7.175	099.3	+45.9
+6	7	9.043	061.2	-01.3
+7	8	7.437	303.7	-33.7	Corner - big boulder choke
+7	9	6.432	029.9	+07.2	Big boulder choke with a very strong draft
+3	10	4.557	278	+12.8 	10 lies below the pitch and is on a false floor. Rift behind pitch continues as a large meander
+10	11	2.759	283.6	+65.8	above bolt
+11	12	3.247	229.4	+34.3
+12	13	1.342	272.7	-0.7
+13	14	2.906	255.4	-05.3
+14	15	4.067	288.8	-23.5	A lead
+13	16	5.459	179.6	+66.9	up pitch
+17	16	4.424	132.1	+0.2
+17	18	4.828	232.5	+10.9
+18	19	2.523	315.0	+1.3
+19	20	4.196	263.9	-27.0
+flags splay
+1	1a	16.835	154.6	+0.5	
+1	1b	23.168	134.7	+35.43
+1	1c	9.928	199.4	+4.9
+1	1d	19.062	117.7	+45.2
+5	5a	11.484	011.5	+34.5
+5	5b	7.615	239.0	-10.4
+5	5c	6.8	151	+23
+flags not splay 
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+data dimensions station left right up down 
+1	2.5	3.3	7.1	0.8
+2	2.9	0.6	3.2	4.0
+3	0	5.5	11.3	2.2
+4	1.6	1.7	1.1	8.8
+5	3.9	2.7	9	0.8
+6	3.6	1.7	5	1.7
+7	1.8	0.8	5.5	1.5
+9	1.5	1.0	3.0	1.6
+10	0.1	1.3	9.5	2.5
+11	0.5	1.6	6.7	8.6
+12	1.1	1.7	7.1	2.0
+13	2.6	1.4	7.7	2.2
+14	0.6	1.3	6.4	3.7
+16	0	1.1	3.3	1.5
+17	1.7	1.4	3	1.3
+18	1.5	2.8	2.8	0.4
+19	2.8	2.4	4.2	1.4
+
+
+
+#-----------
+#Question Mark List
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    A       ulysses_to_toto.1       ulysses_to_colericchamber.2  Opposite side of survey stationone on the other side of Ulysses sits a very obvious railway sized phreatic passage. To get through to this passage will require a traverse and bolt climb up into it. Very large draft and very promising as slapys to the end of Ulysses chamber sits at23.163, whilst splay into the railway passage is 48.85 (slay name:1->1u), so passage estmated to be 26 metres in width.
+#QM2 	A	ulysses_to_toto.5	-  Passage sits behind the pitch bellow survey station 4. Would need to be bolted and dropped as falls in roughly 10-15 metres in depth. Promising meandering passage with minimal draft
+#QM3	B	ulysses_to_toto.5	-  When facing the pitch bellow survey station 4, to your left with be a walking meandering passage, roughly a meter in width, with stable floor. minimal draft.
+#QM4	C	ulysses_to_toto.8	-  Decending rift with wall on one side that is boulder choky (South), decending wall (North). Could go but would need to be done by someone who dosnt value there life.
+#QM5	A	ulysses_to_toto.9	-  Small passage underneath a massive boulder choke but an extreamly large draft can be felt coming from said boulder choke. Whilst surveyed, it would need it be carefully crawld through in order to get into passage that sits behind, but again, needs someone who dosnt value there life to try it.
+#QM6	A	ulysses_to_toto.15	-  Follows a meandering rift, roughly a metre in diametre and 2 metre in hieght, with anoth strong drafte flowing from station 15 to 14. Definatly worth exploring.
+
+#------------
+#Cave description
+#Station 20 of ulysses_to_toto connects from the rebelay bolt of the higher level of Toto chamber. Instead of following the rigging down to Toto chamber, traverse along the higher level passage, following with the phreatic developement from freeattic_flys. This leads into a contiuation of the meandering/rifting/phreatic passage. Follow the passage with 2 small pitches no deeper than 10 metres. After the second pitch you arrive in Odius odium which continues both left and right. Following left will lead to a pitch (roughly 15m) which drops into the Shit Show. The chamber is made up of of false floor and massive boulder chokes, and is not an area to tread heavily. Seriously its shit. However as shit as it is, its drafting in multiple places. The chamber has not been excessively explored as of this surveys creation, but contiuse onworts NE and contiues to draft.
+
+#Back in Odius Odium, turning right will lead you toward Ulysess. Ulysses is a very large chamber, roughly 20 metres in diameter, and a currently unknow depth but expected to be greater than 50 metre. The walls aroud the this chamber however is not great, infact its pretty crap. The day this survey was made, a traverse began to be rigged along the right side wall, with the intension of either A) traversing half way round the chamber and droping it to find the expected depth, or B) continuing to travese the chamber, in order to reach the strong lead on the oposite wall, which is a massive rail way sized, continuing phreatic tunnel. See QMR 1. This is still to be explored, however has strong draft facing SE. The chamber itself is excesivly crumbly, and likely no amount of gardening will make the chamber "safe", so if the pitch is dropped, decents should be very carefully made, one by one, with awareness on very possible falling rock.  
+
+endcentreline
+endsurvey ulysses_to_toto
+centreline
+equate 3TT@FreeAttic_Flys 20@ulysses_to_toto
+
+endcentreline
+survey toto_to_crystalcrumble -title "toto_to_crystalcrumble" 
+
+# stations linked into other surveys (or likely to)
+#*export 1
+
+# Cave: Fisch Gesicht
+# Area in cave/QM: Toto to Crystal Crumble
+# -title "Toto to Crystal Crumble"
+centreline
+date 2018.07.24
+#team Insts Luke Stangroom
+#team Notes Michael Holliday
+#team Dog Adelaide De Diesbach
+#instrument CHECC DistoX
+endcentreline
+#ref 2018#19    
+   # this is wrong.  points to mysterious schlang
+   
+
+
+# Centreline data
+centreline
+data normal from to length bearing gradient	ignoreall
+1	2	4.13	233.7	14.2	Point 1 is the in the centre of Toto, and was pre-done
+2	3	4.04	297.0	-59.6
+3	4	3.24	226.4	-9.2
+4	5	2.37	270.7	-13.1
+5	6	1.87	177.4	-2.5	6 is at the top of the pitch into Crystal Crumble
+6	7	12.02	309.8	-49.8	Small chance that "-49.8" is "-99.8"
+7	8	13.57	004.5	-29.2
+8	9	7.12	294.1	-15.6
+9	10	5.52	350.4	-23.4	10 is in the water of a gentle waterfall and had its LRUD's estimated
+
+6	11	4.29	334.4	-56.2
+11	12	14.55	199.6	-84.6
+12	13	2.3	251.8	-21.2
+13	14	6.05	200.8	13.3
+14	15	6.70	148.7	-22.9 	15 is also in the water of a gentle waterfall and had its LRUD's estimated
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+2	0.0	1.3	4.0	2.1
+3	1.0	0.3	4.0	1.0
+4	0.0	1.8	1.0	1.5
+5	1.9	0.3	3.5	0.5
+6	0.2	1.8	0.5	0.7	At the top of the pitch into Crystal Crumble
+7	0.6	4.0	6.9	1.2
+8	2.6	0.0	9.4	1.6
+9	0.0	1.8	10.0	1.7
+10	1	1	10	2	In the water of a gentle waterfall and had its LRUD's estimated
+data dimensions station left right up down ignoreall
+6	0.2	1.8	0.5	0.7
+11	4.1	0	8.0	16.0	The 'up' value of '8.0' was recorded as '18.0'. Michael (me) has no memory of a weirdly high roof, so I have changed it to 8.
+12	1.4	1.9	19.0	1.5
+13	10.6	2.3	19.0	1.4
+14	3.2	0.0	22.0	5.0
+15	2	2	20	3	In the water of a gentle waterfall and had its LRUD's estimated
+
+#Question Mark Lists
+#QM1	D	toto_to_crystalcrumble.11 -	A widening to the meander about halfway below the way into Crystal Crumble and the floor. Leads back towards Toto at a lower level to the way into Crystal Crumble. Probably not worth pursuing, definitly not until the floor of Toto has been dropped (as somewhwere from there probably leads to here).
+#QM2	X	toto_to_crystalcrumble.10 -	The water flowing into Crystal Crumble almost certainly just flows along the rift from Liquid Luck. This really isn't worth pursuing.
+
+#Cave Description
+#After dropping Toto chamber to a large rock wedged mid way up, the main obvious way on is via a comfortably sized rift that quickly leads to a large, wet chamber. The ceiling seems high, and there are some pretty formations off to one side of the chamber (over to the right, looking in. We traversed over after a short absail). Unfortunatly, there seems to be no way on from here. Each end has a drippy/waterfall area, where the water drops down into a tight meander in the floor (partially covered by rockfall) that we could find no human sized way of accessing/bypassing. There is some widening to the meander used to access the chamber at a lower level (mid-way down), but this almost certainly just goes back to the true floor level of Toto and was not investigated. The area has been de-rigged and de-hanger'ed.
+
+endcentreline
+endsurvey toto_to_crystalcrumble
+centreline
+equate 1@toto_to_crystalcrumble 4TT@FreeAttic_Flys
+
+endcentreline
+survey ulysses_to_colericchamber -title "ulysses_to_colericchamber" 
+
+# stations linked into other surveys (or likely to)
+#*export 1x
+
+# Cave: Fisch Gesicht
+# Area in cave/QM: Ulysses to Choleric Chamber
+# -title "Ulysses to Choleric Chamber"
+centreline
+date 2018.07.24
+#team Insts Luke Stangroom
+#team Notes Michael Holliday
+#team Dog Adelaide De Diesbach
+#instrument CHECC DistoX
+endcentreline
+#ref 2018#20
+
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1x	2	1.12	085.6	29.6	2 is just near 1x to allow a view over to station 3 and the continuation.
+2	3	13.81	147.0	-42.6	3 is at the entrance to the rift
+3	4	6.75	088.4	-17.8	 
+4	5	5.92	183.1	-21.4	5 is at the top of the pitch into the chamber.
+5	6	9.47	305.8	-81.6	6 is at the bottom of the pitch into the chamber.
+6	7	7.52	154.3	-26.6
+7	8	6.06	336.5	-21.0
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+#2	2.4	4.2	18.0	0.8	Just near 1x to allow a view over to station 3 and the continuation. Ignored due to not being in relavant area. 
+3	0.4	0.7	1.5	1.2	At the enerance to the rift
+4	0.0	1.4	2.4	1.7
+5	0.7	0.0	1.5	1.5	At top of pitch
+6	1.1	1.2	14.0	0.7	At bottom of pitch
+6	1.1	1.2	14.0	0.7
+7	3.2	3.8	13.7	1.3	Between the two 'plunge pools',
+7	3.2	3.8	13.7	1.3
+8	0.5	0.0	2.3	0.8	Undernieth 6. One way of accessing the lead.
+
+#Question Mark List
+#QM1	A	ulysses_to_colericchamber.8 -	The water coming down one of the waterfalls goes into the floor and looks to head in the direction of the large space at the other side of the too-tight rift. One could either follow the water directly, or drop down from a few metres higher up through a hole in the floor, where you first drop into the chamber. It looks quite roomy down there, and with normal drippy water levels, it looks easy enough to stay dry.
+#QM2	C	ulysses_to_colericchamber.6 -	To one side of the chamber is a tight rift, that has been reffered to as 'too-tight'. This leads to a large, echo'y space within sight. This is probably accessed via following the water below, but if the water goes elsewhere this is very worth checking out. A determined, brave, and thin individual could likely find a way through: although even this person may want a backup of some sort.
+
+#Cave Description
+# Traversing (with difficulty at the time of writing) around Ulysses leads to a small (compared to Ulysses), but comfortably traversable, rift. This almost immediatly drops into a tall chamber, with a dry waterfall and an active waterfall at one side and a too-tight rift at the other. Shouting into the too-tight rift produces a good echo, and no far wall can be seen! The water from the waterfall flows under the inital landing spot, and a comfortably sized continuation can be seen. This needs bolting and dropping, preferably staying far from the water: as it may get a lot more splashy in high water conditions. [So-called due to Stangrooms rage at the world.]
+
+endcentreline
+endsurvey ulysses_to_colericchamber
+centreline
+equate 1x@ulysses_to_colericchamber 1@ulysses_to_toto
+equate 1@toto_to_crystalcrumble 4TT@FreeAttic_Flys
+
+endcentreline
+survey rubblerumble -title "rubblerumble" 
+
+# stations linked into other surveys (or likely to)
+#*export 5x 1
+
+# Cave: fish face 290
+# Area in cave/QM: 1623
+# -title ""
+centreline
+date 2018.07.27
+#team Insts Olly Hall
+#team Notes Adam Aldridge
+#team Pics 
+#team Tape 
+#instrument checc disto
+# Calibration: [Where, readings]
+endcentreline
+#ref 2018#28
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:
+centreline
+calibrate tape +0.0	# +ve if tape was too short, -ve if too long
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+1 2 5.31 52 -24
+2 3 10.21 153 +82
+3 4 4.56 180 -8
+4 5 1.80 151 +6
+5 6 2.59 212 +47
+6 7 3.62 254 +36
+7 8 2.90 296 +3
+8 9 3.77 50 +64
+9 10 2.31 28 +6
+10 11 1.85 288 +5
+11 12 3.96 346 +34
+12 5x 2.87 66 +24
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Red nail varnish markings
+#1 0 2.5 9.5 12
+#2 0 2 11.5 3
+#3 0 1.5 8 10
+#4 0.5 0 6 1.5
+#5 0 0.5 5 1
+#6 0 0.5 6 2
+#7 0 1 3.5 2.5
+#8 0 0.5 3 0.5
+#9 0.5 0.2 0 3
+#10 1 0.5 1.5 2.5
+#11 0 0.3 2 7
+#12 2.5 2.5 8 1.5
+
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down 
+1 0 2.5 9.5 12
+2 0 2 11.5 3
+3 0 1.5 8 10
+4 0.5 0 6 1.5
+5 0 0.5 5 1
+6 0 0.5 6 2
+7 0 1 3.5 2.5
+8 0 0.5 3 0.5
+9 0.5 0.2 0 3
+10 1 0.5 1.5 2.5
+11 0 0.3 2 7
+12 2.5 2.5 8 1.5
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+endcentreline
+endsurvey rubblerumble
+centreline
+equate 5x@rubblerumble 5@ulysses_to_toto
+
+endcentreline
+survey rubblerumble3 -title "rubblerumble3" 
+
+# stations linked into other surveys (or likely to)
+#*export 1 8
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: top of rubble rumble
+# -title "rubblerumble2"
+centreline
+date 2018.08.02
+#team Insts Manfred
+#team Notes Adelaide 
+#team Dog Typhon
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#49
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1	2	2.72	10.4	-41.4
+2	3	5.37	329.6	-73.9
+2	-	7.27	313.8	-5
+2	-	10.3	3.50	-4.6
+3	4	5.85	115.9	-20.4
+3	-	9.27	24.7	1.3
+3	-	4.3	44	-1.4
+3	-	8.6	339.5	-2.7
+4	5	15.1	219	-89
+4	-	8.2	344	-2
+4	-	6.16	137	-3
+4	-	16.1	310	-7.3
+5	6	10	91.3	-83.3
+5	-	4.8	290.4	-1.4
+5	-	6.94	327	-1.5
+5	-	10.6	12.5	1.3
+7	6	14.9	79.1	81.7
+7	8	18	339.8	-88.4
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Pink nail varnish markings
+
+#NONE
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#Top of the big pitch that typhon rigged
+
+endcentreline
+endsurvey rubblerumble3
+centreline
+equate 1@rubblerumble 1@rubblerumble3
+
+endcentreline
+survey rubblerumble2 -title "rubblerumble2" 
+
+# stations linked into other surveys (or likely to)
+#*export 1 0
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: at rubble rumble
+# -title "rubblerumble"
+centreline
+date 2018.08.02
+#team Insts Adelaide
+#team Notes Typhon
+#team Pics Manfred 
+#team Dog Manfred
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#49
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+flags splay
+0	-	4.46	197.3	-5.3
+0	-	4.94	108.3	4.7
+0	-	2.04	283.5	1.6
+flags not splay
+0	1p	4.70	12.1	14.3
+1p	1	6.21	321.4	-21.9
+flags splay
+1p	-	4.6	23.9	14.1
+1p	-	9	33.2	9.7
+1p	-	4.79	39.5	9.7
+1p	-	2.23	120.9	9.4
+flags not splay
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Pink nail varnish markings
+
+#NONE
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#Bottom of the big pitch that typhon rigged
+
+endcentreline
+endsurvey rubblerumble2
+centreline
+equate 0@rubblerumble2 8@rubblerumble3
+
+endcentreline
+survey kublakhan -title "kublakhan" 
+
+# stations linked into other surveys (or likely to)
+#*export 1 5 8 22 24 26b 35
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: below rubble rumble
+# -title "kublakhan"
+centreline
+date 2018.08.02
+#team Insts Adam Henry
+#team Notes Cat Henry
+#team Pics Adam Henry
+#team Dog Michael Sargent
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#30
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1	2	13.13	12.3	-56.2
+1	3	10.23	182.7	-49.4
+3	4	4.33	220.0	-60.5
+4	5	1.73	240.0	-25.0
+5	6	7.86	328.9	16.6
+6	7	2.33	298.8	-4.5
+7	8	3.54	323.1	5.4
+8	9	3.46	210.6	-8.6
+9	10	2.58	262.9	-0.6
+10	11	3.22	180.9	-5.9
+11	12	3.51	276.2	0.7
+12	13	4.82	13.9	2.6
+13	14	9.70	301.7	-0.6
+14	15	4.61	2.4	-2.4
+15	16	3.00	35.4	-3.0
+16	17	3.30	295.5	-10.8
+17	18	3.43	359.2	-1.8
+18	19	2.32	251.6	-10.9
+19	20	3.20	302.8	-22.9
+20	21	1.89	235.5	-35.5
+21	22	2.07	250.3	-8.7
+22	23	6.39	227.8	-16.6
+23	24	5.09	165.3	-4.1
+24	25	11.94	183.8	-1.5
+25	26	4.56	212.5	-19.5
+26	27	23.86	191.6	-6.6
+27	28	6.21	172.4	14.7
+28	29	8.03	164.6	4.6
+29	30	3.76	230.5	-7.3
+30	31	8.27	165.5	13.9
+31	32	10.0	185.0	6.4
+32	33	2.95	238.2	-1.7
+33	34	10.45	163.0	15.1
+34	35	4.67	175.2	5.9
+22	26b	1.7	75.7	21.9
+23	alpha	18.48	357.9	15.5
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Red nail varnish markings
+
+#1	0	2.3	3.0	1.2	NP 1 near bolt 2 for handline/pitch
+#2	0	0	0	0	unmarked alcove station
+#3	0	0.8	0.3	1.6	NP
+#4	0.3	0.9	0.4	0	NP
+#5	1.6	1.0	0.8	0.9	NP 5 on rock in middle of junction
+#6	0.4	1.9	0.4	1.9	NP
+#7	1.6	0	0.7	1.5	NP RHW
+#8	1.5	0	0.5	1.4	NP 8 at junction
+#9	0	0.8	0.6	1.0	NP
+#10	0.9	0	0.5	1.1	NP
+#11	0	0.9	0.6	1.1	NP
+#12	0	1.0	0.6	1.2	NP
+#13	0.9	0	0.3	1.4	NP
+#14	0	0.6	0.9	1.9	NP HIGH
+#15	0	0.6	1.3	1.5	NP
+#16	0.8	0	1.5	1.6	NP
+#17	0	0.5	1.0	1.5	NP
+#18	1.0	0	1.4	1.5	NP
+#19	1.0	0	1.4	1.9	NP RHW
+#20	0.5	0	2.3	1.9	NP RHW
+#21	0	1.4	4.3	1.4	NP
+#22	1.0	0.2	4.5	1.7	NP 22 at junction
+#23	1.5	0	2.8	0.7	NP 23
+#24	0.3	1.4	2.9	1.4	NP rift 7.1m down
+#25	0.5	2.7	2.1	2.4	NP rift 6.5m down
+#26	2.0	0	1.9	1.9	NP rift 5.4m down
+#27	1.8	0.6	2.8	1.5	NP rift 5.3m down
+#28	2.0	0.4	2.2	0.7	NP rift approx 5m down
+#29	0	2.1	2.2	1.5	NP rift 6.8m down
+#30	1.6	0	3.1	1.5	NP
+#31	1.9	0	3.4	1.6	NP rift approx. 11m below
+#32	1.8	0	2.8	1.8	NP
+#33	1.0	0	2.6	1.3	NP rift 11m below
+#34	0.4	1.2	5.0	1.6	NP
+#35	1.2	1.2	6.6	1.5	NP
+#alpha	0	0	0	0	unmarked to QM2
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+1	0	2.3	3.0	1.2	NP 1 near bolt 2 for handline/pitch
+2	0	0	0	0	unmarked alcove station
+data dimensions station left right up down ignoreall
+1	2.3	0	3.0	1.2	NP 1 near bolt 2 for handline/pitch
+3	0	0.8	0.3	1.6	NP
+4	0.3	0.9	0.4	0	NP
+5	1.6	1.0	0.8	0.9	NP 5 on rock in middle of junction
+6	0.4	1.9	0.4	1.9	NP
+7	1.6	0	0.7	1.5	NP RHW
+8	1.5	0	0.5	1.4	NP 8 at junction
+9	0	0.8	0.6	1.0	NP
+10	0.9	0	0.5	1.1	NP
+11	0	0.9	0.6	1.1	NP
+12	0	1.0	0.6	1.2	NP
+13	0.9	0	0.3	1.4	NP
+14	0	0.6	0.9	1.9	NP HIGH
+15	0	0.6	1.3	1.5	NP
+16	0.8	0	1.5	1.6	NP
+17	0	0.5	1.0	1.5	NP
+18	1.0	0	1.4	1.5	NP
+19	1.0	0	1.4	1.9	NP RHW
+20	0.5	0	2.3	1.9	NP RHW
+21	0	1.4	4.3	1.4	NP
+22	1.0	0.2	4.5	1.7	NP 22 at junction
+23	1.5	0	2.8	0.7	NP 23
+24	0.3	1.4	2.9	1.4	NP rift 7.1m down
+25	0.5	2.7	2.1	2.4	NP rift 6.5m down
+26	2.0	0	1.9	1.9	NP rift 5.4m down
+27	1.8	0.6	2.8	1.5	NP rift 5.3m down
+28	2.0	0.4	2.2	0.7	NP rift approx 5m down
+29	0	2.1	2.2	1.5	NP rift 6.8m down
+30	1.6	0	3.1	1.5	NP
+31	1.9	0	3.4	1.6	NP rift approx. 11m below
+32	1.8	0	2.8	1.8	NP
+33	1.0	0	2.6	1.3	NP rift 11m below
+34	0.4	1.2	5.0	1.6	NP
+35	1.2	1.2	6.6	1.5	NP
+data dimensions station left right up down ignoreall
+23	0	1.5	2.8	0.7	NP 23
+alpha	0	0	0	0	unmarked to QM2
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    C	kublakhan.5	-	straight ahead at crossroads opposite descent rope. Shitty crawl. 
+#QM2    C    	kublakhan.alpha    -    small sandy-floored crawl, inside loop of known cave.
+#QM3	B	kublakhan.33	-	rift with stream flowing away down it
+#QM4	C	kublakhan.35	-	low sandy crawl in bottom of passage
+#QM5	A	kublakhan.35	pushderig.a	traverse in higher level passage to short section requiring roping (or very airy dodgy bridging) to reach further phreatic passage opposite. Draught into face.	
+
+#------------
+#Cave description  ;(leave commented-out)
+#Starts with climbing sections over loose rock and a short traverse & pitch of 3m. Leads to a low crawl crossroads. This survey continues right where the passage size gradually increases passing several right turns (all lead to miracle maze) until it reaches large phreatic pssage with rift passage containing a small stream in the floor.
+
+endcentreline
+endsurvey kublakhan
+centreline
+equate 1@kublakhan 1@rubblerumble2
+
+endcentreline
+survey miraclemaze1 -title "miraclemaze1" 
+
+# stations linked into other surveys (or likely to)
+#*export 24a 22X 26 48 23
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: below rubble rumble
+# -title "miraclemaze1"
+centreline
+date 2018.08.02
+#team Insts Typhon
+#team Notes Adelaide
+#team Pics Manfred 
+#team Dog Manfred
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#31
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+24a	1	6.03	304	8.2
+1	2	2.84	232.9	-25.8
+2	3	7.27	337.2	7.3
+3	4	3.6	356	10.2
+4	5	4.7	352	1.5
+5	6	3.7	321	-13.1
+6	7	6.38	330	9.2
+7	8	4.39	25.1	-1.2
+8	9	4.4	57.3	25.2
+9	10	7.09	34.3	19.4
+10	11	2.46	18.7	21.4
+11	12	2.29	76.2	29.8
+12	13	3.56	20.0	11.4
+13	14	5.31	49.1	4.1
+14	15	3.09	111.1	13.7
+15	16	4.06	72.2	34.9
+16	17	5.0	40.2	12.5
+16	18	2.47	246	-6.6
+18	19	5.38	185	25.6
+19	20	4.4	139	1.2
+20	21	2.99	230	4.8
+21	22	5.49	159	3
+22	23	3.76	172	0.1
+23	24	10.84	171	-19.9
+24	25	4.94	222	-13.7
+25	26	3.6	170	-40
+26	22X	1.71	255	-14
+18	27	7.21	3.4	28
+27	28	2.87	332	25
+28	29	5.31	31.4	12.4
+29	30	9.72	352	8.3
+30	31	6.52	75.7	16.8
+31	32	5.39	143	2.1
+32	33	12.9	44.1	18.9
+33	34	11.9	46	8.8
+34	35	2.48	358	4.6
+35	36	7.25	32.1	7.2
+36	37	3.04	324.7	8.1
+37	38	11.91	62.0	10.2
+38	39	7.85	321.7	8.1
+39	40	4.14	303.4	-6.0
+40	41	1.56	290.7	22.3
+41	42	4.59	17.4	24.6
+42	43	3.85	340.0	21.3
+43	44	8.41	358	2.6
+44	45	11.83	30.4	22.6
+45	46	4.6	343.9	5.7
+46	47	3.42	257.4	7.7
+47	48	3.03	343.2	26.1
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Pink nail varnish markings
+
+#1	1.2	0	3	2.1	RIFT 5.4
+#2	1.0	1.8	0.8	1.5	
+#3	0.81	1.19	6.25	2.7	RIFT 5.4
+#4	0.66	2.1	0.8	1	RIFT 4.3
+#5	1.2	0	1.1	0.62	
+#6	0	0.86	1.5	1.30	RIFT 4.03
+#7	0	1.3	0.88	1.79	
+#8	1.74	0.76	1.38	0	RIFT 6.0
+#9	1.56	2.06	0	7.61	
+#10	1.02	0.82	0.94	6.23	
+#11	0.72	0.79	0	7.16
+#12	0.61	0	0.62	0	RIFT 3.92
+#13	0.74	0.1	0	0
+#14	0.52	0.69	2.18	0	
+#15	0.3	0.6	1.29	4.8
+#16	0.78	0	0.27	5
+#17	0	0	0	0	UNMARKED END
+#18	0.64	0	7.6	5
+#19	1	0	3.4	1.8
+#20	0	1.2	2.7	2.4
+#21	1.6	0	2.2	2.1
+#22	0.6	2.0	2.0	2.2
+#23	3.9	0	1.6	2
+#24	0	1.5	2.9	1.3
+#25	1.4	0	2.4	1.3
+#26	0	1.2	4.1	1.7
+#22X	0	0	0	0	JOINING
+#27	1.2	0	3.9	2.1
+#28	0	1.2	3.5	1.7
+#29	1.3	0.9	3	0.6
+#30	0	1.7	3.3	1.7
+#31	0	1	3.7	1.6
+#32	0.1	0	5.3	1.3
+#33	0	1.9	3.2	2.4
+#34	1.9	0	3.1	1.3
+#35	1.7	0	3.2	1.6
+#36	2.3	0	3.9	1.3
+#37	0.3	1.4	3.6	0.8
+#38	1.9	0	1.9	2.8
+#39	1.9	0	1.8	2.2
+#40	1.7	0	1	2.1
+#41	0	2.2	4.0	1.7
+#42	1	0.8	1.6	1.6
+#43	1	1	0.8	2.7
+#44	0.9	1.1	8.3	1.6
+#45	1	1.5	2.3	5.7
+#46	1	0	2.2	1.3
+#47	1.1	0	1.7	1.5
+#48	0.75	0	0.74	0.85
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+24a	0	0	0	0	connection to other survey
+1	1.2	0	3	2.1	RIFT 5.4
+2	1.0	1.8	0.8	1.5	
+3	0.81	1.19	6.25	2.7	RIFT 5.4
+4	0.66	2.1	0.8	1	RIFT 4.3
+5	1.2	0	1.1	0.62	
+6	0	0.86	1.5	1.30	RIFT 4.03
+7	0	1.3	0.88	1.79	
+8	1.74	0.76	1.38	0	RIFT 6.0
+9	1.56	2.06	0	7.61	
+10	1.02	0.82	0.94	6.23	
+11	0.72	0.79	0	7.16
+12	0.61	0	0.62	0	RIFT 3.92
+13	0.74	0.1	0	0
+14	0.52	0.69	2.18	0	
+15	0.3	0.6	1.29	4.8
+16	0	0.78	0.27	5
+17	0	0	0	0	UNMARKED END
+data dimensions station left right up down ignoreall
+16	0.78	0	0.27	5
+18	0.64	0	7.6	5
+19	1	0	3.4	1.8
+20	0	1.2	2.7	2.4
+21	1.6	0	2.2	2.1
+22	0.6	2.0	2.0	2.2
+23	3.9	0	1.6	2
+24	0	1.5	2.9	1.3
+25	1.4	0	2.4	1.3
+26	0	1.2	4.1	1.7
+22X	0	0	0	0	JOINING
+data dimensions station left right up down ignoreall
+18	0	0.64	7.6	5
+27	1.2	0	3.9	2.1
+28	0	1.2	3.5	1.7
+29	1.3	0.9	3	0.6
+30	0	1.7	3.3	1.7
+31	0	1	3.7	1.6
+32	0.1	0	5.3	1.3
+33	0	1.9	3.2	2.4
+34	1.9	0	3.1	1.3
+35	1.7	0	3.2	1.6
+36	2.3	0	3.9	1.3
+37	0.3	1.4	3.6	0.8
+38	1.9	0	1.9	2.8
+39	1.9	0	1.8	2.2
+40	1.7	0	1	2.1
+41	0	2.2	4.0	1.7
+42	1	0.8	1.6	1.6
+43	1	1	0.8	2.7
+44	0.9	1.1	8.3	1.6
+45	1	1.5	2.3	5.7
+46	1	0	2.2	1.3
+47	1.1	0	1.7	1.5
+48	0.75	0	0.74	0.85
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    B	miraclemaze1.17	-	continuation of rift
+
+#------------
+#Cave description  ;(leave commented-out)
+#Bird arrow rift- picture in files somewhere, obvious marking on RHW of rift visible from main passage. Rift continued to 4 way cross road. Straight: QM1, Right: loops back to KublaKhan, Left: Eldritch eye holes. Sometimes airy, sometimes pretty.
+
+endcentreline
+endsurvey miraclemaze1
+centreline
+equate 24@kublakhan 24a@miraclemaze1
+# we did the connection twice
+equate 26b@kublakhan 26@miraclemaze1
+equate 22@kublakhan 22X@miraclemaze1
+
+endcentreline
+survey coconutchamber1 -title "coconutchamber1" 
+
+# stations linked into other surveys (or likely to)
+#*export 48x 1
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: below rubble rumble
+# -title "coconutchamber1"
+centreline
+date 2018.08.02
+#team Insts Typhon
+#team Notes Adelaide
+#team Pics Manfred 
+#team Dog Manfred
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#31
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+flags splay
+0	-	2.43	121.1	-3.4
+0	-	4.1	47.5	8.7
+0	-	7.13	338.1	24.8
+0	-	4.11	312.8	25.1
+0	-	5.07	256.1	6.7
+0	-	3.94	197.6	-3.6
+flags not splay
+0	1	2.03	102.9	-6.0
+1	2	10.32	209.9	-34.2
+2	3	3.96	160.4	-18.3
+3	4	4.54	181.2	-21.5
+4	5	8.06	279.6	3.2
+5	48x	3.47	197.8	-17.0
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Pink nail varnish markings
+
+#0	0	0	17	0
+#1	0	0	0	0	
+#2	0.5	2.3	1	5
+#3	0	1.6	1.4	5
+#4	0	1.7	1.6	1.0
+#5	1.4	0.8	0.6	8.5
+#48x	0	0	0	0
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+0	0	0	17	0
+1	0	0	0	0	
+2	0.5	2.3	1	5
+3	0	1.6	1.4	5
+4	0	1.7	1.6	1.0
+5	1.4	0.8	0.6	8.5
+48x	0	0	0	0
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#Its a chamber that they thought had a lot of leads, but boy were they wrong
+
+endcentreline
+endsurvey coconutchamber1
+centreline
+equate 48x@coconutchamber1 48@miraclemaze1
+
+endcentreline
+survey bigbastard -title "bigbastard" 
+
+# stations linked into other surveys (or likely to)
+#*export 5 2
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: below rubble rumble
+# -title "bigbastard"
+centreline
+date 2018.08.03
+#team Insts Adam Henry
+#team Notes Michael Sargent
+#team Nagging Cat Henry
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#34 # was #50 which seems to be different
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+5	1	7.67	137.5	27.8
+1	2	3.78	196.9	7.8
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Red nail varnish markings
+
+#5	1.6	0.3	0.7	0.8	NP number 5 from 2018.08.02
+#1	1.3	4.0	4.0	1.5	NP rock
+#2	0.7	0	3.9	1.7	NP RHW pitch head
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+5	1.6	0.3	0.7	0.8	NP number 5 from 2018.08.02
+1	1.3	4.0	4.0	1.5	NP rock
+2	0.7	0	3.9	1.7	NP RHW pitch head
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Inclbigbastardude any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    A	bigbastard.2	-	pitch head with 3.8s drop (~70m)	
+#QM2	C	bigbastard.1	-	tight climb/pitch down to opening
+
+#------------
+#Cave description  ;(leave commented-out)
+#
+
+endcentreline
+endsurvey bigbastard
+centreline
+equate 5@bigbastard 5@kublakhan
+
+endcentreline
+survey miraclemaze2 -title "miraclemaze2" 
+
+# stations linked into other surveys (or likely to)
+#*export 23 8a
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: Below rubble rumble
+# -title "miraclemaze2"
+centreline
+date 2018.08.03
+#team Insts Adam Henry
+#team Notes Cat Henry
+#team Pics Adam Henry
+#team Dog Michael Sargent
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#30
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+23	1	8.08	89.4	12
+1	2	9.83	176.4	-9.7
+2	3	2.86	87.4	-1
+3	4	4.76	151.4	-10.6
+4	5	3.39	48.9	6.3
+5	6	7.26	178.6	-10.2
+6	7	2.33	207.4	-4
+7	8	4.54	156.9	-11.8
+8	9	2.69	215.6	12.6
+9	8a	8.17	127.6	-8.5	
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Red nail varnish markings
+
+#1	0	2.3	0.9	1.6	LHW
+#2	1.1	0	0.4	1.2	NP RHW
+#3	0	1.3	0.6	1.3	NP LHW
+#4	1.3	0	0.5	0.8	NP RHW
+#5	0	0.6	0.5	1.6	NP LHW
+#6	0	1.2	0.6	0.4	NP LHW
+#7	1.3	0	0.7	0.6	NP RHW
+#8	0	1.3	0.6	0.3	NP LHW
+#9	1.0	0	0	1.3	NP RHW
+#8a	0	1.4	0.6	1.2	NP
+
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+23	0	0	0	0	connection
+1	0	2.3	0.9	1.6	LHW
+2	1.1	0	0.4	1.2	NP RHW
+3	0	1.3	0.6	1.3	NP LHW
+4	1.3	0	0.5	0.8	NP RHW
+5	0	0.6	0.5	1.6	NP LHW
+6	0	1.2	0.6	0.4	NP LHW
+7	1.3	0	0.7	0.6	NP RHW
+8	0	1.3	0.6	0.3	NP LHW
+9	1.0	0	0	1.3	NP RHW
+8a	0	1.4	0.6	1.2	NP
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#None
+
+#------------
+#Cave description  ;(leave commented-out)
+#Meandering passage that joins other sections of cave - miracle maze to kublakhan
+
+endcentreline
+endsurvey miraclemaze2
+centreline
+equate 23@miraclemaze2 23@miraclemaze1
+equate 8@kublakhan 8a@miraclemaze2
+
+endcentreline
+survey coconutchamber2 -title "coconutchamber2" 
+
+# stations linked into other surveys (or likely to)
+#*export 1d 48b
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: Below rubble rumble
+# -title "coconutchamber2"
+centreline
+date 2018.08.03
+#team Insts Adam Henry
+#team Notes Cat Henry
+#team Pics Adam Henry
+#team Dog Michael Sargent
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#32
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1d	1	9.93	311.1	16.7
+1	2	4.19	210.8	-16.2
+2	3	7.30	305.8	-13.6
+3	4	5.98	212.9	-19.7
+4	5	2.81	185.2	-8.8
+5	6	3.08	264.1	-11.9
+6	7	4.78	181.7	-30.3
+7	8	4.10	129.9	0.3
+8	9	4.45	189.7	-23.4
+9	10	4.09	174.2	-24.3
+10	11	2.78	101.3	29.2
+11	12	4.11	69.7	-11.4
+12	48b	3.75	159.2	-20.8	
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Red nail varnish markings
+
+#1	1.1	0	3.9	1.9	NP RHW
+#2	0	1.5	3.2	1.4	NP LHW
+#3	0.5	0	2.2	1.5	NP RHW
+#4	0.8	1.0	1.7	1.3	NP RHW
+#5	0	0.9	0.8	1.6	NP LHW
+#6	0.9	0	0.6	1.4	NP RHW
+#7	2.4	1.6	2.0	0	NP FLOOR STONE, 10M RIFT BELOW
+#8	0	1.0	1.0	1.0	NP LHW
+#9	0.3	3.4	0	0.8	NP ROOF
+#10	0.2	4.2	2.3	0	TEMPORARY ROCK
+#11	0.8	2.8	0	1.4	NP ROOF
+#12	0	2.9	1.0	0.7	NP WALL FLAKE
+#48b	0	0.7	0.8	0.6	NP 48B PINK
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+1d	0	0	0	0	connection
+1	1.1	0	3.9	1.9	NP RHW
+2	0	1.5	3.2	1.4	NP LHW
+3	0.5	0	2.2	1.5	NP RHW
+4	0.8	1.0	1.7	1.3	NP RHW
+5	0	0.9	0.8	1.6	NP LHW
+6	0.9	0	0.6	1.4	NP RHW
+7	2.4	1.6	2.0	0	NP FLOOR STONE, 10M RIFT BELOW
+8	0	1.0	1.0	1.0	NP LHW
+9	0.3	3.4	0	0.8	NP ROOF
+10	0.2	4.2	2.3	0	TEMPORARY ROCK
+11	0.8	2.8	0	1.4	NP ROOF
+12	0	2.9	1.0	0.7	NP WALL FLAKE
+48b	0	0.7	0.8	0.6	NP 48B PINK
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1	B	coconutchamber2.7	-	Wide dry rift, crumbly rock, needs gear	
+
+#------------
+#Cave description  ;(leave commented-out)
+#Meandering passage that joins other sections of cave - coconut chamber to eldritch eyeholes
+
+endcentreline
+endsurvey coconutchamber2
+centreline
+equate 1d@coconutchamber2 1@coconutchamber1
+equate 48@miraclemaze1 48b@coconutchamber2
+
+endcentreline
+survey coconutchamber3 -title "coconutchamber3" 
+
+# stations linked into other surveys (or likely to)
+#*export 1d 11 14
+
+# Cave: Fischgesichthoehle
+# Area in cave/QM: Below rubble rumble
+# -title "coconutchamber3"
+centreline
+date 2018.08.03
+#team Insts Adam Henry
+#team Notes Cat Henry
+#team Pics Adam Henry
+#team Dog Michael Sargent
+#instrument DistoX
+# Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+endcentreline
+#ref 2018#32
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+1d	1	5.20	309.3	+11.5
+1	2	5.63	43.8	13.2
+2	3	1.21	4.2	-39.5
+3	4	2.2	79.3	7.8
+4	5	5.20	355.1	16.8
+4	6	2.62	73.9	-13.1
+6	7	1.90	145.1	17.4
+7	8	1.49	67.0	10.0
+8	9	3.35	9.5	3.3
+9	10	4.83	115.1	8.2
+10	11	1.81	192.8	-37.3
+11	12	5.16	191.7	-23.8
+
+flags duplicate
+11	13	4.85	89.1	22.5
+13	14	2.16	29.9	1.6
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Red nail varnish markings
+
+#1	0.8	6.1	15.8	0	NP rock on floor
+#2	0.3	0	1.0	1.1	NP RHW
+#3	0	2.1	1.5	0.2	NP LHW
+#4	1.0	0	1.5	0.7	NP 4g
+#5	0	0	0	0	unmarked alcove
+#6	0	0.6	1.7	0.3	NP LHW
+#7	0.6	0	1.2	0.9	NP RHW
+#8	0.7	0	1.3	0.7	NP RHW
+#9	0	1.0	1.3	0.3	NP LHW
+#10	0	0.8	0.6	1.0	NP LHW
+#11	0.8	0	0.6	0.3	we made it up
+#12	0	0	0	0	unmarked wall over traverse
+#13	1.2	0	0.9	1.2	NP RHW
+#14	0	0.9	0.7	1.5	NP LHW	
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+1	0.8	6.1	15.8	0	NP rock on floor
+2	0.3	0	1.0	1.1	NP RHW
+3	0	2.1	1.5	0.2	NP LHW
+4	1.0	0	1.5	0.7	NP 4g
+6	0	0.6	1.7	0.3	NP LHW
+7	0.6	0	1.2	0.9	NP RHW
+8	0.7	0	1.3	0.7	NP RHW
+9	0	1.0	1.3	0.3	NP LHW
+10	0	0.8	0.6	1.0	NP LHW
+11	0.8	0	0.6	0.3	we made it up
+13	1.2	0	0.9	1.2	NP RHW
+14	0	0.9	0.7	1.5	NP LHW	
+data dimensions station left right up down ignoreall
+4	1.0	0	1.5	0.7	NP 4g
+5	0	0	0	0	unmarked alcove
+data dimensions station left right up down ignoreall
+11	0.8	0	0.6	0.3	we made it up
+12	0	0	0	0	unmarked wall over traverse
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1	C	coconutchamber3.12	-	Traverse across rift to small crawl on left
+#QM2	C	coconutchamber3.12	-	Traverse across rift to small crawl straight ahead
+#QM3	B	coconutchamber3.14	-	Pitch down into rift (10m?), possible high level continuation
+
+#------------
+#Cave description  ;(leave commented-out)
+#Small tubes leaving coconut chamber and going right round to the rift that can be seen from the chamber.
+
+endcentreline
+endsurvey coconutchamber3
+centreline
+equate 1d@coconutchamber3 1@coconutchamber1
+
+endcentreline
+survey gardeningschool -title "gardeningschool" 
+
+# stations linked into other surveys (or likely to)
+#*export 1 5 6 7 11 13
+
+# Cave: Fisch Gesicht
+# Area in cave/QM: Passage off at bottom of first pitch.
+# -title "Gardening School"
+centreline
+date 2018.08.07
+#team Insts Adam Henry
+#team Notes Wookey
+#team Dog Ryan Boultbee
+#instrument Wook's DistoX2
+
+endcentreline
+#ref 2018#59
+# the #number is on the clear pocket containing the original notes
+
+# This survey is tighly entwined with 12monkeys, having reached the same
+# place by a different route. Some of it is a resurvey of 12monkeys.
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+1   2	 3.501	    268.1     21.2
+3   2	 11.351	    111.4     82.7
+flags duplicate
+4   3	 3.648	    006.4     -29.3
+5   4	 4.425	    299.5     +09.4
+6   5	 5.684	    318.4     +32.6
+7   6	 3.396	    274.3     +20.8
+8   3	 9.056	    180.0     +78.2
+8   -	 10.3	    151	      -19
+8   9	 3.287	    284.7     -10.9
+9   10	 4.741	    337.2     +03.8
+10  11	 5.917	    271.3     +03.1
+flags not duplicate
+12  11	 8.492	    257.0     -48.3
+13  12	 2.562	    249.6     -23.0
+
+#-----------
+#recorded station details (leave commented out)
+#Station Left Right Up Down Description
+#Red and Pink nail varnish markings
+#*data dimensions station west east south north ignoreall
+#1    3.8   2.3	  0.2	1.0  RP bott of existing hang (existing stn)
+#2    2.3   3.4	  0.7	0    Pitch head bolt
+#*data dimensions station left right up down ignoreall
+#3    1.4   1.8   12	2    RP '3' edge of boulder over pitch
+#4    1.2   0.2	  8.3	1.4  RP existing stn RHW
+#5    0.1   1.6	  ~6	0.4  PP existing stn LHW
+#6    0.9   0	  12.4	0.9  PP existing stn RHW
+#7    0	    0.6	  - 	6.5  PP existing stn LHW
+#8    1	    0	  9.5	1.7  PP '8' RHW foot of pitch
+#9    0	    1	  9	1.6  RP LHW
+#10   1.7   0	  10.3	1.5  RP '10' RHW
+#11   0	    2	  9	5.6  RP '11' LHW
+#12   0.7   0	  1.1	1.1  RP edge of pitch
+#13   0	    1.1	  0.5	1.1  PP '8' existing survey LHW
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+#*data dimensions station west east south north ignoreall
+#1    3.8   2.3	  0.2	1.0  
+#2    2.3   3.4	  0.7	0    
+data dimensions station left right up down ignoreall
+3    1.4   1.8   12	2    
+4    1.2   0.2	  8.3	1.4  
+5    0.1   1.6	  6	0.4  
+6    0.9   0	  12.4	0.9  
+7    0	   0.6	  - 	6.5  
+data dimensions station left right up down ignoreall
+8    1	   0	  9.5	1.7  
+9    0	   1	  9	1.6  
+10   1.7   0	  10.3	1.5  
+11   0	   2	  9	5.6  
+data dimensions station left right up down ignoreall
+11   0	   2	  9	5.6  
+12   0.7   0	  1.1	1.1  
+13   0	   1.1	  0.5	1.1  
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1      A    gardeningschool.11  -  ~40m pitch - big hole
+
+#------------
+#Cave description  ;(leave commented-out)
+#freeform text describing this section of the cave
+
+#See 12monkeys, where top part is described. 33m rope sufficient to
+#get down p5,p11,p11.
+
+#From foot of 11m pitch, route goes under large boulder holding up
+#truly massive boulder. 2nd p11 drops from there onto floor (which is
+#just another traverse level in the canyon, but has a rocky
+#floor). The back of the canyon can be seen from here to the
+#east. Going west on the rocky floor soon (8m) reaches more (chossy)
+#holes in the floor, which soon develop into a traverse over a large
+#pitch rigged from a wide Y-hang.
+
+
+endcentreline
+endsurvey gardeningschool
+centreline
+equate 1@gardeningschool 3@12monkeys
+equate 13@gardeningschool 8@12monkeys
+equate 5@gardeningschool 15@12monkeys
+equate 6@gardeningschool 16@12monkeys
+equate 7@gardeningschool 17@12monkeys
+
+endcentreline
+
+
+survey pushderig -title "pushderig" 
+
+# stations linked into other surveys (or likely to)
+#*export 35 i d1 5 1 2 k u
+
+# Cave:Fish Face 
+# Area in cave/QM:kublakhan 
+# -title "pushderig"
+centreline
+date 2018.08.15
+#team Insts Chris Holt	
+#team Notes Radost 
+#team Pics Luke Stangroom
+#team Tape Max Weiser
+#instrument CHECCDisto
+# Calibration: Balcony Entrance 
+endcentreline
+#ref 2018#57
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:
+#*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+# Centreline data
+centreline
+data normal from to  bearing gradient length ignoreall
+35 a 211 -38 2.29
+a b 178 -2 3.2 
+b c 224 +21 1.57
+c d 169 -8 2.49
+d e 243 -37 1.49
+e f 150 +8 2.98
+f g 223 -1 2.11
+g h 173 +8 6.10
+h i 284 +26 2.20 
+i j 133 +12 5.29
+j k 016 +12 13.25
+k l 294 +8 2.41
+l m 019 +1 3.00
+m b 282 -60 6.53 # in the cave it was presumed to be e but in fact it was b 
+k n 112 +5 5.81
+n o 156 -1 7.56
+o p 075 +3 6.73
+p q 120 -23 7.02
+q r 022 +12 13.33
+r s 096 0 9.61
+s t 086 +3 10.26
+t u 135 +5 16.97
+u v 157 +15 4.13
+v w 104 +6 16.06
+w x 206 -8 7.22
+x y 137 +4 7.27
+y z 110 -14 6.66
+z a1 043 +9 12.33
+a1 b1 058 +18 18.48
+b1 c1 098 +13 4.25
+c1 d1 055 +21 7.98
+i 1 200 -16 7.48 
+1 2 170 -17 3.65
+2 3 185 -19 8.58
+3 4 217 -22 4.91
+4 5 206 -14 5.35
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+data dimensions station left right up down ignoreall
+#[Red] nail varnish markings
+35	1.2	1.2	6.6	1.5	NP
+a   1.5   1     1     0    # rock on floor
+b   2     1     0.5   0.5  # to junction
+c   1     0     3.4   0.2  # below ledge
+d   0	  0.7	1.3   1.6  # crawl in
+e   0.6   0     1.6   0.5  # crawl
+f   0	  1	0.5   0.5  # crawl
+g   1	  0	0.5   0.5  # crawl
+h   0	  2	5     1    # window snipe
+i   2     0     3     3    # wall/entrance NP "I" on wall (!)
+j   2     1     5     0    # round
+k   0     3     5     0    # junction (!)
+l   0     3     3     1    # loop
+m   2.2   0     3.6   5.6  # loop
+b   2     1     0.5   0.5  # to junction
+data dimensions station left right up down ignoreall
+k   0     3     5     0    # junction (!)
+n   0     2     3     1    # phreatic tube begin
+o   3     0     3     1
+p   2     2     0     1
+q   3     0     2     1
+r   0     3     2     1.5
+s   3     0     3     2
+t   0     2     2     2
+u   0     3     2     1
+v   2     0     2     1
+w   0     3     2     1
+x   3     0     2     1
+y   3     0     2     1
+z   3     0     2     1
+a1  0     3     2     1    # rift in floor ends
+b1  0     3     2     1
+c1  0     2     3     1    # phreatic tube end
+d1  3     0     3     8    # multiple leads, small pitch in floor to waterfall sound
+data dimensions station left right up down ignoreall
+i   2     0     3     3    # wall/entrance NP "I" on wall (!)
+1   2     0     2     1
+2   0     2     2     1    # junction with lead to the left
+3   2     0     2     1
+4   2     0     2     1    # junction with lead to the right
+5   2     2     2     1    # multi-junction multiple leads
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+#all QMs listed here taken from drawn-up survey, 2018
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    A	pushderig.2	-	right hand fork from main passage, tube over 2m diameter, heading S into blank space. 
+#QM2    A   pushderig.2	-	left hand fork from main passage, tube over 2m diameter, heading S into blank space.
+#QM3	A	pushderig.4	-	right hand fork from main passage, tube over 2m diameter, heading S into blank space.
+#QM4	A	pushderig.5	-	right hand fork from way on, tube over 2m diameter, heading S into blank space.
+#QM5	A	pushderig.5	-	right hand fork from way on, tube over 2m diameter, heading S into blank space.
+#QM6	A	pushderig.d1	-	right-hand fork at 3-way junction, largest passage, blasting, requires traverse to be bolted to gain access. Heading east towards 204, same altitude as Subway (~1450m)
+#QM7	C	pushderig.d1	-	centre fork at 3-way junction, sound of waterfall (likely miserable going)
+#QM8	B	pushderig.d1	-	left-hand fork at 3-way junction, also heading east towards 204 Subway level
+#------------
+#Cave description  ;(leave commented-out)
+# On last trip (derig) found large phreatic tube leading NE that continues but requires bolting a traverse. Below the traverse water could be spotted and waterfall could be heard (possible lead, likely miserable). Going back to the ledge that starts the survey and taking road south found cheese-level with multiple corridors that don't seem to connect immidiately. Multiple QMA left for next year (Rad 2018)
+
+endcentreline
+endsurvey pushderig
+centreline
+equate 35@kublakhan 35@pushderig
+
+#2022 surveys
+
+endcentreline
+survey kublakhan2 -title "kublakhan2" 
+
+# stations linked into other surveys (or likely to)
+#*export 5x 2 11 23 27
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Southmost leads off Kubla Khan
+# -title "kublakhan2"
+centreline
+date 2022.08.03
+#team Insts Becka Lawson		
+#team Notes Andreas Klocker 
+#team Dog Keiran Appadoo
+#instrument Beckas DistoX2
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+#ref 2022#05
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+1	5x	3.700	320.68	5.63		#  {from: 3.701 320.73 5.72, 3.700 320.60 5.55, 3.699 320.70 5.60}
+
+2	1	4.092	95.59	8.94		#  {from: 4.094 95.60 9.10, 4.089 95.65 8.97, 4.094 95.53 8.76}
+
+3	1	7.845	318.28	-1.59		#  {from: 7.849 318.28 -1.71, 7.845 318.33 -1.51, 7.842 318.24 -1.56}
+
+4	3	4.486	302.43	-25.57		#  {from: 4.487 302.48 -25.61, 4.485 302.43 -25.50, 4.487 302.38 -25.59}
+
+5	3	7.719	20.82	10.63		#  {from: 7.718 20.92 10.59, 7.723 20.72 10.63, 7.717 20.82 10.68}
+
+6	4	5.438	316.64	-6.67		#  {from: 5.438 316.69 -6.65, 5.442 316.57 -6.57, 5.435 316.65 -6.77}
+
+7	6	5.594	204.24	-10.88		#  {from: 5.591 204.11 -10.95, 5.593 204.29 -10.84, 5.599 204.31 -10.85} written as 6.60 in notes but assume this was a transcription error since Keiren's notes say 5.60 which matches Distox2
+
+# 7	8	14.938	342.50	8.26		;  {from: 14.964 342.65 8.29, 14.915 342.47 8.24, 14.934 342.39 8.26}
+# 40	-	14.777	342.25	8.11	
+# 40	-	14.809	342.14	8.05	
+# 40	-	14.855	342.05	8.14	
+# 40	-	14.746	342.00	8.10	
+7	8	14.746	342.00	8.10	# this is the leg recorded by Andreas ... comp and clino the same, distance a bit shorter, unclear if this is because station was moved closer
+
+9	5	6.192	30.85	21.84		#  {from: 6.195 30.82 21.88, 6.196 30.86 21.85, 6.184 30.87 21.80}
+
+10	9	4.392	355.69	30.88		#  {from: 4.390 355.70 30.69, 4.390 355.53 30.90, 4.397 355.83 31.04}
+
+11	10	2.858	84.12	53.23		#  {from: 2.855 84.06 53.32, 2.854 84.23 53.36, 2.866 84.07 53.00}
+
+12	10	3.634	345.77	19.73		#  {from: 3.634 345.79 19.80, 3.632 345.83 19.67, 3.636 345.68 19.73}
+
+13	12	6.722	5.43	0.42		#  {from: 6.723 5.18 0.52, 6.709 5.38 0.26, 6.733 5.72 0.47}
+
+14	13	3.000	20.16	-8.05		#  {from: 3.002 19.93 -7.95, 3.001 20.10 -8.07, 2.997 20.43 -8.14}
+
+15	14	1.698	19.42	0.43		#  {from: 1.699 18.87 0.38, 1.695 19.63 0.34, 1.699 19.75 0.55}
+
+16	15	13.173	5.36	1.31		#  {from: 13.159 5.30 1.23, 13.183 5.42 1.44, 13.176 5.37 1.27}
+
+17	16	8.482	337.88	-3.62		#  {from: 8.486 337.87 -3.56, 8.477 337.93 -3.66, 8.484 337.84 -3.64}
+
+18	17	3.396	341.89	-10.41		#  {from: 3.399 341.61 -10.45, 3.395 341.97 -10.37, 3.394 342.08 -10.40}
+
+19	18	7.366	334.91	-13.12		#  {from: 7.369 335.58 -13.12, 7.360 334.90 -13.13, 7.368 334.25 -13.10}
+
+20	19	10.663	10.21	-26.80		#  {from: 10.666 10.45 -26.69, 10.663 10.28 -26.81, 10.660 9.90 -26.91}
+
+21	20	7.457	314.48	-23.93		#  {from: 7.445 314.89 -24.01, 7.460 314.25 -23.80, 7.466 314.31 -23.99}
+
+22	21	5.027	8.21	-25.71		#  {from: 5.029 8.32 -25.76, 5.028 8.17 -25.66, 5.023 8.14 -25.71}
+
+23	22	5.488	355.60	9.71		#  {from: 5.519 355.52 9.71, 5.474 355.60 9.65, 5.471 355.68 9.77}
+
+23	24	32.280	42.10	62.84		#  {from: 32.287 42.13 62.85, 32.272 42.11 62.83, 32.281 42.07 62.85}
+
+25	23	5.651	36.62	-40.29		#  {from: 5.640 36.85 -40.26, 5.657 36.50 -40.34, 5.655 36.52 -40.25}
+
+26	23	5.063	131.72	46.53		#  {from: 5.059 131.64 46.57, 5.062 131.70 46.52, 5.069 131.83 46.51}
+
+27	26	5.462	1.40	14.60		#  {from: 5.471 1.63 14.60, 5.460 1.40 14.57, 5.454 1.18 14.61}
+
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Nail varnish markings
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+5x	1.5	0	2.5	0.4	old numbered station
+1	2.3	0	2.2	1.6	RW junction
+2	0.4	1.2	0.4	1.6	LW passage numbered stn
+3	0.1	0	2.4	1.0	RW junction numbered stn
+4	2.2	0	1.9	1.5	RW
+5	1.5	0.3	2.5	1.6	 numbered stn
+6	-	-	-	-
+7	1.4	0	1.9	1.5	RW  numbered stn
+8	1	1	0	0	mud filled
+9	0.5	1.2	3.5	1.1	boulder tip in passage
+10	0	1	5	2.3	LW junction  numbered stn
+11	1.3	0.1	1.9	0.4	RW under climb  numbered stn
+12	1	0.3	3.3	1.2	RW
+13	1.2	0.3	2.4	1	RW
+14	0	1.7	2.3	1.1	LW
+15	0.3	1.1	2.2	1.2	LW
+16	0	1.4	1.8	0.5	LW big draft
+17	0	1.4	2.2	1.1	LW	
+18	0	1	3.1	1.5	LW
+19	0.3	1	4.5	1.8	LW
+20	1.6	0	4.2	1.7	RW down written as 17 but assume is 1.7 as Keiren wrote that,  numbered stn
+21	0	1.3	2.9	1.5	LW  numbered stn
+22	0.6	0.9	0	1.5	ceiling ?mid passage  numbered stn
+23	1	1.5	10	0.6	spike below aven  numbered stn
+24	2	1	5	2	aven with sound of water, initially free-climbable
+25	3	0	3.5	1.9	RW start of horizontal QMA numbered
+26	2	0	1	1.5	
+27	0	1	1.7	2	LW QMA numbered
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#At junction turn left, ignore right and continue to cross roads. Left here soon ends in a mud-filled passage. Right was surveyed in kublakhan4. Continue in easy walking phreas. This ends with a rifty climb up to a complex chamber. Above is an aven with sound of water, could be climbed easily at least initially (QMA). Ahead the passage continues (QMA) and there is another lead below this (QMB).
+
+endcentreline
+endsurvey kublakhan2
+centreline
+equate 5x@kublakhan2 5@pushderig
+
+endcentreline
+survey sesamestreet -title "sesamestreet" 
+
+# stations linked into other surveys (or likely to)
+#*export 1pd 2pd kk17 6 35
+
+# Cave:290
+# Area in cave/QM: 
+# -title "Sesame Street"
+centreline
+date 2022.08.01
+#team Insts Mike Butcher 
+#team Notes Luke Stangroom 
+#team Pics Jonty 
+#instrument ULSA Disto
+endcentreline
+#ref 2022#12
+
+# Centreline data
+centreline
+data normal from to length bearing gradient
+1pd 2   5.55 127.5   1.2 
+2   3   7.11 174.4  -3.2
+2   4   6.23 210.4 -30.9 
+#2pd 4  2.80 168.1 -23.2
+2pd 5   4.10 284.8 -12.4
+5   6  10.8  323.2 -31.1
+6   7   6.44 345.3 -40.2
+7   8   5.32 321.3 -27.7
+8   9   7.93 265.3 -43.9
+9  10   4.56 250.2 -15.5
+9  11   2.26  58.9 -36.1
+10 12   7.69 335.2 -34.0
+12 13   8.04 353.1 -23.5
+13 14   1.88 273.5 -20.3
+14 15   4.67 030.0 -28
+15 16   3.21 343.8  14.4 
+16 17   4.37 032.1   6.7
+17 18   2.83  95.4  45 
+18 19   4.75 007   -11.6
+19 20   8.12  98.5  37.5
+20 21   6.86 161.8  37.8 
+21 22   1.93 124.6  19.5
+22 -   20    85.3  49.9
+22 23   6.82  91.8   1.1
+23 24   7.67  34.9 -33.2
+24 25   6.76 112.7 -30.2
+25 26   11.37 37.2 -34.4
+22 27   9.26 187.4   7.4
+27 28   5.9  207.6 -18.8
+28 29   3.2  160.1 -43.9
+29 30   2.07 243.8   6.4
+30 11   1.56 183.8  19.9
+12 31   4.49 218.9  12.7
+31 -  32.39 164.5  84.6
+31 32   9.44 358.2  38.2
+33 18   5.54 34.9    6.6
+33 -  10.7  111.9  65.6
+12 34   6.04 232.6  -8.9
+34 35   5.51 175.2  -7.3
+35 kk17 6.68 183.3  9.9 # In survey wallet 2022#15 
+
+
+
+#rift passage
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#2  0   1.6 1.4 1.5 ;LHW
+#3  1.2 0.2 0   0.1 ;RHW
+#5  0.9 0.4 0   1.5
+#6  0.7 1   3.2 1.5 ;flake in ceiling on roof
+#7  1.1 0.2 1.1 0.7 ;RHW
+#8  5.9 1.2 0.8 1.1 ;RHC
+#9  1.4 3.1 2.1 0.4 ;boulder in Centre
+#10 0   1.4 0.8 1.7 ; LHW
+#11 2   0   4   2 ; RHW flake
+#12 1.4 0.2 1.3 1.7 ;RHW
+#13 1.6 0.4 0.7 0.9 ;RH
+#14 0   1.7 1   1.4 ;LHW
+#15 0.7 0   0.6 1.3 ;RHW
+#16 0.8 0.3 0   1.2 ;ceiling 
+#17 0   0.9 0.8 0 
+#18 0.7 0   0.3 1.1
+#19 0.1 1.3 1.0 0.8 ;LHW
+#20 0.6 1   1   0.7
+#21 0.5 0   0.2 1
+#22 2   2   1   0.5 
+#23 1.5 0.4 8   7.5 
+#24 0.8 1.6 11  8.5
+#25 2   0   17  5.3
+#27 0   0.4 0.6 2.1 
+#28 0.9 0   2.5 3.1
+#29 0.1 0.7 3.2 1.7
+#30 1   0   2.8 2.3 
+#31 1.5 5.4 27.7 0.3 ;Aven 
+#32 0   0.8 10  1.5 
+#33 5   0.6 1.5 0.3 
+#34 1.2 0   0.3 2.3 ;RHW
+#35 1.1 2.1 1.4 1.5 ;pendant with helictite 
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down 
+2  0    1.6  1.4  1.5 #LHW
+3  1.2  0.2  0    0.1 #RHW
+
+data dimensions station left right up down
+5  0.9  0.4  0    1.5
+6  0.7  1    3.2  1.5 #flake in ceiling on roof
+7  1.1  0.2  1.1  0.7 #RHW
+8  5.9  1.2  0.8  1.1 #RHC
+9  1.4  3.1  2.1  0.4 #boulder in Centre
+10 0    1.4  0.8  1.7 #LHW
+11 2    0    4    2   #RHW flake
+
+data dimensions station left right up down
+10  0    1.4  0.8  1.7 #LHW
+12  1.4  0.2  1.3  1.7 #RHW
+13  1.6  0.4  0.7  0.9 #RH
+14  0    1.7  1    1.4 #LHW
+15  0.7  0    0.6  1.3 #RHW
+16  0.8  0.3  0    1.2 #ceiling 
+17  0    0.9  0.8  0 
+18  0.7  0    0.3  1.1
+19  0.1  1.3  1.0  0.8 #LHW
+20  0.6  1    1    0.7
+21  0.5  0    0.2  1
+22  2 2  1    0.5 
+23  1.5  0.4  8    7.5 
+24  0.8  1.6  11   8.5
+25  2    0    17   5.3
+
+data dimensions station left right up down
+27  0    0.4  0.6  2.1 
+28  0.9  0    2.5  3.1
+29  0.1  0.7  3.2  1.7
+30  1    0    2.8  2.3 
+11  0    2    4    2   #RHW flake
+
+data dimensions station left right up down
+31  1.5  5.4  27.7  0.3 #Aven 
+32  0    0.8  10    1.5 
+33  5    0.6   1.5  0.3 
+34  1.2  0     0.3  2.3 #RHW
+35  1.1  2.1   1.4  1.5 # 
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    x    sesamestreet.26    -    20m wet aven below known passage, with water flowing in from a rift  ]
+#[ QM2    x    sesamestreet.32    -    30m aven with possible climb to the right ]
+
+#------------
+#Cave description  ;(leave commented-out)
+#Right after the sandy crawl, then first right down a sandy slide until it opens out traverse to the left through a window then
+#to make the decent easier climb down opiset a stalicemite turn left to the Nicolas cage handline right to complete a loop with a rift aven
+#on your right past some pretties licence to kill etc you end up back at Nicolas cage handline
+
+endcentreline
+endsurvey sesamestreet
+centreline
+equate 1@pushderig 1pd@sesamestreet
+equate 2@pushderig 2pd@sesamestreet
+
+endcentreline
+survey nicolascage -title "nicolascage" 
+
+# stations linked into other surveys (or likely to)
+#*export 35 21 8 13 
+
+# Cave: 290 Fish Face
+# Area in cave/QM: Nicolas Cage Handline
+# -title "nicolascage"
+centreline
+date 2022.08.03
+#team Insts Luke Stangroom
+#team Notes Jonty 
+#team Pics Joel
+#team Polish Joel
+#instrument ULSA Disto
+# Calibration: Forest above base camp
+endcentreline
+#ref 2022#14
+# the #number is on the clear pocket containing the original notes
+
+# if using a tape:
+centreline
+calibrate tape +0.0	# +ve if tape was too short, -ve if too long
+
+# Centreline data
+data normal from to length bearing gradient ignoreall
+35 1 9.13 336.8 -21.2
+1 2 4.55 27.3 -6.3
+2 3 2.62 298.0 -35.2
+3 4 4.66 67.6 16.6
+3 5 2.19 112.1 -75.2 
+5 6 2.81 259.4 15.8
+6 7 2.97 185.9 -5.7
+7 8 2.85 226.5 -29.9 
+8 9 2.99 102.6 59.2
+9 10 2.99 153.1 38.5
+10 11 1.99 81.2 29.5
+11 1 2.34 1.4 -10.6
+8 12 5.06 291.8 15.5 
+12 13 3.18 278.2 -2.5 
+13 14 6.09 315.3 -6.8 
+14 15 6.54 253.9 25.5
+15 16 6.7 323.2 -40.9
+16 17 3.29 256.5 -15.5 
+17 18 2.74 194.0 76.0 
+18 19 10.85 268.3 4.8
+19 20 2.99 135.7 21.7
+20 21 3.08 239.6 -5.3 
+13 1a 3.67 220.5 -28.1 # 2022#15
+1a 2a 5.26 174.8 44.5  # 2022#15
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#1 0.8 1.9 1.5 1 ; LH Wall
+#2 1.2. 0 0.7 1.1
+#3 0 0.9 2.1 0.6
+#4 0.3 0.5 0.4 1
+#5 0 0.4 4 0 ; Floor in rift
+#6 0.5 0.4 0.2 0.6
+#7 0 0.4 0.9 0.7 
+#9 0.5 0.4 4.7 2.4 
+#10 0.7 0 3.2 4.1
+#11 0.7 0 30 5.5
+#12 0.3 0 2.2 1.4 
+#13 2 1.5 2 1.4
+#14 0.6 0 10 0.2
+#15 0 1 7 2.6
+#16 1.3 0 0.6 0.4
+#17 1 0 2.3 0.3 
+#18 0.7 0.8 0.4 1
+#19 0.7 1.1 3 0
+#20 0 0.6 3.3 1.2 
+#21 0.5 0.5 2.5 1; Pitch head KEANU BREEZE
+#1a 1.2 0 6.6 0
+#2a 0.5 0 1 0
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down 
+1 0.8 1.9 1.5 1 # LH Wall
+2 1.2 0 0.7 1.1
+3 0 0.9 2.1 0.6
+5 0 0.4 4 0 # Floor in rift
+6 0.5 0.4 0.2 0.6
+7 0 0.4 0.9 0.7 
+9 0.5 0.4 4.7 2.4 
+10 0.7 0 3.2 4.1
+11 0.7 0 30 5.5
+data dimensions station left right up down
+5 0 0.4 4 0 
+4 0.3 0.5 0.4 1
+data dimensions station left right up down
+8 0 0.5 3 0
+12 0.5 0 2.2 1.4 
+13 2 1.5 2 1.4
+14 0.6 0 10 0.2
+15 0 1 7 2.6
+16 1.3 0 0.6 0.4
+17 1 0 2.3 0.3 
+18 0.7 0.8 0.4 1
+19 0.7 1.1 3 0
+20 0 0.6 3.3 1.2 
+21 0.5 0.5 2.5 1 # Pitch head KEANU BREEZE
+data dimensions station left right up down
+1a 1.2 0 6.6 0
+2a 0.5 0 1 0
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#[ QM1    c    nicloascage.6    -    muddy scroting passage heading downwards ]
+
+
+#------------
+#Cave description  ;(leave commented-out)
+# Traverse the Nicolas cage handline then chimney down the rift and continue along the bottom of the rift, a tight area where you have to crawl along the floor before a 2m climb up you reach the top of Keanu breeze and Can't Stop japeing. The head of the pitch is to the left in a rift to give a nice Y hang. Straight ahead is a loose-looking hole that could be rigged as an alternative to the japery of can't stop japeing  
+
+endcentreline
+endsurvey nicolascage
+centreline
+equate 35@sesamestreet 35@nicolascage
+
+endcentreline
+survey kublakhan3 -title "kublakhan3" 
+
+# stations linked into other surveys (or likely to)
+#*export 27x
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Southmost leads off Kubla Khan
+
+centreline
+date 2022.08.04
+#team Insts Rob Watson		
+#team Notes Amelia Oliver
+#instrument Philip Balister's DistoX2
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+#ref 2022#06
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+1	27x	4.228	44.2	+18.6
+2	1	3.064	3.3	+25
+3	2	3.482	49.4	+18.1
+3	4	4.182	224.7	-17.3
+
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Nail varnish markings
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data dimensions station left right up down ignoreall
+
+1	1	0	2.5	2.5	RW
+2	0	1	1	4.5	LW
+3	1.2	0	0.7	1.2	RW
+4	1	0	0.5	0.5	RW
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#
+
+endcentreline
+endsurvey kublakhan3
+centreline
+equate 27x@kublakhan3 27@kublakhan2
+
+endcentreline
+survey mourningthemoths -title "mourningthemoths" 
+
+# stations linked into other surveys (or likely to)
+#*export 23 7 8
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Southmost leads off Kubla Khan
+
+centreline
+date 2022.08.04
+#team Insts Rob Watson		
+#team Notes Amelia Oliver
+#instrument Philip Balister's DistoX2 # 4724
+# Calibration: Paul Walko at base camp, end of July
+#ref 2022#06
+
+
+data normal from to length bearing gradient ignoreall
+
+flags duplicate   #corresponding leg on previous survey
+5	23	5.465	32.3	-35.6 # 23 is existing station
+flags not duplicate
+6	5	5.359	5.4	+4.9
+7	6	10.242	28.4	+22.1
+7	8	5.138	21	+1.9
+9	8	5.443	60.8	+27.5
+10	9	3.646	11.4	+25.9
+
+#LRUDs arranged into passage tubes
+#LW/RW=Left/Right Hand Wall
+#Nail varnish markings
+data dimensions station left right up down ignoreall
+
+23	-	-	-	-	existing station
+5	1.2	0	4.5	1.5	RW
+6	0	1	4.5	5	LW
+7	1	0	2	2.5	RW
+8	0	1.7	5	1.5	LW
+9	0.8	0	0.5	0.75	RW
+10	0.2	0.35	0.1	1.5	Roof pendant centre ceiling
+
+endcentreline
+endsurvey mourningthemoths
+
+equate 23@mourningthemoths 23@kublakhan2
+
+endsurvey 290

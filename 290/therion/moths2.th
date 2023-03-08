@@ -1,0 +1,34 @@
+encoding iso8859-1
+# extension of mourning the moths/ horrorbank down adjacent pitch
+
+survey moths2 -title "moths2" 
+# -title "Mouring of the Moths 2"
+
+#*export 17 mm7 hb4
+
+centreline
+date 2022.08.13
+
+#*team "Eric C Landgraf" sketch rigging ; troggle only recognises one role, not more, in this format
+#team "Eric C Landgraf" rigging 
+#team "Eric C Landgraf" sketch
+#*team "Christopher Holt" rigging disto point ; troggle only recognises one role, not more, in this format
+#team "Christopher Holt" rigging 
+#team "Christopher Holt" disto 
+#team "Christopher Holt" point
+
+#instrument balister distox2 4724
+
+endcentreline
+ref 2022#41
+
+centreline
+units backtape left right up down meters
+units backcompass backclino degrees
+
+# blue nail varnish
+# *data normal from to backtape backcompass backclino ignoreall - Eric used this but Tunnel can't read the backtape etc so I've swopped the station order, see next line
+data normal to from tape compass clino ignoreall # Becka swopped out line above so no backtape etc
+
+mm7	1	4.21	10.1	+23.0 #mourning of the moths 7 in red
+endcentreline

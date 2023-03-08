@@ -1,0 +1,89 @@
+encoding iso8859-1
+survey belownick -title "belownick" 
+
+# stations linked into other surveys (or likely to)
+#*export 8nc 11
+
+# Cave:290
+# Area in cave/QM: rift below nick 
+# -title "below nick"
+centreline
+date 2022.08.04
+#team Insts Luke 
+#team Notes Joel
+
+#instrument ULSA Disto
+# Calibration: Wood down the hill
+endcentreline
+ref 2022#15
+# the #number is on the clear pocket containing the original notes
+
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+8nc 1 2.27 114.4 19.2
+1 2 2.4 153.2 25.1 
+2 3 1.83 067.7 7.55
+3 4 6.05 126.4 -3.7 
+4 5 1.64 181.4 0.1 
+5 6 3.33 234 -2.4 
+6 7 7.19 183.9 -5.6 
+7 8 4.88 119.4 1.9
+8 9 2.62 153.6 -3.9
+9 10 5.29 132.7 2.4 
+10 11 1.54 202.4 4.7
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#1 0 0.6 7 0.5 
+#2 0.9 0 7 1.6
+#3 0 0.7 7 2.2 
+#4 0 0.6 8 1.9
+#5 0 0.6 8 2
+#6 0.6 0 7 2
+#7 0.6 0 7 1.3
+#8 0 0.6 7 1.8
+#9 0.5 0 7 1.5 
+#10 0 0.5 7 1.5 
+#11 0 0.7 7 1.7
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down 
+1 0 0.6 7 0.5 
+2 0.9 0 7 1.6
+3 0 0.7 7 2.2 
+4 0 0.6 8 1.9
+5 0 0.6 8 2
+6 0.6 0 7 2
+7 0.6 0 7 1.3
+8 0 0.6 7 1.8
+9 0.5 0 7 1.5 
+10 0 0.5 7 1.5 
+11 0 0.7 7 1.7
+
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    C   belownick.11    -    continuation of  rift under known passage ]
+
+
+#------------
+#Cave description  ;(leave commented-out)
+#Bottom of nick cage rift 0.6 meters wide under known passage 
+
+endcentreline
+endsurvey belownick

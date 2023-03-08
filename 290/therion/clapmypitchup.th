@@ -1,0 +1,98 @@
+encoding iso8859-1
+survey clapmypitchup -title "clapmypitchup" 
+
+# stations linked into other surveys (or likely to)
+#*export x 44
+
+# Cave:290 
+# Area in cave/QM:below red light
+# -title "Clap My Pitch Up"
+centreline
+date 2022.08.08
+#team Insts Mike Butcher 
+#team Notes Rob Watson 
+#team Pics Luke Stangroom 
+#team Bolt Luke Stangroom
+#instrument ULSA Disto 
+# Calibration: Potatoe Hut 
+endcentreline
+ref 2022#26
+# the #number is on the clear pocket containing the original notes
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+32 x 1.36 210 43
+32 33 12.69 98 -53
+34 33 3.03 237 70
+35 34 8.60 251 72
+36 35 11.09 289 -7
+37 36 4.70 314 -3
+38 37 5.12 273 17
+39 38 5.29 284 17
+40 39 4.99 267 79
+41 40 31.89 240 84
+42 41 12.55 273 83
+43 42 22.74 245 84
+44 43 9.71 319 43
+
+
+#-----------
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#[Red] nail varnish markings
+#x 1.6 1 8.3 1.4 ;RHW
+#32 0 0.7 10.3 11 ;LHW
+#33 1.3 3 17.2 1.8 ;
+#34 1.6 1.6 17 8.7 ;LH lip
+#35 2 1 25 0.6 ; boulder
+#36 0 1.2 20 1.3 ; LHW
+#37 1.4 0 10 1.8 ; RHW
+#38 1.4 0.6 10 1.2 ;RH rib
+#39 1 0 8 - ;RHW
+#40 0 1.7 5 - ;LHW reblay 
+#41 1.4 10.5 50 40 ;centre of Y hang
+#42 3.5 13.8 60 28 ; y hang 
+#43 0 2.7 - 6 ;
+#44 3.3 30 - 10 ; knob in drip 
+
+
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down 
+x 1.6 1 8.3 1.4 #RHW
+32 0 0.7 10.3 11 #LHW
+33 1.3 3 17.2 1.8 #
+34 1.6 1.6 17 8.7 #LH lip
+35 2 1 25 0.6 # boulder
+36 0 1.2 20 1.3 # LHW
+37 1.4 0 10 1.8 # RHW
+38 1.4 0.6 10 1.2 #RH rib
+39 1 0 8 - #RHW
+40 0 1.7 5 - #LHW reblay 
+41 1.4 10.5 50 40 #centre of Y hang
+42 3.5 13.8 60 28 # y hang 
+43 0 2.7 - 6 #
+44 3.3 30 - 10 # knob in drip 
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+#QM1    A    clapmypitchup.44    -    Dry pitch after traversing over wet drip area on the right. Now apis medicus 2022#43
+#QM2    C    clapmypitchup.44    -    Wet pitch continuation of pitch series - almost certainly connects with dry shaft
+#QM3    A    clapmypitchup.40    -    phreatic tube on opposite side of shaft, accessed by big traverse - would need a lot of bolts
+
+#------------
+#Cave description  ;(leave commented-out)
+#Pitch series below redlight, leads to apis medicus
+
+endcentreline
+endsurvey clapmypitchup

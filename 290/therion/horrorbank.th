@@ -1,0 +1,31 @@
+encoding iso8859-1
+survey horrorbank -title "horrorbank" 
+
+# stations linked into other surveys (or likely to)
+#*export 1 4
+
+# Cave: 290
+# Area in cave/QM: mourning the moths 
+# -title "horror bank"
+centreline
+date 2022.08.05
+#team Insts Paul Walko 
+#team Notes Wookey 
+#team Pics Wookey
+#team Tape Paul Walko 
+#instrument Paul Walko's distoX2 and Wookeys distoX2
+# Calibration: Bad Aussee, by Paul, July 2022, and Wookey in the cave, 5 mins before starting..
+endcentreline
+ref 2022#22
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+#This survey started with Topodroid for 1st two legs, then switched to paper
+#as topodroid was just too annoying
+#legs 2->1 and 2->3 lost by topodroid and fished out of distoX2 later
+#they are in wrong order and reversed in notes (added retrospectively with insufficient checking)
+#eventually leg 1->2 found in topodroid but doesn't match moth2 survey well
+#so left disconnected from start station.
+endcentreline

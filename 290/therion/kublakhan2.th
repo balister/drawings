@@ -1,0 +1,136 @@
+encoding iso8859-1
+survey kublakhan2 -title "kublakhan2" 
+
+# stations linked into other surveys (or likely to)
+#*export 5x 2 11 23 27
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Southmost leads off Kubla Khan
+# -title "kublakhan2"
+centreline
+date 2022.08.03
+#team Insts Becka Lawson		
+#team Notes Andreas Klocker 
+#team Dog Keiran Appadoo
+#instrument Beckas DistoX2
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+ref 2022#05
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+
+1	5x	3.700	320.68	5.63		#  {from: 3.701 320.73 5.72, 3.700 320.60 5.55, 3.699 320.70 5.60}
+
+2	1	4.092	95.59	8.94		#  {from: 4.094 95.60 9.10, 4.089 95.65 8.97, 4.094 95.53 8.76}
+
+3	1	7.845	318.28	-1.59		#  {from: 7.849 318.28 -1.71, 7.845 318.33 -1.51, 7.842 318.24 -1.56}
+
+4	3	4.486	302.43	-25.57		#  {from: 4.487 302.48 -25.61, 4.485 302.43 -25.50, 4.487 302.38 -25.59}
+
+5	3	7.719	20.82	10.63		#  {from: 7.718 20.92 10.59, 7.723 20.72 10.63, 7.717 20.82 10.68}
+
+6	4	5.438	316.64	-6.67		#  {from: 5.438 316.69 -6.65, 5.442 316.57 -6.57, 5.435 316.65 -6.77}
+
+7	6	5.594	204.24	-10.88		#  {from: 5.591 204.11 -10.95, 5.593 204.29 -10.84, 5.599 204.31 -10.85} written as 6.60 in notes but assume this was a transcription error since Keiren's notes say 5.60 which matches Distox2
+
+# 7	8	14.938	342.50	8.26		;  {from: 14.964 342.65 8.29, 14.915 342.47 8.24, 14.934 342.39 8.26}
+# 40	-	14.777	342.25	8.11	
+# 40	-	14.809	342.14	8.05	
+# 40	-	14.855	342.05	8.14	
+# 40	-	14.746	342.00	8.10	
+7	8	14.746	342.00	8.10	# this is the leg recorded by Andreas ... comp and clino the same, distance a bit shorter, unclear if this is because station was moved closer
+
+9	5	6.192	30.85	21.84		#  {from: 6.195 30.82 21.88, 6.196 30.86 21.85, 6.184 30.87 21.80}
+
+10	9	4.392	355.69	30.88		#  {from: 4.390 355.70 30.69, 4.390 355.53 30.90, 4.397 355.83 31.04}
+
+11	10	2.858	84.12	53.23		#  {from: 2.855 84.06 53.32, 2.854 84.23 53.36, 2.866 84.07 53.00}
+
+12	10	3.634	345.77	19.73		#  {from: 3.634 345.79 19.80, 3.632 345.83 19.67, 3.636 345.68 19.73}
+
+13	12	6.722	5.43	0.42		#  {from: 6.723 5.18 0.52, 6.709 5.38 0.26, 6.733 5.72 0.47}
+
+14	13	3.000	20.16	-8.05		#  {from: 3.002 19.93 -7.95, 3.001 20.10 -8.07, 2.997 20.43 -8.14}
+
+15	14	1.698	19.42	0.43		#  {from: 1.699 18.87 0.38, 1.695 19.63 0.34, 1.699 19.75 0.55}
+
+16	15	13.173	5.36	1.31		#  {from: 13.159 5.30 1.23, 13.183 5.42 1.44, 13.176 5.37 1.27}
+
+17	16	8.482	337.88	-3.62		#  {from: 8.486 337.87 -3.56, 8.477 337.93 -3.66, 8.484 337.84 -3.64}
+
+18	17	3.396	341.89	-10.41		#  {from: 3.399 341.61 -10.45, 3.395 341.97 -10.37, 3.394 342.08 -10.40}
+
+19	18	7.366	334.91	-13.12		#  {from: 7.369 335.58 -13.12, 7.360 334.90 -13.13, 7.368 334.25 -13.10}
+
+20	19	10.663	10.21	-26.80		#  {from: 10.666 10.45 -26.69, 10.663 10.28 -26.81, 10.660 9.90 -26.91}
+
+21	20	7.457	314.48	-23.93		#  {from: 7.445 314.89 -24.01, 7.460 314.25 -23.80, 7.466 314.31 -23.99}
+
+22	21	5.027	8.21	-25.71		#  {from: 5.029 8.32 -25.76, 5.028 8.17 -25.66, 5.023 8.14 -25.71}
+
+23	22	5.488	355.60	9.71		#  {from: 5.519 355.52 9.71, 5.474 355.60 9.65, 5.471 355.68 9.77}
+
+23	24	32.280	42.10	62.84		#  {from: 32.287 42.13 62.85, 32.272 42.11 62.83, 32.281 42.07 62.85}
+
+25	23	5.651	36.62	-40.29		#  {from: 5.640 36.85 -40.26, 5.657 36.50 -40.34, 5.655 36.52 -40.25}
+
+26	23	5.063	131.72	46.53		#  {from: 5.059 131.64 46.57, 5.062 131.70 46.52, 5.069 131.83 46.51}
+
+27	26	5.462	1.40	14.60		#  {from: 5.471 1.63 14.60, 5.460 1.40 14.57, 5.454 1.18 14.61}
+
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Nail varnish markings
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down ignoreall
+
+5x	1.5	0	2.5	0.4	old numbered station
+1	2.3	0	2.2	1.6	RW junction
+2	0.4	1.2	0.4	1.6	LW passage numbered stn
+3	0.1	0	2.4	1.0	RW junction numbered stn
+4	2.2	0	1.9	1.5	RW
+5	1.5	0.3	2.5	1.6	 numbered stn
+6	-	-	-	-
+7	1.4	0	1.9	1.5	RW  numbered stn
+8	1	1	0	0	mud filled
+9	0.5	1.2	3.5	1.1	boulder tip in passage
+10	0	1	5	2.3	LW junction  numbered stn
+11	1.3	0.1	1.9	0.4	RW under climb  numbered stn
+12	1	0.3	3.3	1.2	RW
+13	1.2	0.3	2.4	1	RW
+14	0	1.7	2.3	1.1	LW
+15	0.3	1.1	2.2	1.2	LW
+16	0	1.4	1.8	0.5	LW big draft
+17	0	1.4	2.2	1.1	LW	
+18	0	1	3.1	1.5	LW
+19	0.3	1	4.5	1.8	LW
+20	1.6	0	4.2	1.7	RW down written as 17 but assume is 1.7 as Keiren wrote that,  numbered stn
+21	0	1.3	2.9	1.5	LW  numbered stn
+22	0.6	0.9	0	1.5	ceiling ?mid passage  numbered stn
+23	1	1.5	10	0.6	spike below aven  numbered stn
+24	2	1	5	2	aven with sound of water, initially free-climbable
+25	3	0	3.5	1.9	RW start of horizontal QMA numbered
+26	2	0	1	1.5	
+27	0	1	1.7	2	LW QMA numbered
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#At junction turn left, ignore right and continue to cross roads. Left here soon ends in a mud-filled passage. Right was surveyed in kublakhan4. Continue in easy walking phreas. This ends with a rifty climb up to a complex chamber. Above is an aven with sound of water, could be climbed easily at least initially (QMA). Ahead the passage continues (QMA) and there is another lead below this (QMB).
+
+endcentreline
+endsurvey kublakhan2

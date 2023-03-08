@@ -1,0 +1,139 @@
+encoding iso8859-1
+survey kublakhan4 -title "kublakhan4" 
+
+# stations linked into other surveys (or likely to)
+#*export 2x 6x 11x 17
+
+# Cave: 1624/290 Fischgesichthoehle
+# Area in cave/QM: Southmost leads off Kubla Khan
+# -title "kublakhan4"
+centreline
+date 2022.08.03
+#team Insts Becka Lawson		
+#team Notes Hannah Collings 
+#instrument Beckas DistoX2
+# Calibration: Paul Walko at base camp, end of July
+endcentreline
+ref 2022#07
+
+# Centreline data
+centreline
+data normal from to length bearing gradient ignoreall
+	
+1	11x	4.153	36.99	30.49		#  {from: 4.156 37.11 30.44, 4.151 36.94 30.49, 4.151 36.93 30.54}
+	
+2	1	2.269	128.91	22.64		#  {from: 2.272 128.70 22.65, 2.275 129.03 22.71, 2.259 128.98 22.54}
+
+2	3	7.297	234.91	-18.73		#  {from: 7.304 234.73 -18.70, 7.290 235.03 -18.81, 7.296 234.96 -18.69}
+
+4	2	3.939	158.39	-16.91		#  {from: 3.939 158.49 -17.03, 3.937 158.39 -16.88, 3.940 158.27 -16.81}
+
+5	4	4.387	160.03	0.70		#  {from: 4.390 160.11 0.64, 4.388 159.99 0.70, 4.382 159.99 0.76}
+
+6	5	7.935	157.02	-0.92		#  {from: 7.930 157.06 -0.80, 7.942 156.92 -0.97, 7.934 157.07 -0.99}
+
+7	6	2.012	140.47	0.57		#  {from: 2.016 140.63 0.52, 2.008 140.31 0.60, 2.012 140.47 0.60}
+
+8	7	3.808	176.69	-7.62		#  {from: 3.810 176.54 -7.49, 3.807 176.73 -7.56, 3.807 176.79 -7.80}
+	
+9	8	2.395	145.44	15.76		#  {from: 2.392 145.40 15.84, 2.396 145.45 15.70, 2.397 145.48 15.74}
+
+10	9	5.266	283.86	-30.38		#  {from: 5.262 283.69 -30.36, 5.266 284.03 -30.33, 5.270 283.86 -30.44}
+
+11	9	7.768	178.59	-13.16		#  {from: 7.764 178.52 -13.17, 7.765 178.63 -13.12, 7.774 178.62 -13.19}
+
+12	11	11.467	171.60	9.67		#  {from: 11.457 171.63 9.63, 11.475 171.56 9.70, 11.470 171.60 9.70}
+
+13	12	3.451	192.33	-13.88		#  {from: 3.452 192.30 -13.93, 3.449 192.26 -13.85, 3.452 192.44 -13.86}
+
+14	12	5.798	82.10	25.41		#  {from: 5.814 82.08 25.38, 5.803 82.08 25.35, 5.777 82.13 25.50}
+
+# 14	15	14.002	320.44	-35.56		;  {from: 14.009 320.39 -35.57, 14.009 320.50 -35.59, 13.988 320.43 -35.53}
+# this leg superceded by leg 14 to 17 which linked in to Luke's survey
+
+16	14	0.634	314.97	13.49		#  {from: 0.634 314.96 13.49, 0.635 315.04 13.44, 0.632 314.89 13.54}
+
+14	17	11.886	317.81	-31.13		#  {from: 11.899 317.79 -31.16, 11.883 317.88 -31.05, 11.876 317.77 -31.17}
+
+16	18	7.919	333.18	-79.97		#  {from: 7.922 333.91 -79.60, 7.922 333.16 -80.03, 7.912 332.46 -80.28}
+
+19	13	1.804	280.09	-45.25		#  {from: 1.800 279.88 -45.14, 1.795 280.35 -45.38, 1.818 280.04 -45.21}
+
+20	19	4.539	232.52	-29.54		#  {from: 4.531 232.68 -29.56, 4.542 232.43 -29.54, 4.545 232.46 -29.53}
+
+21	20	2.902	178.11	-26.31		#  {from: 2.903 178.16 -26.26, 2.901 178.05 -26.35, 2.901 178.13 -26.33}
+
+22	21	5.766	233.67	-22.45		#  {from: 5.767 233.67 -22.40, 5.767 233.65 -22.46, 5.765 233.68 -22.48}
+
+6x	22	2.280	314.65	-50.35		#  {from: 2.280 314.74 -50.39, 2.280 314.60 -50.35, 2.279 314.62 -50.32}
+
+23	10	9.269	180.12	-10.26		#  {from: 9.270 180.21 -10.30, 9.268 180.06 -10.27, 9.269 180.09 -10.22}
+
+24	23	5.110	259.00	13.86		#  {from: 5.107 258.94 14.05, 5.108 259.01 13.79, 5.116 259.03 13.73}
+
+25	24	3.868	359.35	-14.69		#  {from: 3.873 359.31 -14.70, 3.869 359.32 -14.68, 3.863 359.43 -14.71}
+
+26	25	1.986	320.41	7.45		#  {from: 1.984 320.49 7.57, 1.989 320.32 7.41, 1.985 320.42 7.36}
+
+27	26	4.014	231.76	-49.41		#  {from: 4.012 231.93 -49.39, 4.018 231.67 -49.44, 4.011 231.66 -49.40}
+
+28	27	3.785	63.78	-23.70		#  {from: 3.785 63.86 -23.74, 3.784 63.74 -23.74, 3.786 63.73 -23.61}
+
+2x	28	2.533	331.57	-24.56		#  {from: 2.532 331.59 -24.54, 2.530 331.52 -24.59, 2.536 331.61 -24.56}
+
+#recorded station details (leave commented out)
+#(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+#Station Left Right Up Down Description
+#Nail varnish markings
+#LRUDs arranged into passage tubes
+#new *data command for each 'passage',
+#repeat stations and adjust numbers as needed
+data passage station left right up down ignoreall
+
+1	0.3	2	1	0.7	LW
+2	2.3	1.5	1.6	0	middle junction
+3	0.3	0.5	0.1	0.1	too tight
+4	0.7	0.6	1	0.5	L roof
+5	1	0.3	1.7	0	R floor
+6	0.5	0.6	1.8	0.2	LW
+7	0.4	0.7	1.7	0.2	LW
+8	1.1	0.3	2.1	0.3	RW at junction canyon
+9	0.5	1.2	2.6	0.3	LW passage onwards
+10	1.8	0.3	1.5	1	RW draft from 10 to 9
+11	0.2	1.7	1.3	1.4	LW
+12	1.4	0.5	0.3	1.5	R ceiling
+13 	0	0.5	1.2	1	LW
+14	0.3	2	1.7	8	LW
+# 15	0	3	7	-	LW unmarked
+16	0	2.7	1.7	9	?nr? 14 (does this mean an old station 14????)
+17	0	1.5	2.5	1	LW of canyon to connect to Luke's sesame street survey
+18	0.3	0.3	9	0	bottom of trench
+
+19	0	0.5	1	0.3	LW
+20	1.2	0	0.4	1.3	RW tube
+21	0	0.6	1.4	2	LW
+22	0.4	0.6	1.3	1.2	floor rock at junction
+6x	1	1.2	2	1.5	numbered old station on LW
+23	0	1.4	2.3	4	LW rift
+24	0	0.8	5.8	2.6	LW bottom of rift
+25	0.7	0	5	3	RW canyon
+26	1	0	8	1.9	RW below c3
+27	0.5	0	5.5	1.1	LW above c3
+28	1.3	0	0.5	1.4	RW above canyon
+
+#-----------
+#Question Mark List  ;(leave commented-out)
+# The nearest-station is the name of the survey and station which are nearest to
+# the QM. The resolution-station is either '-' to indicate that the QM hasn't
+# been checked; or the name of the survey and station which push that QM. If a
+# QM doesn't go anywhere, set the resolution-station to be the same as the
+# nearest-station. Include any relevant details of how to find or push the QM in
+# the textual description.
+#Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+#------------
+#Cave description  ;(leave commented-out)
+#
+
+endcentreline
+endsurvey kublakhan4
