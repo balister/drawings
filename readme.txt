@@ -1,7 +1,11 @@
-This repo holds all the CUCC expo cave drawings.
-It was originally called 'tunneldata' and was managed with mercurial.
+The drawings repo holds all the CUCC expo cave drawings.
 
-It was renamed 'drawings' when it was converted to git by Wookey
+ACCESS 
+- you can install the repository on your own computer. Instructions below and online advice here http://expo.survex.com/handbook/computing/repos.html
+- alternatively, if you only want to access a single file this can possibly be downloaded directly from the website here https://expo.survex.com/dwgfiles/ and if you have problems try asking Phil Sarjent :-)
+
+HISTORY 
+- the drawings repo was originally called 'tunneldata' and was managed with mercurial. It was renamed 'drawings' when it was converted to git by Wookey
 on 8th July 2019.
 
 Install
