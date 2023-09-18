@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-08-25 22:00:58">
+<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-18 13:00:56">
 <sketch splined="0" locoffsetx="-14.656331" locoffsety="-24.081259" locoffsetz="-37.957966" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -1241,7 +1241,7 @@
 	</skpath>
 	<skpath from="113" to="60" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="0.0" nodeposyrel="1.0">Boulder&space;Dig</pctext>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="1.0">Boulder&space;dig</pctext>
 		</pathcodes>
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="thetouchofdeathfinal"/>
@@ -1397,13 +1397,13 @@
 		<pt X="4.7598033" Y="117.143524"/>
 		<pt X="13.463312" Y="116.98742" Z="-24.620335"/>
 	</skpath>
-	<skpath from="127" to="128" linestyle="detail" splined="1">
+	<skpath from="127" to="128" linestyle="detail">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="thetouchofdeathfinal"/>
 		<pt X="12.18467" Y="122.3202"/>
 		<pt X="5.809013" Y="119.39653"/>
 	</skpath>
-	<skpath from="128" to="129" linestyle="detail" splined="1">
+	<skpath from="128" to="129" linestyle="detail">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="thetouchofdeathfinal"/>
 		<pt X="5.809013" Y="119.39653"/>
@@ -1577,7 +1577,7 @@
 	</skpath>
 	<skpath from="146" to="140" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Icy&space;Slope</pctext>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Icy&space;slope</pctext>
 		</pathcodes>
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="thetouchofdeathfinal"/>
@@ -2341,21 +2341,14 @@
 		<pt X="-45.169346" Y="-161.26416"/>
 		<pt X="-48.70067" Y="-157.95354"/>
 	</skpath>
-	<skpath from="208" to="209" linestyle="wall" splined="1">
-		<sketchsubset subname="green"/>
-		<importfrom subname="narnia"/>
-		<pt X="-73.65236" Y="-178.46278"/>
-		<pt X="-78.71693" Y="-183.55563"/>
-		<pt X="-82.68967" Y="-187.30766"/>
-	</skpath>
-	<skpath from="210" to="208" linestyle="pitchbound" splined="1">
+	<skpath from="209" to="208" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-57.087563" Y="-198.78447"/>
 		<pt X="-67.01941" Y="-188.1905"/>
 		<pt X="-73.65236" Y="-178.46278"/>
 	</skpath>
-	<skpath from="210" to="191" linestyle="wall" splined="1">
+	<skpath from="209" to="191" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-57.087563" Y="-198.78447"/>
@@ -2363,14 +2356,7 @@
 		<pt X="-41.196606" Y="-197.68094"/>
 		<pt X="-33.852123" Y="-197.05107"/>
 	</skpath>
-	<skpath from="209" to="211" linestyle="wall" splined="1">
-		<sketchsubset subname="green"/>
-		<importfrom subname="narnia"/>
-		<pt X="-82.68967" Y="-187.30766"/>
-		<pt X="-89.08958" Y="-193.2535"/>
-		<pt X="-89.378" Y="-199.98332"/>
-	</skpath>
-	<skpath from="211" to="210" linestyle="wall" splined="1">
+	<skpath from="210" to="209" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-89.378" Y="-199.98332"/>
@@ -2379,7 +2365,7 @@
 		<pt X="-64.47766" Y="-201.42542"/>
 		<pt X="-57.087563" Y="-198.78447"/>
 	</skpath>
-	<skpath from="191" to="212" linestyle="connective">
+	<skpath from="191" to="211" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -2390,7 +2376,7 @@
 		<pt X="-41.88469" Y="-183.44719"/>
 		<pt X="-56.401875" Y="-189.50403"/>
 	</skpath>
-	<skpath from="207" to="213" linestyle="wall" splined="1">
+	<skpath from="207" to="212" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-48.70067" Y="-157.95354"/>
@@ -2398,7 +2384,7 @@
 		<pt X="-59.956764" Y="-168.54752"/>
 		<pt X="-66.042114" Y="-174.8202"/>
 	</skpath>
-	<skpath from="213" to="208" linestyle="wall" splined="1">
+	<skpath from="212" to="208" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-66.042114" Y="-174.8202"/>
@@ -2406,19 +2392,19 @@
 		<pt X="-72.3164" Y="-177.59653"/>
 		<pt X="-73.65236" Y="-178.46278"/>
 	</skpath>
-	<skpath from="213" to="39" linestyle="connective">
+	<skpath from="212" to="39" linestyle="connective">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-66.042114" Y="-174.8202"/>
 		<pt X="-61.436687" Y="-184.41257" Z="-126.02034"/>
 	</skpath>
-	<skpath from="210" to="39" linestyle="connective">
+	<skpath from="209" to="39" linestyle="connective">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="-57.087563" Y="-198.78447"/>
 		<pt X="-61.436687" Y="-184.41257" Z="-126.02034"/>
 	</skpath>
-	<skpath from="214" to="215" linestyle="wall" splined="1">
+	<skpath from="213" to="214" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-65.63134" Y="-196.52226"/>
@@ -2430,7 +2416,7 @@
 		<pt X="-95.43484" Y="-205.94402"/>
 		<pt X="-98.319046" Y="-211.32787"/>
 	</skpath>
-	<skpath from="216" to="217" linestyle="wall" splined="1">
+	<skpath from="215" to="216" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-100.33799" Y="-218.82681"/>
@@ -2440,13 +2426,13 @@
 		<pt X="-104.18361" Y="-237.47803"/>
 		<pt X="-99.66501" Y="-239.11243"/>
 	</skpath>
-	<skpath from="218" to="219" linestyle="wall" splined="1">
+	<skpath from="217" to="218" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-117.835526" Y="-209.88577"/>
 		<pt X="-125.71903" Y="-212.96225"/>
 	</skpath>
-	<skpath from="220" to="221" linestyle="wall" splined="1">
+	<skpath from="219" to="220" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-156.00323" Y="-232.67102"/>
@@ -2454,7 +2440,7 @@
 		<pt X="-143.60114" Y="-226.32576"/>
 		<pt X="-140.52464" Y="-224.01839"/>
 	</skpath>
-	<skpath from="221" to="222" linestyle="wall" splined="1">
+	<skpath from="220" to="221" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-140.52464" Y="-224.01839"/>
@@ -2462,51 +2448,51 @@
 		<pt X="-134.17938" Y="-229.7868"/>
 		<pt X="-133.21797" Y="-230.26752"/>
 	</skpath>
-	<skpath from="219" to="223" linestyle="wall" splined="1">
+	<skpath from="218" to="222" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-125.71903" Y="-212.96225"/>
 		<pt X="-132.83342" Y="-212.19313"/>
 	</skpath>
-	<skpath from="223" to="43" linestyle="connective">
+	<skpath from="222" to="43" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-132.83342" Y="-212.19313"/>
 		<pt X="-130.63669" Y="-215.21257" Z="-267.3203"/>
 	</skpath>
-	<skpath from="222" to="224" linestyle="wall" splined="1">
+	<skpath from="221" to="223" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-133.21797" Y="-230.26752"/>
 		<pt X="-130.1415" Y="-227.28716"/>
 		<pt X="-126.5843" Y="-223.63383"/>
 	</skpath>
-	<skpath from="224" to="225" linestyle="wall" splined="1">
+	<skpath from="223" to="224" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-126.5843" Y="-223.63383"/>
 		<pt X="-125.911316" Y="-220.07664"/>
 		<pt X="-123.70009" Y="-218.15384"/>
 	</skpath>
-	<skpath from="224" to="43" linestyle="connective">
+	<skpath from="223" to="43" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-126.5843" Y="-223.63383"/>
 		<pt X="-130.63669" Y="-215.21257" Z="-267.3203"/>
 	</skpath>
-	<skpath from="218" to="42" linestyle="connective">
+	<skpath from="217" to="42" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-117.835526" Y="-209.88577"/>
 		<pt X="-118.53669" Y="-213.71259" Z="-239.92033"/>
 	</skpath>
-	<skpath from="225" to="226" linestyle="wall" splined="1">
+	<skpath from="224" to="225" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-123.70009" Y="-218.15384"/>
 		<pt X="-117.71824" Y="-216.98393"/>
 	</skpath>
-	<skpath from="226" to="216" linestyle="wall" splined="1">
+	<skpath from="225" to="215" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-117.71824" Y="-216.98393"/>
@@ -2515,19 +2501,19 @@
 		<pt X="-104.47202" Y="-217.48085"/>
 		<pt X="-100.33799" Y="-218.82681"/>
 	</skpath>
-	<skpath from="226" to="42" linestyle="connective">
+	<skpath from="225" to="42" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-117.71824" Y="-216.98393"/>
 		<pt X="-118.53669" Y="-213.71259" Z="-239.92033"/>
 	</skpath>
-	<skpath from="215" to="227" linestyle="wall" splined="1">
+	<skpath from="214" to="226" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-98.319046" Y="-211.32787"/>
 		<pt X="-100.64696" Y="-212.37766"/>
 	</skpath>
-	<skpath from="227" to="218" linestyle="wall" splined="1">
+	<skpath from="226" to="217" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-100.64696" Y="-212.37766"/>
@@ -2537,19 +2523,19 @@
 		<pt X="-115.04746" Y="-211.32787"/>
 		<pt X="-117.835526" Y="-209.88577"/>
 	</skpath>
-	<skpath from="227" to="41" linestyle="connective">
+	<skpath from="226" to="41" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-100.64696" Y="-212.37766"/>
 		<pt X="-100.93669" Y="-215.41258" Z="-219.42033"/>
 	</skpath>
-	<skpath from="216" to="41" linestyle="connective">
+	<skpath from="215" to="41" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-100.33799" Y="-218.82681"/>
 		<pt X="-100.93669" Y="-215.41258" Z="-219.42033"/>
 	</skpath>
-	<skpath from="228" to="217" linestyle="wall" splined="1">
+	<skpath from="227" to="216" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-82.071335" Y="-223.34541"/>
@@ -2559,19 +2545,19 @@
 		<pt X="-97.276886" Y="-237.80684"/>
 		<pt X="-99.66501" Y="-239.11243"/>
 	</skpath>
-	<skpath from="228" to="40" linestyle="connective">
+	<skpath from="227" to="40" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-82.071335" Y="-223.34541"/>
 		<pt X="-83.23669" Y="-220.31258" Z="-206.62033"/>
 	</skpath>
-	<skpath from="215" to="40" linestyle="connective">
+	<skpath from="214" to="40" linestyle="connective">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-98.319046" Y="-211.32787"/>
 		<pt X="-83.23669" Y="-220.31258" Z="-206.62033"/>
 	</skpath>
-	<skpath from="228" to="229" linestyle="wall" splined="1">
+	<skpath from="227" to="228" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-82.071335" Y="-223.34541"/>
@@ -2579,7 +2565,7 @@
 		<pt X="-70.438354" Y="-216.03874"/>
 		<pt X="-69.97906" Y="-215.55518"/>
 	</skpath>
-	<skpath from="229" to="214" linestyle="wall" splined="1">
+	<skpath from="228" to="213" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-69.97906" Y="-215.55518"/>
@@ -2588,7 +2574,7 @@
 		<pt X="-65.15064" Y="-198.73349"/>
 		<pt X="-65.63134" Y="-196.52226"/>
 	</skpath>
-	<skpath from="229" to="230" linestyle="connective">
+	<skpath from="228" to="229" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2599,32 +2585,23 @@
 		<pt X="-75.76645" Y="-207.85721"/>
 		<pt X="-79.63706" Y="-211.41055"/>
 	</skpath>
-	<skpath from="209" to="231" linestyle="connective">
+	<skpath from="175" to="230" linestyle="connective">
 		<pathcodes>
-			<pctext style="entrance" nodeposxrel="0.3" nodeposyrel="2.0">P9</pctext>
-		</pathcodes>
-		<sketchsubset subname="green"/>
-		<importfrom subname="narnia"/>
-		<pt X="-82.68967" Y="-187.30766"/>
-		<pt X="-76.0204" Y="-190.91434"/>
-	</skpath>
-	<skpath from="175" to="232" linestyle="connective">
-		<pathcodes>
-			<pctext style="default" nodeposxrel="0.0" nodeposyrel="-1.0">Choke</pctext>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="-1.0">Choke</pctext>
 		</pathcodes>
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="10.276577" Y="-205.72618"/>
 		<pt X="7.285236" Y="-209.47235"/>
 	</skpath>
-	<skpath from="223" to="233" linestyle="wall" splined="1">
+	<skpath from="222" to="231" linestyle="wall" splined="1">
 		<sketchsubset subname="blue"/>
 		<importfrom subname="narnia"/>
 		<pt X="-132.83342" Y="-212.19313"/>
 		<pt X="-139.08253" Y="-213.0584"/>
 		<pt X="-142.2032" Y="-214.1376"/>
 	</skpath>
-	<skpath from="233" to="234" linestyle="wall" splined="1">
+	<skpath from="231" to="232" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-142.2032" Y="-214.1376"/>
@@ -2633,14 +2610,14 @@
 		<pt X="-156.8685" Y="-215.84647"/>
 		<pt X="-163.21376" Y="-218.44226"/>
 	</skpath>
-	<skpath from="233" to="221" linestyle="invisible" splined="1">
+	<skpath from="231" to="220" linestyle="invisible" splined="1">
 		<sketchsubset subname="blue"/>
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-142.2032" Y="-214.1376"/>
 		<pt X="-140.52464" Y="-224.01839"/>
 	</skpath>
-	<skpath from="235" to="236" linestyle="wall" splined="1">
+	<skpath from="233" to="234" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-195.03735" Y="-244.76663"/>
@@ -2648,38 +2625,38 @@
 		<pt X="-208.88156" Y="-246.1126"/>
 		<pt X="-210.61209" Y="-245.92032"/>
 	</skpath>
-	<skpath from="236" to="237" linestyle="wall" splined="1">
+	<skpath from="234" to="235" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-210.61209" Y="-245.92032"/>
 		<pt X="-211.47736" Y="-241.1133"/>
 	</skpath>
-	<skpath from="237" to="238" linestyle="wall" splined="1">
+	<skpath from="235" to="236" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-211.47736" Y="-241.1133"/>
 		<pt X="-203.88226" Y="-237.74838"/>
 		<pt X="-195.51807" Y="-236.88312"/>
 	</skpath>
-	<skpath from="238" to="239" linestyle="wall" splined="1">
+	<skpath from="236" to="237" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-195.51807" Y="-236.88312"/>
 		<pt X="-193.11455" Y="-230.634"/>
 	</skpath>
-	<skpath from="239" to="240" linestyle="wall" splined="1">
+	<skpath from="237" to="238" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-193.11455" Y="-230.634"/>
 		<pt X="-188.98051" Y="-230.24944"/>
 	</skpath>
-	<skpath from="240" to="241" linestyle="wall" splined="1">
+	<skpath from="238" to="239" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-188.98051" Y="-230.24944"/>
 		<pt X="-187.44228" Y="-234.38347"/>
 	</skpath>
-	<skpath from="241" to="234" linestyle="wall" splined="1">
+	<skpath from="239" to="232" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-187.44228" Y="-234.38347"/>
@@ -2688,7 +2665,7 @@
 		<pt X="-170.3293" Y="-223.80804"/>
 		<pt X="-163.21376" Y="-218.44226"/>
 	</skpath>
-	<skpath from="220" to="242" linestyle="wall" splined="1">
+	<skpath from="219" to="240" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-156.00323" Y="-232.67102"/>
@@ -2699,32 +2676,32 @@
 		<pt X="-182.53912" Y="-247.84312"/>
 		<pt X="-184.6542" Y="-247.5547"/>
 	</skpath>
-	<skpath from="242" to="243" linestyle="wall" splined="1">
+	<skpath from="240" to="241" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-184.6542" Y="-247.5547"/>
 		<pt X="-186.38474" Y="-252.36171"/>
 		<pt X="-189.84578" Y="-258.61084"/>
 	</skpath>
-	<skpath from="243" to="244" linestyle="wall" splined="1">
+	<skpath from="241" to="242" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-189.84578" Y="-258.61084"/>
 		<pt X="-193.40297" Y="-255.82277"/>
 	</skpath>
-	<skpath from="235" to="245" linestyle="wall" splined="1">
+	<skpath from="233" to="243" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-195.03735" Y="-244.76663"/>
 		<pt X="-194.17209" Y="-246.40102"/>
 	</skpath>
-	<skpath from="242" to="241" linestyle="invisible" splined="1">
+	<skpath from="240" to="239" linestyle="invisible" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-184.6542" Y="-247.5547"/>
 		<pt X="-187.44228" Y="-234.38347"/>
 	</skpath>
-	<skpath from="242" to="246" linestyle="connective">
+	<skpath from="240" to="244" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -2734,7 +2711,7 @@
 		<pt X="-184.6542" Y="-247.5547"/>
 		<pt X="-174.48436" Y="-235.23773"/>
 	</skpath>
-	<skpath from="228" to="247" linestyle="connective">
+	<skpath from="227" to="245" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2745,31 +2722,13 @@
 		<pt X="-86.05835" Y="-208.68369"/>
 		<pt X="-91.16755" Y="-213.33223"/>
 	</skpath>
-	<skpath from="226" to="248" linestyle="connective">
-		<pathcodes>
-			<pctext style="entrance" nodeposxrel="0.3" nodeposyrel="2.4">C10</pctext>
-		</pathcodes>
-		<sketchsubset subname="blue"/>
-		<importfrom subname="narnia"/>
-		<pt X="-117.71824" Y="-216.98393"/>
-		<pt X="-118.008804" Y="-225.8742"/>
-	</skpath>
-	<skpath from="249" to="250" linestyle="connective">
-		<pathcodes>
-			<pctext style="entrance" nodeposxrel="-0.6" nodeposyrel="0.0">C2</pctext>
-		</pathcodes>
-		<sketchsubset subname="blue2"/>
-		<importfrom subname="narnia"/>
-		<pt X="-189.02759" Y="-293.9126"/>
-		<pt X="-201.69144" Y="-297.98758"/>
-	</skpath>
-	<skpath from="250" to="251" linestyle="wall" splined="1">
+	<skpath from="246" to="247" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-201.69144" Y="-297.98758"/>
 		<pt X="-199.06943" Y="-292.30655"/>
 	</skpath>
-	<skpath from="245" to="252" linestyle="wall" splined="1">
+	<skpath from="243" to="248" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-194.17209" Y="-246.40102"/>
@@ -2782,7 +2741,7 @@
 		<pt X="-208.9748" Y="-286.91687"/>
 		<pt X="-208.8687" Y="-289.17957"/>
 	</skpath>
-	<skpath from="252" to="253" linestyle="wall" splined="1">
+	<skpath from="248" to="249" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-208.8687" Y="-289.17957"/>
@@ -2790,7 +2749,7 @@
 		<pt X="-210.14012" Y="-292.88922"/>
 		<pt X="-214.07314" Y="-296.0939"/>
 	</skpath>
-	<skpath from="251" to="252" linestyle="pitchbound" splined="1">
+	<skpath from="247" to="248" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-199.06943" Y="-292.30655"/>
@@ -2798,13 +2757,13 @@
 		<pt X="-205.52719" Y="-290.57074"/>
 		<pt X="-208.8687" Y="-289.17957"/>
 	</skpath>
-	<skpath from="251" to="46" linestyle="connective">
+	<skpath from="247" to="46" linestyle="connective">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-199.06943" Y="-292.30655"/>
 		<pt X="-203.2367" Y="-289.8126" Z="-329.52032"/>
 	</skpath>
-	<skpath from="252" to="46" linestyle="connective">
+	<skpath from="248" to="46" linestyle="connective">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-208.8687" Y="-289.17957"/>
@@ -2815,7 +2774,7 @@
 		<pt X="-221.13669" Y="-309.8126" Z="-347.12033"/>
 		<pt X="-327.77524" Y="-420.1007"/>
 	</skpath>
-	<skpath from="253" to="254" linestyle="wall" splined="1">
+	<skpath from="249" to="250" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-214.07314" Y="-296.0939"/>
@@ -2824,7 +2783,7 @@
 		<pt X="-224.18001" Y="-313.08054"/>
 		<pt X="-224.85298" Y="-315.8686"/>
 	</skpath>
-	<skpath from="254" to="255" linestyle="wall" splined="1">
+	<skpath from="250" to="251" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-224.85298" Y="-315.8686"/>
@@ -2832,7 +2791,7 @@
 		<pt X="-217.2579" Y="-319.9065"/>
 		<pt X="-211.87404" Y="-320.00262"/>
 	</skpath>
-	<skpath from="255" to="250" linestyle="wall" splined="1">
+	<skpath from="251" to="246" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-211.87404" Y="-320.00262"/>
@@ -2841,16 +2800,16 @@
 		<pt X="-205.24036" Y="-304.62018"/>
 		<pt X="-201.69144" Y="-297.98758"/>
 	</skpath>
-	<skpath from="256" to="255" linestyle="connective">
+	<skpath from="252" to="251" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="0.0" nodeposyrel="0.0">Choke</pctext>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">Choke</pctext>
 		</pathcodes>
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-220.86171" Y="-327.6385"/>
 		<pt X="-211.87404" Y="-320.00262"/>
 	</skpath>
-	<skpath from="242" to="257" linestyle="connective">
+	<skpath from="240" to="253" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2861,7 +2820,7 @@
 		<pt X="-189.67662" Y="-246.65926"/>
 		<pt X="-194.77498" Y="-254.08827"/>
 	</skpath>
-	<skpath from="251" to="258" linestyle="wall" splined="1">
+	<skpath from="247" to="254" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-199.06943" Y="-292.30655"/>
@@ -2871,7 +2830,7 @@
 		<pt X="-197.03009" Y="-272.2045"/>
 		<pt X="-197.73727" Y="-270.1723"/>
 	</skpath>
-	<skpath from="258" to="244" linestyle="wall" splined="1">
+	<skpath from="254" to="242" linestyle="wall" splined="1">
 		<sketchsubset subname="blue2"/>
 		<importfrom subname="narnia"/>
 		<pt X="-197.73727" Y="-270.1723"/>
@@ -2880,7 +2839,7 @@
 		<pt X="-196.01042" Y="-259.67712"/>
 		<pt X="-193.40297" Y="-255.82277"/>
 	</skpath>
-	<skpath from="258" to="259" linestyle="connective">
+	<skpath from="254" to="255" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2891,7 +2850,7 @@
 		<pt X="-200.74733" Y="-269.529"/>
 		<pt X="-201.18433" Y="-278.12335"/>
 	</skpath>
-	<skpath from="223" to="260" linestyle="connective">
+	<skpath from="222" to="256" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2902,7 +2861,7 @@
 		<pt X="-131.77586" Y="-217.59015"/>
 		<pt X="-137.352" Y="-218.93611"/>
 	</skpath>
-	<skpath from="218" to="261" linestyle="connective">
+	<skpath from="217" to="257" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2913,7 +2872,7 @@
 		<pt X="-114.27833" Y="-214.1291"/>
 		<pt X="-121.20043" Y="-214.51366"/>
 	</skpath>
-	<skpath from="215" to="262" linestyle="connective">
+	<skpath from="214" to="258" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -2924,13 +2883,13 @@
 		<pt X="-98.7036" Y="-215.0905"/>
 		<pt X="-106.29868" Y="-214.99437"/>
 	</skpath>
-	<skpath from="263" to="264" linestyle="detail" splined="1">
+	<skpath from="259" to="260" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="46.088566" Y="-78.054955"/>
 		<pt X="44.248833" Y="-77.88081"/>
 	</skpath>
-	<skpath from="264" to="265" linestyle="connective">
+	<skpath from="260" to="261" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="puddle"/>
@@ -2940,7 +2899,7 @@
 		<pt X="44.248833" Y="-77.88081"/>
 		<pt X="41.714226" Y="-91.628876"/>
 	</skpath>
-	<skpath from="266" to="190" linestyle="wall" splined="1">
+	<skpath from="262" to="190" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="18.661964" Y="-183.11823"/>
@@ -2950,7 +2909,7 @@
 		<pt X="-3.3756459" Y="-178.49599"/>
 		<pt X="-6.163715" Y="-178.78441"/>
 	</skpath>
-	<skpath from="266" to="194" linestyle="detail" splined="1">
+	<skpath from="262" to="194" linestyle="detail" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="18.661964" Y="-183.11823"/>
@@ -2968,7 +2927,7 @@
 		<pt X="54.422054" Y="-167.3819"/>
 		<pt X="57.786247" Y="-171.46666"/>
 	</skpath>
-	<skpath from="266" to="267" linestyle="connective">
+	<skpath from="262" to="263" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="puddle"/>
@@ -2978,7 +2937,7 @@
 		<pt X="18.661964" Y="-183.11823"/>
 		<pt X="24.849937" Y="-177.60272"/>
 	</skpath>
-	<skpath from="180" to="268" linestyle="wall" splined="1">
+	<skpath from="180" to="264" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="50.701466" Y="-118.557144"/>
@@ -2986,7 +2945,7 @@
 		<pt X="50.335037" Y="-104.778854"/>
 		<pt X="49.260742" Y="-98.633446"/>
 	</skpath>
-	<skpath from="268" to="263" linestyle="wall" splined="1">
+	<skpath from="264" to="259" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="49.260742" Y="-98.633446"/>
@@ -2994,7 +2953,7 @@
 		<pt X="46.402023" Y="-80.452446"/>
 		<pt X="46.088566" Y="-78.054955"/>
 	</skpath>
-	<skpath from="194" to="269" linestyle="wall" splined="1">
+	<skpath from="194" to="265" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="57.786247" Y="-171.46666"/>
@@ -3002,7 +2961,7 @@
 		<pt X="46.713455" Y="-177.53459"/>
 		<pt X="38.060825" Y="-181.09178"/>
 	</skpath>
-	<skpath from="269" to="266" linestyle="wall" splined="1">
+	<skpath from="265" to="262" linestyle="wall" splined="1">
 		<sketchsubset subname="green"/>
 		<importfrom subname="narnia"/>
 		<pt X="38.060825" Y="-181.09178"/>
@@ -3010,7 +2969,7 @@
 		<pt X="23.062939" Y="-183.59143"/>
 		<pt X="18.661964" Y="-183.11823"/>
 	</skpath>
-	<skpath from="270" to="269" linestyle="connective">
+	<skpath from="266" to="265" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="0.0" nodeposyrel="1.0">Ice</pctext>
 		</pathcodes>
@@ -3019,13 +2978,13 @@
 		<pt X="42.231953" Y="-185.34412"/>
 		<pt X="38.060825" Y="-181.09178"/>
 	</skpath>
-	<skpath from="179" to="271" linestyle="wall" splined="1">
+	<skpath from="179" to="267" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="21.423113" Y="-71.41553"/>
 		<pt X="18.809618" Y="-79.042595"/>
 	</skpath>
-	<skpath from="271" to="181" linestyle="wall" splined="1">
+	<skpath from="267" to="181" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="18.809618" Y="-79.042595"/>
@@ -3040,21 +2999,13 @@
 		<pt X="22.08978" Y="-68.970726"/>
 		<pt X="21.423113" Y="-71.41553"/>
 	</skpath>
-	<skpath from="263" to="272" linestyle="wall" splined="1">
+	<skpath from="259" to="268" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="46.088566" Y="-78.054955"/>
 		<pt X="45.85456" Y="-75.9926"/>
 	</skpath>
-	<skpath from="273" to="274" linestyle="connective">
-		<pathcodes>
-			<pctext style="passage" nodeposxrel="1.0" nodeposyrel="0.0">Narnia</pctext>
-		</pathcodes>
-		<sketchsubset subname="blue2"/>
-		<pt X="-143.61731" Y="-186.27672"/>
-		<pt X="-168.27728" Y="-203.7442"/>
-	</skpath>
-	<skpath from="275" to="275" linestyle="connective">
+	<skpath from="269" to="269" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="7.081098" sfrotatedeg="-0.005098017" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-23.74145033619665" sfytrans="-10.8424679478096" sfsketch="tempest-1p.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2509" sfpixheight="3143">
@@ -3067,7 +3018,7 @@
 		<pt X="-90.89067" Y="94.62043"/>
 		<pt X="-90.85119" Y="-349.23727"/>
 	</skpath>
-	<skpath from="276" to="276" linestyle="connective">
+	<skpath from="270" to="270" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="7.085029" sfrotatedeg="-0.05845977" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-23.71761572026119" sfytrans="-10.833617809297571" sfsketch="raw data/tempest-1p.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2509" sfpixheight="3143">
@@ -3080,7 +3031,7 @@
 		<pt X="-91.065475" Y="94.46242"/>
 		<pt X="-90.61285" Y="-349.14877"/>
 	</skpath>
-	<skpath from="277" to="278" linestyle="wall" splined="1">
+	<skpath from="271" to="272" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="135.85748" Y="-187.18343"/>
@@ -3089,7 +3040,7 @@
 		<pt X="130.95323" Y="-205.02657"/>
 		<pt X="130.95323" Y="-208.15695"/>
 	</skpath>
-	<skpath from="278" to="279" linestyle="wall" splined="1">
+	<skpath from="272" to="273" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="130.95323" Y="-208.15695"/>
@@ -3100,25 +3051,25 @@
 		<pt X="144.20515" Y="-234.55644"/>
 		<pt X="144.10081" Y="-241.96501"/>
 	</skpath>
-	<skpath from="279" to="31" linestyle="connective">
+	<skpath from="273" to="31" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="144.10081" Y="-241.96501"/>
 		<pt X="146.56331" Y="-240.81259" Z="379.57965"/>
 	</skpath>
-	<skpath from="280" to="31" linestyle="connective">
+	<skpath from="274" to="31" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="159.96138" Y="-242.38239"/>
 		<pt X="146.56331" Y="-240.81259" Z="379.57965"/>
 	</skpath>
-	<skpath from="279" to="280" linestyle="invisible" splined="1">
+	<skpath from="273" to="274" linestyle="invisible" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="144.10081" Y="-241.96501"/>
 		<pt X="159.96138" Y="-242.38239"/>
 	</skpath>
-	<skpath from="281" to="282" linestyle="pitchbound" splined="1">
+	<skpath from="275" to="276" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="136.79631" Y="-188.86348"/>
@@ -3126,7 +3077,7 @@
 		<pt X="133.03986" Y="-201.48932"/>
 		<pt X="132.41379" Y="-207.43704"/>
 	</skpath>
-	<skpath from="282" to="283" linestyle="pitchbound" splined="1">
+	<skpath from="276" to="277" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="132.41379" Y="-207.43704"/>
@@ -3134,7 +3085,7 @@
 		<pt X="140.6571" Y="-214.94994"/>
 		<pt X="142.72557" Y="-217.78122"/>
 	</skpath>
-	<skpath from="280" to="284" linestyle="wall" splined="1">
+	<skpath from="274" to="278" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="159.96138" Y="-242.38239"/>
@@ -3142,7 +3093,7 @@
 		<pt X="163.30046" Y="-223.28708"/>
 		<pt X="163.86667" Y="-214.8735"/>
 	</skpath>
-	<skpath from="284" to="277" linestyle="wall" splined="1">
+	<skpath from="278" to="271" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="163.86667" Y="-214.8735"/>
@@ -3153,12 +3104,12 @@
 		<pt X="143.68343" Y="-191.35725"/>
 		<pt X="135.85748" Y="-187.18343"/>
 	</skpath>
-	<skpath from="284" to="32" linestyle="connective">
+	<skpath from="278" to="32" linestyle="connective">
 		<importfrom subname="tempestentrance"/>
 		<pt X="163.86667" Y="-214.8735"/>
 		<pt X="162.06331" Y="-215.01257" Z="381.27966"/>
 	</skpath>
-	<skpath from="283" to="285" linestyle="pitchbound" splined="1">
+	<skpath from="277" to="279" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="142.72557" Y="-217.78122"/>
@@ -3169,7 +3120,7 @@
 		<pt X="162.28416" Y="-215.02647"/>
 		<pt X="160.91187" Y="-210.79765"/>
 	</skpath>
-	<skpath from="285" to="281" linestyle="pitchbound" splined="1">
+	<skpath from="279" to="275" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="160.91187" Y="-210.79765"/>
@@ -3180,52 +3131,43 @@
 		<pt X="141.90926" Y="-191.6808"/>
 		<pt X="136.79631" Y="-188.86348"/>
 	</skpath>
-	<skpath from="285" to="284" linestyle="invisible" splined="1">
+	<skpath from="279" to="278" linestyle="invisible" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="160.91187" Y="-210.79765"/>
 		<pt X="163.86667" Y="-214.8735"/>
 	</skpath>
-	<skpath from="286" to="32" linestyle="connective">
-		<pathcodes>
-			<pctext style="entrance" nodeposxrel="-2.0" nodeposyrel="2.0">P15</pctext>
-		</pathcodes>
-		<sketchsubset subname="red"/>
-		<importfrom subname="tempestentrance"/>
-		<pt X="148.60213" Y="-209.15694"/>
-		<pt X="162.06331" Y="-215.01257" Z="381.27966"/>
-	</skpath>
-	<skpath from="287" to="22" linestyle="connective">
+	<skpath from="280" to="22" linestyle="connective">
 		<importfrom subname="tempestentrance"/>
 		<pt X="77.50772" Y="-231.18036"/>
 		<pt X="79.66331" Y="-231.21259" Z="215.07967"/>
 	</skpath>
-	<skpath from="288" to="22" linestyle="connective">
+	<skpath from="281" to="22" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="94.3074" Y="-203.73741"/>
 		<pt X="79.66331" Y="-231.21259" Z="215.07967"/>
 	</skpath>
-	<skpath from="289" to="33" linestyle="connective">
+	<skpath from="282" to="33" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="79.80334" Y="-164.29468"/>
 		<pt X="78.663315" Y="-165.31258" Z="163.17966"/>
 	</skpath>
-	<skpath from="290" to="33" linestyle="connective">
+	<skpath from="283" to="33" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="68.84702" Y="-169.61632"/>
 		<pt X="78.663315" Y="-165.31258" Z="163.17966"/>
 	</skpath>
-	<skpath from="291" to="292" linestyle="pitchbound" splined="1">
+	<skpath from="284" to="285" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="70.69451" Y="-170.21051"/>
 		<pt X="74.48269" Y="-169.44872"/>
 		<pt X="79.02634" Y="-166.48161"/>
 	</skpath>
-	<skpath from="293" to="294" linestyle="pitchbound" splined="1">
+	<skpath from="286" to="287" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="70.475975" Y="-158.98158"/>
@@ -3233,7 +3175,7 @@
 		<pt X="66.34735" Y="-163.53271"/>
 		<pt X="65.65932" Y="-164.36014"/>
 	</skpath>
-	<skpath from="294" to="291" linestyle="pitchbound" splined="1">
+	<skpath from="287" to="284" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="65.65932" Y="-164.36014"/>
@@ -3241,14 +3183,14 @@
 		<pt X="68.97007" Y="-168.14561"/>
 		<pt X="70.69451" Y="-170.21051"/>
 	</skpath>
-	<skpath from="292" to="295" linestyle="pitchbound" splined="1">
+	<skpath from="285" to="288" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="79.02634" Y="-166.48161"/>
 		<pt X="77.851776" Y="-163.245"/>
 		<pt X="77.16165" Y="-162.11514"/>
 	</skpath>
-	<skpath from="295" to="293" linestyle="pitchbound" splined="1">
+	<skpath from="288" to="286" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="77.16165" Y="-162.11514"/>
@@ -3256,16 +3198,7 @@
 		<pt X="73.16387" Y="-160.081"/>
 		<pt X="70.475975" Y="-158.98158"/>
 	</skpath>
-	<skpath from="296" to="295" linestyle="connective">
-		<pathcodes>
-			<pctext style="entrance" nodeposxrel="-0.6" nodeposyrel="0.2">P5</pctext>
-		</pathcodes>
-		<sketchsubset subname="orange"/>
-		<importfrom subname="tempestentrance"/>
-		<pt X="85.44423" Y="-159.64365"/>
-		<pt X="77.16165" Y="-162.11514"/>
-	</skpath>
-	<skpath from="290" to="297" linestyle="wall" splined="1">
+	<skpath from="283" to="289" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="68.84702" Y="-169.61632"/>
@@ -3277,7 +3210,7 @@
 		<pt X="49.352394" Y="-155.45343"/>
 		<pt X="46.079773" Y="-154.27164"/>
 	</skpath>
-	<skpath from="289" to="298" linestyle="wall" splined="1">
+	<skpath from="282" to="290" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="79.80334" Y="-164.29468"/>
@@ -3285,19 +3218,19 @@
 		<pt X="73.215256" Y="-158.49878"/>
 		<pt X="69.12448" Y="-158.36241"/>
 	</skpath>
-	<skpath from="299" to="300" linestyle="wall" splined="1">
+	<skpath from="291" to="292" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="61.12165" Y="-101.30864"/>
 		<pt X="60.43297" Y="-98.14069"/>
 	</skpath>
-	<skpath from="299" to="35" linestyle="connective">
+	<skpath from="291" to="35" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="61.12165" Y="-101.30864"/>
 		<pt X="59.763313" Y="-101.31258" Z="91.27967"/>
 	</skpath>
-	<skpath from="301" to="302" linestyle="wall" splined="1">
+	<skpath from="293" to="294" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="47.21026" Y="-96.00578"/>
@@ -3305,7 +3238,7 @@
 		<pt X="48.587627" Y="-102.8926"/>
 		<pt X="48.725365" Y="-104.13223"/>
 	</skpath>
-	<skpath from="302" to="297" linestyle="wall" splined="1">
+	<skpath from="294" to="289" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="48.725365" Y="-104.13223"/>
@@ -3319,13 +3252,13 @@
 		<pt X="45.90176" Y="-151.58246"/>
 		<pt X="46.079773" Y="-154.27164"/>
 	</skpath>
-	<skpath from="302" to="35" linestyle="connective">
+	<skpath from="294" to="35" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="48.725365" Y="-104.13223"/>
 		<pt X="59.763313" Y="-101.31258" Z="91.27967"/>
 	</skpath>
-	<skpath from="298" to="303" linestyle="wall" splined="1">
+	<skpath from="290" to="295" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="69.12448" Y="-158.36241"/>
@@ -3335,7 +3268,7 @@
 		<pt X="63.11883" Y="-129.13141"/>
 		<pt X="62.942772" Y="-127.11381"/>
 	</skpath>
-	<skpath from="303" to="304" linestyle="connective">
+	<skpath from="295" to="296" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3346,7 +3279,7 @@
 		<pt X="55.330456" Y="-116.67878"/>
 		<pt X="54.600037" Y="-109.06153"/>
 	</skpath>
-	<skpath from="303" to="305" linestyle="connective">
+	<skpath from="295" to="297" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3357,7 +3290,7 @@
 		<pt X="56.060875" Y="-148.19122"/>
 		<pt X="55.017418" Y="-135.98276"/>
 	</skpath>
-	<skpath from="289" to="306" linestyle="wall" splined="1">
+	<skpath from="282" to="298" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="79.80334" Y="-164.29468"/>
@@ -3366,7 +3299,7 @@
 		<pt X="84.91628" Y="-183.38997"/>
 		<pt X="85.886284" Y="-187.72134"/>
 	</skpath>
-	<skpath from="306" to="288" linestyle="wall" splined="1">
+	<skpath from="298" to="281" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="85.886284" Y="-187.72134"/>
@@ -3375,7 +3308,7 @@
 		<pt X="90.44661" Y="-200.08531"/>
 		<pt X="94.3074" Y="-203.73741"/>
 	</skpath>
-	<skpath from="306" to="307" linestyle="connective">
+	<skpath from="298" to="299" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3386,7 +3319,7 @@
 		<pt X="77.76482" Y="-191.59909"/>
 		<pt X="75.78224" Y="-176.78198"/>
 	</skpath>
-	<skpath from="308" to="309" linestyle="connective">
+	<skpath from="300" to="301" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3397,7 +3330,7 @@
 		<pt X="84.51342" Y="-211.94101"/>
 		<pt X="79.70126" Y="-201.82126"/>
 	</skpath>
-	<skpath from="310" to="311" linestyle="wall" splined="1">
+	<skpath from="302" to="303" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="162.65395" Y="-216.78064"/>
@@ -3409,7 +3342,7 @@
 		<pt X="118.41129" Y="-231.28471"/>
 		<pt X="113.32532" Y="-232.46666"/>
 	</skpath>
-	<skpath from="311" to="312" linestyle="wall" splined="1">
+	<skpath from="303" to="304" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="113.32532" Y="-232.46666"/>
@@ -3417,7 +3350,7 @@
 		<pt X="105.6811" Y="-232.95425"/>
 		<pt X="97.64647" Y="-232.64122"/>
 	</skpath>
-	<skpath from="311" to="313" linestyle="connective">
+	<skpath from="303" to="305" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3428,7 +3361,7 @@
 		<pt X="111.364174" Y="-221.44202"/>
 		<pt X="95.60795" Y="-222.48547"/>
 	</skpath>
-	<skpath from="311" to="314" linestyle="connective">
+	<skpath from="303" to="306" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3439,7 +3372,7 @@
 		<pt X="137.65933" Y="-218.41599"/>
 		<pt X="125.972595" Y="-219.45944"/>
 	</skpath>
-	<skpath from="288" to="315" linestyle="wall" splined="1">
+	<skpath from="281" to="307" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="94.3074" Y="-203.73741"/>
@@ -3447,7 +3380,7 @@
 		<pt X="108.49844" Y="-196.12016"/>
 		<pt X="114.54707" Y="-194.02573"/>
 	</skpath>
-	<skpath from="315" to="310" linestyle="wall" splined="1">
+	<skpath from="307" to="302" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="114.54707" Y="-194.02573"/>
@@ -3461,7 +3394,7 @@
 		<pt X="162.65395" Y="-213.23288"/>
 		<pt X="162.65395" Y="-216.78064"/>
 	</skpath>
-	<skpath from="315" to="316" linestyle="connective">
+	<skpath from="307" to="308" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3472,7 +3405,7 @@
 		<pt X="123.259605" Y="-204.01627"/>
 		<pt X="111.57287" Y="-205.79015"/>
 	</skpath>
-	<skpath from="317" to="301" linestyle="wall" splined="1">
+	<skpath from="309" to="293" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="43.45614" Y="-72.334755"/>
@@ -3481,7 +3414,7 @@
 		<pt X="46.55525" Y="-92.78863"/>
 		<pt X="47.21026" Y="-96.00578"/>
 	</skpath>
-	<skpath from="300" to="318" linestyle="connective">
+	<skpath from="292" to="310" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope2"/>
@@ -3492,30 +3425,22 @@
 		<pt X="53.508034" Y="-94.91795"/>
 		<pt X="49.644524" Y="-82.963806"/>
 	</skpath>
-	<skpath from="319" to="284" linestyle="connective">
+	<skpath from="311" to="307" linestyle="connective">
 		<pathcodes>
-			<pctext style="passage" nodeposxrel="-0.5" nodeposyrel="-1.3">Tempest</pctext>
-		</pathcodes>
-		<sketchsubset subname="red"/>
-		<pt X="194.45715" Y="-215.02046"/>
-		<pt X="163.86667" Y="-214.8735"/>
-	</skpath>
-	<skpath from="320" to="315" linestyle="connective">
-		<pathcodes>
-			<pctext style="default" nodeposxrel="-0.5" nodeposyrel="1.0" arrowpres="1" boxpres="0">Snow&space;Slope</pctext>
+			<pctext style="note" nodeposxrel="-0.5" nodeposyrel="1.0" arrowpres="1" boxpres="0">Snow&space;slope</pctext>
 		</pathcodes>
 		<sketchsubset subname="orange"/>
 		<pt X="129.10976" Y="-168.7413"/>
 		<pt X="114.54707" Y="-194.02573"/>
 	</skpath>
-	<skpath from="303" to="321" linestyle="wall" splined="1">
+	<skpath from="295" to="312" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="62.942772" Y="-127.11381"/>
 		<pt X="62.29241" Y="-119.90306"/>
 		<pt X="62.030025" Y="-116.031235"/>
 	</skpath>
-	<skpath from="321" to="299" linestyle="wall" splined="1">
+	<skpath from="312" to="291" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="62.030025" Y="-116.031235"/>
@@ -3523,28 +3448,28 @@
 		<pt X="60.915047" Y="-105.44073"/>
 		<pt X="61.12165" Y="-101.30864"/>
 	</skpath>
-	<skpath from="322" to="321" linestyle="connective">
+	<skpath from="313" to="312" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Snow&space;Slope</pctext>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Snow&space;Slope</pctext>
 		</pathcodes>
 		<sketchsubset subname="orange"/>
 		<pt X="76.03704" Y="-115.47098"/>
 		<pt X="62.030025" Y="-116.031235"/>
 	</skpath>
-	<skpath from="323" to="324" linestyle="connective">
+	<skpath from="314" to="315" linestyle="connective">
 		<pathcodes>
-			<pctext style="entrance" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">C4</pctext>
+			<pctext style="step" nodeposxrel="1.5" nodeposyrel="0.0" arrowpres="1" boxpres="0">c4</pctext>
 		</pathcodes>
 		<sketchsubset subname="yellow2"/>
 		<pt X="-7.905061" Y="-115.88853"/>
 		<pt X="44.33783" Y="-123.995186"/>
 	</skpath>
-	<skpath from="292" to="289" linestyle="invisible" splined="1">
+	<skpath from="285" to="282" linestyle="invisible" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="79.02634" Y="-166.48161"/>
 		<pt X="79.80334" Y="-164.29468"/>
 	</skpath>
-	<skpath from="264" to="325" linestyle="detail" splined="1">
+	<skpath from="260" to="316" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="44.248833" Y="-77.88081"/>
@@ -3552,7 +3477,7 @@
 		<pt X="37.402477" Y="-88.22318"/>
 		<pt X="37.597694" Y="-101.045525"/>
 	</skpath>
-	<skpath from="325" to="199" linestyle="detail" splined="1">
+	<skpath from="316" to="199" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<importfrom subname="narnia"/>
 		<pt X="37.597694" Y="-101.045525"/>
@@ -3560,7 +3485,7 @@
 		<pt X="40.752823" Y="-116.91961"/>
 		<pt X="40.65756" Y="-126.02594"/>
 	</skpath>
-	<skpath from="325" to="326" linestyle="connective">
+	<skpath from="316" to="317" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="1.0" nodeposyrel="-1.0">Ice</pctext>
 		</pathcodes>
@@ -3568,7 +3493,7 @@
 		<pt X="37.597694" Y="-101.045525"/>
 		<pt X="32.880722" Y="-101.80598"/>
 	</skpath>
-	<skpath from="327" to="300" linestyle="wall" splined="1">
+	<skpath from="318" to="292" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="53.98778" Y="-82.9402"/>
@@ -3576,7 +3501,7 @@
 		<pt X="60.053436" Y="-95.13015"/>
 		<pt X="60.43297" Y="-98.14069"/>
 	</skpath>
-	<skpath from="327" to="328" linestyle="wall" splined="1">
+	<skpath from="318" to="319" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="53.98778" Y="-82.9402"/>
 		<pt X="52.56965" Y="-77.339195"/>
@@ -3589,7 +3514,7 @@
 		<pt X="53.41076" Y="-57.36286"/>
 		<pt X="54.60233" Y="-55.400272"/>
 	</skpath>
-	<skpath from="328" to="143" linestyle="wall" splined="1">
+	<skpath from="319" to="143" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="54.60233" Y="-55.400272"/>
 		<pt X="56.775192" Y="-53.858242"/>
@@ -3598,13 +3523,13 @@
 		<pt X="64.20499" Y="-46.49854"/>
 		<pt X="65.67253" Y="-43.85849"/>
 	</skpath>
-	<skpath from="329" to="145" linestyle="wall" splined="1">
+	<skpath from="320" to="145" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="43.70176" Y="-52.531612"/>
 		<pt X="43.870457" Y="-51.46436"/>
 		<pt X="44.917744" Y="-46.69499"/>
 	</skpath>
-	<skpath from="330" to="331" linestyle="pitchbound" splined="1">
+	<skpath from="321" to="322" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="49.415493" Y="-70.40005"/>
 		<pt X="49.3454" Y="-68.01691"/>
@@ -3613,13 +3538,13 @@
 		<pt X="52.21919" Y="-56.872215"/>
 		<pt X="52.779926" Y="-55.19"/>
 	</skpath>
-	<skpath from="331" to="332" linestyle="pitchbound" splined="1">
+	<skpath from="322" to="323" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="52.779926" Y="-55.19"/>
 		<pt X="49.06503" Y="-53.858242"/>
 		<pt X="45.069763" Y="-52.806854"/>
 	</skpath>
-	<skpath from="329" to="317" linestyle="wall" splined="1">
+	<skpath from="320" to="309" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="43.70176" Y="-52.531612"/>
 		<pt X="42.336163" Y="-58.203968"/>
@@ -3628,12 +3553,12 @@
 		<pt X="41.284775" Y="-69.69912"/>
 		<pt X="43.45614" Y="-72.334755"/>
 	</skpath>
-	<skpath from="332" to="333" linestyle="pitchbound" splined="1">
+	<skpath from="323" to="324" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="45.069763" Y="-52.806854"/>
 		<pt X="43.24736" Y="-59.816093"/>
 	</skpath>
-	<skpath from="333" to="334" linestyle="pitchbound" splined="1">
+	<skpath from="324" to="325" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="43.24736" Y="-59.816093"/>
 		<pt X="41.915607" Y="-63.671177"/>
@@ -3642,17 +3567,17 @@
 		<pt X="43.527733" Y="-71.17106"/>
 		<pt X="44.579117" Y="-72.36263"/>
 	</skpath>
-	<skpath from="334" to="330" linestyle="pitchbound" splined="1">
+	<skpath from="325" to="321" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="44.579117" Y="-72.36263"/>
 		<pt X="49.415493" Y="-70.40005"/>
 	</skpath>
-	<skpath from="272" to="271" linestyle="invisible" splined="1">
+	<skpath from="268" to="267" linestyle="invisible" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="45.85456" Y="-75.9926"/>
 		<pt X="18.809618" Y="-79.042595"/>
 	</skpath>
-	<skpath from="272" to="153" linestyle="wall" splined="1">
+	<skpath from="268" to="153" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="45.85456" Y="-75.9926"/>
 		<pt X="45.281555" Y="-69.99214"/>
@@ -3660,20 +3585,20 @@
 		<pt X="43.879707" Y="-63.263275"/>
 		<pt X="41.651234" Y="-60.734104"/>
 	</skpath>
-	<skpath from="331" to="328" linestyle="invisible" splined="1">
+	<skpath from="322" to="319" linestyle="invisible" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="52.779926" Y="-55.19"/>
 		<pt X="54.60233" Y="-55.400272"/>
 	</skpath>
-	<skpath from="335" to="330" linestyle="connective">
+	<skpath from="326" to="321" linestyle="connective">
 		<pathcodes>
-			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">P4</pctext>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">p4</pctext>
 		</pathcodes>
 		<sketchsubset subname="orange"/>
 		<pt X="65.42794" Y="-75.17881"/>
 		<pt X="49.415493" Y="-70.40005"/>
 	</skpath>
-	<skpath from="336" to="336" linestyle="connective">
+	<skpath from="327" to="327" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="9.932153" sfrotatedeg="-8.470714" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-17.82699060415338" sfytrans="-19.68627284621182" sfsketch="raw data/fartichoke plan.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="3000" sfpixheight="3473">
@@ -3686,7 +3611,7 @@
 		<pt X="-83.2147" Y="-91.81737"/>
 		<pt X="-31.7066" Y="-437.67532"/>
 	</skpath>
-	<skpath from="337" to="338" linestyle="wall" splined="1">
+	<skpath from="328" to="329" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="97.43543" Y="-283.88815"/>
@@ -3699,7 +3624,7 @@
 		<pt X="86.836586" Y="-258.15186"/>
 		<pt X="86.83739" Y="-257.21942"/>
 	</skpath>
-	<skpath from="339" to="340" linestyle="wall" splined="1">
+	<skpath from="330" to="331" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="79.15694" Y="-234.2106"/>
@@ -3707,39 +3632,39 @@
 		<pt X="84.10313" Y="-249.71951"/>
 		<pt X="86.25593" Y="-253.84721"/>
 	</skpath>
-	<skpath from="340" to="338" linestyle="wall" splined="1">
+	<skpath from="331" to="329" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="86.25593" Y="-253.84721"/>
 		<pt X="86.56522" Y="-255.64572"/>
 		<pt X="86.83739" Y="-257.21942"/>
 	</skpath>
-	<skpath from="341" to="342" linestyle="wall" splined="1">
+	<skpath from="332" to="333" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="114.06122" Y="-294.85196"/>
 		<pt X="118.46475" Y="-284.9428"/>
 	</skpath>
-	<skpath from="342" to="343" linestyle="wall" splined="1">
+	<skpath from="333" to="334" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="118.46475" Y="-284.9428"/>
 		<pt X="116.40476" Y="-279.6856"/>
 	</skpath>
-	<skpath from="343" to="344" linestyle="wall" splined="1">
+	<skpath from="334" to="335" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="116.40476" Y="-279.6856"/>
 		<pt X="115.47143" Y="-277.00275"/>
 	</skpath>
-	<skpath from="341" to="345" linestyle="wall" splined="1">
+	<skpath from="332" to="336" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="114.06122" Y="-294.85196"/>
 		<pt X="111.083694" Y="-292.76172"/>
 		<pt X="108.80554" Y="-291.39545"/>
 	</skpath>
-	<skpath from="345" to="337" linestyle="wall" splined="1">
+	<skpath from="336" to="328" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="108.80554" Y="-291.39545"/>
@@ -3748,19 +3673,19 @@
 		<pt X="100.191536" Y="-285.73898"/>
 		<pt X="97.43543" Y="-283.88815"/>
 	</skpath>
-	<skpath from="346" to="347" linestyle="wall" splined="1">
+	<skpath from="337" to="338" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="138.51404" Y="-309.52872"/>
 		<pt X="139.54959" Y="-306.89856"/>
 	</skpath>
-	<skpath from="347" to="348" linestyle="wall" splined="1">
+	<skpath from="338" to="339" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="139.54959" Y="-306.89856"/>
 		<pt X="138.11125" Y="-304.5912"/>
 	</skpath>
-	<skpath from="348" to="349" linestyle="wall" splined="1">
+	<skpath from="339" to="340" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="138.11125" Y="-304.5912"/>
@@ -3773,13 +3698,13 @@
 		<pt X="128.6097" Y="-293.504"/>
 		<pt X="126.76268" Y="-292.12643"/>
 	</skpath>
-	<skpath from="350" to="351" linestyle="wall" splined="1">
+	<skpath from="341" to="342" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="129.47966" Y="-311.3914"/>
 		<pt X="132.6776" Y="-310.27728"/>
 	</skpath>
-	<skpath from="351" to="346" linestyle="wall" splined="1">
+	<skpath from="342" to="337" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="132.6776" Y="-310.27728"/>
@@ -3787,13 +3712,13 @@
 		<pt X="136.1912" Y="-309.83417"/>
 		<pt X="138.51404" Y="-309.52872"/>
 	</skpath>
-	<skpath from="351" to="352" linestyle="ceilingbound" splined="1">
+	<skpath from="342" to="343" linestyle="ceilingbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="132.6776" Y="-310.27728"/>
 		<pt X="132.57393" Y="-308.01004"/>
 	</skpath>
-	<skpath from="350" to="353" linestyle="wall" splined="1">
+	<skpath from="341" to="344" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="129.47966" Y="-311.3914"/>
@@ -3804,7 +3729,7 @@
 		<pt X="119.345665" Y="-299.9066"/>
 		<pt X="118.15863" Y="-298.38013"/>
 	</skpath>
-	<skpath from="352" to="348" linestyle="ceilingbound" splined="1">
+	<skpath from="343" to="339" linestyle="ceilingbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="132.57393" Y="-308.01004"/>
@@ -3813,14 +3738,14 @@
 		<pt X="136.21495" Y="-304.75613"/>
 		<pt X="138.11125" Y="-304.5912"/>
 	</skpath>
-	<skpath from="344" to="354" linestyle="wall" splined="1">
+	<skpath from="335" to="345" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="115.47143" Y="-277.00275"/>
 		<pt X="113.50634" Y="-270.02347"/>
 		<pt X="113.227776" Y="-268.3146"/>
 	</skpath>
-	<skpath from="354" to="355" linestyle="wall" splined="1">
+	<skpath from="345" to="346" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="113.227776" Y="-268.3146"/>
@@ -3832,12 +3757,12 @@
 		<pt X="97.9573" Y="-249.11217"/>
 		<pt X="93.96434" Y="-247.49127"/>
 	</skpath>
-	<skpath from="356" to="357" linestyle="detail" splined="1">
+	<skpath from="347" to="348" linestyle="detail" splined="1">
 		<importfrom subname="fartichoke"/>
 		<pt X="81.56106" Y="-230.86838"/>
 		<pt X="84.19114" Y="-230.14244"/>
 	</skpath>
-	<skpath from="339" to="358" linestyle="connective">
+	<skpath from="330" to="349" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -3847,7 +3772,7 @@
 		<pt X="83.13647" Y="-226.99237"/>
 		<pt X="83.53752" Y="-232.39616"/>
 	</skpath>
-	<skpath from="355" to="359" linestyle="connective">
+	<skpath from="346" to="350" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -3858,7 +3783,7 @@
 		<pt X="86.44715" Y="-242.91272"/>
 		<pt X="89.19034" Y="-249.48894"/>
 	</skpath>
-	<skpath from="355" to="360" linestyle="connective">
+	<skpath from="346" to="351" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -3869,7 +3794,7 @@
 		<pt X="95.803085" Y="-254.43382"/>
 		<pt X="99.34467" Y="-260.13217"/>
 	</skpath>
-	<skpath from="355" to="361" linestyle="connective">
+	<skpath from="346" to="352" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
@@ -3880,67 +3805,67 @@
 		<pt X="90.29465" Y="-259.0451"/>
 		<pt X="92.992485" Y="-266.56888"/>
 	</skpath>
-	<skpath from="347" to="26" linestyle="connective">
+	<skpath from="338" to="26" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="139.54959" Y="-306.89856"/>
 		<pt X="136.06331" Y="-308.51257" Z="202.57967"/>
 	</skpath>
-	<skpath from="351" to="26" linestyle="connective">
+	<skpath from="342" to="26" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="132.6776" Y="-310.27728"/>
 		<pt X="136.06331" Y="-308.51257" Z="202.57967"/>
 	</skpath>
-	<skpath from="362" to="349" linestyle="wall" splined="1">
+	<skpath from="353" to="340" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="121.10561" Y="-287.29318"/>
 		<pt X="124.70416" Y="-290.55197"/>
 		<pt X="126.76268" Y="-292.12643"/>
 	</skpath>
-	<skpath from="362" to="25" linestyle="connective">
+	<skpath from="353" to="25" linestyle="connective">
 		<importfrom subname="fartichoke"/>
 		<pt X="121.10561" Y="-287.29318"/>
 		<pt X="120.76331" Y="-287.81256" Z="209.47966"/>
 	</skpath>
-	<skpath from="353" to="25" linestyle="connective">
+	<skpath from="344" to="25" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="118.15863" Y="-298.38013"/>
 		<pt X="120.76331" Y="-287.81256" Z="209.47966"/>
 	</skpath>
-	<skpath from="363" to="364" linestyle="pitchbound" splined="1">
+	<skpath from="354" to="355" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="120.45642" Y="-294.96896"/>
 		<pt X="122.444534" Y="-292.0322"/>
 	</skpath>
-	<skpath from="364" to="365" linestyle="pitchbound" splined="1">
+	<skpath from="355" to="356" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="122.444534" Y="-292.0322"/>
 		<pt X="119.353676" Y="-289.04822"/>
 	</skpath>
-	<skpath from="366" to="363" linestyle="pitchbound" splined="1">
+	<skpath from="357" to="354" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="116.61977" Y="-291.80905"/>
 		<pt X="120.45642" Y="-294.96896"/>
 	</skpath>
-	<skpath from="349" to="364" linestyle="invisible" splined="1">
+	<skpath from="340" to="355" linestyle="invisible" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="126.76268" Y="-292.12643"/>
 		<pt X="122.444534" Y="-292.0322"/>
 	</skpath>
-	<skpath from="363" to="353" linestyle="invisible" splined="1">
+	<skpath from="354" to="344" linestyle="invisible" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="120.45642" Y="-294.96896"/>
 		<pt X="118.15863" Y="-298.38013"/>
 	</skpath>
-	<skpath from="365" to="367" linestyle="pitchbound" splined="1">
+	<skpath from="356" to="358" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="119.353676" Y="-289.04822"/>
@@ -3950,20 +3875,20 @@
 		<pt X="113.70548" Y="-285.63364"/>
 		<pt X="111.8511" Y="-286.10474"/>
 	</skpath>
-	<skpath from="367" to="368" linestyle="pitchbound" splined="1">
+	<skpath from="358" to="359" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="111.8511" Y="-286.10474"/>
 		<pt X="112.42313" Y="-289.0239"/>
 	</skpath>
-	<skpath from="368" to="366" linestyle="pitchbound" splined="1">
+	<skpath from="359" to="357" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="112.42313" Y="-289.0239"/>
 		<pt X="114.64022" Y="-290.68378"/>
 		<pt X="116.61977" Y="-291.80905"/>
 	</skpath>
-	<skpath from="369" to="365" linestyle="connective">
+	<skpath from="360" to="356" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">C2&space;Squeeze</pctext>
 		</pathcodes>
@@ -3972,13 +3897,13 @@
 		<pt X="126.15735" Y="-284.17633"/>
 		<pt X="119.353676" Y="-289.04822"/>
 	</skpath>
-	<skpath from="370" to="24" linestyle="connective">
+	<skpath from="361" to="24" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="104.241936" Y="-277.14078"/>
 		<pt X="93.36331" Y="-281.61258" Z="214.17967"/>
 	</skpath>
-	<skpath from="353" to="371" linestyle="wall" splined="1">
+	<skpath from="344" to="362" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="118.15863" Y="-298.38013"/>
@@ -3990,7 +3915,7 @@
 		<pt X="94.22126" Y="-282.74997"/>
 		<pt X="92.50401" Y="-281.97595"/>
 	</skpath>
-	<skpath from="371" to="372" linestyle="wall" splined="1">
+	<skpath from="362" to="363" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="92.50401" Y="-281.97595"/>
@@ -3999,13 +3924,13 @@
 		<pt X="85.57622" Y="-266.75958"/>
 		<pt X="85.42843" Y="-266.22763"/>
 	</skpath>
-	<skpath from="371" to="24" linestyle="connective">
+	<skpath from="362" to="24" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="92.50401" Y="-281.97595"/>
 		<pt X="93.36331" Y="-281.61258" Z="214.17967"/>
 	</skpath>
-	<skpath from="373" to="355" linestyle="wall" splined="1">
+	<skpath from="364" to="346" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="87.73875" Y="-231.47646"/>
@@ -4014,58 +3939,58 @@
 		<pt X="91.51573" Y="-242.60443"/>
 		<pt X="93.96434" Y="-247.49127"/>
 	</skpath>
-	<skpath from="343" to="28" linestyle="connective">
+	<skpath from="334" to="28" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="116.40476" Y="-279.6856"/>
 		<pt X="107.96332" Y="-281.51257" Z="155.87967"/>
 	</skpath>
-	<skpath from="345" to="28" linestyle="connective">
+	<skpath from="336" to="28" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="108.80554" Y="-291.39545"/>
 		<pt X="107.96332" Y="-281.51257" Z="155.87967"/>
 	</skpath>
-	<skpath from="337" to="28" linestyle="connective">
+	<skpath from="328" to="28" linestyle="connective">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="97.43543" Y="-283.88815"/>
 		<pt X="107.96332" Y="-281.51257" Z="155.87967"/>
 	</skpath>
-	<skpath from="374" to="23" linestyle="connective">
+	<skpath from="365" to="23" linestyle="connective">
 		<importfrom subname="fartichoke"/>
 		<pt X="88.036575" Y="-252.12086"/>
 		<pt X="83.56331" Y="-246.81258" Z="221.37967"/>
 	</skpath>
-	<skpath from="375" to="23" linestyle="connective">
+	<skpath from="366" to="23" linestyle="connective">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="82.98322" Y="-254.79736"/>
 		<pt X="83.56331" Y="-246.81258" Z="221.37967"/>
 	</skpath>
-	<skpath from="287" to="339" linestyle="wall" splined="1">
+	<skpath from="280" to="330" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="77.50772" Y="-231.18036"/>
 		<pt X="79.15694" Y="-234.2106"/>
 	</skpath>
-	<skpath from="312" to="376" linestyle="wall" splined="1">
+	<skpath from="304" to="367" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="97.64647" Y="-232.64122"/>
 		<pt X="91.71235" Y="-229.9475"/>
 	</skpath>
-	<skpath from="376" to="373" linestyle="wall" splined="1">
+	<skpath from="367" to="364" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="91.71235" Y="-229.9475"/>
 		<pt X="89.66109" Y="-230.00476"/>
 		<pt X="87.73875" Y="-231.47646"/>
 	</skpath>
-	<skpath from="287" to="377" linestyle="wall" splined="1">
+	<skpath from="280" to="368" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="77.50772" Y="-231.18036"/>
 		<pt X="75.31646" Y="-221.89359"/>
 	</skpath>
-	<skpath from="377" to="290" linestyle="wall" splined="1">
+	<skpath from="368" to="283" linestyle="wall" splined="1">
 		<sketchsubset subname="orange"/>
 		<importfrom subname="tempestentrance"/>
 		<pt X="75.31646" Y="-221.89359"/>
@@ -4077,35 +4002,35 @@
 		<pt X="70.099174" Y="-171.80757"/>
 		<pt X="68.84702" Y="-169.61632"/>
 	</skpath>
-	<skpath from="377" to="29" linestyle="connective">
+	<skpath from="368" to="29" linestyle="connective">
 		<pt X="75.31646" Y="-221.89359"/>
 		<pt X="77.26331" Y="-221.91257" Z="197.57967"/>
 	</skpath>
-	<skpath from="287" to="373" linestyle="invisible" splined="1">
+	<skpath from="280" to="364" linestyle="invisible" splined="1">
 		<sketchsubset subname="orange"/>
 		<pt X="77.50772" Y="-231.18036"/>
 		<pt X="87.73875" Y="-231.47646"/>
 	</skpath>
-	<skpath from="372" to="375" linestyle="wall" splined="1">
+	<skpath from="363" to="366" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="85.42843" Y="-266.22763"/>
 		<pt X="83.67603" Y="-260.23975"/>
 		<pt X="82.98322" Y="-254.79736"/>
 	</skpath>
-	<skpath from="370" to="378" linestyle="detail" splined="1">
+	<skpath from="361" to="369" linestyle="detail" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="104.241936" Y="-277.14078"/>
 		<pt X="96.18359" Y="-267.93683"/>
 		<pt X="93.36667" Y="-256.20734"/>
 	</skpath>
-	<skpath from="378" to="379" linestyle="detail" splined="1">
+	<skpath from="369" to="370" linestyle="detail" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="93.36667" Y="-256.20734"/>
 		<pt X="92.56037" Y="-253.30786"/>
 		<pt X="91.66354" Y="-251.34605"/>
 	</skpath>
-	<skpath from="375" to="380" linestyle="wall" splined="1">
+	<skpath from="366" to="371" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="82.98322" Y="-254.79736"/>
@@ -4113,23 +4038,23 @@
 		<pt X="82.37465" Y="-247.89847"/>
 		<pt X="82.33476" Y="-240.25165"/>
 	</skpath>
-	<skpath from="380" to="381" linestyle="wall" splined="1">
+	<skpath from="371" to="372" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="82.33476" Y="-240.25165"/>
 		<pt X="82.62088" Y="-232.81148"/>
 	</skpath>
-	<skpath from="373" to="30" linestyle="connective">
+	<skpath from="364" to="30" linestyle="connective">
 		<pt X="87.73875" Y="-231.47646"/>
 		<pt X="86.96331" Y="-230.31258" Z="209.67966"/>
 	</skpath>
-	<skpath from="382" to="381" linestyle="wall" splined="1">
+	<skpath from="373" to="372" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="82.69527" Y="-229.87823"/>
 		<pt X="82.676414" Y="-232.01543"/>
 		<pt X="82.62088" Y="-232.81148"/>
 	</skpath>
-	<skpath from="383" to="384" linestyle="estwall" splined="1">
+	<skpath from="374" to="375" linestyle="estwall" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="98.152306" Y="-230.36862"/>
 		<pt X="99.833855" Y="-235.91774"/>
@@ -4137,65 +4062,65 @@
 		<pt X="104.23307" Y="-247.1094"/>
 		<pt X="105.67683" Y="-251.01604"/>
 	</skpath>
-	<skpath from="385" to="384" linestyle="estwall" splined="1">
+	<skpath from="376" to="375" linestyle="estwall" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="107.06075" Y="-254.98044"/>
 		<pt X="105.67683" Y="-251.01604"/>
 	</skpath>
-	<skpath from="386" to="379" linestyle="detail" splined="1">
+	<skpath from="377" to="370" linestyle="detail" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="86.92294" Y="-232.89969"/>
 		<pt X="88.07623" Y="-239.23888"/>
 		<pt X="89.14122" Y="-244.56378"/>
 		<pt X="91.66354" Y="-251.34605"/>
 	</skpath>
-	<skpath from="386" to="387" linestyle="detail" splined="1">
+	<skpath from="377" to="378" linestyle="detail" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="86.92294" Y="-232.89969"/>
 		<pt X="87.022385" Y="-229.72954"/>
 	</skpath>
-	<skpath from="388" to="383" linestyle="pitchbound" splined="1">
+	<skpath from="379" to="374" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="88.853546" Y="-229.63704"/>
 		<pt X="89.59432" Y="-229.6478"/>
 		<pt X="94.1446" Y="-230.09172"/>
 		<pt X="98.152306" Y="-230.36862"/>
 	</skpath>
-	<skpath from="382" to="387" linestyle="pitchbound" splined="1">
+	<skpath from="373" to="378" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="82.69527" Y="-229.87823"/>
 		<pt X="87.022385" Y="-229.72954"/>
 	</skpath>
-	<skpath from="387" to="388" linestyle="pitchbound" splined="1">
+	<skpath from="378" to="379" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="87.022385" Y="-229.72954"/>
 		<pt X="88.853546" Y="-229.63704"/>
 	</skpath>
-	<skpath from="389" to="390" linestyle="wall" splined="1">
+	<skpath from="380" to="381" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="113.50117" Y="-277.72147"/>
 		<pt X="115.058556" Y="-279.47495"/>
 	</skpath>
-	<skpath from="390" to="362" linestyle="wall" splined="1">
+	<skpath from="381" to="353" linestyle="wall" splined="1">
 		<sketchsubset subname="red"/>
 		<importfrom subname="fartichoke"/>
 		<pt X="115.058556" Y="-279.47495"/>
 		<pt X="118.54845" Y="-283.6499"/>
 		<pt X="121.10561" Y="-287.29318"/>
 	</skpath>
-	<skpath from="389" to="391" linestyle="estwall" splined="1">
+	<skpath from="380" to="382" linestyle="estwall" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="113.50117" Y="-277.72147"/>
 		<pt X="112.97443" Y="-275.89407"/>
 	</skpath>
-	<skpath from="391" to="385" linestyle="estwall" splined="1">
+	<skpath from="382" to="376" linestyle="estwall" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="112.97443" Y="-275.89407"/>
 		<pt X="107.42668" Y="-256.41803"/>
 		<pt X="107.06075" Y="-254.98044"/>
 	</skpath>
-	<skpath from="392" to="370" linestyle="detail" splined="1">
+	<skpath from="383" to="361" linestyle="detail" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="112.13599" Y="-277.44177"/>
 		<pt X="109.49905" Y="-277.1976"/>
@@ -4203,12 +4128,12 @@
 		<pt X="105.861046" Y="-277.66153"/>
 		<pt X="104.241936" Y="-277.14078"/>
 	</skpath>
-	<skpath from="392" to="389" linestyle="detail" splined="1">
+	<skpath from="383" to="380" linestyle="detail" splined="1">
 		<sketchsubset subname="red"/>
 		<pt X="112.13599" Y="-277.44177"/>
 		<pt X="113.50117" Y="-277.72147"/>
 	</skpath>
-	<skpath from="383" to="393" linestyle="connective">
+	<skpath from="374" to="384" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="bigboulders"/>
@@ -4219,9 +4144,9 @@
 		<pt X="92.84453" Y="-234.44844"/>
 		<pt X="104.39118" Y="-267.575"/>
 	</skpath>
-	<skpath from="394" to="395" linestyle="connective">
+	<skpath from="385" to="386" linestyle="connective">
 		<pathcodes>
-			<pctext style="default" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Snow&space;Slope</pctext>
+			<pctext style="note" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Snow&space;slope</pctext>
 		</pathcodes>
 		<sketchsubset subname="orange"/>
 		<pt X="74.68928" Y="-243.7128"/>
@@ -4233,12 +4158,98 @@
 		<pt X="47.171757" Y="-39.077385"/>
 		<pt X="65.67253" Y="-43.85849"/>
 	</skpath>
-	<skpath from="396" to="397" linestyle="connective">
+	<skpath from="387" to="388" linestyle="connective">
 		<pathcodes>
 			<pctext style="area" nodeposxrel="-0.5" nodeposyrel="1.0">%0/1.0000%%v0/%&newline;;%50/%%v1/%%whiterect%&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%5m&newline;;%10/%10m&newline;;%10/%20m&newline;;%10/%30m&newline;;%10/%40m&newline;;%10/%50m</pctext>
 		</pathcodes>
 		<pt X="-150.6632" Y="616.0543"/>
 		<pt X="-25.646112" Y="611.3367"/>
+	</skpath>
+	<skpath from="389" to="278" linestyle="connective">
+		<pathcodes>
+			<pctext style="cave" nodeposxrel="-0.5" nodeposyrel="-1.3">Tempest</pctext>
+		</pathcodes>
+		<sketchsubset subname="red"/>
+		<pt X="-1.3250786" Y="-362.97263"/>
+		<pt X="163.86667" Y="-214.8735"/>
+	</skpath>
+	<skpath from="390" to="279" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">p15</pctext>
+		</pathcodes>
+		<pt X="177.16002" Y="-203.07349"/>
+		<pt X="160.91187" Y="-210.79765"/>
+	</skpath>
+	<skpath from="391" to="288" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">p5</pctext>
+		</pathcodes>
+		<sketchsubset subname="orange"/>
+		<importfrom subname="tempestentrance"/>
+		<pt X="94.589516" Y="-153.33192"/>
+		<pt X="77.16165" Y="-162.11514"/>
+	</skpath>
+	<skpath from="130" to="125" linestyle="invisible" splined="1">
+		<pt X="18.676685" Y="120.15531"/>
+		<pt X="19.778067" Y="118.280525"/>
+		<pt X="20.702816" Y="117.18211"/>
+	</skpath>
+	<skpath from="127" to="129" linestyle="detail">
+		<pt X="12.18467" Y="122.3202"/>
+		<pt X="8.806693" Y="117.72876"/>
+		<pt X="12.7050495" Y="112.830826"/>
+		<pt X="17.103193" Y="113.630486"/>
+		<pt X="19.143745" Y="113.19507"/>
+	</skpath>
+	<skpath from="392" to="210" linestyle="wall" splined="1">
+		<sketchsubset subname="green"/>
+		<importfrom subname="narnia"/>
+		<pt X="-82.68967" Y="-187.30766"/>
+		<pt X="-89.08958" Y="-193.2535"/>
+		<pt X="-89.378" Y="-199.98332"/>
+	</skpath>
+	<skpath from="208" to="392" linestyle="wall" splined="1">
+		<sketchsubset subname="green"/>
+		<importfrom subname="narnia"/>
+		<pt X="-73.65236" Y="-178.46278"/>
+		<pt X="-78.71693" Y="-183.55563"/>
+		<pt X="-82.68967" Y="-187.30766"/>
+	</skpath>
+	<skpath from="393" to="208" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">p9</pctext>
+		</pathcodes>
+		<pt X="-93.89193" Y="-170.01831"/>
+		<pt X="-73.65236" Y="-178.46278"/>
+	</skpath>
+	<skpath from="394" to="217" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="0.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">c10</pctext>
+		</pathcodes>
+		<pt X="-119.18127" Y="-197.80658"/>
+		<pt X="-117.835526" Y="-209.88577"/>
+	</skpath>
+	<skpath from="395" to="396" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="1.0" nodeposyrel="0.0">Narnia</pctext>
+		</pathcodes>
+		<sketchsubset subname="blue2"/>
+		<pt X="-168.27728" Y="-203.7442"/>
+		<pt X="-143.61731" Y="-186.27672"/>
+	</skpath>
+	<skpath from="396" to="232" linestyle="connective">
+		<pt X="-143.61731" Y="-186.27672"/>
+		<pt X="-157.84053" Y="-209.48853"/>
+		<pt X="-163.21376" Y="-218.44226"/>
+	</skpath>
+	<skpath from="397" to="246" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">c2</pctext>
+		</pathcodes>
+		<sketchsubset subname="blue2"/>
+		<importfrom subname="narnia"/>
+		<pt X="-189.02759" Y="-293.9126"/>
+		<pt X="-201.69144" Y="-297.98758"/>
 	</skpath>
 </sketch>
 </tunnelxml>
