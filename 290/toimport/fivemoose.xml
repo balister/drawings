@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-13 11:38:11">
+<tunnelxml tunnelversion="version2019-07-01 DoES" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-21 20:31:30">
 <sketch splined="0" locoffsetx="4.2066665" locoffsety="3.6011112" locoffsetz="-1.9955555" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -338,15 +338,6 @@
 		<pt X="-19.641613" Y="-49.57432"/>
 		<pt X="-25.493422" Y="-44.583073"/>
 	</skpath>
-	<skpath from="7" to="20" linestyle="centreline">
-		<pathcodes>
-			<cl_stations tail="fivemoose.6" head="fivemoose.7"/>
-			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
-		</pathcodes>
-		<sketchsubset subname="Five Moose"/>
-		<pt X="48.233334" Y="14.711111" Z="-33.944443"/>
-		<pt X="21.726557" Y="-4.7156377" Z="32.655556"/>
-	</skpath>
 	<skpath from="20" to="20" linestyle="connective">
 		<pt X="21.726557" Y="-4.7156377" Z="32.655556"/>
 		<pt X="21.726557" Y="-4.7156377" Z="32.655556"/>
@@ -543,6 +534,15 @@
 		<pt X="27.614098" Y="20.180223"/>
 		<pt X="30.712694" Y="10.89875"/>
 		<pt X="30.818079" Y="10.743669"/>
+	</skpath>
+	<skpath from="20" to="7" linestyle="centreline">
+		<pathcodes>
+			<cl_stations tail="fivemoose.6" head="fivemoose.7"/>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="Five Moose"/>
+		<pt X="21.726557" Y="-4.7156377" Z="32.655556"/>
+		<pt X="48.233334" Y="14.711111" Z="-33.944443"/>
 	</skpath>
 </sketch>
 </tunnelxml>
