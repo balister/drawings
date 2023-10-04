@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-19 14:57:29">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-04 17:32:19">
 <sketch splined="0" locoffsetx="410828.72" locoffsety="5282586.5" locoffsetz="1623.5566" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -8,6 +8,7 @@
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Small Drain"/>
+		<sketchsubset subname="Amphitheatre-upper"/>
 		<pt X="-4087.4243" Y="-2229.2607" Z="974.4331"/>
 		<pt X="-4074.5242" Y="-2242.4607" Z="966.53314"/>
 	</skpath>
@@ -17,6 +18,7 @@
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Small Drain"/>
+		<sketchsubset subname="Amphitheatre-upper"/>
 		<pt X="-4074.5242" Y="-2242.4607" Z="966.53314"/>
 		<pt X="-4066.6245" Y="-2240.8608" Z="946.9331"/>
 	</skpath>
@@ -26,6 +28,7 @@
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Small Drain"/>
+		<sketchsubset subname="Amphitheatre-upper"/>
 		<pt X="-4066.6245" Y="-2240.8608" Z="946.9331"/>
 		<pt X="-4070.724" Y="-2212.8608" Z="906.23315"/>
 	</skpath>
@@ -35,6 +38,7 @@
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="Small Drain"/>
+		<sketchsubset subname="Amphitheatre-upper"/>
 		<pt X="-4066.6245" Y="-2240.8608" Z="946.9331"/>
 		<pt X="-4092.6243" Y="-2279.661" Z="941.73315"/>
 	</skpath>
@@ -34577,6 +34581,416 @@
 		<importfrom subname="2023-hbrw-04-sketch"/>
 		<pt X="-2515.3086" Y="-1976.0583"/>
 		<pt X="-2502.2256" Y="-1986.9508"/>
+	</skpath>
+	<skpath from="2744" to="2744" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="8.85246" sfrotatedeg="-5.8524327" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410416.3756347994" sfytrans="-5282816.326294307" sfsketch="surveyscans/2023/2023#03/2023-hbrw-01-drawing_cave_1.png" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="1019" sfpixheight="988">
+			</pcarea>
+		</pathcodes>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4123.4937" Y="-2299.263"/>
+		<pt X="-4008.9844" Y="-2287.5256"/>
+		<pt X="-4020.3645" Y="-2176.5"/>
+		<pt X="-4134.874" Y="-2188.2373"/>
+		<pt X="-4123.4937" Y="-2299.263"/>
+	</skpath>
+	<skpath from="2" to="2745" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4066.6245" Y="-2240.8608" Z="946.9331"/>
+		<pt X="-4063.8862" Y="-2241.2253"/>
+	</skpath>
+	<skpath from="2" to="2746" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4066.6245" Y="-2240.8608" Z="946.9331"/>
+		<pt X="-4072.9897" Y="-2245.8123"/>
+	</skpath>
+	<skpath from="1" to="2747" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4074.5242" Y="-2242.4607" Z="966.53314"/>
+		<pt X="-4075.696" Y="-2243.4116"/>
+	</skpath>
+	<skpath from="1" to="2748" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4074.5242" Y="-2242.4607" Z="966.53314"/>
+		<pt X="-4070.4856" Y="-2236.0098"/>
+	</skpath>
+	<skpath from="2" to="2749" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4066.6245" Y="-2240.8608" Z="946.9331"/>
+		<pt X="-4063.6396" Y="-2234.244"/>
+	</skpath>
+	<skpath from="3" to="2750" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.724" Y="-2212.8608" Z="906.23315"/>
+		<pt X="-4066.0178" Y="-2222.967"/>
+	</skpath>
+	<skpath from="3" to="2751" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.724" Y="-2212.8608" Z="906.23315"/>
+		<pt X="-4070.4253" Y="-2224.2217"/>
+	</skpath>
+	<skpath from="3" to="2752" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.724" Y="-2212.8608" Z="906.23315"/>
+		<pt X="-4071.1436" Y="-2203.4158"/>
+	</skpath>
+	<skpath from="0" to="2753" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4087.4243" Y="-2229.2607" Z="974.4331"/>
+		<pt X="-4085.7896" Y="-2225.8088"/>
+	</skpath>
+	<skpath from="0" to="2754" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4087.4243" Y="-2229.2607" Z="974.4331"/>
+		<pt X="-4092.564" Y="-2232.2705"/>
+	</skpath>
+	<skpath from="2755" to="2754" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4107.9287" Y="-2206.2097"/>
+		<pt X="-4108.3066" Y="-2218.9258"/>
+		<pt X="-4102.806" Y="-2231.5977"/>
+		<pt X="-4096.7764" Y="-2232.3755"/>
+		<pt X="-4092.564" Y="-2232.2705"/>
+	</skpath>
+	<skpath from="2756" to="2753" linestyle="wall" splined="1">
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4092.956" Y="-2211.4937"/>
+		<pt X="-4085.4758" Y="-2221.1794"/>
+		<pt X="-4085.7896" Y="-2225.8088"/>
+	</skpath>
+	<skpath from="2753" to="2748" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4085.7896" Y="-2225.8088"/>
+		<pt X="-4081.471" Y="-2231.5715"/>
+		<pt X="-4074.83" Y="-2237.94"/>
+		<pt X="-4073.5354" Y="-2238.0437"/>
+		<pt X="-4070.4856" Y="-2236.0098"/>
+	</skpath>
+	<skpath from="2748" to="2757" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.4856" Y="-2236.0098"/>
+		<pt X="-4070.2588" Y="-2228.8508"/>
+	</skpath>
+	<skpath from="2757" to="2751" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.2588" Y="-2228.8508"/>
+		<pt X="-4070.4253" Y="-2224.2217"/>
+	</skpath>
+	<skpath from="2750" to="2758" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4066.0178" Y="-2222.967"/>
+		<pt X="-4065.7024" Y="-2227.5828"/>
+	</skpath>
+	<skpath from="2758" to="2749" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4065.7024" Y="-2227.5828"/>
+		<pt X="-4063.6797" Y="-2232.082"/>
+		<pt X="-4063.6396" Y="-2234.244"/>
+	</skpath>
+	<skpath from="2749" to="2745" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4063.6396" Y="-2234.244"/>
+		<pt X="-4063.215" Y="-2238.4739"/>
+		<pt X="-4063.8862" Y="-2241.2253"/>
+	</skpath>
+	<skpath from="2754" to="2747" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4092.564" Y="-2232.2705"/>
+		<pt X="-4087.9214" Y="-2234.308"/>
+		<pt X="-4077.7761" Y="-2242.6697"/>
+		<pt X="-4075.696" Y="-2243.4116"/>
+	</skpath>
+	<skpath from="2747" to="2746" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4075.696" Y="-2243.4116"/>
+		<pt X="-4073.5725" Y="-2244.9878"/>
+		<pt X="-4072.9897" Y="-2245.8123"/>
+	</skpath>
+	<skpath from="2759" to="2745" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4068.7097" Y="-2248.487"/>
+		<pt X="-4065.141" Y="-2242.959"/>
+		<pt X="-4063.8862" Y="-2241.2253"/>
+	</skpath>
+	<skpath from="2746" to="2760" linestyle="estwall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4072.9897" Y="-2245.8123"/>
+		<pt X="-4080.7153" Y="-2257.0918"/>
+		<pt X="-4086.607" Y="-2266.699"/>
+		<pt X="-4091.346" Y="-2274.9153"/>
+		<pt X="-4094.8386" Y="-2278.7136"/>
+	</skpath>
+	<skpath from="2761" to="2759" linestyle="estwall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4090.4868" Y="-2280.871"/>
+		<pt X="-4086.4817" Y="-2272.8745"/>
+		<pt X="-4075.613" Y="-2257.5942"/>
+		<pt X="-4068.7097" Y="-2248.487"/>
+	</skpath>
+	<skpath from="4" to="2760" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4092.6243" Y="-2279.661" Z="941.73315"/>
+		<pt X="-4094.8386" Y="-2278.7136"/>
+	</skpath>
+	<skpath from="4" to="2761" linestyle="connective">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4092.6243" Y="-2279.661" Z="941.73315"/>
+		<pt X="-4090.4868" Y="-2280.871"/>
+	</skpath>
+	<skpath from="2760" to="2761" linestyle="invisible" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4094.8386" Y="-2278.7136"/>
+		<pt X="-4094.2803" Y="-2281.4531"/>
+		<pt X="-4090.4868" Y="-2280.871"/>
+	</skpath>
+	<skpath from="2762" to="2761" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="-1.0">tt</pctext>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4099.374" Y="-2286.6843"/>
+		<pt X="-4093.9006" Y="-2280.4111"/>
+		<pt X="-4090.4868" Y="-2280.871"/>
+	</skpath>
+	<skpath from="2748" to="2749" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.4856" Y="-2236.0098"/>
+		<pt X="-4066.1592" Y="-2236.7048"/>
+		<pt X="-4063.6396" Y="-2234.244"/>
+	</skpath>
+	<skpath from="2757" to="2758" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.2588" Y="-2228.8508"/>
+		<pt X="-4067.7803" Y="-2229.3682"/>
+		<pt X="-4065.7024" Y="-2227.5828"/>
+	</skpath>
+	<skpath from="2751" to="2750" linestyle="pitchbound" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.4253" Y="-2224.2217"/>
+		<pt X="-4067.015" Y="-2224.0002"/>
+		<pt X="-4066.0178" Y="-2222.967"/>
+	</skpath>
+	<skpath from="2746" to="2759" linestyle="invisible" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4072.9897" Y="-2245.8123"/>
+		<pt X="-4069.8833" Y="-2247.0823"/>
+		<pt X="-4068.7097" Y="-2248.487"/>
+	</skpath>
+	<skpath from="2751" to="2763" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4070.4253" Y="-2224.2217"/>
+		<pt X="-4072.5417" Y="-2220.673"/>
+		<pt X="-4077.8218" Y="-2222.2388"/>
+		<pt X="-4088.9976" Y="-2222.8628"/>
+		<pt X="-4094.2866" Y="-2218.8335"/>
+		<pt X="-4091.8015" Y="-2210.956"/>
+		<pt X="-4092.1584" Y="-2206.453"/>
+		<pt X="-4095.7275" Y="-2202.259"/>
+		<pt X="-4097.032" Y="-2199.6624"/>
+		<pt X="-4100.0107" Y="-2199.2678"/>
+	</skpath>
+	<skpath from="2764" to="2765" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4098.7983" Y="-2196.2012"/>
+		<pt X="-4094.874" Y="-2197.033"/>
+	</skpath>
+	<skpath from="2765" to="2752" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4094.874" Y="-2197.033"/>
+		<pt X="-4081.0085" Y="-2200.0837"/>
+		<pt X="-4071.1436" Y="-2203.4158"/>
+	</skpath>
+	<skpath from="2752" to="2766" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4071.1436" Y="-2203.4158"/>
+		<pt X="-4058.5264" Y="-2207.0789"/>
+		<pt X="-4049.1821" Y="-2209.2166"/>
+		<pt X="-4041.592" Y="-2210.39"/>
+	</skpath>
+	<skpath from="2767" to="2750" linestyle="wall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4043.6707" Y="-2216.193"/>
+		<pt X="-4054.7651" Y="-2215.4998"/>
+		<pt X="-4061.1597" Y="-2214.2146"/>
+		<pt X="-4065.963" Y="-2218.454"/>
+		<pt X="-4066.0178" Y="-2222.967"/>
+	</skpath>
+	<skpath from="2767" to="2768" linestyle="estwall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4043.6707" Y="-2216.193"/>
+		<pt X="-4038.0789" Y="-2215.4402"/>
+		<pt X="-4036.0798" Y="-2215.0251"/>
+	</skpath>
+	<skpath from="2769" to="2766" linestyle="estwall" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4036.4597" Y="-2211.8794"/>
+		<pt X="-4041.592" Y="-2210.39"/>
+	</skpath>
+	<skpath from="2763" to="2764" linestyle="invisible" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4100.0107" Y="-2199.2678"/>
+		<pt X="-4099.6104" Y="-2197.9436"/>
+		<pt X="-4098.7983" Y="-2196.2012"/>
+	</skpath>
+	<skpath from="2768" to="2769" linestyle="invisible" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4036.0798" Y="-2215.0251"/>
+		<pt X="-4036.4597" Y="-2211.8794"/>
+	</skpath>
+	<skpath from="2770" to="2763" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">tt</pctext>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4107.801" Y="-2195.919"/>
+		<pt X="-4097.742" Y="-2198.3884"/>
+		<pt X="-4100.0107" Y="-2199.2678"/>
+	</skpath>
+	<skpath from="2771" to="2768" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">tt</pctext>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4029.0344" Y="-2213.6167"/>
+		<pt X="-4037.9644" Y="-2213.5405"/>
+		<pt X="-4036.0798" Y="-2215.0251"/>
+	</skpath>
+	<skpath from="2767" to="2772" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream2"/>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4043.6707" Y="-2216.193"/>
+		<pt X="-4041.1729" Y="-2213.4976"/>
+		<pt X="-4055.448" Y="-2211.4087"/>
+	</skpath>
+	<skpath from="2754" to="2773" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4092.564" Y="-2232.2705"/>
+		<pt X="-4101.4204" Y="-2229.1682"/>
+		<pt X="-4095.2478" Y="-2228.0005"/>
+	</skpath>
+	<skpath from="2773" to="2774" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4095.2478" Y="-2228.0005"/>
+		<pt X="-4104.2744" Y="-2220.7542"/>
+		<pt X="-4098.949" Y="-2223.8987"/>
+	</skpath>
+	<skpath from="2774" to="2775" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="slope"/>
+		</pathcodes>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4098.949" Y="-2223.8987"/>
+		<pt X="-4099.9004" Y="-2215.071"/>
+		<pt X="-4095.967" Y="-2220.4092"/>
+	</skpath>
+	<skpath from="2765" to="2776" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream2"/>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4094.874" Y="-2197.033"/>
+		<pt X="-4084.5542" Y="-2203.7083"/>
+		<pt X="-4095.2498" Y="-2199.3555"/>
+	</skpath>
+	<skpath from="2752" to="2777" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream2"/>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4071.1436" Y="-2203.4158"/>
+		<pt X="-4060.916" Y="-2210.6035"/>
+		<pt X="-4074.6155" Y="-2206.0732"/>
+	</skpath>
+	<skpath from="2754" to="2778" linestyle="invisible" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4092.564" Y="-2232.2705"/>
+		<pt X="-4089.5183" Y="-2229.2595"/>
+	</skpath>
+	<skpath from="2778" to="2753" linestyle="invisible" splined="1">
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4089.5183" Y="-2229.2595"/>
+		<pt X="-4085.7896" Y="-2225.8088"/>
+	</skpath>
+	<skpath from="2779" to="2778" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="1.0" nodeposyrel="-0.5" arrowpres="1" boxpres="0">Entrance</pctext>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4101.973" Y="-2245.4038"/>
+		<pt X="-4088.22" Y="-2232.861"/>
+		<pt X="-4089.5183" Y="-2229.2595"/>
+	</skpath>
+	<skpath from="2780" to="2745" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">2023-hbrw-01</pctext>
+		</pathcodes>
+		<sketchsubset subname="Amphitheatre-upper"/>
+		<importfrom subname="2023-hbrw-01-sketch"/>
+		<pt X="-4083.2866" Y="-2326.819"/>
+		<pt X="-4061.4946" Y="-2234.1938"/>
+		<pt X="-4063.8862" Y="-2241.2253"/>
 	</skpath>
 </sketch>
 </tunnelxml>
