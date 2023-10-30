@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:41:03">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 19:27:49">
 <sketch splined="0" locoffsetx="410828.72" locoffsety="5282586.5" locoffsetz="1623.5554" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -44887,32 +44887,16 @@
 		<pt X="983.79407" Y="-1802.8147"/>
 		<pt X="962.1705" Y="-1826.0916"/>
 	</skpath>
-	<skpath from="3677" to="1416" linestyle="connective">
-		<pathcodes>
-			<pctext style="cave" nodeposxrel="0.0" nodeposyrel="-1.0">Keine&space;Wassermelone&space;H&#246;hle&newline;1623/295</pctext>
-		</pathcodes>
-		<sketchsubset subname="295keinewassermelon"/>
-		<importfrom subname="290fishfacearea2"/>
-		<pt X="10.186646" Y="-2280.2754"/>
-		<pt X="-14.178063" Y="-2203.5032"/>
-		<pt X="17.292107" Y="-2215.957"/>
-	</skpath>
-	<skpath from="3678" to="470" linestyle="connective">
+	<skpath from="3677" to="470" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Entrance</pctext>
 		</pathcodes>
+		<sketchsubset subname="295keinewassermelon"/>
 		<pt X="-4.7854166" Y="-2186.5732"/>
 		<pt X="28.880348" Y="-2203.1875"/>
 		<pt X="26.912235" Y="-2196.8076" Z="342.3463"/>
 	</skpath>
-	<skpath from="3679" to="3677" linestyle="connective">
-		<pathcodes>
-			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Found&space;in&space;2017:&space;90m&space;long,&space;9m&space;deep</pctext>
-		</pathcodes>
-		<pt X="-595.8237" Y="-2242.3618"/>
-		<pt X="10.186646" Y="-2280.2754"/>
-	</skpath>
-	<skpath from="3680" to="558" linestyle="connective">
+	<skpath from="3678" to="558" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="0.0" nodeposyrel="1.0">Entrance</pctext>
 		</pathcodes>
@@ -44921,7 +44905,7 @@
 		<pt X="1184.6772" Y="-1361.6572"/>
 		<pt X="1215.4122" Y="-1364.1077" Z="1104.4463"/>
 	</skpath>
-	<skpath from="3681" to="2692" linestyle="connective">
+	<skpath from="3679" to="2692" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-0.5" nodeposyrel="1.0" arrowpres="1" boxpres="0">Snow&space;slope</pctext>
 		</pathcodes>
@@ -44930,14 +44914,14 @@
 		<pt X="-1414.9364" Y="-628.4441"/>
 		<pt X="-1410.2344" Y="-643.22485"/>
 	</skpath>
-	<skpath from="3682" to="3683" linestyle="connective">
+	<skpath from="3680" to="3681" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">squeeze</pctext>
 		</pathcodes>
 		<pt X="-1359.0479" Y="-715.50867"/>
 		<pt X="-1373.3987" Y="-735.7913"/>
 	</skpath>
-	<skpath from="3683" to="2719" linestyle="connective">
+	<skpath from="3681" to="2719" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">c2</pctext>
 		</pathcodes>
@@ -44946,7 +44930,7 @@
 		<pt X="-1373.3987" Y="-735.7913"/>
 		<pt X="-1396.3737" Y="-737.37195"/>
 	</skpath>
-	<skpath from="3684" to="534" linestyle="connective">
+	<skpath from="3682" to="534" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="-1.0">Entrance</pctext>
 		</pathcodes>
@@ -44954,7 +44938,7 @@
 		<pt X="-1369.2684" Y="-684.84064"/>
 		<pt X="-1373.8878" Y="-686.8076" Z="774.44635"/>
 	</skpath>
-	<skpath from="3685" to="2414" linestyle="connective">
+	<skpath from="3683" to="2414" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="1.1" nodeposyrel="0.0" arrowpres="1" boxpres="0">Entrance</pctext>
 		</pathcodes>
@@ -44963,26 +44947,7 @@
 		<pt X="-621.62177" Y="267.51837"/>
 		<pt X="-591.30835" Y="292.6906"/>
 	</skpath>
-	<skpath from="3686" to="1666" linestyle="connective">
-		<pathcodes>
-			<pctext style="entrance" nodeposxrel="0.0" nodeposyrel="-1.0">Entrance</pctext>
-		</pathcodes>
-		<sketchsubset subname="291HBentrance"/>
-		<importfrom subname="290fishfacearea2"/>
-		<pt X="124.837425" Y="-1814.2843"/>
-		<pt X="176.65779" Y="-1801.672"/>
-		<pt X="170.91629" Y="-1803.1324"/>
-	</skpath>
-	<skpath from="3687" to="1343" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Surface&space;survey&space;needed&space;between&space;291&space;and&space;295&space;as&space;this&space;&newline;boulder&space;choke&space;should&space;be&space;~5m&space;north&space;(at&space;least)&space;of&space;291&newline;entrance&space;(at&space;same&space;time&space;should&space;surface&space;survey&space;to&space;290)</pctext>
-		</pathcodes>
-		<sketchsubset subname="295keinewassermelon"/>
-		<importfrom subname="290fishfacearea2"/>
-		<pt X="66.080086" Y="-1837.9025"/>
-		<pt X="126.47801" Y="-1739.234"/>
-	</skpath>
-	<skpath from="3688" to="1422" linestyle="connective">
+	<skpath from="3684" to="1422" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="1.0" nodeposyrel="0.0">Gl&#252;ckliche&space;Schmetterlingsh&#246;hle&newline;1623/291</pctext>
 		</pathcodes>
@@ -44991,19 +44956,11 @@
 		<pt X="-128.4087" Y="-1611.6122"/>
 		<pt X="-123.62013" Y="-1609.9479"/>
 	</skpath>
-	<skpath from="3689" to="3688" linestyle="connective">
-		<pathcodes>
-			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Found&space;in&space;2017,&space;connected&space;to&space;Fischgesichth&#246;hle&space;1623/290&space;in&space;2022&newline;868m&space;long,&space;137m&space;deep</pctext>
-		</pathcodes>
-		<sketchsubset subname="291HBentrance"/>
-		<pt X="-1481.6581" Y="-1532.0537"/>
-		<pt X="-76.68903" Y="-1664.7028"/>
-	</skpath>
-	<skpath from="3690" to="554" linestyle="connective">
+	<skpath from="3685" to="554" linestyle="connective">
 		<pt X="-75.96463" Y="-941.33795"/>
 		<pt X="6.312237" Y="-821.4077" Z="639.5463"/>
 	</skpath>
-	<skpath from="3690" to="3690" linestyle="connective">
+	<skpath from="3685" to="3685" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="11.344091" sfrotatedeg="-5.417009" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="410821.1285370961" sfytrans="-5282680.533795154" sfsketch="surveyscans/2023/2023#49/plan.jpg" sfstyle="" nodeconnzsetrelative="0.0" sfpixwidth="2552" sfpixheight="3508">
@@ -45016,7 +44973,7 @@
 		<pt X="-105.15766" Y="-633.48315"/>
 		<pt X="-75.96463" Y="-941.33795"/>
 	</skpath>
-	<skpath from="3691" to="2132" linestyle="connective">
+	<skpath from="3686" to="2132" linestyle="connective">
 		<pathcodes>
 			<pctext style="cave" nodeposxrel="1.0" nodeposyrel="-1.0">Cateyes&space;Cave&space;&newline;2023-kt-01</pctext>
 		</pathcodes>
@@ -45024,7 +44981,7 @@
 		<pt X="61.075718" Y="-903.6453"/>
 		<pt X="-30.275888" Y="-824.11426"/>
 	</skpath>
-	<skpath from="3692" to="3691" linestyle="connective">
+	<skpath from="3687" to="3686" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Found&space;in&space;2023:&space;24m&space;long,&space;7m&space;deep</pctext>
 		</pathcodes>
@@ -45032,7 +44989,7 @@
 		<pt X="-511.53827" Y="-870.5845"/>
 		<pt X="61.075718" Y="-903.6453"/>
 	</skpath>
-	<skpath from="3693" to="160" linestyle="connective">
+	<skpath from="3688" to="160" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">The&space;Shit&space;Show</pctext>
 		</pathcodes>
@@ -45041,7 +44998,7 @@
 		<pt X="1210.4163" Y="-191.67049"/>
 		<pt X="1215.3123" Y="-227.80765" Z="-881.25366"/>
 	</skpath>
-	<skpath from="3694" to="818" linestyle="connective">
+	<skpath from="3689" to="818" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="0.0" nodeposyrel="0.0">Coleric&space;&newline;Chamber</pctext>
 		</pathcodes>
@@ -45050,7 +45007,7 @@
 		<pt X="1297.3086" Y="186.40009"/>
 		<pt X="1262.3167" Y="162.39532"/>
 	</skpath>
-	<skpath from="3695" to="311" linestyle="connective">
+	<skpath from="3690" to="311" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">Stalagtite&space;&newline;Loop</pctext>
 		</pathcodes>
@@ -45058,19 +45015,64 @@
 		<pt X="582.76184" Y="-404.0595"/>
 		<pt X="593.0122" Y="-427.70767" Z="-510.8537"/>
 	</skpath>
-	<skpath from="3696" to="197" linestyle="connective">
+	<skpath from="3691" to="197" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">See&space;lower&space;level&space;drawing&newline;for&space;anything&space;below&newline;this&space;pitch&space;series</pctext>
 		</pathcodes>
 		<pt X="1166.461" Y="-122.912445"/>
 		<pt X="1112.9122" Y="-147.20766" Z="-1046.0537"/>
 	</skpath>
-	<skpath from="3697" to="198" linestyle="connective">
+	<skpath from="3692" to="198" linestyle="connective">
 		<pathcodes>
 			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Rubble&space;Rumble&newline;(2018#28)&space;not&newline;drawn&space;up&space;:-(</pctext>
 		</pathcodes>
 		<pt X="1171.4156" Y="-14.82861"/>
 		<pt X="1120.2123" Y="-130.90765" Z="-1044.1537"/>
+	</skpath>
+	<skpath from="3693" to="1666" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="0.0" nodeposyrel="-1.0">Entrance</pctext>
+		</pathcodes>
+		<sketchsubset subname="291HBentrance"/>
+		<importfrom subname="290fishfacearea2"/>
+		<pt X="98.89554" Y="-1814.9371"/>
+		<pt X="179.89836" Y="-1801.5527"/>
+		<pt X="170.91629" Y="-1803.1324"/>
+	</skpath>
+	<skpath from="3694" to="1343" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Surface&space;survey&space;needed&space;between&space;291&space;and&space;295&space;as&space;this&space;&newline;boulder&space;choke&space;should&space;be&space;~5m&space;north&space;(at&space;least)&space;of&space;291&newline;entrance&space;(at&space;same&space;time&space;should&space;surface&space;survey&space;to&space;290)</pctext>
+		</pathcodes>
+		<sketchsubset subname="295keinewassermelon"/>
+		<importfrom subname="290fishfacearea2"/>
+		<pt X="53.990864" Y="-1799.9689"/>
+		<pt X="126.47801" Y="-1739.234"/>
+	</skpath>
+	<skpath from="3695" to="1416" linestyle="connective">
+		<pathcodes>
+			<pctext style="cave" nodeposxrel="0.0" nodeposyrel="-1.0">Keine&space;Wassermelone&space;H&#246;hle&newline;1623/295</pctext>
+		</pathcodes>
+		<sketchsubset subname="295keinewassermelon"/>
+		<importfrom subname="290fishfacearea2"/>
+		<pt X="-75.18763" Y="-2372.4778"/>
+		<pt X="-48.923645" Y="-2147.716"/>
+		<pt X="17.292107" Y="-2215.957"/>
+	</skpath>
+	<skpath from="3696" to="3695" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="1.0">UTM&space;33T&space;410831&space;5282804&space;Altitude&space;1660m&space;&newline;&newline;Explored&space;in&space;2017;&space;90m&space;long,&space;9m&space;deep&newline;Drawn&space;in&space;TunnelX.&space;Description&space;in&space;http://expo.survex.com/1623/295/295</pctext>
+		</pathcodes>
+		<sketchsubset subname="295keinewassermelon"/>
+		<pt X="-681.81464" Y="-2359.2617"/>
+		<pt X="-75.18763" Y="-2372.4778"/>
+	</skpath>
+	<skpath from="3697" to="3684" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">UTM33T&space;410854&space;5282759&space;Altitude&space;1675m&space;&newline;&newline;Found&space;in&space;2017,&space;connected&space;to&space;Fischgesichth&#246;hle&space;1623/290&space;in&space;2022&newline;868m&space;long,&space;137m&space;deep</pctext>
+		</pathcodes>
+		<sketchsubset subname="291HBentrance"/>
+		<pt X="-1478.7875" Y="-1469.0685"/>
+		<pt X="-76.68903" Y="-1664.7028"/>
 	</skpath>
 </sketch>
 </tunnelxml>
