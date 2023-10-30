@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-28 17:54:12">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:11:47">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A0_page_1"/>
@@ -43,57 +43,12 @@
 		<pt X="7967.0" Y="11646.456"/>
 		<pt X="-127.75387" Y="11637.639"/>
 	</skpath>
-	<skpath from="8" to="9" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlebigname" nodeposxrel="0.0" nodeposyrel="0.0">N</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="2564.0183" Y="924.56934"/>
-		<pt X="2601.038" Y="1140.5184"/>
-	</skpath>
-	<skpath from="9" to="10" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">%t1/0.05%%v0/%%h0/%&space;&space;&space;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="2601.038" Y="1140.5184"/>
-		<pt X="2039.5706" Y="1806.8754"/>
-	</skpath>
-	<skpath from="5" to="11" linestyle="wall" splined="1">
+	<skpath from="5" to="8" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="-129.60114" Y="24.164585"/>
 		<pt X="8019.501" Y="16.818544"/>
 	</skpath>
-	<skpath from="10" to="11" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlestats" nodeposxrel="-1.0" nodeposyrel="1.0">%0/0.25%%v0/%&space;&newline;;%50/%%v1/%%whiterect%&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%&space;&newline;;%10/%20m&newline;;%10/%40m&newline;;%10/%60m&newline;;%10/%80m&space;&newline;;%10/%100m</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="2039.5706" Y="1806.8754"/>
-		<pt X="8019.501" Y="16.818544"/>
-	</skpath>
-	<skpath from="12" to="11" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlebigname" nodeposxrel="-1.0" nodeposyrel="-1.0">Homecoming&newline;1626/259</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="5963.8584" Y="1061.8104"/>
-		<pt X="8019.501" Y="16.818544"/>
-	</skpath>
-	<skpath from="13" to="12" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">XXXXEasting&space;(UTM&space;33T):&space;410919&newline;XXXXNorthing&space;(UTM&space;33T):&space;5282686&newline;XXXXAltitude&space;1696m&newline;&newline;XXXXExplored&space;by&space;CUCC&space;expeditions&space;in&space;2017,&space;2018,&space;2022&newline;XXXXPost&space;2022&space;expedition&space;surveyed&space;length&space;4345m;&space;vertical&space;range&space;412m&newline;XXXXDrawn&space;in&space;TunnelX,&space;Description&space;in&space;http://expo.survex.com/1623/290/290</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="6038.646" Y="1360.9606"/>
-		<pt X="5963.8584" Y="1061.8104"/>
-	</skpath>
-	<skpath from="5" to="14" linestyle="connective">
+	<skpath from="5" to="9" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="650.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-631.0100483931819" sfytrans="8128.292232498541" sfsketch="1626-359/homecomingarea_lower.xml" sfstyle="base500" nodeconnzsetrelative="-100.0" sfpixwidth="-1" sfpixheight="-1">
@@ -117,7 +72,7 @@
 		<pt X="-129.60114" Y="24.164585"/>
 		<pt X="4267.361" Y="3451.4082"/>
 	</skpath>
-	<skpath from="5" to="15" linestyle="connective">
+	<skpath from="5" to="10" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="650.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-631.0100483931819" sfytrans="8128.292232498541" sfsketch="1626-359/homecomingarea_upper.xml" sfstyle="base500" nodeconnzsetrelative="50.0" sfpixwidth="-1" sfpixheight="-1">
@@ -141,22 +96,22 @@
 		<pt X="-129.60114" Y="24.164585"/>
 		<pt X="2463.1113" Y="4320.8135"/>
 	</skpath>
-	<skpath from="16" to="6" linestyle="wall" splined="1">
+	<skpath from="11" to="6" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="7908.633" Y="10433.012"/>
 		<pt X="7967.0" Y="11646.456"/>
 	</skpath>
-	<skpath from="17" to="16" linestyle="wall" splined="1">
+	<skpath from="12" to="11" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="-50.631653" Y="10507.052"/>
 		<pt X="7908.633" Y="10433.012"/>
 	</skpath>
-	<skpath from="7" to="17" linestyle="wall" splined="1">
+	<skpath from="7" to="12" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="-127.75387" Y="11637.639"/>
 		<pt X="-50.631653" Y="10507.052"/>
 	</skpath>
-	<skpath from="17" to="18" linestyle="connective">
+	<skpath from="12" to="13" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
@@ -164,25 +119,70 @@
 		<pt X="-50.631653" Y="10507.052"/>
 		<pt X="387.43637" Y="10883.42"/>
 	</skpath>
-	<skpath from="19" to="17" linestyle="invisible" splined="1">
+	<skpath from="14" to="12" linestyle="invisible" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="-75.31154" Y="10297.272"/>
 		<pt X="-50.631653" Y="10507.052"/>
 	</skpath>
-	<skpath from="19" to="5" linestyle="wall" splined="1">
+	<skpath from="14" to="5" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="-75.31154" Y="10297.272"/>
 		<pt X="-129.60114" Y="24.164585"/>
 	</skpath>
-	<skpath from="11" to="20" linestyle="wall" splined="1">
+	<skpath from="8" to="15" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="8019.501" Y="16.818544"/>
 		<pt X="7834.593" Y="10229.403"/>
 	</skpath>
-	<skpath from="20" to="19" linestyle="wall" splined="1">
+	<skpath from="15" to="14" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
 		<pt X="7834.593" Y="10229.403"/>
 		<pt X="-75.31154" Y="10297.272"/>
+	</skpath>
+	<skpath from="16" to="8" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlebigname" nodeposxrel="-1.0" nodeposyrel="-1.0">Homecoming&newline;1626/259</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1371.889" Y="1390.669"/>
+		<pt X="8019.501" Y="16.818544"/>
+	</skpath>
+	<skpath from="17" to="16" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Easting&space;(UTM&space;33T):&space;410919&space;Northing&space;(UTM&space;33T):&space;5282686&space;Altitude&space;1696m&newline;&newline;Explored&space;by&space;CUCC&space;expeditions&space;in&space;2017,&space;2018,&space;2022,&space;2023&newline;Post&space;2023&space;expedition&space;surveyed&space;length&space;3441m;&space;vertical&space;range&space;373m&newline;Drawn&space;in&space;TunnelX,&space;Description&space;in&space;http://expo.survex.com/1626/359/359</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1363.5558" Y="1623.999"/>
+		<pt X="1371.889" Y="1390.669"/>
+	</skpath>
+	<skpath from="18" to="8" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlestats" nodeposxrel="-1.0" nodeposyrel="1.0">%0/0.25%%v0/%&space;&newline;;%50/%%v1/%%whiterect%&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%&space;&newline;;%10/%20m&newline;;%10/%40m&newline;;%10/%60m&newline;;%10/%80m&space;&newline;;%10/%100m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1308.5565" Y="3057.4792"/>
+		<pt X="8019.501" Y="16.818544"/>
+	</skpath>
+	<skpath from="19" to="20" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlebigname" nodeposxrel="0.0" nodeposyrel="0.0">N</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1803.5497" Y="2056.493"/>
+		<pt X="1792.5499" Y="2226.9907"/>
+	</skpath>
+	<skpath from="20" to="18" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">%t1/0.05%%v0/%%h0/%&space;&space;&space;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1792.5499" Y="2226.9907"/>
+		<pt X="1308.5565" Y="3057.4792"/>
 	</skpath>
 </sketch>
 </tunnelxml>
