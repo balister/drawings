@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:20:55">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:28:30">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A0_page_1"/>
@@ -178,12 +178,253 @@
 		<pt X="6129.9287" Y="3633.7144"/>
 		<pt X="6129.9287" Y="5812.6978"/>
 	</skpath>
-	<skpath from="14" to="12" linestyle="wall" splined="1">
+	<skpath from="14" to="15" linestyle="wall" splined="1">
 		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="3583.779" Y="5812.6978"/>
+		<pt X="3583.779" Y="3633.7144"/>
+	</skpath>
+	<skpath from="15" to="5" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="3583.779" Y="3633.7144"/>
+		<pt X="-129.60114" Y="24.164585"/>
+	</skpath>
+	<skpath from="16" to="17" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="-138.96684" Y="9931.523"/>
+		<pt X="218.67403" Y="10156.154"/>
+	</skpath>
+	<skpath from="7" to="16" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="-127.75387" Y="11637.639"/>
+		<pt X="-138.96684" Y="9931.523"/>
+	</skpath>
+	<skpath from="16" to="18" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="-138.96684" Y="9931.523"/>
+		<pt X="7931.859" Y="9931.523"/>
+	</skpath>
+	<skpath from="18" to="6" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="7931.859" Y="9931.523"/>
+		<pt X="7967.0" Y="11646.456"/>
+	</skpath>
+	<skpath from="19" to="16" linestyle="invisible" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="-129.60114" Y="9747.53"/>
+		<pt X="-138.96684" Y="9931.523"/>
+	</skpath>
+	<skpath from="19" to="5" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="-129.60114" Y="9747.53"/>
+		<pt X="-129.60114" Y="24.164585"/>
+	</skpath>
+	<skpath from="5" to="20" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="-129.60114" Y="24.164585"/>
+		<pt X="8019.501" Y="16.818544"/>
+	</skpath>
+	<skpath from="20" to="21" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="8019.501" Y="16.818544"/>
+		<pt X="8019.501" Y="9747.53"/>
+	</skpath>
+	<skpath from="21" to="19" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="8019.501" Y="9747.53"/>
+		<pt X="-129.60114" Y="9747.53"/>
+	</skpath>
+	<skpath from="22" to="5" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">Keine&space;Wassermelone&space;H&#246;hle&space;&newline;1623/295</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1176.2013" Y="423.9178"/>
+		<pt X="-129.60114" Y="24.164585"/>
+	</skpath>
+	<skpath from="23" to="22" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlenum" nodeposxrel="-1.0" nodeposyrel="1.0">Easting&space;(UTM&space;33T):&space;410831&newline;Northing&space;(UTM&space;33T):&space;5282804&newline;Altitude&space;1660m&newline;&newline;Explored&space;by&space;CUCC&space;expeditions&space;in&space;2017&newline;Post&space;2017&space;expedition&space;surveyed&space;length&space;90m;&space;vertical&space;range&space;9m&newline;Drawn&space;in&space;TunnelX.&space;Description&space;in&space;http://expo.survex.com/1623/295/295</pctext>
+		</pathcodes>
+		<sketchsubset subname="frametitles"/>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="440.05667" Y="649.1958"/>
+		<pt X="1176.2013" Y="423.9178"/>
+	</skpath>
+	<skpath from="24" to="20" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlebigname" nodeposxrel="-1.0" nodeposyrel="-1.0">Fischgesicht&space;H&#246;hle&space;&newline;1623/290</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="973.352" Y="7753.669"/>
+		<pt X="8019.501" Y="16.818544"/>
+	</skpath>
+	<skpath from="25" to="24" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Easting&space;(UTM&space;33T):&space;410919&space;Northing&space;(UTM&space;33T):&space;5282686&space;Altitude:&space;1696m&newline;&newline;Explored&space;by&space;CUCC&space;expeditions&space;in&space;2017,&space;2018,&space;2022,&space;2023&newline;Post&space;2023&space;expedition&space;surveyed&space;length&space;5974m;&space;vertical&space;range&space;457m&newline;Drawn&space;in&space;TunnelX,&space;Description&space;in&space;http://expo.survex.com/1623/290/290</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="973.352" Y="7928.667"/>
+		<pt X="973.352" Y="7753.669"/>
+	</skpath>
+	<skpath from="26" to="27" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">%t1/0.05%%v0/%%h0/%&space;&space;&space;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="1190.0157" Y="8211.996"/>
+		<pt X="948.35236" Y="9045.318"/>
+	</skpath>
+	<skpath from="27" to="20" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlestats" nodeposxrel="-1.0" nodeposyrel="1.0">%0/0.25%%v0/%&space;&newline;;%50/%%v1/%%whiterect%&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%&space;&newline;;%10/%20m&newline;;%10/%40m&newline;;%10/%60m&newline;;%10/%80m&space;&newline;;%10/%100m</pctext>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<sketchsubset subname="frametitles"/>
+		<pt X="948.35236" Y="9045.318"/>
+		<pt X="8019.501" Y="16.818544"/>
+	</skpath>
+	<skpath from="12" to="12" linestyle="invisible" splined="1">
+		<pt X="6129.9287" Y="3633.7144"/>
+		<pt X="6129.9287" Y="3633.7144"/>
+	</skpath>
+	<skpath from="14" to="28" linestyle="connective">
+		<pt X="3583.779" Y="5812.6978"/>
+		<pt X="3589.6187" Y="5807.187"/>
+	</skpath>
+	<skpath from="30" to="31" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">Same&space;centreline&space;-&space;T&space;K&space;Max&newline;Bottom&space;of&space;entrance&space;series</pctext>
+		</pathcodes>
+		<pt X="5935.6436" Y="5545.1743"/>
+		<pt X="5939.2734" Y="6046.1074"/>
+	</skpath>
+	<skpath from="32" to="29" linestyle="connective">
+		<pathcodes>
+			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">Same&space;centreline&space;-&space;T&space;K&space;Max&newline;Bottom&space;of&space;entrance&space;series</pctext>
+		</pathcodes>
+		<pt X="5518.199" Y="6086.037"/>
+		<pt X="4650.641" Y="5744.822"/>
+	</skpath>
+	<skpath from="13" to="14" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="6129.9287" Y="5812.6978"/>
+		<pt X="4721.117" Y="5812.6978"/>
+		<pt X="3583.779" Y="5812.6978"/>
+	</skpath>
+	<skpath from="33" to="30" linestyle="connective">
+		<pt X="6124.041" Y="5807.187"/>
+		<pt X="5935.6436" Y="5545.1743"/>
+	</skpath>
+	<skpath from="33" to="13" linestyle="connective">
+		<pt X="6124.041" Y="5807.187"/>
+		<pt X="6129.9287" Y="5812.6978"/>
+	</skpath>
+	<skpath from="34" to="29" linestyle="connective">
+		<pt X="4713.883" Y="5807.187"/>
+		<pt X="4650.641" Y="5744.822"/>
+	</skpath>
+	<skpath from="28" to="34" linestyle="wall" splined="1">
+		<pt X="3589.6187" Y="5807.187"/>
+		<pt X="4713.883" Y="5807.187"/>
+	</skpath>
+	<skpath from="33" to="35" linestyle="wall" splined="1">
+		<pt X="6124.041" Y="5807.187"/>
+		<pt X="6124.041" Y="3638.507"/>
+	</skpath>
+	<skpath from="36" to="28" linestyle="wall" splined="1">
+		<pt X="3589.6187" Y="3638.507"/>
+		<pt X="3589.6187" Y="5807.187"/>
+	</skpath>
+	<skpath from="15" to="36" linestyle="invisible" splined="1">
+		<pt X="3583.779" Y="3633.7144"/>
+		<pt X="3589.6187" Y="3638.507"/>
+	</skpath>
+	<skpath from="36" to="37" linestyle="wall" splined="1">
+		<pt X="3589.6187" Y="3638.507"/>
+		<pt X="4713.883" Y="3638.507"/>
+	</skpath>
+	<skpath from="34" to="37" linestyle="wall" splined="1">
+		<pt X="4713.883" Y="5807.187"/>
+		<pt X="4713.883" Y="3638.507"/>
+	</skpath>
+	<skpath from="15" to="12" linestyle="wall" splined="1">
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="3583.779" Y="3633.7144"/>
 		<pt X="4721.117" Y="3633.7144"/>
 		<pt X="6129.9287" Y="3633.7144"/>
 	</skpath>
-	<skpath from="14" to="15" linestyle="connective">
+	<skpath from="36" to="38" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcarea area_signal="frame" sfscaledown="650.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-631.7597654445042" sfytrans="8127.599533190129" sfsketch="290/290fishfacearea3_lower.xml" sfstyle="base500" nodeconnzsetrelative="-100.0" sfpixwidth="-1" sfpixheight="-1">
+				<subsetattr name="12monkeys" uppersubset="yellow2"/>
+				<subsetattr name="2023-mg-03" uppersubset="cyan"/>
+				<subsetattr name="291HBentrance" uppersubset="yellow2"/>
+				<subsetattr name="291HBmidlevel" uppersubset="magenta"/>
+				<subsetattr name="295keinewassermelon" uppersubset="cyan"/>
+				<subsetattr name="apismedicus" uppersubset="purple"/>
+				<subsetattr name="avianappendix" uppersubset="red"/>
+				<subsetattr name="baseofpitchescamp" uppersubset="red"/>
+				<subsetattr name="belowdentelledecaca" uppersubset="blue"/>
+				<subsetattr name="coconutcrabwalk" uppersubset="red"/>
+				<subsetattr name="coconutshy" uppersubset="red"/>
+				<subsetattr name="crystalcrumble" uppersubset="green"/>
+				<subsetattr name="cucccanyon" uppersubset="magenta"/>
+				<subsetattr name="defyinggravity" uppersubset="cyan"/>
+				<subsetattr name="delicatesteve" uppersubset="red"/>
+				<subsetattr name="elizabethline" uppersubset="red"/>
+				<subsetattr name="entrance" uppersubset="yellow2"/>
+				<subsetattr name="entranceseries" uppersubset="cyan"/>
+				<subsetattr name="fivemoose" uppersubset="magenta"/>
+				<subsetattr name="freeaticflys" uppersubset="green"/>
+				<subsetattr name="gerbilhole" uppersubset="red"/>
+				<subsetattr name="horrorbank" uppersubset="purple"/>
+				<subsetattr name="icytube" uppersubset="yellow2"/>
+				<subsetattr name="keanubreeze" uppersubset="purple"/>
+				<subsetattr name="kublakhan" uppersubset="red"/>
+				<subsetattr name="liquidluck" uppersubset="green"/>
+				<subsetattr name="lowerentrance" uppersubset="cyan"/>
+				<subsetattr name="maelstrom-lower" uppersubset="green"/>
+				<subsetattr name="maelstrom-upper" uppersubset="cyan"/>
+				<subsetattr name="mendipman" uppersubset="cyan"/>
+				<subsetattr name="mid+lower-bathdodgersbypass" uppersubset="green"/>
+				<subsetattr name="miraclemaze" uppersubset="red"/>
+				<subsetattr name="miraclemaze1" uppersubset="red"/>
+				<subsetattr name="miraclemaze2" uppersubset="red"/>
+				<subsetattr name="mountain-aven" uppersubset="cyan"/>
+				<subsetattr name="mourningthemoths" uppersubset="red"/>
+				<subsetattr name="muddygoons" uppersubset="red"/>
+				<subsetattr name="nicholascage" uppersubset="purple2"/>
+				<subsetattr name="originalroutedown" uppersubset="yellow2"/>
+				<subsetattr name="perseidshowers" uppersubset="purple"/>
+				<subsetattr name="pickingbalconynose" uppersubset="red"/>
+				<subsetattr name="riftpiece" uppersubset="green"/>
+				<subsetattr name="rubblerumble" uppersubset="red2"/>
+				<subsetattr name="sesamestreet" uppersubset="red"/>
+				<subsetattr name="stalagtiteloop" uppersubset="green"/>
+				<subsetattr name="ulysses" uppersubset="green"/>
+			</pcarea>
+		</pathcodes>
+		<sketchsubset subname="paper_A0_page_1"/>
+		<pt X="3589.6187" Y="3638.507"/>
+		<pt X="3768.2446" Y="3902.404"/>
+	</skpath>
+	<skpath from="39" to="33" linestyle="wall" splined="1">
+		<pt X="4721.0635" Y="5807.187"/>
+		<pt X="6124.041" Y="5807.187"/>
+	</skpath>
+	<skpath from="39" to="40" linestyle="wall" splined="1">
+		<pt X="4721.0635" Y="5807.187"/>
+		<pt X="4721.0635" Y="3638.507"/>
+	</skpath>
+	<skpath from="40" to="41" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcarea area_signal="frame" sfscaledown="650.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-631.65" sfytrans="8127.599533190129" sfsketch="290/290fishfacearea3_upper.xml" sfstyle="base500" nodeconnzsetrelative="0.0" sfpixwidth="-1" sfpixheight="-1">
@@ -237,323 +478,16 @@
 				<subsetattr name="ulysses" uppersubset="green"/>
 			</pcarea>
 		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="4721.117" Y="3633.7144"/>
-		<pt X="5110.827" Y="4410.241"/>
+		<pt X="4721.0635" Y="3638.507"/>
+		<pt X="4804.6177" Y="3780.3325"/>
 	</skpath>
-	<skpath from="14" to="16" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="4721.117" Y="3633.7144"/>
-		<pt X="4721.117" Y="5812.6978"/>
+	<skpath from="37" to="40" linestyle="invisible" splined="1">
+		<pt X="4713.883" Y="3638.507"/>
+		<pt X="4721.0635" Y="3638.507"/>
 	</skpath>
-	<skpath from="13" to="16" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="6129.9287" Y="5812.6978"/>
-		<pt X="4721.117" Y="5812.6978"/>
-	</skpath>
-	<skpath from="16" to="17" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="4721.117" Y="5812.6978"/>
-		<pt X="3583.779" Y="5812.6978"/>
-	</skpath>
-	<skpath from="17" to="18" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="3583.779" Y="5812.6978"/>
-		<pt X="3583.779" Y="3633.7144"/>
-	</skpath>
-	<skpath from="18" to="14" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="3583.779" Y="3633.7144"/>
-		<pt X="4721.117" Y="3633.7144"/>
-	</skpath>
-	<skpath from="18" to="5" linestyle="connective">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="3583.779" Y="3633.7144"/>
-		<pt X="-129.60114" Y="24.164585"/>
-	</skpath>
-	<skpath from="19" to="20" linestyle="connective">
-		<pathcodes>
-			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="-138.96684" Y="9931.523"/>
-		<pt X="218.67403" Y="10156.154"/>
-	</skpath>
-	<skpath from="7" to="19" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="-127.75387" Y="11637.639"/>
-		<pt X="-138.96684" Y="9931.523"/>
-	</skpath>
-	<skpath from="19" to="21" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="-138.96684" Y="9931.523"/>
-		<pt X="7931.859" Y="9931.523"/>
-	</skpath>
-	<skpath from="21" to="6" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="7931.859" Y="9931.523"/>
-		<pt X="7967.0" Y="11646.456"/>
-	</skpath>
-	<skpath from="22" to="19" linestyle="invisible" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="-129.60114" Y="9747.53"/>
-		<pt X="-138.96684" Y="9931.523"/>
-	</skpath>
-	<skpath from="22" to="5" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="-129.60114" Y="9747.53"/>
-		<pt X="-129.60114" Y="24.164585"/>
-	</skpath>
-	<skpath from="5" to="23" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="-129.60114" Y="24.164585"/>
-		<pt X="8019.501" Y="16.818544"/>
-	</skpath>
-	<skpath from="23" to="24" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="8019.501" Y="16.818544"/>
-		<pt X="8019.501" Y="9747.53"/>
-	</skpath>
-	<skpath from="24" to="22" linestyle="wall" splined="1">
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="8019.501" Y="9747.53"/>
-		<pt X="-129.60114" Y="9747.53"/>
-	</skpath>
-	<skpath from="25" to="5" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">Keine&space;Wassermelone&space;H&#246;hle&space;&newline;1623/295</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="1176.2013" Y="423.9178"/>
-		<pt X="-129.60114" Y="24.164585"/>
-	</skpath>
-	<skpath from="26" to="25" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlenum" nodeposxrel="-1.0" nodeposyrel="1.0">Easting&space;(UTM&space;33T):&space;410831&newline;Northing&space;(UTM&space;33T):&space;5282804&newline;Altitude&space;1660m&newline;&newline;Explored&space;by&space;CUCC&space;expeditions&space;in&space;2017&newline;Post&space;2017&space;expedition&space;surveyed&space;length&space;90m;&space;vertical&space;range&space;9m&newline;Drawn&space;in&space;TunnelX.&space;Description&space;in&space;http://expo.survex.com/1623/295/295</pctext>
-		</pathcodes>
-		<sketchsubset subname="frametitles"/>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="440.05667" Y="649.1958"/>
-		<pt X="1176.2013" Y="423.9178"/>
-	</skpath>
-	<skpath from="27" to="23" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlebigname" nodeposxrel="-1.0" nodeposyrel="-1.0">Fischgesicht&space;H&#246;hle&space;&newline;1623/290</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="973.352" Y="7753.669"/>
-		<pt X="8019.501" Y="16.818544"/>
-	</skpath>
-	<skpath from="28" to="27" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="0.0">Easting&space;(UTM&space;33T):&space;410919&space;Northing&space;(UTM&space;33T):&space;5282686&space;Altitude:&space;1696m&newline;&newline;Explored&space;by&space;CUCC&space;expeditions&space;in&space;2017,&space;2018,&space;2022,&space;2023&newline;Post&space;2023&space;expedition&space;surveyed&space;length&space;5974m;&space;vertical&space;range&space;457m&newline;Drawn&space;in&space;TunnelX,&space;Description&space;in&space;http://expo.survex.com/1623/290/290</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="973.352" Y="7928.667"/>
-		<pt X="973.352" Y="7753.669"/>
-	</skpath>
-	<skpath from="29" to="30" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlename" nodeposxrel="0.0" nodeposyrel="0.0">%t1/0.05%%v0/%%h0/%&space;&space;&space;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="1190.0157" Y="8211.996"/>
-		<pt X="948.35236" Y="9045.318"/>
-	</skpath>
-	<skpath from="30" to="23" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlestats" nodeposxrel="-1.0" nodeposyrel="1.0">%0/0.25%%v0/%&space;&newline;;%50/%%v1/%%whiterect%&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%&space;&newline;;%10/%20m&newline;;%10/%40m&newline;;%10/%60m&newline;;%10/%80m&space;&newline;;%10/%100m</pctext>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<sketchsubset subname="frametitles"/>
-		<pt X="948.35236" Y="9045.318"/>
-		<pt X="8019.501" Y="16.818544"/>
-	</skpath>
-	<skpath from="12" to="12" linestyle="invisible" splined="1">
-		<pt X="6129.9287" Y="3633.7144"/>
-		<pt X="6129.9287" Y="3633.7144"/>
-	</skpath>
-	<skpath from="18" to="32" linestyle="invisible" splined="1">
-		<pt X="3583.779" Y="3633.7144"/>
-		<pt X="3589.6187" Y="3639.805"/>
-	</skpath>
-	<skpath from="17" to="33" linestyle="connective">
-		<pt X="3583.779" Y="5812.6978"/>
-		<pt X="3589.6187" Y="5807.187"/>
-	</skpath>
-	<skpath from="32" to="33" linestyle="wall" splined="1">
-		<pt X="3589.6187" Y="3639.805"/>
-		<pt X="3589.6187" Y="5807.187"/>
-	</skpath>
-	<skpath from="34" to="31" linestyle="wall" splined="1">
-		<pt X="6124.041" Y="5807.187"/>
-		<pt X="6124.041" Y="3638.1711"/>
-	</skpath>
-	<skpath from="34" to="13" linestyle="connective">
-		<pt X="6124.041" Y="5807.187"/>
-		<pt X="6129.9287" Y="5812.6978"/>
-	</skpath>
-	<skpath from="35" to="34" linestyle="wall" splined="1">
-		<pt X="4713.883" Y="5807.187"/>
-		<pt X="6124.041" Y="5807.187"/>
-	</skpath>
-	<skpath from="33" to="35" linestyle="wall" splined="1">
-		<pt X="3589.6187" Y="5807.187"/>
-		<pt X="4713.883" Y="5807.187"/>
-	</skpath>
-	<skpath from="35" to="36" linestyle="wall" splined="1">
-		<pt X="4713.883" Y="5807.187"/>
-		<pt X="4713.883" Y="3638.1711"/>
-	</skpath>
-	<skpath from="32" to="36" linestyle="wall" splined="1">
-		<pt X="3589.6187" Y="3639.805"/>
-		<pt X="4713.883" Y="3638.1711"/>
-	</skpath>
-	<skpath from="36" to="14" linestyle="connective">
-		<pt X="4713.883" Y="3638.1711"/>
-		<pt X="4721.117" Y="3633.7144"/>
-	</skpath>
-	<skpath from="31" to="36" linestyle="wall" splined="1">
-		<pt X="6124.041" Y="3638.1711"/>
-		<pt X="4713.883" Y="3638.1711"/>
-	</skpath>
-	<skpath from="35" to="38" linestyle="connective">
-		<pt X="4713.883" Y="5807.187"/>
-		<pt X="4650.641" Y="5744.822"/>
-	</skpath>
-	<skpath from="34" to="37" linestyle="connective">
-		<pt X="6124.041" Y="5807.187"/>
-		<pt X="5935.6436" Y="5545.1743"/>
-	</skpath>
-	<skpath from="37" to="39" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">Same&space;centreline&space;-&space;T&space;K&space;Max&newline;Bottom&space;of&space;entrance&space;series</pctext>
-		</pathcodes>
-		<pt X="5935.6436" Y="5545.1743"/>
-		<pt X="5939.2734" Y="6046.1074"/>
-	</skpath>
-	<skpath from="40" to="38" linestyle="connective">
-		<pathcodes>
-			<pctext style="titlearea" nodeposxrel="-1.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">Same&space;centreline&space;-&space;T&space;K&space;Max&newline;Bottom&space;of&space;entrance&space;series</pctext>
-		</pathcodes>
-		<pt X="5518.199" Y="6086.037"/>
-		<pt X="4650.641" Y="5744.822"/>
-	</skpath>
-	<skpath from="18" to="41" linestyle="connective">
-		<pathcodes>
-			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
-			<pcarea area_signal="frame" sfscaledown="650.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-631.7597654445042" sfytrans="8127.599533190129" sfsketch="290/290fishfacearea3_lower.xml" sfstyle="base500" nodeconnzsetrelative="-100.0" sfpixwidth="-1" sfpixheight="-1">
-				<subsetattr name="12monkeys" uppersubset="yellow2"/>
-				<subsetattr name="2023-mg-03" uppersubset="cyan"/>
-				<subsetattr name="291HBentrance" uppersubset="yellow2"/>
-				<subsetattr name="291HBmidlevel" uppersubset="magenta"/>
-				<subsetattr name="295keinewassermelon" uppersubset="cyan"/>
-				<subsetattr name="apismedicus" uppersubset="purple"/>
-				<subsetattr name="avianappendix" uppersubset="red"/>
-				<subsetattr name="baseofpitchescamp" uppersubset="red"/>
-				<subsetattr name="belowdentelledecaca" uppersubset="blue"/>
-				<subsetattr name="coconutcrabwalk" uppersubset="red"/>
-				<subsetattr name="coconutshy" uppersubset="red"/>
-				<subsetattr name="crystalcrumble" uppersubset="green"/>
-				<subsetattr name="cucccanyon" uppersubset="magenta"/>
-				<subsetattr name="defyinggravity" uppersubset="cyan"/>
-				<subsetattr name="delicatesteve" uppersubset="red"/>
-				<subsetattr name="elizabethline" uppersubset="red"/>
-				<subsetattr name="entrance" uppersubset="yellow2"/>
-				<subsetattr name="entranceseries" uppersubset="cyan"/>
-				<subsetattr name="fivemoose" uppersubset="magenta"/>
-				<subsetattr name="freeaticflys" uppersubset="green"/>
-				<subsetattr name="gerbilhole" uppersubset="red"/>
-				<subsetattr name="horrorbank" uppersubset="purple"/>
-				<subsetattr name="icytube" uppersubset="yellow2"/>
-				<subsetattr name="keanubreeze" uppersubset="purple"/>
-				<subsetattr name="kublakhan" uppersubset="red"/>
-				<subsetattr name="liquidluck" uppersubset="green"/>
-				<subsetattr name="lowerentrance" uppersubset="cyan"/>
-				<subsetattr name="maelstrom-lower" uppersubset="green"/>
-				<subsetattr name="maelstrom-upper" uppersubset="cyan"/>
-				<subsetattr name="mendipman" uppersubset="cyan"/>
-				<subsetattr name="mid+lower-bathdodgersbypass" uppersubset="green"/>
-				<subsetattr name="miraclemaze" uppersubset="red"/>
-				<subsetattr name="miraclemaze1" uppersubset="red"/>
-				<subsetattr name="miraclemaze2" uppersubset="red"/>
-				<subsetattr name="mountain-aven" uppersubset="cyan"/>
-				<subsetattr name="mourningthemoths" uppersubset="red"/>
-				<subsetattr name="muddygoons" uppersubset="red"/>
-				<subsetattr name="nicholascage" uppersubset="purple2"/>
-				<subsetattr name="originalroutedown" uppersubset="yellow2"/>
-				<subsetattr name="perseidshowers" uppersubset="purple"/>
-				<subsetattr name="pickingbalconynose" uppersubset="red"/>
-				<subsetattr name="riftpiece" uppersubset="green"/>
-				<subsetattr name="rubblerumble" uppersubset="red2"/>
-				<subsetattr name="sesamestreet" uppersubset="red"/>
-				<subsetattr name="stalagtiteloop" uppersubset="green"/>
-				<subsetattr name="ulysses" uppersubset="green"/>
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="3583.779" Y="3633.7144"/>
-		<pt X="3595.8828" Y="3669.7761"/>
-	</skpath>
-	<skpath from="41" to="42" linestyle="connective">
-		<pathcodes>
-			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
-			<pcarea area_signal="frame" sfscaledown="650.0" sfrotatedeg="0.0" sfelevrotdeg="0.0" sfelevvertplane="" sfxtrans="-631.7597654445042" sfytrans="8127.599533190129" sfsketch="290/290fishfacearea3_lower.xml" sfstyle="base500" nodeconnzsetrelative="-100.0" sfpixwidth="-1" sfpixheight="-1">
-				<subsetattr name="12monkeys" uppersubset="yellow2"/>
-				<subsetattr name="2023-mg-03" uppersubset="cyan"/>
-				<subsetattr name="291HBentrance" uppersubset="yellow2"/>
-				<subsetattr name="291HBmidlevel" uppersubset="magenta"/>
-				<subsetattr name="295keinewassermelon" uppersubset="cyan"/>
-				<subsetattr name="apismedicus" uppersubset="purple"/>
-				<subsetattr name="avianappendix" uppersubset="red"/>
-				<subsetattr name="baseofpitchescamp" uppersubset="red"/>
-				<subsetattr name="belowdentelledecaca" uppersubset="blue"/>
-				<subsetattr name="coconutcrabwalk" uppersubset="red"/>
-				<subsetattr name="coconutshy" uppersubset="red"/>
-				<subsetattr name="crystalcrumble" uppersubset="green"/>
-				<subsetattr name="cucccanyon" uppersubset="magenta"/>
-				<subsetattr name="defyinggravity" uppersubset="cyan"/>
-				<subsetattr name="delicatesteve" uppersubset="red"/>
-				<subsetattr name="elizabethline" uppersubset="red"/>
-				<subsetattr name="entrance" uppersubset="yellow2"/>
-				<subsetattr name="entranceseries" uppersubset="cyan"/>
-				<subsetattr name="fivemoose" uppersubset="magenta"/>
-				<subsetattr name="freeaticflys" uppersubset="green"/>
-				<subsetattr name="gerbilhole" uppersubset="red"/>
-				<subsetattr name="horrorbank" uppersubset="purple"/>
-				<subsetattr name="icytube" uppersubset="yellow2"/>
-				<subsetattr name="keanubreeze" uppersubset="purple"/>
-				<subsetattr name="kublakhan" uppersubset="red"/>
-				<subsetattr name="liquidluck" uppersubset="green"/>
-				<subsetattr name="lowerentrance" uppersubset="cyan"/>
-				<subsetattr name="maelstrom-lower" uppersubset="green"/>
-				<subsetattr name="maelstrom-upper" uppersubset="cyan"/>
-				<subsetattr name="mendipman" uppersubset="cyan"/>
-				<subsetattr name="mid+lower-bathdodgersbypass" uppersubset="green"/>
-				<subsetattr name="miraclemaze" uppersubset="red"/>
-				<subsetattr name="miraclemaze1" uppersubset="red"/>
-				<subsetattr name="miraclemaze2" uppersubset="red"/>
-				<subsetattr name="mountain-aven" uppersubset="cyan"/>
-				<subsetattr name="mourningthemoths" uppersubset="red"/>
-				<subsetattr name="muddygoons" uppersubset="red"/>
-				<subsetattr name="nicholascage" uppersubset="purple2"/>
-				<subsetattr name="originalroutedown" uppersubset="yellow2"/>
-				<subsetattr name="perseidshowers" uppersubset="purple"/>
-				<subsetattr name="pickingbalconynose" uppersubset="red"/>
-				<subsetattr name="riftpiece" uppersubset="green"/>
-				<subsetattr name="rubblerumble" uppersubset="red2"/>
-				<subsetattr name="sesamestreet" uppersubset="red"/>
-				<subsetattr name="stalagtiteloop" uppersubset="green"/>
-				<subsetattr name="ulysses" uppersubset="green"/>
-			</pcarea>
-		</pathcodes>
-		<sketchsubset subname="paper_A0_page_1"/>
-		<pt X="3595.8828" Y="3669.7761"/>
-		<pt X="3766.4465" Y="4177.9507"/>
+	<skpath from="40" to="35" linestyle="wall" splined="1">
+		<pt X="4721.0635" Y="3638.507"/>
+		<pt X="6124.041" Y="3638.507"/>
 	</skpath>
 </sketch>
 </tunnelxml>
