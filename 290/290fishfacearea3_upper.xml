@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 14:14:19">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:41:03">
 <sketch splined="0" locoffsetx="410828.72" locoffsety="5282586.5" locoffsetz="1623.5554" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -19776,7 +19776,7 @@
 		<pt X="146.60767" Y="-1808.9241"/>
 		<pt X="158.89333" Y="-1801.0826"/>
 	</skpath>
-	<skpath from="1637" to="1666" linestyle="wall" splined="1">
+	<skpath from="1637" to="1665" linestyle="wall" splined="1">
 		<sketchsubset subname="entrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="780.9007" Y="-597.2902"/>
@@ -19784,7 +19784,7 @@
 		<pt X="807.6491" Y="-607.77203"/>
 		<pt X="807.9593" Y="-608.1006"/>
 	</skpath>
-	<skpath from="1664" to="1665" linestyle="invisible" splined="1">
+	<skpath from="1664" to="1666" linestyle="invisible" splined="1">
 		<sketchsubset subname="291HBentrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="150.01073" Y="-1790.0054"/>
@@ -19839,7 +19839,7 @@
 		<pt X="1158.9122" Y="-420.90765" Z="536.2463"/>
 		<pt X="1171.4844" Y="-422.39297"/>
 	</skpath>
-	<skpath from="1665" to="1673" linestyle="invisible" splined="1">
+	<skpath from="1666" to="1673" linestyle="invisible" splined="1">
 		<sketchsubset subname="291HBentrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="170.91629" Y="-1803.1324"/>
@@ -19964,7 +19964,7 @@
 		<pt X="205.3702" Y="-1785.84"/>
 		<pt X="204.50493" Y="-1782.5123"/>
 	</skpath>
-	<skpath from="1666" to="1666" linestyle="wall" splined="1">
+	<skpath from="1665" to="1665" linestyle="wall" splined="1">
 		<sketchsubset subname="entrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="807.9593" Y="-608.1006"/>
@@ -19976,7 +19976,7 @@
 		<pt X="201.51224" Y="-1783.7078" Z="545.1463"/>
 		<pt X="204.50493" Y="-1782.5123"/>
 	</skpath>
-	<skpath from="1666" to="1654" linestyle="invisible" splined="1">
+	<skpath from="1665" to="1654" linestyle="invisible" splined="1">
 		<sketchsubset subname="entrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="807.9593" Y="-608.1006"/>
@@ -19988,7 +19988,7 @@
 		<pt X="817.20917" Y="-612.7818"/>
 		<pt X="821.67804" Y="-610.5484"/>
 	</skpath>
-	<skpath from="48" to="1666" linestyle="connective">
+	<skpath from="48" to="1665" linestyle="connective">
 		<sketchsubset subname="entrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="841.1122" Y="-587.8077" Z="561.3463"/>
@@ -20267,7 +20267,7 @@
 		<pt X="658.43384" Y="-1733.3127"/>
 		<pt X="657.7854" Y="-1734.3958"/>
 	</skpath>
-	<skpath from="1666" to="1700" linestyle="wall" splined="1">
+	<skpath from="1665" to="1700" linestyle="wall" splined="1">
 		<sketchsubset subname="entrance"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="807.9593" Y="-608.1006"/>
@@ -44963,7 +44963,7 @@
 		<pt X="-621.62177" Y="267.51837"/>
 		<pt X="-591.30835" Y="292.6906"/>
 	</skpath>
-	<skpath from="3686" to="1665" linestyle="connective">
+	<skpath from="3686" to="1666" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="0.0" nodeposyrel="-1.0">Entrance</pctext>
 		</pathcodes>
@@ -45032,14 +45032,7 @@
 		<pt X="-511.53827" Y="-870.5845"/>
 		<pt X="61.075718" Y="-903.6453"/>
 	</skpath>
-	<skpath from="3693" to="197" linestyle="connective">
-		<pathcodes>
-			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">See&space;lower&space;level&space;drawing&newline;for&space;anything&space;below&newline;this&space;pitch&space;series</pctext>
-		</pathcodes>
-		<pt X="1181.3228" Y="-109.67956"/>
-		<pt X="1112.9122" Y="-147.20766" Z="-1046.0537"/>
-	</skpath>
-	<skpath from="3694" to="160" linestyle="connective">
+	<skpath from="3693" to="160" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">The&space;Shit&space;Show</pctext>
 		</pathcodes>
@@ -45048,14 +45041,7 @@
 		<pt X="1210.4163" Y="-191.67049"/>
 		<pt X="1215.3123" Y="-227.80765" Z="-881.25366"/>
 	</skpath>
-	<skpath from="3695" to="198" linestyle="connective">
-		<pathcodes>
-			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Rubble&space;Rumble&newline;(2018#28)&space;not&newline;drawn&space;up&space;:-(</pctext>
-		</pathcodes>
-		<pt X="1183.9677" Y="-6.529695"/>
-		<pt X="1120.2123" Y="-130.90765" Z="-1044.1537"/>
-	</skpath>
-	<skpath from="3696" to="818" linestyle="connective">
+	<skpath from="3694" to="818" linestyle="connective">
 		<pathcodes>
 			<pctext style="entrance" nodeposxrel="0.0" nodeposyrel="0.0">Coleric&space;&newline;Chamber</pctext>
 		</pathcodes>
@@ -45064,13 +45050,27 @@
 		<pt X="1297.3086" Y="186.40009"/>
 		<pt X="1262.3167" Y="162.39532"/>
 	</skpath>
-	<skpath from="3697" to="311" linestyle="connective">
+	<skpath from="3695" to="311" linestyle="connective">
 		<pathcodes>
 			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">Stalagtite&space;&newline;Loop</pctext>
 		</pathcodes>
 		<sketchsubset subname="stalagtiteloop"/>
 		<pt X="582.76184" Y="-404.0595"/>
 		<pt X="593.0122" Y="-427.70767" Z="-510.8537"/>
+	</skpath>
+	<skpath from="3696" to="197" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">See&space;lower&space;level&space;drawing&newline;for&space;anything&space;below&newline;this&space;pitch&space;series</pctext>
+		</pathcodes>
+		<pt X="1166.461" Y="-122.912445"/>
+		<pt X="1112.9122" Y="-147.20766" Z="-1046.0537"/>
+	</skpath>
+	<skpath from="3697" to="198" linestyle="connective">
+		<pathcodes>
+			<pctext style="area" nodeposxrel="-1.0" nodeposyrel="0.0" arrowpres="1" boxpres="0">Rubble&space;Rumble&newline;(2018#28)&space;not&newline;drawn&space;up&space;:-(</pctext>
+		</pathcodes>
+		<pt X="1171.4156" Y="-14.82861"/>
+		<pt X="1120.2123" Y="-130.90765" Z="-1044.1537"/>
 	</skpath>
 </sketch>
 </tunnelxml>
