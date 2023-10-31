@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:41:42">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-31 16:14:08">
 <sketch splined="0" locoffsetx="410828.72" locoffsety="5282586.5" locoffsetz="1623.5554" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -31,6 +31,7 @@
 			<cl_stations tail="1623.290.rubblerumble.4" head="1623.290.rubblerumble.5"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
+		<sketchsubset subname="rubblerumble"/>
 		<pt X="1112.9122" Y="-147.20766" Z="-1046.0537"/>
 		<pt X="1120.2123" Y="-130.90765" Z="-1044.1537"/>
 	</skpath>
@@ -39,6 +40,7 @@
 			<cl_stations tail="1623.290.rubblerumble.5" head="1623.290.rubblerumble.6"/>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
+		<sketchsubset subname="rubblerumble"/>
 		<pt X="1120.2123" Y="-130.90765" Z="-1044.1537"/>
 		<pt X="1109.7122" Y="-116.70766" Z="-1025.2537"/>
 	</skpath>
@@ -48,6 +50,7 @@
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 		</pathcodes>
 		<sketchsubset subname="_CentrelineCut_"/>
+		<sketchsubset subname="rubblerumble"/>
 		<pt X="1109.7122" Y="-116.70766" Z="-1025.2537"/>
 		<pt X="1081.0122" Y="-111.00766" Z="-1003.95374"/>
 	</skpath>
@@ -22105,7 +22108,7 @@
 		<pt X="689.6877" Y="-788.5877"/>
 		<pt X="695.5694" Y="-804.66046"/>
 	</skpath>
-	<skpath from="1850" to="18" linestyle="wall" splined="1">
+	<skpath from="1850" to="18" linestyle="connective">
 		<sketchsubset subname="baseofpitchescamp"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="1061.7285" Y="-191.42412"/>
@@ -22364,6 +22367,7 @@
 	</skpath>
 	<skpath from="1881" to="1847" linestyle="wall" splined="1">
 		<sketchsubset subname="miraclemaze2"/>
+		<sketchsubset subname="baseofpitchescamp"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="1008.9436" Y="-251.70148"/>
 		<pt X="1014.79376" Y="-243.05537"/>
@@ -23284,14 +23288,6 @@
 		<pt X="936.19214" Y="614.6926"/>
 		<pt X="946.85785" Y="616.79126"/>
 	</skpath>
-	<skpath from="18" to="17" linestyle="wall" splined="1">
-		<sketchsubset subname="rubblerumble"/>
-		<sketchsubset subname="baseofpitchescamp"/>
-		<importfrom subname="290fishfacearea2"/>
-		<pt X="1061.2123" Y="-193.60765" Z="-1913.7537"/>
-		<pt X="1068.7393" Y="-197.8742"/>
-		<pt X="1076.2123" Y="-208.70766" Z="-1876.0537"/>
-	</skpath>
 	<skpath from="1899" to="157" linestyle="connective">
 		<sketchsubset subname="elizabethline"/>
 		<importfrom subname="290fishfacearea2"/>
@@ -23433,6 +23429,7 @@
 	<skpath from="1902" to="1779" linestyle="pitchbound" splined="1">
 		<sketchsubset subname="miraclemaze2"/>
 		<sketchsubset subname="perseidshowers"/>
+		<sketchsubset subname="baseofpitchescamp"/>
 		<importfrom subname="290fishfacearea2"/>
 		<pt X="1062.18" Y="-79.90021"/>
 		<pt X="1063.0018" Y="-73.86644"/>
@@ -49224,10 +49221,24 @@
 	</skpath>
 	<skpath from="3926" to="5" linestyle="connective">
 		<pathcodes>
-			<pctext style="area" nodeposxrel="0.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">Rubble&space;Rumble&newline;(2018#28)&space;not&space;&newline;drawn&space;up&space;:-(</pctext>
+			<pctext style="area" nodeposxrel="0.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">Rubble&space;Rumble</pctext>
 		</pathcodes>
+		<sketchsubset subname="rubblerumble"/>
 		<pt X="1049.1305" Y="124.37568"/>
 		<pt X="1109.7122" Y="-116.70766" Z="-1025.2537"/>
+	</skpath>
+	<skpath from="3927" to="17" linestyle="wall" splined="1">
+		<sketchsubset subname="rubblerumble"/>
+		<sketchsubset subname="baseofpitchescamp"/>
+		<importfrom subname="290fishfacearea2"/>
+		<pt X="1063.1833" Y="-194.50371"/>
+		<pt X="1068.7393" Y="-197.8742"/>
+		<pt X="1076.2123" Y="-208.70766" Z="-1876.0537"/>
+	</skpath>
+	<skpath from="3927" to="1850" linestyle="wall" splined="1">
+		<sketchsubset subname="baseofpitchescamp"/>
+		<pt X="1063.1833" Y="-194.50371"/>
+		<pt X="1061.7285" Y="-191.42412"/>
 	</skpath>
 </sketch>
 </tunnelxml>
