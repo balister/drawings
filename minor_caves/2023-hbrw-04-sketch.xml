@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-31 09:38:28">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-31 09:57:48">
 <sketch splined="0" locoffsetx="-4.256" locoffsety="7.05" locoffsetz="-9.106" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -602,28 +602,35 @@
 		<pt X="16.152884" Y="63.69951"/>
 		<pt X="9.651274" Y="48.472557"/>
 	</skpath>
-	<skpath from="72" to="7" linestyle="connective">
-		<pathcodes>
-			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Unlucky&space;Gemse&space;Hole</pctext>
-		</pathcodes>
-		<pt X="-106.85979" Y="-137.69397"/>
-		<pt X="-51.194447" Y="-81.51737"/>
-		<pt X="-67.05165" Y="-88.783104"/>
-	</skpath>
-	<skpath from="73" to="11" linestyle="connective">
+	<skpath from="72" to="11" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="1.0" nodeposyrel="1.0" arrowpres="1" boxpres="0">Old&space;spits&space;found&space;&newline;below&space;jammed&space;&newline;boulder</pctext>
 		</pathcodes>
 		<pt X="-22.370249" Y="10.54583"/>
 		<pt X="-10.375597" Y="-1.5233707"/>
 	</skpath>
-	<skpath from="74" to="8" linestyle="connective">
+	<skpath from="73" to="8" linestyle="connective">
 		<pathcodes>
 			<pctext style="step" nodeposxrel="0.0" nodeposyrel="0.0">p4</pctext>
 		</pathcodes>
 		<pt X="-98.27104" Y="-9.094291"/>
 		<pt X="-81.25936" Y="-16.548847"/>
 		<pt X="-84.58914" Y="-13.0724535"/>
+	</skpath>
+	<skpath from="74" to="7" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Ungl&#252;ckliche&space;G&#228;msenh&#246;hle</pctext>
+		</pathcodes>
+		<pt X="-125.30387" Y="-160.90482"/>
+		<pt X="-43.78025" Y="-78.014725"/>
+		<pt X="-67.05165" Y="-88.783104"/>
+	</skpath>
+	<skpath from="75" to="74" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">UTM&space;33&space;13.8083729&space;47.6921957&space;1728m&space;altitude&newline;Found&space;in&space;2023:&space;33m&space;long,&space;25m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-124.18886" Y="-132.47188"/>
+		<pt X="-125.30387" Y="-160.90482"/>
 	</skpath>
 </sketch>
 </tunnelxml>
