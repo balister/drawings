@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-03 19:19:07">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-01 16:58:00">
 <sketch splined="0" locoffsetx="0.87666667" locoffsety="0.21111111" locoffsetz="-3.6111112" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -371,11 +371,48 @@
 	</skpath>
 	<skpath from="43" to="8" linestyle="connective">
 		<pathcodes>
-			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">2023-hbrw-01</pctext>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Kleiner&space;Abfluss&space;H&#246;hle</pctext>
 		</pathcodes>
-		<pt X="33.632893" Y="-29.481903"/>
-		<pt X="11.987543" Y="-10.358467"/>
+		<pt X="-80.88285" Y="-111.087494"/>
+		<pt X="22.326532" Y="-4.4982038"/>
 		<pt X="13.52526" Y="-12.003317"/>
+	</skpath>
+	<skpath from="18" to="19" linestyle="invisible" splined="1">
+		<pt X="-27.017748" Y="27.026802"/>
+		<pt X="-12.594978" Y="20.341248"/>
+	</skpath>
+	<skpath from="16" to="17" linestyle="ceilingbound" splined="1">
+		<pt X="-6.8108463" Y="5.392647"/>
+		<pt X="-9.92313" Y="0.64953077"/>
+		<pt X="-14.172468" Y="-0.39148507"/>
+	</skpath>
+	<skpath from="44" to="43" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="1.0">Initial&space;temporary&space;name&space;2023-hbrw-01&newline;UTM&space;410420&space;5282810&space;1721m&space;altitude&space;&newline;Found&space;in&space;2023:&space;14m&space;long,&space;9m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-78.86609" Y="-108.712166"/>
+		<pt X="-80.88285" Y="-111.087494"/>
+	</skpath>
+	<skpath from="45" to="28" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="0.0">%t1/0.6%%v0/%%h0/%&tab;&tab;&tab;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<pt X="122.2447" Y="4.907505"/>
+		<pt X="-13.106257" Y="34.840855"/>
+	</skpath>
+	<skpath from="46" to="45" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">N</pctext>
+		</pathcodes>
+		<pt X="121.45292" Y="-9.740328"/>
+		<pt X="122.2447" Y="4.907505"/>
+	</skpath>
+	<skpath from="47" to="27" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="1.0">%0/1.0000%%v0/%&newline;;%20/%%v1/%%whiterect%&space;&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%5m&newline;;%10/%10m&newline;;%10/%20m</pctext>
+		</pathcodes>
+		<pt X="-63.82237" Y="78.938446"/>
+		<pt X="-16.937305" Y="36.042755"/>
 	</skpath>
 </sketch>
 </tunnelxml>
