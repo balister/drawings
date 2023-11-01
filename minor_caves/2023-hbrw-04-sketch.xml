@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-31 17:16:56">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-01 10:18:26">
 <sketch splined="0" locoffsetx="-4.256" locoffsety="7.05" locoffsetz="-9.106" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -309,7 +309,7 @@
 	</skpath>
 	<skpath from="42" to="35" linestyle="connective">
 		<pathcodes>
-			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">Heading&space;towards&space;the&space;surface</pctext>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">Heading&space;towards&space;&newline;the&space;surface</pctext>
 		</pathcodes>
 		<pt X="54.936607" Y="-13.761119"/>
 		<pt X="53.163536" Y="-21.323212"/>
@@ -635,6 +635,27 @@
 	<skpath from="74" to="76" linestyle="connective">
 		<pt X="-125.699" Y="-177.47766"/>
 		<pt X="-125.55175" Y="-156.17017"/>
+	</skpath>
+	<skpath from="78" to="77" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0">%0/1.0000%%v0/%&newline;;%20/%%v1/%%whiterect%&space;&newline;%1/%%v0.5/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%5/%%v0.5/%%blackrect%&newline;;%5/%%v1/%&newline;;%5/%%v0.5/%%blackrect%&newline;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%1/%&newline;;%1/%%v0.5/%%blackrect%&newline;;%5/%&newline;;%5/%%v0.5/%%blackrect%&newline;%v0.8/%&newline;%4.5/%0m&newline;;%5/%5m&newline;;%10/%10m&newline;;%10/%20m</pctext>
+		</pathcodes>
+		<pt X="-116.41482" Y="117.308556"/>
+		<pt X="122.388435" Y="6.185936"/>
+	</skpath>
+	<skpath from="77" to="79" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="-1.0">N</pctext>
+		</pathcodes>
+		<pt X="122.388435" Y="6.185936"/>
+		<pt X="122.020485" Y="23.84781"/>
+	</skpath>
+	<skpath from="79" to="5" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="0.0" nodeposyrel="1.0">%t1/0.6%%v0/%%h0/%&tab;&tab;&tab;&newline;;%v3/%%t0/%%h2/%%whiterect%&newline;%t1/%%v0/%%h0/%&newline;;%v3/%%t0/%%h1/%%blackrect%</pctext>
+		</pathcodes>
+		<pt X="122.020485" Y="23.84781"/>
+		<pt X="42.56" Y="70.5" Z="91.06"/>
 	</skpath>
 </sketch>
 </tunnelxml>
