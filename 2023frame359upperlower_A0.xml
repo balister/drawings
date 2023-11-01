@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-30 15:22:11">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-01 21:32:26">
 <sketch splined="0" locoffsetx="0.0" locoffsety="0.0" locoffsetz="0.0" realpaperscale="1000.0">
 	<skpath from="0" to="1" linestyle="invisible">
 		<sketchsubset subname="paper_A0_page_1"/>
@@ -183,6 +183,37 @@
 		<sketchsubset subname="frametitles"/>
 		<pt X="1792.5499" Y="2226.9907"/>
 		<pt X="1308.5565" Y="3057.4792"/>
+	</skpath>
+	<skpath from="21" to="22" linestyle="wall" splined="1">
+		<pt X="4500.2646" Y="7713.828"/>
+		<pt X="3008.8174" Y="7723.64"/>
+	</skpath>
+	<skpath from="22" to="23" linestyle="wall" splined="1">
+		<pt X="3008.8174" Y="7723.64"/>
+		<pt X="3106.939" Y="6560.9004"/>
+	</skpath>
+	<skpath from="10" to="23" linestyle="connective">
+		<pt X="2463.1113" Y="4320.8135"/>
+		<pt X="3106.939" Y="6560.9004"/>
+	</skpath>
+	<skpath from="23" to="24" linestyle="wall" splined="1">
+		<pt X="3106.939" Y="6560.9004"/>
+		<pt X="4470.828" Y="6560.9004"/>
+	</skpath>
+	<skpath from="24" to="21" linestyle="wall" splined="1">
+		<pt X="4470.828" Y="6560.9004"/>
+		<pt X="4500.2646" Y="7713.828"/>
+	</skpath>
+	<skpath from="23" to="25" linestyle="connective">
+		<pathcodes>
+			<pctext style="titledetails" nodeposxrel="-1.0" nodeposyrel="-1.0">Move&space;upper&space;section&space;of&space;359&newline;(drawn&space;just&space;above&space;this&space;box)&newline;into&space;a&space;box&space;approx&space;here</pctext>
+		</pathcodes>
+		<pt X="3106.939" Y="6560.9004"/>
+		<pt X="3450.3643" Y="7056.414"/>
+	</skpath>
+	<skpath from="23" to="1" linestyle="connective">
+		<pt X="3106.939" Y="6560.9004"/>
+		<pt X="-295.69693" Y="-117.45453"/>
 	</skpath>
 </sketch>
 </tunnelxml>
