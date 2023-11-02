@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-12 18:38:10">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-02 10:25:15">
 <sketch splined="0" locoffsetx="-2.3628964" locoffsety="-13.669655" locoffsetz="-39.29083" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -608,7 +608,7 @@
 	</skpath>
 	<skpath from="67" to="14" linestyle="connective">
 		<pathcodes>
-			<pctext style="entrance" nodeposxrel="-1.2" nodeposyrel="0.0" arrowpres="1" boxpres="0">2023-hbrw-03&space;&newline;Amphitheatre&space;Cave&newline;Entrance</pctext>
+			<pctext style="entrance" nodeposxrel="-1.2" nodeposyrel="0.0" arrowpres="1" boxpres="0">Entrance</pctext>
 		</pathcodes>
 		<pt X="53.73386" Y="-140.60121"/>
 		<pt X="26.726336" Y="-139.66359"/>
@@ -700,6 +700,20 @@
 		</pathcodes>
 		<pt X="-63.4365" Y="-131.67802"/>
 		<pt X="-55.92725" Y="-115.90282"/>
+	</skpath>
+	<skpath from="77" to="78" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Initial&space;temporary&space;name&space;2023-hbrw-03&newline;UTM&space;410426&space;5282849&space;1721m&space;altitude&space;&newline;Found&space;in&space;2023:&space;100m&space;long,&space;78m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-89.60091" Y="-185.37221"/>
+		<pt X="-91.024345" Y="-252.07701"/>
+	</skpath>
+	<skpath from="78" to="14" linestyle="connective">
+		<pathcodes>
+			<pctext style="cave" nodeposxrel="-1.0" nodeposyrel="-1.0">Amphitheater&space;H&#246;hle</pctext>
+		</pathcodes>
+		<pt X="-91.024345" Y="-252.07701"/>
+		<pt X="26.726336" Y="-139.66359"/>
 	</skpath>
 </sketch>
 </tunnelxml>
