@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-08 15:19:59">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-13 13:15:44">
 <sketch splined="0" locoffsetx="2.59875" locoffsety="0.8925" locoffsetz="-2.78625" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -343,6 +343,21 @@
 		<pt X="14.657923" Y="-24.657696"/>
 		<pt X="19.572214" Y="-28.729868"/>
 		<pt X="24.800295" Y="-33.07691"/>
+	</skpath>
+	<skpath from="41" to="20" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Katzenaugenh&#246;hle&newline;2023-kt-01</pctext>
+		</pathcodes>
+		<pt X="-116.33642" Y="-120.97623"/>
+		<pt X="7.2831073" Y="-22.346458"/>
+		<pt X="6.937764" Y="-26.174587"/>
+	</skpath>
+	<skpath from="42" to="41" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="-1.0">Found&space;in&space;2023:&space;24m&space;long,&space;7m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-115.10555" Y="-100.333786"/>
+		<pt X="-116.33642" Y="-120.97623"/>
 	</skpath>
 </sketch>
 </tunnelxml>

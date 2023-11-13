@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-14 15:25:37">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-13 13:03:45">
 <sketch splined="0" locoffsetx="7.834615" locoffsety="0.31538463" locoffsetz="-3.4115384" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -66,7 +66,7 @@
 		</pathcodes>
 		<sketchsubset subname="Silver Moth"/>
 		<pt X="-34.146152" Y="-3.146154" Z="40.315384"/>
-		<pt X="69.95385" Y="26.453846" Z="78.61539"/>
+		<pt X="69.95385" Y="26.453846"/>
 	</skpath>
 	<skpath from="5" to="7" linestyle="centreline">
 		<pathcodes>
@@ -194,13 +194,6 @@
 		<pt X="-98.88975" Y="6.012362"/>
 		<pt X="-78.34615" Y="3.1538463" Z="34.115383"/>
 	</skpath>
-	<skpath from="27" to="22" linestyle="connective">
-		<pathcodes>
-			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="-1.0">Silver&space;Moth&newline;2023-kt-02</pctext>
-		</pathcodes>
-		<pt X="-41.923565" Y="-40.750923"/>
-		<pt X="-42.656445" Y="-9.568058"/>
-	</skpath>
 	<skpath from="25" to="24" linestyle="wall" splined="1">
 		<pt X="-83.20022" Y="-7.18313"/>
 		<pt X="-71.89458" Y="-9.717107"/>
@@ -211,16 +204,16 @@
 		<pt X="-46.387333" Y="-10.142228"/>
 		<pt X="-42.656445" Y="-9.568058"/>
 	</skpath>
-	<skpath from="28" to="22" linestyle="wall" splined="1">
+	<skpath from="27" to="22" linestyle="wall" splined="1">
 		<pt X="-34.48395" Y="-6.7412615"/>
 		<pt X="-42.656445" Y="-9.568058"/>
 	</skpath>
-	<skpath from="28" to="29" linestyle="wall" splined="1">
+	<skpath from="27" to="28" linestyle="wall" splined="1">
 		<pt X="-34.48395" Y="-6.7412615"/>
 		<pt X="70.94601" Y="23.654875"/>
 		<pt X="73.28417" Y="27.268402"/>
 	</skpath>
-	<skpath from="29" to="30" linestyle="wall" splined="1">
+	<skpath from="28" to="29" linestyle="wall" splined="1">
 		<pt X="73.28417" Y="27.268402"/>
 		<pt X="65.84456" Y="28.543764"/>
 		<pt X="-23.218248" Y="2.186275"/>
@@ -290,7 +283,7 @@
 		<pt X="-82.310036" Y="-2.4900537"/>
 		<pt X="-83.20022" Y="-7.18313"/>
 	</skpath>
-	<skpath from="24" to="31" linestyle="connective">
+	<skpath from="24" to="30" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -299,14 +292,14 @@
 		<pt X="-55.843693" Y="-11.251536"/>
 		<pt X="-64.66753" Y="-7.591503"/>
 	</skpath>
-	<skpath from="32" to="29" linestyle="connective">
+	<skpath from="31" to="28" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">Boulder&space;choke</pctext>
 		</pathcodes>
 		<pt X="85.400116" Y="33.007534"/>
 		<pt X="73.28417" Y="27.268402"/>
 	</skpath>
-	<skpath from="8" to="33" linestyle="connective">
+	<skpath from="8" to="32" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -315,25 +308,25 @@
 		<pt X="15.053845" Y="16.553846" Z="3.0153847"/>
 		<pt X="7.885284" Y="15.030876"/>
 	</skpath>
-	<skpath from="5" to="34" linestyle="connective">
+	<skpath from="5" to="33" linestyle="connective">
 		<pt X="-34.146152" Y="-3.146154" Z="40.315384"/>
 		<pt X="-32.680878" Y="1.1790121"/>
 	</skpath>
-	<skpath from="34" to="20" linestyle="wall" splined="1">
+	<skpath from="33" to="20" linestyle="wall" splined="1">
 		<pt X="-32.680878" Y="1.1790121"/>
 		<pt X="-30.232742" Y="8.775647"/>
 		<pt X="-26.52311" Y="21.856873"/>
 	</skpath>
-	<skpath from="34" to="30" linestyle="wall" splined="1">
+	<skpath from="33" to="29" linestyle="wall" splined="1">
 		<pt X="-32.680878" Y="1.1790121"/>
 		<pt X="-31.720665" Y="-1.002131"/>
 	</skpath>
-	<skpath from="21" to="30" linestyle="invisible" splined="1">
+	<skpath from="21" to="29" linestyle="invisible" splined="1">
 		<pt X="-39.57007" Y="2.4968708"/>
 		<pt X="-35.274696" Y="-0.029659273"/>
 		<pt X="-31.720665" Y="-1.002131"/>
 	</skpath>
-	<skpath from="20" to="35" linestyle="connective">
+	<skpath from="20" to="34" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="boulders"/>
@@ -341,6 +334,20 @@
 		</pathcodes>
 		<pt X="-26.52311" Y="21.856873"/>
 		<pt X="-27.454601" Y="23.558083"/>
+	</skpath>
+	<skpath from="35" to="22" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="-1.0">Silbermotte&space;&newline;2023-kt-02</pctext>
+		</pathcodes>
+		<pt X="-40.629448" Y="-60.243828"/>
+		<pt X="-42.656445" Y="-9.568058"/>
+	</skpath>
+	<skpath from="36" to="35" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0">UTM&space;33N&space;410950&space;5282723&newline;Found&space;in&space;2023:&space;39m&space;long,&space;18m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-102.850136" Y="-49.739037"/>
+		<pt X="-40.629448" Y="-60.243828"/>
 	</skpath>
 </sketch>
 </tunnelxml>
