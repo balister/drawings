@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-13 10:19:05">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-13 20:29:36">
 <sketch splined="0" locoffsetx="1.3" locoffsety="2.252" locoffsetz="-2.0" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="centreline">
 		<pathcodes>
@@ -107,7 +107,7 @@
 		<pt X="25.476751" Y="-39.28039"/>
 		<pt X="18.658524" Y="-30.143597"/>
 	</skpath>
-	<skpath from="10" to="13" linestyle="pitchbound" splined="1">
+	<skpath from="10" to="13" linestyle="wall" splined="1">
 		<pt X="15.157511" Y="-23.05353"/>
 		<pt X="14.188141" Y="-17.716162"/>
 		<pt X="11.92882" Y="-10.667078"/>
@@ -119,7 +119,7 @@
 		<pt X="-9.579922" Y="23.132374"/>
 		<pt X="-13.6714325" Y="24.030733"/>
 	</skpath>
-	<skpath from="15" to="11" linestyle="pitchbound" splined="1">
+	<skpath from="15" to="11" linestyle="wall" splined="1">
 		<pt X="-4.247923" Y="-23.951889"/>
 		<pt X="0.056663" Y="-28.046095"/>
 	</skpath>
@@ -266,6 +266,28 @@
 		</pathcodes>
 		<pt X="11.92882" Y="-10.667078"/>
 		<pt X="3.1781075" Y="-20.715124"/>
+	</skpath>
+	<skpath from="26" to="0" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="1.0" nodeposyrel="0.0">Entrance</pctext>
+		</pathcodes>
+		<pt X="-20.728611" Y="23.69159"/>
+		<pt X="-13.0" Y="22.52" Z="20.0"/>
+	</skpath>
+	<skpath from="27" to="11" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="0.0" nodeposyrel="-1.0">Adidas&space;Lederhosen&newline;2023-mg-01</pctext>
+		</pathcodes>
+		<pt X="-49.25993" Y="-42.149647"/>
+		<pt X="-3.3137224" Y="-21.923048"/>
+		<pt X="0.056663" Y="-28.046095"/>
+	</skpath>
+	<skpath from="28" to="27" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0">UTM&space;33N&space;411388&space;5282574&space;&newline;Found&space;in&space;2023;&space;12m&space;long,&space;5m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-153.51051" Y="-29.786596"/>
+		<pt X="-49.25993" Y="-42.149647"/>
 	</skpath>
 </sketch>
 </tunnelxml>

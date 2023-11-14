@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2019-07-01" tunnelproject="projectname" tunneluser="username" tunneldate="2023-07-13 18:06:13">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-14 09:07:15">
 <sketch splined="0" locoffsetx="0.76166666" locoffsety="2.0983334" locoffsetz="-1.6666666" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -276,6 +276,36 @@
 		</pathcodes>
 		<pt X="-33.07951" Y="-7.000505"/>
 		<pt X="-49.65234" Y="-44.729298"/>
+	</skpath>
+	<skpath from="35" to="31" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">tt</pctext>
+		</pathcodes>
+		<pt X="46.450058" Y="-101.86553"/>
+		<pt X="37.2073" Y="-92.469734"/>
+		<pt X="34.739353" Y="-99.53451"/>
+	</skpath>
+	<skpath from="36" to="2" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Doppellochh&#246;hle&newline;2023-mg-02</pctext>
+		</pathcodes>
+		<pt X="76.81183" Y="-28.544783"/>
+		<pt X="-20.234426" Y="5.6206956"/>
+		<pt X="-7.616667" Y="20.983334" Z="-3.3333335"/>
+	</skpath>
+	<skpath from="37" to="36" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">UTM&space;33N&space;411380&space;5282565&space;&newline;Found&space;in&space;2023:&space;9m&space;long,&space;2m</pctext>
+		</pathcodes>
+		<pt X="80.737305" Y="-4.6350694"/>
+		<pt X="76.81183" Y="-28.544783"/>
+	</skpath>
+	<skpath from="38" to="35" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">Crawl&space;continues&space;low</pctext>
+		</pathcodes>
+		<pt X="63.251095" Y="-109.90918"/>
+		<pt X="46.450058" Y="-101.86553"/>
 	</skpath>
 </sketch>
 </tunnelxml>

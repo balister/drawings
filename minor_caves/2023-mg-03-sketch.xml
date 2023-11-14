@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-13 10:16:01">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-14 09:44:22">
 <sketch splined="0" locoffsetx="411083.4" locoffsety="5282705.5" locoffsetz="1756.7682" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -750,6 +750,21 @@
 		</pathcodes>
 		<pt X="128.32555" Y="-145.94339"/>
 		<pt X="85.71866" Y="-136.11462"/>
+	</skpath>
+	<skpath from="83" to="20" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Kalte&space;Salamanderh&#246;hle&newline;2023-mg-03</pctext>
+		</pathcodes>
+		<pt X="-281.85483" Y="-71.450035"/>
+		<pt X="-133.3895" Y="77.01529"/>
+		<pt X="-143.97116" Y="58.48915"/>
+	</skpath>
+	<skpath from="84" to="83" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">UTM&space;33N&space;&newline;Found&space;in&space;2023:&space;88m&space;long,&space;15m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-281.85483" Y="-52.41602"/>
+		<pt X="-281.85483" Y="-71.450035"/>
 	</skpath>
 </sketch>
 </tunnelxml>
