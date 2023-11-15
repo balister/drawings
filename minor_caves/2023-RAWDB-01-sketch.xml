@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-09-18 15:52:45">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-15 16:35:13">
 <sketch splined="0" locoffsetx="12.314" locoffsety="-6.843" locoffsetz="-4.364" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -598,11 +598,18 @@
 	</skpath>
 	<skpath from="62" to="31" linestyle="connective">
 		<pathcodes>
-			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Dead&space;Balloon&space;Hole&newline;2023-RAWDB-01</pctext>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="-1.0">Totes&space;Ballonloch&space;&newline;2023-RAWDB-01</pctext>
 		</pathcodes>
 		<pt X="-23.578127" Y="-101.00384"/>
 		<pt X="-69.36787" Y="-28.560534"/>
 		<pt X="-65.15057" Y="-35.361233"/>
+	</skpath>
+	<skpath from="63" to="62" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="0.0">UTM&space;33N&space;410941&space;5282803&space;&space;&newline;Found&space;in&space;2023;&space;&space;33m&space;long,&space;7m&space;deep&newline;Estimated&space;centreline,&space;not&space;accurate</pctext>
+		</pathcodes>
+		<pt X="-22.746265" Y="-84.34835"/>
+		<pt X="-23.578127" Y="-101.00384"/>
 	</skpath>
 </sketch>
 </tunnelxml>
