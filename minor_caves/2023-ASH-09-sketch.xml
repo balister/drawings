@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-08-nix DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-10-04 20:13:17">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2023-11-16 12:45:35">
 <sketch splined="0" locoffsetx="-2.022157" locoffsety="-0.4809804" locoffsetz="-1.4672549" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -92,21 +92,6 @@
 		<pt X="23.135082" Y="-13.53089"/>
 		<pt X="20.22157" Y="-4.809804"/>
 	</skpath>
-	<skpath from="9" to="11" linestyle="detail" splined="1">
-		<sketchsubset subname="default"/>
-		<pt X="23.135082" Y="-13.53089"/>
-		<pt X="31.76482" Y="-12.361366"/>
-		<pt X="33.11192" Y="-11.837494"/>
-		<pt X="33.745106" Y="-10.041614"/>
-		<pt X="35.74951" Y="-4.54381"/>
-		<pt X="38.899296" Y="2.7865944"/>
-		<pt X="40.388283" Y="9.200698"/>
-		<pt X="40.10194" Y="12.178675"/>
-		<pt X="33.458763" Y="12.808632"/>
-		<pt X="24.753906" Y="11.491449"/>
-		<pt X="18.683414" Y="9.773386"/>
-		<pt X="13.8473215" Y="8.1812725"/>
-	</skpath>
 	<skpath from="11" to="8" linestyle="detail" splined="1">
 		<sketchsubset subname="default"/>
 		<pt X="13.8473215" Y="8.1812725"/>
@@ -182,35 +167,25 @@
 	</skpath>
 	<skpath from="18" to="19" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
-		<pt X="9.163804" Y="-16.521196"/>
 		<pt X="5.4218616" Y="-20.981289"/>
+		<pt X="12.981341" Y="-25.819357"/>
 	</skpath>
 	<skpath from="19" to="20" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
-		<pt X="5.4218616" Y="-20.981289"/>
 		<pt X="12.981341" Y="-25.819357"/>
+		<pt X="14.531034" Y="-25.32799"/>
 	</skpath>
 	<skpath from="20" to="21" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
-		<pt X="12.981341" Y="-25.819357"/>
 		<pt X="14.531034" Y="-25.32799"/>
+		<pt X="16.874474" Y="-21.775034"/>
 	</skpath>
 	<skpath from="21" to="22" linestyle="detail" splined="1">
 		<sketchsubset subname="yellow2"/>
-		<pt X="14.531034" Y="-25.32799"/>
-		<pt X="16.874474" Y="-21.775034"/>
-	</skpath>
-	<skpath from="22" to="23" linestyle="detail" splined="1">
-		<sketchsubset subname="yellow2"/>
 		<pt X="16.874474" Y="-21.775034"/>
 		<pt X="9.692967" Y="-16.067627"/>
 	</skpath>
-	<skpath from="23" to="18" linestyle="detail" splined="1">
-		<sketchsubset subname="yellow2"/>
-		<pt X="9.692967" Y="-16.067627"/>
-		<pt X="9.163804" Y="-16.521196"/>
-	</skpath>
-	<skpath from="7" to="24" linestyle="wall" splined="1">
+	<skpath from="7" to="23" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="9.779775" Y="-15.399161"/>
 		<pt X="18.547626" Y="-20.581987"/>
@@ -224,7 +199,7 @@
 		<pt X="7.2656755" Y="-34.383762"/>
 		<pt X="5.7160344" Y="-33.84003"/>
 	</skpath>
-	<skpath from="24" to="25" linestyle="wall" splined="1">
+	<skpath from="23" to="24" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="5.7160344" Y="-33.84003"/>
 		<pt X="4.344968" Y="-33.467464"/>
@@ -233,11 +208,12 @@
 		<pt X="1.0233781" Y="-27.568779"/>
 		<pt X="0.04980885" Y="-24.418995"/>
 	</skpath>
-	<skpath from="24" to="4" linestyle="connective">
+	<skpath from="23" to="4" linestyle="connective">
+		<sketchsubset subname="yellow2"/>
 		<pt X="5.7160344" Y="-33.84003"/>
 		<pt X="5.921569" Y="-33.509804" Z="6.772549"/>
 	</skpath>
-	<skpath from="26" to="27" linestyle="wall" splined="1">
+	<skpath from="25" to="26" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-11.043843" Y="22.042574"/>
 		<pt X="-7.2505116" Y="15.913272"/>
@@ -245,18 +221,19 @@
 		<pt X="1.1347915" Y="5.2777867"/>
 		<pt X="1.8933241" Y="4.3590627"/>
 	</skpath>
-	<skpath from="27" to="8" linestyle="wall" splined="1">
+	<skpath from="26" to="8" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="1.8933241" Y="4.3590627"/>
 		<pt X="3.1380537" Y="2.9343479"/>
 		<pt X="5.557087" Y="0.93108565"/>
 		<pt X="6.7288065" Y="-0.76979727"/>
 	</skpath>
-	<skpath from="27" to="2" linestyle="connective">
+	<skpath from="26" to="2" linestyle="connective">
+		<sketchsubset subname="yellow2"/>
 		<pt X="1.8933241" Y="4.3590627"/>
 		<pt X="-3.7784314" Y="0.5901961" Z="-3.8274508"/>
 	</skpath>
-	<skpath from="25" to="28" linestyle="wall" splined="1">
+	<skpath from="24" to="27" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="0.04980885" Y="-24.418995"/>
 		<pt X="-1.9820877" Y="-19.524805"/>
@@ -266,7 +243,7 @@
 		<pt X="-9.314783" Y="-6.900473"/>
 		<pt X="-11.427749" Y="-2.7014153"/>
 	</skpath>
-	<skpath from="28" to="29" linestyle="wall" splined="1">
+	<skpath from="27" to="28" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-11.427749" Y="-2.7014153"/>
 		<pt X="-11.552847" Y="-2.420909"/>
@@ -278,11 +255,12 @@
 		<pt X="-28.962557" Y="21.288368"/>
 		<pt X="-30.994732" Y="23.528791"/>
 	</skpath>
-	<skpath from="28" to="2" linestyle="connective">
+	<skpath from="27" to="2" linestyle="connective">
+		<sketchsubset subname="yellow2"/>
 		<pt X="-11.427749" Y="-2.7014153"/>
 		<pt X="-3.7784314" Y="0.5901961" Z="-3.8274508"/>
 	</skpath>
-	<skpath from="30" to="31" linestyle="wall" splined="1">
+	<skpath from="29" to="30" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-24.88903" Y="35.51357"/>
 		<pt X="-21.346659" Y="35.01464"/>
@@ -290,7 +268,7 @@
 		<pt X="-17.18063" Y="32.969048"/>
 		<pt X="-17.085852" Y="32.822285"/>
 	</skpath>
-	<skpath from="31" to="26" linestyle="wall" splined="1">
+	<skpath from="30" to="25" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-17.085852" Y="32.822285"/>
 		<pt X="-15.708798" Y="30.175062"/>
@@ -298,28 +276,30 @@
 		<pt X="-12.715244" Y="25.210752"/>
 		<pt X="-11.043843" Y="22.042574"/>
 	</skpath>
-	<skpath from="31" to="3" linestyle="connective">
+	<skpath from="30" to="3" linestyle="connective">
+		<sketchsubset subname="yellow2"/>
 		<pt X="-17.085852" Y="32.822285"/>
 		<pt X="-22.27843" Y="31.590197" Z="-21.82745"/>
 	</skpath>
-	<skpath from="29" to="32" linestyle="wall" splined="1">
+	<skpath from="28" to="31" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-30.994732" Y="23.528791"/>
 		<pt X="-29.204739" Y="28.329037"/>
 		<pt X="-27.720098" Y="30.53497"/>
 	</skpath>
-	<skpath from="32" to="30" linestyle="wall" splined="1">
+	<skpath from="31" to="29" linestyle="wall" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-27.720098" Y="30.53497"/>
 		<pt X="-27.059359" Y="31.497215"/>
 		<pt X="-26.061506" Y="33.19356"/>
 		<pt X="-24.88903" Y="35.51357"/>
 	</skpath>
-	<skpath from="32" to="3" linestyle="connective">
+	<skpath from="31" to="3" linestyle="connective">
+		<sketchsubset subname="yellow2"/>
 		<pt X="-27.720098" Y="30.53497"/>
 		<pt X="-22.27843" Y="31.590197" Z="-21.82745"/>
 	</skpath>
-	<skpath from="33" to="34" linestyle="ceilingbound" splined="1">
+	<skpath from="32" to="33" linestyle="ceilingbound" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-17.998257" Y="31.182722"/>
 		<pt X="-17.242308" Y="29.746422"/>
@@ -329,84 +309,149 @@
 		<pt X="-24.121435" Y="28.46131"/>
 		<pt X="-25.444344" Y="29.63303"/>
 	</skpath>
-	<skpath from="34" to="35" linestyle="ceilingbound" splined="1">
+	<skpath from="33" to="34" linestyle="ceilingbound" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-25.444344" Y="29.63303"/>
 		<pt X="-25.63333" Y="30.653559"/>
 		<pt X="-24.877382" Y="32.165455"/>
 		<pt X="-23.630068" Y="33.563957"/>
 	</skpath>
-	<skpath from="35" to="33" linestyle="ceilingbound" splined="1">
+	<skpath from="34" to="32" linestyle="ceilingbound" splined="1">
 		<sketchsubset subname="yellow2"/>
 		<pt X="-23.630068" Y="33.563957"/>
 		<pt X="-21.475616" Y="33.22378"/>
 		<pt X="-19.396759" Y="32.581226"/>
 		<pt X="-17.998257" Y="31.182722"/>
 	</skpath>
-	<skpath from="26" to="36" linestyle="connective">
+	<skpath from="25" to="35" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="yellow2"/>
 		<pt X="-11.043843" Y="22.042574"/>
 		<pt X="-16.820723" Y="19.275904"/>
 		<pt X="-20.543194" Y="24.20102"/>
 	</skpath>
-	<skpath from="26" to="37" linestyle="connective">
+	<skpath from="25" to="36" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="yellow2"/>
 		<pt X="-11.043843" Y="22.042574"/>
 		<pt X="-7.199567" Y="5.531395"/>
 		<pt X="-11.437457" Y="10.685586"/>
 	</skpath>
-	<skpath from="8" to="38" linestyle="connective">
+	<skpath from="8" to="37" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="yellow2"/>
 		<pt X="6.7288065" Y="-0.76979727"/>
 		<pt X="-0.13718058" Y="-5.0919642"/>
 		<pt X="-2.8585932" Y="-1.2366297"/>
 	</skpath>
-	<skpath from="7" to="39" linestyle="connective">
+	<skpath from="7" to="38" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="yellow2"/>
 		<pt X="9.779775" Y="-15.399161"/>
 		<pt X="3.2157807" Y="-19.971516"/>
 		<pt X="1.4445945" Y="-14.458387"/>
 	</skpath>
-	<skpath from="24" to="40" linestyle="connective">
+	<skpath from="23" to="39" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="slope"/>
 		</pathcodes>
+		<sketchsubset subname="yellow2"/>
 		<pt X="5.7160344" Y="-33.84003"/>
 		<pt X="11.574526" Y="-32.742294"/>
 		<pt X="7.605799" Y="-28.357796"/>
 	</skpath>
-	<skpath from="27" to="41" linestyle="connective">
+	<skpath from="26" to="40" linestyle="connective">
 		<pathcodes>
 			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
 			<pcsymbol rname="pebbles"/>
 		</pathcodes>
+		<sketchsubset subname="yellow2"/>
 		<pt X="1.8933241" Y="4.3590627"/>
 		<pt X="-3.6298783" Y="5.0317802"/>
 	</skpath>
 	<skpath from="10" to="2" linestyle="centreline">
+		<sketchsubset subname="yellow2"/>
 		<pt X="20.22157" Y="-4.809804"/>
 		<pt X="-3.7784314" Y="0.5901961" Z="-3.8274508"/>
 	</skpath>
-	<skpath from="42" to="11" linestyle="connective">
+	<skpath from="41" to="11" linestyle="connective">
 		<pathcodes>
 			<pctext style="note" nodeposxrel="-0.5" nodeposyrel="-0.2">Entrance&space;Bowl</pctext>
 		</pathcodes>
 		<sketchsubset subname="default"/>
 		<pt X="18.125364" Y="16.10964"/>
 		<pt X="13.8473215" Y="8.1812725"/>
+	</skpath>
+	<skpath from="9" to="42" linestyle="detail" splined="1">
+		<sketchsubset subname="default"/>
+		<pt X="23.135082" Y="-13.53089"/>
+		<pt X="31.76482" Y="-12.361366"/>
+		<pt X="33.11192" Y="-11.837494"/>
+		<pt X="33.745106" Y="-10.041614"/>
+		<pt X="35.74951" Y="-4.54381"/>
+		<pt X="38.899296" Y="2.7865944"/>
+		<pt X="40.272938" Y="7.8021336"/>
+	</skpath>
+	<skpath from="42" to="11" linestyle="detail" splined="1">
+		<sketchsubset subname="default"/>
+		<pt X="40.272938" Y="7.8021336"/>
+		<pt X="40.388283" Y="9.200698"/>
+		<pt X="40.10194" Y="12.178675"/>
+		<pt X="33.458763" Y="12.808632"/>
+		<pt X="24.753906" Y="11.491449"/>
+		<pt X="18.683414" Y="9.773386"/>
+		<pt X="13.8473215" Y="8.1812725"/>
+	</skpath>
+	<skpath from="43" to="42" linestyle="connective">
+		<pathcodes>
+			<pctext style="entrance" nodeposxrel="-1.0" nodeposyrel="-1.0">Entrance</pctext>
+		</pathcodes>
+		<pt X="54.58278" Y="11.231458"/>
+		<pt X="32.503223" Y="4.4758425"/>
+		<pt X="40.272938" Y="7.8021336"/>
+	</skpath>
+	<skpath from="30" to="32" linestyle="invisible" splined="1">
+		<sketchsubset subname="yellow2"/>
+		<pt X="-17.085852" Y="32.822285"/>
+		<pt X="-17.998257" Y="31.182722"/>
+	</skpath>
+	<skpath from="22" to="18" linestyle="detail" splined="1">
+		<sketchsubset subname="yellow2"/>
+		<pt X="9.692967" Y="-16.067627"/>
+		<pt X="5.4218616" Y="-20.981289"/>
+	</skpath>
+	<skpath from="7" to="22" linestyle="invisible" splined="1">
+		<sketchsubset subname="yellow2"/>
+		<pt X="9.779775" Y="-15.399161"/>
+		<pt X="9.692967" Y="-16.067627"/>
+	</skpath>
+	<skpath from="44" to="45" linestyle="connective">
+		<pathcodes>
+			<pctext style="default" nodeposxrel="-1.0" nodeposyrel="-1.0">UTM&space;33N&space;412046&space;5283289&space;&newline;Found&space;in&space;2023:&space;11m&space;long,&space;5m&space;deep</pctext>
+		</pathcodes>
+		<pt X="-37.31408" Y="-42.47011"/>
+		<pt X="-38.33435" Y="-71.03766"/>
+	</skpath>
+	<skpath from="45" to="4" linestyle="connective">
+		<pathcodes>
+			<pctext style="qm" nodeposxrel="-1.0" nodeposyrel="-1.0">Fledermaus-&space;versus&space;Rattenh&#246;hle&newline;2023-ash-09</pctext>
+		</pathcodes>
+		<pt X="-38.33435" Y="-71.03766"/>
+		<pt X="6.3755083" Y="-25.715967"/>
+		<pt X="5.921569" Y="-33.509804" Z="6.772549"/>
 	</skpath>
 </sketch>
 </tunnelxml>
