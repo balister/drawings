@@ -1,0 +1,15 @@
+encoding  utf-8
+source 2024-JC-01.th  
+layout xvi-export
+  scale 1 100
+  grid-size 1 1 1 m
+endlayout
+#export map -fmt xvi -layout xvi-export -o irurixo.xvi
+export map -o 2024-JC-01.pdf \
+  -layout local
+
+layout local
+map-comment "Surveyed by Wookey, Jacob Chuck, Anthony Day"
+legend on
+scale 1 100
+endlayout

@@ -1,0 +1,66 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -135.0 -135.0 2962.6457600000003 2883.9056
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1510.9634 1 1.0} {2385.1237 4} ../../../../expofiles/surveyscans/2024/2024#15/2024JC01/therion/2024JC01.plan.xvi 0 {}
+
+
+
+scrap plan1 -scale [-128.0 -128.0 2962.6457600000003 -128.0 0.0 0.0 78.502402304 0.0 m]
+
+point 1510.9634 2385.1237 station -name 4
+
+point 1144.4334 1407.7037 station -name 3
+
+point 1776.8134 1844.1937 station -name 2
+
+point 1732.2834 1811.0237 station -name 1
+
+line pit -reverse on -clip off
+  1180.0 1376.0
+  955.0 1182.0
+  862.0 1145.0
+  795.0 1090.0
+endline
+
+line rock-border -close on -clip off
+  1496.0 2435.0
+  1453.0 2379.0
+  1519.0 2359.0
+  1541.0 2411.0
+  1496.0 2435.0
+endline
+
+point 1552.0 2375.0 label -text "GPS rock" -align right
+
+point 1776.0 1865.0 label -text tag
+
+point 1294.0 1521.0 label -text p17
+
+line pit
+  1553.0 1597.0
+  1553.0 1597.0 1498.0 1595.0 1475.0 1625.0
+  1452.0 1655.0 1436.0 1715.0 1440.0 1738.0
+endline
+
+line pit -clip off
+  1808.0 1849.0
+  1778.0 1807.0 1631.0 1671.0 1631.0 1671.0
+  smooth off
+endline
+
+line pit -close on
+  1138.0 1426.0
+  1180.0 1376.0
+  1180.0 1376.0 1421.0 1477.0 1553.0 1597.0
+  1612.4 1651.0 1652.0 1685.0 1660.0 1724.0
+  1668.48 1765.33 1727.0 1807.0 1696.0 1846.0
+  1675.74 1871.48 1647.0 1861.0 1625.0 1849.0
+  1583.37 1826.29 1473.0 1830.0 1458.0 1820.0
+  1432.61 1803.07 1443.91 1754.52 1440.0 1738.0
+  1431.0 1700.0 1146.0 1446.0 1138.0 1426.0
+  smooth off
+endline
+
+endscrap
+
+
