@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -135.0 -135.0 2962.6457600000003 2883.9056
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -142.0 -142.0 2962.6457600000003 2883.9056
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1510.9634 1 1.0} {2385.1237 4} ../../../../expofiles/surveyscans/2024/2024#15/2024JC01/therion/2024JC01.plan.xvi 0 {}
 
 
@@ -28,6 +28,11 @@ line rock-border -close on -clip off
   1519.0 2359.0
   1541.0 2411.0
   1496.0 2435.0
+endline
+
+line section
+  1438.0 1384.0
+  1496.0 2546.0
 endline
 
 point 1552.0 2375.0 label -text "GPS rock" -align right
@@ -59,6 +64,39 @@ line pit -close on
   1432.61 1803.07 1443.91 1754.52 1440.0 1738.0
   1431.0 1700.0 1146.0 1446.0 1138.0 1426.0
   smooth off
+endline
+
+endscrap
+
+
+
+scrap scrap16 -scale [-128.0 -128.0 2962.6457600000003 -128.0 0.0 0.0 78.502402304 0.0 m]
+
+line wall
+  1742.0 1384.0
+  1856.0 1400.0
+  1826.0 1196.0
+  1826.0 1196.0 1792.0 1184.0 1792.0 1166.0
+  1792.0 1148.0 1790.0 928.0 1786.0 900.0
+  1782.0 872.0 1764.0 584.0 1742.0 572.0
+endline
+
+point 2294.0 1252.0 label -text "GPS rock"
+
+line wall -reverse on
+  2458.0 1134.0
+  2358.0 1128.0
+  2360.0 1194.0
+  2348.0 1204.0
+  2326.0 1190.0
+  2304.0 1128.0
+  2304.0 1128.0 2150.0 1104.0 2112.0 1102.0
+  2074.0 1100.0 2004.0 1088.0 1992.0 1078.0
+  1980.0 1068.0 1964.0 924.0 1964.0 924.0
+  smooth off
+  1908.0 856.0
+  1848.0 408.0
+  1738.0 396.0
 endline
 
 endscrap
