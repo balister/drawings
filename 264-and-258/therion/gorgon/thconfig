@@ -1,0 +1,16 @@
+encoding  utf-8
+
+layout local
+  debug off
+  map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "gorgon.th"
+
+export model -fmt survex -o "gorgonth.3d"
+
+export map -proj plan -layout local -o "gorgonplan.pdf"
+export map -proj plan -layout local -fmt svg -o "gorgonplan.svg"
+
+# export map -proj extended -layout local -o "gorgonee.pdf"
