@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 
-<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2024-10-10 16:39:36">
+<tunnelxml tunnelversion="version2023-09-29 DoESNix" tunnelproject="cuccaustria" tunneluser="DoES" tunneldate="2024-10-10 17:26:25">
 <sketch splined="0" locoffsetx="2.8566666" locoffsety="7.1716666" locoffsetz="-23.5875" realpaperscale="1.0">
 	<skpath from="0" to="1" linestyle="connective">
 		<pathcodes>
@@ -250,10 +250,6 @@
 		<pt X="21.03369" Y="-56.582115"/>
 		<pt X="26.054089" Y="-58.70184"/>
 		<pt X="34.19829" Y="-60.26374"/>
-		<pt X="42.007805" Y="-61.267822"/>
-	</skpath>
-	<skpath from="27" to="28" linestyle="invisible" splined="1">
-		<pt X="14.897645" Y="-80.4569"/>
 		<pt X="42.007805" Y="-61.267822"/>
 	</skpath>
 	<skpath from="26" to="3" linestyle="connective">
@@ -539,33 +535,63 @@
 		<pt X="-4.789111" Y="-62.422417"/>
 		<pt X="-8.838901" Y="-55.427326"/>
 	</skpath>
-	<skpath from="17" to="44" linestyle="connective">
-		<pathcodes>
-			<pctext style="step" nodeposxrel="1.0" nodeposyrel="-1.0">p60</pctext>
-		</pathcodes>
-		<pt X="-19.33763" Y="12.275012"/>
-		<pt X="-33.294434" Y="0.7773465"/>
+	<skpath from="27" to="0" linestyle="connective">
+		<pt X="14.897645" Y="-80.4569"/>
+		<pt X="-28.566666" Y="-157.68333"/>
 	</skpath>
-	<skpath from="45" to="28" linestyle="connective">
-		<pathcodes>
-			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="0.0">?A</pctext>
-		</pathcodes>
-		<pt X="44.421955" Y="-80.94408"/>
+	<skpath from="27" to="44" linestyle="invisible" splined="1">
+		<pt X="14.897645" Y="-80.4569"/>
+		<pt X="29.588707" Y="-70.0583"/>
+	</skpath>
+	<skpath from="44" to="28" linestyle="invisible" splined="1">
+		<pt X="29.588707" Y="-70.0583"/>
 		<pt X="42.007805" Y="-61.267822"/>
 	</skpath>
-	<skpath from="46" to="28" linestyle="connective">
+	<skpath from="45" to="44" linestyle="connective">
 		<pathcodes>
-			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="0.0">Pitch&space;continues&space;from&space;ledge,&space;&newline;big&space;draught</pctext>
+			<pctext style="qm" nodeposxrel="0.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">?A</pctext>
 		</pathcodes>
-		<pt X="66.06546" Y="-75.923676"/>
-		<pt X="42.007805" Y="-61.267822"/>
+		<pt X="34.572937" Y="-88.15312"/>
+		<pt X="29.588707" Y="-70.0583"/>
 	</skpath>
-	<skpath from="47" to="19" linestyle="connective">
+	<skpath from="46" to="47" linestyle="connective">
 		<pathcodes>
-			<pctext style="note" nodeposxrel="1.0" nodeposyrel="1.0">Drips&space;feeding&space;pool</pctext>
+			<pctext style="note" nodeposxrel="-1.0" nodeposyrel="-1.0">Pitch&space;continues&space;&newline;from&space;ledge,&space;&newline;big&space;draught</pctext>
 		</pathcodes>
-		<pt X="-23.941734" Y="-30.127445"/>
+		<pt X="41.919075" Y="-113.58205"/>
+		<pt X="41.939587" Y="-112.9693"/>
+		<pt X="35.703114" Y="-88.52985"/>
+	</skpath>
+	<skpath from="19" to="48" linestyle="connective">
+		<pathcodes>
+			<pctext style="" nodeposxrel="-1.0" nodeposyrel="-1.0"></pctext>
+			<pcsymbol rname="stream2"/>
+		</pathcodes>
 		<pt X="-21.792046" Y="-16.062355"/>
+		<pt X="-17.791819" Y="-14.880131"/>
+		<pt X="-32.860813" Y="-43.134495"/>
+		<pt X="-15.719832" Y="-31.644388"/>
+	</skpath>
+	<skpath from="49" to="19" linestyle="connective">
+		<pathcodes>
+			<pctext style="note" nodeposxrel="0.0" nodeposyrel="-1.0" arrowpres="1" boxpres="0">Drips&space;&newline;feeding&space;&newline;&space;pool</pctext>
+		</pathcodes>
+		<pt X="-39.4535" Y="-45.206482"/>
+		<pt X="-21.792046" Y="-16.062355"/>
+	</skpath>
+	<skpath from="50" to="22" linestyle="connective">
+		<pathcodes>
+			<pctext style="passage" nodeposxrel="-1.0" nodeposyrel="0.0">Grendel&apostrophe;s&space;&newline;Mother</pctext>
+		</pathcodes>
+		<pt X="42.672523" Y="-9.982708"/>
+		<pt X="22.275908" Y="-20.524933"/>
+	</skpath>
+	<skpath from="51" to="17" linestyle="connective">
+		<pathcodes>
+			<pctext style="step" nodeposxrel="1.2" nodeposyrel="0.0" arrowpres="1" boxpres="0">p60</pctext>
+		</pathcodes>
+		<pt X="-54.922047" Y="3.7734597"/>
+		<pt X="-19.33763" Y="12.275012"/>
 	</skpath>
 </sketch>
 </tunnelxml>
