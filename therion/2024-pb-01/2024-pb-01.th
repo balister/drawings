@@ -1,11 +1,22 @@
 encoding  utf-8
 
+survey 2024-pb-01
 import ../../../loser/1626.3d
 
 input 2024-pb-01.th2
 input 2024-pb-01-plan.th2
 
+centerline
+	station-names "" @2024-pb-01.1626
+
+	extend left 1 2
+	extend left 2 3
+	extend left 3 4
+endcenterline
+
 map theplan -projection plan
-	scrap1@2024-pb-01.1626
-endlayout
+	scrap1
+endmap
+
+endsurvey 2024-pb-01
 
