@@ -1,0 +1,11 @@
+encoding  utf-8
+
+layout theplan
+	scale 1 100
+	map-image 100 0 w 2024-pb-01-profile.pdf
+#	debug all
+endlayout
+
+source 2024-pb-01.th
+
+export map -projection plan -layout theplan -output 2024-pb-01-plan.pdf
