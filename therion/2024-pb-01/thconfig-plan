@@ -3,7 +3,18 @@ encoding  utf-8
 layout theplan
 	scale 1 100
 	map-image 100 0 w 2024-pb-01-profile.pdf
+	legend on
+	statistics topo 2 
 #	debug all
+	code tex-map
+#		\cavename={The Skydusky Cave System}
+		\cartotitle={Cartography by}
+		\cartoteam={Philip Balister}
+		\topotitle={Survey Team}
+		\topoteam={Philip Balister, Isaac Neale}
+		\copyrights={\copyright 2025 PJB}
+		\cartodate={2025}
+	endcode
 endlayout
 
 source 2024-pb-01.th
